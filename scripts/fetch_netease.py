@@ -1,32 +1,33 @@
 #!/usr/bin/env python3
 """
-网易云每日新碟 - GitHub Actions 全量扫描器
+网易云每日新碟 · 全量增强扫描器
 
-本版本把参考扫描器里的“全量候选池 / 严格校验 / 重试 / 去重 / 缓存 / 完整性诊断”原则，
-移植到当前 GitHub Pages + GitHub Actions 架构。
+基于用户提供的 Album Candidate Pool 参考扫描器，针对 GitHub Actions + GitHub Pages
+架构重新实现，重点解决：
 
-重点修复：
-1. 不再因日期边界提前停止分页。
-2. 使用固定 offset + limit 推进，避免短页造成跳项。
-3. GET / WeAPI 双通道回退。
-4. 单页多次重试。
-5. 重复页检测，防止 offset 失效死循环。
-6. 目标日期 album 全局按 album_id 去重。
-7. 可选 album 详情严格校验，检测 album_id / album_name 错配。
-8. album 缓存带完整性校验，并对近期/未知日期周期复查。
-9. 完整性元数据写入每日日志，明确是否“完整扫描”。
-10. JSON 原子写入，避免 Actions 中断留下半文件。
-11. 支持深度区域复扫（ALL + ZH/EA/KR/JP）作为额外召回兜底。
+- 现在只扫描到 1~10 张：改为登录态 + ALL/ZH/EA/KR/JP 多源分页。
+- 短页提前停止：只有真正到达 total / 空页确认 / 明确末尾才停止。
+- offset 不生效：重复页检测 + GET/POST 回退。
+- V.A. / Various Artists 不齐：加入“全部关注艺人 -> recent50 + 新专20 -> album 候选池 -> owned 验证”的参考算法，
+  并与全局新碟结果按 album_id 合并。
+- 首次扫描异常快：完整模式会真正执行艺人列表、recent、new-album probe、album detail、owned verify 等阶段；
+  进度与统计会打印到 Actions 日志。
+- album 详情错配：严格校验返回 album_id / album_name。
+- 缓存污染：album cache 带 ID 校验，近期日期周期复查。
+- 多次运行重复：最终按 album_id 去重，JSON 原子写入。
+
+安全：网易云 MUSIC_U 只能通过 GitHub Actions Secret NETEASE_MUSIC_U 注入，绝不写入仓库文件。
 """
 
+from __future__ import annotations
+
 import argparse
-import base64
-import binascii
 import json
 import os
 import random
 import sys
 import time
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -39,49 +40,30 @@ from urllib3.util.retry import Retry
 TZ = timezone(timedelta(hours=8))
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
-ALBUM_CACHE_FILE = DATA_DIR / "album_cache.json"
+CACHE_FILE = DATA_DIR / "album_cache.json"
 
-OFFICIAL_BASE = os.getenv("NETEASE_OFFICIAL_BASE", "https://music.163.com").rstrip("/")
-USER_AGENT = os.getenv(
-    "NETEASE_USER_AGENT",
-    "Mozilla/5.0 (Linux; Android 14; iPad) AppleWebKit/537.36 "
-    "Chrome/128 Safari/537.36",
-)
-HEADERS = {
-    "User-Agent": USER_AGENT,
-    "Referer": "https://music.163.com/",
-    "Accept": "application/json,text/plain,*/*",
-}
+API_BASE = os.getenv("NETEASE_API_BASE", "http://127.0.0.1:3000").rstrip("/")
+PAGE_SIZE = max(10, min(int(os.getenv("NETEASE_PAGE_SIZE", "30")), 100))
+MAX_PAGES = max(10, int(os.getenv("NETEASE_MAX_PAGES", "500")))
+RECENT_LIMIT = max(10, min(int(os.getenv("NETEASE_RECENT_LIMIT", "50")), 200))
+NEW_ALBUM_PROBE_LIMIT = max(5, min(int(os.getenv("NETEASE_NEW_ALBUM_PROBE_LIMIT", "20")), 100))
+OWNED_LIMIT = max(10, min(int(os.getenv("NETEASE_OWNED_VERIFY_LIMIT", "50")), 200))
+THREADS = max(1, min(int(os.getenv("NETEASE_SCAN_THREADS", "4")), 8))
+API_TIMEOUT = float(os.getenv("NETEASE_API_TIMEOUT", "20"))
+API_RETRIES = max(1, int(os.getenv("NETEASE_API_RETRIES", "3")))
+CACHE_RECENT_HOURS = float(os.getenv("NETEASE_CACHE_RECENT_HOURS", "12"))
+CACHE_UNKNOWN_HOURS = float(os.getenv("NETEASE_CACHE_UNKNOWN_HOURS", "6"))
 
-DEFAULT_PAGE_SIZE = max(10, min(int(os.getenv("NETEASE_PAGE_SIZE", "50")), 100))
-DEFAULT_MAX_PAGES = max(10, int(os.getenv("NETEASE_MAX_PAGES", "500")))
-DEFAULT_DETAIL_WORKERS = max(1, min(int(os.getenv("NETEASE_DETAIL_WORKERS", "6")), 12))
-DEFAULT_DETAIL_RETRIES = max(1, int(os.getenv("NETEASE_DETAIL_RETRIES", "3")))
-CACHE_RECENT_RECHECK_HOURS = float(
-    os.getenv("NETEASE_ALBUM_CACHE_RECENT_RECHECK_HOURS", "12")
-)
-CACHE_UNKNOWN_RECHECK_HOURS = float(
-    os.getenv("NETEASE_ALBUM_CACHE_UNKNOWN_RECHECK_HOURS", "6")
-)
-
-# 标准 WeAPI 常量。
-MODULUS = (
-    "00e0b509f6259df8642dbc35662901477df22677ec152b5ff68ace615bb7b725"
-    "152b3ab17a876aea8a5aa76d2e417629ec4ee341f56135fccf695280104e0312"
-    "ecbda92557c93870114af6c9d05c4f7f0c3685b7a46bee255932575cce10b424"
-    "d813cfe4875d3e82047b97ddef52741d546b8e289dc6935b3ece0462db0a22b8e7"
-)
-PUBKEY = "010001"
-NONCE = "0CoJUm6Qyw8W8jud"
-IV = b"0102030405060708"
+AREAS = ["ALL", "ZH", "EA", "KR", "JP"]
+BAD_ARTISTS = {"various artists", "v.a.", "v.a", "华语群星"}
 
 
 def build_session() -> requests.Session:
-    session = requests.Session()
+    s = requests.Session()
     retry = Retry(
-        total=3,
-        connect=3,
-        read=3,
+        total=2,
+        connect=2,
+        read=2,
         backoff_factor=0.5,
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=frozenset({"GET", "POST"}),
@@ -89,79 +71,143 @@ def build_session() -> requests.Session:
         raise_on_status=False,
     )
     adapter = HTTPAdapter(max_retries=retry, pool_connections=20, pool_maxsize=20)
-    session.mount("https://", adapter)
-    session.mount("http://", adapter)
-    session.headers.update(HEADERS)
-    return session
+    s.mount("http://", adapter)
+    s.mount("https://", adapter)
+    s.headers.update({
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128 Safari/537.36",
+        "Accept": "application/json,text/plain,*/*",
+    })
+    return s
 
 
-def aes_encrypt(text: str, key: bytes) -> str:
+def normalize_cookie(raw: str) -> str:
+    raw = (raw or "").strip()
+    if not raw:
+        return ""
+    if "MUSIC_U=" in raw:
+        import re
+        m = re.search(r"MUSIC_U=([^;\s]+)", raw)
+        return f"MUSIC_U={m.group(1)};" if m else raw
+    return f"MUSIC_U={raw};"
+
+
+def ts_to_date(ts_ms: Any) -> str | None:
     try:
-        from Crypto.Cipher import AES
-    except ImportError as exc:
-        raise RuntimeError(
-            "WeAPI 需要 pycryptodome；requirements.txt 已包含该依赖。"
-        ) from exc
-
-    raw = text.encode("utf-8")
-    pad = 16 - (len(raw) % 16)
-    raw += bytes([pad]) * pad
-    return base64.b64encode(
-        AES.new(key, AES.MODE_CBC, IV).encrypt(raw)
-    ).decode("utf-8")
+        if not ts_ms:
+            return None
+        return datetime.fromtimestamp(int(ts_ms) / 1000, TZ).date().isoformat()
+    except (TypeError, ValueError, OverflowError, OSError):
+        return None
 
 
-def rsa_encrypt(sec_key: bytes) -> str:
-    value = int(binascii.hexlify(sec_key[::-1]), 16)
-    result = pow(value, int(PUBKEY, 16), int(MODULUS, 16))
-    return format(result, "x").zfill(256)
-
-
-def encrypted_request(payload: dict[str, Any]) -> dict[str, str]:
-    text = json.dumps(payload, separators=(",", ":"), ensure_ascii=False)
-    secret = os.urandom(16)
-    return {
-        "params": aes_encrypt(aes_encrypt(text, NONCE.encode("utf-8")), secret),
-        "encSecKey": rsa_encrypt(secret),
-    }
-
-
-def parse_json(resp: requests.Response) -> dict[str, Any]:
-    resp.raise_for_status()
+def parse_dt(ts_ms: Any) -> datetime | None:
     try:
-        data = resp.json()
-    except ValueError as exc:
-        snippet = resp.text[:300].replace("\n", " ")
-        raise RuntimeError(f"网易云返回的不是 JSON：{snippet}") from exc
-    if not isinstance(data, dict):
-        raise RuntimeError("网易云返回 JSON 顶层不是对象")
-    return data
+        if not ts_ms:
+            return None
+        return datetime.fromtimestamp(int(ts_ms) / 1000, TZ).replace(tzinfo=None)
+    except (TypeError, ValueError, OverflowError, OSError):
+        return None
+
+
+def normalize_name(v: Any) -> str:
+    return "".join(ch for ch in str(v or "").strip().casefold() if ch.isalnum())
+
+
+def names_compatible(actual: Any, expected: Iterable[Any]) -> bool:
+    a = normalize_name(actual)
+    e = {normalize_name(x) for x in expected if normalize_name(x)}
+    return not a or not e or a in e
+
+
+def get_count(data: dict[str, Any]) -> int | None:
+    for key in ("count", "total", "size", "albumCount"):
+        v = data.get(key)
+        try:
+            if v is not None and int(v) >= 0:
+                return int(v)
+        except (TypeError, ValueError):
+            pass
+    if isinstance(data.get("result"), dict):
+        for key in ("count", "total", "size", "albumCount"):
+            v = data["result"].get(key)
+            try:
+                if v is not None and int(v) >= 0:
+                    return int(v)
+            except (TypeError, ValueError):
+                pass
+    return None
+
+
+def safe_get_list(data: dict[str, Any], *keys: str) -> list[Any]:
+    for key in keys:
+        if isinstance(data.get(key), list):
+            return data[key]
+    if isinstance(data.get("result"), dict):
+        for key in keys:
+            if isinstance(data["result"].get(key), list):
+                return data["result"][key]
+    return []
+
+
+def api_call(
+    session: requests.Session,
+    path: str,
+    params: dict[str, Any],
+    *,
+    preferred: str = "GET",
+    exact: bool = False,
+) -> dict[str, Any]:
+    """Local NeteaseCloudMusicApi wrapper. GET first; POST fallback on method/response errors."""
+    methods = [preferred.upper()]
+    other = "POST" if methods[0] == "GET" else "GET"
+    if not exact:
+        methods.append(other)
+
+    last: Exception | None = None
+    for attempt in range(API_RETRIES):
+        for method in methods:
+            try:
+                start = time.time()
+                if method == "POST":
+                    r = session.post(API_BASE + path, data=params, timeout=API_TIMEOUT)
+                else:
+                    r = session.get(API_BASE + path, params=params, timeout=API_TIMEOUT)
+                if r.status_code == 405 and not exact:
+                    last = RuntimeError(f"{path} GET/POST 405")
+                    continue
+                r.raise_for_status()
+                data = r.json()
+                if not isinstance(data, dict):
+                    raise RuntimeError(f"{path}: 返回不是 JSON 对象")
+                code = data.get("code")
+                if code not in (None, 200):
+                    # 460 是风控；交给重试层。
+                    raise RuntimeError(f"{path}: code={code}")
+                return data
+            except Exception as exc:
+                last = exc
+        if attempt + 1 < API_RETRIES:
+            time.sleep(0.7 * (attempt + 1) + random.random() * 0.4)
+    raise RuntimeError(f"{path} 请求失败：{last}")
 
 
 def normalize_album(album: dict[str, Any]) -> dict[str, Any]:
     artists_raw = album.get("artists") or album.get("artist") or []
-    artists = []
     if isinstance(artists_raw, dict):
         artists_raw = [artists_raw]
-    for artist in artists_raw if isinstance(artists_raw, list) else []:
-        if not isinstance(artist, dict):
-            continue
-        artists.append(
-            {
-                "id": artist.get("id"),
-                "name": artist.get("name") or "未知艺人",
-            }
-        )
-
-    album_id = album.get("id")
-    publish_ts = album.get("publishTime")
+    artists = []
+    for a in artists_raw if isinstance(artists_raw, list) else []:
+        if isinstance(a, dict):
+            artists.append({"id": a.get("id"), "name": a.get("name") or "未知艺人"})
+    aid = album.get("id")
+    pts = album.get("publishTime") or album.get("publish_time")
     return {
-        "id": album_id,
+        "id": aid,
         "name": album.get("name") or "未命名专辑",
         "artists": artists,
-        "artist_names": [x["name"] for x in artists],
-        "publish_time": publish_ts,
-        "publish_date": ts_to_date(publish_ts),
+        "artist_names": [a["name"] for a in artists],
+        "publish_time": pts,
+        "publish_date": ts_to_date(pts),
         "size": album.get("size"),
         "company": album.get("company") or "",
         "pic_url": album.get("picUrl") or album.get("blurPicUrl") or "",
@@ -169,701 +215,1024 @@ def normalize_album(album: dict[str, Any]) -> dict[str, Any]:
         "type": album.get("type") or "",
         "status": album.get("status"),
         "description": (album.get("description") or "").strip(),
-        "url": (
-            f"https://music.163.com/#/album?id={album_id}"
-            if album_id
-            else "https://music.163.com/"
-        ),
+        "url": f"https://music.163.com/#/album?id={aid}" if aid else "https://music.163.com/",
     }
 
 
-def ts_to_date(ts_ms: int | None) -> str | None:
-    if not ts_ms:
-        return None
-    try:
-        return datetime.fromtimestamp(int(ts_ms) / 1000, TZ).date().isoformat()
-    except (OverflowError, OSError, ValueError, TypeError):
-        return None
+def page_sig(rows: list[Any]) -> tuple[str, ...]:
+    ids = []
+    for x in rows[:25]:
+        if isinstance(x, dict) and x.get("id") is not None:
+            ids.append(str(x["id"]))
+    return tuple(ids)
 
 
-def normalize_name(value: Any) -> str:
-    text = str(value or "").strip().casefold()
-    return "".join(ch for ch in text if ch.isalnum())
 
-
-def names_compatible(actual: Any, expected: Iterable[str] | None) -> bool:
-    actual_key = normalize_name(actual)
-    candidates = {normalize_name(x) for x in (expected or []) if normalize_name(x)}
-    return not actual_key or not candidates or actual_key in candidates
-
-
-def get_total(data: dict[str, Any]) -> int | None:
-    for value in (
-        data.get("total"),
-        data.get("albumCount"),
-        (data.get("result") or {}).get("albumCount")
-        if isinstance(data.get("result"), dict)
-        else None,
-        (data.get("result") or {}).get("total")
-        if isinstance(data.get("result"), dict)
-        else None,
-    ):
-        try:
-            if value is not None:
-                return int(value)
-        except (TypeError, ValueError):
-            pass
-    return None
-
-
-def get_albums(data: dict[str, Any]) -> list[dict[str, Any]]:
-    albums = data.get("albums")
-    if albums is None and isinstance(data.get("result"), dict):
-        albums = data["result"].get("albums")
-    if not isinstance(albums, list):
-        return []
-    return [x for x in albums if isinstance(x, dict)]
-
-
-def fetch_page_get(
-    session: requests.Session, area: str, offset: int, limit: int
-) -> dict[str, Any]:
-    resp = session.get(
-        f"{OFFICIAL_BASE}/api/album/new",
-        params={
-            "area": area,
-            "offset": offset,
-            "total": "true",
-            "limit": limit,
-            "_scan_nonce": f"{int(time.time() * 1000)}-{random.randint(1000, 9999)}",
-        },
-        timeout=25,
-    )
-    return parse_json(resp)
-
-
-def fetch_page_weapi(
-    session: requests.Session, area: str, offset: int, limit: int
-) -> dict[str, Any]:
-    payload = {
-        "area": area,
-        "offset": offset,
-        "total": "true",
-        "limit": limit,
-        "csrf_token": "",
-    }
-    resp = session.post(
-        f"{OFFICIAL_BASE}/weapi/album/new?csrf_token=",
-        data=encrypted_request(payload),
-        timeout=25,
-    )
-    return parse_json(resp)
-
-
-def fetch_page(
+def scan_top_album_month(
     session: requests.Session,
-    area: str,
-    offset: int,
-    limit: int,
-    preferred: str,
-) -> tuple[dict[str, Any], str]:
-    methods = [preferred, "weapi" if preferred == "get" else "get"]
-    errors: list[str] = []
-
-    for method in methods:
-        try:
-            data = (
-                fetch_page_get(session, area, offset, limit)
-                if method == "get"
-                else fetch_page_weapi(session, area, offset, limit)
-            )
-            albums = get_albums(data)
-            code = data.get("code")
-            if code not in (None, 200):
-                errors.append(f"{method}: code={code}")
-                continue
-            if "albums" not in data and not (
-                isinstance(data.get("result"), dict) and "albums" in data["result"]
-            ):
-                errors.append(f"{method}: albums 字段缺失")
-                continue
-            data["albums"] = albums
-            return data, method
-        except Exception as exc:
-            errors.append(f"{method}: {exc}")
-
-    raise RuntimeError("；".join(errors))
-
-
-def page_signature(albums: list[dict[str, Any]]) -> tuple[str, ...]:
-    ids = [str(x.get("id")) for x in albums if x.get("id") is not None]
-    return tuple(ids[:25])
-
-
-def scan_area(
-    session: requests.Session,
+    cookie: str,
     area: str,
     target: date,
-    page_size: int,
-    max_pages: int,
 ) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
-    """
-    关键原则：这里只以“API 真正到末尾”为结束条件。
-    不再依据“本页日期比目标日期旧”提前停止。
-    """
+    """补充扫描 /top/album 当月“新碟上架”分页，专门提高 V.A./Various Artists 召回。"""
+    collected: dict[str, dict[str, Any]] = {}
+    offset = 0
+    pages = 0
+    limit = PAGE_SIZE
+    max_pages = MAX_PAGES
+    repeated = 0
+    last_sig: tuple[str, ...] | None = None
+    incomplete_reason = ""
+    reported_total = None
+
+    while pages < max_pages:
+        try:
+            data = api_call(session, "/top/album", {
+                "area": area,
+                "type": "new",
+                "year": target.year,
+                "month": target.month,
+                "limit": limit,
+                "offset": offset,
+                "cookie": cookie,
+            }, preferred="GET")
+        except Exception as exc:
+            incomplete_reason = f"offset={offset} 请求失败：{exc}"
+            break
+
+        pages += 1
+        rows = safe_get_list(data, "monthData", "albums", "data")
+        if reported_total is None:
+            reported_total = get_count(data)
+
+        if not rows:
+            break
+        sig = page_sig(rows)
+        if sig and sig == last_sig:
+            repeated += 1
+            incomplete_reason = f"offset={offset} 返回重复页，分页可能未生效"
+            break
+        last_sig = sig or last_sig
+
+        for raw in rows:
+            if not isinstance(raw, dict):
+                continue
+            row = normalize_album(raw)
+            if row.get("id") is not None and row.get("publish_date") == target.isoformat():
+                collected[str(row["id"])] = row
+
+        next_offset = offset + limit
+        if reported_total is not None and next_offset >= reported_total:
+            offset = next_offset
+            break
+        if len(rows) < limit:
+            # 与 /album/new 一样：短页不能在已知 total 尚未达到时提前结束。
+            if reported_total is None:
+                try:
+                    probe = api_call(session, "/top/album", {
+                        "area": area,
+                        "type": "new",
+                        "year": target.year,
+                        "month": target.month,
+                        "limit": limit,
+                        "offset": next_offset,
+                        "cookie": cookie,
+                    }, preferred="GET", exact=True)
+                    if not safe_get_list(probe, "monthData", "albums", "data"):
+                        offset = next_offset
+                        break
+                except Exception as exc:
+                    incomplete_reason = f"短页后尾页确认失败：{exc}"
+                    offset = next_offset
+                    break
+        offset = next_offset
+        time.sleep(0.12)
+
+    reached_total = reported_total is not None and offset >= reported_total
+    complete = not incomplete_reason and (reached_total or pages < max_pages)
+    if pages >= max_pages and not reached_total:
+        incomplete_reason = incomplete_reason or f"达到 max_pages={max_pages}"
+        complete = False
+    return collected, {
+        "source": "top_album",
+        "area": area,
+        "year": target.year,
+        "month": target.month,
+        "pages_scanned": pages,
+        "page_size": limit,
+        "reported_total": reported_total,
+        "final_offset": offset,
+        "target_count": len(collected),
+        "repeated_pages": repeated,
+        "complete_scan": complete,
+        "incomplete_reason": incomplete_reason or None,
+    }
+
+def scan_album_new_area(
+    session: requests.Session,
+    cookie: str,
+    area: str,
+    target: date,
+) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
+    """全量分页 /album/new；绝不因“短页”在 total 未达到时提前结束。"""
     target_str = target.isoformat()
     collected: dict[str, dict[str, Any]] = {}
     offset = 0
     pages = 0
-    reported_total: int | None = None
-    preferred = "get"
-    methods_used: list[str] = []
-    retries = 0
-    repeated_pages = 0
-    incomplete_reason = ""
+    reported_total = None
+    repeated = 0
     last_sig: tuple[str, ...] | None = None
+    method = "GET"
+    incomplete_reason = ""
+    short_pages = 0
 
-    while pages < max_pages:
-        last_exc: Exception | None = None
-        data: dict[str, Any] | None = None
-        used_method = preferred
-
-        for attempt in range(3):
-            try:
-                data, used_method = fetch_page(
-                    session, area, offset, page_size, preferred
-                )
-                break
-            except Exception as exc:
-                last_exc = exc
-                retries += 1
-                if attempt < 2:
-                    time.sleep(0.7 * (attempt + 1))
-
-        if data is None:
-            incomplete_reason = (
-                f"offset={offset} 连续失败：{last_exc}"
-            )
+    while pages < MAX_PAGES:
+        try:
+            data = api_call(session, "/album/new", {
+                "area": area,
+                "limit": PAGE_SIZE,
+                "offset": offset,
+                "total": "true",
+                "cookie": cookie,
+            }, preferred=method)
+        except Exception as exc:
+            incomplete_reason = f"offset={offset} 请求失败：{exc}"
             break
-
-        preferred = used_method
-        if used_method not in methods_used:
-            methods_used.append(used_method)
 
         pages += 1
-        albums = get_albums(data)
-
+        rows = safe_get_list(data, "albums")
         if reported_total is None:
-            reported_total = get_total(data)
+            reported_total = get_count(data)
 
-        if not albums:
-            # 空页是最可靠的真实末尾信号之一。
+        if not rows:
             break
 
-        sig = page_signature(albums)
+        sig = page_sig(rows)
         if sig and sig == last_sig:
-            repeated_pages += 1
-
-            # 先切另一种方法，再用较小 limit 做一次修复性探测。
-            recovered = False
-            for alt_method in (
-                "weapi" if used_method == "get" else "get",
-            ):
-                try:
-                    alt_data, alt_used = fetch_page(
-                        session, area, offset, page_size, alt_method
-                    )
-                    alt_albums = get_albums(alt_data)
-                    alt_sig = page_signature(alt_albums)
-                    if alt_albums and alt_sig and alt_sig != sig:
-                        albums = alt_albums
-                        preferred = alt_used
-                        if alt_used not in methods_used:
-                            methods_used.append(alt_used)
-                        repeated_pages = 0
-                        recovered = True
-                        break
-                except Exception:
-                    continue
-
-            if not recovered:
-                incomplete_reason = (
-                    f"offset={offset} 返回重复页，offset 可能未生效"
-                )
+            repeated += 1
+            # 明确探测另一协议，避免 offset 被服务端忽略。
+            try:
+                alt = "POST" if method == "GET" else "GET"
+                alt_data = api_call(session, "/album/new", {
+                    "area": area,
+                    "limit": PAGE_SIZE,
+                    "offset": offset,
+                    "total": "true",
+                    "cookie": cookie,
+                }, preferred=alt, exact=True)
+                alt_rows = safe_get_list(alt_data, "albums")
+                if page_sig(alt_rows) and page_sig(alt_rows) != sig:
+                    rows = alt_rows
+                    method = alt
+                    if reported_total is None:
+                        reported_total = get_count(alt_data)
+                    repeated = 0
+                else:
+                    incomplete_reason = f"offset={offset} 返回重复页，offset 可能未生效"
+                    break
+            except Exception as exc:
+                incomplete_reason = f"offset={offset} 返回重复页且协议切换失败：{exc}"
                 break
+        last_sig = page_sig(rows) or last_sig
 
-        last_sig = page_signature(albums) or last_sig
-
-        for raw in albums:
-            row = normalize_album(raw)
-            album_id = row.get("id")
-            if album_id is None:
+        for raw in rows:
+            if not isinstance(raw, dict):
                 continue
-            if row.get("publish_date") == target_str:
-                collected[str(album_id)] = row
+            row = normalize_album(raw)
+            if row.get("id") is not None and row.get("publish_date") == target_str:
+                collected[str(row["id"])] = row
 
-        # 固定推进 page_size；不要使用“返回多少就推进多少”，
-        # 否则服务端短页可能造成下一页偏移重复/错位。
-        next_offset = offset + page_size
-
+        # 关键：永远按 page_size 前进，不按返回长度前进。
+        next_offset = offset + PAGE_SIZE
         if reported_total is not None and next_offset >= reported_total:
             offset = next_offset
             break
 
-        if len(albums) < page_size and reported_total is None:
-            # 没有 total 时，短页通常意味着末尾；再发一次下一页进行确认。
-            probe_offset = next_offset
-            try:
-                probe_data, probe_used = fetch_page(
-                    session, area, probe_offset, page_size, preferred
-                )
-                probe_albums = get_albums(probe_data)
-                if not probe_albums:
-                    offset = probe_offset
+        if len(rows) < PAGE_SIZE:
+            short_pages += 1
+            if reported_total is None:
+                # 没 total 时，短页先探下一页确认真正末尾。
+                try:
+                    probe = api_call(session, "/album/new", {
+                        "area": area,
+                        "limit": PAGE_SIZE,
+                        "offset": next_offset,
+                        "total": "true",
+                        "cookie": cookie,
+                    }, preferred=method, exact=True)
+                    probe_rows = safe_get_list(probe, "albums")
+                    if not probe_rows:
+                        offset = next_offset
+                        break
+                    if reported_total is None:
+                        reported_total = get_count(probe)
+                except Exception as exc:
+                    incomplete_reason = f"短页后尾页确认失败 offset={next_offset}：{exc}"
+                    offset = next_offset
                     break
-                # 下一页仍有数据，说明刚才的短页不是安全的停止条件。
-            except Exception as exc:
-                retries += 1
-                incomplete_reason = (
-                    f"offset={offset} 短页后尾页确认失败：{exc}"
-                )
-                offset = probe_offset
-                break
+            # 有 total 但尚未达到 total：继续，不能停。
 
         offset = next_offset
-        time.sleep(0.18)
+        time.sleep(0.12)
 
     reached_total = reported_total is not None and offset >= reported_total
-    complete = not incomplete_reason and (
-        reached_total or pages < max_pages
-    )
-
-    if pages >= max_pages and not reached_total:
-        incomplete_reason = incomplete_reason or (
-            f"达到安全上限 max_pages={max_pages}"
-        )
+    complete = not incomplete_reason and (reached_total or pages < MAX_PAGES)
+    if pages >= MAX_PAGES and not reached_total:
+        incomplete_reason = incomplete_reason or f"达到 max_pages={MAX_PAGES}"
         complete = False
 
     return collected, {
+        "source": "album_new",
         "area": area,
         "pages_scanned": pages,
-        "page_size": page_size,
-        "final_offset": offset,
+        "page_size": PAGE_SIZE,
         "reported_total": reported_total,
+        "final_offset": offset,
         "target_count": len(collected),
+        "short_pages": short_pages,
+        "repeated_pages": repeated,
         "complete_scan": complete,
-        "max_pages_reached": pages >= max_pages,
-        "methods_used": methods_used,
-        "retry_count": retries,
-        "repeated_pages": repeated_pages,
         "incomplete_reason": incomplete_reason or None,
+        "method": method,
     }
 
 
-def cache_valid(entry: Any, album_id: str) -> bool:
-    if not isinstance(entry, dict):
-        return False
-    actual_id = entry.get("album_id") or entry.get("id")
-    if actual_id is not None and str(actual_id) != str(album_id):
-        return False
-    return bool(
-        entry.get("album_name")
-        or entry.get("publish_ts")
-        or entry.get("date_str")
-    )
+def artist_cache_key(cookie: str) -> str:
+    import hashlib
+    return hashlib.sha256(cookie.encode("utf-8")).hexdigest()[:16]
 
 
-def load_cache() -> dict[str, Any]:
-    if not ALBUM_CACHE_FILE.exists():
+def artist_cache_file(cookie: str) -> Path:
+    return DATA_DIR / f"artist_cache_{artist_cache_key(cookie)}.json"
+
+
+def load_artist_cache(cookie: str) -> tuple[list[dict[str, str]], dict[str, Any]] | None:
+    p = artist_cache_file(cookie)
+    if not p.exists():
+        return None
+    try:
+        obj = json.loads(p.read_text("utf-8"))
+        arr = obj.get("artists")
+        if not isinstance(arr, list):
+            return None
+        clean = []
+        seen = set()
+        for a in arr:
+            if isinstance(a, dict) and a.get("id") and a.get("name"):
+                sid = str(a["id"])
+                if sid not in seen:
+                    clean.append({"id": sid, "name": str(a["name"])})
+                    seen.add(sid)
+        meta = obj.get("meta") if isinstance(obj.get("meta"), dict) else {}
+        return clean, meta
+    except Exception:
+        return None
+
+
+def save_artist_cache(cookie: str, artists: list[dict[str, str]], meta: dict[str, Any]) -> None:
+    save_json_atomic(artist_cache_file(cookie), {"saved_at": time.time(), "count": len(artists), "meta": meta, "artists": artists})
+
+
+def fetch_followed_artists(session: requests.Session, cookie: str) -> tuple[list[dict[str, str]], dict[str, Any]]:
+    cached = load_artist_cache(cookie)
+    cache_ttl = float(os.getenv("NETEASE_ARTIST_CACHE_TTL_HOURS", "24"))
+    refresh = os.getenv("NETEASE_REFRESH_ARTIST_CACHE", "0") == "1"
+    if cached and not refresh:
+        artists, meta = cached
+        try:
+            age = (time.time() - float(meta.get("saved_at", 0))) / 3600
+        except Exception:
+            age = 999999
+        if age <= cache_ttl and meta.get("complete_confirmed") is True:
+            print(f"[artist] 使用缓存：{len(artists)} 位艺人，年龄 {age:.1f}h")
+            return artists, {**meta, "source": "cache"}
+
+    plans = [500, 200, 100]
+    methods = ["GET", "POST"]
+    best: list[dict[str, str]] = []
+    best_meta: dict[str, Any] = {}
+
+    for limit in plans:
+        for method in methods:
+            artists: list[dict[str, str]] = []
+            seen = set()
+            seen_pages = set()
+            offset = 0
+            page_no = 0
+            server_count = None
+            end_reason = "unknown"
+            had_repeat = False
+            error = None
+            print(f"[artist] 分页计划 {method} limit={limit}")
+
+            while page_no < 100:
+                try:
+                    data = api_call(session, "/artist/sublist", {
+                        "limit": limit,
+                        "offset": offset,
+                        "cookie": cookie,
+                    }, preferred=method, exact=True)
+                except Exception as exc:
+                    error = str(exc)
+                    end_reason = f"api_error:{exc}"
+                    break
+
+                if server_count is None:
+                    server_count = get_count(data)
+                page = safe_get_list(data, "data", "artists")
+                if not page:
+                    end_reason = f"empty_page_offset_{offset}"
+                    break
+
+                sig = page_sig(page)
+                if sig and sig in seen_pages:
+                    had_repeat = True
+                    end_reason = f"repeat_page_offset_{offset}"
+                    break
+                if sig:
+                    seen_pages.add(sig)
+
+                before = len(artists)
+                for a in page:
+                    if isinstance(a, dict) and a.get("id") and a.get("name"):
+                        sid = str(a["id"])
+                        if sid not in seen:
+                            artists.append({"id": sid, "name": str(a["name"])})
+                            seen.add(sid)
+                gained = len(artists) - before
+                print(f"[artist] {method} limit={limit} offset={offset}: 返回{len(page)} 新增{gained} 累计{len(artists)} / server≈{server_count}")
+
+                if gained == 0:
+                    had_repeat = True
+                    end_reason = f"no_new_ids_offset_{offset}"
+                    break
+                if server_count is not None and len(artists) >= server_count:
+                    end_reason = "server_count_reached"
+                    break
+                if data.get("hasMore") is False or data.get("more") is False:
+                    end_reason = "server_has_more_false"
+                    break
+
+                # server_count 已明确大于当前数量时，即使当前页短，也继续按 limit 探测。
+                if len(page) < limit and server_count is None:
+                    next_offset = offset + limit
+                    try:
+                        probe = api_call(session, "/artist/sublist", {
+                            "limit": limit, "offset": next_offset, "cookie": cookie
+                        }, preferred=method, exact=True)
+                        probe_page = safe_get_list(probe, "data", "artists")
+                        if not probe_page:
+                            end_reason = "short_page_confirmed_end"
+                            break
+                    except Exception as exc:
+                        error = str(exc)
+                        end_reason = f"short_page_probe_error:{exc}"
+                        break
+
+                offset += limit
+                page_no += 1
+                time.sleep(0.12)
+
+            complete_confirmed = bool(
+                (server_count is not None and len(artists) >= server_count)
+                or (end_reason in ("short_page_confirmed_end", "server_has_more_false") and not (server_count and len(artists) < server_count))
+            )
+            meta = {
+                "method": method,
+                "limit": limit,
+                "count": len(artists),
+                "server_count": server_count,
+                "end_reason": end_reason,
+                "complete_confirmed": complete_confirmed,
+                "had_repeat": had_repeat,
+                "error": error,
+                "saved_at": time.time(),
+            }
+            if len(artists) > len(best):
+                best, best_meta = artists, meta
+            if complete_confirmed:
+                save_artist_cache(cookie, artists, meta)
+                return artists, {**meta, "source": "live"}
+
+    if best:
+        print(f"[artist] 警告：没有计划确认完整，采用最多的一组 {len(best)} 位；meta={best_meta}")
+        save_artist_cache(cookie, best, best_meta)
+        return best, {**best_meta, "source": "best-effort"}
+    raise RuntimeError(f"无法读取关注艺人列表：{best_meta}")
+
+
+def fetch_recent_for_artist(
+    session: requests.Session,
+    artist: dict[str, str],
+    cookie: str,
+) -> list[dict[str, Any]]:
+    data = api_call(session, "/artist/songs", {
+        "id": artist["id"], "limit": RECENT_LIMIT, "offset": 0,
+        "order": "time", "cookie": cookie,
+    }, preferred="GET")
+    songs = safe_get_list(data, "songs")
+    rels = []
+    for s in songs:
+        if not isinstance(s, dict) or not s.get("id"):
+            continue
+        al = s.get("al") or {}
+        aid = al.get("id")
+        if not aid:
+            continue
+        rels.append({
+            "artist_id": artist["id"],
+            "artist_name": artist["name"],
+            "song_id": str(s["id"]),
+            "song_name": s.get("name") or "",
+            "album_id": str(aid),
+            "album_name": al.get("name") or "",
+            "song_publish_ts": s.get("publishTime") or s.get("publish_time") or 0,
+            "song_artist_ids": [str(x.get("id")) for x in (s.get("ar") or []) if isinstance(x, dict) and x.get("id")],
+            "song_artist_names": [x.get("name") for x in (s.get("ar") or []) if isinstance(x, dict) and x.get("name")],
+            "link": f"https://music.163.com/#/song?id={s['id']}",
+        })
+    return rels
+
+
+def fetch_new_albums_for_artist(
+    session: requests.Session,
+    artist: dict[str, str],
+    cookie: str,
+    start_dt: datetime,
+    end_dt: datetime,
+) -> list[dict[str, Any]]:
+    data = api_call(session, "/artist/album", {
+        "id": artist["id"], "limit": NEW_ALBUM_PROBE_LIMIT, "offset": 0,
+        "cookie": cookie,
+    }, preferred="GET")
+    albums = safe_get_list(data, "hotAlbums")
+    found = []
+    for a in albums:
+        if not isinstance(a, dict) or not a.get("id"):
+            continue
+        dt = parse_dt(a.get("publishTime"))
+        if dt and start_dt <= dt <= end_dt:
+            found.append({
+                "artist_id": artist["id"],
+                "artist_name": artist["name"],
+                "album_id": str(a["id"]),
+                "album_name": a.get("name") or "",
+                "publish_ts": a.get("publishTime"),
+            })
+    return found
+
+
+def load_album_cache() -> dict[str, dict[str, Any]]:
+    if not CACHE_FILE.exists():
         return {}
     try:
-        raw = json.loads(ALBUM_CACHE_FILE.read_text("utf-8"))
+        raw = json.loads(CACHE_FILE.read_text("utf-8"))
     except Exception:
         return {}
     if not isinstance(raw, dict):
         return {}
-    cleaned = {}
-    for key, entry in raw.items():
-        if cache_valid(entry, str(key)):
-            cleaned[str(key)] = dict(entry)
-            cleaned[str(key)]["album_id"] = str(key)
-    return cleaned
+    out = {}
+    for k, v in raw.items():
+        if not isinstance(v, dict):
+            continue
+        actual = v.get("album_id") or v.get("id")
+        if actual is not None and str(actual) != str(k):
+            continue
+        if not (v.get("album_name") or v.get("publish_ts") or v.get("date_str")):
+            continue
+        v = dict(v)
+        v["album_id"] = str(k)
+        out[str(k)] = v
+    return out
 
 
-def save_json_atomic(path: Path, obj: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(
-        json.dumps(obj, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-    tmp.replace(path)
-
-
-def save_cache(cache: dict[str, Any]) -> None:
-    save_json_atomic(ALBUM_CACHE_FILE, cache)
-
-
-def cache_needs_recheck(entry: dict[str, Any]) -> bool:
-    now = datetime.now(TZ).replace(tzinfo=None)
+def album_cache_needs_recheck(entry: dict[str, Any]) -> bool:
     cached_at = float(entry.get("cached_at") or 0)
-    age_hours = (time.time() - cached_at) / 3600 if cached_at else 999999
-
-    publish_ts = entry.get("publish_ts")
-    if not publish_ts or entry.get("date_str") in (None, "未知日期"):
-        return age_hours >= CACHE_UNKNOWN_RECHECK_HOURS
-
-    published = datetime.fromtimestamp(int(publish_ts) / 1000, TZ).replace(
-        tzinfo=None
-    )
-    return abs((now - published).days) <= 14 and age_hours >= CACHE_RECENT_RECHECK_HOURS
+    age_h = (time.time() - cached_at) / 3600 if cached_at else 999999
+    if not entry.get("publish_ts") or entry.get("date_str") in (None, "未知日期"):
+        return age_h >= CACHE_UNKNOWN_HOURS
+    dt = parse_dt(entry.get("publish_ts"))
+    if not dt:
+        return age_h >= CACHE_UNKNOWN_HOURS
+    now = datetime.now(TZ).replace(tzinfo=None)
+    return abs((now - dt).days) <= 14 and age_h >= CACHE_RECENT_HOURS
 
 
 def fetch_album_detail(
     session: requests.Session,
     album_id: str,
-    expected_names: Iterable[str] | None,
-    cache: dict[str, Any],
+    cookie: str,
+    expected_names: Iterable[str],
+    cache: dict[str, dict[str, Any]],
+    need_songs: bool = False,
 ) -> tuple[dict[str, Any] | None, dict[str, Any]]:
-    album_id = str(album_id)
-    cached = cache.get(album_id)
-
+    aid = str(album_id)
+    cached = cache.get(aid)
     if (
         cached
-        and cache_valid(cached, album_id)
-        and not cache_needs_recheck(cached)
+        and not album_cache_needs_recheck(cached)
         and names_compatible(cached.get("album_name"), expected_names)
+        and (not need_songs or cached.get("songs"))
     ):
-        return cached, {"source": "cache", "mismatch": False, "retries": 0}
+        return cached, {"source": "cache", "mismatch": False}
 
-    errors: list[str] = []
-    for attempt in range(DEFAULT_DETAIL_RETRIES):
-        for method in ("get", "weapi"):
+    errors = []
+    for attempt in range(3):
+        for method in ("GET", "POST"):
             try:
-                if method == "get":
-                    resp = session.get(
-                        f"{OFFICIAL_BASE}/api/album",
-                        params={
-                            "id": album_id,
-                            "_detail_nonce": f"{int(time.time()*1000)}-{random.randint(1000,9999)}",
-                        },
-                        timeout=20,
-                    )
-                    data = parse_json(resp)
-                else:
-                    payload = {"id": album_id, "csrf_token": ""}
-                    resp = session.post(
-                        f"{OFFICIAL_BASE}/weapi/album?csrf_token=",
-                        data=encrypted_request(payload),
-                        timeout=20,
-                    )
-                    data = parse_json(resp)
-
-                if data.get("code") not in (None, 200):
-                    errors.append(f"{method}: code={data.get('code')}")
-                    continue
-
+                params = {"id": aid, "cookie": cookie}
+                data = api_call(session, "/album", params, preferred=method, exact=True)
                 album = data.get("album") or {}
                 returned_id = album.get("id")
-                if returned_id is not None and str(returned_id) != album_id:
-                    errors.append(
-                        f"{method}: album_id错配 请求={album_id} 返回={returned_id}"
-                    )
+                if returned_id is not None and str(returned_id) != aid:
+                    errors.append(f"{method}: album_id错配 请求={aid} 返回={returned_id}")
                     continue
-
                 if not names_compatible(album.get("name"), expected_names):
-                    errors.append(
-                        f"{method}: album_name疑似错配 请求={album_id} 返回={album.get('name')}"
-                    )
+                    errors.append(f"{method}: album_name错配 请求={aid} 返回={album.get('name')}")
                     continue
-
+                artists = album.get("artists") or []
                 row = {
-                    "album_id": album_id,
+                    "album_id": aid,
                     "album_name": album.get("name") or "",
                     "date_str": ts_to_date(album.get("publishTime")),
                     "publish_ts": album.get("publishTime"),
-                    "artist_ids": [
-                        str(x.get("id"))
-                        for x in (album.get("artists") or [])
-                        if isinstance(x, dict) and x.get("id")
-                    ],
-                    "artist_names": [
-                        x.get("name")
-                        for x in (album.get("artists") or [])
-                        if isinstance(x, dict) and x.get("name")
-                    ],
+                    "artist_ids": [str(x.get("id")) for x in artists if isinstance(x, dict) and x.get("id")],
+                    "artist_names": [x.get("name") for x in artists if isinstance(x, dict) and x.get("name")],
                     "size": album.get("size"),
-                    "pic_url": album.get("picUrl") or "",
+                    "pic_url": album.get("picUrl") or album.get("blurPicUrl") or "",
+                    "company": album.get("company") or "",
+                    "sub_type": album.get("subType") or "",
+                    "type": album.get("type") or "",
                     "cached_at": time.time(),
                 }
-                cache[album_id] = row
-                return row, {
-                    "source": method,
-                    "mismatch": False,
-                    "retries": attempt,
-                }
+                if need_songs:
+                    compact = []
+                    for s in data.get("songs") or []:
+                        if not isinstance(s, dict) or not s.get("id"):
+                            continue
+                        compact.append({
+                            "id": str(s["id"]),
+                            "name": s.get("name") or "",
+                        })
+                    row["songs"] = compact
+                old = cache.get(aid)
+                if old and old.get("songs") and not row.get("songs"):
+                    row["songs"] = old["songs"]
+                cache[aid] = row
+                return row, {"source": method.lower(), "mismatch": False}
             except Exception as exc:
                 errors.append(f"{method}: {exc}")
-        if attempt < DEFAULT_DETAIL_RETRIES - 1:
-            time.sleep(0.25 + random.random() * 0.25)
+        time.sleep(0.2 + random.random() * 0.3)
+    return None, {"source": "error", "mismatch": any("错配" in x for x in errors), "errors": errors[-6:]}
 
-    return None, {
-        "source": "fallback",
-        "mismatch": any("错配" in x for x in errors),
-        "retries": DEFAULT_DETAIL_RETRIES,
-        "errors": errors[-6:],
+
+def fetch_owned_ids(
+    session: requests.Session,
+    artist_id: str,
+    cookie: str,
+) -> set[str]:
+    data = api_call(session, "/artist/album", {
+        "id": artist_id,
+        "limit": OWNED_LIMIT,
+        "offset": 0,
+        "cookie": cookie,
+    }, preferred="GET")
+    out = set()
+    for a in data.get("hotAlbums") or []:
+        if isinstance(a, dict) and a.get("id"):
+            out.add(str(a["id"]))
+    return out
+
+
+def save_json_atomic(path: Path, obj: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)
+
+
+
+def scan_va_search_rescue(
+    session: requests.Session,
+    cookie: str,
+    target: date,
+) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
+    """针对 V.A. / Various Artists 的关键词搜索兜底；这是召回增强，不宣称数学意义上的全量。"""
+    terms = ["Various Artists", "V.A.", "华语群星"]
+    candidates: dict[str, dict[str, Any]] = {}
+    queries_ok = 0
+    errors = []
+
+    for term in terms:
+        offset = 0
+        seen_pages = set()
+        for _ in range(10):
+            try:
+                data = api_call(session, "/search", {
+                    "keywords": term,
+                    "type": 10,
+                    "limit": 100,
+                    "offset": offset,
+                    "cookie": cookie,
+                }, preferred="GET")
+                result = data.get("result") or {}
+                albums = result.get("albums") if isinstance(result, dict) else []
+                if not isinstance(albums, list) or not albums:
+                    break
+                sig = page_sig(albums)
+                if sig in seen_pages:
+                    break
+                seen_pages.add(sig)
+                queries_ok += 1
+                for raw in albums:
+                    if not isinstance(raw, dict):
+                        continue
+                    row = normalize_album(raw)
+                    if row.get("id") is not None:
+                        # 搜索结果的日期可能不全，先收集 album id，由后面的详情严格确认。
+                        candidates[str(row["id"])] = row
+                if len(albums) < 100:
+                    break
+                offset += 100
+            except Exception as exc:
+                errors.append(f"{term}: {exc}")
+                break
+
+    # 严格详情校验搜索候选，避免搜索结果里的日期/标题脏数据。
+    cache = load_album_cache()
+    verified = {}
+    for aid, row in list(candidates.items()):
+        try:
+            local = build_session()
+            detail, _ = fetch_album_detail(local, aid, cookie, [row.get("name", "")], cache, need_songs=False)
+            if detail and detail.get("date_str") == target.isoformat():
+                merged = dict(row)
+                merged.update({
+                    "name": detail.get("album_name") or row.get("name"),
+                    "artists": [{"id": x, "name": n} for x, n in zip(detail.get("artist_ids", []), detail.get("artist_names", []))],
+                    "artist_names": detail.get("artist_names") or row.get("artist_names", []),
+                    "publish_time": detail.get("publish_ts") or row.get("publish_time"),
+                    "publish_date": detail.get("date_str"),
+                    "size": detail.get("size"),
+                    "company": detail.get("company") or row.get("company", ""),
+                    "pic_url": detail.get("pic_url") or row.get("pic_url", ""),
+                    "sub_type": detail.get("sub_type") or row.get("sub_type", ""),
+                    "type": detail.get("type") or row.get("type", ""),
+                })
+                verified[aid] = merged
+        except Exception as exc:
+            errors.append(f"detail {aid}: {exc}")
+    save_cache(cache)
+    return verified, {
+        "source": "va_search_rescue",
+        "terms": terms,
+        "queries_ok": queries_ok,
+        "search_candidates": len(candidates),
+        "verified_target_count": len(verified),
+        "errors": errors[-10:],
     }
 
-
-def merge_album_rows(
-    list_row: dict[str, Any],
-    detail: dict[str, Any] | None,
-) -> dict[str, Any]:
-    if not detail:
-        return list_row
-
-    merged = dict(list_row)
-    if detail.get("album_name"):
-        merged["name"] = detail["album_name"]
-    if detail.get("publish_ts"):
-        merged["publish_time"] = detail["publish_ts"]
-        merged["publish_date"] = detail.get("date_str")
-    if detail.get("artist_names"):
-        merged["artist_names"] = detail["artist_names"]
-    if detail.get("artist_ids"):
-        merged["artists"] = [
-            {"id": aid, "name": name}
-            for aid, name in zip(
-                detail.get("artist_ids", []),
-                detail.get("artist_names", []),
-            )
-        ]
-    if detail.get("size") is not None:
-        merged["size"] = detail["size"]
-    if detail.get("pic_url"):
-        merged["pic_url"] = detail["pic_url"]
-    return merged
-
-
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--date",
-        help="目标日期 YYYY-MM-DD；默认为北京时间今天",
-    )
-    parser.add_argument(
-        "--rescan-days",
-        type=int,
-        default=2,
-        help="从目标日期往前连续扫描 N 天，默认 2",
-    )
-    parser.add_argument(
-        "--deep-areas",
-        action="store_true",
-        help="额外扫描 ZH/EA/KR/JP，与 ALL 结果按 album_id 合并",
-    )
-    parser.add_argument(
-        "--page-size",
-        type=int,
-        default=DEFAULT_PAGE_SIZE,
-    )
-    parser.add_argument(
-        "--max-pages",
-        type=int,
-        default=DEFAULT_MAX_PAGES,
-    )
-    return parser.parse_args()
-
-
-def update_date(
+def run_reference_candidate_pool(
     session: requests.Session,
+    cookie: str,
     target: date,
-    args: argparse.Namespace,
-) -> dict[str, Any]:
-    cache = load_cache()
+    new_start_dt: datetime,
+    new_end_dt: datetime,
+    external_start_dt: datetime,
+    external_end_dt: datetime,
+) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
+    print("========== 参考算法：Album Candidate Pool ==========")
+    artists, artist_meta = fetch_followed_artists(session, cookie)
+    print(f"[full] 关注艺人：{len(artists)} 位；recent={RECENT_LIMIT}；new_album_probe={NEW_ALBUM_PROBE_LIMIT}")
 
-    areas = ["ALL"]
-    if args.deep_areas:
-        areas.extend(["ZH", "EA", "KR", "JP"])
+    relations: list[dict[str, Any]] = []
+    new_candidates: list[dict[str, Any]] = []
+    artist_failures = 0
 
-    per_area = []
-    merged: dict[str, dict[str, Any]] = {}
+    def worker(artist: dict[str, str]) -> tuple[list[dict[str, Any]], list[dict[str, Any]], str | None]:
+        local = build_session()
+        try:
+            rels = fetch_recent_for_artist(local, artist, cookie)
+            news = fetch_new_albums_for_artist(local, artist, cookie, new_start_dt, new_end_dt)
+            return rels, news, None
+        except Exception as exc:
+            return [], [], str(exc)
 
-    for area in areas:
-        rows, meta = scan_area(
-            session=session,
-            area=area,
-            target=target,
-            page_size=max(10, min(int(args.page_size), 100)),
-            max_pages=max(10, int(args.max_pages)),
-        )
-        per_area.append(meta)
-
-        for album_id, row in rows.items():
-            existing = merged.get(album_id)
-            if existing is None:
-                merged[album_id] = row
-            else:
-                # 优先更丰富的记录。
-                if len(row.get("artist_names", [])) > len(
-                    existing.get("artist_names", [])
-                ):
-                    merged[album_id] = row
-
-    albums = list(merged.values())
-
-    # 详情验证只作用于目标日期候选池，不会为了全目录逐张请求。
-    detail_verified = 0
-    detail_fallback = 0
-    detail_mismatch = 0
-    detail_cache_hits = 0
-    detail_errors = 0
-
-    def verify_one(row: dict[str, Any]) -> tuple[str, dict[str, Any], dict[str, Any]]:
-        local_session = build_session()
-        detail, info = fetch_album_detail(
-            local_session,
-            str(row["id"]),
-            [row.get("name", "")],
-            cache,
-        )
-        return str(row["id"]), row, {"detail": detail, "info": info}
-
-    with ThreadPoolExecutor(max_workers=DEFAULT_DETAIL_WORKERS) as pool:
-        futures = [pool.submit(verify_one, row) for row in albums]
+    with ThreadPoolExecutor(max_workers=THREADS) as pool:
+        futures = {pool.submit(worker, a): a for a in artists}
+        done = 0
         for fut in as_completed(futures):
-            try:
-                album_id, original, result = fut.result()
-                detail = result["detail"]
-                info = result["info"]
-                if info.get("source") == "cache":
-                    detail_cache_hits += 1
-                if info.get("mismatch"):
-                    detail_mismatch += 1
-                if detail:
-                    detail_verified += 1
-                    merged[album_id] = merge_album_rows(original, detail)
-                else:
-                    detail_fallback += 1
-                    detail_errors += 1
-            except Exception:
-                detail_fallback += 1
+            done += 1
+            rels, news, err = fut.result()
+            if err:
+                artist_failures += 1
+            relations.extend(rels)
+            new_candidates.extend(news)
+            if done % 25 == 0 or done == len(artists):
+                print(f"[full][recent+new] {done}/{len(artists)} 艺人；关系={len(relations)}；新专候选={len(new_candidates)}；失败={artist_failures}")
+
+    by_album: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for r in relations:
+        by_album[str(r["album_id"])].append(r)
+    by_new: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for c in new_candidates:
+        by_new[str(c["album_id"])].append(c)
+    album_ids = list(dict.fromkeys(list(by_album.keys()) + list(by_new.keys())))
+    print(f"[full] 候选池构建完成：relations={len(relations)}；unique_album={len(album_ids)}")
+
+    cache = load_album_cache()
+    details: dict[str, dict[str, Any]] = {}
+    detail_errors = 0
+    detail_mismatch = 0
+
+    def detail_worker(aid: str) -> tuple[str, dict[str, Any] | None, dict[str, Any]]:
+        local = build_session()
+        names = [r.get("album_name") for r in by_album.get(aid, [])]
+        names.extend(c.get("album_name") for c in by_new.get(aid, []))
+        return (aid, *fetch_album_detail(local, aid, cookie, names, cache, need_songs=(aid in by_new)))
+
+    with ThreadPoolExecutor(max_workers=THREADS) as pool:
+        futures = [pool.submit(detail_worker, aid) for aid in album_ids]
+        for i, fut in enumerate(as_completed(futures), 1):
+            aid, detail, info = fut.result()
+            if detail:
+                details[aid] = detail
+            else:
                 detail_errors += 1
+            if info.get("mismatch"):
+                detail_mismatch += 1
+            if i % 50 == 0 or i == len(album_ids):
+                print(f"[full][album-detail] {i}/{len(album_ids)}；成功={len(details)}；错误={detail_errors}；错配={detail_mismatch}")
 
-    albums = list(merged.values())
-    albums = [
-        x for x in albums
-        if x.get("publish_date") == target.isoformat()
-    ]
-    albums.sort(
-        key=lambda x: (
-            x.get("publish_time") or 0,
-            str(x.get("name") or ""),
-        ),
-        reverse=True,
-    )
+    save_cache(cache)
 
+    external_ids: set[str] = set()
+    new_ids: set[str] = set()
+    date_hit_details: dict[str, dict[str, Any]] = {}
+    for aid, detail in details.items():
+        dt = parse_dt(detail.get("publish_ts"))
+        if not dt:
+            continue
+        if external_start_dt <= dt <= external_end_dt:
+            external_ids.add(aid)
+        if new_start_dt <= dt <= new_end_dt:
+            new_ids.add(aid)
+        if (external_start_dt <= dt <= external_end_dt) or (new_start_dt <= dt <= new_end_dt):
+            date_hit_details[aid] = detail
+
+    verify_artist_ids = {}
+    for aid in date_hit_details:
+        for r in by_album.get(aid, []):
+            verify_artist_ids.setdefault(r["artist_id"], r["artist_name"])
+        for c in by_new.get(aid, []):
+            verify_artist_ids.setdefault(c["artist_id"], c["artist_name"])
+
+    owned_map: dict[str, set[str]] = {}
+    owned_failures = 0
+    verify_items = list(verify_artist_ids.items())
+    print(f"[full] 日期命中 album={len(date_hit_details)}；需 Owned 验证艺人={len(verify_items)}")
+
+    def owned_worker(item: tuple[str, str]) -> tuple[str, set[str] | None, str | None]:
+        artist_id, _ = item
+        try:
+            local = build_session()
+            return artist_id, fetch_owned_ids(local, artist_id, cookie), None
+        except Exception as exc:
+            return artist_id, None, str(exc)
+
+    with ThreadPoolExecutor(max_workers=THREADS) as pool:
+        futures = [pool.submit(owned_worker, x) for x in verify_items]
+        for i, fut in enumerate(as_completed(futures), 1):
+            aid, owned, err = fut.result()
+            if owned is not None:
+                owned_map[aid] = owned
+            else:
+                owned_failures += 1
+            if i % 25 == 0 or i == len(verify_items):
+                print(f"[full][owned] {i}/{len(verify_items)}；失败={owned_failures}")
+
+    extra_albums: dict[str, dict[str, Any]] = {}
+    external_hits = 0
+    new_hits = 0
+    for aid, detail in date_hit_details.items():
+        candidate_rels = by_album.get(aid, [])
+        candidate_new = by_new.get(aid, [])
+        is_new = aid in new_ids
+        is_external = False
+        if aid in external_ids:
+            for r in candidate_rels:
+                owned = owned_map.get(r["artist_id"])
+                if owned is not None and aid not in owned:
+                    is_external = True
+                    break
+            # If an album was found only through the new-album probe, it is still a new release,
+            # not an external compilation assertion.
+        if is_external or is_new:
+            if is_external:
+                external_hits += 1
+            if is_new:
+                new_hits += 1
+            extra_albums[aid] = detail
+
+    meta = {
+        "artists": len(artists),
+        "artist_meta": artist_meta,
+        "relations": len(relations),
+        "new_album_candidates": len(new_candidates),
+        "unique_albums": len(album_ids),
+        "detail_success": len(details),
+        "detail_errors": detail_errors,
+        "detail_mismatch": detail_mismatch,
+        "date_hit_albums": len(date_hit_details),
+        "verify_artists": len(verify_artist_ids),
+        "owned_failures": owned_failures,
+        "external_hits": external_hits,
+        "new_release_hits": new_hits,
+        "complete_candidate_pool": bool(artists) and bool(artist_meta.get("complete_confirmed")) and not artist_failures,
+        "artist_failures": artist_failures,
+    }
+    print(f"[full] Candidate Pool 完成：external_hits={external_hits} new_release_hits={new_hits}")
+    return extra_albums, meta
+
+
+def update_date(session: requests.Session, cookie: str, target: date, args: argparse.Namespace) -> dict[str, Any]:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    merged: dict[str, dict[str, Any]] = {}
+    global_meta = []
+
+    # 全局源 1：全部新碟，多区域联合召回。
+    for area in AREAS:
+        rows, meta = scan_album_new_area(session, cookie, area, target)
+        global_meta.append(meta)
+        for aid, row in rows.items():
+            old = merged.get(aid)
+            if old is None or len(row.get("artist_names", [])) > len(old.get("artist_names", [])):
+                merged[aid] = row
+        print(f"[global/album_new] area={area} target={target} 命中={len(rows)} pages={meta['pages_scanned']} total={meta['reported_total']} complete={meta['complete_scan']}")
+
+    # 全局源 2：当月“新碟上架”，专门做第二套召回，覆盖 ALL 接口没有返回的边界数据。
+    for area in AREAS:
+        rows, meta = scan_top_album_month(session, cookie, area, target)
+        global_meta.append(meta)
+        for aid, row in rows.items():
+            old = merged.get(aid)
+            if old is None or len(row.get("artist_names", [])) > len(old.get("artist_names", [])):
+                merged[aid] = row
+        print(f"[global/top_album] area={area} target={target} 命中={len(rows)} pages={meta['pages_scanned']} total={meta['reported_total']} complete={meta['complete_scan']}")
+
+    va_meta = None
+    va_extra = {}
+    if args.va_rescue:
+        va_extra, va_meta = scan_va_search_rescue(session, cookie, target)
+        for aid, row in va_extra.items():
+            old = merged.get(aid)
+            if old is None:
+                merged[aid] = row
+            else:
+                merged[aid] = {**old, **row}
+        print(f"[global/VA-rescue] 命中={len(va_extra)}")
+
+    ref_meta = None
+    ref_extra = {}
+    if args.full:
+        end_external = datetime.combine(target, datetime.max.time())
+        start_external = end_external - timedelta(days=args.external_days - 1)
+        new_start = datetime.combine(target - timedelta(days=args.new_past_days), datetime.min.time())
+        new_end = datetime.combine(target + timedelta(days=args.new_future_days), datetime.max.time())
+        ref_extra, ref_meta = run_reference_candidate_pool(
+            session,
+            cookie,
+            target,
+            new_start,
+            new_end,
+            start_external,
+            end_external,
+        )
+        for aid, detail in ref_extra.items():
+            # reference Candidate Pool 返回的是 album detail 结构；转换成站点统一的 album JSON。
+            row = {
+                "id": int(aid) if str(aid).isdigit() else aid,
+                "name": detail.get("album_name") or "未命名专辑",
+                "artists": [{"id": x, "name": n} for x, n in zip(detail.get("artist_ids", []), detail.get("artist_names", []))],
+                "artist_names": detail.get("artist_names", []),
+                "publish_time": detail.get("publish_ts"),
+                "publish_date": detail.get("date_str"),
+                "size": detail.get("size"),
+                "company": detail.get("company", ""),
+                "pic_url": detail.get("pic_url", ""),
+                "sub_type": detail.get("sub_type", ""),
+                "type": detail.get("type", ""),
+                "status": None,
+                "description": "",
+                "url": f"https://music.163.com/#/album?id={aid}",
+            }
+            old = merged.get(aid)
+            merged[aid] = row if old is None else {**old, **row}
+
+    # 最终严格只保留目标日期。reference 新 release 可能来自昨天~未来窗口，因此这里只保留当天数据，
+    # 未来/昨天会在相应日期的另一轮 rescan 中进入对应文件。
+    albums = [row for row in merged.values() if row.get("publish_date") == target.isoformat()]
+    albums.sort(key=lambda x: (x.get("publish_time") or 0, str(x.get("name") or "")), reverse=True)
+
+    complete_global = all(bool(m.get("complete_scan")) for m in global_meta)
+    complete_full = bool(ref_meta.get("complete_candidate_pool")) if ref_meta else None
     now = datetime.now(TZ).isoformat()
-    complete = all(bool(x.get("complete_scan")) for x in per_area)
-
     payload = {
         "date": target.isoformat(),
         "generated_at": now,
         "count": len(albums),
         "scan": {
-            "complete_scan": complete,
-            "areas": per_area,
-            "areas_scanned": areas,
+            "mode": "full" if args.full else "global-authenticated",
+            "complete_scan": complete_global and (True if complete_full is None else complete_full),
+            "global": global_meta,
+            "va_rescue": va_meta,
+            "reference_candidate_pool": ref_meta,
             "unique_album_count": len(albums),
-            "detail_verified": detail_verified,
-            "detail_fallback": detail_fallback,
-            "detail_mismatch": detail_mismatch,
-            "detail_cache_hits": detail_cache_hits,
-            "detail_errors": detail_errors,
-            "page_size": args.page_size,
-            "max_pages": args.max_pages,
         },
         "albums": albums,
     }
-
-    save_json_atomic(
-        DATA_DIR / f"{target.isoformat()}.json",
-        payload,
-    )
-    save_cache(cache)
-
-    print(
-        f"{target.isoformat()}: {len(albums)} albums; "
-        f"areas={','.join(areas)}; "
-        f"complete={complete}; "
-        f"detail={detail_verified}/{len(albums)}; "
-        f"cache_hits={detail_cache_hits}; "
-        f"mismatch={detail_mismatch}"
-    )
+    save_json_atomic(DATA_DIR / f"{target.isoformat()}.json", payload)
+    print(f"[RESULT] {target.isoformat()}：{len(albums)} albums；complete={payload['scan']['complete_scan']}；mode={payload['scan']['mode']}")
     return payload
 
 
-def update_index(results: list[dict[str, Any]]) -> None:
-    index_file = DATA_DIR / "index.json"
+def load_index() -> dict[str, Any]:
+    p = DATA_DIR / "index.json"
+    if not p.exists():
+        return {"updated_at": None, "latest_date": None, "dates": []}
     try:
-        index = json.loads(index_file.read_text("utf-8")) if index_file.exists() else {}
+        obj = json.loads(p.read_text("utf-8"))
+        return obj if isinstance(obj, dict) else {"dates": []}
     except Exception:
-        index = {}
+        return {"dates": []}
 
-    dates_by_key = {}
-    for item in index.get("dates", []):
-        if isinstance(item, dict) and item.get("date"):
-            dates_by_key[str(item["date"])] = item
 
-    for payload in results:
-        dates_by_key[payload["date"]] = {
-            "date": payload["date"],
-            "count": payload["count"],
-            "generated_at": payload["generated_at"],
-            "complete_scan": payload.get("scan", {}).get("complete_scan", False),
+def update_index(payloads: list[dict[str, Any]]) -> None:
+    index = load_index()
+    dates = {}
+    for d in index.get("dates", []):
+        if isinstance(d, dict) and d.get("date"):
+            dates[str(d["date"])] = d
+    for p in payloads:
+        dates[p["date"]] = {
+            "date": p["date"],
+            "count": p["count"],
+            "generated_at": p["generated_at"],
+            "complete_scan": p["scan"].get("complete_scan", False),
         }
+    rows = sorted(dates.values(), key=lambda x: str(x["date"]), reverse=True)
+    save_json_atomic(DATA_DIR / "index.json", {
+        "updated_at": datetime.now(TZ).isoformat(),
+        "latest_date": rows[0]["date"] if rows else None,
+        "dates": rows,
+    })
 
-    dates = sorted(
-        dates_by_key.values(),
-        key=lambda x: str(x["date"]),
-        reverse=True,
-    )
-    now = datetime.now(TZ).isoformat()
-    save_json_atomic(
-        index_file,
-        {
-            "updated_at": now,
-            "latest_date": dates[0]["date"] if dates else None,
-            "dates": dates,
-        },
-    )
+
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    p.add_argument("--date", help="YYYY-MM-DD；默认北京时间今天")
+    p.add_argument("--rescan-days", type=int, default=2)
+    p.add_argument("--full", action="store_true", help="启用参考算法 Candidate Pool 全量扫描")
+    p.add_argument("--va-rescue", action="store_true", help="启用 V.A./Various Artists 关键词召回兜底")
+    p.add_argument("--external-days", type=int, default=30)
+    p.add_argument("--new-past-days", type=int, default=1)
+    p.add_argument("--new-future-days", type=int, default=3)
+    return p.parse_args()
 
 
 def main() -> int:
     args = parse_args()
-    start = (
-        datetime.strptime(args.date, "%Y-%m-%d").date()
-        if args.date
-        else datetime.now(TZ).date()
-    )
-    days = max(1, int(args.rescan_days))
+    cookie = normalize_cookie(os.getenv("NETEASE_MUSIC_U", ""))
+    if not cookie:
+        print("ERROR: 缺少 NETEASE_MUSIC_U。全量扫描现在要求通过 GitHub Actions Secret 注入网易云 MUSIC_U。", file=sys.stderr)
+        return 2
 
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    try:
+        start = datetime.strptime(args.date, "%Y-%m-%d").date() if args.date else datetime.now(TZ).date()
+    except ValueError:
+        print("ERROR: --date 必须是 YYYY-MM-DD", file=sys.stderr)
+        return 2
+
+    days = max(1, int(args.rescan_days))
     session = build_session()
-    results = []
+    payloads = []
+
+    print("============================================================")
+    print("网易云每日新碟 · 全量增强扫描")
+    print(f"mode={'FULL Candidate Pool' if args.full else 'GLOBAL AUTHENTICATED'}")
+    print(f"date={start.isoformat()} rescan_days={days} threads={THREADS}")
+    print("============================================================")
 
     for i in range(days):
         target = start - timedelta(days=i)
         try:
-            results.append(update_date(session, target, args))
+            payloads.append(update_date(session, cookie, target, args))
         except Exception as exc:
-            print(
-                f"抓取 {target.isoformat()} 失败：{exc}",
-                file=sys.stderr,
-            )
+            print(f"ERROR: 抓取 {target.isoformat()} 失败：{exc}", file=sys.stderr)
             return 1
 
-    update_index(results)
+    update_index(payloads)
+    print("扫描全部结束。")
     return 0
 
 
