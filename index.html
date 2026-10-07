@@ -203,13 +203,13 @@
     render();
   });
 
-  function getActionsUrl() {
+  function getFullScanUrl() {
     const host = location.hostname;
     const path = location.pathname.split('/').filter(Boolean);
     if (host.endsWith('.github.io') && path.length) {
       const owner = host.slice(0, -'.github.io'.length);
       const repo = path[0];
-      return `https://github.com/${owner}/${repo}/actions/workflows/update.yml`;
+      return `https://github.com/${owner}/${repo}/actions/workflows/full-scan.yml`;
     }
     return 'https://github.com';
   }
@@ -280,18 +280,14 @@ async function verifyScanPassword() {
 
 $('scanBtn').addEventListener('click', async () => {
   const btn = $('scanBtn');
-
   if (btn.disabled) return;
 
   const verified = await verifyScanPassword();
-
   if (!verified) return;
 
   btn.disabled = true;
   btn.textContent = '打开全量扫描任务…';
-
-  window.open(getActionsUrl(), '_blank', 'noopener');
-
+  window.open(getFullScanUrl(), '_blank', 'noopener');
   setTimeout(() => {
     btn.disabled = false;
     btn.textContent = '立即扫描今日全部新碟';
