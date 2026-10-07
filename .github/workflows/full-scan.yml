@@ -9,9 +9,9 @@ on:
         default: ""
         type: string
       rescan_days:
-        description: "连续扫描几天，默认 2"
+        description: "连续扫描几天，默认 7"
         required: false
-        default: "2"
+        default: "7"
         type: string
       deep_scan:
         description: "启用参考算法 Candidate Pool + V.A. 兜底"
