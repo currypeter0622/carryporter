@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-07T10:30:01.905087+08:00",
+  "count": 22,
+  "scan": {
+    "pages_scanned": 3,
+    "page_size": 50,
+    "reported_total": 500,
+    "max_pages_reached": false,
+    "complete_scan": true,
+    "api_mode": "get"
+  },
+  "albums": [
+    {
+      "id": 401096325,
+      "name": "KICK OFF THE WALL Pt. 1",
+      "artists": [
+        {
+          "id": 96611204,
+          "name": "KickFlip"
+        }
+      ],
+      "artist_names": [
+        "KickFlip"
+      ],
+      "publish_time": 1791277200000,
+      "publish_date": "2026-10-06",
+      "size": 8,
+      "company": "JYP Entertainment",
+      "pic_url": "https://p1.music.126.net/_hLk7Lgh955BXh2urpXVeQ==/109951174021662721.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401096325"
+    },
+    {
+      "id": 401527405,
+      "name": "우리들의 발라드 2 Story 1",
+      "artists": [
+        {
+          "id": 21138,
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 7,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p1.music.126.net/3ZrnsRBL6sJamP0uBmUsLQ==/109951174033947107.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401527405"
+    },
+    {
+      "id": 401368506,
+      "name": "너에게 다이브 OST Part.2",
+      "artists": [
+        {
+          "id": 30420151,
+          "name": "宋旼琦"
+        }
+      ],
+      "artist_names": [
+        "宋旼琦"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 2,
+      "company": "NHN BUGS",
+      "pic_url": "https://p1.music.126.net/ZHcCw0KIPrVM-c4S_OSPew==/109951174028427087.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401368506"
+    },
+    {
+      "id": 401332464,
+      "name": "雾渡",
+      "artists": [
+        {
+          "id": 37103999,
+          "name": "胡良伟"
+        }
+      ],
+      "artist_names": [
+        "胡良伟"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 2,
+      "company": "",
+      "pic_url": "https://p1.music.126.net/Rse0hj1L6aQrhf3eBg8zHA==/109951174027503803.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401332464"
+    },
+    {
+      "id": 399486304,
+      "name": "醒时歌",
+      "artists": [
+        {
+          "id": 6652,
+          "name": "周传雄"
+        },
+        {
+          "id": 12664439,
+          "name": "希林娜依高"
+        }
+      ],
+      "artist_names": [
+        "周传雄",
+        "希林娜依高"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "索尼音乐",
+      "pic_url": "https://p1.music.126.net/X_3z7KF_T60aeQnyFWFNRQ==/109951173971503410.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=399486304"
+    },
+    {
+      "id": 398617121,
+      "name": "自由的你",
+      "artists": [
+        {
+          "id": 7763,
+          "name": "G.E.M.邓紫棋"
+        }
+      ],
+      "artist_names": [
+        "G.E.M.邓紫棋"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "G Nation Limited",
+      "pic_url": "https://p2.music.126.net/G4Vtk4Je9Sj8zB4KGlxprw==/109951174017350276.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=398617121"
+    },
+    {
+      "id": 401333922,
+      "name": "灯光",
+      "artists": [
+        {
+          "id": 59655434,
+          "name": "洛天依"
+        }
+      ],
+      "artist_names": [
+        "洛天依"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 2,
+      "company": "PDUNITY LLC",
+      "pic_url": "https://p1.music.126.net/cvEVcG2RvohaRuEVB7_fDw==/109951174027556323.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401333922"
+    },
+    {
+      "id": 401330382,
+      "name": "梦1001",
+      "artists": [
+        {
+          "id": 32187245,
+          "name": "Y.Z.H于哲浩"
+        }
+      ],
+      "artist_names": [
+        "Y.Z.H于哲浩"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p1.music.126.net/zRc8V3IMrOjiGhLPLxQQfg==/109951174027423133.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401330382"
+    },
+    {
+      "id": 400274781,
+      "name": "我只是个配角而已 (DJ版)",
+      "artists": [
+        {
+          "id": 100504947,
+          "name": "绊 Kizuna"
+        }
+      ],
+      "artist_names": [
+        "绊 Kizuna"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "滚石唱片",
+      "pic_url": "https://p1.music.126.net/BipLDZh4EnqEI6wEsyoPkA==/109951173991187089.jpg",
+      "sub_type": "Remix",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400274781"
+    },
+    {
+      "id": 399719829,
+      "name": "夏日冒险家",
+      "artists": [
+        {
+          "id": 129167264,
+          "name": "未夏男团"
+        },
+        {
+          "id": 129167768,
+          "name": "张梓煜"
+        },
+        {
+          "id": 31716309,
+          "name": "陈智轩"
+        },
+        {
+          "id": 129217867,
+          "name": "孙铭阳"
+        },
+        {
+          "id": 129167769,
+          "name": "王瑞剑"
+        },
+        {
+          "id": 129167766,
+          "name": "周郭瑞"
+        },
+        {
+          "id": 129167265,
+          "name": "白贯羽"
+        },
+        {
+          "id": 129167765,
+          "name": "马为先"
+        },
+        {
+          "id": 129167266,
+          "name": "姜晓萌"
+        }
+      ],
+      "artist_names": [
+        "未夏男团",
+        "张梓煜",
+        "陈智轩",
+        "孙铭阳",
+        "王瑞剑",
+        "周郭瑞",
+        "白贯羽",
+        "马为先",
+        "姜晓萌"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "太合音乐集团",
+      "pic_url": "https://p1.music.126.net/p4Dey-er-vKrjvzo5tdNrg==/109951173977495750.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=399719829"
+    },
+    {
+      "id": 401521893,
+      "name": "一诺为家",
+      "artists": [
+        {
+          "id": 122546004,
+          "name": "铁痕电台-MSR"
+        },
+        {
+          "id": 32590999,
+          "name": "Miaa"
+        },
+        {
+          "id": 100383307,
+          "name": "CC"
+        }
+      ],
+      "artist_names": [
+        "铁痕电台-MSR",
+        "Miaa",
+        "CC"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 2,
+      "company": "铁痕电台-MSR",
+      "pic_url": "https://p1.music.126.net/cwt9RZJZFEZgRz4nh3OSMw==/109951174033671648.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401521893"
+    },
+    {
+      "id": 401561220,
+      "name": "一休さん町へ (feat. 初音ミク)",
+      "artists": [
+        {
+          "id": 98023829,
+          "name": "kamiiwaki"
+        }
+      ],
+      "artist_names": [
+        "kamiiwaki"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "kamiiwaki",
+      "pic_url": "https://p1.music.126.net/olOSfmabEMlPE8JdVroO9g==/109951174034957047.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401561220"
+    },
+    {
+      "id": 399092307,
+      "name": "ハロー",
+      "artists": [
+        {
+          "id": 1193225,
+          "name": "Sou"
+        }
+      ],
+      "artist_names": [
+        "Sou"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "KING RECORD",
+      "pic_url": "https://p1.music.126.net/okYV6_eU4-jJ0el7LtR9gQ==/109951173960310348.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=399092307"
+    },
+    {
+      "id": 401086573,
+      "name": "スキップ･スランプ･スリッパ",
+      "artists": [
+        {
+          "id": 12274228,
+          "name": "Poppin'Party"
+        }
+      ],
+      "artist_names": [
+        "Poppin'Party"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "ブシロードミュージック",
+      "pic_url": "https://p1.music.126.net/wALQ1xvOMatC-jchB7GkGw==/109951174021450002.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401086573"
+    },
+    {
+      "id": 397921409,
+      "name": "シュガーソルト",
+      "artists": [
+        {
+          "id": 15199,
+          "name": "オーイシマサヨシ"
+        }
+      ],
+      "artist_names": [
+        "オーイシマサヨシ"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "PONY CANYON INC.",
+      "pic_url": "https://p2.music.126.net/Xoottp-wiKvkj2YJTItNxg==/109951173923793014.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=397921409"
+    },
+    {
+      "id": 402236823,
+      "name": "Town/Blunt (Extended Intro Remix)",
+      "artists": [
+        {
+          "id": 13296078,
+          "name": "delphia!"
+        }
+      ],
+      "artist_names": [
+        "delphia!"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p1.music.126.net/7elkaH6AeNJiUE8ANgYnng==/109951174061290221.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402236823"
+    },
+    {
+      "id": 401249411,
+      "name": "OMAKASE",
+      "artists": [
+        {
+          "id": 15022053,
+          "name": "88rising"
+        },
+        {
+          "id": 0,
+          "name": "200 (Eback)"
+        }
+      ],
+      "artist_names": [
+        "88rising",
+        "200 (Eback)"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "88rising Music",
+      "pic_url": "https://p2.music.126.net/fk5W8ucDu4nAGQ6MzGqVlQ==/109951174025808929.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401249411"
+    },
+    {
+      "id": 401698759,
+      "name": "No tears here",
+      "artists": [
+        {
+          "id": 17596,
+          "name": "茅原実里"
+        }
+      ],
+      "artist_names": [
+        "茅原実里"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 2,
+      "company": "Minori Chihara",
+      "pic_url": "https://p1.music.126.net/aEjHCyjPluvcSBoehUm9Fg==/109951174048172583.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401698759"
+    },
+    {
+      "id": 401356544,
+      "name": "Glow",
+      "artists": [
+        {
+          "id": 37546526,
+          "name": "尹书彬"
+        }
+      ],
+      "artist_names": [
+        "尹书彬"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p1.music.126.net/W-37ZvzuBLhve9mOzlsFrw==/109951174028049436.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401356544"
+    },
+    {
+      "id": 401360261,
+      "name": "Die in street",
+      "artists": [
+        {
+          "id": 14070402,
+          "name": "Lucdm"
+        }
+      ],
+      "artist_names": [
+        "Lucdm"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 13,
+      "company": "",
+      "pic_url": "https://p1.music.126.net/kOXmShVBmkc0aHXdICaEdw==/109951174028172794.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401360261"
+    },
+    {
+      "id": 401343115,
+      "name": "Between Steps, Pt. 2 (Original Television Soundtrack)",
+      "artists": [
+        {
+          "id": 12062204,
+          "name": "Margaret Glaspy"
+        }
+      ],
+      "artist_names": [
+        "Margaret Glaspy"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 1,
+      "company": "SLL",
+      "pic_url": "https://p1.music.126.net/Y9FdgZal0EKub-ai83VjeQ==/109951174027761736.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401343115"
+    },
+    {
+      "id": 401356786,
+      "name": "Bad",
+      "artists": [
+        {
+          "id": 129471608,
+          "name": "서파란"
+        }
+      ],
+      "artist_names": [
+        "서파란"
+      ],
+      "publish_time": 1791216000000,
+      "publish_date": "2026-10-06",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p1.music.126.net/LhvNC2ZE-o6Qd2j7mNqXTA==/109951174028080320.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401356786"
+    }
+  ]
+}
