@@ -882,7 +882,7 @@ def scan_va_search_rescue(
                 verified[aid] = merged
         except Exception as exc:
             errors.append(f"detail {aid}: {exc}")
-    save_cache(cache)
+    save_json_atomic(CACHE_FILE, cache)
     return verified, {
         "source": "va_search_rescue",
         "terms": terms,
@@ -964,7 +964,7 @@ def run_reference_candidate_pool(
             if i % 50 == 0 or i == len(album_ids):
                 print(f"[full][album-detail] {i}/{len(album_ids)}；成功={len(details)}；错误={detail_errors}；错配={detail_mismatch}")
 
-    save_cache(cache)
+    save_json_atomic(CACHE_FILE, cache)
 
     external_ids: set[str] = set()
     new_ids: set[str] = set()
