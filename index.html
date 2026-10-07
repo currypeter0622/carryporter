@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111827">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="网易新碟">
+  <meta name="description" content="每日扫描网易云音乐全部新碟的轻量网页。">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <title>网易云每日新碟</title>
+  <style>
+    :root {
+      --bg: #f3f4f6;
+      --card: rgba(255,255,255,.92);
+      --text: #111827;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #111827;
+      --chip: #eef2ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, #eef2ff 0%, var(--bg) 22rem);
+      color: var(--text);
+    }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 18px 14px 40px; }
+    header { padding: 18px 6px 10px; }
+    h1 { font-size: clamp(26px, 7vw, 40px); margin: 0 0 8px; letter-spacing: -0.03em; }
+    .sub { color: var(--muted); line-height: 1.6; font-size: 14px; }
+    .toolbar {
+      position: sticky; top: 0; z-index: 10; margin: 14px 0 16px;
+      padding: 10px; border: 1px solid rgba(255,255,255,.7); background: rgba(243,244,246,.82);
+      backdrop-filter: blur(18px); border-radius: 18px;
+      display: grid; gap: 9px;
+    }
+    .row { display: grid; grid-template-columns: 1fr; gap: 9px; }
+    .scan-row { display:grid; gap:7px; }
+    .scan-btn { background:#111827; color:white; border-color:#111827; font-weight:700; }
+    .scan-tip { color:var(--muted); font-size:12px; line-height:1.5; padding:0 2px; }
+    input, select, button {
+      width: 100%; min-height: 44px; border-radius: 12px; border: 1px solid var(--line); font: inherit;
+      background: white; color: var(--text); padding: 0 13px;
+    }
+    button { cursor: pointer; }
+    button.active { background: var(--accent); color: white; border-color: var(--accent); }
+    .stats { display:flex; gap:8px; flex-wrap:wrap; margin: 6px 0 14px; }
+    .pill { padding: 7px 10px; border-radius: 999px; background: rgba(255,255,255,.72); border: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+    .list { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    .card {
+      display: grid; grid-template-columns: 88px 1fr; gap: 12px; padding: 12px;
+      background: var(--card); border: 1px solid rgba(229,231,235,.92); border-radius: 18px;
+      box-shadow: 0 8px 26px rgba(17,24,39,.05);
+    }
+    .cover { width: 88px; height: 88px; border-radius: 13px; object-fit: cover; background: #e5e7eb; }
+    .title { font-size: 17px; font-weight: 700; line-height: 1.3; margin: 1px 0 6px; }
+    .artists { font-size: 14px; margin-bottom: 7px; line-height:1.45; }
+    .meta { display:flex; flex-wrap:wrap; gap: 7px 10px; color: var(--muted); font-size: 12px; }
+    .actions { margin-top: 9px; display:flex; gap: 8px; }
+    .actions a { text-decoration:none; }
+    .open-btn { display:inline-flex; align-items:center; justify-content:center; min-height:36px; padding:0 11px; border-radius:10px; background:#111827; color:white; font-size:13px; }
+    .empty { padding: 40px 18px; text-align:center; color:var(--muted); background: rgba(255,255,255,.76); border:1px dashed var(--line); border-radius:18px; }
+    .foot { margin-top: 24px; color: var(--muted); font-size: 12px; line-height: 1.6; text-align:center; }
+    @media (min-width: 720px) {
+      .row { grid-template-columns: 1fr 220px 190px; }
+      .scan-row { grid-template-columns: 220px 1fr; align-items:center; }
+      .list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .card { grid-template-columns: 96px 1fr; }
+      .cover { width:96px; height:96px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>网易云每日新碟</h1>
+      <div class="sub">全量扫「新碟上架」分页，不按关注歌手筛选。适合 iPhone / iPad Safari 使用。</div>
+    </header>
+
+    <section class="toolbar" aria-label="筛选工具">
+      <div class="row">
+        <input id="search" type="search" placeholder="搜索专辑名、艺人、公司…" autocomplete="off">
+        <select id="date"></select>
+        <button id="filterBtn" type="button" class="active">已过滤 Various Artists / V.A. / 华语群星</button>
+      </div>
+      <div class="scan-row">
+        <button id="scanBtn" type="button" class="scan-btn">立即扫描今日全部新碟</button>
+        <div class="scan-tip">扫描会进入 GitHub Actions 的全量分页任务；午夜会自动连续扫描，尽量收齐 00:00 附近分批上架的专辑。</div>
+      </div>
+    </section>
+
+    <div class="stats" id="stats"></div>
+    <main id="list" class="list"></main>
+    <div class="foot">数据由 GitHub Actions 定时抓取；页面只保存专辑元数据，不下载音频。</div>
+  </div>
+
+<script>
+  const BAD_ARTISTS = new Set(['various artists', 'v.a.', 'v.a', '华语群星']);
+  let state = { albums: [], index: null, filteredVA: true };
+
+  const $ = id => document.getElementById(id);
+
+  function escapeHtml(s) {
+    return String(s ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  }
+
+  function isBadArtist(name) {
+    return BAD_ARTISTS.has(String(name || '').trim().toLowerCase());
+  }
+
+  function formatDate(s) {
+    if (!s) return '';
+    const [y,m,d] = s.split('-');
+    return `${y}/${m}/${d}`;
+  }
+
+  function artistText(a) {
+    return (a.artists || []).map(x => x.name).filter(Boolean).join(' / ') || '未知艺人';
+  }
+
+  function renderDates() {
+    const dates = (state.index?.dates || []).slice().sort((a,b)=>b.date.localeCompare(a.date));
+    $('date').innerHTML = dates.length
+      ? dates.map((x,i)=>`<option value="${x.date}">${formatDate(x.date)}（${x.count} 张）${i===0?' · 最新':''}</option>`).join('')
+      : '<option value="">暂无数据</option>';
+  }
+
+  function render() {
+    const query = $('search').value.trim().toLowerCase();
+    let rows = state.albums.slice();
+    if (state.filteredVA) rows = rows.filter(a => !(a.artist_names || []).some(isBadArtist));
+    if (query) rows = rows.filter(a => `${a.name} ${(a.artist_names||[]).join(' ')} ${a.company||''}`.toLowerCase().includes(query));
+    rows.sort((a,b)=>(b.publish_time||0)-(a.publish_time||0));
+
+    $('stats').innerHTML = [
+      `<span class="pill">抓取：${formatDate($('date').value || '')}</span>`,
+      `<span class="pill">显示：${rows.length} 张</span>`,
+      `<span class="pill">原始：${state.albums.length} 张</span>`,
+      state.albums.length && state._scan ? `<span class="pill">分页：${state._scan.pages_scanned} 页${state._scan.complete_scan ? ' · 完整' : ' · 需复扫'}</span>` : '',
+      state.index?.updated_at ? `<span class="pill">索引更新：${new Date(state.index.updated_at).toLocaleString('zh-CN')}</span>` : ''
+    ].join('');
+
+    if (!rows.length) {
+      $('list').innerHTML = '<div class="empty">没有符合条件的专辑。可以换一天、清空搜索，或关闭合集艺人过滤。</div>';
+      return;
+    }
+
+    $('list').innerHTML = rows.map(a => {
+      const cover = escapeHtml(a.pic_url || './icons/icon-192.png');
+      const names = escapeHtml(artistText(a));
+      const meta = [
+        a.publish_date ? `发行日 ${formatDate(a.publish_date)}` : '',
+        a.size ? `${a.size} 首` : '',
+        a.company ? escapeHtml(a.company) : ''
+      ].filter(Boolean).join(' · ');
+      return `<article class="card">
+        <img class="cover" loading="lazy" src="${cover}" alt="${escapeHtml(a.name)} 封面" onerror="this.onerror=null;this.src='./icons/icon-192.png';">
+        <div>
+          <div class="title">${escapeHtml(a.name)}</div>
+          <div class="artists">${names}</div>
+          <div class="meta">${meta}</div>
+          <div class="actions"><a class="open-btn" href="${escapeHtml(a.url)}" target="_blank" rel="noopener">打开网易云</a></div>
+        </div>
+      </article>`;
+    }).join('');
+  }
+
+  async function load() {
+    try {
+      state.index = await fetch('./data/index.json?ts=' + Date.now()).then(r => r.json());
+      renderDates();
+      const latest = state.index?.latest_date || $('date').value;
+      if (latest) $('date').value = latest;
+      await loadDate();
+    } catch (e) {
+      $('list').innerHTML = `<div class="empty">暂时读不到数据：${escapeHtml(e.message)}<br>请先在 GitHub Actions 运行一次抓取工作流。</div>`;
+    }
+  }
+
+  async function loadDate() {
+    const d = $('date').value;
+    if (!d) { state.albums = []; render(); return; }
+    const payload = await fetch(`./data/${d}.json?ts=${Date.now()}`).then(r => {
+      if (!r.ok) throw new Error('日期数据不存在');
+      return r.json();
+    });
+    state.albums = payload.albums || [];
+    state._scan = payload.scan || null;
+    render();
+  }
+
+  $('search').addEventListener('input', render);
+  $('date').addEventListener('change', loadDate);
+  $('filterBtn').addEventListener('click', () => {
+    state.filteredVA = !state.filteredVA;
+    const btn = $('filterBtn');
+    btn.classList.toggle('active', state.filteredVA);
+    btn.textContent = state.filteredVA ? '已过滤 Various Artists / V.A. / 华语群星' : '显示全部艺人（含合集艺人）';
+    render();
+  });
+
+  function getActionsUrl() {
+    const host = location.hostname;
+    const path = location.pathname.split('/').filter(Boolean);
+    if (host.endsWith('.github.io') && path.length) {
+      const owner = host.slice(0, -'.github.io'.length);
+      const repo = path[0];
+      return `https://github.com/${owner}/${repo}/actions/workflows/update.yml`;
+    }
+    return 'https://github.com';
+  }
+
+  $('scanBtn').addEventListener('click', () => {
+    const btn = $('scanBtn');
+    btn.disabled = true;
+    btn.textContent = '打开全量扫描任务…';
+    window.open(getActionsUrl(), '_blank', 'noopener');
+    setTimeout(() => {
+      btn.disabled = false;
+      btn.textContent = '立即扫描今日全部新碟';
+    }, 1200);
+  });
+
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+  load();
+</script>
+</body>
+</html>

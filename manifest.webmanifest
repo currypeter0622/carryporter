@@ -1,0 +1,13 @@
+{
+  "name": "网易云每日新碟",
+  "short_name": "网易新碟",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#111827",
+  "lang": "zh-CN",
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
