@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
-  "generated_at": "2026-10-08T14:14:35.887093+08:00",
-  "count": 56,
+  "generated_at": "2026-10-08T15:40:11.935424+08:00",
+  "count": 59,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 12,
+        "target_count": 17,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 5,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 5,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 4,
+        "target_count": 6,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,8 +154,8 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 7,
-      "search_candidates": 611,
+      "queries_ok": 9,
+      "search_candidates": 722,
       "verified_target_count": 8,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791429708.7142916,
+        "saved_at": 1791443308.3781435,
         "source": "live"
       },
       "relations": 79790,
       "new_album_candidates": 72,
-      "unique_albums": 36651,
-      "detail_success": 36650,
+      "unique_albums": 36654,
+      "detail_success": 36653,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1040,
-      "verify_artists": 672,
+      "date_hit_albums": 1041,
+      "verify_artists": 673,
       "owned_failures": 0,
       "external_hits": 275,
       "new_release_hits": 92,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 56
+    "unique_album_count": 59
   },
   "albums": [
     {
@@ -206,7 +206,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "北河三（北京）文化传媒有限公司",
-      "pic_url": "https://p4.music.126.net/mAVeNfhdlNDusj0kbaB6Nw==/109951173986829312.jpg",
+      "pic_url": "https://p4.music.126.net/F6Qr9zw4UiD0DRZqskOmgg==/109951174076019215.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -229,7 +229,7 @@
       "publish_date": "2026-10-08",
       "size": 6,
       "company": "RBW Inc.",
-      "pic_url": "https://p3.music.126.net/fCYBEUTWKntR1H74bEMUew==/109951174075422603.jpg",
+      "pic_url": "https://p4.music.126.net/fCYBEUTWKntR1H74bEMUew==/109951174075422603.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -252,11 +252,11 @@
       "publish_date": "2026-10-08",
       "size": 2,
       "company": "Kakao Entertainment Corp.",
-      "pic_url": "http://p3.music.126.net/8ruYq9ulSoozsx3BrItAEA==/109951174065920529.jpg",
+      "pic_url": "https://p4.music.126.net/8ruYq9ulSoozsx3BrItAEA==/109951174065920529.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
-      "description": "[90's RECORD PROJECT] 여섯 번째 'FIFTY FIFTY 키나 - 아무래도'\n\n90년대 초반을 상징하는, 나아가 80년대 후반과 90년대 초를 지배한 뉴잭스윙의 음악이다. 전형적인 뉴잭스윙의 리듬과 킥, 스네어, 베이스가 만들어내는 묵직하고 경쾌한 사운드는 제대로 된 90년대 뉴잭스윙 비트를 보여준다. 여기에 피프티 피프티의 키나만이 가진 그루브가 더해지며 전형적인 90년대 바이브에 지금의 트렌디함까지 함께 담아냈다.\n\n'아무래도' 혹은 발음 그대로 '암울해도', 앞으로 좋은 일이 있을 것이라는 의미를 담은 이 노래는 밝고 신나는 분위기와 함께 자연스럽게 몸을 들썩이게 만든다. 뉴잭스윙이라는 장르를 몰라도 경쾌하게 이어지는 리듬과 멜로디는 듣는 이로 하여금 자연스럽게 즐거움을 느끼게 한다. 거기에 90년대 일상을 담은 듯한 소소한 노랫말은 그 기쁨에 덤이다.\n\n그때만이 가지고 있던 건강하고 영양 있는 즐거움을 맛보고 싶다면 몇 번이고 귀로 곱씹어 듣길 바란다. 그저 즐기면 된다. 리듬에 몸겨 건강하게 내 정서를 살찌게 하자.\n\n[Credit]\n\nLyrics by 야루\nComposed by 야루\nArranged by 야루\n\nVocal by 키나 Of FIFTY FIFTY\nMidi Programming by 권현우, 야루\nAssistant producer by 권현우\nChorus by 현서\nGuide Vocal by 이영서\nMoog Bass by 최훈\nKeyboard by 권현우, 야루\nGuitar by 전홍준\n\nMixed by 유형석 (at WaveStudio)\nMastered by Justin Shturtz (at Sterling Sound)",
+      "description": "",
       "url": "https://music.163.com/#/album?id=402368973"
     },
     {
@@ -281,6 +281,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400942447"
+    },
+    {
+      "id": 401337592,
+      "name": "绝色",
+      "artists": [
+        {
+          "id": 10561,
+          "name": "张靓颖"
+        }
+      ],
+      "artist_names": [
+        "张靓颖"
+      ],
+      "publish_time": 1791388800000,
+      "publish_date": "2026-10-08",
+      "size": 1,
+      "company": "海蝶音乐（天津）有限公司",
+      "pic_url": "https://p3.music.126.net/YZgwX_Lg3AeaamKVaiytZw==/109951174027647162.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401337592"
     },
     {
       "id": 400790226,
@@ -396,6 +419,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=402187027"
+    },
+    {
+      "id": 401447326,
+      "name": "时间不对还是我们不对",
+      "artists": [
+        {
+          "id": 34618589,
+          "name": "悲伤情绪海"
+        }
+      ],
+      "artist_names": [
+        "悲伤情绪海"
+      ],
+      "publish_time": 1791388800000,
+      "publish_date": "2026-10-08",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/ZTsPGLYDi5lXAv4GHV7UeQ==/109951174032481683.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401447326"
     },
     {
       "id": 402213158,
@@ -932,6 +978,29 @@
       "url": "https://music.163.com/#/album?id=400983825"
     },
     {
+      "id": 400376650,
+      "name": "Jump Up",
+      "artists": [
+        {
+          "id": 124853,
+          "name": "터보트로닉 (Turbotronic)"
+        }
+      ],
+      "artist_names": [
+        "터보트로닉 (Turbotronic)"
+      ],
+      "publish_time": 1791388800000,
+      "publish_date": "2026-10-08",
+      "size": 2,
+      "company": "Planet Dance Music",
+      "pic_url": "https://p4.music.126.net/-5Pinb7Icbiz9v1hiDQCng==/109951173995639439.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400376650"
+    },
+    {
       "id": 400227640,
       "name": "Japanese ZEN ～Peaceful Music for Sleep & Meditation～",
       "artists": [
@@ -1113,7 +1182,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "REDH",
-      "pic_url": "https://p4.music.126.net/UFMPD6IzOiFMV9PiC0hxFA==/109951173986894456.jpg",
+      "pic_url": "https://p3.music.126.net/UFMPD6IzOiFMV9PiC0hxFA==/109951173986894456.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
