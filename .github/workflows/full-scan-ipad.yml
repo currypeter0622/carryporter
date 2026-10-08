@@ -230,12 +230,41 @@ jobs:
 
                 COOKIE="$(
                   jq -r '
-                    .cookie
-                    // .data.cookie
-                    // empty
-                  ' /tmp/qr-status.json |
-                  sed -n 's/.*MUSIC_U=\([^;[:space:]]*\).*/MUSIC_U=\1;/p'
+                    (.cookie // .data.cookie // []) |
+                    if type == "array" then join(";")
+                    elif type == "string" then .
+                    else empty
+                    end
+                  ' /tmp/qr-status.json
                 )"
+
+                if ! printf '%s' "$COOKIE" | grep -q 'MUSIC_U='; then
+                  echo "登录成功，但没有取得有效 Cookie。"
+                  exit 1
+                fi
+
+                echo "::add-mask::$COOKIE"
+
+                echo "[AUTH] 已取得完整登录 Cookie。"
+                echo "[AUTH] 准备验证登录状态…"
+
+                AUTH_STATUS="$(
+                  curl -fsS --get \
+                    --data-urlencode "cookie=${COOKIE}" \
+                    --data-urlencode "timestamp=$(date +%s%3N)" \
+                    "${API}/login/status"
+                )"
+
+                AUTH_CODE="$(printf '%s' "$AUTH_STATUS" | jq -r '.code // empty')"
+
+                if [ "$AUTH_CODE" != "200" ]; then
+                  echo "[AUTH] 登录状态验证失败，code=${AUTH_CODE:-unknown}"
+                  exit 1
+                fi
+
+                echo "[AUTH] 登录状态验证成功。"
+
+                break
 
                 if [ -z "$COOKIE" ]; then
                   echo "登录成功，但没有取得 MUSIC_U。"
