@@ -225,7 +225,7 @@ jobs:
                 echo "[QR] 已扫码，等待确认…"
                 ;;
 
-              803)
+                            803)
                 echo "[QR] 登录成功。"
 
                 COOKIE="$(
@@ -244,19 +244,7 @@ jobs:
                 fi
 
                 echo "::add-mask::$COOKIE"
-
                 echo "[AUTH] 已取得完整登录 Cookie。"
-                echo "[AUTH] 准备验证登录状态…"
-                
-                break
-
-                if [ -z "$COOKIE" ]; then
-                  echo "登录成功，但没有取得 MUSIC_U。"
-                  exit 1
-                fi
-
-                # 防止 Cookie 出现在后续 Actions 日志中
-                echo "::add-mask::$COOKIE"
 
                 break
                 ;;
