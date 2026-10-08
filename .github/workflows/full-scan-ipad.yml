@@ -132,23 +132,23 @@ jobs:
             > /tmp/netease-login-qr.png
 
           cat > /tmp/netease-login-instructions.txt <<'EOF'
-网易云二维码登录（iPad）
+          网易云二维码登录（iPad）
 
-1. 保持这个 GitHub Actions 任务运行，不要取消。
-2. 下载 Artifact：netease-qr-login。
-3. 解压后找到 netease-login-qr.png。
-4. 打开 iPad 上的网易云音乐 App。
-5. 打开“扫一扫”。
-6. 点击“相册”。
-7. 选择 netease-login-qr.png。
-8. 出现登录授权提示后，确认授权。
-9. 回到 GitHub Actions 页面，等待任务继续。
+          1. 保持这个 GitHub Actions 任务运行，不要取消。
+          2. 下载 Artifact：netease-qr-login。
+          3. 解压后找到 netease-login-qr.png。
+          4. 打开 iPad 上的网易云音乐 App。
+          5. 打开“扫一扫”。
+          6. 点击“相册”。
+          7. 选择 netease-login-qr.png。
+          8. 出现登录授权提示后，确认授权。
+          9. 回到 GitHub Actions 页面，等待任务继续。
 
-注意：
-- 二维码有有效期，请生成后尽快扫描。
-- 不要把二维码图片发给别人。
-- 登录得到的 MUSIC_U 只用于这一次 Actions 运行，不保存到仓库。
-EOF
+          注意：
+          - 二维码有有效期，请尽快扫描。
+          - 不要把二维码图片发给别人。
+          - 登录得到的 MUSIC_U 只用于这一次 Actions 运行，不保存到仓库。
+          EOF
 
           {
             echo "### iPad 二维码登录"
