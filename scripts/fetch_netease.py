@@ -953,7 +953,7 @@ def run_reference_candidate_pool(
         names.extend(c.get("album_name") for c in by_new.get(aid, []))
         return (aid, *fetch_album_detail(local, aid, cookie, names, cache, need_songs=(aid in by_new)))
 
-        with ThreadPoolExecutor(max_workers=THREADS) as pool:
+    with ThreadPoolExecutor(max_workers=THREADS) as pool:
         total_done = 0
 
         for batch_start in range(0, len(album_ids), 500):
@@ -981,7 +981,7 @@ def run_reference_candidate_pool(
                     )
 
             save_json_atomic(CACHE_FILE, cache)
-            print(f"[cache] 已保存 checkpoint：{total_done}/{len(album_ids)}")
+            print(f"[cache] 已保存 checkpoint：{total_done}/{len(album_ids)}")        
 
     external_ids: set[str] = set()
     new_ids: set[str] = set()
