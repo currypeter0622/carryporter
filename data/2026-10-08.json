@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
-  "generated_at": "2026-10-08T19:46:45.417342+08:00",
-  "count": 74,
+  "generated_at": "2026-10-08T23:21:56.475721+08:00",
+  "count": 78,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 29,
+        "target_count": 32,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 8,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 13,
+        "target_count": 14,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 6,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 13,
+        "target_count": 14,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -141,7 +141,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,11 +155,9 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 705,
+      "search_candidates": 730,
       "verified_target_count": 10,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2078,
@@ -176,22 +174,55 @@
         "source": "cache"
       },
       "relations": 79792,
-      "new_album_candidates": 77,
-      "unique_albums": 36663,
-      "detail_success": 36662,
+      "new_album_candidates": 79,
+      "unique_albums": 36664,
+      "detail_success": 36663,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1050,
+      "date_hit_albums": 1054,
       "verify_artists": 676,
       "owned_failures": 0,
-      "external_hits": 275,
-      "new_release_hits": 98,
+      "external_hits": 274,
+      "new_release_hits": 100,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 74
+    "unique_album_count": 78
   },
   "albums": [
+    {
+      "id": 402739950,
+      "name": "《反乌托邦Pt.2》，但是反驳型人格",
+      "artists": [
+        {
+          "id": "59655434",
+          "name": "洛天依"
+        },
+        {
+          "id": "129159334",
+          "name": "零蛋填词昆西昆"
+        },
+        {
+          "id": "12046092",
+          "name": "星尘"
+        }
+      ],
+      "artist_names": [
+        "洛天依",
+        "零蛋填词昆西昆",
+        "星尘"
+      ],
+      "publish_time": 1791460800000,
+      "publish_date": "2026-10-08",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/rU0pJETVvq6V2CpZzX0lcg==/109951174075674897.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402739950"
+    },
     {
       "id": 402746903,
       "name": "屏蔽朋友圈",
@@ -241,7 +272,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "北河三（北京）文化传媒有限公司",
-      "pic_url": "https://p4.music.126.net/F6Qr9zw4UiD0DRZqskOmgg==/109951174076019215.jpg",
+      "pic_url": "https://p3.music.126.net/F6Qr9zw4UiD0DRZqskOmgg==/109951174076019215.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -287,7 +318,7 @@
       "publish_date": "2026-10-08",
       "size": 6,
       "company": "RBW Inc.",
-      "pic_url": "https://p4.music.126.net/fCYBEUTWKntR1H74bEMUew==/109951174075422603.jpg",
+      "pic_url": "https://p3.music.126.net/fCYBEUTWKntR1H74bEMUew==/109951174075422603.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -333,7 +364,7 @@
       "publish_date": "2026-10-08",
       "size": 2,
       "company": "Kakao Entertainment Corp.",
-      "pic_url": "https://p3.music.126.net/8ruYq9ulSoozsx3BrItAEA==/109951174065920529.jpg",
+      "pic_url": "https://p4.music.126.net/8ruYq9ulSoozsx3BrItAEA==/109951174065920529.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -425,7 +456,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "처리",
-      "pic_url": "https://p4.music.126.net/aAk7hU42CcESDKVbqz07ew==/109951174041079635.jpg",
+      "pic_url": "https://p3.music.126.net/aAk7hU42CcESDKVbqz07ew==/109951174041079635.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -563,7 +594,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "海蝶音乐",
-      "pic_url": "https://p4.music.126.net/_QT_rKAD5zsFRVq-aJ2OnA==/109951173986962977.jpg",
+      "pic_url": "https://p3.music.126.net/_QT_rKAD5zsFRVq-aJ2OnA==/109951173986962977.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -632,7 +663,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/ZTsPGLYDi5lXAv4GHV7UeQ==/109951174032481683.jpg",
+      "pic_url": "https://p3.music.126.net/ZTsPGLYDi5lXAv4GHV7UeQ==/109951174032481683.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -840,6 +871,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=398167023"
+    },
+    {
+      "id": 402730746,
+      "name": "あかねさす頃",
+      "artists": [
+        {
+          "id": "15021101",
+          "name": "ずっと真夜中でいいのに。"
+        }
+      ],
+      "artist_names": [
+        "ずっと真夜中でいいのに。"
+      ],
+      "publish_time": 1791388800000,
+      "publish_date": "2026-10-08",
+      "size": 1,
+      "company": "Universal Music LLC",
+      "pic_url": "https://p3.music.126.net/ZI_saDvp5XFnpwPg1C_TNA==/109951174077481119.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402730746"
     },
     {
       "id": 402673122,
@@ -1074,7 +1128,7 @@
       "publish_date": "2026-10-08",
       "size": 7,
       "company": "FNC ENTERTAINMENT",
-      "pic_url": "https://p4.music.126.net/X4PqvJkA-v3X9jcrlNd1Jg==/109951173976357679.jpg",
+      "pic_url": "https://p3.music.126.net/X4PqvJkA-v3X9jcrlNd1Jg==/109951173976357679.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1097,7 +1151,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/opmCfv6luDsMpf2Fcstx8g==/109951174000207303.jpg",
+      "pic_url": "https://p3.music.126.net/opmCfv6luDsMpf2Fcstx8g==/109951174000207303.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1333,6 +1387,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400227640"
+    },
+    {
+      "id": 402795065,
+      "name": "I Want",
+      "artists": [
+        {
+          "id": 121984357,
+          "name": "LILI粒粒"
+        }
+      ],
+      "artist_names": [
+        "LILI粒粒"
+      ],
+      "publish_time": 1791388800000,
+      "publish_date": "2026-10-08",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/7StEflM1vGuccG5fmYhwZQ==/109951174077198360.jpg",
+      "sub_type": "Beat",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402795065"
     },
     {
       "id": 400951220,
@@ -1608,6 +1685,29 @@
       "url": "https://music.163.com/#/album?id=400982335"
     },
     {
+      "id": 402794102,
+      "name": "End My Loneliness",
+      "artists": [
+        {
+          "id": 123371,
+          "name": "CRUCiAL STAR"
+        }
+      ],
+      "artist_names": [
+        "CRUCiAL STAR"
+      ],
+      "publish_time": 1791388800000,
+      "publish_date": "2026-10-08",
+      "size": 1,
+      "company": "NHN BUGS",
+      "pic_url": "https://p3.music.126.net/udPKiJ8EJcQwjNNpzG_9EQ==/109951174077128986.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402794102"
+    },
+    {
       "id": 400946825,
       "name": "Dormant Series: Etherness",
       "artists": [
@@ -1692,7 +1792,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/VvRiBrz875B0nHyd_oMBzg==/109951174069071055.jpg",
+      "pic_url": "https://p3.music.126.net/VvRiBrz875B0nHyd_oMBzg==/109951174069071055.jpg",
       "sub_type": "现场版",
       "type": "Single",
       "status": 1,
@@ -1799,7 +1899,7 @@
       "publish_date": "2026-10-08",
       "size": 1,
       "company": "张艺兴工作室",
-      "pic_url": "https://p3.music.126.net/5maGWOdf2tW5gqjZV5n96Q==/109951173991864159.jpg",
+      "pic_url": "https://p4.music.126.net/5maGWOdf2tW5gqjZV5n96Q==/109951173991864159.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1924,7 +2024,7 @@
       "publish_date": "2026-10-08",
       "size": 10,
       "company": "华纳音乐",
-      "pic_url": "https://p3.music.126.net/ZYN6NbO1lz49SrQEJ9wwSA==/109951174060373379.jpg",
+      "pic_url": "https://p4.music.126.net/ZYN6NbO1lz49SrQEJ9wwSA==/109951174060373379.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
