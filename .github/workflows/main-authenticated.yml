@@ -10,9 +10,9 @@ on:
         type: string
 
       rescan_days:
-        description: "连续扫描几天，默认 2 天"
+        description: "连续扫描几天，默认1天"
         required: false
-        default: "2"
+        default: "1"
         type: string
 
   schedule:
@@ -23,6 +23,9 @@ on:
     # 北京时间 04:00 = UTC 20:00（前一天）
     - cron: "0 20 * * *"
 
+    # 北京时间 12:00 = UTC 04:00
+    - cron: "0 4 * * *"
+    
     # 北京时间 19:00 = UTC 11:00
     - cron: "0 11 * * *"
 
@@ -103,12 +106,12 @@ jobs:
           if [ -n "${{ inputs.date }}" ]; then
             python -u scripts/fetch_netease.py \
               --date "${{ inputs.date }}" \
-              --rescan-days "${{ inputs.rescan_days || '2' }}" \
+              --rescan-days "${{ inputs.rescan_days || '1' }}" \
               --full \
               --va-rescue
           else
             python -u scripts/fetch_netease.py \
-              --rescan-days "${{ inputs.rescan_days || '2' }}" \
+              --rescan-days "${{ inputs.rescan_days || '1' }}" \
               --full \
               --va-rescue
           fi
