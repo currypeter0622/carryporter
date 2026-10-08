@@ -317,7 +317,7 @@ jobs:
           else
 
             NETEASE_MUSIC_U="$COOKIE" \
-            python scripts/fetch_netease.py \
+            python -u scripts/fetch_netease.py \
               --rescan-days "${{ inputs.rescan_days || '2' }}" \
               $FULL_ARG $VA_ARG
 
