@@ -43,22 +43,28 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Start NetEase API
         shell: bash
         run: |
-          nohup npx -y NeteaseCloudMusicApi@4.32.0 > /tmp/netease-api.log 2>&1 &
+          set -euo pipefail
+
+          nohup npx -y @neteasecloudmusicapienhanced/api@4.41.1 \
+            > /tmp/netease-api.log 2>&1 &
+
           for i in {1..90}; do
             if curl -fsS http://127.0.0.1:3000/ >/dev/null 2>&1; then
               echo "NetEase API is ready."
               break
             fi
+
             if [ "$i" -eq 90 ]; then
               echo "NetEase API failed to start."
               tail -200 /tmp/netease-api.log || true
               exit 1
             fi
+
             sleep 1
           done
 
@@ -67,20 +73,114 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Verify MUSIC_U secret exists
-        env:
-          NETEASE_MUSIC_U: ${{ secrets.NETEASE_MUSIC_U }}
+      - name: Generate iPad QR login
+        shell: bash
         run: |
-          if [ -z "$NETEASE_MUSIC_U" ]; then
-            echo "缺少仓库 Secret：NETEASE_MUSIC_U"
-            echo "请在 Settings -> Secrets and variables -> Actions 中添加。"
+          set -euo pipefail
+
+          API="http://127.0.0.1:3000"
+
+          curl -fsS --get \
+            --data-urlencode "timestamp=$(date +%s%3N)" \
+            "${API}/login/qr/key" \
+            > /tmp/qr-key.json
+
+          QR_KEY="$(
+            jq -r '
+              .data.unikey
+              // .unikey
+              // .data.key
+              // .key
+              // empty
+            ' /tmp/qr-key.json
+          )"
+
+          if [ -z "$QR_KEY" ]; then
+            echo "无法取得二维码 key。"
+            cat /tmp/qr-key.json
             exit 1
           fi
 
-      - name: Run full scanner
+          curl -fsS --get \
+            --data-urlencode "key=${QR_KEY}" \
+            --data-urlencode "qrimg=true" \
+            --data-urlencode "timestamp=$(date +%s%3N)" \
+            "${API}/login/qr/create" \
+            > /tmp/qr-create.json
+
+          QR_IMAGE="$(
+            jq -r '
+              .data.qrimg
+              // .data.img
+              // .qrimg
+              // .img
+              // empty
+            ' /tmp/qr-create.json
+          )"
+
+          if [ -z "$QR_IMAGE" ]; then
+            echo "无法取得二维码图片。"
+            cat /tmp/qr-create.json
+            exit 1
+          fi
+
+          if [[ "$QR_IMAGE" == data:image* ]]; then
+            QR_IMAGE="${QR_IMAGE#*,}"
+          fi
+
+          printf '%s' "$QR_IMAGE" | base64 -d \
+            > /tmp/netease-login-qr.png
+
+          cat > /tmp/netease-login-instructions.txt <<'EOF'
+网易云二维码登录（iPad）
+
+1. 保持这个 GitHub Actions 任务运行，不要取消。
+2. 下载 Artifact：netease-qr-login。
+3. 解压后找到 netease-login-qr.png。
+4. 打开 iPad 上的网易云音乐 App。
+5. 打开“扫一扫”。
+6. 点击“相册”。
+7. 选择 netease-login-qr.png。
+8. 出现登录授权提示后，确认授权。
+9. 回到 GitHub Actions 页面，等待任务继续。
+
+注意：
+- 二维码有有效期，请生成后尽快扫描。
+- 不要把二维码图片发给别人。
+- 登录得到的 MUSIC_U 只用于这一次 Actions 运行，不保存到仓库。
+EOF
+
+          {
+            echo "### iPad 二维码登录"
+            echo
+            echo "二维码已生成。"
+            echo
+            echo "请下载 Artifact：\`netease-qr-login\`"
+            echo
+            echo "然后在网易云音乐 App 中使用：**扫一扫 → 相册**，选择 \`netease-login-qr.png\`。"
+            echo
+            echo "**不要取消当前任务，扫码成功后会自动开始全量扫描。**"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          {
+            echo "NETEASE_QR_KEY<<EOF"
+            echo "$QR_KEY"
+            echo "EOF"
+          } >> "$GITHUB_ENV"
+
+      - name: Upload QR image for iPad
+        uses: actions/upload-artifact@v4
+        with:
+          name: netease-qr-login
+          path: |
+            /tmp/netease-login-qr.png
+            /tmp/netease-login-instructions.txt
+          if-no-files-found: error
+          retention-days: 1
+
+      - name: Wait for QR authorization and run full scanner
         env:
           NETEASE_API_BASE: http://127.0.0.1:3000
-          NETEASE_MUSIC_U: ${{ secrets.NETEASE_MUSIC_U }}
           NETEASE_SCAN_THREADS: "4"
           NETEASE_PAGE_SIZE: "30"
           NETEASE_MAX_PAGES: "500"
@@ -89,6 +189,86 @@ jobs:
           NETEASE_OWNED_VERIFY_LIMIT: "50"
         shell: bash
         run: |
+          set -euo pipefail
+
+          API="${NETEASE_API_BASE}"
+          COOKIE=""
+
+          echo "请在 iPad 上下载 Artifact：netease-qr-login"
+          echo "然后使用网易云音乐 App 的“扫一扫 -> 相册”扫描二维码。"
+          echo "最多等待 8 分钟。"
+
+          for i in {1..160}; do
+
+            if ! curl -fsS --get \
+              --data-urlencode "key=${NETEASE_QR_KEY}" \
+              --data-urlencode "timestamp=$(date +%s%3N)" \
+              "${API}/login/qr/check" \
+              > /tmp/qr-status.json; then
+
+              echo "[QR] 检查暂时失败，3 秒后重试。"
+              sleep 3
+              continue
+            fi
+
+            CODE="$(
+              jq -r '.code // empty' /tmp/qr-status.json
+            )"
+
+            case "$CODE" in
+
+              801)
+                echo "[QR] 等待扫码…"
+                ;;
+
+              802)
+                echo "[QR] 已扫码，等待确认…"
+                ;;
+
+              803)
+                echo "[QR] 登录成功。"
+
+                COOKIE="$(
+                  jq -r '
+                    .cookie
+                    // .data.cookie
+                    // empty
+                  ' /tmp/qr-status.json |
+                  sed -n 's/.*MUSIC_U=\([^;[:space:]]*\).*/MUSIC_U=\1;/p'
+                )"
+
+                if [ -z "$COOKIE" ]; then
+                  echo "登录成功，但没有取得 MUSIC_U。"
+                  exit 1
+                fi
+
+                # 防止 Cookie 出现在后续 Actions 日志中
+                echo "::add-mask::$COOKIE"
+
+                break
+                ;;
+
+              800)
+                echo "二维码已过期，请重新运行这个工作流。"
+                exit 1
+                ;;
+
+              *)
+                echo "[QR] code=${CODE:-unknown}"
+                ;;
+
+            esac
+
+            sleep 3
+          done
+
+          rm -f /tmp/qr-status.json
+
+          if [ -z "$COOKIE" ]; then
+            echo "8 分钟内没有完成二维码授权。"
+            exit 1
+          fi
+
           if [ "${{ inputs.deep_scan }}" = "false" ]; then
             FULL_ARG=""
             VA_ARG="--va-rescue"
@@ -98,15 +278,23 @@ jobs:
           fi
 
           if [ -n "${{ inputs.date }}" ]; then
+
+            NETEASE_MUSIC_U="$COOKIE" \
             python scripts/fetch_netease.py \
               --date "${{ inputs.date }}" \
               --rescan-days "${{ inputs.rescan_days || '2' }}" \
               $FULL_ARG $VA_ARG
+
           else
+
+            NETEASE_MUSIC_U="$COOKIE" \
             python scripts/fetch_netease.py \
               --rescan-days "${{ inputs.rescan_days || '2' }}" \
               $FULL_ARG $VA_ARG
+
           fi
+
+          unset COOKIE
 
       - name: Commit updated data
         shell: bash
