@@ -6,7 +6,9 @@ on:
     branches: ["main"]
 
   workflow_run:
-    workflows: ["Full NetEase release scan"]
+    workflows:
+      - "Full NetEase release scan"
+      - "Update NetEase releases"
     types: [completed]
 
   workflow_dispatch:
