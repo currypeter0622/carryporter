@@ -8,17 +8,23 @@ on:
         required: false
         default: ""
         type: string
+
       rescan_days:
-        description: "抓取几天，默认 2 天"
+        description: "连续扫描几天，默认 2 天"
         required: false
         default: "2"
         type: string
 
   schedule:
-    - cron: "10 0 * * *"
-    - cron: "10 6 * * *"
-    - cron: "10 12 * * *"
-    - cron: "10 18 * * *"
+    # GitHub Actions 使用 UTC
+    # 北京时间 00:08 = UTC 16:08（前一天）
+    - cron: "8 16 * * *"
+
+    # 北京时间 04:00 = UTC 20:00（前一天）
+    - cron: "0 20 * * *"
+
+    # 北京时间 19:00 = UTC 11:00
+    - cron: "0 11 * * *"
 
 permissions:
   contents: write
@@ -30,7 +36,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 360
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -48,39 +55,88 @@ jobs:
       - name: Start NetEase API
         shell: bash
         run: |
-          nohup npx -y NeteaseCloudMusicApi@4.32.0 > /tmp/netease-api.log 2>&1 &
+          set -euo pipefail
+
+          nohup npx -y NeteaseCloudMusicApi@4.32.0 \
+            > /tmp/netease-api.log 2>&1 &
+
           for i in {1..90}; do
-            if curl -fsS http://127.0.0.1:3000/ >/dev/null 2>&1; then exit 0; fi
+            if curl -fsS http://127.0.0.1:3000/ >/dev/null 2>&1; then
+              echo "NetEase API is ready."
+              break
+            fi
+
+            if [ "$i" -eq 90 ]; then
+              echo "NetEase API failed to start."
+              tail -200 /tmp/netease-api.log || true
+              exit 1
+            fi
+
             sleep 1
           done
-          cat /tmp/netease-api.log || true
-          exit 1
 
       - name: Install dependencies
+        shell: bash
         run: |
+          set -euo pipefail
+
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Fetch authenticated global releases
+      - name: Fetch authenticated full releases
         env:
           NETEASE_API_BASE: http://127.0.0.1:3000
           NETEASE_MUSIC_U: ${{ secrets.NETEASE_MUSIC_U }}
+
           NETEASE_SCAN_THREADS: "4"
           NETEASE_PAGE_SIZE: "30"
           NETEASE_MAX_PAGES: "500"
+
+          NETEASE_RECENT_LIMIT: "50"
+          NETEASE_NEW_ALBUM_PROBE_LIMIT: "20"
+          NETEASE_OWNED_VERIFY_LIMIT: "50"
+
         shell: bash
         run: |
+          set -euo pipefail
+
           if [ -n "${{ inputs.date }}" ]; then
-            python scripts/fetch_netease.py --date "${{ inputs.date }}" --rescan-days "${{ inputs.rescan_days || '2' }}" --va-rescue
+            python -u scripts/fetch_netease.py \
+              --date "${{ inputs.date }}" \
+              --rescan-days "${{ inputs.rescan_days || '2' }}" \
+              --full \
+              --va-rescue
           else
-            python scripts/fetch_netease.py --rescan-days "${{ inputs.rescan_days || '2' }}" --va-rescue
+            python -u scripts/fetch_netease.py \
+              --rescan-days "${{ inputs.rescan_days || '2' }}" \
+              --full \
+              --va-rescue
           fi
 
       - name: Commit updated data
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*.json data/album_cache.json data/artist_cache_*.json
-          if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
+
+          git add \
+            data/*.json \
+            data/album_cache.json \
+            data/artist_cache_*.json
+
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+
           git commit -m "Update NetEase release data"
           git push
+
+      - name: API diagnostics on failure
+        if: failure()
+        shell: bash
+        run: |
+          echo "========== NetEase API log =========="
+          tail -300 /tmp/netease-api.log || true
