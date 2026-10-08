@@ -953,20 +953,35 @@ def run_reference_candidate_pool(
         names.extend(c.get("album_name") for c in by_new.get(aid, []))
         return (aid, *fetch_album_detail(local, aid, cookie, names, cache, need_songs=(aid in by_new)))
 
-    with ThreadPoolExecutor(max_workers=THREADS) as pool:
-        futures = [pool.submit(detail_worker, aid) for aid in album_ids]
-        for i, fut in enumerate(as_completed(futures), 1):
-            aid, detail, info = fut.result()
-            if detail:
-                details[aid] = detail
-            else:
-                detail_errors += 1
-            if info.get("mismatch"):
-                detail_mismatch += 1
-            if i % 50 == 0 or i == len(album_ids):
-                print(f"[full][album-detail] {i}/{len(album_ids)}；成功={len(details)}；错误={detail_errors}；错配={detail_mismatch}")
+        with ThreadPoolExecutor(max_workers=THREADS) as pool:
+        total_done = 0
 
-    save_json_atomic(CACHE_FILE, cache)
+        for batch_start in range(0, len(album_ids), 500):
+            batch_ids = album_ids[batch_start:batch_start + 500]
+
+            futures = [pool.submit(detail_worker, aid) for aid in batch_ids]
+
+            for fut in as_completed(futures):
+                total_done += 1
+
+                aid, detail, info = fut.result()
+
+                if detail:
+                    details[aid] = detail
+                else:
+                    detail_errors += 1
+
+                if info.get("mismatch"):
+                    detail_mismatch += 1
+
+                if total_done % 50 == 0 or total_done == len(album_ids):
+                    print(
+                        f"[full][album-detail] {total_done}/{len(album_ids)}；"
+                        f"成功={len(details)}；错误={detail_errors}；错配={detail_mismatch}"
+                    )
+
+            save_json_atomic(CACHE_FILE, cache)
+            print(f"[cache] 已保存 checkpoint：{total_done}/{len(album_ids)}")
 
     external_ids: set[str] = set()
     new_ids: set[str] = set()
