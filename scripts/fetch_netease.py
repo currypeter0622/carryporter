@@ -84,10 +84,12 @@ def normalize_cookie(raw: str) -> str:
     raw = (raw or "").strip()
     if not raw:
         return ""
+
     if "MUSIC_U=" in raw:
-        import re
-        m = re.search(r"MUSIC_U=([^;\s]+)", raw)
-        return f"MUSIC_U={m.group(1)};" if m else raw
+        # 保留二维码登录返回的完整 Cookie，
+        # 不再只截取 MUSIC_U。
+        return raw if raw.endswith(";") else raw + ";"
+
     return f"MUSIC_U={raw};"
 
 
