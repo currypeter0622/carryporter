@@ -1,18 +1,54 @@
 {
-  "saved_at": 1791443308.3781886,
-  "count": 2078,
+  "saved_at": 1791544573.3005042,
+  "count": 2087,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2078,
-    "server_count": 2078,
+    "count": 2087,
+    "server_count": 2087,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1791443308.3781435
+    "saved_at": 1791544573.3004694
   },
   "artists": [
+    {
+      "id": "56458284",
+      "name": "qyurisuu"
+    },
+    {
+      "id": "33258237",
+      "name": "West Collins"
+    },
+    {
+      "id": "45129",
+      "name": "Troye Sivan"
+    },
+    {
+      "id": "30140607",
+      "name": "HAAi"
+    },
+    {
+      "id": "59210756",
+      "name": "SunsetStation"
+    },
+    {
+      "id": "12028045",
+      "name": "HAUS"
+    },
+    {
+      "id": "41143",
+      "name": "Pitbull"
+    },
+    {
+      "id": "58864361",
+      "name": "AUBINEAU"
+    },
+    {
+      "id": "955117",
+      "name": "Skyknock"
+    },
     {
       "id": "46370121",
       "name": ".cutspace"
