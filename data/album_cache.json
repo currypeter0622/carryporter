@@ -393449,7 +393449,7 @@
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1791546592.640778
+    "cached_at": 1791578280.9352934
   },
   "265689789": {
     "album_id": "265689789",
@@ -739927,5 +739927,47 @@
         "name": "Purga Humana"
       }
     ]
+  },
+  "403040470": {
+    "album_id": "403040470",
+    "album_name": "Ha sírni látom",
+    "date_str": "2026-10-09",
+    "publish_ts": 1791475200000,
+    "artist_ids": [
+      "12122118"
+    ],
+    "artist_names": [
+      "HUMAN"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/AicyN837IDES8GaexfU49g==/109951174084231570.jpg",
+    "company": "human",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791578276.2937343,
+    "songs": [
+      {
+        "id": "3446075002",
+        "name": "Ha sírni látom"
+      }
+    ]
+  },
+  "403080282": {
+    "album_id": "403080282",
+    "album_name": "Ion Cannon",
+    "date_str": "2026-10-06",
+    "publish_ts": 1791216000000,
+    "artist_ids": [
+      "55748821"
+    ],
+    "artist_names": [
+      "YA_BOI_MAX1221"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/dozxq6SnaBEh2mCdItE6xg==/109951174085449959.jpg",
+    "company": "Ya_boi_max1221",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791578280.6573849
   }
 }

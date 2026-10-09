@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
-  "generated_at": "2026-10-10T00:55:22.897411+08:00",
-  "count": 41,
+  "generated_at": "2026-10-10T04:45:19.478265+08:00",
+  "count": 42,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 10,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -173,21 +173,21 @@
         "saved_at": 1791544573.3004694,
         "source": "cache"
       },
-      "relations": 80290,
+      "relations": 80289,
       "new_album_candidates": 121,
       "unique_albums": 36944,
       "detail_success": 36943,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1063,
+      "date_hit_albums": 1065,
       "verify_artists": 666,
       "owned_failures": 0,
       "external_hits": 286,
-      "new_release_hits": 164,
+      "new_release_hits": 165,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 41
+    "unique_album_count": 42
   },
   "albums": [
     {
@@ -206,7 +206,7 @@
       "publish_date": "2026-10-10",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/Yg08s8JACD6eZ1q_psVMUw==/109951174082106809.jpg",
+      "pic_url": "https://p3.music.126.net/Yg08s8JACD6eZ1q_psVMUw==/109951174082106809.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -331,7 +331,7 @@
       "publish_date": "2026-10-10",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/UwdW4LAQW1iHlva9wnVA9g==/109951174082756286.jpg",
+      "pic_url": "https://p4.music.126.net/UwdW4LAQW1iHlva9wnVA9g==/109951174082756286.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -940,6 +940,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401349327"
+    },
+    {
+      "id": 401931076,
+      "name": "Katakoto",
+      "artists": [
+        {
+          "id": 129625947,
+          "name": "OVATANG"
+        }
+      ],
+      "artist_names": [
+        "OVATANG"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 10,
+      "company": "OVATANG",
+      "pic_url": "https://p3.music.126.net/0-0Cayr_VG9Yli6dD_G2oQ==/109951174048603008.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401931076"
     },
     {
       "id": 401357673,
