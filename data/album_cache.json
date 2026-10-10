@@ -393443,11 +393443,11 @@
       "Various Artists"
     ],
     "size": 30,
-    "pic_url": "https://p4.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
+    "pic_url": "https://p3.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1791632261.3192296
+    "cached_at": 1791664520.7022398
   },
   "265689789": {
     "album_id": "265689789",
@@ -723052,11 +723052,11 @@
       "V.A."
     ],
     "size": 8,
-    "pic_url": "https://p4.music.126.net/LpNvvEzb6fttfnDSedvEjg==/109951174069293688.jpg",
+    "pic_url": "https://p3.music.126.net/LpNvvEzb6fttfnDSedvEjg==/109951174069293688.jpg",
     "company": "华纳音乐",
     "sub_type": "现场版",
     "type": "专辑",
-    "cached_at": 1791606916.626814,
+    "cached_at": 1791663184.142278,
     "songs": [
       {
         "id": "3444760301",
@@ -740024,7 +740024,7 @@
     "company": "",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1791606915.106849,
+    "cached_at": 1791663185.7176392,
     "songs": [
       {
         "id": "3445862496",
@@ -744751,6 +744751,84 @@
       {
         "id": "3441238229",
         "name": "Matunga"
+      }
+    ]
+  },
+  "501575": {
+    "album_id": "501575",
+    "album_name": "Forrest Gump (The Soundtrack)",
+    "date_str": "2001-10-02",
+    "publish_ts": 1001952000000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 32,
+    "pic_url": "https://p4.music.126.net/ZRkk20w2kAA0gGCtgNep0w==/109951167541597517.jpg",
+    "company": "索尼音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1791663185.0192838
+  },
+  "504141": {
+    "album_id": "504141",
+    "album_name": "Sexy R&B",
+    "date_str": "2010-04-12",
+    "publish_ts": 1271001600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 39,
+    "pic_url": "https://p3.music.126.net/orla605w_-7N7zHHaRY8Lg==/109951165994956306.jpg",
+    "company": "索尼音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1791663186.7687201
+  },
+  "138071399": {
+    "album_id": "138071399",
+    "album_name": "Valentine Pop Hits 2022",
+    "date_str": "2022-05-20",
+    "publish_ts": 1652976000000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 23,
+    "pic_url": "https://p3.music.126.net/KEcByN6BFnnKZJVH7bE5oA==/109951169811105133.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1791663187.5783718
+  },
+  "403260214": {
+    "album_id": "403260214",
+    "album_name": "Не сьогодні",
+    "date_str": "2026-10-10",
+    "publish_ts": 1791561600000,
+    "artist_ids": [
+      "533834"
+    ],
+    "artist_names": [
+      "LEYA"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/WwSpB4cBDZbxlLtdZ6qsLw==/109951174090201295.jpg",
+    "company": "LEYA",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791664474.1671815,
+    "songs": [
+      {
+        "id": "3446510122",
+        "name": "Не сьогодні"
       }
     ]
   }

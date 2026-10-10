@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
-  "generated_at": "2026-10-11T00:50:50.210698+08:00",
-  "count": 23,
+  "generated_at": "2026-10-11T04:42:18.989738+08:00",
+  "count": 25,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 10,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 8,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 5,
+        "target_count": 7,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 732,
+      "search_candidates": 724,
       "verified_target_count": 4,
       "errors": []
     },
@@ -171,23 +171,23 @@
         "had_repeat": false,
         "error": null,
         "saved_at": 1791648566.9248843,
-        "source": "live"
+        "source": "cache"
       },
       "relations": 80605,
-      "new_album_candidates": 42,
-      "unique_albums": 37046,
-      "detail_success": 37045,
+      "new_album_candidates": 43,
+      "unique_albums": 37047,
+      "detail_success": 37046,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1032,
+      "date_hit_albums": 1033,
       "verify_artists": 673,
       "owned_failures": 0,
       "external_hits": 276,
-      "new_release_hits": 61,
+      "new_release_hits": 62,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 23
+    "unique_album_count": 25
   },
   "albums": [
     {
@@ -298,7 +298,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/rZHkt-kzz9d8kd6pL2iZhQ==/109951174087011455.jpg",
+      "pic_url": "https://p4.music.126.net/rZHkt-kzz9d8kd6pL2iZhQ==/109951174087011455.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -321,7 +321,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "说唱家-宇歌风行",
-      "pic_url": "https://p4.music.126.net/wUjsQtUlhQiye0nvXnNXnw==/109951174075295753.jpg",
+      "pic_url": "https://p3.music.126.net/wUjsQtUlhQiye0nvXnNXnw==/109951174075295753.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -355,6 +355,52 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=402746905"
+    },
+    {
+      "id": 402761175,
+      "name": "思念像一场重感冒·开始奏乐开始舞",
+      "artists": [
+        {
+          "id": 1079074,
+          "name": "余佳运"
+        }
+      ],
+      "artist_names": [
+        "余佳运"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 2,
+      "company": "如乐而至",
+      "pic_url": "https://p4.music.126.net/Jv36uPpNVv6mo1UXqlUUXQ==/109951174076158806.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402761175"
+    },
+    {
+      "id": 402760979,
+      "name": "她·开始奏乐开始舞",
+      "artists": [
+        {
+          "id": 12917484,
+          "name": "周震南"
+        }
+      ],
+      "artist_names": [
+        "周震南"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 2,
+      "company": "如乐而至",
+      "pic_url": "http://p3.music.126.net/cOwhqhIZsfQ1-Bdg8L_F3Q==/109951174076165559.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "奏乐舞音乐公司倾心奉献 诚意出品",
+      "url": "https://music.163.com/#/album?id=402760979"
     },
     {
       "id": 394811577,
@@ -584,7 +630,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/EWfoizKu2rA9Dko4mCBzeA==/109951174027589210.jpg",
+      "pic_url": "https://p3.music.126.net/EWfoizKu2rA9Dko4mCBzeA==/109951174027589210.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
