@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
-  "generated_at": "2026-10-10T04:45:19.478265+08:00",
-  "count": 42,
+  "generated_at": "2026-10-10T12:43:00.828166+08:00",
+  "count": 57,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 10,
+        "target_count": 21,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 13,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 3,
+        "target_count": 4,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 3,
+        "target_count": 9,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 3,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,8 +154,8 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 6,
-      "search_candidates": 533,
+      "queries_ok": 7,
+      "search_candidates": 479,
       "verified_target_count": 4,
       "errors": []
     },
@@ -173,23 +173,74 @@
         "saved_at": 1791544573.3004694,
         "source": "cache"
       },
-      "relations": 80289,
-      "new_album_candidates": 121,
-      "unique_albums": 36944,
-      "detail_success": 36943,
+      "relations": 80301,
+      "new_album_candidates": 124,
+      "unique_albums": 36942,
+      "detail_success": 36941,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1065,
-      "verify_artists": 666,
+      "date_hit_albums": 1073,
+      "verify_artists": 669,
       "owned_failures": 0,
-      "external_hits": 286,
-      "new_release_hits": 165,
+      "external_hits": 289,
+      "new_release_hits": 170,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 42
+    "unique_album_count": 57
   },
   "albums": [
+    {
+      "id": 402954003,
+      "name": "秋阳樂",
+      "artists": [
+        {
+          "id": 2515,
+          "name": "窦唯"
+        },
+        {
+          "id": 33154502,
+          "name": "朝简"
+        }
+      ],
+      "artist_names": [
+        "窦唯",
+        "朝简"
+      ],
+      "publish_time": 1791594000000,
+      "publish_date": "2026-10-10",
+      "size": 1,
+      "company": "北京窦唯音乐工作室",
+      "pic_url": "https://p4.music.126.net/nl7V_a97Epxr_g0H0UUYtw==/109951174082115516.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402954003"
+    },
+    {
+      "id": 402369007,
+      "name": "닥터X : 하얀 마피아의 시대 OST Part.2",
+      "artists": [
+        {
+          "id": 31385578,
+          "name": "Moon Sujin"
+        }
+      ],
+      "artist_names": [
+        "Moon Sujin"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 2,
+      "company": "Genie Music Corporation",
+      "pic_url": "https://p3.music.126.net/DNEmRzDNCK5O_TyS6yQbJQ==/109951174065917196.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402369007"
+    },
     {
       "id": 402957107,
       "name": "镀金爱",
@@ -212,6 +263,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=402957107"
+    },
+    {
+      "id": 401338967,
+      "name": "留在原地的人",
+      "artists": [
+        {
+          "id": 12620112,
+          "name": "李一桐"
+        }
+      ],
+      "artist_names": [
+        "李一桐"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 1,
+      "company": "海蝶音乐（天津）有限公司",
+      "pic_url": "https://p3.music.126.net/0a9_eK3grAmkzRsM14FbHg==/109951174027672039.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401338967"
     },
     {
       "id": 401538055,
@@ -258,6 +332,52 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401371374"
+    },
+    {
+      "id": 402973029,
+      "name": "换一场天亮",
+      "artists": [
+        {
+          "id": 893259,
+          "name": "金玟岐"
+        }
+      ],
+      "artist_names": [
+        "金玟岐"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 2,
+      "company": "光羽+",
+      "pic_url": "https://p3.music.126.net/qMVwEnujbyRDFSguqt4OQg==/109951174082185699.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402973029"
+    },
+    {
+      "id": 400914422,
+      "name": "应门者 Pa gur yv y porthaur?",
+      "artists": [
+        {
+          "id": 59573590,
+          "name": "The 1999"
+        }
+      ],
+      "artist_names": [
+        "The 1999"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 9,
+      "company": "上海深蓝互动星锑网络科技有限公司",
+      "pic_url": "https://p4.music.126.net/exNUnks2eAYmg0_WgTEy2g==/109951174017252311.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400914422"
     },
     {
       "id": 402777765,
@@ -331,7 +451,7 @@
       "publish_date": "2026-10-10",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/UwdW4LAQW1iHlva9wnVA9g==/109951174082756286.jpg",
+      "pic_url": "https://p3.music.126.net/UwdW4LAQW1iHlva9wnVA9g==/109951174082756286.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -354,7 +474,7 @@
       "publish_date": "2026-10-10",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/-mFNK9RGQIZXmpimlBjUPQ==/109951174045274118.jpg",
+      "pic_url": "https://p3.music.126.net/-mFNK9RGQIZXmpimlBjUPQ==/109951174045274118.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -763,6 +883,29 @@
       "url": "https://music.163.com/#/album?id=402595258"
     },
     {
+      "id": 403055328,
+      "name": "Trauerlieder",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 34,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/nodeN8UFO3Et9umR5JkWpQ==/109951174084951992.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403055328"
+    },
+    {
       "id": 395543085,
       "name": "THE FAILED SINGER 2",
       "artists": [
@@ -873,6 +1016,29 @@
       "url": "https://music.163.com/#/album?id=399333293"
     },
     {
+      "id": 401982598,
+      "name": "Pronounced “west-wood” (Demo) (Live)",
+      "artists": [
+        {
+          "id": 12910116,
+          "name": "Westwood"
+        }
+      ],
+      "artist_names": [
+        "Westwood"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 5,
+      "company": "Wstwd",
+      "pic_url": "https://p3.music.126.net/gki3Gaj2Bzq7RY-P0l8iKw==/109951174051451712.jpg",
+      "sub_type": "现场版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401982598"
+    },
+    {
       "id": 401315479,
       "name": "Planet Rave",
       "artists": [
@@ -894,6 +1060,57 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401315479"
+    },
+    {
+      "id": 402794344,
+      "name": "Luv it",
+      "artists": [
+        {
+          "id": 128705235,
+          "name": "이도아"
+        }
+      ],
+      "artist_names": [
+        "이도아"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 1,
+      "company": "NHN BUGS",
+      "pic_url": "https://p3.music.126.net/7JLL01GG75miKTOYbhWo7A==/109951174077130931.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402794344"
+    },
+    {
+      "id": 401145761,
+      "name": "Lullaby",
+      "artists": [
+        {
+          "id": 55166464,
+          "name": "LASER"
+        },
+        {
+          "id": 127957793,
+          "name": "LASER-林致"
+        }
+      ],
+      "artist_names": [
+        "LASER",
+        "LASER-林致"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 3,
+      "company": "Guang Hai Yu Le",
+      "pic_url": "https://p4.music.126.net/Du0bC8hqYhQy-MjrsNbu3g==/109951174022780181.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401145761"
     },
     {
       "id": 401088621,
@@ -988,6 +1205,29 @@
       "url": "https://music.163.com/#/album?id=401357673"
     },
     {
+      "id": 401350764,
+      "name": "Into the Void (Vol. 1)",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 7,
+      "company": "Stillvoid Records",
+      "pic_url": "https://p3.music.126.net/VyHsjUU2-fMIOXbYV9ir6w==/109951174027927579.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401350764"
+    },
+    {
       "id": 401882697,
       "name": "Hello! My World!!",
       "artists": [
@@ -1049,6 +1289,52 @@
       "url": "https://music.163.com/#/album?id=400288545"
     },
     {
+      "id": 402769201,
+      "name": "Gonna Witness",
+      "artists": [
+        {
+          "id": 29881090,
+          "name": "何泓姗"
+        }
+      ],
+      "artist_names": [
+        "何泓姗"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 1,
+      "company": "特格浠",
+      "pic_url": "https://p3.music.126.net/hkecVyMZRuAXAsYDGRfUYA==/109951174076349056.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402769201"
+    },
+    {
+      "id": 402534741,
+      "name": "FADE",
+      "artists": [
+        {
+          "id": 129760906,
+          "name": "도아 (위나(We;Na))"
+        }
+      ],
+      "artist_names": [
+        "도아 (위나(We;Na))"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 1,
+      "company": "오감엔터테인먼트",
+      "pic_url": "https://p4.music.126.net/dNPw_cMpgzeQXxD-cKJIEA==/109951174070493659.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402534741"
+    },
+    {
       "id": 402811863,
       "name": "Down The Road",
       "artists": [
@@ -1070,6 +1356,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402811863"
+    },
+    {
+      "id": 396123355,
+      "name": "Chainsaw Man",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 5,
+      "company": "https://www.instagram.com/dinastia_hits/",
+      "pic_url": "https://p3.music.126.net/9_0miILHRDQyDm3jOHeuJQ==/109951173872906698.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=396123355"
     },
     {
       "id": 402956697,
@@ -1174,6 +1483,29 @@
       "url": "https://music.163.com/#/album?id=397046208"
     },
     {
+      "id": 402979957,
+      "name": "A Traceless Paradise（Infinity Heaven）",
+      "artists": [
+        {
+          "id": "124058510",
+          "name": "Supe Rstart"
+        }
+      ],
+      "artist_names": [
+        "Supe Rstart"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 2,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/490437HBm6uSGOFBCebkhA==/109951174084240847.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402979957"
+    },
+    {
       "id": 401986428,
       "name": "1st (feat. 1003venla)",
       "artists": [
@@ -1195,6 +1527,74 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401986428"
+    },
+    {
+      "id": 392501952,
+      "name": "\"'Classical Encores\" - A Collection of Piano Works",
+      "artists": [
+        {
+          "id": "36490",
+          "name": "Johann Sebastian Bach"
+        },
+        {
+          "id": "231393",
+          "name": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "id": "38731",
+          "name": "Ludwig van Beethoven"
+        },
+        {
+          "id": "804174",
+          "name": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "29976",
+          "name": "Claude Debussy"
+        },
+        {
+          "id": "33363",
+          "name": "Franz Schubert"
+        },
+        {
+          "id": "33646",
+          "name": "Franz Liszt"
+        },
+        {
+          "id": "130021",
+          "name": "Robert Schumann"
+        },
+        {
+          "id": "31197139",
+          "name": "George frideric Handel"
+        },
+        {
+          "id": "33737",
+          "name": "Frédéric François Chopin"
+        }
+      ],
+      "artist_names": [
+        "Johann Sebastian Bach",
+        "Pyotr Ilyich Tchaikovsky",
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Claude Debussy",
+        "Franz Schubert",
+        "Franz Liszt",
+        "Robert Schumann",
+        "George frideric Handel",
+        "Frédéric François Chopin"
+      ],
+      "publish_time": 1791561600000,
+      "publish_date": "2026-10-10",
+      "size": 80,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/sBmUVV4EI7JF4MUpUfrdYw==/109951174084049493.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=392501952"
     }
   ]
 }
