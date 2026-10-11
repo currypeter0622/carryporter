@@ -98,6 +98,7 @@ jobs:
           NETEASE_RECENT_LIMIT: "50"
           NETEASE_NEW_ALBUM_PROBE_LIMIT: "20"
           NETEASE_OWNED_VERIFY_LIMIT: "50"
+          NETEASE_REFRESH_ARTIST_CACHE: "1"
 
         shell: bash
         run: |
