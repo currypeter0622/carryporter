@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
-  "generated_at": "2026-10-11T12:43:29.116509+08:00",
-  "count": 30,
+  "generated_at": "2026-10-11T19:50:59.937290+08:00",
+  "count": 35,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 13,
+        "target_count": 21,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 12,
+        "target_count": 16,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 12,
+        "target_count": 13,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 3,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 744,
+      "search_candidates": 742,
       "verified_target_count": 4,
       "errors": []
     },
@@ -173,23 +173,92 @@
         "saved_at": 1791648566.9248843,
         "source": "cache"
       },
-      "relations": 80613,
+      "relations": 80631,
       "new_album_candidates": 43,
-      "unique_albums": 37058,
-      "detail_success": 37057,
+      "unique_albums": 37072,
+      "detail_success": 37071,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1038,
+      "date_hit_albums": 1041,
       "verify_artists": 673,
       "owned_failures": 0,
-      "external_hits": 276,
+      "external_hits": 275,
       "new_release_hits": 62,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 30
+    "unique_album_count": 35
   },
   "albums": [
+    {
+      "id": 402794148,
+      "name": "사랑한 만큼",
+      "artists": [
+        {
+          "id": 46407363,
+          "name": "崔钟浩"
+        }
+      ],
+      "artist_names": [
+        "崔钟浩"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 2,
+      "company": "NHN BUGS",
+      "pic_url": "https://p4.music.126.net/rpdEN0v1Z33sh2wSDctuWw==/109951174077139325.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402794148"
+    },
+    {
+      "id": 401145363,
+      "name": "너 말고 다른 연애 OST Part.4",
+      "artists": [
+        {
+          "id": 124044743,
+          "name": "V01D(보이드)"
+        }
+      ],
+      "artist_names": [
+        "V01D(보이드)"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/HsVkCy8x2TZ0AObYb8VqJw==/109951174022773028.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401145363"
+    },
+    {
+      "id": 402719112,
+      "name": "날아올라라 나비 OST Part.4",
+      "artists": [
+        {
+          "id": 1023211,
+          "name": "二十岁"
+        }
+      ],
+      "artist_names": [
+        "二十岁"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 2,
+      "company": "SLL",
+      "pic_url": "https://p3.music.126.net/SFgMJghrscVW7aNPw7FFVA==/109951174075261210.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402719112"
+    },
     {
       "id": 400136788,
       "name": "轻轻",
@@ -211,11 +280,11 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "独立发行",
-      "pic_url": "http://p3.music.126.net/5gN-H30XRtHbjR4Vsk8_nQ==/109951173987483667.jpg",
+      "pic_url": "https://p4.music.126.net/5gN-H30XRtHbjR4Vsk8_nQ==/109951173987483667.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
-      "description": "《轻轻》是丁肆Dicey和Dove鸽子在10月11日12:00上线的合作单曲。那些亲密关系中不太好直接说出口的心事：敏感、试探、嘴硬，还有夜里辗转无眠的瞬间都随着音乐的节奏被轻轻地放置，而我们，在这探索关于“爱”的过程中，也更明白了怎么爱自己。\n\n《轻轻》这首歌像是在唱爱情，但不止。这是一首朋友、家人、宠物，都能听懂的关于“爱”的抒情诗。爱有很多种形状，它可以是热烈的，沉默的，毛茸茸的，而学会了爱的我们，会轻轻地守护，紧紧地拉住每个因为“爱”浸染出色彩的角落。\n\n希望大家在《轻轻》里听见：爱不止一种模样，而每一种，都值得被轻轻守护，紧紧握住。\n\n轻轻Credit：\n词 Lyricist: 丁肆dicey/Dove鸽子\n曲 Composer：丁肆dicey/Dove鸽子\n编曲 Arrangement：LusciousBB\n混音Mix Engineer：ADE陶兴轩\nOP：STARDUST ENTERTAINMENT Ltd./ WhichwayMusic\nSP：DUST MUSIC/ WhichwayMusic",
+      "description": "",
       "url": "https://music.163.com/#/album?id=400136788"
     },
     {
@@ -257,7 +326,7 @@
       "publish_date": "2026-10-11",
       "size": 10,
       "company": "sinyanohito",
-      "pic_url": "https://p4.music.126.net/FNryFJvJL0z9ez87OwwS2g==/109951174059933432.jpg",
+      "pic_url": "https://p3.music.126.net/FNryFJvJL0z9ez87OwwS2g==/109951174059933432.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -303,7 +372,7 @@
       "publish_date": "2026-10-11",
       "size": 36,
       "company": "Silent Harbor Studio",
-      "pic_url": "https://p3.music.126.net/0cUW0zZOF30UMpi4C3qYnA==/109951174010098794.jpg",
+      "pic_url": "https://p4.music.126.net/0cUW0zZOF30UMpi4C3qYnA==/109951174010098794.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -351,11 +420,11 @@
       "publish_date": "2026-10-11",
       "size": 5,
       "company": "塞壬唱片-MSR",
-      "pic_url": "http://p3.music.126.net/WEBttYvnHOAFSmV7nsSsJA==/109951174086526822.jpg",
+      "pic_url": "https://p4.music.126.net/WEBttYvnHOAFSmV7nsSsJA==/109951174086526822.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
-      "description": "但他们看得到，海一直都是同一副模样，昨日也好，今天也罢。",
+      "description": "",
       "url": "https://music.163.com/#/album?id=403150600"
     },
     {
@@ -374,7 +443,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/rZHkt-kzz9d8kd6pL2iZhQ==/109951174087011455.jpg",
+      "pic_url": "https://p4.music.126.net/rZHkt-kzz9d8kd6pL2iZhQ==/109951174087011455.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -397,7 +466,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "说唱家-宇歌风行",
-      "pic_url": "https://p3.music.126.net/wUjsQtUlhQiye0nvXnNXnw==/109951174075295753.jpg",
+      "pic_url": "https://p4.music.126.net/wUjsQtUlhQiye0nvXnNXnw==/109951174075295753.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -420,11 +489,11 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "海蝶音乐（天津）有限公司",
-      "pic_url": "http://p3.music.126.net/TAAQbF5gFQPoBGtCNZKMnw==/109951174076161080.jpg",
+      "pic_url": "https://p4.music.126.net/TAAQbF5gFQPoBGtCNZKMnw==/109951174076161080.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
-      "description": "《美人余》影视原声带丨励志片尾曲《我把未来写成歌》\n由王靖雯演唱，郭思达担任制作人，南国宪作词作曲。这是一首关于自我重建的成长宣言。褪色的旧梦、走散的爱情、沉默的解脱——歌词坦然回望过往的破碎，却不止于伤感，而是将失去淬炼成“此刻的炽热”，把软弱熬成“锋利的颜色”。钢琴渐进铺陈，弦乐托起副歌的磅礴，如同一个人从废墟中站起的全过程。这不是向世界证明什么，而是把笔握回自己手中——这一生的结局，由我定格。",
+      "description": "",
       "url": "https://music.163.com/#/album?id=402760085"
     },
     {
@@ -448,12 +517,45 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/pKLuzSIZEd6Awjuc1vb64A==/109951174075907010.jpg",
+      "pic_url": "https://p3.music.126.net/pKLuzSIZEd6Awjuc1vb64A==/109951174075907010.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=402746905"
+    },
+    {
+      "id": 402779032,
+      "name": "恋人",
+      "artists": [
+        {
+          "id": 12403052,
+          "name": "Dept"
+        },
+        {
+          "id": 128159165,
+          "name": "温时雨"
+        },
+        {
+          "id": 128116420,
+          "name": "慢热同学LEON"
+        }
+      ],
+      "artist_names": [
+        "Dept",
+        "温时雨",
+        "慢热同学LEON"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 28,
+      "company": "unikorn union",
+      "pic_url": "https://p3.music.126.net/k-43hYfLNGB1yEGlTbD5Lg==/109951174076594420.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402779032"
     },
     {
       "id": 402761175,
@@ -471,7 +573,7 @@
       "publish_date": "2026-10-11",
       "size": 2,
       "company": "如乐而至",
-      "pic_url": "https://p3.music.126.net/Jv36uPpNVv6mo1UXqlUUXQ==/109951174076158806.jpg",
+      "pic_url": "https://p4.music.126.net/Jv36uPpNVv6mo1UXqlUUXQ==/109951174076158806.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -517,7 +619,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/5-azEx34N7OnRyB3VBWo6g==/109951174017706467.jpg",
+      "pic_url": "https://p4.music.126.net/5-azEx34N7OnRyB3VBWo6g==/109951174017706467.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -578,7 +680,7 @@
       "publish_date": "2026-10-11",
       "size": 2,
       "company": "如乐而至",
-      "pic_url": "https://p4.music.126.net/8zYNCxw_8VnGRtgesi9DKA==/109951174076157312.jpg",
+      "pic_url": "https://p3.music.126.net/8zYNCxw_8VnGRtgesi9DKA==/109951174076157312.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -624,7 +726,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "Yoshin",
-      "pic_url": "https://p4.music.126.net/EE6FdINwZwLFyF4SBAoW-w==/109951174040986757.jpg",
+      "pic_url": "https://p3.music.126.net/EE6FdINwZwLFyF4SBAoW-w==/109951174040986757.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -670,7 +772,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "Togepy",
-      "pic_url": "https://p3.music.126.net/4_fc6oYJwXAEXv7RNM6J_w==/109951174040771463.jpg",
+      "pic_url": "https://p4.music.126.net/4_fc6oYJwXAEXv7RNM6J_w==/109951174040771463.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -693,7 +795,7 @@
       "publish_date": "2026-10-11",
       "size": 4,
       "company": "Independent",
-      "pic_url": "https://p4.music.126.net/d8ovIMuEGzsSCZm_I3xiGA==/109951174041434126.jpg",
+      "pic_url": "https://p3.music.126.net/d8ovIMuEGzsSCZm_I3xiGA==/109951174041434126.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
@@ -716,7 +818,7 @@
       "publish_date": "2026-10-11",
       "size": 2,
       "company": "如乐而至",
-      "pic_url": "https://p3.music.126.net/r6JlL58VBRL0V8vN-fdLSw==/109951174076160714.jpg",
+      "pic_url": "https://p4.music.126.net/r6JlL58VBRL0V8vN-fdLSw==/109951174076160714.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -762,7 +864,7 @@
       "publish_date": "2026-10-11",
       "size": 25,
       "company": "Blast Furnace Collective",
-      "pic_url": "https://p4.music.126.net/q1taGfW2nXAnJIqV8xshxQ==/109951173892480499.jpg",
+      "pic_url": "https://p3.music.126.net/q1taGfW2nXAnJIqV8xshxQ==/109951173892480499.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -816,6 +918,29 @@
       "url": "https://music.163.com/#/album?id=400652715"
     },
     {
+      "id": 400370678,
+      "name": "Firestarter",
+      "artists": [
+        {
+          "id": 20574,
+          "name": "MAN WITH A MISSION"
+        }
+      ],
+      "artist_names": [
+        "MAN WITH A MISSION"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 1,
+      "company": "索尼音乐",
+      "pic_url": "https://p4.music.126.net/CSB-SNVQoclb0KM6av8gvA==/109951173995074576.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400370678"
+    },
+    {
       "id": 402375177,
       "name": "Cybernetics Lying & Tears",
       "artists": [
@@ -859,7 +984,7 @@
       "publish_date": "2026-10-11",
       "size": 43,
       "company": "UME - Global Clearing House",
-      "pic_url": "https://p3.music.126.net/Dtne42nX4q3TDKqkxN0MEg==/109951174089082490.jpg",
+      "pic_url": "https://p4.music.126.net/Dtne42nX4q3TDKqkxN0MEg==/109951174089082490.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -934,7 +1059,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "HoYoFair",
-      "pic_url": "https://p3.music.126.net/ncnladpk64rCW8p_3KrvTA==/109951174086235394.jpg",
+      "pic_url": "https://p4.music.126.net/ncnladpk64rCW8p_3KrvTA==/109951174086235394.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
