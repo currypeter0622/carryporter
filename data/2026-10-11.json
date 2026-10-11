@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
-  "generated_at": "2026-10-11T04:42:18.989738+08:00",
-  "count": 25,
+  "generated_at": "2026-10-11T12:43:29.116509+08:00",
+  "count": 30,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 10,
+        "target_count": 13,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 9,
+        "target_count": 12,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 7,
+        "target_count": 12,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 724,
+      "search_candidates": 744,
       "verified_target_count": 4,
       "errors": []
     },
@@ -173,13 +173,13 @@
         "saved_at": 1791648566.9248843,
         "source": "cache"
       },
-      "relations": 80605,
+      "relations": 80613,
       "new_album_candidates": 43,
-      "unique_albums": 37047,
-      "detail_success": 37046,
+      "unique_albums": 37058,
+      "detail_success": 37057,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1033,
+      "date_hit_albums": 1038,
       "verify_artists": 673,
       "owned_failures": 0,
       "external_hits": 276,
@@ -187,9 +187,37 @@
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 25
+    "unique_album_count": 30
   },
   "albums": [
+    {
+      "id": 400136788,
+      "name": "轻轻",
+      "artists": [
+        {
+          "id": 34498083,
+          "name": "丁肆Dicey"
+        },
+        {
+          "id": 33072389,
+          "name": "Dove鸽子"
+        }
+      ],
+      "artist_names": [
+        "丁肆Dicey",
+        "Dove鸽子"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 1,
+      "company": "独立发行",
+      "pic_url": "http://p3.music.126.net/5gN-H30XRtHbjR4Vsk8_nQ==/109951173987483667.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "《轻轻》是丁肆Dicey和Dove鸽子在10月11日12:00上线的合作单曲。那些亲密关系中不太好直接说出口的心事：敏感、试探、嘴硬，还有夜里辗转无眠的瞬间都随着音乐的节奏被轻轻地放置，而我们，在这探索关于“爱”的过程中，也更明白了怎么爱自己。\n\n《轻轻》这首歌像是在唱爱情，但不止。这是一首朋友、家人、宠物，都能听懂的关于“爱”的抒情诗。爱有很多种形状，它可以是热烈的，沉默的，毛茸茸的，而学会了爱的我们，会轻轻地守护，紧紧地拉住每个因为“爱”浸染出色彩的角落。\n\n希望大家在《轻轻》里听见：爱不止一种模样，而每一种，都值得被轻轻守护，紧紧握住。\n\n轻轻Credit：\n词 Lyricist: 丁肆dicey/Dove鸽子\n曲 Composer：丁肆dicey/Dove鸽子\n编曲 Arrangement：LusciousBB\n混音Mix Engineer：ADE陶兴轩\nOP：STARDUST ENTERTAINMENT Ltd./ WhichwayMusic\nSP：DUST MUSIC/ WhichwayMusic",
+      "url": "https://music.163.com/#/album?id=400136788"
+    },
     {
       "id": 401716035,
       "name": "貧乳少女",
@@ -252,7 +280,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "狂吟（北京）文化传媒有限公司",
-      "pic_url": "https://p3.music.126.net/S01MO24ItSpj9W6onYVuyQ==/109951174081888532.jpg",
+      "pic_url": "https://p4.music.126.net/S01MO24ItSpj9W6onYVuyQ==/109951174081888532.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -283,6 +311,54 @@
       "url": "https://music.163.com/#/album?id=400732153"
     },
     {
+      "id": 403150600,
+      "name": "昨日海OST",
+      "artists": [
+        {
+          "id": 32540734,
+          "name": "塞壬唱片-MSR"
+        },
+        {
+          "id": 129887040,
+          "name": "CHRISTIAN LEE"
+        },
+        {
+          "id": 52430196,
+          "name": "Robert Wolf"
+        },
+        {
+          "id": 32021728,
+          "name": "Steven Grove"
+        },
+        {
+          "id": 31714397,
+          "name": "Cody Matthew Johnson"
+        },
+        {
+          "id": 58909565,
+          "name": "Ben Hicks"
+        }
+      ],
+      "artist_names": [
+        "塞壬唱片-MSR",
+        "CHRISTIAN LEE",
+        "Robert Wolf",
+        "Steven Grove",
+        "Cody Matthew Johnson",
+        "Ben Hicks"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 5,
+      "company": "塞壬唱片-MSR",
+      "pic_url": "http://p3.music.126.net/WEBttYvnHOAFSmV7nsSsJA==/109951174086526822.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "但他们看得到，海一直都是同一副模样，昨日也好，今天也罢。",
+      "url": "https://music.163.com/#/album?id=403150600"
+    },
+    {
       "id": 403169831,
       "name": "找耳机",
       "artists": [
@@ -298,7 +374,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/rZHkt-kzz9d8kd6pL2iZhQ==/109951174087011455.jpg",
+      "pic_url": "https://p3.music.126.net/rZHkt-kzz9d8kd6pL2iZhQ==/109951174087011455.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -329,6 +405,29 @@
       "url": "https://music.163.com/#/album?id=402729574"
     },
     {
+      "id": 402760085,
+      "name": "我把未来写成歌",
+      "artists": [
+        {
+          "id": 35495821,
+          "name": "王靖雯不胖"
+        }
+      ],
+      "artist_names": [
+        "王靖雯不胖"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 1,
+      "company": "海蝶音乐（天津）有限公司",
+      "pic_url": "http://p3.music.126.net/TAAQbF5gFQPoBGtCNZKMnw==/109951174076161080.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "《美人余》影视原声带丨励志片尾曲《我把未来写成歌》\n由王靖雯演唱，郭思达担任制作人，南国宪作词作曲。这是一首关于自我重建的成长宣言。褪色的旧梦、走散的爱情、沉默的解脱——歌词坦然回望过往的破碎，却不止于伤感，而是将失去淬炼成“此刻的炽热”，把软弱熬成“锋利的颜色”。钢琴渐进铺陈，弦乐托起副歌的磅礴，如同一个人从废墟中站起的全过程。这不是向世界证明什么，而是把笔握回自己手中——这一生的结局，由我定格。",
+      "url": "https://music.163.com/#/album?id=402760085"
+    },
+    {
       "id": 402746905,
       "name": "我们根本不是大人何必去假装成熟",
       "artists": [
@@ -349,7 +448,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/pKLuzSIZEd6Awjuc1vb64A==/109951174075907010.jpg",
+      "pic_url": "https://p4.music.126.net/pKLuzSIZEd6Awjuc1vb64A==/109951174075907010.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -372,7 +471,7 @@
       "publish_date": "2026-10-11",
       "size": 2,
       "company": "如乐而至",
-      "pic_url": "https://p4.music.126.net/Jv36uPpNVv6mo1UXqlUUXQ==/109951174076158806.jpg",
+      "pic_url": "https://p3.music.126.net/Jv36uPpNVv6mo1UXqlUUXQ==/109951174076158806.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -395,11 +494,11 @@
       "publish_date": "2026-10-11",
       "size": 2,
       "company": "如乐而至",
-      "pic_url": "http://p3.music.126.net/cOwhqhIZsfQ1-Bdg8L_F3Q==/109951174076165559.jpg",
+      "pic_url": "https://p3.music.126.net/cOwhqhIZsfQ1-Bdg8L_F3Q==/109951174076165559.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
-      "description": "奏乐舞音乐公司倾心奉献 诚意出品",
+      "description": "",
       "url": "https://music.163.com/#/album?id=402760979"
     },
     {
@@ -418,7 +517,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/5-azEx34N7OnRyB3VBWo6g==/109951174017706467.jpg",
+      "pic_url": "https://p3.music.126.net/5-azEx34N7OnRyB3VBWo6g==/109951174017706467.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -452,6 +551,39 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=402763348"
+    },
+    {
+      "id": 402761174,
+      "name": "天亮没睡·开始奏乐开始舞",
+      "artists": [
+        {
+          "id": 1079074,
+          "name": "余佳运"
+        },
+        {
+          "id": 12917484,
+          "name": "周震南"
+        },
+        {
+          "id": 28632557,
+          "name": "张星特"
+        }
+      ],
+      "artist_names": [
+        "余佳运",
+        "周震南",
+        "张星特"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 2,
+      "company": "如乐而至",
+      "pic_url": "https://p4.music.126.net/8zYNCxw_8VnGRtgesi9DKA==/109951174076157312.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402761174"
     },
     {
       "id": 398349342,
@@ -567,6 +699,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401736824"
+    },
+    {
+      "id": 402761178,
+      "name": "Vanilla·开始奏乐开始舞",
+      "artists": [
+        {
+          "id": 1024308,
+          "name": "张碧晨"
+        }
+      ],
+      "artist_names": [
+        "张碧晨"
+      ],
+      "publish_time": 1791648000000,
+      "publish_date": "2026-10-11",
+      "size": 2,
+      "company": "如乐而至",
+      "pic_url": "https://p3.music.126.net/r6JlL58VBRL0V8vN-fdLSw==/109951174076160714.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402761178"
     },
     {
       "id": 402769285,
@@ -779,7 +934,7 @@
       "publish_date": "2026-10-11",
       "size": 1,
       "company": "HoYoFair",
-      "pic_url": "https://p4.music.126.net/ncnladpk64rCW8p_3KrvTA==/109951174086235394.jpg",
+      "pic_url": "https://p3.music.126.net/ncnladpk64rCW8p_3KrvTA==/109951174086235394.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
