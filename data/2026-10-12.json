@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
-  "generated_at": "2026-10-12T00:30:37.401289+08:00",
-  "count": 40,
+  "generated_at": "2026-10-12T01:20:20.633176+08:00",
+  "count": 42,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -155,41 +155,41 @@
         "华语群星"
       ],
       "queries_ok": 8,
-      "search_candidates": 639,
-      "verified_target_count": 4,
+      "search_candidates": 631,
+      "verified_target_count": 7,
       "errors": [
         "华语群星: /search 请求失败：/search GET/POST 405"
       ]
     },
     "reference_candidate_pool": {
-      "artists": 2095,
+      "artists": 2103,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2095,
-        "server_count": 2095,
+        "count": 2103,
+        "server_count": 2103,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791648566.9248843,
-        "source": "cache"
+        "saved_at": 1791737760.3747833,
+        "source": "live"
       },
-      "relations": 80611,
+      "relations": 80858,
       "new_album_candidates": 37,
-      "unique_albums": 37073,
-      "detail_success": 37072,
+      "unique_albums": 37191,
+      "detail_success": 37190,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1036,
-      "verify_artists": 659,
+      "date_hit_albums": 1047,
+      "verify_artists": 665,
       "owned_failures": 0,
-      "external_hits": 273,
+      "external_hits": 274,
       "new_release_hits": 50,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 40
+    "unique_album_count": 42
   },
   "albums": [
     {
@@ -259,11 +259,11 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "http://p4.music.126.net/OkFlHcX2OvrrKVB2hWw5jg==/109951174017016622.jpg",
+      "pic_url": "https://p3.music.126.net/OkFlHcX2OvrrKVB2hWw5jg==/109951174017016622.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
-      "description": "日本摇滚乐队羊文学释出全新单曲<涙の河>, 为动漫《风之继承者（風を継ぐもの）》片尾曲。",
+      "description": "",
       "url": "https://music.163.com/#/album?id=400902410"
     },
     {
@@ -282,11 +282,11 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "",
-      "pic_url": "http://p3.music.126.net/3JtopFAMR9XIyOh1v_j4cw==/109951174086859072.jpg",
+      "pic_url": "https://p3.music.126.net/3JtopFAMR9XIyOh1v_j4cw==/109951174086859072.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
-      "description": "我们曾渴望被理解，后来才明白，我们要的从来不是条理分明的分析，只是一份不加评判的接纳，就像：你不用说的太多，我都能告诉你，我懂。",
+      "description": "",
       "url": "https://music.163.com/#/album?id=403163820"
     },
     {
@@ -328,11 +328,11 @@
       "publish_date": "2026-10-12",
       "size": 7,
       "company": "(P)2026 Avex Music Creative Inc.",
-      "pic_url": "http://p3.music.126.net/aU-yQbrlw_Q45BDmFoFwtQ==/109951174022610584.jpg",
+      "pic_url": "https://p4.music.126.net/aU-yQbrlw_Q45BDmFoFwtQ==/109951174022610584.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
-      "description": "本作是为将于2026年10月11日（日）于日本播出的动画「七龙珠超 比鲁斯」（暂译）特别创作的片尾曲。以充分展现VK Blanka个人特色的独创歌词与精致旋律为核心，打造出有别于一般「动画歌曲」的音乐作品，歌曲中也融入了许多让人一听就上瘾的巧思。在贴近动画世界观的同时，也充分展现了VK Blanka的个性。",
+      "description": "",
       "url": "https://music.163.com/#/album?id=401137017"
     },
     {
@@ -528,6 +528,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401582970"
+    },
+    {
+      "id": 396369802,
+      "name": "broken",
+      "artists": [
+        {
+          "id": 30537410,
+          "name": "mixed matches"
+        }
+      ],
+      "artist_names": [
+        "mixed matches"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 1,
+      "company": "独立发行",
+      "pic_url": "https://p4.music.126.net/btC2I13-9cWo57S_UY5RkA==/109951173878788132.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=396369802"
     },
     {
       "id": 400790435,
@@ -798,11 +821,11 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "星外星音乐",
-      "pic_url": "http://p4.music.126.net/dEQITxncX7jow-4KKcW6gw==/109951174081584132.jpg",
+      "pic_url": "https://p4.music.126.net/dEQITxncX7jow-4KKcW6gw==/109951174081584132.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
-      "description": "法国流行天后、《我的名字叫伊莲》原唱伊莲（Hélène Rollès）以中法双语重新演绎中国经典民歌《茉莉花》，并亲自创作全新的法语歌词。她用法语唱出属于自己的全新表达，同时保留中文演唱，让这首流传已久的经典旋律在两种语言之间呈现出别样的韵味。编曲融入古琴等中国传统乐器的声音，为作品增添清雅而富有东方韵味的音乐色彩。传统中国民歌与法式音乐气质自然交融，呈现出伊莲独特的音乐表达，也展现了她对中国音乐文化的理解和热爱。",
+      "description": "",
       "url": "https://music.163.com/#/album?id=402918104"
     },
     {
@@ -1085,6 +1108,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401948529"
+    },
+    {
+      "id": 401321476,
+      "name": "BE:4U",
+      "artists": [
+        {
+          "id": 49260549,
+          "name": "BE:FIRST"
+        }
+      ],
+      "artist_names": [
+        "BE:FIRST"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 1,
+      "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
+      "pic_url": "https://p3.music.126.net/1aAL403gD74lDUBmUmIq2A==/109951174027235906.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401321476"
     },
     {
       "id": 398860711,
