@@ -393447,7 +393447,7 @@
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1791718986.2522845
+    "cached_at": 1791750885.0267708
   },
   "265689789": {
     "album_id": "265689789",
@@ -751548,5 +751548,541 @@
     "sub_type": "录音室版",
     "type": "Single",
     "cached_at": 1791738860.842005
+  },
+  "403315123": {
+    "album_id": "403315123",
+    "album_name": "群星",
+    "date_str": "2026-10-11",
+    "publish_ts": 1791648000000,
+    "artist_ids": [
+      "124979184"
+    ],
+    "artist_names": [
+      "三色堇"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/npEU3YupfuyqoMBH6YB0xg==/109951174093569785.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791749587.437121
+  },
+  "396369802": {
+    "album_id": "396369802",
+    "album_name": "broken",
+    "date_str": "2026-10-12",
+    "publish_ts": 1791734400000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/btC2I13-9cWo57S_UY5RkA==/109951173878788132.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750824.9512222,
+    "songs": [
+      {
+        "id": "3431015823",
+        "name": "broken"
+      }
+    ]
+  },
+  "384505851": {
+    "album_id": "384505851",
+    "album_name": "footprints on the shore / it's time",
+    "date_str": "2026-08-06",
+    "publish_ts": 1785945600000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/3jX-k1iScuarhqLWvR3luQ==/109951173668566821.jpg",
+    "company": "benevolent being co.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750824.990709
+  },
+  "394173833": {
+    "album_id": "394173833",
+    "album_name": "北冥幻想(水☵)",
+    "date_str": "2026-09-23",
+    "publish_ts": 1790092800000,
+    "artist_ids": [
+      "46276886"
+    ],
+    "artist_names": [
+      "颜域豪"
+    ],
+    "size": 13,
+    "pic_url": "https://p3.music.126.net/zfokB46eew73gr0zTZ74cw==/109951173807507495.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1791750824.9989357
+  },
+  "398952487": {
+    "album_id": "398952487",
+    "album_name": "In Between Tides",
+    "date_str": "2026-09-19",
+    "publish_ts": 1789747200000,
+    "artist_ids": [
+      "29475",
+      "36526595",
+      "12598596",
+      "46617775",
+      "30537410",
+      "12348332",
+      "32624368",
+      "35426442",
+      "53807584"
+    ],
+    "artist_names": [
+      "Brandon Beal",
+      "Corn Wave",
+      "Demxntia",
+      "LÜCY",
+      "mixed matches",
+      "Ollie",
+      "Stephanie Poetri",
+      "SuperA邓艺菲",
+      "周以希"
+    ],
+    "size": 5,
+    "pic_url": "https://p3.music.126.net/t1BNZLOSrvNHsl77avrzgA==/109951173961211766.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1791750825.0313587
+  },
+  "373374563": {
+    "album_id": "373374563",
+    "album_name": "truth",
+    "date_str": "2026-08-05",
+    "publish_ts": 1785859200000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/OWOj4rksWcWzWwWe-OBZIg==/109951173137000137.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1791750825.724371
+  },
+  "373373150": {
+    "album_id": "373373150",
+    "album_name": "shadow of a doubt",
+    "date_str": "2026-07-22",
+    "publish_ts": 1784649600000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/1gDENooWnWkBndm_CS_btA==/109951173136988560.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750825.7816334
+  },
+  "373363997": {
+    "album_id": "373363997",
+    "album_name": "make your mind",
+    "date_str": "2026-07-08",
+    "publish_ts": 1783440000000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/9T1IarUPymdnsCfm3rgDeA==/109951173136833267.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750825.7862418
+  },
+  "373362832": {
+    "album_id": "373362832",
+    "album_name": "entry 02",
+    "date_str": "2026-06-24",
+    "publish_ts": 1782230400000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/inXd3aPdrjvLBa8lcjxKtw==/109951173136814241.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750825.81909
+  },
+  "373362032": {
+    "album_id": "373362032",
+    "album_name": "underneath the blanket",
+    "date_str": "2026-06-10",
+    "publish_ts": 1781020800000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/dBL2foe_pO8hVg4Kip-PLQ==/109951173136803711.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1791750826.563735
+  },
+  "374894613": {
+    "album_id": "374894613",
+    "album_name": "window / bambi's revenge",
+    "date_str": "2026-06-18",
+    "publish_ts": 1781712000000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 2,
+    "pic_url": "https://p3.music.126.net/F7j-u9c7JAUJ9CcF4zTN_g==/109951173401442313.jpg",
+    "company": "benevolent being co.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750826.5861876
+  },
+  "373318644": {
+    "album_id": "373318644",
+    "album_name": "ghillie .",
+    "date_str": "2026-05-24",
+    "publish_ts": 1779552000000,
+    "artist_ids": [
+      "59479141",
+      "30537410"
+    ],
+    "artist_names": [
+      "a blue room",
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/zI3bsxVcL6HveedjUR5DoA==/109951173135869629.jpg",
+    "company": "a blue room.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750826.5906487
+  },
+  "373361628": {
+    "album_id": "373361628",
+    "album_name": "hopeful",
+    "date_str": "2026-05-27",
+    "publish_ts": 1779811200000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/aE09_qy35jozUmzrVR8n7w==/109951173136785398.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750826.5924325
+  },
+  "373360629": {
+    "album_id": "373360629",
+    "album_name": "angel trumpets",
+    "date_str": "2026-05-13",
+    "publish_ts": 1778601600000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/Kv_KgbDWdOOX9B23z3l11A==/109951173136780031.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750827.3369157
+  },
+  "367104902": {
+    "album_id": "367104902",
+    "album_name": "tar/postcard",
+    "date_str": "2026-04-22",
+    "publish_ts": 1776787200000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/jpWjg3UB_6RJ_RlaDXYnQw==/109951173044723876.jpg",
+    "company": "late",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750827.3927457
+  },
+  "362190921": {
+    "album_id": "362190921",
+    "album_name": "Pitbull (Mixed Matches Remix)",
+    "date_str": "2026-02-26",
+    "publish_ts": 1772035200000,
+    "artist_ids": [
+      "33249894",
+      "30537410"
+    ],
+    "artist_names": [
+      "Couch Prints",
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/Cv8V_3sK0VoRPJFEUIm6Lg==/109951172746403535.jpg",
+    "company": "Music Website",
+    "sub_type": "Remix",
+    "type": "Single",
+    "cached_at": 1791750827.3977103
+  },
+  "373358335": {
+    "album_id": "373358335",
+    "album_name": "instant",
+    "date_str": "2026-04-29",
+    "publish_ts": 1777392000000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/OLXRymoeFuERl8uw5l1myw==/109951173136735106.jpg",
+    "company": "独立发行",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750827.401665
+  },
+  "358876638": {
+    "album_id": "358876638",
+    "album_name": "highstandards ./ 600 degrees .",
+    "date_str": "2026-02-12",
+    "publish_ts": 1770825600000,
+    "artist_ids": [
+      "59479141",
+      "30537410"
+    ],
+    "artist_names": [
+      "a blue room",
+      "mixed matches"
+    ],
+    "size": 2,
+    "pic_url": "https://p3.music.126.net/-cZvItXgR5MN1vwwH8tV1Q==/109951172616150929.jpg",
+    "company": "DOTWAV Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750828.0986366
+  },
+  "281211880": {
+    "album_id": "281211880",
+    "album_name": "my friends and family are what prevent me from killing myself, thank you, i love you",
+    "date_str": "2025-08-31",
+    "publish_ts": 1756569600000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 6,
+    "pic_url": "https://p3.music.126.net/w2gq677JMYb1J4PB4Li5dQ==/109951171839321550.jpg",
+    "company": "late",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1791750828.1739798
+  },
+  "352055605": {
+    "album_id": "352055605",
+    "album_name": "you'll never get what you want / losing you",
+    "date_str": "2025-12-23",
+    "publish_ts": 1766419200000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/9rMKOrr0nviXiRJObFWqpg==/109951172373417724.jpg",
+    "company": "late",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750828.1796086
+  },
+  "283242343": {
+    "album_id": "283242343",
+    "album_name": "WastingTime",
+    "date_str": "2025-08-28",
+    "publish_ts": 1756310400000,
+    "artist_ids": [
+      "37146897",
+      "30537410"
+    ],
+    "artist_names": [
+      "suscie",
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/VOIDubfovjmiMEeHcLsFUg==/109951171944075351.jpg",
+    "company": "suscie",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750828.3037379
+  },
+  "281193433": {
+    "album_id": "281193433",
+    "album_name": "Reverse Waterfall (feat. Mixed Matches)",
+    "date_str": "2025-08-15",
+    "publish_ts": 1755187200000,
+    "artist_ids": [
+      "58272981"
+    ],
+    "artist_names": [
+      "Peridot Sky"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/CWN2c7wa1QFy9l52tCXRVg==/109951171837690058.jpg",
+    "company": "Peridot Recordings",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750828.889206
+  },
+  "277083558": {
+    "album_id": "277083558",
+    "album_name": "well aren't you so kind?",
+    "date_str": "2025-07-24",
+    "publish_ts": 1753286400000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/W9IN7nSkRsyYXeDD6U-8fA==/109951171504156494.jpg",
+    "company": "late",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750828.9581163
+  },
+  "265135118": {
+    "album_id": "265135118",
+    "album_name": "still here",
+    "date_str": "2025-03-30",
+    "publish_ts": 1743264000000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 4,
+    "pic_url": "https://p4.music.126.net/xSUAIA7MZdvgXvBVXAsAGQ==/109951170572517413.jpg",
+    "company": "late",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1791750829.698867
+  },
+  "260745090": {
+    "album_id": "260745090",
+    "album_name": "we're here now and that's all that matters",
+    "date_str": "2025-02-19",
+    "publish_ts": 1739894400000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 11,
+    "pic_url": "https://p4.music.126.net/miUK-8kijFhvpQyBB7eT8w==/109951170421221200.jpg",
+    "company": "late",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1791750829.7733223
+  },
+  "271423134": {
+    "album_id": "271423134",
+    "album_name": "Supposed To",
+    "date_str": "2025-05-10",
+    "publish_ts": 1746806400000,
+    "artist_ids": [
+      "61581364",
+      "30537410"
+    ],
+    "artist_names": [
+      "fzxr",
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/srjtHoGAnmFq7mg_KPunKA==/109951171370532597.jpg",
+    "company": "fzxr",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750830.6813433
+  },
+  "274292309": {
+    "album_id": "274292309",
+    "album_name": "0.3 KD",
+    "date_str": "2025-06-29",
+    "publish_ts": 1751126400000,
+    "artist_ids": [
+      "30537410"
+    ],
+    "artist_names": [
+      "mixed matches"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/R5JdA_2gcacTnlutxmMdXw==/109951171353035915.jpg",
+    "company": "late",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750830.732338
+  },
+  "403314611": {
+    "album_id": "403314611",
+    "album_name": "纯妹妹",
+    "date_str": "2026-10-11",
+    "publish_ts": 1791648000000,
+    "artist_ids": [
+      "48775846"
+    ],
+    "artist_names": [
+      "戒网瘾游击队"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/vujBoLfRc7fCSPyM7ozYrA==/109951174092699252.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1791750841.499614
   }
 }

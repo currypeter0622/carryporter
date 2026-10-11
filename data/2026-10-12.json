@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "generated_at": "2026-10-12T01:20:20.633176+08:00",
+  "generated_at": "2026-10-12T04:39:53.169051+08:00",
   "count": 42,
   "scan": {
     "mode": "full",
@@ -154,38 +154,36 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 631,
+      "queries_ok": 9,
+      "search_candidates": 714,
       "verified_target_count": 7,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2103,
+      "artists": 2104,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2103,
-        "server_count": 2103,
+        "count": 2104,
+        "server_count": 2104,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791737760.3747833,
+        "saved_at": 1791749594.606308,
         "source": "live"
       },
-      "relations": 80858,
-      "new_album_candidates": 37,
-      "unique_albums": 37191,
-      "detail_success": 37190,
+      "relations": 80908,
+      "new_album_candidates": 38,
+      "unique_albums": 37218,
+      "detail_success": 37217,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1047,
-      "verify_artists": 665,
+      "date_hit_albums": 1051,
+      "verify_artists": 666,
       "owned_failures": 0,
-      "external_hits": 274,
-      "new_release_hits": 50,
+      "external_hits": 276,
+      "new_release_hits": 52,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
@@ -259,7 +257,7 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/OkFlHcX2OvrrKVB2hWw5jg==/109951174017016622.jpg",
+      "pic_url": "https://p4.music.126.net/OkFlHcX2OvrrKVB2hWw5jg==/109951174017016622.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -282,7 +280,7 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/3JtopFAMR9XIyOh1v_j4cw==/109951174086859072.jpg",
+      "pic_url": "https://p4.music.126.net/3JtopFAMR9XIyOh1v_j4cw==/109951174086859072.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -534,7 +532,7 @@
       "name": "broken",
       "artists": [
         {
-          "id": 30537410,
+          "id": "30537410",
           "name": "mixed matches"
         }
       ],
@@ -545,10 +543,10 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "独立发行",
-      "pic_url": "https://p4.music.126.net/btC2I13-9cWo57S_UY5RkA==/109951173878788132.jpg",
+      "pic_url": "https://p3.music.126.net/btC2I13-9cWo57S_UY5RkA==/109951173878788132.jpg",
       "sub_type": "录音室版",
       "type": "Single",
-      "status": 1,
+      "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=396369802"
     },
@@ -821,7 +819,7 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "星外星音乐",
-      "pic_url": "https://p4.music.126.net/dEQITxncX7jow-4KKcW6gw==/109951174081584132.jpg",
+      "pic_url": "https://p3.music.126.net/dEQITxncX7jow-4KKcW6gw==/109951174081584132.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
