@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-10-13T00:36:50.018650+08:00",
+  "generated_at": "2026-10-13T04:43:24.806191+08:00",
   "count": 33,
   "scan": {
     "mode": "full",
@@ -154,10 +154,12 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 763,
+      "queries_ok": 8,
+      "search_candidates": 668,
       "verified_target_count": 7,
-      "errors": []
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
       "artists": 2109,
@@ -170,13 +172,13 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791821406.2804828,
+        "saved_at": 1791836181.0484068,
         "source": "live"
       },
       "relations": 81098,
       "new_album_candidates": 56,
-      "unique_albums": 37321,
-      "detail_success": 37320,
+      "unique_albums": 37322,
+      "detail_success": 37321,
       "detail_errors": 1,
       "detail_mismatch": 0,
       "date_hit_albums": 1050,
@@ -267,7 +269,7 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/ikQyYEwdPj5sTxCfn8cZQA==/109951174097798896.jpg",
+      "pic_url": "https://p3.music.126.net/ikQyYEwdPj5sTxCfn8cZQA==/109951174097798896.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -281,16 +283,21 @@
         {
           "id": 12094123,
           "name": "叶枫华"
+        },
+        {
+          "id": 2133,
+          "name": "陈奂仁"
         }
       ],
       "artist_names": [
-        "叶枫华"
+        "叶枫华",
+        "陈奂仁"
       ],
       "publish_time": 1791820800000,
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/wXoQ4CspYQiJ-TGlW4bjeQ==/109951174097883612.jpg",
+      "pic_url": "https://p4.music.126.net/wXoQ4CspYQiJ-TGlW4bjeQ==/109951174097883612.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -566,7 +573,7 @@
       "publish_date": "2026-10-13",
       "size": 11,
       "company": "",
-      "pic_url": "https://p3.music.126.net/zE0lbdJtynl010D6DK_2Dg==/109951174097481823.jpg",
+      "pic_url": "https://p4.music.126.net/zE0lbdJtynl010D6DK_2Dg==/109951174097481823.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -722,7 +729,7 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/91pZKsKoRuX5kscm9BZFNg==/109951174096943658.jpg",
+      "pic_url": "https://p3.music.126.net/91pZKsKoRuX5kscm9BZFNg==/109951174096943658.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -982,7 +989,7 @@
       "publish_date": "2026-10-13",
       "size": 18,
       "company": "天娱传媒",
-      "pic_url": "https://p4.music.126.net/5Q5RWNQ9o_fVXt9N7d5Hbg==/109951174096761955.jpg",
+      "pic_url": "https://p3.music.126.net/5Q5RWNQ9o_fVXt9N7d5Hbg==/109951174096761955.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
