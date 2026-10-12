@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
-  "generated_at": "2026-10-12T04:39:53.169051+08:00",
-  "count": 42,
+  "generated_at": "2026-10-12T12:41:45.429222+08:00",
+  "count": 55,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 6,
+        "target_count": 17,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 2,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 5,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 3,
+        "target_count": 5,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 2,
+        "target_count": 8,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -113,7 +113,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 5,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -141,7 +141,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 2,
+        "target_count": 3,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 714,
+      "search_candidates": 724,
       "verified_target_count": 7,
       "errors": []
     },
@@ -170,26 +170,141 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791749594.606308,
+        "saved_at": 1791778300.510237,
         "source": "live"
       },
-      "relations": 80908,
+      "relations": 80913,
       "new_album_candidates": 38,
-      "unique_albums": 37218,
-      "detail_success": 37217,
+      "unique_albums": 37223,
+      "detail_success": 37222,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1051,
-      "verify_artists": 666,
+      "date_hit_albums": 1054,
+      "verify_artists": 672,
       "owned_failures": 0,
-      "external_hits": 276,
+      "external_hits": 277,
       "new_release_hits": 52,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 42
+    "unique_album_count": 55
   },
   "albums": [
+    {
+      "id": 400305212,
+      "name": "Chinese beauty girl",
+      "artists": [
+        {
+          "id": 47723474,
+          "name": "赞多"
+        }
+      ],
+      "artist_names": [
+        "赞多"
+      ],
+      "publish_time": 1791770400000,
+      "publish_date": "2026-10-12",
+      "size": 1,
+      "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
+      "pic_url": "https://p3.music.126.net/J8DN9JPlEDeqRiReCtC2fg==/109951173991971758.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400305212"
+    },
+    {
+      "id": 402534759,
+      "name": "욕망의 덫 OST Part.8",
+      "artists": [
+        {
+          "id": 1089133,
+          "name": "殷河秀"
+        }
+      ],
+      "artist_names": [
+        "殷河秀"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "오감엔터테인먼트",
+      "pic_url": "https://p4.music.126.net/wwIvduch2tJagyEIhl9bDw==/109951174070494203.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402534759"
+    },
+    {
+      "id": 402917788,
+      "name": "사랑은 정말 조금도 쉽지 않아",
+      "artists": [
+        {
+          "id": 125935,
+          "name": "淑熙"
+        }
+      ],
+      "artist_names": [
+        "淑熙"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/3xBbZpq_ngzOuQLVjzEKwQ==/109951174081572018.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402917788"
+    },
+    {
+      "id": 402575781,
+      "name": "미야",
+      "artists": [
+        {
+          "id": 1161073,
+          "name": "寒星"
+        }
+      ],
+      "artist_names": [
+        "寒星"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/VE9USR0fXru7NAXG-Fq83A==/109951174071749735.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402575781"
+    },
+    {
+      "id": 402721352,
+      "name": "꼰트 OST, Our Everyday Life",
+      "artists": [
+        {
+          "id": 129797830,
+          "name": "DAYE"
+        }
+      ],
+      "artist_names": [
+        "DAYE"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "SLL",
+      "pic_url": "https://p3.music.126.net/E3rGPB2wyubVcu7_FCBT6Q==/109951174075296557.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402721352"
+    },
     {
       "id": 400732550,
       "name": "頭を空っぽにする夜 ～考えすぎた心を休ませる癒しの音楽～",
@@ -206,12 +321,35 @@
       "publish_date": "2026-10-12",
       "size": 37,
       "company": "Silent Harbor Studio",
-      "pic_url": "https://p3.music.126.net/joFEAwVWdgVh8hI2MDN1FA==/109951174010116706.jpg",
+      "pic_url": "https://p4.music.126.net/joFEAwVWdgVh8hI2MDN1FA==/109951174010116706.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400732550"
+    },
+    {
+      "id": 402779905,
+      "name": "那就像风一样自由吧",
+      "artists": [
+        {
+          "id": 51562348,
+          "name": "但家升"
+        }
+      ],
+      "artist_names": [
+        "但家升"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "乐享音乐",
+      "pic_url": "https://p3.music.126.net/LEc0V1G9K2M8UTt5MkncDg==/109951174076490988.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402779905"
     },
     {
       "id": 400792881,
@@ -280,12 +418,35 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/3JtopFAMR9XIyOh1v_j4cw==/109951174086859072.jpg",
+      "pic_url": "https://p3.music.126.net/3JtopFAMR9XIyOh1v_j4cw==/109951174086859072.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403163820"
+    },
+    {
+      "id": 402961787,
+      "name": "庄小孩",
+      "artists": [
+        {
+          "id": 13111343,
+          "name": "庄主恒"
+        }
+      ],
+      "artist_names": [
+        "庄主恒"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "哇唧唧哇",
+      "pic_url": "https://p3.music.126.net/D36ynbLADWl9uBF18OapLw==/109951174082055567.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402961787"
     },
     {
       "id": 400789740,
@@ -332,6 +493,52 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=401137017"
+    },
+    {
+      "id": 402782879,
+      "name": "太极",
+      "artists": [
+        {
+          "id": 97973775,
+          "name": "豫娃"
+        }
+      ],
+      "artist_names": [
+        "豫娃"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "乐享音乐",
+      "pic_url": "https://p3.music.126.net/hemg4FKE6KUSVYgI0An3-A==/109951174076710068.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402782879"
+    },
+    {
+      "id": 402788120,
+      "name": "多余",
+      "artists": [
+        {
+          "id": 54600852,
+          "name": "汪倩云"
+        }
+      ],
+      "artist_names": [
+        "汪倩云"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "娱心悦耳",
+      "pic_url": "https://p4.music.126.net/2hNno6nW7fQ9w7S05e0CVw==/109951174076826139.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402788120"
     },
     {
       "id": 400793224,
@@ -403,6 +610,29 @@
       "url": "https://music.163.com/#/album?id=401022982"
     },
     {
+      "id": 402970443,
+      "name": "再回眸",
+      "artists": [
+        {
+          "id": 33164701,
+          "name": "阿禹ayy"
+        }
+      ],
+      "artist_names": [
+        "阿禹ayy"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 2,
+      "company": "轨迹唱片",
+      "pic_url": "http://p3.music.126.net/XZx1EJfHXXxiyaEfDrkMZg==/109951174082316548.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "一回眸，他抚扇翩翩；二回眸，他眉睫浅浅；再回眸，却已忘流年。\n江南古风经典《再回眸》，由 00 后治愈系歌手阿禹 ayy 重新演绎。少年干净温润的声线，拂过燕过不留痕的江南烟雨，把 \"假作真时真亦假\" 的红尘恍惚，唱得清冷却不失温度。\n不期而遇的人误了红尘，擦肩而过的人念了余生。这一版《再回眸》，是阿禹 ayy 送给每一个曾在人群中多看了谁一眼、却终究没敢上前的你。",
+      "url": "https://music.163.com/#/album?id=402970443"
+    },
+    {
       "id": 401950565,
       "name": "依存性オーバードーズ (feat. 初音ミク)",
       "artists": [
@@ -464,7 +694,7 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "Yukky",
-      "pic_url": "https://p4.music.126.net/3B57qYyNk0rnQMVR_R4g9A==/109951174041040825.jpg",
+      "pic_url": "https://p3.music.126.net/3B57qYyNk0rnQMVR_R4g9A==/109951174041040825.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -505,6 +735,29 @@
       "url": "https://music.163.com/#/album?id=387030283"
     },
     {
+      "id": 402956200,
+      "name": "さながらロンリー",
+      "artists": [
+        {
+          "id": 1053279,
+          "name": "あいみょん"
+        }
+      ],
+      "artist_names": [
+        "あいみょん"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/V86Po7FKgPB3nKurbilc_w==/109951174082064809.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402956200"
+    },
+    {
       "id": 401582970,
       "name": "w/39",
       "artists": [
@@ -520,7 +773,7 @@
       "publish_date": "2026-10-12",
       "size": 17,
       "company": "Javano Re:cord",
-      "pic_url": "https://p3.music.126.net/CR9okAHVfy-QXCd5l-EGpA==/109951174035676155.jpg",
+      "pic_url": "https://p4.music.126.net/CR9okAHVfy-QXCd5l-EGpA==/109951174035676155.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -589,7 +842,7 @@
       "publish_date": "2026-10-12",
       "size": 13,
       "company": "BLUE STAR RECORDS",
-      "pic_url": "https://p3.music.126.net/WN4Z0xjJ_WU_4t5Ow_aZ_g==/109951174044527325.jpg",
+      "pic_url": "https://p4.music.126.net/WN4Z0xjJ_WU_4t5Ow_aZ_g==/109951174044527325.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -612,7 +865,7 @@
       "publish_date": "2026-10-12",
       "size": 25,
       "company": "LW Recordings",
-      "pic_url": "https://p3.music.126.net/zgppe9c4461YgcdUEx44Sg==/109951174012672635.jpg",
+      "pic_url": "https://p4.music.126.net/zgppe9c4461YgcdUEx44Sg==/109951174012672635.jpg",
       "sub_type": "Remix",
       "type": "专辑",
       "status": null,
@@ -704,7 +957,7 @@
       "publish_date": "2026-10-12",
       "size": 25,
       "company": "LW Recordings",
-      "pic_url": "https://p3.music.126.net/iy2g-fXPploYZJU0hSM_uQ==/109951174012667433.jpg",
+      "pic_url": "https://p4.music.126.net/iy2g-fXPploYZJU0hSM_uQ==/109951174012667433.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -773,7 +1026,7 @@
       "publish_date": "2026-10-12",
       "size": 25,
       "company": "Nothing But",
-      "pic_url": "https://p4.music.126.net/vwnZ9MweALzkWQ59sfbfGg==/109951174012669146.jpg",
+      "pic_url": "https://p3.music.126.net/vwnZ9MweALzkWQ59sfbfGg==/109951174012669146.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -796,7 +1049,7 @@
       "publish_date": "2026-10-12",
       "size": 25,
       "company": "Nothing But",
-      "pic_url": "https://p4.music.126.net/ixOOUxJ2CLU33bNXabkd6Q==/109951174012667174.jpg",
+      "pic_url": "https://p3.music.126.net/ixOOUxJ2CLU33bNXabkd6Q==/109951174012667174.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -842,12 +1095,35 @@
       "publish_date": "2026-10-12",
       "size": 25,
       "company": "LW Recordings",
-      "pic_url": "https://p3.music.126.net/dYQ91PFrEpxx23ycOzSU7g==/109951174012661963.jpg",
+      "pic_url": "https://p4.music.126.net/dYQ91PFrEpxx23ycOzSU7g==/109951174012661963.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400789468"
+    },
+    {
+      "id": 402762899,
+      "name": "Lucky",
+      "artists": [
+        {
+          "id": 121865765,
+          "name": "乔西"
+        }
+      ],
+      "artist_names": [
+        "乔西"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 1,
+      "company": "海蝶音乐（天津）有限公司",
+      "pic_url": "http://p3.music.126.net/HuHVuew0FUAHvM4Q4fdv8w==/109951174076200259.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "《美人余》影视原声带丨好命曲《Lucky》\n由乔西演唱，郭思达担任制作人，南国宪作词作曲。这是一首张扬自信的自我颂歌，打破“好运靠天赐”的既定剧本。轻快电子节拍托起洒脱人声，歌词字字铿锵——“好命是我给自己的定义”，将幸运从偶然概率扭转为主动选择的必然结果。整首歌弥漫着“我即主角”的强烈气场。它不贩卖童话，只传递一种笃定：当你专注自己的频率，世界自会向你倾斜。幸运，从来是勇敢者的专属勋章。",
+      "url": "https://music.163.com/#/album?id=402762899"
     },
     {
       "id": 401948501,
@@ -888,7 +1164,7 @@
       "publish_date": "2026-10-12",
       "size": 15,
       "company": "eScHeRa Records",
-      "pic_url": "https://p3.music.126.net/fZyT6Z25EqPMPB74RYJxGw==/109951174069480185.jpg",
+      "pic_url": "https://p4.music.126.net/fZyT6Z25EqPMPB74RYJxGw==/109951174069480185.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -911,7 +1187,7 @@
       "publish_date": "2026-10-12",
       "size": 5,
       "company": "Molon Labe Records",
-      "pic_url": "https://p3.music.126.net/a7mbNgJB4FZTpDFL-pEtAQ==/109951173884733557.jpg",
+      "pic_url": "https://p4.music.126.net/a7mbNgJB4FZTpDFL-pEtAQ==/109951173884733557.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
@@ -934,7 +1210,7 @@
       "publish_date": "2026-10-12",
       "size": 6,
       "company": "they",
-      "pic_url": "https://p3.music.126.net/Gduu6FY2W4MzU4KeJzbbxg==/109951174002834456.jpg",
+      "pic_url": "https://p4.music.126.net/Gduu6FY2W4MzU4KeJzbbxg==/109951174002834456.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
@@ -957,7 +1233,7 @@
       "publish_date": "2026-10-12",
       "size": 25,
       "company": "HOT-Q",
-      "pic_url": "https://p4.music.126.net/9YWneUSk59PmUUj54-OdCA==/109951174012674088.jpg",
+      "pic_url": "https://p3.music.126.net/9YWneUSk59PmUUj54-OdCA==/109951174012674088.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -1003,7 +1279,7 @@
       "publish_date": "2026-10-12",
       "size": 25,
       "company": "HOT-Q",
-      "pic_url": "https://p4.music.126.net/6kld4KoEsQkqmZs7Sq9Hyw==/109951174012663843.jpg",
+      "pic_url": "https://p3.music.126.net/6kld4KoEsQkqmZs7Sq9Hyw==/109951174012663843.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -1026,7 +1302,7 @@
       "publish_date": "2026-10-12",
       "size": 49,
       "company": "Exx Underground",
-      "pic_url": "https://p3.music.126.net/oBS1tvbuYo3Hqkz__V0KjA==/109951174063277730.jpg",
+      "pic_url": "https://p4.music.126.net/oBS1tvbuYo3Hqkz__V0KjA==/109951174063277730.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -1108,6 +1384,29 @@
       "url": "https://music.163.com/#/album?id=401948529"
     },
     {
+      "id": 402719533,
+      "name": "Between Steps, Pt. 3 (Original Television Soundtrack)",
+      "artists": [
+        {
+          "id": 31935023,
+          "name": "The Restless Age"
+        }
+      ],
+      "artist_names": [
+        "The Restless Age"
+      ],
+      "publish_time": 1791734400000,
+      "publish_date": "2026-10-12",
+      "size": 1,
+      "company": "SLL",
+      "pic_url": "https://p3.music.126.net/hBPsCvOY0qfrif1XR8NLhg==/109951174075261360.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402719533"
+    },
+    {
       "id": 401321476,
       "name": "BE:4U",
       "artists": [
@@ -1123,7 +1422,7 @@
       "publish_date": "2026-10-12",
       "size": 1,
       "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
-      "pic_url": "https://p3.music.126.net/1aAL403gD74lDUBmUmIq2A==/109951174027235906.jpg",
+      "pic_url": "https://p4.music.126.net/1aAL403gD74lDUBmUmIq2A==/109951174027235906.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
