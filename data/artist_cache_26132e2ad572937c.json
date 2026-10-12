@@ -1,18 +1,34 @@
 {
-  "saved_at": 1791803837.5352345,
-  "count": 2105,
+  "saved_at": 1791821406.2805283,
+  "count": 2109,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2105,
-    "server_count": 2105,
+    "count": 2109,
+    "server_count": 2109,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1791803837.5351923
+    "saved_at": 1791821406.2804828
   },
   "artists": [
+    {
+      "id": "128486414",
+      "name": "Terquoise"
+    },
+    {
+      "id": "28691631",
+      "name": "AIRPORTS"
+    },
+    {
+      "id": "35633210",
+      "name": "Smiles Only"
+    },
+    {
+      "id": "54236743",
+      "name": "Kyotsugyon"
+    },
     {
       "id": "30298784",
       "name": "Andrew A"
