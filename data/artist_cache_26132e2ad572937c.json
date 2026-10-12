@@ -1,18 +1,22 @@
 {
-  "saved_at": 1791778300.5102816,
-  "count": 2104,
+  "saved_at": 1791803837.5352345,
+  "count": 2105,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2104,
-    "server_count": 2104,
+    "count": 2105,
+    "server_count": 2105,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1791778300.510237
+    "saved_at": 1791803837.5351923
   },
   "artists": [
+    {
+      "id": "30298784",
+      "name": "Andrew A"
+    },
     {
       "id": "30537410",
       "name": "mixed matches"
