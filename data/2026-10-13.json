@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-10-13T04:43:24.806191+08:00",
-  "count": 33,
+  "generated_at": "2026-10-13T12:40:23.723214+08:00",
+  "count": 42,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 14,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 13,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 5,
+        "target_count": 9,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,12 +154,10 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 668,
-      "verified_target_count": 7,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "queries_ok": 9,
+      "search_candidates": 756,
+      "verified_target_count": 8,
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2109,
@@ -172,26 +170,77 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791836181.0484068,
+        "saved_at": 1791864727.0067356,
         "source": "live"
       },
-      "relations": 81098,
-      "new_album_candidates": 56,
-      "unique_albums": 37322,
-      "detail_success": 37321,
+      "relations": 81104,
+      "new_album_candidates": 57,
+      "unique_albums": 37324,
+      "detail_success": 37323,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1050,
-      "verify_artists": 677,
+      "date_hit_albums": 1056,
+      "verify_artists": 681,
       "owned_failures": 0,
-      "external_hits": 273,
-      "new_release_hits": 66,
+      "external_hits": 274,
+      "new_release_hits": 67,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 33
+    "unique_album_count": 42
   },
   "albums": [
+    {
+      "id": 403479712,
+      "name": "望闻问切THE EXORCISM",
+      "artists": [
+        {
+          "id": 34515032,
+          "name": "FANNTA乐队"
+        },
+        {
+          "id": 222175,
+          "name": "Madprole"
+        }
+      ],
+      "artist_names": [
+        "FANNTA乐队",
+        "Madprole"
+      ],
+      "publish_time": 1791864000000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/YGMkVzd4YWWTD1KM2G0rnA==/109951174097737369.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403479712"
+    },
+    {
+      "id": 403614882,
+      "name": "우리들의 발라드 2 Story 2",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 6,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/-qKH_-p_PlsXPZ2MAW6dYA==/109951174101542080.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403614882"
+    },
     {
       "id": 403435166,
       "name": "雨晴I Wish（Feat.初音ミク,重音テト,音街ウナ）",
@@ -223,7 +272,7 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "嗨翻屋",
-      "pic_url": "https://p4.music.126.net/bqhKMbQgr97LZVtktEML_A==/109951174096723425.jpg",
+      "pic_url": "https://p3.music.126.net/bqhKMbQgr97LZVtktEML_A==/109951174096723425.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -277,21 +326,44 @@
       "url": "https://music.163.com/#/album?id=403484244"
     },
     {
+      "id": 403193275,
+      "name": "水为媒",
+      "artists": [
+        {
+          "id": 7890,
+          "name": "黄龄"
+        }
+      ],
+      "artist_names": [
+        "黄龄"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 3,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/o4ctBcDFVrBUgGkj_5LHXA==/109951174087471798.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403193275"
+    },
+    {
       "id": 403486645,
       "name": "月亮与六便士",
       "artists": [
         {
-          "id": 12094123,
-          "name": "叶枫华"
-        },
-        {
           "id": 2133,
           "name": "陈奂仁"
+        },
+        {
+          "id": 12094123,
+          "name": "叶枫华"
         }
       ],
       "artist_names": [
-        "叶枫华",
-        "陈奂仁"
+        "陈奂仁",
+        "叶枫华"
       ],
       "publish_time": 1791820800000,
       "publish_date": "2026-10-13",
@@ -320,7 +392,7 @@
       "publish_date": "2026-10-13",
       "size": 30,
       "company": "Silent Harbor Studio",
-      "pic_url": "https://p3.music.126.net/4b0DAduABim7D7Ux-TRA0g==/109951174012730731.jpg",
+      "pic_url": "https://p4.music.126.net/4b0DAduABim7D7Ux-TRA0g==/109951174012730731.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -366,12 +438,58 @@
       "publish_date": "2026-10-13",
       "size": 2,
       "company": "潮音悦动",
-      "pic_url": "https://p4.music.126.net/PD3h-I4NhrvK-U_L5psaZg==/109951174085516974.jpg",
+      "pic_url": "https://p3.music.126.net/PD3h-I4NhrvK-U_L5psaZg==/109951174085516974.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403081623"
+    },
+    {
+      "id": 403175579,
+      "name": "思念海",
+      "artists": [
+        {
+          "id": 35863873,
+          "name": "深海鱼子酱"
+        }
+      ],
+      "artist_names": [
+        "深海鱼子酱"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 2,
+      "company": "乐鸣星希",
+      "pic_url": "https://p4.music.126.net/fKsF1xWeTQXf-6mHpkw44Q==/109951174087114164.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403175579"
+    },
+    {
+      "id": 403164313,
+      "name": "就算我错漏百出",
+      "artists": [
+        {
+          "id": 14472821,
+          "name": "Kiri T"
+        }
+      ],
+      "artist_names": [
+        "Kiri T"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/jWwqXxY6H8qJBbp1D7LlWg==/109951174096704464.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403164313"
     },
     {
       "id": 400792380,
@@ -389,7 +507,7 @@
       "publish_date": "2026-10-13",
       "size": 30,
       "company": "Silent Harbor Studio",
-      "pic_url": "https://p4.music.126.net/7946cYpkAyTUqmJ9LzX_Cg==/109951174012758267.jpg",
+      "pic_url": "https://p3.music.126.net/7946cYpkAyTUqmJ9LzX_Cg==/109951174012758267.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -435,7 +553,7 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "YakumoTsukumo",
-      "pic_url": "https://p3.music.126.net/z61qWLbRJIEMXBSvVOMa7w==/109951174049389034.jpg",
+      "pic_url": "https://p4.music.126.net/z61qWLbRJIEMXBSvVOMa7w==/109951174049389034.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -458,7 +576,7 @@
       "publish_date": "2026-10-13",
       "size": 31,
       "company": "Silent Harbor Studio",
-      "pic_url": "https://p3.music.126.net/SAyFy1PbRnSxfxHIXDa5wQ==/109951174012819435.jpg",
+      "pic_url": "https://p4.music.126.net/SAyFy1PbRnSxfxHIXDa5wQ==/109951174012819435.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -481,7 +599,7 @@
       "publish_date": "2026-10-13",
       "size": 32,
       "company": "Silent Harbor Studio",
-      "pic_url": "https://p3.music.126.net/bRCpbeIw_x1vNTcrKIHNcg==/109951173940384036.jpg",
+      "pic_url": "https://p4.music.126.net/bRCpbeIw_x1vNTcrKIHNcg==/109951173940384036.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -504,7 +622,7 @@
       "publish_date": "2026-10-13",
       "size": 36,
       "company": "Silent Harbor Studio",
-      "pic_url": "https://p4.music.126.net/0OMGaMveLTDags99R9lbeQ==/109951174010107059.jpg",
+      "pic_url": "https://p3.music.126.net/0OMGaMveLTDags99R9lbeQ==/109951174010107059.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -535,6 +653,29 @@
       "url": "https://music.163.com/#/album?id=400793622"
     },
     {
+      "id": 402767927,
+      "name": "一半",
+      "artists": [
+        {
+          "id": 33563937,
+          "name": "王赛罕娜"
+        }
+      ],
+      "artist_names": [
+        "王赛罕娜"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "太合麦田（天津）音乐有限公司",
+      "pic_url": "https://p3.music.126.net/YzDRc1Ve-bG4QlBw-q524A==/109951174076335094.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402767927"
+    },
+    {
       "id": 402583602,
       "name": "サムライ (feat. 初音ミク)",
       "artists": [
@@ -550,7 +691,7 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "kamiiwaki",
-      "pic_url": "https://p4.music.126.net/CfPeLPXNbGe2fXzqZFZWZQ==/109951174071965303.jpg",
+      "pic_url": "https://p3.music.126.net/CfPeLPXNbGe2fXzqZFZWZQ==/109951174071965303.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -619,7 +760,7 @@
       "publish_date": "2026-10-13",
       "size": 20,
       "company": "Blue Rafter",
-      "pic_url": "https://p3.music.126.net/nt8ELB6JxhvtMXA8ei1lzA==/109951174055655188.jpg",
+      "pic_url": "https://p4.music.126.net/nt8ELB6JxhvtMXA8ei1lzA==/109951174055655188.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -642,7 +783,7 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "HARDCORE TANO*C",
-      "pic_url": "https://p3.music.126.net/Ufd3dq_qab2j7ITnc2KF8Q==/109951174070587469.jpg",
+      "pic_url": "https://p4.music.126.net/Ufd3dq_qab2j7ITnc2KF8Q==/109951174070587469.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -688,7 +829,7 @@
       "publish_date": "2026-10-13",
       "size": 19,
       "company": "House Groove Six",
-      "pic_url": "https://p4.music.126.net/VWfE-DwEm1lUaNMioKcLsw==/109951173967884019.jpg",
+      "pic_url": "https://p3.music.126.net/VWfE-DwEm1lUaNMioKcLsw==/109951173967884019.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -729,12 +870,35 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/91pZKsKoRuX5kscm9BZFNg==/109951174096943658.jpg",
+      "pic_url": "https://p4.music.126.net/91pZKsKoRuX5kscm9BZFNg==/109951174096943658.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403438775"
+    },
+    {
+      "id": 402657692,
+      "name": "Mali šlager - Vremeplov 1973. (Remaster)",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 36,
+      "company": "Muzička produkcija BHRT",
+      "pic_url": "https://p4.music.126.net/5RqjDuQiyeHhNahWwyFmMQ==/109951174074466672.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402657692"
     },
     {
       "id": 402083071,
@@ -795,12 +959,35 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "SouthernLion南狮电音",
-      "pic_url": "https://p4.music.126.net/73SSPmzmclLepnllM3LhKg==/109951174076001862.jpg",
+      "pic_url": "https://p3.music.126.net/73SSPmzmclLepnllM3LhKg==/109951174076001862.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402753620"
+    },
+    {
+      "id": 403141665,
+      "name": "It's my world",
+      "artists": [
+        {
+          "id": 13145283,
+          "name": "ICE杨长青"
+        }
+      ],
+      "artist_names": [
+        "ICE杨长青"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "INDEcompany",
+      "pic_url": "https://p3.music.126.net/jIzmmxr1jtvEkWBWsgXA_g==/109951174086409136.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403141665"
     },
     {
       "id": 403381231,
@@ -893,6 +1080,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402038925"
+    },
+    {
+      "id": 402720168,
+      "name": "Between Steps, Pt. 4 (Original Television Soundtrack)",
+      "artists": [
+        {
+          "id": 72720,
+          "name": "Rachael Yamagata"
+        }
+      ],
+      "artist_names": [
+        "Rachael Yamagata"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "SLL",
+      "pic_url": "https://p3.music.126.net/TrZJTDMGChfS0vBo8PdAuw==/109951174075268094.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402720168"
     },
     {
       "id": 403008872,
@@ -989,7 +1199,7 @@
       "publish_date": "2026-10-13",
       "size": 18,
       "company": "天娱传媒",
-      "pic_url": "https://p3.music.126.net/5Q5RWNQ9o_fVXt9N7d5Hbg==/109951174096761955.jpg",
+      "pic_url": "https://p4.music.126.net/5Q5RWNQ9o_fVXt9N7d5Hbg==/109951174096761955.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
