@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
-  "generated_at": "2026-10-14T00:44:35.857460+08:00",
-  "count": 72,
+  "generated_at": "2026-10-14T05:03:11.157436+08:00",
+  "count": 74,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 20,
+        "target_count": 23,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 6,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 8,
+        "target_count": 9,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 751,
+      "search_candidates": 731,
       "verified_target_count": 7,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791907885.9311326,
+        "saved_at": 1791923220.8481221,
         "source": "live"
       },
       "relations": 81102,
-      "new_album_candidates": 67,
-      "unique_albums": 37340,
-      "detail_success": 37339,
+      "new_album_candidates": 68,
+      "unique_albums": 37341,
+      "detail_success": 37340,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1069,
-      "verify_artists": 688,
+      "date_hit_albums": 1071,
+      "verify_artists": 689,
       "owned_failures": 0,
       "external_hits": 282,
-      "new_release_hits": 86,
+      "new_release_hits": 87,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 72
+    "unique_album_count": 74
   },
   "albums": [
     {
@@ -234,7 +234,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "Hao Yue Wu Huang",
-      "pic_url": "https://p4.music.126.net/jRd-QtyiN6tNj1c27qzVbg==/109951174083256428.jpg",
+      "pic_url": "https://p3.music.126.net/jRd-QtyiN6tNj1c27qzVbg==/109951174083256428.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -250,13 +250,13 @@
           "name": "银河快递"
         },
         {
-          "id": 58288843,
-          "name": "叶润泽"
+          "id": 12319437,
+          "name": "RANZER叶润泽"
         }
       ],
       "artist_names": [
         "银河快递",
-        "叶润泽"
+        "RANZER叶润泽"
       ],
       "publish_time": 1791907200000,
       "publish_date": "2026-10-14",
@@ -290,7 +290,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "地球娱乐/A Music",
-      "pic_url": "https://p3.music.126.net/-0eQSjaatfzMqjh3M0DSHw==/109951174096806773.jpg",
+      "pic_url": "https://p4.music.126.net/-0eQSjaatfzMqjh3M0DSHw==/109951174096806773.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -313,7 +313,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/7tGj9S--Z0EmK9n8wYVSTQ==/109951174097248304.jpg",
+      "pic_url": "https://p4.music.126.net/7tGj9S--Z0EmK9n8wYVSTQ==/109951174097248304.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -405,7 +405,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "万谱森OnePercent",
-      "pic_url": "https://p3.music.126.net/xJYHE5O0U1MX6AriMEg0Hw==/109951174098059598.jpg",
+      "pic_url": "https://p4.music.126.net/xJYHE5O0U1MX6AriMEg0Hw==/109951174098059598.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -451,7 +451,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "06(o-six) records",
-      "pic_url": "https://p3.music.126.net/6ZB3z2GUQ0NJc_u8o1u_sw==/109951174017430814.jpg",
+      "pic_url": "https://p4.music.126.net/6ZB3z2GUQ0NJc_u8o1u_sw==/109951174017430814.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -663,7 +663,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "觅听音乐（北京）文化有限公司",
-      "pic_url": "https://p4.music.126.net/pwXEV53hp0oNkX0DiN3ZYA==/109951174101709311.jpg",
+      "pic_url": "https://p3.music.126.net/pwXEV53hp0oNkX0DiN3ZYA==/109951174101709311.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -709,7 +709,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "Rinko",
-      "pic_url": "https://p3.music.126.net/nVwRWilPbcuOnSFhY39XKw==/109951174051450362.jpg",
+      "pic_url": "https://p4.music.126.net/nVwRWilPbcuOnSFhY39XKw==/109951174051450362.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -870,7 +870,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/fl2Ud40CNHqVzE_Yk3UBpA==/109951174064926314.jpg",
+      "pic_url": "https://p4.music.126.net/fl2Ud40CNHqVzE_Yk3UBpA==/109951174064926314.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -962,7 +962,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p3.music.126.net/Qqz5xqBy8g37vM5aD8qkXA==/109951174086266311.jpg",
+      "pic_url": "https://p4.music.126.net/Qqz5xqBy8g37vM5aD8qkXA==/109951174086266311.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1054,7 +1054,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/MSdGwNUwKkxfWpRNVq09wA==/109951174102389228.jpg",
+      "pic_url": "https://p4.music.126.net/MSdGwNUwKkxfWpRNVq09wA==/109951174102389228.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1207,6 +1207,34 @@
       "url": "https://music.163.com/#/album?id=401364565"
     },
     {
+      "id": 403330223,
+      "name": "Symphony Christmas Acoustic Vol.4",
+      "artists": [
+        {
+          "id": 129129216,
+          "name": "Symphony Swedes"
+        },
+        {
+          "id": 27793113,
+          "name": "The Christmas Collective"
+        }
+      ],
+      "artist_names": [
+        "Symphony Swedes",
+        "The Christmas Collective"
+      ],
+      "publish_time": 1791907200000,
+      "publish_date": "2026-10-14",
+      "size": 8,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/S0VUuzpv12n5zv8ApCQa4g==/109951174092412374.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403330223"
+    },
+    {
       "id": 399370213,
       "name": "Super Soul",
       "artists": [
@@ -1327,6 +1355,29 @@
       "url": "https://music.163.com/#/album?id=403193153"
     },
     {
+      "id": 399014503,
+      "name": "My Point of View",
+      "artists": [
+        {
+          "id": 60253655,
+          "name": "Red Camel Collective"
+        }
+      ],
+      "artist_names": [
+        "Red Camel Collective"
+      ],
+      "publish_time": 1791907200000,
+      "publish_date": "2026-10-14",
+      "size": 1,
+      "company": "Pinecastle Records",
+      "pic_url": "https://p4.music.126.net/wcEsTmjBtc9U18R0zFzV9g==/109951173958924476.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=399014503"
+    },
+    {
       "id": 402271641,
       "name": "Mbalenhle",
       "artists": [
@@ -1365,7 +1416,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/2Yk4OeUkQdh1Sx8TfYhsNA==/109951174097877138.jpg",
+      "pic_url": "https://p4.music.126.net/2Yk4OeUkQdh1Sx8TfYhsNA==/109951174097877138.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1388,7 +1439,7 @@
       "publish_date": "2026-10-14",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/Oz2InvFPEM25PKyo2DTvDA==/109951174072833944.jpg",
+      "pic_url": "https://p4.music.126.net/Oz2InvFPEM25PKyo2DTvDA==/109951174072833944.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1882,7 +1933,7 @@
       "publish_date": "2026-10-14",
       "size": 9,
       "company": "",
-      "pic_url": "https://p3.music.126.net/uRV9eKb5nbWAd2ByoN0Phg==/109951174098119951.jpg",
+      "pic_url": "https://p3.music.126.net/qqqZekw3-095k1q0qPp0TQ==/109951174104774323.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
