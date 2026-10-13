@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-10-13T12:40:23.723214+08:00",
-  "count": 42,
+  "generated_at": "2026-10-13T19:45:57.898114+08:00",
+  "count": 54,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 14,
+        "target_count": 23,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 13,
+        "target_count": 17,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 4,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 9,
+        "target_count": 11,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 1,
+        "target_count": 4,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,41 +155,64 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 756,
-      "verified_target_count": 8,
+      "search_candidates": 746,
+      "verified_target_count": 9,
       "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2109,
+      "artists": 2110,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2109,
-        "server_count": 2109,
+        "count": 2110,
+        "server_count": 2110,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791864727.0067356,
+        "saved_at": 1791890247.420634,
         "source": "live"
       },
-      "relations": 81104,
-      "new_album_candidates": 57,
-      "unique_albums": 37324,
-      "detail_success": 37323,
+      "relations": 81116,
+      "new_album_candidates": 61,
+      "unique_albums": 37335,
+      "detail_success": 37334,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1056,
-      "verify_artists": 681,
+      "date_hit_albums": 1072,
+      "verify_artists": 689,
       "owned_failures": 0,
-      "external_hits": 274,
-      "new_release_hits": 67,
+      "external_hits": 275,
+      "new_release_hits": 72,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 42
+    "unique_album_count": 54
   },
   "albums": [
+    {
+      "id": 403652420,
+      "name": "Lost in Time",
+      "artists": [
+        {
+          "id": 121984357,
+          "name": "LILI粒粒"
+        }
+      ],
+      "artist_names": [
+        "LILI粒粒"
+      ],
+      "publish_time": 1791877742000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/YuCRd-sY9I89OAcOcH0KMw==/109951174102366672.jpg",
+      "sub_type": "Beat",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403652420"
+    },
     {
       "id": 403479712,
       "name": "望闻问切THE EXORCISM",
@@ -211,7 +234,7 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/YGMkVzd4YWWTD1KM2G0rnA==/109951174097737369.jpg",
+      "pic_url": "https://p4.music.126.net/YGMkVzd4YWWTD1KM2G0rnA==/109951174097737369.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -240,6 +263,57 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403614882"
+    },
+    {
+      "id": 402520650,
+      "name": "미장센",
+      "artists": [
+        {
+          "id": 126682,
+          "name": "EPIK HIGH"
+        },
+        {
+          "id": 126592,
+          "name": "DAViCHi"
+        }
+      ],
+      "artist_names": [
+        "EPIK HIGH",
+        "DAViCHi"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 2,
+      "company": "Genie Music Corporation",
+      "pic_url": "https://p4.music.126.net/y1dVHWc7Jqq8xg_yavmatw==/109951174070054936.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402520650"
+    },
+    {
+      "id": 402952036,
+      "name": "너에게 다이브 OST Part.3",
+      "artists": [
+        {
+          "id": 12132583,
+          "name": "李敏赫"
+        }
+      ],
+      "artist_names": [
+        "李敏赫"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 2,
+      "company": "NHN BUGS",
+      "pic_url": "https://p3.music.126.net/ubXPTHSUgyMTUf67ytCLBw==/109951174081993269.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402952036"
     },
     {
       "id": 403435166,
@@ -303,6 +377,52 @@
       "url": "https://music.163.com/#/album?id=402039956"
     },
     {
+      "id": 402774338,
+      "name": "直至矛盾瓦解",
+      "artists": [
+        {
+          "id": 12864,
+          "name": "Supper Moment"
+        }
+      ],
+      "artist_names": [
+        "Supper Moment"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "Miracle Entertainment Company Limited / Universal Music Ltd.",
+      "pic_url": "https://p4.music.126.net/hPDbw_7QPWXqM9SchOl2qg==/109951174102837326.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402774338"
+    },
+    {
+      "id": 403490266,
+      "name": "爱我的所有",
+      "artists": [
+        {
+          "id": 12206844,
+          "name": "丁芙妮"
+        }
+      ],
+      "artist_names": [
+        "丁芙妮"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 2,
+      "company": "轨迹唱片",
+      "pic_url": "https://p4.music.126.net/4pMYQ0SFv5RC6Aakokn_Fg==/109951174097927550.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403490266"
+    },
+    {
       "id": 403484244,
       "name": "温柔时差",
       "artists": [
@@ -318,7 +438,7 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/ikQyYEwdPj5sTxCfn8cZQA==/109951174097798896.jpg",
+      "pic_url": "https://p4.music.126.net/ikQyYEwdPj5sTxCfn8cZQA==/109951174097798896.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -341,7 +461,7 @@
       "publish_date": "2026-10-13",
       "size": 3,
       "company": "华纳音乐",
-      "pic_url": "https://p4.music.126.net/o4ctBcDFVrBUgGkj_5LHXA==/109951174087471798.jpg",
+      "pic_url": "https://p3.music.126.net/o4ctBcDFVrBUgGkj_5LHXA==/109951174087471798.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -423,6 +543,29 @@
       "url": "https://music.163.com/#/album?id=400790975"
     },
     {
+      "id": 403162767,
+      "name": "惯性温柔",
+      "artists": [
+        {
+          "id": 32844865,
+          "name": "Juice Boy"
+        }
+      ],
+      "artist_names": [
+        "Juice Boy"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/NB4bf-ZHpeO7uyol7HATjw==/109951174086844919.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403162767"
+    },
+    {
       "id": 403081623,
       "name": "恰如拥抱终将松开手",
       "artists": [
@@ -438,7 +581,7 @@
       "publish_date": "2026-10-13",
       "size": 2,
       "company": "潮音悦动",
-      "pic_url": "https://p3.music.126.net/PD3h-I4NhrvK-U_L5psaZg==/109951174085516974.jpg",
+      "pic_url": "https://p4.music.126.net/PD3h-I4NhrvK-U_L5psaZg==/109951174085516974.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -484,12 +627,35 @@
       "publish_date": "2026-10-13",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p3.music.126.net/jWwqXxY6H8qJBbp1D7LlWg==/109951174096704464.jpg",
+      "pic_url": "https://p4.music.126.net/jWwqXxY6H8qJBbp1D7LlWg==/109951174096704464.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403164313"
+    },
+    {
+      "id": 402043083,
+      "name": "少女A (feat. 椎名もた) [少女Ａ＠10年たった]",
+      "artists": [
+        {
+          "id": 129656098,
+          "name": "Maison NOCT+"
+        }
+      ],
+      "artist_names": [
+        "Maison NOCT+"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "Maison NOCT+",
+      "pic_url": "https://p4.music.126.net/4GIKJIvb7WBAFpaYA-63Vg==/109951174053571731.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402043083"
     },
     {
       "id": 400792380,
@@ -699,16 +865,67 @@
       "url": "https://music.163.com/#/album?id=402583602"
     },
     {
+      "id": 270024575,
+      "name": "また夏が来る",
+      "artists": [
+        {
+          "id": "57763999",
+          "name": "wagataki"
+        }
+      ],
+      "artist_names": [
+        "wagataki"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 7,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/FkaGiNmXmW-VKe0VribdYQ==/109951174101990162.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=270024575"
+    },
+    {
+      "id": 403574877,
+      "name": "hollow voices",
+      "artists": [
+        {
+          "id": "49491592",
+          "name": "unfoldingskies"
+        }
+      ],
+      "artist_names": [
+        "unfoldingskies"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/ftynbCDebq-aE28T98fZJQ==/109951174102247654.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403574877"
+    },
+    {
       "id": 403458960,
       "name": "WUGETAPE",
       "artists": [
         {
           "id": 30544665,
           "name": "无敌男孩"
+        },
+        {
+          "id": 98724675,
+          "name": "WHICHWAY_MUSIC"
         }
       ],
       "artist_names": [
-        "无敌男孩"
+        "无敌男孩",
+        "WHICHWAY_MUSIC"
       ],
       "publish_time": 1791820800000,
       "publish_date": "2026-10-13",
@@ -766,6 +983,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402083061"
+    },
+    {
+      "id": 401539125,
+      "name": "SOLSTICE",
+      "artists": [
+        {
+          "id": 30764386,
+          "name": "朴佑镇"
+        }
+      ],
+      "artist_names": [
+        "朴佑镇"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 4,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/SSSPG7iaI6lJKvBKzD8YAQ==/109951174034346441.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401539125"
     },
     {
       "id": 402538698,
@@ -967,6 +1207,29 @@
       "url": "https://music.163.com/#/album?id=402753620"
     },
     {
+      "id": 403522499,
+      "name": "Jayanti Mangala Kali",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/QyNggOTBeTyRwhXaYAONQA==/109951174099033323.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403522499"
+    },
+    {
       "id": 403141665,
       "name": "It's my world",
       "artists": [
@@ -1011,6 +1274,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403381231"
+    },
+    {
+      "id": 401837158,
+      "name": "East West Love (Original Motion Picture Soundtrack)",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1791820800000,
+      "publish_date": "2026-10-13",
+      "size": 9,
+      "company": "Independent",
+      "pic_url": "https://p4.music.126.net/WQdzBUhZpeZzqlIoW1I1oA==/109951174045442493.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401837158"
     },
     {
       "id": 398796236,
