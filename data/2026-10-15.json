@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
-  "generated_at": "2026-10-15T01:04:55.305834+08:00",
-  "count": 65,
+  "generated_at": "2026-10-15T04:56:08.887391+08:00",
+  "count": 70,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 13,
+        "target_count": 14,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1791995091.2011683,
+        "saved_at": 1792009582.7608953,
         "source": "live"
       },
       "relations": 81169,
-      "new_album_candidates": 78,
-      "unique_albums": 37370,
-      "detail_success": 37369,
+      "new_album_candidates": 80,
+      "unique_albums": 37373,
+      "detail_success": 37372,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1069,
+      "date_hit_albums": 1072,
       "verify_artists": 679,
       "owned_failures": 0,
       "external_hits": 282,
-      "new_release_hits": 98,
+      "new_release_hits": 101,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 65
+    "unique_album_count": 70
   },
   "albums": [
     {
@@ -252,7 +252,7 @@
       "publish_date": "2026-10-15",
       "size": 2,
       "company": "宇歌风行",
-      "pic_url": "https://p4.music.126.net/f6ewajqrMWafhyPzopu7IA==/109951174086220846.jpg",
+      "pic_url": "https://p3.music.126.net/f6ewajqrMWafhyPzopu7IA==/109951174086220846.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -275,7 +275,7 @@
       "publish_date": "2026-10-15",
       "size": 5,
       "company": "",
-      "pic_url": "https://p4.music.126.net/DsJD2U6M7cL2kDJqWo4d3A==/109951173986935542.jpg",
+      "pic_url": "https://p3.music.126.net/DsJD2U6M7cL2kDJqWo4d3A==/109951173986935542.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -307,10 +307,6 @@
           "name": "anemptycity空城"
         },
         {
-          "id": 55275689,
-          "name": "Yoyi"
-        },
-        {
           "id": 47471965,
           "name": "MoFly"
         },
@@ -337,7 +333,6 @@
         "ATM Hanson",
         "李汶骏",
         "anemptycity空城",
-        "Yoyi",
         "MoFly",
         "User116",
         "sako",
@@ -348,7 +343,7 @@
       "publish_date": "2026-10-15",
       "size": 16,
       "company": "网易音乐人",
-      "pic_url": "https://p4.music.126.net/AvEJcNMC2pClgcNRNeNr4g==/109951174107168973.jpg",
+      "pic_url": "https://p3.music.126.net/AvEJcNMC2pClgcNRNeNr4g==/109951174107168973.jpg",
       "sub_type": "录音室版",
       "type": "合集",
       "status": 1,
@@ -445,7 +440,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p3.music.126.net/wimKd9riq7KxfepFfmvY6Q==/109951174096751274.jpg",
+      "pic_url": "https://p4.music.126.net/wimKd9riq7KxfepFfmvY6Q==/109951174096751274.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -473,7 +468,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "相信音乐",
-      "pic_url": "https://p3.music.126.net/oN-2Npo3jA6Ne9TPzxekiw==/109951174092302813.jpg",
+      "pic_url": "https://p4.music.126.net/oN-2Npo3jA6Ne9TPzxekiw==/109951174092302813.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -496,7 +491,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "Columbia Records China ×地心引力",
-      "pic_url": "https://p3.music.126.net/-yduk3fIEeTzxl7LKFeoew==/109951173987225727.jpg",
+      "pic_url": "https://p4.music.126.net/-yduk3fIEeTzxl7LKFeoew==/109951173987225727.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -573,6 +568,29 @@
       "url": "https://music.163.com/#/album?id=400798252"
     },
     {
+      "id": 403456445,
+      "name": "共晶半溶融 (Geiger Remix)",
+      "artists": [
+        {
+          "id": 34386739,
+          "name": "イチ"
+        }
+      ],
+      "artist_names": [
+        "イチ"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 1,
+      "company": "Ichi",
+      "pic_url": "https://p4.music.126.net/HYWTbpqQBKo4e-zQcJBRmQ==/109951174097311782.jpg",
+      "sub_type": "Remix",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403456445"
+    },
+    {
       "id": 400294332,
       "name": "光下影",
       "artists": [
@@ -639,7 +657,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/mfI0rpsFKS8nD8UiSRke4g==/109951174107064900.jpg",
+      "pic_url": "https://p3.music.126.net/mfI0rpsFKS8nD8UiSRke4g==/109951174107064900.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1171,7 +1189,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/_8v2SEbPccFsWkgkKWF0Yw==/109951174102446234.jpg",
+      "pic_url": "https://p3.music.126.net/_8v2SEbPccFsWkgkKWF0Yw==/109951174102446234.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1200,6 +1218,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403714142"
+    },
+    {
+      "id": 404001960,
+      "name": "Paris Chill House Paradise 2026",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 20,
+      "company": "Favorite Music",
+      "pic_url": "https://p4.music.126.net/J6R0uaFkEZvilkIXFhN9vw==/109951174110410195.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404001960"
     },
     {
       "id": 403504684,
@@ -1345,6 +1386,52 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403105416"
+    },
+    {
+      "id": 403989917,
+      "name": "Kerala Underground - The Lit",
+      "artists": [
+        {
+          "id": "50677937",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 6,
+      "company": "Zee Music Company",
+      "pic_url": "https://p4.music.126.net/dYUJp1KcFMnhCNYEoUfhlA==/109951174110170435.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403989917"
+    },
+    {
+      "id": 404001910,
+      "name": "Jazz Nights 2026",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 20,
+      "company": "Favorite Music",
+      "pic_url": "https://p4.music.126.net/lRwGyT4xEa5qBrMZj4nKLg==/109951174110410639.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404001910"
     },
     {
       "id": 402561181,
@@ -1499,7 +1586,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "Blue Note Records China",
-      "pic_url": "https://p3.music.126.net/RqkayDb87NKUUWE0eHTNXQ==/109951174091034718.jpg",
+      "pic_url": "https://p4.music.126.net/RqkayDb87NKUUWE0eHTNXQ==/109951174091034718.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1870,6 +1957,89 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=397415201"
+    },
+    {
+      "id": 403975011,
+      "name": "\"The Quiet Night: Bach, Mozart & more\"",
+      "artists": [
+        {
+          "id": "36490",
+          "name": "Johann Sebastian Bach"
+        },
+        {
+          "id": "804174",
+          "name": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "231393",
+          "name": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "id": "38731",
+          "name": "Ludwig van Beethoven"
+        },
+        {
+          "id": "33737",
+          "name": "Frédéric François Chopin"
+        },
+        {
+          "id": "33363",
+          "name": "Franz Schubert"
+        },
+        {
+          "id": "60942",
+          "name": "Johannes Brahms"
+        },
+        {
+          "id": "130021",
+          "name": "Robert Schumann"
+        },
+        {
+          "id": "37069",
+          "name": "Jean-Philippe Rameau"
+        },
+        {
+          "id": "29976",
+          "name": "Claude Debussy"
+        },
+        {
+          "id": "39435",
+          "name": "Maurice Ravel"
+        },
+        {
+          "id": "31197139",
+          "name": "George frideric Handel"
+        },
+        {
+          "id": "28510",
+          "name": "Antonio Vivaldi"
+        }
+      ],
+      "artist_names": [
+        "Johann Sebastian Bach",
+        "Wolfgang Amadeus Mozart",
+        "Pyotr Ilyich Tchaikovsky",
+        "Ludwig van Beethoven",
+        "Frédéric François Chopin",
+        "Franz Schubert",
+        "Johannes Brahms",
+        "Robert Schumann",
+        "Jean-Philippe Rameau",
+        "Claude Debussy",
+        "Maurice Ravel",
+        "George frideric Handel",
+        "Antonio Vivaldi"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 79,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p3.music.126.net/5KFCYw-wdeIu37CDKcFySQ==/109951174109868162.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403975011"
     }
   ]
 }
