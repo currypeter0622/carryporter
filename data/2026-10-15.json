@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
-  "generated_at": "2026-10-15T04:56:08.887391+08:00",
-  "count": 70,
+  "generated_at": "2026-10-15T12:53:21.989848+08:00",
+  "count": 82,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 14,
+        "target_count": 27,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 13,
+        "target_count": 23,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 9,
+        "target_count": 19,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 2,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,41 +155,69 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 749,
+      "search_candidates": 743,
       "verified_target_count": 7,
       "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2111,
+      "artists": 2112,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2111,
-        "server_count": 2111,
+        "count": 2112,
+        "server_count": 2112,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792009582.7608953,
+        "saved_at": 1792038110.352389,
         "source": "live"
       },
-      "relations": 81169,
-      "new_album_candidates": 80,
-      "unique_albums": 37373,
-      "detail_success": 37372,
+      "relations": 81203,
+      "new_album_candidates": 81,
+      "unique_albums": 37392,
+      "detail_success": 37391,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1072,
+      "date_hit_albums": 1073,
       "verify_artists": 679,
       "owned_failures": 0,
       "external_hits": 282,
-      "new_release_hits": 101,
+      "new_release_hits": 102,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 70
+    "unique_album_count": 82
   },
   "albums": [
+    {
+      "id": 403881223,
+      "name": "Beyond The Limtis",
+      "artists": [
+        {
+          "id": 129993968,
+          "name": "极限战场"
+        },
+        {
+          "id": 0,
+          "name": "Chris Hunyh"
+        }
+      ],
+      "artist_names": [
+        "极限战场",
+        "Chris Hunyh"
+      ],
+      "publish_time": 1792026000000,
+      "publish_date": "2026-10-15",
+      "size": 1,
+      "company": "网易(上海)网络有限公司",
+      "pic_url": "https://p3.music.126.net/xJzUNAWhM8Z2kTwmhIsoPQ==/109951174106310480.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403881223"
+    },
     {
       "id": 402266722,
       "name": "雨上がりの景色 (feat. 鏡音リン & 初音ミク)",
@@ -212,6 +240,39 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402266722"
+    },
+    {
+      "id": 403630249,
+      "name": "花祀时",
+      "artists": [
+        {
+          "id": "122546004",
+          "name": "铁痕电台-MSR"
+        },
+        {
+          "id": "62216002",
+          "name": "Hyunmin Cho"
+        },
+        {
+          "id": "31642837",
+          "name": "seibin"
+        }
+      ],
+      "artist_names": [
+        "铁痕电台-MSR",
+        "Hyunmin Cho",
+        "seibin"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 1,
+      "company": "铁痕电台-MSR",
+      "pic_url": "https://p4.music.126.net/h2wx2zZAgCwYJ2xYfUYStA==/109951174102240104.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403630249"
     },
     {
       "id": 400798146,
@@ -260,6 +321,29 @@
       "url": "https://music.163.com/#/album?id=403133922"
     },
     {
+      "id": 403901470,
+      "name": "深呼吸（Live）",
+      "artists": [
+        {
+          "id": 3442,
+          "name": "胡海泉"
+        }
+      ],
+      "artist_names": [
+        "胡海泉"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 2,
+      "company": "百纳娱乐",
+      "pic_url": "https://p3.music.126.net/JCYcJWBG2QwBl6Gu3uCUsQ==/109951174107519071.jpg",
+      "sub_type": "现场版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403901470"
+    },
+    {
       "id": 400108969,
       "name": "未离开的人",
       "artists": [
@@ -275,7 +359,7 @@
       "publish_date": "2026-10-15",
       "size": 5,
       "company": "",
-      "pic_url": "https://p3.music.126.net/DsJD2U6M7cL2kDJqWo4d3A==/109951173986935542.jpg",
+      "pic_url": "https://p4.music.126.net/DsJD2U6M7cL2kDJqWo4d3A==/109951173986935542.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -343,7 +427,7 @@
       "publish_date": "2026-10-15",
       "size": 16,
       "company": "网易音乐人",
-      "pic_url": "https://p3.music.126.net/AvEJcNMC2pClgcNRNeNr4g==/109951174107168973.jpg",
+      "pic_url": "https://p4.music.126.net/AvEJcNMC2pClgcNRNeNr4g==/109951174107168973.jpg",
       "sub_type": "录音室版",
       "type": "合集",
       "status": 1,
@@ -440,7 +524,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p4.music.126.net/wimKd9riq7KxfepFfmvY6Q==/109951174096751274.jpg",
+      "pic_url": "https://p3.music.126.net/wimKd9riq7KxfepFfmvY6Q==/109951174096751274.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -468,7 +552,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "相信音乐",
-      "pic_url": "https://p4.music.126.net/oN-2Npo3jA6Ne9TPzxekiw==/109951174092302813.jpg",
+      "pic_url": "https://p3.music.126.net/oN-2Npo3jA6Ne9TPzxekiw==/109951174092302813.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -537,12 +621,40 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "StreetVoice/如此",
-      "pic_url": "https://p3.music.126.net/4-Ia3Zq8U0ElBYOZQ2fnRQ==/109951174082010167.jpg",
+      "pic_url": "https://p4.music.126.net/4-Ia3Zq8U0ElBYOZQ2fnRQ==/109951174082010167.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=402952522"
+    },
+    {
+      "id": 403871364,
+      "name": "半生候",
+      "artists": [
+        {
+          "id": 31727575,
+          "name": "伊格赛听"
+        },
+        {
+          "id": 130005049,
+          "name": "小河山"
+        }
+      ],
+      "artist_names": [
+        "伊格赛听",
+        "小河山"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 2,
+      "company": "桐城星汉马文化发展有限公司",
+      "pic_url": "https://p4.music.126.net/Pg-xQ8FGjhXFGFwytvFY0A==/109951174106950772.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403871364"
     },
     {
       "id": 400798252,
@@ -566,6 +678,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400798252"
+    },
+    {
+      "id": 403908477,
+      "name": "其实雨也没多大",
+      "artists": [
+        {
+          "id": 12265335,
+          "name": "正在进行石女士"
+        }
+      ],
+      "artist_names": [
+        "正在进行石女士"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 3,
+      "company": "轨迹唱片",
+      "pic_url": "https://p4.music.126.net/zi30udwTdFIXGrP064_oGg==/109951174107660919.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403908477"
     },
     {
       "id": 403456445,
@@ -606,7 +741,7 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/y_t7YrpzmqFEFvbzdQy2UQ==/109951173991777818.jpg",
+      "pic_url": "https://p4.music.126.net/y_t7YrpzmqFEFvbzdQy2UQ==/109951173991777818.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -637,6 +772,29 @@
       "url": "https://music.163.com/#/album?id=402385431"
     },
     {
+      "id": 403659573,
+      "name": "仲夏夜的海鸥颂",
+      "artists": [
+        {
+          "id": 12787662,
+          "name": "赵磊"
+        }
+      ],
+      "artist_names": [
+        "赵磊"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 1,
+      "company": "哇唧唧哇",
+      "pic_url": "https://p4.music.126.net/U8t2Gemji-1tPMBc6Q9EdQ==/109951174102409180.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403659573"
+    },
+    {
       "id": 403877178,
       "name": "今时今日",
       "artists": [
@@ -657,12 +815,58 @@
       "publish_date": "2026-10-15",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/mfI0rpsFKS8nD8UiSRke4g==/109951174107064900.jpg",
+      "pic_url": "https://p4.music.126.net/mfI0rpsFKS8nD8UiSRke4g==/109951174107064900.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403877178"
+    },
+    {
+      "id": 403477117,
+      "name": "人心最难防",
+      "artists": [
+        {
+          "id": 35243745,
+          "name": "云汐"
+        }
+      ],
+      "artist_names": [
+        "云汐"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 2,
+      "company": "独立发行",
+      "pic_url": "https://p4.music.126.net/JvMJe95RkDZlIHmOSyz_kw==/109951174097699958.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403477117"
+    },
+    {
+      "id": 403848333,
+      "name": "亲爱的你要活下去",
+      "artists": [
+        {
+          "id": 95578537,
+          "name": "浪漫無期"
+        }
+      ],
+      "artist_names": [
+        "浪漫無期"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/_7pbML89YabsfEWhOqq0yw==/109951174106813562.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403848333"
     },
     {
       "id": 402597235,
@@ -760,6 +964,54 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400732572"
+    },
+    {
+      "id": 403899122,
+      "name": "《美人余》影视原声带",
+      "artists": [
+        {
+          "id": 10561,
+          "name": "张靓颖"
+        },
+        {
+          "id": 1038099,
+          "name": "VaVa毛衍七"
+        },
+        {
+          "id": 12620112,
+          "name": "李一桐"
+        },
+        {
+          "id": 35495821,
+          "name": "王靖雯不胖"
+        },
+        {
+          "id": 121865765,
+          "name": "乔西"
+        },
+        {
+          "id": 33563937,
+          "name": "王赛罕娜"
+        }
+      ],
+      "artist_names": [
+        "张靓颖",
+        "VaVa毛衍七",
+        "李一桐",
+        "王靖雯不胖",
+        "乔西",
+        "王赛罕娜"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 6,
+      "company": "海蝶音乐（天津）有限公司",
+      "pic_url": "https://p4.music.126.net/nYDYdDTudn9rHOlpgUeoTg==/109951174107458359.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403899122"
     },
     {
       "id": 403837550,
@@ -1076,6 +1328,29 @@
       "url": "https://music.163.com/#/album?id=403723578"
     },
     {
+      "id": 403902693,
+      "name": "The Legacy 27",
+      "artists": [
+        {
+          "id": 128188,
+          "name": "015B"
+        }
+      ],
+      "artist_names": [
+        "015B"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 2,
+      "company": "Dreamus",
+      "pic_url": "https://p3.music.126.net/LHBBjz2g-FAAOGyQEqdaIQ==/109951174107538580.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403902693"
+    },
+    {
       "id": 401329470,
       "name": "Techno Technically, Vol. 1",
       "artists": [
@@ -1126,6 +1401,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403170023"
+    },
+    {
+      "id": 402577291,
+      "name": "Star Trace (Afro Remix by IMLAY)",
+      "artists": [
+        {
+          "id": 56027440,
+          "name": "PLAVE"
+        }
+      ],
+      "artist_names": [
+        "PLAVE"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 1,
+      "company": "VLAST",
+      "pic_url": "https://p3.music.126.net/-_AkNr8Jo5OVenHLPeCe7A==/109951174071794696.jpg",
+      "sub_type": "Remix",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402577291"
     },
     {
       "id": 402991788,
@@ -1796,6 +2094,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400260106"
+    },
+    {
+      "id": 397817410,
+      "name": "Birth 诞生",
+      "artists": [
+        {
+          "id": 37057103,
+          "name": "江语"
+        }
+      ],
+      "artist_names": [
+        "江语"
+      ],
+      "publish_time": 1791993600000,
+      "publish_date": "2026-10-15",
+      "size": 10,
+      "company": "江语",
+      "pic_url": "https://p4.music.126.net/avmGeoP_rK-82Ga3qQrxVw==/109951173919896534.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=397817410"
     },
     {
       "id": 403155511,
