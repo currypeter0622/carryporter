@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
-  "generated_at": "2026-10-16T01:00:27.640681+08:00",
-  "count": 173,
+  "generated_at": "2026-10-16T05:00:43.981477+08:00",
+  "count": 174,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 22,
+        "target_count": 23,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792081296.3544464,
+        "saved_at": 1792095897.8139327,
         "source": "live"
       },
-      "relations": 81228,
-      "new_album_candidates": 139,
-      "unique_albums": 37404,
-      "detail_success": 37403,
+      "relations": 81229,
+      "new_album_candidates": 140,
+      "unique_albums": 37405,
+      "detail_success": 37404,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1140,
+      "date_hit_albums": 1144,
       "verify_artists": 707,
       "owned_failures": 0,
-      "external_hits": 306,
-      "new_release_hits": 170,
+      "external_hits": 308,
+      "new_release_hits": 172,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 173
+    "unique_album_count": 174
   },
   "albums": [
     {
@@ -464,7 +464,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "℗ 2026 voque ting co., ltd.",
-      "pic_url": "https://p4.music.126.net/unYAloPGy2G7qBaEtpR4Ag==/109951174076330613.jpg",
+      "pic_url": "https://p3.music.126.net/unYAloPGy2G7qBaEtpR4Ag==/109951174076330613.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -510,7 +510,7 @@
       "publish_date": "2026-10-16",
       "size": 2,
       "company": "佳语娱乐 × 稻谷音乐",
-      "pic_url": "https://p4.music.126.net/TwZRdP_y_I72mwplt0VMFw==/109951174111901297.jpg",
+      "pic_url": "https://p3.music.126.net/TwZRdP_y_I72mwplt0VMFw==/109951174111901297.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -556,7 +556,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "Liminal",
-      "pic_url": "https://p3.music.126.net/8UjpKsj-i31KF7m5oWtlZw==/109951174112421250.jpg",
+      "pic_url": "https://p4.music.126.net/8UjpKsj-i31KF7m5oWtlZw==/109951174112421250.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -625,12 +625,35 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/-L6mVzxpX_8P3JSfvJkCSg==/109951174107004238.jpg",
+      "pic_url": "https://p3.music.126.net/-L6mVzxpX_8P3JSfvJkCSg==/109951174107004238.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403873381"
+    },
+    {
+      "id": 403475753,
+      "name": "对焦",
+      "artists": [
+        {
+          "id": 32097566,
+          "name": "PIggy"
+        }
+      ],
+      "artist_names": [
+        "PIggy"
+      ],
+      "publish_time": 1792080000000,
+      "publish_date": "2026-10-16",
+      "size": 1,
+      "company": "青风音乐Cheerful Music",
+      "pic_url": "https://p4.music.126.net/TyeX44gU9s6-Sxy2z21BvA==/109951174097655786.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403475753"
     },
     {
       "id": 403878313,
@@ -862,7 +885,7 @@
       "publish_date": "2026-10-16",
       "size": 6,
       "company": "相信音乐",
-      "pic_url": "https://p3.music.126.net/KC-1H1v9UZw1GVU5DdyE4w==/109951174092480818.jpg",
+      "pic_url": "https://p4.music.126.net/KC-1H1v9UZw1GVU5DdyE4w==/109951174092480818.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -890,7 +913,7 @@
       "publish_date": "2026-10-16",
       "size": 4,
       "company": "太声文化",
-      "pic_url": "https://p4.music.126.net/EYHMuPw_Nxtj2-GXuwl-8g==/109951174097481204.jpg",
+      "pic_url": "https://p3.music.126.net/EYHMuPw_Nxtj2-GXuwl-8g==/109951174097481204.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -992,7 +1015,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "manekibozu",
-      "pic_url": "https://p3.music.126.net/DWGkG0T80MPfJeEqls5S_g==/109951174112559882.jpg",
+      "pic_url": "https://p4.music.126.net/DWGkG0T80MPfJeEqls5S_g==/109951174112559882.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1066,7 +1089,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
-      "pic_url": "https://p3.music.126.net/ayTVfU_RANgbkWlHWpnPmQ==/109951174075813433.jpg",
+      "pic_url": "https://p4.music.126.net/ayTVfU_RANgbkWlHWpnPmQ==/109951174075813433.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1316,7 +1339,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/djISpGOmsWfdiHoXquUUtQ==/109951174107379653.jpg",
+      "pic_url": "https://p4.music.126.net/djISpGOmsWfdiHoXquUUtQ==/109951174107379653.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1640,7 +1663,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "More Than Music Records Inc.",
-      "pic_url": "https://p3.music.126.net/ZAEfuA1qTZy0Cdyfmt-BfQ==/109951174111745467.jpg",
+      "pic_url": "https://p4.music.126.net/ZAEfuA1qTZy0Cdyfmt-BfQ==/109951174111745467.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1949,29 +1972,6 @@
       "url": "https://music.163.com/#/album?id=403600098"
     },
     {
-      "id": 403210224,
-      "name": "The Essential Broadway Collection: 15 All-time Greats",
-      "artists": [
-        {
-          "id": "49260160",
-          "name": "Various Artists"
-        }
-      ],
-      "artist_names": [
-        "Various Artists"
-      ],
-      "publish_time": 1792080000000,
-      "publish_date": "2026-10-16",
-      "size": 15,
-      "company": "JAY Records",
-      "pic_url": "https://p3.music.126.net/sJFOOyw319EbltAqwSJKHg==/109951174088080626.jpg",
-      "sub_type": "录音室版",
-      "type": "专辑",
-      "status": null,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=403210224"
-    },
-    {
       "id": 401383853,
       "name": "The Best Trance Tunes Of 2026 Vol. 4 (Mixed by Roan Gosling)",
       "artists": [
@@ -2015,7 +2015,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p4.music.126.net/uIjakja2vlgOWv8rTqRqHg==/109951174102496526.jpg",
+      "pic_url": "https://p3.music.126.net/uIjakja2vlgOWv8rTqRqHg==/109951174102496526.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2155,7 +2155,7 @@
       "publish_date": "2026-10-16",
       "size": 39,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/WB210PUrycHPGSChmHm_Pw==/109951174017048400.jpg",
+      "pic_url": "https://p4.music.126.net/WB210PUrycHPGSChmHm_Pw==/109951174017048400.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -2285,7 +2285,7 @@
       "publish_date": "2026-10-16",
       "size": 2,
       "company": "NoCut Music",
-      "pic_url": "https://p3.music.126.net/9OCdSPd99DVdUAoUkfsmpw==/109951173891768386.jpg",
+      "pic_url": "https://p4.music.126.net/9OCdSPd99DVdUAoUkfsmpw==/109951173891768386.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2471,7 +2471,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "Universal Music LLC",
-      "pic_url": "https://p4.music.126.net/cHNvjXVBfKSZv0P9iZ1_gg==/109951174114042241.jpg",
+      "pic_url": "https://p3.music.126.net/cHNvjXVBfKSZv0P9iZ1_gg==/109951174114042241.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2752,29 +2752,6 @@
       "url": "https://music.163.com/#/album?id=402917979"
     },
     {
-      "id": 403847004,
-      "name": "No Bad Memories",
-      "artists": [
-        {
-          "id": "81177",
-          "name": "The Avalanches"
-        }
-      ],
-      "artist_names": [
-        "The Avalanches"
-      ],
-      "publish_time": 1792080000000,
-      "publish_date": "2026-10-16",
-      "size": 31,
-      "company": "EMI Recorded Music Australia Pty Ltd",
-      "pic_url": "https://p3.music.126.net/m57_GEiez1TlvfjBPnk3xQ==/109951174106567718.jpg",
-      "sub_type": "录音室版",
-      "type": "专辑",
-      "status": null,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=403847004"
-    },
-    {
       "id": 400904035,
       "name": "Narcotica",
       "artists": [
@@ -2796,29 +2773,6 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=400904035"
-    },
-    {
-      "id": 404081166,
-      "name": "NEVER DIE 永不落幕",
-      "artists": [
-        {
-          "id": 13730,
-          "name": "5566"
-        }
-      ],
-      "artist_names": [
-        "5566"
-      ],
-      "publish_time": 1792080000000,
-      "publish_date": "2026-10-16",
-      "size": 1,
-      "company": "Universal Music Taiwan",
-      "pic_url": "https://p3.music.126.net/I3_EIXQUGMXvNvoNhc7TAA==/109951174111900405.jpg",
-      "sub_type": "录音室版",
-      "type": "Single",
-      "status": 1,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=404081166"
     },
     {
       "id": 401568021,
@@ -2905,7 +2859,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "Oh Wonder",
-      "pic_url": "https://p3.music.126.net/dwPBlNlxJu83Ssd6z03fgQ==/109951174035263876.jpg",
+      "pic_url": "https://p4.music.126.net/dwPBlNlxJu83Ssd6z03fgQ==/109951174035263876.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3242,7 +3196,7 @@
       "publish_date": "2026-10-16",
       "size": 12,
       "company": "Parlophone UK",
-      "pic_url": "https://p3.music.126.net/s-n5xUALvQzDfzc9Ooe2Nw==/109951174101298586.jpg",
+      "pic_url": "https://p4.music.126.net/s-n5xUALvQzDfzc9Ooe2Nw==/109951174101298586.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -3400,7 +3354,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p3.music.126.net/dag__7fxg42D2ESvhgRlmA==/109951174103709927.jpg",
+      "pic_url": "https://p4.music.126.net/dag__7fxg42D2ESvhgRlmA==/109951174103709927.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3711,6 +3665,52 @@
       "url": "https://music.163.com/#/album?id=401490863"
     },
     {
+      "id": 404179232,
+      "name": "EG.0",
+      "artists": [
+        {
+          "id": "56598",
+          "name": "Ellie Goulding"
+        }
+      ],
+      "artist_names": [
+        "Ellie Goulding"
+      ],
+      "publish_time": 1792080000000,
+      "publish_date": "2026-10-16",
+      "size": 10,
+      "company": "Polydor Records",
+      "pic_url": "https://p4.music.126.net/XzCRo_Xm2ytR4UkNjX5kaA==/109951174115355396.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404179232"
+    },
+    {
+      "id": 404179184,
+      "name": "EG.0",
+      "artists": [
+        {
+          "id": "56598",
+          "name": "Ellie Goulding"
+        }
+      ],
+      "artist_names": [
+        "Ellie Goulding"
+      ],
+      "publish_time": 1792080000000,
+      "publish_date": "2026-10-16",
+      "size": 10,
+      "company": "Polydor Records",
+      "pic_url": "https://p4.music.126.net/f_BVGmD27OxpoRrTKg46Sg==/109951174115345414.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404179184"
+    },
+    {
       "id": 401623265,
       "name": "Drivetime Essentials 054",
       "artists": [
@@ -3749,7 +3749,7 @@
       "publish_date": "2026-10-16",
       "size": 1,
       "company": "StreetVoice/触底而上DTT",
-      "pic_url": "https://p3.music.126.net/ip6FeFgt-UPS800jpfyLJA==/109951174081996808.jpg",
+      "pic_url": "https://p4.music.126.net/ip6FeFgt-UPS800jpfyLJA==/109951174081996808.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3780,29 +3780,6 @@
       "url": "https://music.163.com/#/album?id=403980254"
     },
     {
-      "id": 393549022,
-      "name": "Downtown Dubs 2",
-      "artists": [
-        {
-          "id": "49260160",
-          "name": "Various Artists"
-        }
-      ],
-      "artist_names": [
-        "Various Artists"
-      ],
-      "publish_time": 1792080000000,
-      "publish_date": "2026-10-16",
-      "size": 4,
-      "company": "Patent",
-      "pic_url": "https://p4.music.126.net/T3ZweT0A-i5ecDprnVAqJA==/109951173782954825.jpg",
-      "sub_type": "录音室版",
-      "type": "EP",
-      "status": null,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=393549022"
-    },
-    {
       "id": 403199939,
       "name": "Dopamine Chamber",
       "artists": [
@@ -3818,7 +3795,7 @@
       "publish_date": "2026-10-16",
       "size": 11,
       "company": "XL Recordings",
-      "pic_url": "https://p3.music.126.net/pCvAle5-fq6LRv774fN2iw==/109951174087741234.jpg",
+      "pic_url": "https://p4.music.126.net/pCvAle5-fq6LRv774fN2iw==/109951174087741234.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -4429,6 +4406,52 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403657019"
+    },
+    {
+      "id": 404187628,
+      "name": "8 Years Of Dubøka - Various Artists (Side B)",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792080000000,
+      "publish_date": "2026-10-16",
+      "size": 5,
+      "company": "Dubøka Records",
+      "pic_url": "https://p4.music.126.net/OD2p_4G-xonbhCGOoUofYw==/109951174115615193.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404187628"
+    },
+    {
+      "id": 404188223,
+      "name": "8 Years Of Dubøka - Various Artists (Side A)",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792080000000,
+      "publish_date": "2026-10-16",
+      "size": 5,
+      "company": "Dubøka Records",
+      "pic_url": "https://p3.music.126.net/cP3v8YgqBb1JkDa_ICmzZQ==/109951174115608864.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404188223"
     },
     {
       "id": 393802004,
