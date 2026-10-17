@@ -1,7 +1,7 @@
 {
   "date": "2026-10-17",
-  "generated_at": "2026-10-17T12:55:05.660996+08:00",
-  "count": 43,
+  "generated_at": "2026-10-17T20:03:40.522773+08:00",
+  "count": 48,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 16,
+        "target_count": 22,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 4,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 1,
+        "target_count": 4,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,12 +154,10 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 632,
+      "queries_ok": 9,
+      "search_candidates": 744,
       "verified_target_count": 5,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2113,
@@ -172,26 +170,49 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792210759.3741097,
+        "saved_at": 1792236100.844071,
         "source": "live"
       },
-      "relations": 81291,
-      "new_album_candidates": 133,
-      "unique_albums": 37432,
-      "detail_success": 37431,
+      "relations": 81292,
+      "new_album_candidates": 135,
+      "unique_albums": 37433,
+      "detail_success": 37432,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1088,
-      "verify_artists": 677,
+      "date_hit_albums": 1090,
+      "verify_artists": 679,
       "owned_failures": 0,
       "external_hits": 298,
-      "new_release_hits": 168,
+      "new_release_hits": 170,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 43
+    "unique_album_count": 48
   },
   "albums": [
+    {
+      "id": 403463966,
+      "name": "이대로 마음에",
+      "artists": [
+        {
+          "id": 31472493,
+          "name": "Ourealgoat"
+        }
+      ],
+      "artist_names": [
+        "Ourealgoat"
+      ],
+      "publish_time": 1792166400000,
+      "publish_date": "2026-10-17",
+      "size": 8,
+      "company": "Ourealgoat",
+      "pic_url": "https://p3.music.126.net/FiFAYd7UlDHfY-i8jbbFUg==/109951174097470548.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403463966"
+    },
     {
       "id": 404255810,
       "name": "우리가 다시 만날 수 있을까",
@@ -214,6 +235,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404255810"
+    },
+    {
+      "id": 403876833,
+      "name": "사랑이 온다 OST Part.23",
+      "artists": [
+        {
+          "id": 124099,
+          "name": "林亨柱"
+        }
+      ],
+      "artist_names": [
+        "林亨柱"
+      ],
+      "publish_time": 1792166400000,
+      "publish_date": "2026-10-17",
+      "size": 2,
+      "company": "오감엔터테인먼트",
+      "pic_url": "https://p4.music.126.net/wSHLXNW9RMqctIHkzLn3RQ==/109951174107086651.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403876833"
     },
     {
       "id": 400808625,
@@ -277,7 +321,7 @@
       "publish_date": "2026-10-17",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/RBq_2Em2UcMIZHJHurQK8A==/109951174107000948.jpg",
+      "pic_url": "https://p3.music.126.net/RBq_2Em2UcMIZHJHurQK8A==/109951174107000948.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -328,7 +372,7 @@
       "publish_date": "2026-10-17",
       "size": 1,
       "company": "北京窦唯音乐工作室",
-      "pic_url": "https://p4.music.126.net/ZtbjauqtdtNWkS0ay8d4XA==/109951174021480731.jpg",
+      "pic_url": "https://p3.music.126.net/ZtbjauqtdtNWkS0ay8d4XA==/109951174021480731.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -366,7 +410,7 @@
       "publish_date": "2026-10-17",
       "size": 8,
       "company": "光羽+",
-      "pic_url": "https://p3.music.126.net/SCMoGdvkk0WtTTtQzqB38Q==/109951174117966044.jpg",
+      "pic_url": "https://p4.music.126.net/SCMoGdvkk0WtTTtQzqB38Q==/109951174117966044.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -389,7 +433,7 @@
       "publish_date": "2026-10-17",
       "size": 16,
       "company": "网易音乐人",
-      "pic_url": "https://p3.music.126.net/cl7N90QKTBqupArtpXY-wg==/109951174111896450.jpg",
+      "pic_url": "https://p4.music.126.net/cl7N90QKTBqupArtpXY-wg==/109951174111896450.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -412,7 +456,7 @@
       "publish_date": "2026-10-17",
       "size": 1,
       "company": "Def Jam China",
-      "pic_url": "https://p3.music.126.net/eNWWuEpGvet5Q--QDMK_cA==/109951174107626568.jpg",
+      "pic_url": "https://p4.music.126.net/eNWWuEpGvet5Q--QDMK_cA==/109951174107626568.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -607,6 +651,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400809906"
+    },
+    {
+      "id": 403965651,
+      "name": "ペントバルビタール",
+      "artists": [
+        {
+          "id": 34386739,
+          "name": "イチ"
+        }
+      ],
+      "artist_names": [
+        "イチ"
+      ],
+      "publish_time": 1792166400000,
+      "publish_date": "2026-10-17",
+      "size": 1,
+      "company": "Ichi",
+      "pic_url": "https://p4.music.126.net/_OqJv1hwZD7tJ1PgzX__RA==/109951174109466233.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403965651"
     },
     {
       "id": 402742542,
@@ -938,7 +1005,7 @@
       "publish_date": "2026-10-17",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/uSKbQUR37i_sexS0hTxyKg==/109951174111949268.jpg",
+      "pic_url": "https://p4.music.126.net/uSKbQUR37i_sexS0hTxyKg==/109951174111949268.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -967,6 +1034,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402491807"
+    },
+    {
+      "id": 400922109,
+      "name": "Paradox (Re-Recording)",
+      "artists": [
+        {
+          "id": 22296,
+          "name": "w-inds."
+        }
+      ],
+      "artist_names": [
+        "w-inds."
+      ],
+      "publish_time": 1792166400000,
+      "publish_date": "2026-10-17",
+      "size": 1,
+      "company": "FLIGHT MASTER",
+      "pic_url": "https://p4.music.126.net/nWB9NofCE6q5GZ3jCqzQiw==/109951174017469790.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400922109"
     },
     {
       "id": 403458843,
@@ -1161,6 +1251,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402623731"
+    },
+    {
+      "id": 402744830,
+      "name": "BLACKFLAG",
+      "artists": [
+        {
+          "id": 51495971,
+          "name": "YS Block"
+        }
+      ],
+      "artist_names": [
+        "YS Block"
+      ],
+      "publish_time": 1792166400000,
+      "publish_date": "2026-10-17",
+      "size": 6,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/Ioxn1mrKWVm3vmIi6TiGqQ==/109951174075848789.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402744830"
     },
     {
       "id": 400455235,
