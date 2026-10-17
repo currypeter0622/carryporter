@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
-  "generated_at": "2026-10-18T00:43:57.842297+08:00",
-  "count": 29,
+  "generated_at": "2026-10-18T04:49:41.014262+08:00",
+  "count": 30,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 4,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -170,7 +170,7 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792253598.8292341,
+        "saved_at": 1792268394.5014427,
         "source": "live"
       },
       "relations": 81326,
@@ -179,15 +179,15 @@
       "detail_success": 37446,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1074,
-      "verify_artists": 673,
+      "date_hit_albums": 1075,
+      "verify_artists": 674,
       "owned_failures": 0,
-      "external_hits": 297,
+      "external_hits": 296,
       "new_release_hits": 53,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 29
+    "unique_album_count": 30
   },
   "albums": [
     {
@@ -285,7 +285,7 @@
       "publish_date": "2026-10-18",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/lcjmWPCSnoa_zP_R3q9HxQ==/109951174081732345.jpg",
+      "pic_url": "https://p3.music.126.net/lcjmWPCSnoa_zP_R3q9HxQ==/109951174081732345.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -681,7 +681,7 @@
       "publish_date": "2026-10-18",
       "size": 10,
       "company": "",
-      "pic_url": "https://p3.music.126.net/GdnXQM_OBa2UOejCyk0RYQ==/109951174126234098.jpg",
+      "pic_url": "https://p4.music.126.net/GdnXQM_OBa2UOejCyk0RYQ==/109951174126234098.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -876,6 +876,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401894913"
+    },
+    {
+      "id": 400933024,
+      "name": "Akari Kito Billboard Live 2026",
+      "artists": [
+        {
+          "id": 12676449,
+          "name": "鬼頭明里"
+        }
+      ],
+      "artist_names": [
+        "鬼頭明里"
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 22,
+      "company": "PONY CANYON INC.",
+      "pic_url": "https://p4.music.126.net/O3zriPV3ISJjLNidsUgs6g==/109951174017639708.jpg",
+      "sub_type": "现场版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400933024"
     }
   ]
 }
