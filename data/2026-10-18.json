@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
-  "generated_at": "2026-10-18T12:58:23.014036+08:00",
-  "count": 39,
+  "generated_at": "2026-10-18T19:48:52.401873+08:00",
+  "count": 48,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 15,
+        "target_count": 22,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 2,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 4,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 1,
+        "target_count": 5,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,10 +154,12 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 738,
-      "verified_target_count": 4,
-      "errors": []
+      "queries_ok": 8,
+      "search_candidates": 644,
+      "verified_target_count": 5,
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
       "artists": 2116,
@@ -170,24 +172,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792297235.0860085,
+        "saved_at": 1792322466.2283018,
         "source": "live"
       },
-      "relations": 81428,
-      "new_album_candidates": 49,
-      "unique_albums": 37497,
-      "detail_success": 37496,
+      "relations": 81446,
+      "new_album_candidates": 53,
+      "unique_albums": 37515,
+      "detail_success": 37514,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1079,
-      "verify_artists": 678,
+      "date_hit_albums": 1085,
+      "verify_artists": 680,
       "owned_failures": 0,
-      "external_hits": 296,
-      "new_release_hits": 56,
+      "external_hits": 297,
+      "new_release_hits": 64,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 39
+    "unique_album_count": 48
   },
   "albums": [
     {
@@ -212,6 +214,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403900275"
+    },
+    {
+      "id": 404272937,
+      "name": "퇴근송",
+      "artists": [
+        {
+          "id": 47600422,
+          "name": "21univ."
+        }
+      ],
+      "artist_names": [
+        "21univ."
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/yomPx7qFcY9Cs_67oeG7xg==/109951174117293215.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404272937"
     },
     {
       "id": 403877615,
@@ -258,6 +283,75 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404053135"
+    },
+    {
+      "id": 403900851,
+      "name": "너무 보고싶어",
+      "artists": [
+        {
+          "id": 125665,
+          "name": "李英贤"
+        }
+      ],
+      "artist_names": [
+        "李英贤"
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 2,
+      "company": "NHN BUGS",
+      "pic_url": "https://p3.music.126.net/XEjEhvgg3lc3XdoA3wjXuA==/109951174107495382.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403900851"
+    },
+    {
+      "id": 402714761,
+      "name": "너 말고 다른 연애 OST Part.5",
+      "artists": [
+        {
+          "id": 964049,
+          "name": "Heize"
+        }
+      ],
+      "artist_names": [
+        "Heize"
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/14Lj8n0p8rogZEmOXEOryg==/109951174075190679.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402714761"
+    },
+    {
+      "id": 404078846,
+      "name": "날아올라라 나비 OST",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 48,
+      "company": "SLL",
+      "pic_url": "https://p3.music.126.net/CVeJZmzBHYtf3OLXqdi6Bw==/109951174111832867.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404078846"
     },
     {
       "id": 400819386,
@@ -354,7 +448,7 @@
       "publish_date": "2026-10-18",
       "size": 2,
       "company": "北京听见时代娱乐传媒有限公司",
-      "pic_url": "https://p4.music.126.net/VSbDfaCozaP2JyI7uEIcMw==/109951174101676686.jpg",
+      "pic_url": "https://p3.music.126.net/VSbDfaCozaP2JyI7uEIcMw==/109951174101676686.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -377,12 +471,35 @@
       "publish_date": "2026-10-18",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/lcjmWPCSnoa_zP_R3q9HxQ==/109951174081732345.jpg",
+      "pic_url": "https://p3.music.126.net/lcjmWPCSnoa_zP_R3q9HxQ==/109951174081732345.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=402932802"
+    },
+    {
+      "id": 403965981,
+      "name": "淡青に曝される",
+      "artists": [
+        {
+          "id": 34386739,
+          "name": "イチ"
+        }
+      ],
+      "artist_names": [
+        "イチ"
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 1,
+      "company": "Ichi",
+      "pic_url": "https://p3.music.126.net/hghhh5DfsbZ_RSf4zZWMsQ==/109951174109517374.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403965981"
     },
     {
       "id": 404248596,
@@ -400,7 +517,7 @@
       "publish_date": "2026-10-18",
       "size": 2,
       "company": "沐木风华",
-      "pic_url": "https://p3.music.126.net/EDd7yynNZd1c2OkCy8WHeA==/109951174116678933.jpg",
+      "pic_url": "https://p4.music.126.net/EDd7yynNZd1c2OkCy8WHeA==/109951174116678933.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -434,6 +551,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404266356"
+    },
+    {
+      "id": 404612403,
+      "name": "撕碎的信",
+      "artists": [
+        {
+          "id": "126218902",
+          "name": "YAZAw杞麓"
+        }
+      ],
+      "artist_names": [
+        "YAZAw杞麓"
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/f--O_KgnMd8DJbv1MFdJsQ==/109951174129892446.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404612403"
     },
     {
       "id": 404098741,
@@ -497,12 +637,35 @@
       "publish_date": "2026-10-18",
       "size": 9,
       "company": "看东方（上海）传媒有限公司",
-      "pic_url": "https://p4.music.126.net/UaA8feTj0rupm0Zih683Rg==/109951174116814839.jpg",
+      "pic_url": "https://p3.music.126.net/UaA8feTj0rupm0Zih683Rg==/109951174116814839.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404258613"
+    },
+    {
+      "id": 404612244,
+      "name": "名前がないない",
+      "artists": [
+        {
+          "id": "12905253",
+          "name": "Kemiro"
+        }
+      ],
+      "artist_names": [
+        "Kemiro"
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/AcAeKfXnZkTK1zdsJQ8r-w==/109951174129568134.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404612244"
     },
     {
       "id": 400817477,
@@ -626,7 +789,7 @@
       "publish_date": "2026-10-18",
       "size": 1,
       "company": "MyGirlyStormy",
-      "pic_url": "https://p4.music.126.net/iQh2cjcr5LzXB_CUhQLtLg==/109951173158493075.jpg",
+      "pic_url": "https://p3.music.126.net/iQh2cjcr5LzXB_CUhQLtLg==/109951173158493075.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -662,6 +825,29 @@
       "url": "https://music.163.com/#/album?id=400908026"
     },
     {
+      "id": 401364609,
+      "name": "ハジマリノヒ",
+      "artists": [
+        {
+          "id": 1120106,
+          "name": "高橋李依"
+        }
+      ],
+      "artist_names": [
+        "高橋李依"
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 1,
+      "company": "索尼音乐",
+      "pic_url": "https://p4.music.126.net/jc4PjlxABtQ4niUx2USWdA==/109951174028274123.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=401364609"
+    },
+    {
       "id": 404092653,
       "name": "あなた (と/の) 回想 [feat. 初音ミク]",
       "artists": [
@@ -683,6 +869,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=404092653"
+    },
+    {
+      "id": 404509953,
+      "name": "【BOF22】人々、歩き、考え、寒さに沈んでいく",
+      "artists": [
+        {
+          "id": "12194641",
+          "name": "NoKANY"
+        }
+      ],
+      "artist_names": [
+        "NoKANY"
+      ],
+      "publish_time": 1792252800000,
+      "publish_date": "2026-10-18",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/fetSHB1yCu-hWZbVHEzuGw==/109951174126831067.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404509953"
     },
     {
       "id": 403591786,
@@ -1165,7 +1374,7 @@
       "publish_date": "2026-10-18",
       "size": 22,
       "company": "PONY CANYON INC.",
-      "pic_url": "https://p4.music.126.net/O3zriPV3ISJjLNidsUgs6g==/109951174017639708.jpg",
+      "pic_url": "https://p3.music.126.net/O3zriPV3ISJjLNidsUgs6g==/109951174017639708.jpg",
       "sub_type": "现场版",
       "type": "专辑",
       "status": 1,
