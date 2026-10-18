@@ -1,18 +1,30 @@
 {
-  "saved_at": 1792340072.9001727,
-  "count": 2117,
+  "saved_at": 1792354723.391339,
+  "count": 2120,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2117,
-    "server_count": 2117,
+    "count": 2120,
+    "server_count": 2120,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1792340072.900136
+    "saved_at": 1792354723.3913014
   },
   "artists": [
+    {
+      "id": "36477038",
+      "name": "wishlane"
+    },
+    {
+      "id": "124807693",
+      "name": "moenoq"
+    },
+    {
+      "id": "330690",
+      "name": "Murlo"
+    },
     {
       "id": "37228854",
       "name": "kinoue64"

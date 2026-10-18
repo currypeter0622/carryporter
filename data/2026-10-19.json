@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-10-19T00:39:25.375466+08:00",
-  "count": 45,
+  "generated_at": "2026-10-19T04:45:53.879855+08:00",
+  "count": 47,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 5,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 4,
+        "target_count": 5,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -160,34 +160,34 @@
       "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2117,
+      "artists": 2120,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2117,
-        "server_count": 2117,
+        "count": 2120,
+        "server_count": 2120,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792340072.900136,
+        "saved_at": 1792354723.3913014,
         "source": "live"
       },
-      "relations": 81498,
-      "new_album_candidates": 48,
-      "unique_albums": 37536,
-      "detail_success": 37535,
+      "relations": 81615,
+      "new_album_candidates": 49,
+      "unique_albums": 37602,
+      "detail_success": 37601,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1067,
-      "verify_artists": 673,
+      "date_hit_albums": 1068,
+      "verify_artists": 674,
       "owned_failures": 0,
       "external_hits": 293,
-      "new_release_hits": 63,
+      "new_release_hits": 64,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 45
+    "unique_album_count": 47
   },
   "albums": [
     {
@@ -229,7 +229,7 @@
       "publish_date": "2026-10-19",
       "size": 2,
       "company": "潮音悦动",
-      "pic_url": "https://p4.music.126.net/7nXccEFePjOVIeCwrpfvig==/109951174112023648.jpg",
+      "pic_url": "https://p3.music.126.net/7nXccEFePjOVIeCwrpfvig==/109951174112023648.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -298,7 +298,7 @@
       "publish_date": "2026-10-19",
       "size": 2,
       "company": "",
-      "pic_url": "https://p4.music.126.net/tjbE6vEJLEE-pu9YfgMv9w==/109951174117158688.jpg",
+      "pic_url": "https://p3.music.126.net/tjbE6vEJLEE-pu9YfgMv9w==/109951174117158688.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -410,7 +410,7 @@
       "publish_date": "2026-10-19",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p4.music.126.net/_f4-Gdn1rjtCtqyy41g6Dg==/109951174106312059.jpg",
+      "pic_url": "https://p3.music.126.net/_f4-Gdn1rjtCtqyy41g6Dg==/109951174106312059.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -750,6 +750,29 @@
       "url": "https://music.163.com/#/album?id=402051372"
     },
     {
+      "id": 404099444,
+      "name": "Una Mattina",
+      "artists": [
+        {
+          "id": 58149097,
+          "name": "DJ阿智"
+        }
+      ],
+      "artist_names": [
+        "DJ阿智"
+      ],
+      "publish_time": 1792339200000,
+      "publish_date": "2026-10-19",
+      "size": 1,
+      "company": "独立发行",
+      "pic_url": "https://p4.music.126.net/jwfl60XQHVAImJ6YINqhZA==/109951174112231454.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404099444"
+    },
+    {
       "id": 396520019,
       "name": "Tropical Sunset",
       "artists": [
@@ -1029,6 +1052,34 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402050380"
+    },
+    {
+      "id": 404283369,
+      "name": "Korzenie",
+      "artists": [
+        {
+          "id": "330690",
+          "name": "Murlo"
+        },
+        {
+          "id": "125312245",
+          "name": "Phono Cozabit"
+        }
+      ],
+      "artist_names": [
+        "Murlo",
+        "Phono Cozabit"
+      ],
+      "publish_time": 1792339200000,
+      "publish_date": "2026-10-19",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/X4pQrG-zMn0BvLwq0yecMQ==/109951174117479714.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404283369"
     },
     {
       "id": 403527185,
