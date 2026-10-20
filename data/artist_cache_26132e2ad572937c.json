@@ -1,18 +1,26 @@
 {
-  "saved_at": 1792441730.0753448,
-  "count": 2126,
+  "saved_at": 1792470145.6741083,
+  "count": 2128,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2126,
-    "server_count": 2126,
+    "count": 2128,
+    "server_count": 2128,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1792441730.0753033
+    "saved_at": 1792470145.674073
   },
   "artists": [
+    {
+      "id": "98217348",
+      "name": "agetha"
+    },
+    {
+      "id": "99319730",
+      "name": "sega73"
+    },
     {
       "id": "414222",
       "name": "N-qia"
