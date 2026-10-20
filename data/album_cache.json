@@ -393447,7 +393447,7 @@
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1792496991.9354327
+    "cached_at": 1792529478.6268244
   },
   "265689789": {
     "album_id": "265689789",
@@ -798722,5 +798722,123 @@
         "name": "THE SPEED OF LIGHT (RADIO EDIT)"
       }
     ]
+  },
+  "405059041": {
+    "album_id": "405059041",
+    "album_name": "Some Days Are Made for Rain (Music Inspired by LAIKA's Wildwood)",
+    "date_str": "2026-10-16",
+    "publish_ts": 1792080000000,
+    "artist_ids": [
+      "34569463",
+      "128738873"
+    ],
+    "artist_names": [
+      "Saya Gray",
+      "Wildwood Sessions"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/fNaJqVbUhLAfzb9z2mdk9g==/109951174142559708.jpg",
+    "company": "© 2026 LAIKA, LLC ℗ 2026 LAIKA, LLC",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1792529423.978808
+  },
+  "405062198": {
+    "album_id": "405062198",
+    "album_name": "Gas / Ultra / Equarium",
+    "date_str": "2026-10-20",
+    "publish_ts": 1792425600000,
+    "artist_ids": [
+      "330757",
+      "48014220",
+      "94179441",
+      "15220024",
+      "47504266",
+      "33881755"
+    ],
+    "artist_names": [
+      "Bicep",
+      "Lauren Duffus",
+      "SOARR",
+      "Eartheater",
+      "Saskia",
+      "Kehina"
+    ],
+    "size": 6,
+    "pic_url": "https://p4.music.126.net/0b_HFi8U5-ea9umn_t8qnw==/109951174142612789.jpg",
+    "company": "Ninja Tune",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1792529425.7130828,
+    "songs": [
+      {
+        "id": "3451724404",
+        "name": "Gas"
+      },
+      {
+        "id": "3451724405",
+        "name": "Ultra"
+      },
+      {
+        "id": "3451723527",
+        "name": "Equarium"
+      },
+      {
+        "id": "3451724406",
+        "name": "Air"
+      },
+      {
+        "id": "3451723528",
+        "name": "Lemonder"
+      },
+      {
+        "id": "3451724407",
+        "name": "Viper"
+      }
+    ]
+  },
+  "259626550": {
+    "album_id": "259626550",
+    "album_name": "Naima",
+    "date_str": "2025-02-07",
+    "publish_ts": 1738857600000,
+    "artist_ids": [
+      "34709885",
+      "37278110",
+      "150802",
+      "14757776"
+    ],
+    "artist_names": [
+      "Arisawkadoria",
+      "Ari Joshua",
+      "KJ Sawka",
+      "Joe Doria"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/0NKtVdMlkyZhkH9jvSTa5Q==/109951170376327237.jpg",
+    "company": "Music Factory Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1792529469.209684
+  },
+  "405066653": {
+    "album_id": "405066653",
+    "album_name": "Trancefeelings Radio 098",
+    "date_str": "2026-10-15",
+    "publish_ts": 1791993600000,
+    "artist_ids": [
+      "56611884",
+      "54343637"
+    ],
+    "artist_names": [
+      "Lightstate",
+      "2Rock Recordings"
+    ],
+    "size": 14,
+    "pic_url": "https://p4.music.126.net/XNZQFw2HO3ITHrmHMinGbw==/109951174142757548.jpg",
+    "company": "2Rock Radio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1792529474.6225328
   }
 }
