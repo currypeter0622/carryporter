@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "generated_at": "2026-10-20T12:51:23.739828+08:00",
-  "count": 44,
+  "generated_at": "2026-10-20T19:56:09.719489+08:00",
+  "count": 59,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 11,
+        "target_count": 24,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 12,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 2,
+        "target_count": 4,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 6,
+        "target_count": 10,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -113,7 +113,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 2,
+        "target_count": 3,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 5,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 734,
+      "search_candidates": 747,
       "verified_target_count": 3,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792470145.674073,
+        "saved_at": 1792495648.9652545,
         "source": "live"
       },
-      "relations": 81815,
-      "new_album_candidates": 53,
-      "unique_albums": 37722,
-      "detail_success": 37721,
+      "relations": 81817,
+      "new_album_candidates": 59,
+      "unique_albums": 37729,
+      "detail_success": 37728,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1085,
-      "verify_artists": 682,
+      "date_hit_albums": 1093,
+      "verify_artists": 688,
       "owned_failures": 0,
       "external_hits": 294,
-      "new_release_hits": 71,
+      "new_release_hits": 74,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 44
+    "unique_album_count": 59
   },
   "albums": [
     {
@@ -206,12 +206,35 @@
       "publish_date": "2026-10-20",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/RMp7Ay1exFBj3iYUj7Hmrg==/109951174139104197.jpg",
+      "pic_url": "https://p4.music.126.net/RMp7Ay1exFBj3iYUj7Hmrg==/109951174139104197.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404935483"
+    },
+    {
+      "id": 404943095,
+      "name": "착각",
+      "artists": [
+        {
+          "id": 865129,
+          "name": "温流"
+        }
+      ],
+      "artist_names": [
+        "温流"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 3,
+      "company": "Dreamus",
+      "pic_url": "https://p4.music.126.net/jS3TSjM95f3DbU-g-VhEvg==/109951174139243918.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404943095"
     },
     {
       "id": 404933765,
@@ -237,6 +260,52 @@
       "url": "https://music.163.com/#/album?id=404933765"
     },
     {
+      "id": 404075863,
+      "name": "연애박사 OST Special",
+      "artists": [
+        {
+          "id": 56297385,
+          "name": "추영우"
+        }
+      ],
+      "artist_names": [
+        "추영우"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 2,
+      "company": "SLL",
+      "pic_url": "https://p3.music.126.net/5p74cDyvvs4TlbitSR9ZmQ==/109951174111796705.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404075863"
+    },
+    {
+      "id": 402952218,
+      "name": "너에게 다이브 OST Part.4",
+      "artists": [
+        {
+          "id": 124073,
+          "name": "KangNam"
+        }
+      ],
+      "artist_names": [
+        "KangNam"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 3,
+      "company": "NHN BUGS",
+      "pic_url": "https://p4.music.126.net/6WlgpL3_1Hq-52ScwsKs6A==/109951174082000018.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402952218"
+    },
+    {
       "id": 403480176,
       "name": "陶酔 (feat. 重音テト)",
       "artists": [
@@ -258,6 +327,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403480176"
+    },
+    {
+      "id": 404304943,
+      "name": "花伞谣",
+      "artists": [
+        {
+          "id": 981141,
+          "name": "伦桑"
+        }
+      ],
+      "artist_names": [
+        "伦桑"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "独立发行",
+      "pic_url": "https://p4.music.126.net/kykNiQBF4g9Rgg0DvCFuVA==/109951174117892876.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404304943"
     },
     {
       "id": 404629331,
@@ -283,6 +375,29 @@
       "url": "https://music.163.com/#/album?id=404629331"
     },
     {
+      "id": 404045831,
+      "name": "提笔难写这相思",
+      "artists": [
+        {
+          "id": 59655434,
+          "name": "洛天依"
+        }
+      ],
+      "artist_names": [
+        "洛天依"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "独立发行",
+      "pic_url": "https://p4.music.126.net/s9wCudb4XPZXuirunE9W6A==/109951174111137867.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404045831"
+    },
+    {
       "id": 403838457,
       "name": "快乐笨蛋",
       "artists": [
@@ -304,6 +419,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403838457"
+    },
+    {
+      "id": 403625327,
+      "name": "多情客",
+      "artists": [
+        {
+          "id": 12050057,
+          "name": "G.G张思源"
+        }
+      ],
+      "artist_names": [
+        "G.G张思源"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "GG张思源工作室",
+      "pic_url": "https://p4.music.126.net/RS52ulRFop-5W3Jtn7VbEA==/109951174101787881.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403625327"
     },
     {
       "id": 398731758,
@@ -344,12 +482,35 @@
       "publish_date": "2026-10-20",
       "size": 3,
       "company": "丁登音乐",
-      "pic_url": "https://p3.music.126.net/jqrC3TeEFwoNvVoairGyTg==/109951174116363721.jpg",
+      "pic_url": "https://p4.music.126.net/jqrC3TeEFwoNvVoairGyTg==/109951174116363721.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404227409"
+    },
+    {
+      "id": 403485822,
+      "name": "假装认真",
+      "artists": [
+        {
+          "id": 12232132,
+          "name": "王唯旖"
+        }
+      ],
+      "artist_names": [
+        "王唯旖"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 2,
+      "company": "轨迹唱片",
+      "pic_url": "https://p3.music.126.net/YY4G4j8xfu2XRYiRwoDv7A==/109951174097854867.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403485822"
     },
     {
       "id": 403161857,
@@ -413,7 +574,7 @@
       "publish_date": "2026-10-20",
       "size": 1,
       "company": "(P)2026 A.S.A.B",
-      "pic_url": "https://p3.music.126.net/Sns07yXIqJX3iYxVqiR3Xw==/109951174075811477.jpg",
+      "pic_url": "https://p4.music.126.net/Sns07yXIqJX3iYxVqiR3Xw==/109951174075811477.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -442,6 +603,34 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403528032"
+    },
+    {
+      "id": 396468849,
+      "name": "אקסים אובססיבים",
+      "artists": [
+        {
+          "id": "49516720",
+          "name": "Static"
+        },
+        {
+          "id": "30228409",
+          "name": "Noa Kirel"
+        }
+      ],
+      "artist_names": [
+        "Static",
+        "Noa Kirel"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "Mobile1 Music",
+      "pic_url": "https://p3.music.126.net/mDA0L_2YI0JPAuIg2Rrlww==/109951174135462999.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=396468849"
     },
     {
       "id": 404928233,
@@ -488,6 +677,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403236391"
+    },
+    {
+      "id": 403867690,
+      "name": "zzz",
+      "artists": [
+        {
+          "id": 129998394,
+          "name": "CODE ZiGU (코드지구)"
+        }
+      ],
+      "artist_names": [
+        "CODE ZiGU (코드지구)"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/VTaU2ouRbdqdwO5rmtKHjw==/109951174106908631.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403867690"
     },
     {
       "id": 402180668,
@@ -551,12 +763,35 @@
       "publish_date": "2026-10-20",
       "size": 10,
       "company": "Harryan Yoonsoan",
-      "pic_url": "https://p4.music.126.net/_ZcJwGNS5IfNmTPILFrCOw==/109951174035671315.jpg",
+      "pic_url": "https://p3.music.126.net/_ZcJwGNS5IfNmTPILFrCOw==/109951174035671315.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=401582026"
+    },
+    {
+      "id": 404918127,
+      "name": "hollow voices",
+      "artists": [
+        {
+          "id": "59793908",
+          "name": "trashyboi"
+        }
+      ],
+      "artist_names": [
+        "trashyboi"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/w49KD6-hp8dGXgoqkHLLZg==/109951174140355180.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404918127"
     },
     {
       "id": 395983225,
@@ -604,6 +839,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403157998"
+    },
+    {
+      "id": 404923232,
+      "name": "Who You Callin' Crazy",
+      "artists": [
+        {
+          "id": 102001,
+          "name": "The Rolling Stones"
+        }
+      ],
+      "artist_names": [
+        "The Rolling Stones"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "Polydor Records",
+      "pic_url": "https://p3.music.126.net/bmOuRSugvlObNTW_e-3IjQ==/109951174140540976.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404923232"
     },
     {
       "id": 403620427,
@@ -757,6 +1015,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=400716964"
+    },
+    {
+      "id": 404795744,
+      "name": "Tddp Cypher 2",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 3,
+      "company": "Independent",
+      "pic_url": "https://p3.music.126.net/uUwDQdxqL4eAk2UmrUUkmQ==/109951174135572484.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404795744"
     },
     {
       "id": 403528922,
@@ -989,6 +1270,29 @@
       "url": "https://music.163.com/#/album?id=403160140"
     },
     {
+      "id": 403477175,
+      "name": "Melancholy",
+      "artists": [
+        {
+          "id": 28083231,
+          "name": "邓典"
+        }
+      ],
+      "artist_names": [
+        "邓典"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "Colunbia Records China",
+      "pic_url": "https://p4.music.126.net/jTIPDXQBYILNVvQ8WEfbCw==/109951174097673706.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403477175"
+    },
+    {
       "id": 404794015,
       "name": "Madness Plus",
       "artists": [
@@ -1029,7 +1333,7 @@
       "publish_date": "2026-10-20",
       "size": 5,
       "company": "北京大象无形音乐有限公司",
-      "pic_url": "https://p4.music.126.net/nzeL0AZp7Is_mf96pyeWCA==/109951174135257831.jpg",
+      "pic_url": "https://p3.music.126.net/nzeL0AZp7Is_mf96pyeWCA==/109951174135257831.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -1081,6 +1385,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402180693"
+    },
+    {
+      "id": 402314109,
+      "name": "Game Changers",
+      "artists": [
+        {
+          "id": 13943783,
+          "name": "Father Figures"
+        }
+      ],
+      "artist_names": [
+        "Father Figures"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 1,
+      "company": "Father Figures",
+      "pic_url": "https://p3.music.126.net/dZRYv8vja6hMyp4jZbSxiQ==/109951174063905217.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402314109"
     },
     {
       "id": 399798163,
@@ -1157,6 +1484,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404182317"
+    },
+    {
+      "id": 404095642,
+      "name": "Come into my world!",
+      "artists": [
+        {
+          "id": 12054553,
+          "name": "WOODZ"
+        }
+      ],
+      "artist_names": [
+        "WOODZ"
+      ],
+      "publish_time": 1792425600000,
+      "publish_date": "2026-10-20",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/k8RIFg5Oqxf9pOcgM2a3lA==/109951174134101333.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404095642"
     },
     {
       "id": 402180675,
