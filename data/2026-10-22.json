@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-22T00:46:48.579947+08:00",
-  "count": 56,
+  "generated_at": "2026-10-22T04:52:17.560765+08:00",
+  "count": 57,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -154,12 +154,10 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 7,
-      "search_candidates": 551,
+      "queries_ok": 9,
+      "search_candidates": 739,
       "verified_target_count": 3,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2136,
@@ -172,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792599780.9496756,
+        "saved_at": 1792614332.226429,
         "source": "live"
       },
       "relations": 82158,
-      "new_album_candidates": 63,
-      "unique_albums": 37885,
-      "detail_success": 37884,
+      "new_album_candidates": 64,
+      "unique_albums": 37879,
+      "detail_success": 37878,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1065,
-      "verify_artists": 691,
+      "date_hit_albums": 1067,
+      "verify_artists": 692,
       "owned_failures": 0,
-      "external_hits": 299,
-      "new_release_hits": 82,
+      "external_hits": 300,
+      "new_release_hits": 84,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 56
+    "unique_album_count": 57
   },
   "albums": [
     {
@@ -323,7 +321,7 @@
       "publish_date": "2026-10-22",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/qy3d-uZbZo537OX915ep9Q==/109951174135250681.jpg",
+      "pic_url": "https://p3.music.126.net/qy3d-uZbZo537OX915ep9Q==/109951174135250681.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -346,7 +344,7 @@
       "publish_date": "2026-10-22",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p4.music.126.net/Y-Vvkj20k88XGpiSZcLKCg==/109951174111122222.jpg",
+      "pic_url": "https://p3.music.126.net/Y-Vvkj20k88XGpiSZcLKCg==/109951174111122222.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -737,7 +735,7 @@
       "publish_date": "2026-10-22",
       "size": 2,
       "company": "天娱传媒",
-      "pic_url": "https://p3.music.126.net/bG0_0ihjRwrJuBVxLsIaog==/109951174144148842.jpg",
+      "pic_url": "https://p4.music.126.net/bG0_0ihjRwrJuBVxLsIaog==/109951174144148842.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1023,7 +1021,7 @@
       "publish_date": "2026-10-22",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/4ehkfDHuOl_sLtzAG3mJIw==/109951174101865983.jpg",
+      "pic_url": "https://p4.music.126.net/4ehkfDHuOl_sLtzAG3mJIw==/109951174101865983.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1130,7 +1128,7 @@
       "publish_date": "2026-10-22",
       "size": 10,
       "company": "Def Jam China",
-      "pic_url": "https://p4.music.126.net/RT7TwtwTJ8Gw-9qaltqjkw==/109951174134867745.jpg",
+      "pic_url": "https://p3.music.126.net/RT7TwtwTJ8Gw-9qaltqjkw==/109951174134867745.jpg",
       "sub_type": "现场版",
       "type": "专辑",
       "status": 1,
@@ -1524,6 +1522,89 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403870799"
+    },
+    {
+      "id": 405269929,
+      "name": "\"The Autumn Prelude: Classical Masterpieces\"",
+      "artists": [
+        {
+          "id": "31197139",
+          "name": "George frideric Handel"
+        },
+        {
+          "id": "38731",
+          "name": "Ludwig van Beethoven"
+        },
+        {
+          "id": "33363",
+          "name": "Franz Schubert"
+        },
+        {
+          "id": "33737",
+          "name": "Frédéric François Chopin"
+        },
+        {
+          "id": "231393",
+          "name": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "id": "804174",
+          "name": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "29976",
+          "name": "Claude Debussy"
+        },
+        {
+          "id": "129782",
+          "name": "Felix Mendelssohn"
+        },
+        {
+          "id": "130021",
+          "name": "Robert Schumann"
+        },
+        {
+          "id": "60942",
+          "name": "Johannes Brahms"
+        },
+        {
+          "id": "39435",
+          "name": "Maurice Ravel"
+        },
+        {
+          "id": "28510",
+          "name": "Antonio Vivaldi"
+        },
+        {
+          "id": "36490",
+          "name": "Johann Sebastian Bach"
+        }
+      ],
+      "artist_names": [
+        "George frideric Handel",
+        "Ludwig van Beethoven",
+        "Franz Schubert",
+        "Frédéric François Chopin",
+        "Pyotr Ilyich Tchaikovsky",
+        "Wolfgang Amadeus Mozart",
+        "Claude Debussy",
+        "Felix Mendelssohn",
+        "Robert Schumann",
+        "Johannes Brahms",
+        "Maurice Ravel",
+        "Antonio Vivaldi",
+        "Johann Sebastian Bach"
+      ],
+      "publish_time": 1792598400000,
+      "publish_date": "2026-10-22",
+      "size": 80,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/grShhjOF1GKTF4K68vv_sg==/109951174147577542.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405269929"
     }
   ]
 }
