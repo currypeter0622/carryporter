@@ -1,18 +1,42 @@
 {
-  "saved_at": 1792582068.9451299,
-  "count": 2130,
+  "saved_at": 1792599780.9497178,
+  "count": 2136,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2130,
-    "server_count": 2130,
+    "count": 2136,
+    "server_count": 2136,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1792582068.9450905
+    "saved_at": 1792599780.9496756
   },
   "artists": [
+    {
+      "id": "13754578",
+      "name": "Papa Khan"
+    },
+    {
+      "id": "46713711",
+      "name": "Primal Rights"
+    },
+    {
+      "id": "12073152",
+      "name": "Stereo Cube"
+    },
+    {
+      "id": "59938828",
+      "name": "微円"
+    },
+    {
+      "id": "986220",
+      "name": "Andy Loebs"
+    },
+    {
+      "id": "11995199",
+      "name": "Reid Willis"
+    },
     {
       "id": "33310978",
       "name": "NVR ME"
