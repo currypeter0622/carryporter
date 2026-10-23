@@ -1,7 +1,7 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-24T00:49:56.334147+08:00",
-  "count": 52,
+  "generated_at": "2026-10-24T04:49:39.868693+08:00",
+  "count": 53,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -155,39 +155,39 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 739,
+      "search_candidates": 738,
       "verified_target_count": 1,
       "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2141,
+      "artists": 2142,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2141,
-        "server_count": 2141,
+        "count": 2142,
+        "server_count": 2142,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792772787.9188871,
+        "saved_at": 1792787067.6127694,
         "source": "live"
       },
-      "relations": 82363,
-      "new_album_candidates": 110,
-      "unique_albums": 37933,
-      "detail_success": 37932,
+      "relations": 82413,
+      "new_album_candidates": 111,
+      "unique_albums": 37954,
+      "detail_success": 37953,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1023,
+      "date_hit_albums": 1026,
       "verify_artists": 670,
       "owned_failures": 0,
-      "external_hits": 285,
-      "new_release_hits": 152,
+      "external_hits": 287,
+      "new_release_hits": 154,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 52
+    "unique_album_count": 53
   },
   "albums": [
     {
@@ -252,7 +252,7 @@
       "publish_date": "2026-10-24",
       "size": 2,
       "company": "YCOO Music",
-      "pic_url": "https://p3.music.126.net/ohzwBlwB_rYWgHY0PXLvSw==/109951174146846402.jpg",
+      "pic_url": "https://p4.music.126.net/ohzwBlwB_rYWgHY0PXLvSw==/109951174146846402.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -298,7 +298,7 @@
       "publish_date": "2026-10-24",
       "size": 23,
       "company": "AYO!",
-      "pic_url": "https://p4.music.126.net/j-HnXQ8wVVSztY2UwdfLhA==/109951174144953759.jpg",
+      "pic_url": "https://p3.music.126.net/j-HnXQ8wVVSztY2UwdfLhA==/109951174144953759.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -395,7 +395,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/eyDRkFb9oIGGsFRJTMSbfA==/109951174150148645.jpg",
+      "pic_url": "https://p4.music.126.net/eyDRkFb9oIGGsFRJTMSbfA==/109951174150148645.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -418,7 +418,7 @@
       "publish_date": "2026-10-24",
       "size": 12,
       "company": "独立发行",
-      "pic_url": "https://p4.music.126.net/Eafh2qRUgw2IXXOVD4B9LQ==/109951174139932904.jpg",
+      "pic_url": "https://p3.music.126.net/Eafh2qRUgw2IXXOVD4B9LQ==/109951174139932904.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -441,7 +441,7 @@
       "publish_date": "2026-10-24",
       "size": 11,
       "company": "独立发行",
-      "pic_url": "https://p3.music.126.net/j2fDyo5NCrVSUpLSWfMTJg==/109951174107617057.jpg",
+      "pic_url": "https://p4.music.126.net/j2fDyo5NCrVSUpLSWfMTJg==/109951174107617057.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -510,7 +510,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/cDj0GROJFtwZtbrrFnutww==/109951174097818333.jpg",
+      "pic_url": "https://p3.music.126.net/cDj0GROJFtwZtbrrFnutww==/109951174097818333.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -579,7 +579,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/v5LX-ogZz0K4qPjWhCJawg==/109951174155720567.jpg",
+      "pic_url": "https://p3.music.126.net/v5LX-ogZz0K4qPjWhCJawg==/109951174155720567.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -873,6 +873,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=404223980"
+    },
+    {
+      "id": 405695273,
+      "name": "date o'clock (romantic love songs)",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 32,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p3.music.126.net/AYMjc83A-aNZBcRd37c4zQ==/109951174158648447.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405695273"
     },
     {
       "id": 404987820,
@@ -1367,7 +1390,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/Z7iPDq7beXQmi86XzX6yEw==/109951174149531126.jpg",
+      "pic_url": "https://p3.music.126.net/Z7iPDq7beXQmi86XzX6yEw==/109951174149531126.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
