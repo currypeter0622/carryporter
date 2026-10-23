@@ -1,0 +1,1470 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T00:49:56.334147+08:00",
+  "count": 52,
+  "scan": {
+    "mode": "full",
+    "complete_scan": false,
+    "global": [
+      {
+        "source": "album_new",
+        "area": "ALL",
+        "pages_scanned": 17,
+        "page_size": 30,
+        "reported_total": 500,
+        "final_offset": 510,
+        "target_count": 12,
+        "short_pages": 0,
+        "repeated_pages": 0,
+        "complete_scan": true,
+        "incomplete_reason": null,
+        "method": "GET"
+      },
+      {
+        "source": "album_new",
+        "area": "ZH",
+        "pages_scanned": 17,
+        "page_size": 30,
+        "reported_total": 500,
+        "final_offset": 510,
+        "target_count": 12,
+        "short_pages": 0,
+        "repeated_pages": 0,
+        "complete_scan": true,
+        "incomplete_reason": null,
+        "method": "GET"
+      },
+      {
+        "source": "album_new",
+        "area": "EA",
+        "pages_scanned": 17,
+        "page_size": 30,
+        "reported_total": 500,
+        "final_offset": 510,
+        "target_count": 0,
+        "short_pages": 0,
+        "repeated_pages": 0,
+        "complete_scan": true,
+        "incomplete_reason": null,
+        "method": "GET"
+      },
+      {
+        "source": "album_new",
+        "area": "KR",
+        "pages_scanned": 17,
+        "page_size": 30,
+        "reported_total": 500,
+        "final_offset": 510,
+        "target_count": 0,
+        "short_pages": 0,
+        "repeated_pages": 0,
+        "complete_scan": true,
+        "incomplete_reason": null,
+        "method": "GET"
+      },
+      {
+        "source": "album_new",
+        "area": "JP",
+        "pages_scanned": 17,
+        "page_size": 30,
+        "reported_total": 500,
+        "final_offset": 510,
+        "target_count": 0,
+        "short_pages": 0,
+        "repeated_pages": 0,
+        "complete_scan": true,
+        "incomplete_reason": null,
+        "method": "GET"
+      },
+      {
+        "source": "top_album",
+        "area": "ALL",
+        "year": 2026,
+        "month": 10,
+        "pages_scanned": 2,
+        "page_size": 30,
+        "reported_total": null,
+        "final_offset": 30,
+        "target_count": 0,
+        "repeated_pages": 1,
+        "complete_scan": false,
+        "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
+      },
+      {
+        "source": "top_album",
+        "area": "ZH",
+        "year": 2026,
+        "month": 10,
+        "pages_scanned": 2,
+        "page_size": 30,
+        "reported_total": null,
+        "final_offset": 30,
+        "target_count": 7,
+        "repeated_pages": 1,
+        "complete_scan": false,
+        "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
+      },
+      {
+        "source": "top_album",
+        "area": "EA",
+        "year": 2026,
+        "month": 10,
+        "pages_scanned": 2,
+        "page_size": 30,
+        "reported_total": null,
+        "final_offset": 30,
+        "target_count": 0,
+        "repeated_pages": 1,
+        "complete_scan": false,
+        "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
+      },
+      {
+        "source": "top_album",
+        "area": "KR",
+        "year": 2026,
+        "month": 10,
+        "pages_scanned": 2,
+        "page_size": 30,
+        "reported_total": null,
+        "final_offset": 30,
+        "target_count": 0,
+        "repeated_pages": 1,
+        "complete_scan": false,
+        "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
+      },
+      {
+        "source": "top_album",
+        "area": "JP",
+        "year": 2026,
+        "month": 10,
+        "pages_scanned": 2,
+        "page_size": 30,
+        "reported_total": null,
+        "final_offset": 30,
+        "target_count": 0,
+        "repeated_pages": 1,
+        "complete_scan": false,
+        "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
+      }
+    ],
+    "va_rescue": {
+      "source": "va_search_rescue",
+      "terms": [
+        "Various Artists",
+        "V.A.",
+        "华语群星"
+      ],
+      "queries_ok": 9,
+      "search_candidates": 739,
+      "verified_target_count": 1,
+      "errors": []
+    },
+    "reference_candidate_pool": {
+      "artists": 2141,
+      "artist_meta": {
+        "method": "GET",
+        "limit": 500,
+        "count": 2141,
+        "server_count": 2141,
+        "end_reason": "server_count_reached",
+        "complete_confirmed": true,
+        "had_repeat": false,
+        "error": null,
+        "saved_at": 1792772787.9188871,
+        "source": "live"
+      },
+      "relations": 82363,
+      "new_album_candidates": 110,
+      "unique_albums": 37933,
+      "detail_success": 37932,
+      "detail_errors": 1,
+      "detail_mismatch": 0,
+      "date_hit_albums": 1023,
+      "verify_artists": 670,
+      "owned_failures": 0,
+      "external_hits": 285,
+      "new_release_hits": 152,
+      "complete_candidate_pool": true,
+      "artist_failures": 0
+    },
+    "unique_album_count": 52
+  },
+  "albums": [
+    {
+      "id": 404978212,
+      "name": "電波的妄想美少女Q (feat. Qちゃん（CV:ななひら）) [Cover]",
+      "artists": [
+        {
+          "id": "15021",
+          "name": "ななひら"
+        }
+      ],
+      "artist_names": [
+        "ななひら"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Nanahira",
+      "pic_url": "https://p4.music.126.net/bdraM6dq59abvAcLSjhB1g==/109951174139957467.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404978212"
+    },
+    {
+      "id": 405566507,
+      "name": "阳光小快嘴",
+      "artists": [
+        {
+          "id": 30548303,
+          "name": "周周MG"
+        }
+      ],
+      "artist_names": [
+        "周周MG"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/dziEEca8rNJ8yl-psYq6Ow==/109951174154865013.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405566507"
+    },
+    {
+      "id": 405256271,
+      "name": "闰月",
+      "artists": [
+        {
+          "id": 32295472,
+          "name": "姚琛"
+        }
+      ],
+      "artist_names": [
+        "姚琛"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 2,
+      "company": "YCOO Music",
+      "pic_url": "https://p3.music.126.net/ohzwBlwB_rYWgHY0PXLvSw==/109951174146846402.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405256271"
+    },
+    {
+      "id": 399032672,
+      "name": "肌寒い雨の夜 ～あたたかい気持ちで過ごす秋の音楽～",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 33,
+      "company": "Silent Harbor Studio",
+      "pic_url": "https://p3.music.126.net/wCOdtL3-uEK-uMq5t-mILQ==/109951173959247326.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=399032672"
+    },
+    {
+      "id": 405188850,
+      "name": "燃谷子",
+      "artists": [
+        {
+          "id": 54453964,
+          "name": "燃谷子"
+        }
+      ],
+      "artist_names": [
+        "燃谷子"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 23,
+      "company": "AYO!",
+      "pic_url": "https://p4.music.126.net/j-HnXQ8wVVSztY2UwdfLhA==/109951174144953759.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405188850"
+    },
+    {
+      "id": 405211286,
+      "name": "游梦",
+      "artists": [
+        {
+          "id": 48345452,
+          "name": "邹沛沛"
+        }
+      ],
+      "artist_names": [
+        "邹沛沛"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 2,
+      "company": "YCOO Music",
+      "pic_url": "https://p3.music.126.net/ZlBq5tyvtbyhXBUYsBiL_w==/109951174145598276.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405211286"
+    },
+    {
+      "id": 402780458,
+      "name": "某个日落忘了我",
+      "artists": [
+        {
+          "id": 61856148,
+          "name": "Xy.小一"
+        },
+        {
+          "id": 58919188,
+          "name": "造梦师DreamMaker"
+        }
+      ],
+      "artist_names": [
+        "Xy.小一",
+        "造梦师DreamMaker"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/KArPmm2hhzvhUraaCdgU3w==/109951174102638081.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402780458"
+    },
+    {
+      "id": 403309767,
+      "name": "来世、記憶のように。",
+      "artists": [
+        {
+          "id": "95837939",
+          "name": "しろぼー"
+        }
+      ],
+      "artist_names": [
+        "しろぼー"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 9,
+      "company": "sirobo",
+      "pic_url": "https://p4.music.126.net/svQ52l4i3Tsy65T1YaoOLQ==/109951174091409910.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403309767"
+    },
+    {
+      "id": 405405902,
+      "name": "无法靠近的痛",
+      "artists": [
+        {
+          "id": 48678190,
+          "name": "究凌棣Jolint"
+        }
+      ],
+      "artist_names": [
+        "究凌棣Jolint"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/eyDRkFb9oIGGsFRJTMSbfA==/109951174150148645.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405405902"
+    },
+    {
+      "id": 404975764,
+      "name": "斩鸭线",
+      "artists": [
+        {
+          "id": 12064019,
+          "name": "连麻Swimming"
+        }
+      ],
+      "artist_names": [
+        "连麻Swimming"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 12,
+      "company": "独立发行",
+      "pic_url": "https://p4.music.126.net/Eafh2qRUgw2IXXOVD4B9LQ==/109951174139932904.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404975764"
+    },
+    {
+      "id": 403905570,
+      "name": "我只想当个Swagger",
+      "artists": [
+        {
+          "id": 34311081,
+          "name": "Siky"
+        }
+      ],
+      "artist_names": [
+        "Siky"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 11,
+      "company": "独立发行",
+      "pic_url": "https://p3.music.126.net/j2fDyo5NCrVSUpLSWfMTJg==/109951174107617057.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403905570"
+    },
+    {
+      "id": 403960508,
+      "name": "寝れないので寝るのやめます (feat. 初音ミク)",
+      "artists": [
+        {
+          "id": "130015578",
+          "name": "aaaand"
+        }
+      ],
+      "artist_names": [
+        "aaaand"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "aaaand",
+      "pic_url": "https://p3.music.126.net/89wLM3vzlbs74nGvS12gwQ==/109951174109102209.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403960508"
+    },
+    {
+      "id": 404948082,
+      "name": "地下少女樂隊Mixtape1",
+      "artists": [
+        {
+          "id": "122728675",
+          "name": "地下少女樂隊"
+        }
+      ],
+      "artist_names": [
+        "地下少女樂隊"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 11,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/2wourpiXK8ue00VcyhQL3g==/109951174139307379.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404948082"
+    },
+    {
+      "id": 403463222,
+      "name": "回天乏术",
+      "artists": [
+        {
+          "id": 12139022,
+          "name": "艾瑞欧ERIOE"
+        }
+      ],
+      "artist_names": [
+        "艾瑞欧ERIOE"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/cDj0GROJFtwZtbrrFnutww==/109951174097818333.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403463222"
+    },
+    {
+      "id": 403315450,
+      "name": "嚥夏 (feat. 重音テト)",
+      "artists": [
+        {
+          "id": "129907978",
+          "name": "しーらかんす"
+        }
+      ],
+      "artist_names": [
+        "しーらかんす"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Hototogisu Records",
+      "pic_url": "https://p4.music.126.net/DvQNDHskdemsKCe7xcNwvw==/109951174091674276.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403315450"
+    },
+    {
+      "id": 404071848,
+      "name": "君のことが嫌いだった理由 (feat. 重音テト)",
+      "artists": [
+        {
+          "id": "100190973",
+          "name": "マリョリ maryoli"
+        }
+      ],
+      "artist_names": [
+        "マリョリ maryoli"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "maryoli",
+      "pic_url": "https://p3.music.126.net/02gLASTPNXvIiScFtsBXqg==/109951174111735268.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404071848"
+    },
+    {
+      "id": 405606037,
+      "name": "不想你掉眼泪",
+      "artists": [
+        {
+          "id": 122277392,
+          "name": "刘乐"
+        }
+      ],
+      "artist_names": [
+        "刘乐"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/v5LX-ogZz0K4qPjWhCJawg==/109951174155720567.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405606037"
+    },
+    {
+      "id": 404074116,
+      "name": "ヴィジランテ (feat. 重音テト)",
+      "artists": [
+        {
+          "id": "98600532",
+          "name": "幸薄"
+        }
+      ],
+      "artist_names": [
+        "幸薄"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Such_Us",
+      "pic_url": "https://p3.music.126.net/SX1q_rATLK-v0w5-HyxB3g==/109951174111776151.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404074116"
+    },
+    {
+      "id": 404956417,
+      "name": "ラブラビ (feat. 初音ミク)",
+      "artists": [
+        {
+          "id": "130183326",
+          "name": "針寝コザメ"
+        }
+      ],
+      "artist_names": [
+        "針寝コザメ"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Harine Kozame",
+      "pic_url": "https://p4.music.126.net/R2JBAL7CYeeULUchRgtjNA==/109951174139470552.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404956417"
+    },
+    {
+      "id": 403961780,
+      "name": "ツインレイのまたたき",
+      "artists": [
+        {
+          "id": "129950168",
+          "name": "甘瀬奏音"
+        }
+      ],
+      "artist_names": [
+        "甘瀬奏音"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 5,
+      "company": "Amase Kanon",
+      "pic_url": "https://p4.music.126.net/Xk2tk5tbJiY8kovbsYkrFQ==/109951174109118818.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403961780"
+    },
+    {
+      "id": 403958161,
+      "name": "スクールバッグ (feat. 重音テト)",
+      "artists": [
+        {
+          "id": "57241992",
+          "name": "tomong"
+        }
+      ],
+      "artist_names": [
+        "tomong"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "tomong",
+      "pic_url": "https://p4.music.126.net/jQ1Tk_EQoJeRNKcW0Rtx9Q==/109951174108995970.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403958161"
+    },
+    {
+      "id": 403969119,
+      "name": "ジャック・ライフル (feat. 初音ミク)",
+      "artists": [
+        {
+          "id": "129565391",
+          "name": "(有)陽滲"
+        }
+      ],
+      "artist_names": [
+        "(有)陽滲"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Yoshin",
+      "pic_url": "https://p4.music.126.net/ygDRANvB3sOfqh9rA8-kYQ==/109951174109714442.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403969119"
+    },
+    {
+      "id": 404222922,
+      "name": "アヌビス",
+      "artists": [
+        {
+          "id": "46748447",
+          "name": "軽井さん"
+        },
+        {
+          "id": "1141075",
+          "name": "重音テト"
+        }
+      ],
+      "artist_names": [
+        "軽井さん",
+        "重音テト"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Karui-san",
+      "pic_url": "https://p4.music.126.net/kLsA3f47QilFuMc-GHQKGg==/109951174116326712.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404222922"
+    },
+    {
+      "id": 405226486,
+      "name": "わーるど・とりっぷ (feat. 初音ミク)",
+      "artists": [
+        {
+          "id": "121433900",
+          "name": "シュリンP"
+        }
+      ],
+      "artist_names": [
+        "シュリンP"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "syulinp",
+      "pic_url": "https://p3.music.126.net/VatngjBzEuXFReR91udCAQ==/109951174146034483.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405226486"
+    },
+    {
+      "id": 404223797,
+      "name": "きっといい子よあの子は feat.初音ミク",
+      "artists": [
+        {
+          "id": "127393132",
+          "name": "Kenji1205#"
+        },
+        {
+          "id": "159692",
+          "name": "初音ミク"
+        }
+      ],
+      "artist_names": [
+        "Kenji1205#",
+        "初音ミク"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Kenji1205",
+      "pic_url": "https://p4.music.126.net/EnsMNq_7bBKZwrnzCra8uA==/109951174116325240.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404223797"
+    },
+    {
+      "id": 405457913,
+      "name": "relapse",
+      "artists": [
+        {
+          "id": "98156418",
+          "name": "past fields"
+        }
+      ],
+      "artist_names": [
+        "past fields"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "past fields",
+      "pic_url": "https://p3.music.126.net/c3Tcl59d_f_iY0C-z6CPaw==/109951174151667658.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405457913"
+    },
+    {
+      "id": 403808636,
+      "name": "recipe?",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 4,
+      "company": "Vitaly on Earth",
+      "pic_url": "https://p4.music.126.net/cg8U6bBxmpE14VieK9j6uQ==/109951174105988014.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403808636"
+    },
+    {
+      "id": 404223980,
+      "name": "poki.exe",
+      "artists": [
+        {
+          "id": "57135939",
+          "name": "poki"
+        },
+        {
+          "id": "62147636",
+          "name": "YUMA"
+        },
+        {
+          "id": "159692",
+          "name": "初音ミク"
+        },
+        {
+          "id": "1141075",
+          "name": "重音テト"
+        },
+        {
+          "id": "52201495",
+          "name": "知声"
+        },
+        {
+          "id": "95668811",
+          "name": "宮舞モカ"
+        }
+      ],
+      "artist_names": [
+        "poki",
+        "YUMA",
+        "初音ミク",
+        "重音テト",
+        "知声",
+        "宮舞モカ"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 11,
+      "company": "dongurikobo",
+      "pic_url": "https://p4.music.126.net/RzB9jS6zhhCB42qquyEvbg==/109951174116327765.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404223980"
+    },
+    {
+      "id": 404987820,
+      "name": "Utamono",
+      "artists": [
+        {
+          "id": "62360203",
+          "name": "スーピンソース"
+        }
+      ],
+      "artist_names": [
+        "スーピンソース"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 10,
+      "company": "soupinsource",
+      "pic_url": "https://p3.music.126.net/CZOnDFvJ5by01jssG-3KUA==/109951174140198928.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404987820"
+    },
+    {
+      "id": 405323362,
+      "name": "The best of Branislav Samardzic",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 16,
+      "company": "Sonovia Records",
+      "pic_url": "https://p4.music.126.net/uWIyrSBgkYpXklPcNy8UXA==/109951174148540056.jpg",
+      "sub_type": "录音室版",
+      "type": "精选集",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405323362"
+    },
+    {
+      "id": 405671893,
+      "name": "Techno Running",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 57,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/Ce1KsrWa-K88_iWHqJ0E5Q==/109951174157539442.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405671893"
+    },
+    {
+      "id": 404866339,
+      "name": "Street Frat Fam | No Easy Props | Just Us NOX",
+      "artists": [
+        {
+          "id": "130166517",
+          "name": "Street Frat Fam"
+        }
+      ],
+      "artist_names": [
+        "Street Frat Fam"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 8,
+      "company": "FOR & SF",
+      "pic_url": "https://p3.music.126.net/0AM-Po7ZRIsWWFYm18pVaQ==/109951174137872594.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404866339"
+    },
+    {
+      "id": 405476237,
+      "name": "Parallel Obscurity - Volume 5",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 16,
+      "company": "Horrordelic Records",
+      "pic_url": "https://p4.music.126.net/3Yh4OFKAKDGa4h6TcryG7Q==/109951174152892065.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405476237"
+    },
+    {
+      "id": 404005095,
+      "name": "OVER",
+      "artists": [
+        {
+          "id": "14089349",
+          "name": "Nabii"
+        }
+      ],
+      "artist_names": [
+        "Nabii"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Nabii",
+      "pic_url": "https://p3.music.126.net/hIXcxPBFdKgXncF2T6kmtg==/109951174110491446.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404005095"
+    },
+    {
+      "id": 405670929,
+      "name": "ON AUX: Dance Party Hits & Club Anthems",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 35,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/IBq7tehRBOta23XaasAX9Q==/109951174157522153.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405670929"
+    },
+    {
+      "id": 402229626,
+      "name": "Mercury Ritual",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 10,
+      "company": "Zoo Series Recordings",
+      "pic_url": "https://p4.music.126.net/SwwpA6Hxugot9kYcUeOUfw==/109951174060979723.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402229626"
+    },
+    {
+      "id": 404223860,
+      "name": "MOCHROMA",
+      "artists": [
+        {
+          "id": "54970763",
+          "name": "mochi"
+        },
+        {
+          "id": "62147636",
+          "name": "YUMA"
+        },
+        {
+          "id": "1141075",
+          "name": "重音テト"
+        },
+        {
+          "id": "159692",
+          "name": "初音ミク"
+        },
+        {
+          "id": "52201495",
+          "name": "知声"
+        },
+        {
+          "id": "95668811",
+          "name": "宮舞モカ"
+        }
+      ],
+      "artist_names": [
+        "mochi",
+        "YUMA",
+        "重音テト",
+        "初音ミク",
+        "知声",
+        "宮舞モカ"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 8,
+      "company": "dongurikobo",
+      "pic_url": "https://p3.music.126.net/YoCp_hYgFPWBLwp-IJOaaQ==/109951174116327228.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404223860"
+    },
+    {
+      "id": 404070742,
+      "name": "Lucid. (feat. 重音テト)",
+      "artists": [
+        {
+          "id": "124021132",
+          "name": "藤久那 舜 / Fujikuna shun"
+        }
+      ],
+      "artist_names": [
+        "藤久那 舜 / Fujikuna shun"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "Fujikuna shun",
+      "pic_url": "https://p4.music.126.net/CZbdJoGGU1kq8HU3SFMGoQ==/109951174111723892.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404070742"
+    },
+    {
+      "id": 405671124,
+      "name": "Losercore",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 60,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/tyCjK6TBabDBupmZ95rZfA==/109951174157547509.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405671124"
+    },
+    {
+      "id": 247793440,
+      "name": "Hekdb Product 002",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 5,
+      "company": "Hekdb",
+      "pic_url": "https://p4.music.126.net/-yNycCcz3z3UdW7VMjVtuw==/109951174116323909.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=247793440"
+    },
+    {
+      "id": 402936663,
+      "name": "Halloween Ghost In The Club",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 10,
+      "company": "Online House Music",
+      "pic_url": "https://p4.music.126.net/h3sokQXpQZUa2-CA8ZkwlA==/109951174081772866.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402936663"
+    },
+    {
+      "id": 405573129,
+      "name": "HUGO RAX",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        },
+        {
+          "id": "130289970",
+          "name": "HUGO RAX"
+        }
+      ],
+      "artist_names": [
+        "Various Artists",
+        "HUGO RAX"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 10,
+      "company": "HUGO RAX",
+      "pic_url": "https://p4.music.126.net/4myfk0YzLJeIAdpQ6xTCtQ==/109951174155053102.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405573129"
+    },
+    {
+      "id": 405444664,
+      "name": "Group Therapy 699 (DJ Mix)",
+      "artists": [
+        {
+          "id": "85548",
+          "name": "Above & Beyond"
+        },
+        {
+          "id": "32317695",
+          "name": "Above & Beyond Group Therapy"
+        },
+        {
+          "id": "688094",
+          "name": "Anjunabeats"
+        }
+      ],
+      "artist_names": [
+        "Above & Beyond",
+        "Above & Beyond Group Therapy",
+        "Anjunabeats"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 25,
+      "company": "Group Therapy",
+      "pic_url": "https://p3.music.126.net/bTr-2bk_xaLiuL0d2dxFNw==/109951174151278599.jpg",
+      "sub_type": "Remix",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405444664"
+    },
+    {
+      "id": 405673522,
+      "name": "Geile Techno Remixe",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 60,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/WDUEPYEFAZFm21U6Y1rEyQ==/109951174157597126.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405673522"
+    },
+    {
+      "id": 405671706,
+      "name": "Feeling myself",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 47,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/gfmUq3UUNdMd-Bz8M8-rsg==/109951174157527780.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405671706"
+    },
+    {
+      "id": 404304551,
+      "name": "Ephemeral Customs",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 27,
+      "company": "Silex Unit",
+      "pic_url": "https://p4.music.126.net/gh3p5ou3JDtmEu-WGiZZ4A==/109951174117883730.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404304551"
+    },
+    {
+      "id": 402937064,
+      "name": "Deep Amsterdam, Volume 3",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 30,
+      "company": "Rebellious",
+      "pic_url": "https://p3.music.126.net/LU4aggjRkPy8FlzmiKpb_A==/109951174081783264.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402937064"
+    },
+    {
+      "id": 405371946,
+      "name": "COLD ENOUGH",
+      "artists": [
+        {
+          "id": 128250937,
+          "name": "漂移老爹（Drifting Diddy）"
+        }
+      ],
+      "artist_names": [
+        "漂移老爹（Drifting Diddy）"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/Z7iPDq7beXQmi86XzX6yEw==/109951174149531126.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405371946"
+    },
+    {
+      "id": 404169458,
+      "name": "Between Seasons",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 16,
+      "company": "Nox Array",
+      "pic_url": "https://p3.music.126.net/xn3zWWegZsR2LpcNqRGsvA==/109951174114450253.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404169458"
+    },
+    {
+      "id": 405673637,
+      "name": "Balade sous la pluie",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 39,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/l-bm5W-equnT7pOl82A5kg==/109951174157605531.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405673637"
+    },
+    {
+      "id": 403062204,
+      "name": "Amethyst Passage",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 20,
+      "company": "House Groove Six",
+      "pic_url": "https://p4.music.126.net/35i5oDyzBJ0grFBUUQ15GQ==/109951174085109682.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403062204"
+    },
+    {
+      "id": 402854504,
+      "name": "A Brief Infinity",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 24,
+      "company": "Zoo Series Recordings",
+      "pic_url": "https://p3.music.126.net/vaDGOkwG2q-o6RLNokTtkg==/109951174080360878.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=402854504"
+    }
+  ]
+}
