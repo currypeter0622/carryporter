@@ -1,18 +1,22 @@
 {
-  "saved_at": 1792729458.7667978,
-  "count": 2140,
+  "saved_at": 1792754904.234716,
+  "count": 2141,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2140,
-    "server_count": 2140,
+    "count": 2141,
+    "server_count": 2141,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1792729458.766755
+    "saved_at": 1792754904.234675
   },
   "artists": [
+    {
+      "id": "35760098",
+      "name": "kmoe"
+    },
     {
       "id": "48298537",
       "name": "Razmiel"
