@@ -1,7 +1,7 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-24T04:49:39.868693+08:00",
-  "count": 53,
+  "generated_at": "2026-10-24T12:47:47.026739+08:00",
+  "count": 63,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 12,
+        "target_count": 15,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 12,
+        "target_count": 14,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 7,
+        "target_count": 9,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,41 +155,138 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 738,
-      "verified_target_count": 1,
+      "search_candidates": 739,
+      "verified_target_count": 2,
       "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2142,
+      "artists": 2143,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2142,
-        "server_count": 2142,
+        "count": 2143,
+        "server_count": 2143,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792787067.6127694,
+        "saved_at": 1792815623.6194382,
         "source": "live"
       },
-      "relations": 82413,
-      "new_album_candidates": 111,
-      "unique_albums": 37954,
-      "detail_success": 37953,
+      "relations": 82480,
+      "new_album_candidates": 117,
+      "unique_albums": 37980,
+      "detail_success": 37979,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1026,
-      "verify_artists": 670,
+      "date_hit_albums": 1038,
+      "verify_artists": 673,
       "owned_failures": 0,
-      "external_hits": 287,
-      "new_release_hits": 154,
+      "external_hits": 291,
+      "new_release_hits": 164,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 53
+    "unique_album_count": 63
   },
   "albums": [
+    {
+      "id": 405431801,
+      "name": "秋兴赋",
+      "artists": [
+        {
+          "id": 2515,
+          "name": "窦唯"
+        },
+        {
+          "id": 33154502,
+          "name": "朝简"
+        }
+      ],
+      "artist_names": [
+        "窦唯",
+        "朝简"
+      ],
+      "publish_time": 1792803600000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "北京窦唯音乐工作室",
+      "pic_url": "https://p3.music.126.net/WWsqrJJlZHDXarenqX3cDA==/109951174150837773.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405431801"
+    },
+    {
+      "id": 405128950,
+      "name": "ghc: girls hyperflip cry!!!",
+      "artists": [
+        {
+          "id": "97236702",
+          "name": "flipEMoff!!"
+        }
+      ],
+      "artist_names": [
+        "flipEMoff!!"
+      ],
+      "publish_time": 1792800000000,
+      "publish_date": "2026-10-24",
+      "size": 17,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/6wnSjydjv11mipJltryj3A==/109951174160670409.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405128950"
+    },
+    {
+      "id": 405233494,
+      "name": "제4회 대전부르스 창작가요제",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 8,
+      "company": "A.C.T STUDIO",
+      "pic_url": "https://p4.music.126.net/GgdfcYUFxp9XHu6VhUG2yQ==/109951174146236664.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405233494"
+    },
+    {
+      "id": 405363083,
+      "name": "닥터X : 하얀 마피아의 시대 OST Part.4",
+      "artists": [
+        {
+          "id": 14712122,
+          "name": "Meego"
+        }
+      ],
+      "artist_names": [
+        "Meego"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 2,
+      "company": "Genie Music Corporation",
+      "pic_url": "https://p4.music.126.net/RrzrUQIyCZME1RfBOfMULg==/109951174149326613.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405363083"
+    },
     {
       "id": 404978212,
       "name": "電波的妄想美少女Q (feat. Qちゃん（CV:ななひら）) [Cover]",
@@ -229,7 +326,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/dziEEca8rNJ8yl-psYq6Ow==/109951174154865013.jpg",
+      "pic_url": "https://p3.music.126.net/dziEEca8rNJ8yl-psYq6Ow==/109951174154865013.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -298,7 +395,7 @@
       "publish_date": "2026-10-24",
       "size": 23,
       "company": "AYO!",
-      "pic_url": "https://p3.music.126.net/j-HnXQ8wVVSztY2UwdfLhA==/109951174144953759.jpg",
+      "pic_url": "https://p4.music.126.net/j-HnXQ8wVVSztY2UwdfLhA==/109951174144953759.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -321,7 +418,7 @@
       "publish_date": "2026-10-24",
       "size": 2,
       "company": "YCOO Music",
-      "pic_url": "https://p3.music.126.net/ZlBq5tyvtbyhXBUYsBiL_w==/109951174145598276.jpg",
+      "pic_url": "https://p4.music.126.net/ZlBq5tyvtbyhXBUYsBiL_w==/109951174145598276.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -395,7 +492,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/eyDRkFb9oIGGsFRJTMSbfA==/109951174150148645.jpg",
+      "pic_url": "https://p3.music.126.net/eyDRkFb9oIGGsFRJTMSbfA==/109951174150148645.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -418,7 +515,7 @@
       "publish_date": "2026-10-24",
       "size": 12,
       "company": "独立发行",
-      "pic_url": "https://p3.music.126.net/Eafh2qRUgw2IXXOVD4B9LQ==/109951174139932904.jpg",
+      "pic_url": "https://p4.music.126.net/Eafh2qRUgw2IXXOVD4B9LQ==/109951174139932904.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -472,6 +569,29 @@
       "url": "https://music.163.com/#/album?id=403960508"
     },
     {
+      "id": 405346192,
+      "name": "夏夜最后的烟火 (纪念版)",
+      "artists": [
+        {
+          "id": 128801011,
+          "name": "郑希"
+        }
+      ],
+      "artist_names": [
+        "郑希"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 3,
+      "company": "纳吉音 Negia Entertainment",
+      "pic_url": "https://p4.music.126.net/SqTX-pu2Jt_81q4P-myLpw==/109951174148841571.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405346192"
+    },
+    {
       "id": 404948082,
       "name": "地下少女樂隊Mixtape1",
       "artists": [
@@ -510,7 +630,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/cDj0GROJFtwZtbrrFnutww==/109951174097818333.jpg",
+      "pic_url": "https://p4.music.126.net/cDj0GROJFtwZtbrrFnutww==/109951174097818333.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -579,7 +699,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/v5LX-ogZz0K4qPjWhCJawg==/109951174155720567.jpg",
+      "pic_url": "https://p4.music.126.net/v5LX-ogZz0K4qPjWhCJawg==/109951174155720567.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -631,6 +751,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=404956417"
+    },
+    {
+      "id": 404485721,
+      "name": "ユウガオ深海譚",
+      "artists": [
+        {
+          "id": "1039191",
+          "name": "ミカン・デジレ"
+        }
+      ],
+      "artist_names": [
+        "ミカン・デジレ"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/_ACQuQbA-PTHl9sEgNJyKg==/109951174124794884.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404485721"
     },
     {
       "id": 403961780,
@@ -1059,6 +1202,34 @@
       "url": "https://music.163.com/#/album?id=405670929"
     },
     {
+      "id": 405740293,
+      "name": "Nothing but a memory",
+      "artists": [
+        {
+          "id": "98917991",
+          "name": "VirtualLuv"
+        },
+        {
+          "id": "48361070",
+          "name": "friends"
+        }
+      ],
+      "artist_names": [
+        "VirtualLuv",
+        "friends"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 3,
+      "company": "Zzz",
+      "pic_url": "https://p4.music.126.net/y0mtzoj8aK2jpHQ_YvObjQ==/109951174159724720.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405740293"
+    },
+    {
       "id": 402229626,
       "name": "Mercury Ritual",
       "artists": [
@@ -1191,12 +1362,58 @@
       "publish_date": "2026-10-24",
       "size": 5,
       "company": "Hekdb",
-      "pic_url": "https://p4.music.126.net/-yNycCcz3z3UdW7VMjVtuw==/109951174116323909.jpg",
+      "pic_url": "https://p3.music.126.net/-yNycCcz3z3UdW7VMjVtuw==/109951174116323909.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=247793440"
+    },
+    {
+      "id": 405735316,
+      "name": "Halloween Mix 2026",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 26,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p3.music.126.net/LiZrudmSoak11Ry_L-CEIg==/109951174159651820.jpg",
+      "sub_type": "Remix",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405735316"
+    },
+    {
+      "id": 405720589,
+      "name": "Halloween Hits Mix",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 45,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p3.music.126.net/T4eT6C73kNOxIBH2Q7cVOg==/109951174159387657.jpg",
+      "sub_type": "Remix",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405720589"
     },
     {
       "id": 402936663,
@@ -1390,7 +1607,7 @@
       "publish_date": "2026-10-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/Z7iPDq7beXQmi86XzX6yEw==/109951174149531126.jpg",
+      "pic_url": "https://p4.music.126.net/Z7iPDq7beXQmi86XzX6yEw==/109951174149531126.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1465,6 +1682,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403062204"
+    },
+    {
+      "id": 405743476,
+      "name": "Al son de sevillanas Vol III",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792771200000,
+      "publish_date": "2026-10-24",
+      "size": 11,
+      "company": "Producciones Alzur",
+      "pic_url": "https://p3.music.126.net/ht3TZx1iNCiBpvU2BvLp1g==/109951174159767974.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405743476"
     },
     {
       "id": 402854504,
