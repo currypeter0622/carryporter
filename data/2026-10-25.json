@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-25T00:41:03.595772+08:00",
+  "generated_at": "2026-10-25T04:46:43.666826+08:00",
   "count": 43,
   "scan": {
     "mode": "full",
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 8,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 8,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 6,
+        "target_count": 7,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,35 +154,33 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 643,
+      "queries_ok": 9,
+      "search_candidates": 743,
       "verified_target_count": 3,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2144,
+      "artists": 2145,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2144,
-        "server_count": 2144,
+        "count": 2145,
+        "server_count": 2145,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792858570.516933,
+        "saved_at": 1792873219.965659,
         "source": "live"
       },
-      "relations": 82536,
-      "new_album_candidates": 60,
-      "unique_albums": 37979,
-      "detail_success": 37978,
+      "relations": 82586,
+      "new_album_candidates": 61,
+      "unique_albums": 37988,
+      "detail_success": 37987,
       "detail_errors": 1,
       "detail_mismatch": 0,
       "date_hit_albums": 1024,
-      "verify_artists": 677,
+      "verify_artists": 678,
       "owned_failures": 0,
       "external_hits": 284,
       "new_release_hits": 91,
@@ -259,7 +257,7 @@
       "publish_date": "2026-10-25",
       "size": 2,
       "company": "",
-      "pic_url": "https://p3.music.126.net/ERu6tiyFQ-rpGSsFMkrCIQ==/109951174155476123.jpg",
+      "pic_url": "https://p4.music.126.net/ERu6tiyFQ-rpGSsFMkrCIQ==/109951174155476123.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -435,7 +433,7 @@
       "publish_date": "2026-10-25",
       "size": 1,
       "company": "GENAGROUP",
-      "pic_url": "https://p3.music.126.net/q9TnBLKAO3IrcbaUirpP1g==/109951174155471964.jpg",
+      "pic_url": "https://p4.music.126.net/q9TnBLKAO3IrcbaUirpP1g==/109951174155471964.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -756,21 +754,26 @@
     },
     {
       "id": 405034710,
-      "name": "NSATY31",
+      "name": "NASTY31",
       "artists": [
         {
           "id": 30953313,
           "name": "山药大王"
+        },
+        {
+          "id": 58919188,
+          "name": "造梦师DreamMaker"
         }
       ],
       "artist_names": [
-        "山药大王"
+        "山药大王",
+        "造梦师DreamMaker"
       ],
       "publish_time": 1792857600000,
       "publish_date": "2026-10-25",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/m7k8DAUvGwqKOsATm495WA==/109951174141501621.jpg",
+      "pic_url": "https://p4.music.126.net/m7k8DAUvGwqKOsATm495WA==/109951174141501621.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
