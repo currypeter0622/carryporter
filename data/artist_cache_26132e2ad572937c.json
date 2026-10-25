@@ -1,18 +1,34 @@
 {
-  "saved_at": 1792902194.392412,
-  "count": 2145,
+  "saved_at": 1792927365.8362765,
+  "count": 2149,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2145,
-    "server_count": 2145,
+    "count": 2149,
+    "server_count": 2149,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1792902194.3923702
+    "saved_at": 1792927365.8362424
   },
   "artists": [
+    {
+      "id": "49669538",
+      "name": "Eth4n"
+    },
+    {
+      "id": "59530077",
+      "name": "elli mia"
+    },
+    {
+      "id": "96288444",
+      "name": "lovely_liz"
+    },
+    {
+      "id": "99108810",
+      "name": "Masahiro \"Godspeed\" Aoki"
+    },
     {
       "id": "11976029",
       "name": "Getty"

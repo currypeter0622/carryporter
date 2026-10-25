@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-25T12:56:12.912991+08:00",
-  "count": 45,
+  "generated_at": "2026-10-25T19:58:28.049251+08:00",
+  "count": 56,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 14,
+        "target_count": 23,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 4,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 3,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,44 +154,163 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 740,
-      "verified_target_count": 3,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "queries_ok": 8,
+      "search_candidates": 643,
+      "verified_target_count": 5,
+      "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2145,
+      "artists": 2149,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2145,
-        "server_count": 2145,
+        "count": 2149,
+        "server_count": 2149,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792902194.3923702,
+        "saved_at": 1792927365.8362424,
         "source": "live"
       },
-      "relations": 82579,
-      "new_album_candidates": 64,
-      "unique_albums": 37984,
-      "detail_success": 37983,
+      "relations": 82673,
+      "new_album_candidates": 70,
+      "unique_albums": 38038,
+      "detail_success": 38037,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1028,
-      "verify_artists": 681,
+      "date_hit_albums": 1035,
+      "verify_artists": 688,
       "owned_failures": 0,
-      "external_hits": 284,
-      "new_release_hits": 94,
+      "external_hits": 287,
+      "new_release_hits": 101,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 45
+    "unique_album_count": 56
   },
   "albums": [
+    {
+      "id": 405896333,
+      "name": "Immaterial",
+      "artists": [
+        {
+          "id": "35123886",
+          "name": "innofract"
+        },
+        {
+          "id": "21138",
+          "name": "Supire"
+        }
+      ],
+      "artist_names": [
+        "innofract",
+        "Supire",
+        "V.A."
+      ],
+      "publish_time": 1792885044865,
+      "publish_date": "2026-10-25",
+      "size": 8,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/Uy3HhTe5oruDL0SJtscNOg==/109951174168883722.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405896333"
+    },
+    {
+      "id": 405204773,
+      "name": "사랑하지 않아서 그랬어",
+      "artists": [
+        {
+          "id": 33779549,
+          "name": "신예영"
+        }
+      ],
+      "artist_names": [
+        "신예영"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 2,
+      "company": "NHN BUGS",
+      "pic_url": "https://p3.music.126.net/_8bGUGp3UYCex3FUpnOQGg==/109951174145456443.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405204773"
+    },
+    {
+      "id": 405398887,
+      "name": "미치게 그리워서",
+      "artists": [
+        {
+          "id": 123233,
+          "name": "白基成"
+        }
+      ],
+      "artist_names": [
+        "白基成"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 2,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/nLrvYT-QUpGCtsz1reuFJg==/109951174149976475.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405398887"
+    },
+    {
+      "id": 404285024,
+      "name": "너에게(春喜)",
+      "artists": [
+        {
+          "id": 916094,
+          "name": "Rocoberry"
+        }
+      ],
+      "artist_names": [
+        "Rocoberry"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 4,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/1spaBEJMCYRoT-5R-IO3hw==/109951174117531867.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404285024"
+    },
+    {
+      "id": 403869025,
+      "name": "너 말고 다른 연애 OST Part.6",
+      "artists": [
+        {
+          "id": 31593150,
+          "name": "off the menu"
+        }
+      ],
+      "artist_names": [
+        "off the menu"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/bpzGNgW18js5XzfylJIBjw==/109951174106946202.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403869025"
+    },
     {
       "id": 403511276,
       "name": "雨の日",
@@ -231,7 +350,7 @@
       "publish_date": "2026-10-25",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/pbHcu5WSuWqOYOMdpkKaPg==/109951174163337450.jpg",
+      "pic_url": "https://p3.music.126.net/pbHcu5WSuWqOYOMdpkKaPg==/109951174163337450.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -305,7 +424,7 @@
       "publish_date": "2026-10-25",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/xoIGVF98k9Ia0P0x6_UlSA==/109951174157438987.jpg",
+      "pic_url": "https://p4.music.126.net/xoIGVF98k9Ia0P0x6_UlSA==/109951174157438987.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -435,12 +554,35 @@
       "publish_date": "2026-10-25",
       "size": 1,
       "company": "GENAGROUP",
-      "pic_url": "https://p4.music.126.net/q9TnBLKAO3IrcbaUirpP1g==/109951174155471964.jpg",
+      "pic_url": "https://p3.music.126.net/q9TnBLKAO3IrcbaUirpP1g==/109951174155471964.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=405596536"
+    },
+    {
+      "id": 405905213,
+      "name": "围栏重重",
+      "artists": [
+        {
+          "id": "127332585",
+          "name": "WavesMaker"
+        }
+      ],
+      "artist_names": [
+        "WavesMaker"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 2,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/FMPdrjj72fHne2j3dRhqZw==/109951174167934492.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405905213"
     },
     {
       "id": 405558562,
@@ -458,7 +600,7 @@
       "publish_date": "2026-10-25",
       "size": 2,
       "company": "看东方（上海）传媒有限公司",
-      "pic_url": "https://p4.music.126.net/rTr0TwWdceTPjfEC-4DiTg==/109951174149876378.jpg",
+      "pic_url": "https://p3.music.126.net/rTr0TwWdceTPjfEC-4DiTg==/109951174149876378.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -699,6 +841,62 @@
       "url": "https://music.163.com/#/album?id=404939632"
     },
     {
+      "id": 403872480,
+      "name": "Talking Book 2 [Deluxe Edition]",
+      "artists": [
+        {
+          "id": 12202465,
+          "name": "jeebanoff"
+        }
+      ],
+      "artist_names": [
+        "jeebanoff"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 15,
+      "company": "jeebanoff",
+      "pic_url": "https://p4.music.126.net/mEPRXkd8FuJ_nzz_fylzvw==/109951174106991910.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403872480"
+    },
+    {
+      "id": 405924717,
+      "name": "Syringe",
+      "artists": [
+        {
+          "id": "97613595",
+          "name": "Misery Trance"
+        },
+        {
+          "id": "61181921",
+          "name": "Gondola"
+        },
+        {
+          "id": "97571127",
+          "name": "s4turnine"
+        }
+      ],
+      "artist_names": [
+        "Misery Trance",
+        "Gondola",
+        "s4turnine"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 5,
+      "company": "Club Accela",
+      "pic_url": "https://p4.music.126.net/xpiuejHEXzaziMC6cs_O8A==/109951174168803446.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405924717"
+    },
+    {
       "id": 399081108,
       "name": "SUPER MAGICAL GIRL!",
       "artists": [
@@ -852,6 +1050,52 @@
       "url": "https://music.163.com/#/album?id=404079521"
     },
     {
+      "id": 405694409,
+      "name": "Mahalakshmi Mantra",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/uMASO3PlyYRDdjE5sWLPkA==/109951174158642337.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405694409"
+    },
+    {
+      "id": 405910226,
+      "name": "Lumin Thaw",
+      "artists": [
+        {
+          "id": "55373125",
+          "name": "Rllovx"
+        }
+      ],
+      "artist_names": [
+        "Rllovx"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/hCsseCqOuGXXeECS8CWDGw==/109951174168209655.jpg",
+      "sub_type": "DEMO",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405910226"
+    },
+    {
       "id": 403513620,
       "name": "J-SCHRANZ12",
       "artists": [],
@@ -996,6 +1240,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402855099"
+    },
+    {
+      "id": 405350713,
+      "name": "Falling Slow",
+      "artists": [
+        {
+          "id": 12403052,
+          "name": "Dept"
+        }
+      ],
+      "artist_names": [
+        "Dept"
+      ],
+      "publish_time": 1792857600000,
+      "publish_date": "2026-10-25",
+      "size": 28,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/252hMEUJlFgxsr54ljeL8A==/109951174149037071.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405350713"
     },
     {
       "id": 405796755,
