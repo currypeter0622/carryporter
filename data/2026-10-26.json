@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T00:53:15.068232+08:00",
-  "count": 39,
+  "generated_at": "2026-10-26T04:51:21.100713+08:00",
+  "count": 42,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 4,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 2,
+        "target_count": 4,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 1,
+        "target_count": 2,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -160,36 +160,59 @@
       "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2150,
+      "artists": 2152,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2150,
-        "server_count": 2150,
+        "count": 2152,
+        "server_count": 2152,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792945039.2576349,
+        "saved_at": 1792959562.6451468,
         "source": "live"
       },
-      "relations": 82724,
-      "new_album_candidates": 53,
-      "unique_albums": 38032,
-      "detail_success": 38031,
+      "relations": 82810,
+      "new_album_candidates": 56,
+      "unique_albums": 38058,
+      "detail_success": 38057,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1026,
-      "verify_artists": 686,
+      "date_hit_albums": 1030,
+      "verify_artists": 687,
       "owned_failures": 0,
-      "external_hits": 291,
-      "new_release_hits": 73,
+      "external_hits": 292,
+      "new_release_hits": 76,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 39
+    "unique_album_count": 42
   },
   "albums": [
+    {
+      "id": 404087486,
+      "name": "过季短袖",
+      "artists": [
+        {
+          "id": 13057497,
+          "name": "黄明昊 (Justin)"
+        }
+      ],
+      "artist_names": [
+        "黄明昊 (Justin)"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 2,
+      "company": "独立发行",
+      "pic_url": "https://p3.music.126.net/GB2MjsVUvPHTD6ob6llhMw==/109951174155900570.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404087486"
+    },
     {
       "id": 404312650,
       "name": "落花 (feat. 重音テト)",
@@ -815,6 +838,29 @@
       "url": "https://music.163.com/#/album?id=403336417"
     },
     {
+      "id": 404507894,
+      "name": "Heritage of Harvest",
+      "artists": [
+        {
+          "id": "95803583",
+          "name": "Isle & Notes"
+        }
+      ],
+      "artist_names": [
+        "Isle & Notes"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 6,
+      "company": "Isle & Notes",
+      "pic_url": "https://p3.music.126.net/2ab95uG7LKLhbemX7pm1iw==/109951174124424623.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404507894"
+    },
+    {
       "id": 403336387,
       "name": "Halloween Freedom 2026",
       "artists": [
@@ -928,6 +974,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=404782489"
+    },
+    {
+      "id": 404991950,
+      "name": "Cherry Candy",
+      "artists": [
+        {
+          "id": 28416428,
+          "name": "Lunak"
+        }
+      ],
+      "artist_names": [
+        "Lunak"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "独立发行",
+      "pic_url": "https://p3.music.126.net/geIUgfHRN9iWEIo-uWSTSQ==/109951174140300294.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404991950"
     },
     {
       "id": 402941396,
