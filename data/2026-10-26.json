@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T12:55:38.668960+08:00",
-  "count": 48,
+  "generated_at": "2026-10-26T20:03:55.720904+08:00",
+  "count": 78,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 14,
+        "target_count": 25,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 8,
+        "target_count": 11,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 8,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 5,
+        "target_count": 6,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 8,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,43 +155,89 @@
         "华语群星"
       ],
       "queries_ok": 8,
-      "search_candidates": 641,
+      "search_candidates": 633,
       "verified_target_count": 1,
       "errors": [
         "华语群星: /search 请求失败：/search GET/POST 405"
       ]
     },
     "reference_candidate_pool": {
-      "artists": 2156,
+      "artists": 2161,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2156,
-        "server_count": 2156,
+        "count": 2161,
+        "server_count": 2161,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792988824.3034453,
+        "saved_at": 1793014566.0704277,
         "source": "live"
       },
-      "relations": 82943,
-      "new_album_candidates": 64,
-      "unique_albums": 38098,
-      "detail_success": 38097,
+      "relations": 83054,
+      "new_album_candidates": 77,
+      "unique_albums": 38153,
+      "detail_success": 38152,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1045,
-      "verify_artists": 699,
+      "date_hit_albums": 1066,
+      "verify_artists": 706,
       "owned_failures": 0,
-      "external_hits": 299,
-      "new_release_hits": 84,
+      "external_hits": 301,
+      "new_release_hits": 100,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 48
+    "unique_album_count": 78
   },
   "albums": [
+    {
+      "id": 406107329,
+      "name": "HongKong",
+      "artists": [
+        {
+          "id": 122338868,
+          "name": "向宸"
+        }
+      ],
+      "artist_names": [
+        "向宸"
+      ],
+      "publish_time": 1793010509000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/eJPrBD6ACpSEceLD0NVbZg==/109951174174992698.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406107329"
+    },
+    {
+      "id": 405611721,
+      "name": "Looks Can Kill",
+      "artists": [
+        {
+          "id": 50377945,
+          "name": "IVE"
+        }
+      ],
+      "artist_names": [
+        "IVE"
+      ],
+      "publish_time": 1793005200000,
+      "publish_date": "2026-10-26",
+      "size": 6,
+      "company": "STARSHIP Entertainment",
+      "pic_url": "https://p4.music.126.net/OogZyoMkknqoBxOuO8rjtA==/109951174155748936.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405611721"
+    },
     {
       "id": 405559423,
       "name": "耍起",
@@ -244,6 +290,75 @@
       "url": "https://music.163.com/#/album?id=405757061"
     },
     {
+      "id": 404741199,
+      "name": "천번을 더",
+      "artists": [
+        {
+          "id": 14711179,
+          "name": "전건호"
+        }
+      ],
+      "artist_names": [
+        "전건호"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 2,
+      "company": "NHN BUGS",
+      "pic_url": "https://p4.music.126.net/t1EERsVe4MzQSIPL93rzjA==/109951174134308509.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404741199"
+    },
+    {
+      "id": 405610714,
+      "name": "단 하루라도",
+      "artists": [
+        {
+          "id": 30615331,
+          "name": "Lokid"
+        }
+      ],
+      "artist_names": [
+        "Lokid"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/-aTsDkkQjDb9sJnql_ynQw==/109951174155762091.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405610714"
+    },
+    {
+      "id": 405564691,
+      "name": "너는 내가 쉴 수 있는 한 사람",
+      "artists": [
+        {
+          "id": 125935,
+          "name": "淑熙"
+        }
+      ],
+      "artist_names": [
+        "淑熙"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 2,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/8Q9O1GB3jUQ4URKNKl_3GQ==/109951174154831006.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405564691"
+    },
+    {
       "id": 404087486,
       "name": "过季短袖",
       "artists": [
@@ -259,7 +374,7 @@
       "publish_date": "2026-10-26",
       "size": 2,
       "company": "独立发行",
-      "pic_url": "https://p4.music.126.net/GB2MjsVUvPHTD6ob6llhMw==/109951174155900570.jpg",
+      "pic_url": "https://p3.music.126.net/GB2MjsVUvPHTD6ob6llhMw==/109951174155900570.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -369,6 +484,29 @@
       "url": "https://music.163.com/#/album?id=405147267"
     },
     {
+      "id": 405564703,
+      "name": "怎么舍得",
+      "artists": [
+        {
+          "id": 33106934,
+          "name": "余超颖"
+        }
+      ],
+      "artist_names": [
+        "余超颖"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/zxQ_sWRAL9Z9Dkrhi0bNLQ==/109951174154831504.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405564703"
+    },
+    {
       "id": 405562228,
       "name": "广顺2026Cypher",
       "artists": [
@@ -455,7 +593,7 @@
       "publish_date": "2026-10-26",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/DuibUrAWMNqwcKC_BkLz6g==/109951174154682376.jpg",
+      "pic_url": "https://p4.music.126.net/DuibUrAWMNqwcKC_BkLz6g==/109951174154682376.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -551,6 +689,75 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=405834444"
+    },
+    {
+      "id": 400901107,
+      "name": "ディスコ, Vol. 38 -Instrumental BGM- by Audiostock",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 19,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/4d80jZ5NaeLIcbzCK84EjQ==/109951174016997006.jpg",
+      "sub_type": "伴奏版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400901107"
+    },
+    {
+      "id": 400901824,
+      "name": "ディスコ, Vol. 37 -Instrumental BGM- by Audiostock",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 20,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/U_4Wtch1sEtZA_3Fmqt9Vg==/109951174016976754.jpg",
+      "sub_type": "伴奏版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400901824"
+    },
+    {
+      "id": 400902250,
+      "name": "テクノ, Vol. 180 -Instrumental BGM- by Audiostock",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 19,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/m6eD27dIcksKs8Pqy8fj0A==/109951174017005067.jpg",
+      "sub_type": "伴奏版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400902250"
     },
     {
       "id": 404516950,
@@ -719,6 +926,236 @@
       "url": "https://music.163.com/#/album?id=401369886"
     },
     {
+      "id": 405168253,
+      "name": "Various Music Collection Vol.503 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 37,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/Dz9wxWqaLMbkJhe0Ri1fjw==/109951174144682627.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405168253"
+    },
+    {
+      "id": 405169984,
+      "name": "Various Music Collection Vol.502 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/33SDDJHYx4skv5u4nCuf5g==/109951174144694457.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405169984"
+    },
+    {
+      "id": 405167659,
+      "name": "Various Music Collection Vol.501 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/DNKW1xT4tkv7OVQpMHOUnw==/109951174144654979.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405167659"
+    },
+    {
+      "id": 405165725,
+      "name": "Various Music Collection Vol.500 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/6SU-NDTZhmsxGIyTO_LUyA==/109951174144626760.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405165725"
+    },
+    {
+      "id": 405164276,
+      "name": "Various Music Collection Vol.499 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/lT7HIaX2Y7rXdOqgUgsiQQ==/109951174144592339.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405164276"
+    },
+    {
+      "id": 405163175,
+      "name": "Various Music Collection Vol.498 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/N3-LvHrZ6D7vSsXAjNowlg==/109951174144563097.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405163175"
+    },
+    {
+      "id": 405288981,
+      "name": "Various Music Collection Vol.497 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/8F9WW8ZsBerSf2FBCu9zdA==/109951174147952085.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405288981"
+    },
+    {
+      "id": 405158327,
+      "name": "Various Music Collection Vol.496 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/3oXXtybIPePCUhI1heVxNA==/109951174144479319.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405158327"
+    },
+    {
+      "id": 405156590,
+      "name": "Various Music Collection Vol.495 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/0E8PuBRgo-2CLd4Rfn3nXw==/109951174144447676.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405156590"
+    },
+    {
+      "id": 405155778,
+      "name": "Various Music Collection Vol.494 -Selected & Music-Published by Audiostock-",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 99,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/X637u4q_IMxwqFX6xQlvXA==/109951174144399995.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405155778"
+    },
+    {
       "id": 403550501,
       "name": "Top October 2026",
       "artists": [
@@ -857,6 +1294,29 @@
       "url": "https://music.163.com/#/album?id=403335481"
     },
     {
+      "id": 405563534,
+      "name": "Now I’m Never Die",
+      "artists": [
+        {
+          "id": 27951423,
+          "name": "W24"
+        }
+      ],
+      "artist_names": [
+        "W24"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "Genie Music Corporation",
+      "pic_url": "https://p3.music.126.net/xiRmu2i9HJP50zltrHcO3g==/109951174154787290.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405563534"
+    },
+    {
       "id": 405066711,
       "name": "Nothing But... Jackin' Beats, Vol. 22",
       "artists": [
@@ -926,27 +1386,27 @@
       "url": "https://music.163.com/#/album?id=402282375"
     },
     {
-      "id": 401444141,
-      "name": "Luminous Depths",
+      "id": 405598415,
+      "name": "Lucky Charm",
       "artists": [
         {
-          "id": "49260160",
-          "name": "Various Artists"
+          "id": 129059103,
+          "name": "WE GO-6"
         }
       ],
       "artist_names": [
-        "Various Artists"
+        "WE GO-6"
       ],
       "publish_time": 1792944000000,
       "publish_date": "2026-10-26",
-      "size": 20,
-      "company": "Zoo Series Recordings",
-      "pic_url": "https://p3.music.126.net/1jjfKrDxS0aqha4Q_4YLew==/109951174031447328.jpg",
+      "size": 1,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/dwdHf7nR1c053ksQw_inKQ==/109951174173471141.jpg",
       "sub_type": "录音室版",
-      "type": "专辑",
-      "status": null,
+      "type": "Single",
+      "status": 1,
       "description": "",
-      "url": "https://music.163.com/#/album?id=401444141"
+      "url": "https://music.163.com/#/album?id=405598415"
     },
     {
       "id": 403336414,
@@ -1010,12 +1470,58 @@
       "publish_date": "2026-10-26",
       "size": 4,
       "company": "CULT records",
-      "pic_url": "https://p3.music.126.net/Hv-pbirz6QUF0kDmq4oSug==/109951174087441344.jpg",
+      "pic_url": "https://p4.music.126.net/Hv-pbirz6QUF0kDmq4oSug==/109951174087441344.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=287730532"
+    },
+    {
+      "id": 406109290,
+      "name": "HongKong Beat",
+      "artists": [
+        {
+          "id": 121984357,
+          "name": "LILI粒粒"
+        }
+      ],
+      "artist_names": [
+        "LILI粒粒"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/1JFShJmsI6T6NuX2pzRQiQ==/109951174175006724.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406109290"
+    },
+    {
+      "id": 404936308,
+      "name": "Home",
+      "artists": [
+        {
+          "id": 35249099,
+          "name": "유채훈"
+        }
+      ],
+      "artist_names": [
+        "유채훈"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/jFVr0AovuGdqUFwjWQfqhQ==/109951174139068184.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404936308"
     },
     {
       "id": 404507894,
@@ -1033,7 +1539,7 @@
       "publish_date": "2026-10-26",
       "size": 6,
       "company": "Isle & Notes",
-      "pic_url": "https://p3.music.126.net/2ab95uG7LKLhbemX7pm1iw==/109951174124424623.jpg",
+      "pic_url": "https://p4.music.126.net/2ab95uG7LKLhbemX7pm1iw==/109951174124424623.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
@@ -1062,6 +1568,121 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403336387"
+    },
+    {
+      "id": 400900531,
+      "name": "HIP HOP, Vol. 240 -Instrumental BGM- by Audiostock",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 19,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/6x0tILyiJjtniiI3hVAd4w==/109951174016949618.jpg",
+      "sub_type": "伴奏版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400900531"
+    },
+    {
+      "id": 400900367,
+      "name": "HIP HOP, Vol. 239 -Instrumental BGM- by Audiostock",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 17,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/fcEWPGF6u1wMCBUQfC1z0w==/109951174016934235.jpg",
+      "sub_type": "伴奏版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400900367"
+    },
+    {
+      "id": 400900303,
+      "name": "HIP HOP, Vol. 238 -Instrumental BGM- by Audiostock",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 18,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p3.music.126.net/n7DtkrF-Y34F6snYbRol8Q==/109951174016926606.jpg",
+      "sub_type": "伴奏版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400900303"
+    },
+    {
+      "id": 400901219,
+      "name": "HIP HOP, Vol. 237 -Instrumental BGM- by Audiostock",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 20,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/46Mf_2MxnIHpO7S_sO1COQ==/109951174016912803.jpg",
+      "sub_type": "伴奏版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400901219"
+    },
+    {
+      "id": 400898919,
+      "name": "HIP HOP, Vol. 236 -Instrumental BGM- by Audiostock",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 20,
+      "company": "Audiostock Inc.",
+      "pic_url": "https://p4.music.126.net/-CuMl3hMPpxvU9FVLAJPwQ==/109951174016881488.jpg",
+      "sub_type": "伴奏版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400898919"
     },
     {
       "id": 404645479,
@@ -1156,6 +1777,29 @@
       "url": "https://music.163.com/#/album?id=404782489"
     },
     {
+      "id": 405067491,
+      "name": "Chilltronica 055",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 14,
+      "company": "HOT-Q",
+      "pic_url": "https://p3.music.126.net/Lym_QxByBNHAWSVXQI-fIA==/109951174142747396.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405067491"
+    },
+    {
       "id": 404991950,
       "name": "Cherry Candy",
       "artists": [
@@ -1179,6 +1823,34 @@
       "url": "https://music.163.com/#/album?id=404991950"
     },
     {
+      "id": 405716190,
+      "name": "Chasing Horizons",
+      "artists": [
+        {
+          "id": "47131872",
+          "name": "PHONO RECORDS"
+        },
+        {
+          "id": "53243905",
+          "name": "luminate"
+        }
+      ],
+      "artist_names": [
+        "PHONO RECORDS",
+        "luminate"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "留声音乐",
+      "pic_url": "https://p4.music.126.net/9rXWcA8nSTKvwPwYpQ6hUg==/109951174159256226.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405716190"
+    },
+    {
       "id": 402941396,
       "name": "Boite a Bijoux",
       "artists": [
@@ -1200,6 +1872,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=402941396"
+    },
+    {
+      "id": 406046110,
+      "name": "Blue Sky",
+      "artists": [
+        {
+          "id": 820106,
+          "name": "银赫"
+        }
+      ],
+      "artist_names": [
+        "银赫"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "Dreamus",
+      "pic_url": "https://p3.music.126.net/pf7aCRu4I3fwyu2nPgmawA==/109951174173603505.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406046110"
     },
     {
       "id": 404940511,
@@ -1350,7 +2045,7 @@
       "publish_date": "2026-10-26",
       "size": 1,
       "company": "LAPONE ENTERTAINMENT",
-      "pic_url": "https://p3.music.126.net/Pl4kZLMmgc94nVVjfFb-fg==/109951174076257028.jpg",
+      "pic_url": "https://p4.music.126.net/Pl4kZLMmgc94nVVjfFb-fg==/109951174076257028.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,

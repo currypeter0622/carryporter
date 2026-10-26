@@ -1,18 +1,38 @@
 {
-  "saved_at": 1792988824.3035002,
-  "count": 2156,
+  "saved_at": 1793014566.0704694,
+  "count": 2161,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2156,
-    "server_count": 2156,
+    "count": 2161,
+    "server_count": 2161,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1792988824.3034453
+    "saved_at": 1793014566.0704277
   },
   "artists": [
+    {
+      "id": "48370837",
+      "name": "ななきなな"
+    },
+    {
+      "id": "100040841",
+      "name": "JULLII"
+    },
+    {
+      "id": "53788854",
+      "name": "乃花こより"
+    },
+    {
+      "id": "100266858",
+      "name": "鈴蘭遊嬉"
+    },
+    {
+      "id": "58015750",
+      "name": "Roi"
+    },
     {
       "id": "121489086",
       "name": "PALE:node"
