@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
-  "generated_at": "2026-10-27T00:37:56.417398+08:00",
-  "count": 28,
+  "generated_at": "2026-10-27T04:54:30.072446+08:00",
+  "count": 30,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 8,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -156,40 +156,38 @@
       ],
       "queries_ok": 9,
       "search_candidates": 733,
-      "verified_target_count": 0,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "verified_target_count": 1,
+      "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2166,
+      "artists": 2169,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2166,
-        "server_count": 2166,
+        "count": 2169,
+        "server_count": 2169,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793031052.9020903,
+        "saved_at": 1793046459.2591343,
         "source": "live"
       },
-      "relations": 83283,
-      "new_album_candidates": 63,
-      "unique_albums": 38225,
-      "detail_success": 38224,
+      "relations": 83359,
+      "new_album_candidates": 65,
+      "unique_albums": 38240,
+      "detail_success": 38239,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1064,
-      "verify_artists": 711,
+      "date_hit_albums": 1068,
+      "verify_artists": 713,
       "owned_failures": 0,
-      "external_hits": 308,
-      "new_release_hits": 80,
+      "external_hits": 309,
+      "new_release_hits": 83,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 28
+    "unique_album_count": 30
   },
   "albums": [
     {
@@ -231,7 +229,7 @@
       "publish_date": "2026-10-27",
       "size": 1,
       "company": "Columbia Records China X 嬉耳恭听",
-      "pic_url": "https://p4.music.126.net/t1QZJJaid5sSVvV94sU-4A==/109951174149587004.jpg",
+      "pic_url": "https://p3.music.126.net/t1QZJJaid5sSVvV94sU-4A==/109951174149587004.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -254,11 +252,11 @@
       "publish_date": "2026-10-27",
       "size": 2,
       "company": "Columbia Records China X 韶愔音乐娱乐",
-      "pic_url": "http://p4.music.126.net/orRtIkrbO9UQwDYReuXg7Q==/109951173620922471.jpg",
+      "pic_url": "https://p4.music.126.net/orRtIkrbO9UQwDYReuXg7Q==/109951173620922471.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
-      "description": "《火光》由王晰演唱，Bryan作词作曲，并担任制作人。\n王晰以低沉深邃的独特声线，赋予整首歌曲极强的张力与格局。由暗境开篇，在漫天尘埃与迷雾困顿之中，揭开绝境之下的坚守与共生。命运倾覆、前路遍布荒芜，但依旧有人并肩而立，互为依托。以热血为薪，以信仰为炬，于荒芜岁月里生生不息，绽放永不熄灭的灼灼火光。",
+      "description": "",
       "url": "https://music.163.com/#/album?id=388524509"
     },
     {
@@ -277,7 +275,7 @@
       "publish_date": "2026-10-27",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p3.music.126.net/nUaWRsGCSbSgvFF7rAheKQ==/109951174139008576.jpg",
+      "pic_url": "https://p4.music.126.net/nUaWRsGCSbSgvFF7rAheKQ==/109951174139008576.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -300,7 +298,7 @@
       "publish_date": "2026-10-27",
       "size": 2,
       "company": "",
-      "pic_url": "https://p4.music.126.net/JGNIExXpizFliyEtb2pzKA==/109951174174330147.jpg",
+      "pic_url": "https://p3.music.126.net/JGNIExXpizFliyEtb2pzKA==/109951174174330147.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -446,7 +444,7 @@
       "publish_date": "2026-10-27",
       "size": 2,
       "company": "讯飞音乐",
-      "pic_url": "https://p3.music.126.net/PSu8F0HpkKtye8BPWo7fug==/109951174174644682.jpg",
+      "pic_url": "https://p4.music.126.net/PSu8F0HpkKtye8BPWo7fug==/109951174174644682.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -681,7 +679,7 @@
       "publish_date": "2026-10-27",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/HO46g2lPVLn-zIzOcfC2ZA==/109951174154870563.jpg",
+      "pic_url": "https://p4.music.126.net/HO46g2lPVLn-zIzOcfC2ZA==/109951174154870563.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -924,6 +922,29 @@
       "url": "https://music.163.com/#/album?id=404833848"
     },
     {
+      "id": 405094646,
+      "name": "AMSTERDAM DANCE EVENT 2026 V.A.",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1793030400000,
+      "publish_date": "2026-10-27",
+      "size": 5,
+      "company": "Overtones Records",
+      "pic_url": "https://p4.music.126.net/ijFVv177mAvCJW8rpG0-Zw==/109951174143287532.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405094646"
+    },
+    {
       "id": 405039039,
       "name": "A Different Silence",
       "artists": [
@@ -945,6 +966,74 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=405039039"
+    },
+    {
+      "id": 406194368,
+      "name": "\"Autumn Classical\": Piano Works",
+      "artists": [
+        {
+          "id": "33737",
+          "name": "Frédéric François Chopin"
+        },
+        {
+          "id": "804174",
+          "name": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "36490",
+          "name": "Johann Sebastian Bach"
+        },
+        {
+          "id": "60942",
+          "name": "Johannes Brahms"
+        },
+        {
+          "id": "33363",
+          "name": "Franz Schubert"
+        },
+        {
+          "id": "33646",
+          "name": "Franz Liszt"
+        },
+        {
+          "id": "38731",
+          "name": "Ludwig van Beethoven"
+        },
+        {
+          "id": "129782",
+          "name": "Felix Mendelssohn"
+        },
+        {
+          "id": "130021",
+          "name": "Robert Schumann"
+        },
+        {
+          "id": "43613",
+          "name": "Сергей Рахманинов"
+        }
+      ],
+      "artist_names": [
+        "Frédéric François Chopin",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Johannes Brahms",
+        "Franz Schubert",
+        "Franz Liszt",
+        "Ludwig van Beethoven",
+        "Felix Mendelssohn",
+        "Robert Schumann",
+        "Сергей Рахманинов"
+      ],
+      "publish_time": 1793030400000,
+      "publish_date": "2026-10-27",
+      "size": 77,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p3.music.126.net/qXFRVElJB4pa5Wlp6Zaopw==/109951174177772270.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406194368"
     }
   ]
 }
