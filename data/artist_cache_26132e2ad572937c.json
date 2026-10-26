@@ -1,18 +1,34 @@
 {
-  "saved_at": 1792959562.645186,
-  "count": 2152,
+  "saved_at": 1792988824.3035002,
+  "count": 2156,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2152,
-    "server_count": 2152,
+    "count": 2156,
+    "server_count": 2156,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1792959562.6451468
+    "saved_at": 1792988824.3034453
   },
   "artists": [
+    {
+      "id": "121489086",
+      "name": "PALE:node"
+    },
+    {
+      "id": "185858",
+      "name": "The Weeknd"
+    },
+    {
+      "id": "14335145",
+      "name": "Abel Tesfaye"
+    },
+    {
+      "id": "46609764",
+      "name": "SEE"
+    },
     {
       "id": "95803583",
       "name": "Isle & Notes"

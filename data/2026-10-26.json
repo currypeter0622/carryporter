@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T04:51:21.100713+08:00",
-  "count": 42,
+  "generated_at": "2026-10-26T12:55:38.668960+08:00",
+  "count": 48,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 14,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 4,
+        "target_count": 8,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 2,
+        "target_count": 5,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 2,
+        "target_count": 5,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -113,7 +113,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,41 +155,94 @@
         "华语群星"
       ],
       "queries_ok": 8,
-      "search_candidates": 643,
+      "search_candidates": 641,
       "verified_target_count": 1,
-      "errors": []
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
-      "artists": 2152,
+      "artists": 2156,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2152,
-        "server_count": 2152,
+        "count": 2156,
+        "server_count": 2156,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1792959562.6451468,
+        "saved_at": 1792988824.3034453,
         "source": "live"
       },
-      "relations": 82810,
-      "new_album_candidates": 56,
-      "unique_albums": 38058,
-      "detail_success": 38057,
+      "relations": 82943,
+      "new_album_candidates": 64,
+      "unique_albums": 38098,
+      "detail_success": 38097,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1030,
-      "verify_artists": 687,
+      "date_hit_albums": 1045,
+      "verify_artists": 699,
       "owned_failures": 0,
-      "external_hits": 292,
-      "new_release_hits": 76,
+      "external_hits": 299,
+      "new_release_hits": 84,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 42
+    "unique_album_count": 48
   },
   "albums": [
+    {
+      "id": 405559423,
+      "name": "耍起",
+      "artists": [
+        {
+          "id": 48790581,
+          "name": "圈圈菌"
+        }
+      ],
+      "artist_names": [
+        "圈圈菌"
+      ],
+      "publish_time": 1792987200000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/_i57boJw36N5U9qRG2E3zA==/109951174154813575.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405559423"
+    },
+    {
+      "id": 405757061,
+      "name": "青莲必达",
+      "artists": [
+        {
+          "id": 130150974,
+          "name": "李白"
+        },
+        {
+          "id": 12248055,
+          "name": "王者荣耀"
+        }
+      ],
+      "artist_names": [
+        "李白",
+        "王者荣耀"
+      ],
+      "publish_time": 1792980000000,
+      "publish_date": "2026-10-26",
+      "size": 3,
+      "company": "腾讯",
+      "pic_url": "https://p4.music.126.net/QnQNuymRaXREKTdan57Tbg==/109951174160219649.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405757061"
+    },
     {
       "id": 404087486,
       "name": "过季短袖",
@@ -206,12 +259,40 @@
       "publish_date": "2026-10-26",
       "size": 2,
       "company": "独立发行",
-      "pic_url": "https://p3.music.126.net/GB2MjsVUvPHTD6ob6llhMw==/109951174155900570.jpg",
+      "pic_url": "https://p4.music.126.net/GB2MjsVUvPHTD6ob6llhMw==/109951174155900570.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404087486"
+    },
+    {
+      "id": 405180729,
+      "name": "视相博物馆：演化OST",
+      "artists": [
+        {
+          "id": 32540734,
+          "name": "塞壬唱片-MSR"
+        },
+        {
+          "id": 28186673,
+          "name": "蔡一琛"
+        }
+      ],
+      "artist_names": [
+        "塞壬唱片-MSR",
+        "蔡一琛"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 4,
+      "company": "塞壬唱片-MSR",
+      "pic_url": "https://p3.music.126.net/lHR1pjm6bmD8HN-Pyx-P8A==/109951174144751082.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405180729"
     },
     {
       "id": 404312650,
@@ -229,7 +310,7 @@
       "publish_date": "2026-10-26",
       "size": 1,
       "company": "Togepy",
-      "pic_url": "https://p3.music.126.net/qToEaFYylBnHmRNwzVMkhg==/109951174118011180.jpg",
+      "pic_url": "https://p4.music.126.net/qToEaFYylBnHmRNwzVMkhg==/109951174118011180.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -258,6 +339,82 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=404320569"
+    },
+    {
+      "id": 405147267,
+      "name": "梦回三国",
+      "artists": [
+        {
+          "id": "159692",
+          "name": "初音ミク"
+        },
+        {
+          "id": "12138146",
+          "name": "动点"
+        }
+      ],
+      "artist_names": [
+        "初音ミク",
+        "动点"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 2,
+      "company": "上海新创华文化发展有限公司",
+      "pic_url": "https://p3.music.126.net/Pee-Emq4YyNDv_c3nC48SA==/109951174143999760.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405147267"
+    },
+    {
+      "id": 405562228,
+      "name": "广顺2026Cypher",
+      "artists": [
+        {
+          "id": 12867397,
+          "name": "金剑GOLDENSWORD"
+        },
+        {
+          "id": 12351071,
+          "name": "秃子2z"
+        },
+        {
+          "id": 12083741,
+          "name": "PoloBear"
+        },
+        {
+          "id": 12329522,
+          "name": "赵山河"
+        },
+        {
+          "id": 12371082,
+          "name": "辉子"
+        },
+        {
+          "id": 51265187,
+          "name": "INDEcompany"
+        }
+      ],
+      "artist_names": [
+        "金剑GOLDENSWORD",
+        "秃子2z",
+        "PoloBear",
+        "赵山河",
+        "辉子",
+        "INDEcompany"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 1,
+      "company": "INDEcompany",
+      "pic_url": "https://p4.music.126.net/-sIaUQIuOrUb4mK2Rkp-VA==/109951174155787471.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405562228"
     },
     {
       "id": 404754036,
@@ -365,7 +522,7 @@
       "publish_date": "2026-10-26",
       "size": 1,
       "company": "AI Harmony Chorus : TeSpaRu-World, Zundamon, Shikoku Methane, Tohoku Kiritan & Merrow",
-      "pic_url": "https://p3.music.126.net/B5gx6fyLq0MkNwWAsgRjKw==/109951174118173093.jpg",
+      "pic_url": "https://p4.music.126.net/B5gx6fyLq0MkNwWAsgRjKw==/109951174118173093.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -388,7 +545,7 @@
       "publish_date": "2026-10-26",
       "size": 11,
       "company": "Various Artists",
-      "pic_url": "https://p4.music.126.net/92HhtTT7aV1DdMLXlgX_wg==/109951174164161485.jpg",
+      "pic_url": "https://p3.music.126.net/92HhtTT7aV1DdMLXlgX_wg==/109951174164161485.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -434,7 +591,7 @@
       "publish_date": "2026-10-26",
       "size": 1,
       "company": "ME.AM.I",
-      "pic_url": "https://p3.music.126.net/ZX2XDM3CC5I_2SZtc-cZQQ==/109951173999195961.jpg",
+      "pic_url": "https://p4.music.126.net/ZX2XDM3CC5I_2SZtc-cZQQ==/109951173999195961.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -531,7 +688,7 @@
       "publish_date": "2026-10-26",
       "size": 5,
       "company": "Popbot & iyrliaes",
-      "pic_url": "https://p3.music.126.net/_zp5oYGwDkkWdrxSArhtzA==/109951174145023909.jpg",
+      "pic_url": "https://p4.music.126.net/_zp5oYGwDkkWdrxSArhtzA==/109951174145023909.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
@@ -577,7 +734,7 @@
       "publish_date": "2026-10-26",
       "size": 8,
       "company": "PEREGRINO",
-      "pic_url": "https://p3.music.126.net/ITg3lac-MY26AMQ_2vY0Sw==/109951174100239219.jpg",
+      "pic_url": "https://p4.music.126.net/ITg3lac-MY26AMQ_2vY0Sw==/109951174100239219.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -623,7 +780,7 @@
       "publish_date": "2026-10-26",
       "size": 1,
       "company": "©SEGA",
-      "pic_url": "https://p4.music.126.net/hm7CiR4qthKZxW9vVqKwBw==/109951174146434549.jpg",
+      "pic_url": "https://p3.music.126.net/hm7CiR4qthKZxW9vVqKwBw==/109951174146434549.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -669,7 +826,7 @@
       "publish_date": "2026-10-26",
       "size": 12,
       "company": "Redux Digital",
-      "pic_url": "https://p4.music.126.net/IiFl37bIE4g1j7pUc5ewWg==/109951174092673044.jpg",
+      "pic_url": "https://p3.music.126.net/IiFl37bIE4g1j7pUc5ewWg==/109951174092673044.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -738,7 +895,7 @@
       "publish_date": "2026-10-26",
       "size": 14,
       "company": "axsword",
-      "pic_url": "https://p4.music.126.net/kBtxLyGenmG6AtUvBL5SLQ==/109951174144852063.jpg",
+      "pic_url": "https://p3.music.126.net/kBtxLyGenmG6AtUvBL5SLQ==/109951174144852063.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -830,12 +987,35 @@
       "publish_date": "2026-10-26",
       "size": 29,
       "company": "Weekend Warriors Day",
-      "pic_url": "https://p3.music.126.net/mNhAxHTHosR0LQH09Y1d6A==/109951174092671484.jpg",
+      "pic_url": "https://p4.music.126.net/mNhAxHTHosR0LQH09Y1d6A==/109951174092671484.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403336417"
+    },
+    {
+      "id": 287730532,
+      "name": "I Kill Re:You",
+      "artists": [
+        {
+          "id": 95418080,
+          "name": "CULT P"
+        }
+      ],
+      "artist_names": [
+        "CULT P"
+      ],
+      "publish_time": 1792944000000,
+      "publish_date": "2026-10-26",
+      "size": 4,
+      "company": "CULT records",
+      "pic_url": "https://p3.music.126.net/Hv-pbirz6QUF0kDmq4oSug==/109951174087441344.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=287730532"
     },
     {
       "id": 404507894,
@@ -876,7 +1056,7 @@
       "publish_date": "2026-10-26",
       "size": 10,
       "company": "Mediterranean Music",
-      "pic_url": "https://p4.music.126.net/2Fopmqeab5aALoyJqLJMyw==/109951174092673674.jpg",
+      "pic_url": "https://p3.music.126.net/2Fopmqeab5aALoyJqLJMyw==/109951174092673674.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -922,7 +1102,7 @@
       "publish_date": "2026-10-26",
       "size": 8,
       "company": "CYBE",
-      "pic_url": "https://p4.music.126.net/bRgw83BNTRpWU4Br93h3UQ==/109951174146646897.jpg",
+      "pic_url": "https://p3.music.126.net/bRgw83BNTRpWU4Br93h3UQ==/109951174146646897.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -1032,7 +1212,7 @@
       "publish_date": "2026-10-26",
       "size": 9,
       "company": "Digital Logics",
-      "pic_url": "https://p4.music.126.net/b4RAXZBN58BmkAK3C7mOQA==/109951174139166794.jpg",
+      "pic_url": "https://p3.music.126.net/b4RAXZBN58BmkAK3C7mOQA==/109951174139166794.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -1055,7 +1235,7 @@
       "publish_date": "2026-10-26",
       "size": 25,
       "company": "HOT-Q",
-      "pic_url": "https://p3.music.126.net/u1wgHIl812NUerGr37a8qg==/109951174092678210.jpg",
+      "pic_url": "https://p4.music.126.net/u1wgHIl812NUerGr37a8qg==/109951174092678210.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -1170,7 +1350,7 @@
       "publish_date": "2026-10-26",
       "size": 1,
       "company": "LAPONE ENTERTAINMENT",
-      "pic_url": "https://p4.music.126.net/Pl4kZLMmgc94nVVjfFb-fg==/109951174076257028.jpg",
+      "pic_url": "https://p3.music.126.net/Pl4kZLMmgc94nVVjfFb-fg==/109951174076257028.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
