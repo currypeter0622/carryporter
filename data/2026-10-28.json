@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T00:34:25.252506+08:00",
-  "count": 66,
+  "generated_at": "2026-10-28T04:58:00.643296+08:00",
+  "count": 67,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 22,
+        "target_count": 23,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 4,
+        "target_count": 8,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -155,8 +155,8 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 734,
-      "verified_target_count": 4,
+      "search_candidates": 731,
+      "verified_target_count": 5,
       "errors": []
     },
     "reference_candidate_pool": {
@@ -170,13 +170,13 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793117321.0663524,
+        "saved_at": 1793133136.6908605,
         "source": "live"
       },
       "relations": 83455,
       "new_album_candidates": 57,
-      "unique_albums": 38273,
-      "detail_success": 38272,
+      "unique_albums": 38278,
+      "detail_success": 38277,
       "detail_errors": 1,
       "detail_mismatch": 0,
       "date_hit_albums": 1081,
@@ -187,7 +187,7 @@
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 66
+    "unique_album_count": 67
   },
   "albums": [
     {
@@ -206,7 +206,7 @@
       "publish_date": "2026-10-28",
       "size": 1,
       "company": "独立发行",
-      "pic_url": "https://p4.music.126.net/MyvUT8vSytJgYMCaB-hUMw==/109951174175108290.jpg",
+      "pic_url": "https://p3.music.126.net/MyvUT8vSytJgYMCaB-hUMw==/109951174175108290.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -252,7 +252,7 @@
       "publish_date": "2026-10-28",
       "size": 1,
       "company": "Victor",
-      "pic_url": "https://p4.music.126.net/PW0YgDAByDYnipG9IIvAxQ==/109951174134080673.jpg",
+      "pic_url": "https://p3.music.126.net/PW0YgDAByDYnipG9IIvAxQ==/109951174134080673.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -303,7 +303,7 @@
       "publish_date": "2026-10-28",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/o8TF_MbPYzGLaqNjc38s_Q==/109951174175341907.jpg",
+      "pic_url": "https://p4.music.126.net/o8TF_MbPYzGLaqNjc38s_Q==/109951174175341907.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -326,7 +326,7 @@
       "publish_date": "2026-10-28",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/82Qy3AcxCQYt2eRclecU7g==/109951174166324017.jpg",
+      "pic_url": "https://p4.music.126.net/82Qy3AcxCQYt2eRclecU7g==/109951174166324017.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -372,7 +372,7 @@
       "publish_date": "2026-10-28",
       "size": 9,
       "company": "莫奈赫淮音乐工作室",
-      "pic_url": "https://p4.music.126.net/iGAUqcTZN1ZX696byFfRJQ==/109951174145086208.jpg",
+      "pic_url": "https://p3.music.126.net/iGAUqcTZN1ZX696byFfRJQ==/109951174145086208.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -464,7 +464,7 @@
       "publish_date": "2026-10-28",
       "size": 1,
       "company": "℗ 2026 voque ting co., ltd.",
-      "pic_url": "https://p4.music.126.net/tQQD4fc0ihPn8FdOUBMb9w==/109951174134754381.jpg",
+      "pic_url": "https://p3.music.126.net/tQQD4fc0ihPn8FdOUBMb9w==/109951174134754381.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -561,7 +561,7 @@
       "publish_date": "2026-10-28",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/-hgKTFeXOIdMtBeGAxak6w==/109951174144914375.jpg",
+      "pic_url": "https://p3.music.126.net/-hgKTFeXOIdMtBeGAxak6w==/109951174144914375.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -676,7 +676,7 @@
       "publish_date": "2026-10-28",
       "size": 2,
       "company": "Alternative Standard Club",
-      "pic_url": "https://p3.music.126.net/am9LKU_ly5H3dnDa1pf6hQ==/109951174153534971.jpg",
+      "pic_url": "https://p4.music.126.net/am9LKU_ly5H3dnDa1pf6hQ==/109951174153534971.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -972,7 +972,7 @@
       "publish_date": "2026-10-28",
       "size": 3,
       "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
-      "pic_url": "https://p3.music.126.net/wLjbQkc0NwfHwJPpCpzZ2A==/109951173960232363.jpg",
+      "pic_url": "https://p4.music.126.net/wLjbQkc0NwfHwJPpCpzZ2A==/109951173960232363.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1304,7 +1304,7 @@
       "publish_date": "2026-10-28",
       "size": 1,
       "company": "(P)2026 A.S.A.B",
-      "pic_url": "https://p4.music.126.net/5HlSRISlT3JvBuP-_wk81A==/109951174144529435.jpg",
+      "pic_url": "https://p3.music.126.net/5HlSRISlT3JvBuP-_wk81A==/109951174144529435.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1613,7 +1613,7 @@
       "publish_date": "2026-10-28",
       "size": 4,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/cnz70TUrbp-Sokce-punjw==/109951174111534857.jpg",
+      "pic_url": "https://p3.music.126.net/cnz70TUrbp-Sokce-punjw==/109951174111534857.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1688,6 +1688,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403634771"
+    },
+    {
+      "id": 405840710,
+      "name": "Blue Valentine -Japanese ver.-",
+      "artists": [
+        {
+          "id": 51480970,
+          "name": "NMIXX"
+        }
+      ],
+      "artist_names": [
+        "NMIXX"
+      ],
+      "publish_time": 1793116800000,
+      "publish_date": "2026-10-28",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/2EYnRa2zcBSUz1T8aI7dcg==/109951174164551066.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405840710"
     },
     {
       "id": 404056383,
