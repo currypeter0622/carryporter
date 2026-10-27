@@ -1,18 +1,22 @@
 {
-  "saved_at": 1793046459.2591748,
-  "count": 2169,
+  "saved_at": 1793075162.0025759,
+  "count": 2170,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2169,
-    "server_count": 2169,
+    "count": 2170,
+    "server_count": 2170,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1793046459.2591343
+    "saved_at": 1793075162.0025356
   },
   "artists": [
+    {
+      "id": "58750020",
+      "name": "Strauctep"
+    },
     {
       "id": "54103171",
       "name": "結束バンド"
