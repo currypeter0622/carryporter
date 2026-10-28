@@ -1,18 +1,22 @@
 {
-  "saved_at": 1793161960.722141,
-  "count": 2171,
+  "saved_at": 1793187350.5913956,
+  "count": 2172,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2171,
-    "server_count": 2171,
+    "count": 2172,
+    "server_count": 2172,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1793161960.7220938
+    "saved_at": 1793187350.591353
   },
   "artists": [
+    {
+      "id": "36182042",
+      "name": "WEch Blackey"
+    },
     {
       "id": "12606242",
       "name": "8bite"
@@ -3199,7 +3203,7 @@
     },
     {
       "id": "34202036",
-      "name": "MAX 3"
+      "name": "max3"
     },
     {
       "id": "131532",
