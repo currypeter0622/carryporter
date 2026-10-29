@@ -393453,7 +393453,7 @@
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793250531.064457
+    "cached_at": 1793275721.0081038
   },
   "265689789": {
     "album_id": "265689789",
@@ -583964,8 +583964,8 @@
   "402026455": {
     "album_id": "402026455",
     "album_name": "Message",
-    "date_str": "2026-10-03",
-    "publish_ts": 1790987474142,
+    "date_str": "2026-10-29",
+    "publish_ts": 1793203200000,
     "artist_ids": [
       "1084289"
     ],
@@ -583973,11 +583973,17 @@
       "くるぶっこちゃん"
     ],
     "size": 1,
-    "pic_url": "https://p4.music.126.net/MyLZjMYSRo_8nEi3Rj92pQ==/109951174060803966.jpg",
+    "pic_url": "https://p3.music.126.net/a7squYl3G2JIK15a1ZoBMg==/109951174190617129.jpg",
     "company": "",
     "sub_type": "录音室版",
     "type": "Single",
-    "cached_at": 1792238028.555895
+    "cached_at": 1793275736.6043391,
+    "songs": [
+      {
+        "id": "3444183581",
+        "name": "Message"
+      }
+    ]
   },
   "275004040": {
     "album_id": "275004040",
@@ -789751,11 +789757,11 @@
       "Lie."
     ],
     "size": 1,
-    "pic_url": "https://p4.music.126.net/ip8T4T7ddFvzrUZDFNajOQ==/109951174135535562.jpg",
+    "pic_url": "https://p3.music.126.net/ip8T4T7ddFvzrUZDFNajOQ==/109951174135535562.jpg",
     "company": "",
     "sub_type": "录音室版",
     "type": "Single",
-    "cached_at": 1793205597.724398
+    "cached_at": 1793273826.3024235
   },
   "378373054": {
     "album_id": "378373054",
@@ -819561,11 +819567,11 @@
       "V.A."
     ],
     "size": 1,
-    "pic_url": "https://p3.music.126.net/uMASO3PlyYRDdjE5sWLPkA==/109951174158642337.jpg",
+    "pic_url": "https://p4.music.126.net/uMASO3PlyYRDdjE5sWLPkA==/109951174158642337.jpg",
     "company": "华纳音乐",
     "sub_type": "录音室版",
     "type": "Single",
-    "cached_at": 1793205594.3729937,
+    "cached_at": 1793273819.154908,
     "songs": [
       {
         "id": "3453043741",
@@ -823709,7 +823715,7 @@
     "company": "",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793205592.4961956,
+    "cached_at": 1793273821.6075447,
     "songs": [
       {
         "id": "3453196721",
@@ -823853,11 +823859,11 @@
       "V.A."
     ],
     "size": 12,
-    "pic_url": "https://p3.music.126.net/cQhULbNtUd0ZefXcX-yUaQ==/109951174172947492.jpg",
+    "pic_url": "https://p4.music.126.net/cQhULbNtUd0ZefXcX-yUaQ==/109951174172947492.jpg",
     "company": "Kakao Entertainment Corp.",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793205593.4959078
+    "cached_at": 1793273823.982706
   },
   "80758101": {
     "album_id": "80758101",
@@ -839527,11 +839533,11 @@
       "群星"
     ],
     "size": 9,
-    "pic_url": "https://p4.music.126.net/M7rCmhnccvnUo9FwVhUDVA==/109951174145014261.jpg",
+    "pic_url": "https://p3.music.126.net/M7rCmhnccvnUo9FwVhUDVA==/109951174145014261.jpg",
     "company": "宇歌风行",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793205596.8481352
+    "cached_at": 1793273825.1881833
   },
   "402831716": {
     "album_id": "402831716",
@@ -844417,6 +844423,194 @@
       {
         "id": "3455036782",
         "name": "Cash Money"
+      }
+    ]
+  },
+  "377716616": {
+    "album_id": "377716616",
+    "album_name": "经典动漫歌曲合辑1",
+    "date_str": "2026-05-22",
+    "publish_ts": 1779379200000,
+    "artist_ids": [
+      "49455469",
+      "122455"
+    ],
+    "artist_names": [
+      "华语群星",
+      "群星"
+    ],
+    "size": 12,
+    "pic_url": "https://p4.music.126.net/e8Bj993Lcoa5F4kefhJvkQ==/109951173260196646.jpg",
+    "company": "YuGe Culture Development Co.,Ltd",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793273820.3659062
+  },
+  "406706934": {
+    "album_id": "406706934",
+    "album_name": "우리들의 발라드 2 Story 4",
+    "date_str": "2026-10-27",
+    "publish_ts": 1793030400000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 5,
+    "pic_url": "https://p4.music.126.net/OCIIZnNe8WY_4yKGbwxUIA==/109951174189489599.jpg",
+    "company": "Kakao Entertainment Corp.",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793273822.854098
+  },
+  "404048630": {
+    "album_id": "404048630",
+    "album_name": "ワソダーラソド",
+    "date_str": "2026-10-28",
+    "publish_ts": 1793116800000,
+    "artist_ids": [
+      "47041447",
+      "1141075"
+    ],
+    "artist_names": [
+      "サツキ",
+      "重音テト"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/uOPGVv99porlMqwzpJGxBw==/109951174111177091.jpg",
+    "company": "KARENT",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793275744.7865586,
+    "songs": [
+      {
+        "id": "3448544568",
+        "name": "ワソダーラソド (feat. 重音テト)"
+      }
+    ]
+  },
+  "405075616": {
+    "album_id": "405075616",
+    "album_name": "HUMEDAD",
+    "date_str": "2026-10-29",
+    "publish_ts": 1793203200000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/qfXeOjzw8bEt-vwv7FpcDw==/109951174142929197.jpg",
+    "company": "Wave Company",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793275748.5346565,
+    "songs": [
+      {
+        "id": "3451748731",
+        "name": "HUMEDAD"
+      }
+    ]
+  },
+  "406706130": {
+    "album_id": "406706130",
+    "album_name": "Chill Pop Classics 2026",
+    "date_str": "2026-10-29",
+    "publish_ts": 1793203200000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/YrCuqEu0jbNWommmHsn5SA==/109951174189488784.jpg",
+    "company": "Renaissance Digital",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793275748.7347083,
+    "songs": [
+      {
+        "id": "3455116138",
+        "name": "Free Ride"
+      },
+      {
+        "id": "3455115312",
+        "name": "Take My Hand (Chill Pop Mix)"
+      },
+      {
+        "id": "3455116139",
+        "name": "We Are Golden"
+      },
+      {
+        "id": "3455116140",
+        "name": "All In Me"
+      },
+      {
+        "id": "3455115313",
+        "name": "Under The Influence"
+      },
+      {
+        "id": "3455116141",
+        "name": "All In My Head"
+      },
+      {
+        "id": "3455116142",
+        "name": "Catch You"
+      },
+      {
+        "id": "3455116143",
+        "name": "Proof Your Love"
+      },
+      {
+        "id": "3455116144",
+        "name": "I Know"
+      },
+      {
+        "id": "3455116145",
+        "name": "Stayin Forever (Pop Mix)"
+      },
+      {
+        "id": "3455115314",
+        "name": "Crossing The Line"
+      },
+      {
+        "id": "3455115315",
+        "name": "Sola (Chill Pop Mix)"
+      },
+      {
+        "id": "3455116146",
+        "name": "Somebody Like You"
+      },
+      {
+        "id": "3455116147",
+        "name": "Too High (Pop Mix)"
+      },
+      {
+        "id": "3455116148",
+        "name": "Give Me A Minute"
+      },
+      {
+        "id": "3455116149",
+        "name": "Summer Love"
+      },
+      {
+        "id": "3455116150",
+        "name": "Whenever"
+      },
+      {
+        "id": "3455115317",
+        "name": "You Make Make"
+      },
+      {
+        "id": "3455116151",
+        "name": "Distance"
+      },
+      {
+        "id": "3455115318",
+        "name": "No Reason"
       }
     ]
   }
