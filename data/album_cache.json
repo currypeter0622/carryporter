@@ -804598,7 +804598,7 @@
     "company": "索尼音乐",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793248579.9208996
+    "cached_at": 1793292026.7802284
   },
   "283694719": {
     "album_id": "283694719",
@@ -819594,11 +819594,11 @@
       "V.A."
     ],
     "size": 8,
-    "pic_url": "https://p3.music.126.net/Uy3HhTe5oruDL0SJtscNOg==/109951174168883722.jpg",
+    "pic_url": "https://p4.music.126.net/Uy3HhTe5oruDL0SJtscNOg==/109951174168883722.jpg",
     "company": "",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793248586.0561535,
+    "cached_at": 1793293288.3293188,
     "songs": [
       {
         "id": "3453196627",
@@ -834500,7 +834500,7 @@
     "company": "Kakao Entertainment Corp.",
     "sub_type": "录音室版",
     "type": "Single",
-    "cached_at": 1793248581.1668587,
+    "cached_at": 1793292027.4547029,
     "songs": [
       {
         "id": "3454242904",
@@ -843298,7 +843298,7 @@
     "company": "",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793248584.0322099
+    "cached_at": 1793292028.130056
   },
   "406485171": {
     "album_id": "406485171",
@@ -843312,11 +843312,11 @@
       "V.A."
     ],
     "size": 12,
-    "pic_url": "https://p3.music.126.net/3dkZMnRXpe9Kv9bwojrFaQ==/109951174188977655.jpg",
+    "pic_url": "https://p4.music.126.net/3dkZMnRXpe9Kv9bwojrFaQ==/109951174188977655.jpg",
     "company": "",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793248584.937272
+    "cached_at": 1793292028.7903416
   },
   "406695098": {
     "album_id": "406695098",
@@ -844611,6 +844611,7350 @@
       {
         "id": "3455115318",
         "name": "No Reason"
+      }
+    ]
+  },
+  "406522524": {
+    "album_id": "406522524",
+    "album_name": "First Touch",
+    "date_str": "2026-10-28",
+    "publish_ts": 1793116800000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 10,
+    "pic_url": "https://p3.music.126.net/LjqBEDiI-CYnmvUGJB-4Bw==/109951174185036356.jpg",
+    "company": "Various Artists",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793292029.4493403
+  },
+  "406310507": {
+    "album_id": "406310507",
+    "album_name": "圣诞快乐 (2026最好听的圣诞歌曲)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 50,
+    "pic_url": "https://p4.music.126.net/ZFASbHqjLyMFsAVAx0fEBg==/109951174179829270.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293421.1897116,
+    "songs": [
+      {
+        "id": "3454345159",
+        "name": "Last Christmas (Spa Cover)"
+      },
+      {
+        "id": "3454345160",
+        "name": "All I Want for Christmas Is You (Lofi Version)"
+      },
+      {
+        "id": "3454343757",
+        "name": "Jingle Bells (Piano Fireplace)"
+      },
+      {
+        "id": "3454345161",
+        "name": "Jingle Bell Rock (Orchestra Version)"
+      },
+      {
+        "id": "3454343758",
+        "name": "Silent Night (Spa Cover)"
+      },
+      {
+        "id": "3454345162",
+        "name": "Let It Snow! Let It Snow! Let It Snow! (Lofi Version)"
+      },
+      {
+        "id": "3454343759",
+        "name": "Carol of the Bells"
+      },
+      {
+        "id": "3454345163",
+        "name": "White Christmas (Guitar Version)"
+      },
+      {
+        "id": "3454343760",
+        "name": "Snowman (Spa Cover)"
+      },
+      {
+        "id": "3454345164",
+        "name": "Merry Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454345165",
+        "name": "Winter Wonderland (Spa Cover)"
+      },
+      {
+        "id": "3454345166",
+        "name": "Feliz Navidad (Lofi Version)"
+      },
+      {
+        "id": "3454343761",
+        "name": "Wonderful Christmas Time (Jazz Version)"
+      },
+      {
+        "id": "3454343762",
+        "name": "Have Yourself A Merry Little Christmas (Piano Fireplace)"
+      },
+      {
+        "id": "3454343763",
+        "name": "Mistletoe (Spa Cover)"
+      },
+      {
+        "id": "3454343764",
+        "name": "Underneath the Tree (Lofi Version)"
+      },
+      {
+        "id": "3454343765",
+        "name": "Joy To The World"
+      },
+      {
+        "id": "3454345167",
+        "name": "Happy Xmas (War Is Over) [Spa Cover]"
+      },
+      {
+        "id": "3454345168",
+        "name": "Do They Know It’s Christmas (Symphony)"
+      },
+      {
+        "id": "3454345169",
+        "name": "Rockin’ Around The Christmas Tree (Nylon Guitar Version)"
+      },
+      {
+        "id": "3454343767",
+        "name": "It's the Most Wonderful Time of the Year (Lofi Version)"
+      },
+      {
+        "id": "3454345170",
+        "name": "Christmas Lights (Spa Cover)"
+      },
+      {
+        "id": "3454343768",
+        "name": "Holly Jolly Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454345171",
+        "name": "Merry Christmas Everyone (Piano Fireplace)"
+      },
+      {
+        "id": "3454343770",
+        "name": "The Little Drummer Boy"
+      },
+      {
+        "id": "3454343771",
+        "name": "Santa Can't You Hear Me (Lofi Version)"
+      },
+      {
+        "id": "3454343772",
+        "name": "I’ll Be Home For Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454345172",
+        "name": "Cozy Little Christmas (Spa Cover)"
+      },
+      {
+        "id": "3454343773",
+        "name": "The Christmas Song (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454345173",
+        "name": "Sleigh Ride (Jazz Version)"
+      },
+      {
+        "id": "3454343774",
+        "name": "Mary, Did You Know? (Guitar Version)"
+      },
+      {
+        "id": "3454343775",
+        "name": "This Christmas (Symphony)"
+      },
+      {
+        "id": "3454345175",
+        "name": "Christmas Is All Around (Lofi Version)"
+      },
+      {
+        "id": "3454345176",
+        "name": "Blue Christmas (Lounge)"
+      },
+      {
+        "id": "3454345177",
+        "name": "O Holy Night (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454343776",
+        "name": "Merry Christmas Darling"
+      },
+      {
+        "id": "3454343777",
+        "name": "It’s Beginning To Look A Lot Like Christmas (Guitar Version)"
+      },
+      {
+        "id": "3454343778",
+        "name": "Believe (Orchestra Version)"
+      },
+      {
+        "id": "3454345179",
+        "name": "Driving Home for Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454343779",
+        "name": "Rudolph The Red-Nosed Reindeer (Symphony)"
+      },
+      {
+        "id": "3454345180",
+        "name": "Everyday Is Christmas (Latin Version)"
+      },
+      {
+        "id": "3454343780",
+        "name": "My Only Wish (Guitar Version)"
+      },
+      {
+        "id": "3454345181",
+        "name": "Christmas Tree Farm (Jazz Version)"
+      },
+      {
+        "id": "3454343782",
+        "name": "Step Into Christmas (Lounge)"
+      },
+      {
+        "id": "3454343783",
+        "name": "Wrapped In Red (Orchestra Version)"
+      },
+      {
+        "id": "3454345183",
+        "name": "Frosty The Snowman (Symphony)"
+      },
+      {
+        "id": "3454345184",
+        "name": "Fairytale of New York (Latin Version)"
+      },
+      {
+        "id": "3454345186",
+        "name": "My Grown Up Christmas List (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454345187",
+        "name": "Someday at Christmas (Lounge)"
+      },
+      {
+        "id": "3454343784",
+        "name": "Christmastime Is Here"
+      }
+    ]
+  },
+  "406304467": {
+    "album_id": "406304467",
+    "album_name": "Merry Christmas (The Best Christmas Songs 2026)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 40,
+    "pic_url": "https://p4.music.126.net/R08EOy9OIjvhFvZo8JPK9w==/109951174179738786.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293421.8703501,
+    "songs": [
+      {
+        "id": "3454334725",
+        "name": "White Christmas"
+      },
+      {
+        "id": "3454334726",
+        "name": "Fairytale of New York"
+      },
+      {
+        "id": "3454334727",
+        "name": "Snowman"
+      },
+      {
+        "id": "3454335430",
+        "name": "Happy Xmas (Harmony Version)"
+      },
+      {
+        "id": "3454334728",
+        "name": "Santa Claus Is Comin' To Town (Acoustic)"
+      },
+      {
+        "id": "3454335431",
+        "name": "Jingle Bell Rock"
+      },
+      {
+        "id": "3454335432",
+        "name": "All You Need Is Love (Harmony Version)"
+      },
+      {
+        "id": "3454335433",
+        "name": "Mistletoe"
+      },
+      {
+        "id": "3454335434",
+        "name": "Underneath the Tree"
+      },
+      {
+        "id": "3454334731",
+        "name": "Santa, Can’t You Hear Me"
+      },
+      {
+        "id": "3454335435",
+        "name": "Rudolph The Red-Nosed Reindeer"
+      },
+      {
+        "id": "3454335437",
+        "name": "Do They Know It’s Christmas"
+      },
+      {
+        "id": "3454334734",
+        "name": "Rockin Around The Christmas (Lounge)"
+      },
+      {
+        "id": "3454334736",
+        "name": "My Only Wish"
+      },
+      {
+        "id": "3454334739",
+        "name": "Two Christmas Hearts"
+      },
+      {
+        "id": "3454335446",
+        "name": "Someday At Christmas"
+      },
+      {
+        "id": "3454335447",
+        "name": "Rockin Around The Christmas Tree"
+      },
+      {
+        "id": "3454335449",
+        "name": "Christmas Lights"
+      },
+      {
+        "id": "3454335450",
+        "name": "Santa Tell Me"
+      },
+      {
+        "id": "3454335451",
+        "name": "Christmas Is All Around"
+      },
+      {
+        "id": "3454335452",
+        "name": "All I Want for Christmas Is You"
+      },
+      {
+        "id": "3454335453",
+        "name": "Driving Home For Christmas"
+      },
+      {
+        "id": "3454334744",
+        "name": "I'll Be Home for Christmas"
+      },
+      {
+        "id": "3454334745",
+        "name": "My Grown Up Christmas List"
+      },
+      {
+        "id": "3454334746",
+        "name": "I Wish It Could Be Christmas Everyday"
+      },
+      {
+        "id": "3454334747",
+        "name": "Have Yourself A Merry Little Christmas"
+      },
+      {
+        "id": "3454334748",
+        "name": "Merry Christmas Everyone"
+      },
+      {
+        "id": "3454334749",
+        "name": "Last Christmas"
+      },
+      {
+        "id": "3454334750",
+        "name": "Santa's Coming for Us"
+      },
+      {
+        "id": "3454335454",
+        "name": "One More Sleep"
+      },
+      {
+        "id": "3454334751",
+        "name": "Silent Night"
+      },
+      {
+        "id": "3454334752",
+        "name": "This Christmas"
+      },
+      {
+        "id": "3454334753",
+        "name": "Wrapped In Red"
+      },
+      {
+        "id": "3454335455",
+        "name": "The Christmas Song"
+      },
+      {
+        "id": "3454334754",
+        "name": "Believe"
+      },
+      {
+        "id": "3454335456",
+        "name": "It’s the Most Wonderful Time of the Year"
+      },
+      {
+        "id": "3454335457",
+        "name": "It's Beginning to Look a Lot Like Christmas"
+      },
+      {
+        "id": "3454334755",
+        "name": "Wonderful Christmastime"
+      },
+      {
+        "id": "3454334756",
+        "name": "Christmas Tree Farm"
+      },
+      {
+        "id": "3454335458",
+        "name": "Baby It’s Cold Outside"
+      }
+    ]
+  },
+  "406309624": {
+    "album_id": "406309624",
+    "album_name": "메리 크리스마스 (2026 최고의 크리스마스 노래)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 50,
+    "pic_url": "https://p3.music.126.net/uug-CO-PwKiwK_Fp_uJZhQ==/109951174179823896.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293420.5768197,
+    "songs": [
+      {
+        "id": "3454343682",
+        "name": "All I Want for Christmas Is You"
+      },
+      {
+        "id": "3454345099",
+        "name": "Last Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454345100",
+        "name": "Snowman"
+      },
+      {
+        "id": "3454345101",
+        "name": "Let It Snow! Let It Snow! Let It Snow! (Lofi Version)"
+      },
+      {
+        "id": "3454343683",
+        "name": "Santa Tell Me"
+      },
+      {
+        "id": "3454343685",
+        "name": "Christmastime Is Here"
+      },
+      {
+        "id": "3454343686",
+        "name": "Underneath the Tree"
+      },
+      {
+        "id": "3454343687",
+        "name": "Jingle Bells (Piano Fireplace)"
+      },
+      {
+        "id": "3454343689",
+        "name": "Mistletoe"
+      },
+      {
+        "id": "3454343691",
+        "name": "Winter Wonderland (Lofi Version)"
+      },
+      {
+        "id": "3454345102",
+        "name": "Christmas Lights"
+      },
+      {
+        "id": "3454345104",
+        "name": "Merry Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454343694",
+        "name": "Silent Night (Spa Cover)"
+      },
+      {
+        "id": "3454343695",
+        "name": "Wonderful Christmastime"
+      },
+      {
+        "id": "3454343697",
+        "name": "White Christmas (Guitar Version)"
+      },
+      {
+        "id": "3454343699",
+        "name": "Jingle Bell Rock"
+      },
+      {
+        "id": "3454343700",
+        "name": "Carol of the Bells"
+      },
+      {
+        "id": "3454345106",
+        "name": "Santa Can’t You Hear Me"
+      },
+      {
+        "id": "3454343701",
+        "name": "It's the Most Wonderful Time of the Year (Lofi Version)"
+      },
+      {
+        "id": "3454343702",
+        "name": "Have Yourself A Merry Little Christmas (Piano Fireplace)"
+      },
+      {
+        "id": "3454343703",
+        "name": "My Only Wish"
+      },
+      {
+        "id": "3454343704",
+        "name": "The Christmas Song (Jazz Version)"
+      },
+      {
+        "id": "3454343705",
+        "name": "Christmas Tree Farm"
+      },
+      {
+        "id": "3454345107",
+        "name": "Happy Xmas (War Is Over) [Spa Cover]"
+      },
+      {
+        "id": "3454345112",
+        "name": "Holly Jolly Christmas (Lofi Version)"
+      },
+      {
+        "id": "3454345113",
+        "name": "Do They Know It’s Christmas"
+      },
+      {
+        "id": "3454343712",
+        "name": "Feliz Navidad (Symphony Version)"
+      },
+      {
+        "id": "3454343714",
+        "name": "Baby It’s Cold Outside"
+      },
+      {
+        "id": "3454343716",
+        "name": "Sleigh Ride (Jazz Version)"
+      },
+      {
+        "id": "3454345116",
+        "name": "It’s Beginning To Look A Lot Like Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454345117",
+        "name": "Merry Christmas Everyone"
+      },
+      {
+        "id": "3454345119",
+        "name": "The Little Drummer Boy"
+      },
+      {
+        "id": "3454343719",
+        "name": "I Wish It Could Be Christmas Everyday"
+      },
+      {
+        "id": "3454343721",
+        "name": "Cozy Little Christmas (Lofi Version)"
+      },
+      {
+        "id": "3454345121",
+        "name": "Rockin’ Around The Christmas Tree (Nylon Guitar Version)"
+      },
+      {
+        "id": "3454343724",
+        "name": "This Christmas"
+      },
+      {
+        "id": "3454343726",
+        "name": "Oh Holy Night (Orchestra Version)"
+      },
+      {
+        "id": "3454343727",
+        "name": "Driving Home For Christmas"
+      },
+      {
+        "id": "3454345124",
+        "name": "Wrapped In Red (Jazz Version)"
+      },
+      {
+        "id": "3454343729",
+        "name": "Joy To The World"
+      },
+      {
+        "id": "3454345126",
+        "name": "Christmas Is All Around"
+      },
+      {
+        "id": "3454343730",
+        "name": "Mary, Did You Know? (Spa Cover)"
+      },
+      {
+        "id": "3454345129",
+        "name": "Believe"
+      },
+      {
+        "id": "3454345130",
+        "name": "Blue Christmas (Lounge)"
+      },
+      {
+        "id": "3454343733",
+        "name": "Someday At Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454345132",
+        "name": "Everyday Is Christmas"
+      },
+      {
+        "id": "3454343736",
+        "name": "Frosty The Snowman (Symphony)"
+      },
+      {
+        "id": "3454343737",
+        "name": "Rudolph The Red-Nosed Reindeer"
+      },
+      {
+        "id": "3454345134",
+        "name": "My Grown Up Christmas List (Lofi Version)"
+      },
+      {
+        "id": "3454343739",
+        "name": "Silver Bells (Spa Cover)"
+      }
+    ]
+  },
+  "406293978": {
+    "album_id": "406293978",
+    "album_name": "A Quiet Christmas Night: Timeless Vintage Jazz",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 19,
+    "pic_url": "https://p4.music.126.net/-K1L3SMpulJccfcOJRzl8w==/109951174179536989.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293421.2966409,
+    "songs": [
+      {
+        "id": "3454316876",
+        "name": "Frosty The Snowman"
+      },
+      {
+        "id": "3454316194",
+        "name": "Baby, It's Cold Outside"
+      },
+      {
+        "id": "3454316195",
+        "name": "Christmas Time Is Here"
+      },
+      {
+        "id": "3454316877",
+        "name": "What Child Is This?"
+      },
+      {
+        "id": "3454316878",
+        "name": "Jingle Bells (feat. Mario Rosini)"
+      },
+      {
+        "id": "3454316196",
+        "name": "The Christmas Waltz"
+      },
+      {
+        "id": "3454316197",
+        "name": "O Little Town of Bethlehem (feat. Paolo Vianello)"
+      },
+      {
+        "id": "3454316879",
+        "name": "Last Christmas"
+      },
+      {
+        "id": "3454316880",
+        "name": "The Christmas Song"
+      },
+      {
+        "id": "3454316199",
+        "name": "A Holly Jolly Christmas"
+      },
+      {
+        "id": "3454316200",
+        "name": "God Rest Ye Merry, Gentlemen (feat. Paolo Vianello)"
+      },
+      {
+        "id": "3454316883",
+        "name": "Have Yourself a Merry Little Christmas (feat. Mario Rosini)"
+      },
+      {
+        "id": "3454316201",
+        "name": "It's Beginning to Look Like Christmas"
+      },
+      {
+        "id": "3454316202",
+        "name": "Feliz Navidad"
+      },
+      {
+        "id": "3454316203",
+        "name": "Santa Claus is coming to town (feat. Mario Rosini)"
+      },
+      {
+        "id": "3454316884",
+        "name": "O Christmas Tree (feat. Paolo Vianello)"
+      },
+      {
+        "id": "3454316885",
+        "name": "(There's No Place Like) Home for the Holidays"
+      },
+      {
+        "id": "3454316204",
+        "name": "Let It Snow, Let It Snow, Let It Snow! (feat. Le Voci di Art Voice Academy, Orchestra Ritmico Sinfonica Italiana) [Orchestral Version]"
+      },
+      {
+        "id": "3454316205",
+        "name": "Rudolph, The Red-Nosed Reindeer"
+      }
+    ]
+  },
+  "406300591": {
+    "album_id": "406300591",
+    "album_name": "Feliz Navidad (Las Mejores Canciones Navideñas 2026)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 40,
+    "pic_url": "https://p4.music.126.net/2f-9Zx071LhrcOeVi8H1Aw==/109951174179683221.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293422.0536644,
+    "songs": [
+      {
+        "id": "3454326854",
+        "name": "White Christmas"
+      },
+      {
+        "id": "3454326855",
+        "name": "Feliz Navidad (Guitar Version)"
+      },
+      {
+        "id": "3454326137",
+        "name": "Jingle Bell Rock"
+      },
+      {
+        "id": "3454326856",
+        "name": "Driving Home For Christmas"
+      },
+      {
+        "id": "3454326857",
+        "name": "Feliz Navidad"
+      },
+      {
+        "id": "3454326858",
+        "name": "Underneath the Tree"
+      },
+      {
+        "id": "3454326859",
+        "name": "Mary, Did You Know? (Latin Version)"
+      },
+      {
+        "id": "3454326860",
+        "name": "Snowman"
+      },
+      {
+        "id": "3454326863",
+        "name": "Mary's Boys Child"
+      },
+      {
+        "id": "3454326140",
+        "name": "Wonderful Christmastime"
+      },
+      {
+        "id": "3454326864",
+        "name": "Santa Claus Is Comin' To Town (Acoustic)"
+      },
+      {
+        "id": "3454326141",
+        "name": "Sleigh Ride (Latin Version)"
+      },
+      {
+        "id": "3454326142",
+        "name": "Happy Xmas"
+      },
+      {
+        "id": "3454326865",
+        "name": "All You Need Is Love"
+      },
+      {
+        "id": "3454326143",
+        "name": "This Christmas (Latin Version)"
+      },
+      {
+        "id": "3454326866",
+        "name": "Merry Christmas Everyone"
+      },
+      {
+        "id": "3454326867",
+        "name": "Mistletoe"
+      },
+      {
+        "id": "3454326144",
+        "name": "Merry Christmas, Happy Holidays (Latin Version)"
+      },
+      {
+        "id": "3454326145",
+        "name": "Step Into Christmas (Latin Version)"
+      },
+      {
+        "id": "3454326868",
+        "name": "Noche de paz (Guitar Version)"
+      },
+      {
+        "id": "3454326146",
+        "name": "Petit Papa Noël (Guitar Version)"
+      },
+      {
+        "id": "3454326147",
+        "name": "Winter Wonderland (Harmony Version)"
+      },
+      {
+        "id": "3454326148",
+        "name": "Have Yourself A Merry Little Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454326149",
+        "name": "Campana Sobre Campana (Latin Version)"
+      },
+      {
+        "id": "3454326869",
+        "name": "Last Christmas (Stripped Down)"
+      },
+      {
+        "id": "3454326870",
+        "name": "Do They Know It’s Christmas"
+      },
+      {
+        "id": "3454326150",
+        "name": "Los peces en el río (Latin Version)"
+      },
+      {
+        "id": "3454326871",
+        "name": "Someday At Christmas"
+      },
+      {
+        "id": "3454326151",
+        "name": "Noche de paz (Symphony Version)"
+      },
+      {
+        "id": "3454326872",
+        "name": "My Only Wish"
+      },
+      {
+        "id": "3454326152",
+        "name": "Santa, Can’t You Hear Me"
+      },
+      {
+        "id": "3454326153",
+        "name": "You Make It Feel Like Christmas (Latin Version)"
+      },
+      {
+        "id": "3454326154",
+        "name": "Fairytale of New York"
+      },
+      {
+        "id": "3454326155",
+        "name": "Rockin Around The Christmas (Lounge)"
+      },
+      {
+        "id": "3454326873",
+        "name": "Silent Night (Latin Version)"
+      },
+      {
+        "id": "3454326156",
+        "name": "Rudolph The Red-Nosed Reindeer"
+      },
+      {
+        "id": "3454326157",
+        "name": "Frosty The Snowman (Latin Version)"
+      },
+      {
+        "id": "3454326874",
+        "name": "Christmas Lights"
+      },
+      {
+        "id": "3454326158",
+        "name": "White Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454326159",
+        "name": "Believe"
+      }
+    ]
+  },
+  "406309555": {
+    "album_id": "406309555",
+    "album_name": "メリークリスマス (ベスト・クリスマスソング 2026)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 40,
+    "pic_url": "https://p3.music.126.net/alDlvq3By9-2wIMJeVHScQ==/109951174179825230.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "精选集",
+    "cached_at": 1793293356.886427,
+    "songs": [
+      {
+        "id": "3454343582",
+        "name": "Happy Xmas (War Is Over) [Spa Cover]"
+      },
+      {
+        "id": "3454344997",
+        "name": "Winter Wonderland"
+      },
+      {
+        "id": "3454344998",
+        "name": "Silent Night (Nylon Guitar Version)"
+      },
+      {
+        "id": "3454343583",
+        "name": "Christmas Lights"
+      },
+      {
+        "id": "3454343584",
+        "name": "The Christmas Song (Jazz Version)"
+      },
+      {
+        "id": "3454343585",
+        "name": "Santa Tell Me"
+      },
+      {
+        "id": "3454343586",
+        "name": "Let It Snow! Let It Snow! Let It Snow! (Lofi Version)"
+      },
+      {
+        "id": "3454343587",
+        "name": "Wonderful Christmastime"
+      },
+      {
+        "id": "3454344999",
+        "name": "Have Yourself A Merry Little Christmas (Piano Fireplace)"
+      },
+      {
+        "id": "3454343588",
+        "name": "Underneath the Tree"
+      },
+      {
+        "id": "3454345000",
+        "name": "White Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454345001",
+        "name": "Mistletoe"
+      },
+      {
+        "id": "3454345002",
+        "name": "It's Beginning To Look a Lot Like Christmas (Lounge)"
+      },
+      {
+        "id": "3454343589",
+        "name": "My Only Wish"
+      },
+      {
+        "id": "3454343590",
+        "name": "Carol of the Bells"
+      },
+      {
+        "id": "3454343591",
+        "name": "Do They Know It’s Christmas"
+      },
+      {
+        "id": "3454345003",
+        "name": "Merry Christmas Everyone (Spa Cover)"
+      },
+      {
+        "id": "3454343592",
+        "name": "Snowman"
+      },
+      {
+        "id": "3454343593",
+        "name": "Sleigh Ride (Symphony)"
+      },
+      {
+        "id": "3454345004",
+        "name": "Santa Can’t You Hear Me"
+      },
+      {
+        "id": "3454343594",
+        "name": "Blue Christmas (Lounge)"
+      },
+      {
+        "id": "3454343595",
+        "name": "It’s the Most Wonderful Time of the Year (Harmony Version)"
+      },
+      {
+        "id": "3454343596",
+        "name": "Feliz Navidad"
+      },
+      {
+        "id": "3454345005",
+        "name": "Driving Home For Christmas"
+      },
+      {
+        "id": "3454345006",
+        "name": "O Holy Night (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454345007",
+        "name": "Fairytale of New York"
+      },
+      {
+        "id": "3454345008",
+        "name": "Christmas Is All Around (Latin Version)"
+      },
+      {
+        "id": "3454343597",
+        "name": "Jingle Bell Rock"
+      },
+      {
+        "id": "3454345009",
+        "name": "I’ll Be Home For Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454345010",
+        "name": "Rudolph The Red-Nosed Reindeer"
+      },
+      {
+        "id": "3454343598",
+        "name": "Mary, Did You Know? (Guitar Version)"
+      },
+      {
+        "id": "3454345011",
+        "name": "I Wish It Could Be Christmas Everyday"
+      },
+      {
+        "id": "3454345012",
+        "name": "Rockin’ Around The Christmas Tree (Lofi Version)"
+      },
+      {
+        "id": "3454343599",
+        "name": "Baby It’s Cold Outside"
+      },
+      {
+        "id": "3454345013",
+        "name": "Cozy Little Christmas (Spa Cover)"
+      },
+      {
+        "id": "3454345014",
+        "name": "Holly Jolly Christmas (Symphony)"
+      },
+      {
+        "id": "3454345015",
+        "name": "Everyday Is Christmas"
+      },
+      {
+        "id": "3454345016",
+        "name": "The Little Drummer Boy"
+      },
+      {
+        "id": "3454345017",
+        "name": "Believe"
+      },
+      {
+        "id": "3454345018",
+        "name": "Someday at Christmas (Lounge)"
+      }
+    ]
+  },
+  "406313093": {
+    "album_id": "406313093",
+    "album_name": "Frohe Weihnachten (Die besten Weihnachtslieder 2026)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 43,
+    "pic_url": "https://p4.music.126.net/b8PK3VJACvUOQn43hmfe9A==/109951174179890395.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293421.9562967,
+    "songs": [
+      {
+        "id": "3454350374",
+        "name": "Last Christmas (Acoustic Cover)"
+      },
+      {
+        "id": "3454350375",
+        "name": "All I Want for Christmas Is You (Lofi Version)"
+      },
+      {
+        "id": "3454352050",
+        "name": "Driving Home For Christmas"
+      },
+      {
+        "id": "3454352051",
+        "name": "Rockin’ Around The Christmas Tree (Nylon Guitar Version)"
+      },
+      {
+        "id": "3454350377",
+        "name": "Santa Tell Me"
+      },
+      {
+        "id": "3454352052",
+        "name": "Jingle Bell Rock (Orchestra Version)"
+      },
+      {
+        "id": "3454350378",
+        "name": "Wonderful Christmastime"
+      },
+      {
+        "id": "3454352053",
+        "name": "Feliz Navidad (Symphony Version)"
+      },
+      {
+        "id": "3454352054",
+        "name": "Do They Know It’s Christmas"
+      },
+      {
+        "id": "3454352055",
+        "name": "Happy Xmas (War Is Over) (Spa Cover)"
+      },
+      {
+        "id": "3454350382",
+        "name": "Merry Christmas Everyone"
+      },
+      {
+        "id": "3454350384",
+        "name": "It’s Beginning To Look A Lot Like Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454352056",
+        "name": "Underneath the Tree"
+      },
+      {
+        "id": "3454352057",
+        "name": "Let It Snow, Let It Snow, Let It Snow (Lounge)"
+      },
+      {
+        "id": "3454350385",
+        "name": "Mistletoe"
+      },
+      {
+        "id": "3454352058",
+        "name": "Snowman (Orchestra Version)"
+      },
+      {
+        "id": "3454352059",
+        "name": "Merry Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454352060",
+        "name": "Christmas Lights"
+      },
+      {
+        "id": "3454350387",
+        "name": "Silent Night (Piano Fireplace)"
+      },
+      {
+        "id": "3454352061",
+        "name": "I Wish It Could Be Christmas Everyday"
+      },
+      {
+        "id": "3454352062",
+        "name": "White Christmas (Guitar Version)"
+      },
+      {
+        "id": "3454350389",
+        "name": "Jingle Bells (Piano Fireplace)"
+      },
+      {
+        "id": "3454352064",
+        "name": "Christmas Is All Around"
+      },
+      {
+        "id": "3454352065",
+        "name": "Fairytale of New York (Lounge)"
+      },
+      {
+        "id": "3454350390",
+        "name": "Holly Jolly Christmas"
+      },
+      {
+        "id": "3454350391",
+        "name": "The Little Drummer Boy"
+      },
+      {
+        "id": "3454350392",
+        "name": "My Only Wish (This Year)"
+      },
+      {
+        "id": "3454350394",
+        "name": "Sleigh Ride (Symphony)"
+      },
+      {
+        "id": "3454352066",
+        "name": "Santa, Can’t You Hear Me"
+      },
+      {
+        "id": "3454350395",
+        "name": "Christmas Tree Farm (Jazz Version)"
+      },
+      {
+        "id": "3454352067",
+        "name": "Mary, Did You Know?"
+      },
+      {
+        "id": "3454352068",
+        "name": "Have Yourself A Merry Little Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454350396",
+        "name": "Someday At Christmas"
+      },
+      {
+        "id": "3454350397",
+        "name": "Step Into Christmas (Latin Version)"
+      },
+      {
+        "id": "3454350398",
+        "name": "This Christmas"
+      },
+      {
+        "id": "3454352069",
+        "name": "Everyday Is Christmas"
+      },
+      {
+        "id": "3454352070",
+        "name": "Carol of the Bells"
+      },
+      {
+        "id": "3454352071",
+        "name": "Believe"
+      },
+      {
+        "id": "3454350399",
+        "name": "The Christmas Song (Jazz Version)"
+      },
+      {
+        "id": "3454350400",
+        "name": "Baby It’s Cold Outside"
+      },
+      {
+        "id": "3454350402",
+        "name": "O Holy Night (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454352072",
+        "name": "Rudolph The Red-Nosed Reindeer"
+      },
+      {
+        "id": "3454352073",
+        "name": "I’ll Be Home For Christmas (Orchestra Version)"
+      }
+    ]
+  },
+  "406289276": {
+    "album_id": "406289276",
+    "album_name": "God Jul (De Bästa Jullåtarna 2026)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 25,
+    "pic_url": "https://p3.music.126.net/3B9yRVAV3RexkSkjWqSRfQ==/109951174179433885.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293420.791899,
+    "songs": [
+      {
+        "id": "3454303666",
+        "name": "Tomten, jag vill ha en riktig jul"
+      },
+      {
+        "id": "3454303667",
+        "name": "Gläns över sjö och strand (Orkester Version)"
+      },
+      {
+        "id": "3454303668",
+        "name": "Hej mitt Vinterland (Gitarr Version)"
+      },
+      {
+        "id": "3454303669",
+        "name": "Hey Ho (Gitarr Version)"
+      },
+      {
+        "id": "3454303670",
+        "name": "Jag såg mamma kyssa tomten"
+      },
+      {
+        "id": "3454303977",
+        "name": "Ge mig lite jul"
+      },
+      {
+        "id": "3454303979",
+        "name": "Tänd ett ljus"
+      },
+      {
+        "id": "3454303671",
+        "name": "Det snöar på vår gata"
+      },
+      {
+        "id": "3454303980",
+        "name": "Jag kommer hem igen till jul (Orkester Version)"
+      },
+      {
+        "id": "3454303672",
+        "name": "Juligen (Gitarr Version)"
+      },
+      {
+        "id": "3454303673",
+        "name": "O helga natt"
+      },
+      {
+        "id": "3454303981",
+        "name": "Stad i ljus"
+      },
+      {
+        "id": "3454303674",
+        "name": "Jul, jul strålande jul (Orkester Version)"
+      },
+      {
+        "id": "3454303982",
+        "name": "Nu tändas tusen juleljus (Gitarr Version)"
+      },
+      {
+        "id": "3454303676",
+        "name": "Mer jul (Orkester Version)"
+      },
+      {
+        "id": "3454303677",
+        "name": "Välkommen hem"
+      },
+      {
+        "id": "3454303983",
+        "name": "Nu snöar det"
+      },
+      {
+        "id": "3454303984",
+        "name": "Änglavakt"
+      },
+      {
+        "id": "3454303985",
+        "name": "Vår julskinka har rymt (Gitarr Version)"
+      },
+      {
+        "id": "3454303987",
+        "name": "Tänd ett ljus"
+      },
+      {
+        "id": "3454303678",
+        "name": "Fira jul igen"
+      },
+      {
+        "id": "3454303679",
+        "name": "TIPP TAPP JULKLAPP"
+      },
+      {
+        "id": "3454303988",
+        "name": "Jag kommer hem igen till jul"
+      },
+      {
+        "id": "3454303989",
+        "name": "Mitt hem är där du är i jul"
+      },
+      {
+        "id": "3454303680",
+        "name": "Jul, jul strålande jul (Gitarr Version)"
+      }
+    ]
+  },
+  "406313276": {
+    "album_id": "406313276",
+    "album_name": "Joyeux Noël (Les plus belles chansons de Noël 2026)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 50,
+    "pic_url": "https://p3.music.126.net/8VCOl6KMcILAoiKtAtC6Gw==/109951174179899596.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293421.0902808,
+    "songs": [
+      {
+        "id": "3454352130",
+        "name": "Petit Papa Noël (Symphony Version)"
+      },
+      {
+        "id": "3454350447",
+        "name": "All I Want for Christmas Is You (Lofi Version)"
+      },
+      {
+        "id": "3454350448",
+        "name": "Last Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454350449",
+        "name": "Jingle Bell Rock (Orchestra Version)"
+      },
+      {
+        "id": "3454350450",
+        "name": "Noël blanc (Guitar Version)"
+      },
+      {
+        "id": "3454352132",
+        "name": "Rockin' Around The Christmas Tree (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454352133",
+        "name": "Feliz Navidad (Lofi Version)"
+      },
+      {
+        "id": "3454352134",
+        "name": "Let It Snow, Let It Snow, Let It Snow (Lounge)"
+      },
+      {
+        "id": "3454352135",
+        "name": "Happy Xmas (War Is Over) (Spa Cover)"
+      },
+      {
+        "id": "3454352136",
+        "name": "Holly Jolly Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454350454",
+        "name": "Mistletoe (Latin Version)"
+      },
+      {
+        "id": "3454352137",
+        "name": "Minuit chrétien (Spa Cover)"
+      },
+      {
+        "id": "3454350456",
+        "name": "Snowman (Orchestra Version)"
+      },
+      {
+        "id": "3454352139",
+        "name": "Wonderful Christmastime (Guitar Version)"
+      },
+      {
+        "id": "3454350457",
+        "name": "It’s Beginning To Look A Lot Like Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454352141",
+        "name": "Underneath the Tree (Symphony)"
+      },
+      {
+        "id": "3454352142",
+        "name": "Driving Home For Christmas (Lofi Version)"
+      },
+      {
+        "id": "3454350459",
+        "name": "Silent Night (Piano Fireplace)"
+      },
+      {
+        "id": "3454350460",
+        "name": "It’s the Most Wonderful Time of the Year (Orchestra Version)"
+      },
+      {
+        "id": "3454352143",
+        "name": "Winter Wonderland (Spa Cover)"
+      },
+      {
+        "id": "3454352144",
+        "name": "Petit Papa Noël (Jazz Version)"
+      },
+      {
+        "id": "3454350461",
+        "name": "Jingle Bells (Piano Fireplace)"
+      },
+      {
+        "id": "3454350463",
+        "name": "Do They Know It’s Christmas (Symphony)"
+      },
+      {
+        "id": "3454352145",
+        "name": "Sleigh Ride (Lounge)"
+      },
+      {
+        "id": "3454352146",
+        "name": "Christmas Lights (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454352147",
+        "name": "Merry Christmas Everyone (Nylon Guitar Version)"
+      },
+      {
+        "id": "3454352148",
+        "name": "Carol of the Bells"
+      },
+      {
+        "id": "3454350464",
+        "name": "Have Yourself A Merry Little Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454350465",
+        "name": "Santa Can't You Hear Me (Lofi Version)"
+      },
+      {
+        "id": "3454350466",
+        "name": "Minuit Chrétiens (Latin Version)"
+      },
+      {
+        "id": "3454350467",
+        "name": "The Christmas Song (Jazz Version)"
+      },
+      {
+        "id": "3454352149",
+        "name": "Christmas Tree Farm (Symphony)"
+      },
+      {
+        "id": "3454350468",
+        "name": "Fairytale of New York (Lounge)"
+      },
+      {
+        "id": "3454350469",
+        "name": "Mary, Did You Know? (Guitar Version)"
+      },
+      {
+        "id": "3454350470",
+        "name": "Joy To The World"
+      },
+      {
+        "id": "3454352150",
+        "name": "This Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454350471",
+        "name": "Christmas Is All Around (Latin Version)"
+      },
+      {
+        "id": "3454352151",
+        "name": "I’ll Be Home For Christmas (Symphony)"
+      },
+      {
+        "id": "3454350472",
+        "name": "Rudolph The Red-Nosed Reindeer (Spa Cover)"
+      },
+      {
+        "id": "3454352152",
+        "name": "Noël blanc (Jazz Version)"
+      },
+      {
+        "id": "3454352153",
+        "name": "The Little Drummer Boy"
+      },
+      {
+        "id": "3454352154",
+        "name": "Step Into Christmas (Lounge)"
+      },
+      {
+        "id": "3454352155",
+        "name": "Frosty The Snowman (Latin Version)"
+      },
+      {
+        "id": "3454352156",
+        "name": "Someday At Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454350473",
+        "name": "Believe (Orchestra Version)"
+      },
+      {
+        "id": "3454350474",
+        "name": "Cozy Little Christmas (Lofi Version)"
+      },
+      {
+        "id": "3454350475",
+        "name": "My Only Wish (Guitar Version)"
+      },
+      {
+        "id": "3454350476",
+        "name": "Baby It´s Cold Outside (Symphony)"
+      },
+      {
+        "id": "3454352157",
+        "name": "Silver Bells (Spa Cover)"
+      },
+      {
+        "id": "3454350477",
+        "name": "Christmastime Is Here"
+      }
+    ]
+  },
+  "406300746": {
+    "album_id": "406300746",
+    "album_name": "Feliz Natal (As Melhores Músicas de Natal 2026)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 50,
+    "pic_url": "https://p4.music.126.net/fS0BWgm7MBHRxDLQPmlzZw==/109951174179691561.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293421.5775943,
+    "songs": [
+      {
+        "id": "3454326333",
+        "name": "All I Want for Christmas Is You"
+      },
+      {
+        "id": "3454327051",
+        "name": "Feliz Navidad"
+      },
+      {
+        "id": "3454326334",
+        "name": "Last Christmas (Acoustic Cover)"
+      },
+      {
+        "id": "3454326335",
+        "name": "Jingle Bell Rock (Latin Version)"
+      },
+      {
+        "id": "3454326336",
+        "name": "Happy Xmas"
+      },
+      {
+        "id": "3454326337",
+        "name": "Silent Night (Latin Version)"
+      },
+      {
+        "id": "3454327053",
+        "name": "Santa Tell Me"
+      },
+      {
+        "id": "3454327055",
+        "name": "Let It Snow, Let It Snow, Let It Snow (Lounge)"
+      },
+      {
+        "id": "3454326340",
+        "name": "Mistletoe"
+      },
+      {
+        "id": "3454327057",
+        "name": "Jingle Bells (Piano Fireplace)"
+      },
+      {
+        "id": "3454326342",
+        "name": "Wonderful Christmastime"
+      },
+      {
+        "id": "3454327060",
+        "name": "White Christmas (Guitar Version)"
+      },
+      {
+        "id": "3454326344",
+        "name": "Underneath the Tree"
+      },
+      {
+        "id": "3454327064",
+        "name": "Rockin’ Around The Christmas Tree (Latin Version)"
+      },
+      {
+        "id": "3454327065",
+        "name": "Snowman"
+      },
+      {
+        "id": "3454326345",
+        "name": "It's The Most Wonderful Time of The Year (Lounge)"
+      },
+      {
+        "id": "3454326346",
+        "name": "Christmas Lights"
+      },
+      {
+        "id": "3454326347",
+        "name": "Merry Christmas (Latin Version)"
+      },
+      {
+        "id": "3454326348",
+        "name": "Do They Know It’s Christmas"
+      },
+      {
+        "id": "3454327066",
+        "name": "Winter Wonderland (Spa Cover)"
+      },
+      {
+        "id": "3454327067",
+        "name": "Driving Home For Christmas"
+      },
+      {
+        "id": "3454326349",
+        "name": "Sleigh Ride (Lounge)"
+      },
+      {
+        "id": "3454326350",
+        "name": "Holly Jolly Christmas"
+      },
+      {
+        "id": "3454327068",
+        "name": "It's Beginning To Look a Lot Like Christmas (Lounge)"
+      },
+      {
+        "id": "3454327069",
+        "name": "Christmas Is All Around"
+      },
+      {
+        "id": "3454327070",
+        "name": "Have Yourself A Merry Little Christmas (Piano Fireplace)"
+      },
+      {
+        "id": "3454327071",
+        "name": "Merry Christmas Everyone"
+      },
+      {
+        "id": "3454327072",
+        "name": "The Christmas Song (Latin Version)"
+      },
+      {
+        "id": "3454326351",
+        "name": "Baby It’s Cold Outside"
+      },
+      {
+        "id": "3454326352",
+        "name": "Oh Holy Night (Latin Version)"
+      },
+      {
+        "id": "3454326353",
+        "name": "I Wish It Could Be Christmas Everyday"
+      },
+      {
+        "id": "3454326354",
+        "name": "Blue Christmas (Lounge)"
+      },
+      {
+        "id": "3454326355",
+        "name": "Rudolph The Red-Nosed Reindeer"
+      },
+      {
+        "id": "3454327073",
+        "name": "Carol of the Bells"
+      },
+      {
+        "id": "3454326356",
+        "name": "My Only Wish"
+      },
+      {
+        "id": "3454326357",
+        "name": "Mary, Did You Know? (Latin Version)"
+      },
+      {
+        "id": "3454326358",
+        "name": "Santa, Can’t You Hear Me"
+      },
+      {
+        "id": "3454327074",
+        "name": "The Little Drummer Boy"
+      },
+      {
+        "id": "3454326359",
+        "name": "Christmas Tree Farm"
+      },
+      {
+        "id": "3454326360",
+        "name": "Step Into Christmas (Lounge)"
+      },
+      {
+        "id": "3454326361",
+        "name": "Fairytale of New York"
+      },
+      {
+        "id": "3454326362",
+        "name": "Wrapped In Red (Latin Version)"
+      },
+      {
+        "id": "3454326363",
+        "name": "Everyday Is Christmas"
+      },
+      {
+        "id": "3454326364",
+        "name": "Cozy Little Christmas (Latin Version)"
+      },
+      {
+        "id": "3454327075",
+        "name": "That’s Christmas to Me"
+      },
+      {
+        "id": "3454326365",
+        "name": "Someday at Christmas (Lounge)"
+      },
+      {
+        "id": "3454327076",
+        "name": "This Christmas"
+      },
+      {
+        "id": "3454327077",
+        "name": "Believe (Orchestra Version)"
+      },
+      {
+        "id": "3454327078",
+        "name": "One More Sleep"
+      },
+      {
+        "id": "3454327079",
+        "name": "Silver Bells (Spa Cover)"
+      }
+    ]
+  },
+  "406309627": {
+    "album_id": "406309627",
+    "album_name": "Buon Natale (Le più belle canzoni di Natale 2026)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 50,
+    "pic_url": "https://p4.music.126.net/fpMo9KViOUcM12hglViODg==/109951174179833068.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293422.3517368,
+    "songs": [
+      {
+        "id": "3454345108",
+        "name": "All I Want for Christmas Is You (Lofi Version)"
+      },
+      {
+        "id": "3454343706",
+        "name": "Last Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454343707",
+        "name": "Jingle Bell Rock (Orchestra Version)"
+      },
+      {
+        "id": "3454345109",
+        "name": "Feliz Navidad (Symphony Version)"
+      },
+      {
+        "id": "3454343708",
+        "name": "Rockin’ Around The Christmas Tree (Nylon Guitar Version)"
+      },
+      {
+        "id": "3454343709",
+        "name": "It’s Beginning To Look A Lot Like Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454345110",
+        "name": "Let It Snow, Let It Snow, Let It Snow (Lounge)"
+      },
+      {
+        "id": "3454343710",
+        "name": "Happy Xmas (War Is Over) (Symphony)"
+      },
+      {
+        "id": "3454345111",
+        "name": "Holly Jolly Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454343711",
+        "name": "Mistletoe (Spa Cover)"
+      },
+      {
+        "id": "3454345114",
+        "name": "Underneath the Tree (Latin Version)"
+      },
+      {
+        "id": "3454343713",
+        "name": "Snowman (Orchestra Version)"
+      },
+      {
+        "id": "3454343715",
+        "name": "Wonderful Christmastime (Guitar Version)"
+      },
+      {
+        "id": "3454345115",
+        "name": "Merry Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454343717",
+        "name": "It's the Most Wonderful Time of the Year (Lofi Version)"
+      },
+      {
+        "id": "3454343718",
+        "name": "Silent Night (Piano Fireplace)"
+      },
+      {
+        "id": "3454345118",
+        "name": "White Christmas (Guitar Version)"
+      },
+      {
+        "id": "3454345120",
+        "name": "Jingle Bells (Piano Fireplace)"
+      },
+      {
+        "id": "3454343720",
+        "name": "Winter Wonderland (Spa Cover)"
+      },
+      {
+        "id": "3454343722",
+        "name": "Driving Home for Christmas (Jazz Version)"
+      },
+      {
+        "id": "3454343723",
+        "name": "The Christmas Song (Latin Version)"
+      },
+      {
+        "id": "3454343725",
+        "name": "Sleigh Ride (Lounge)"
+      },
+      {
+        "id": "3454345122",
+        "name": "Do They Know It's Christmas (Lofi Version)"
+      },
+      {
+        "id": "3454345123",
+        "name": "Christmas Lights (Symphony)"
+      },
+      {
+        "id": "3454343728",
+        "name": "Have Yourself A Merry Little Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454345125",
+        "name": "Santa Can’t You Hear Me (Guitar Version)"
+      },
+      {
+        "id": "3454345127",
+        "name": "Christmas Tree Farm (Jazz Version)"
+      },
+      {
+        "id": "3454345128",
+        "name": "Blue Christmas (Latin Version)"
+      },
+      {
+        "id": "3454343731",
+        "name": "Carol of the Bells"
+      },
+      {
+        "id": "3454343732",
+        "name": "Oh Holy Night (Symphony)"
+      },
+      {
+        "id": "3454345131",
+        "name": "Mary, Did You Know? (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454343734",
+        "name": "Joy To The World"
+      },
+      {
+        "id": "3454343735",
+        "name": "Fairytale of New York (Lounge)"
+      },
+      {
+        "id": "3454345133",
+        "name": "I’ll Be Home For Christmas (Nylon Guitar Version)"
+      },
+      {
+        "id": "3454343738",
+        "name": "Christmas Is All Around (Lofi Version)"
+      },
+      {
+        "id": "3454345135",
+        "name": "Come All Ye Faithful"
+      },
+      {
+        "id": "3454345136",
+        "name": "Rudolph The Red-Nosed Reindeer (Symphony)"
+      },
+      {
+        "id": "3454345137",
+        "name": "This Christmas (Orchestra Version)"
+      },
+      {
+        "id": "3454343740",
+        "name": "Step Into Christmas (Latin Version)"
+      },
+      {
+        "id": "3454345138",
+        "name": "Wrapped In Red (Jazz Version)"
+      },
+      {
+        "id": "3454343741",
+        "name": "The Little Drummer Boy"
+      },
+      {
+        "id": "3454345139",
+        "name": "Frosty The Snowman (Latin Version)"
+      },
+      {
+        "id": "3454345140",
+        "name": "Someday At Christmas (Guitar Fireplace Version)"
+      },
+      {
+        "id": "3454343742",
+        "name": "Cozy Little Christmas (Spa Cover)"
+      },
+      {
+        "id": "3454345141",
+        "name": "My Only Wish (Orchestra Version)"
+      },
+      {
+        "id": "3454343743",
+        "name": "Believe (Guitar Version)"
+      },
+      {
+        "id": "3454345142",
+        "name": "Baby It´s Cold Outside (Symphony)"
+      },
+      {
+        "id": "3454343744",
+        "name": "Merry Christmas, Happy Holidays (Lounge)"
+      },
+      {
+        "id": "3454343745",
+        "name": "Silver Bells (Spa Cover)"
+      },
+      {
+        "id": "3454345143",
+        "name": "Please Come Home for Christmas (Jazz Version)"
+      }
+    ]
+  },
+  "352827911": {
+    "album_id": "352827911",
+    "album_name": "Un Change!",
+    "date_str": "2026-04-13",
+    "publish_ts": 1776009600000,
+    "artist_ids": [
+      "60659699"
+    ],
+    "artist_names": [
+      "甘党委員会"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/R9yN6nYm86dTixEcsrnw1A==/109951173038142656.jpg",
+    "company": "Sweet Committee",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293281.969292
+  },
+  "376465720": {
+    "album_id": "376465720",
+    "album_name": "きゅんでらいと！",
+    "date_str": "2026-04-26",
+    "publish_ts": 1777206249719,
+    "artist_ids": [
+      "31277343"
+    ],
+    "artist_names": [
+      "ちょこ"
+    ],
+    "size": 4,
+    "pic_url": "https://p4.music.126.net/69b0h6ngDFnx16qG1vpO4A==/109951173223530141.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293281.9853728
+  },
+  "378671356": {
+    "album_id": "378671356",
+    "album_name": "STARMONIA",
+    "date_str": "2026-04-26",
+    "publish_ts": 1777207761715,
+    "artist_ids": [
+      "96219908"
+    ],
+    "artist_names": [
+      "Eno"
+    ],
+    "size": 5,
+    "pic_url": "https://p3.music.126.net/L_IG34wdv0lRgF0Pc1AoIw==/109951173289575974.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293282.005801
+  },
+  "351095515": {
+    "album_id": "351095515",
+    "album_name": "僕はキャラメルポップコーンになりたい！",
+    "date_str": "2025-11-26",
+    "publish_ts": 1764086400000,
+    "artist_ids": [
+      "31277343"
+    ],
+    "artist_names": [
+      "ちょこ"
+    ],
+    "size": 6,
+    "pic_url": "https://p3.music.126.net/gvlltZXITwvF2c8wMRkcmw==/109951172313515256.jpg",
+    "company": "chokottodake",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293282.028558
+  },
+  "273120123": {
+    "album_id": "273120123",
+    "album_name": "僕はキャラメルポップコーンになりたい！",
+    "date_str": "2025-04-27",
+    "publish_ts": 1745749471094,
+    "artist_ids": [
+      "1084287"
+    ],
+    "artist_names": [
+      "ちょこっとだけ"
+    ],
+    "size": 6,
+    "pic_url": "https://p4.music.126.net/Hey-_oHjMWfzzWB-KAS_Dw==/109951171028219708.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293282.6557868
+  },
+  "352811183": {
+    "album_id": "352811183",
+    "album_name": "天使、よんでください！",
+    "date_str": "2025-10-26",
+    "publish_ts": 1761408000000,
+    "artist_ids": [
+      "1084287"
+    ],
+    "artist_names": [
+      "ちょこっとだけ"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/Uu0NF4YmpSD_1eJAf9Rt3w==/109951174022171224.jpg",
+    "company": "chokottodake",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293282.6641846
+  },
+  "384873907": {
+    "album_id": "384873907",
+    "album_name": "夏の日のソーダブルー",
+    "date_str": "2025-08-13",
+    "publish_ts": 1755014400000,
+    "artist_ids": [],
+    "artist_names": [
+      "ちょこ"
+    ],
+    "size": 2,
+    "pic_url": "https://p3.music.126.net/rPXGiOSoo97N1KPYk1zPIw==/109951173493589924.jpg",
+    "company": "chokottodake",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293282.7027946
+  },
+  "356691012": {
+    "album_id": "356691012",
+    "album_name": "Dear Decade",
+    "date_str": "2025-10-26",
+    "publish_ts": 1761408000000,
+    "artist_ids": [
+      "46545737"
+    ],
+    "artist_names": [
+      "Ray_Oh"
+    ],
+    "size": 20,
+    "pic_url": "https://p4.music.126.net/zKdlFu5kKaBnijCPBXlu9w==/109951172517414634.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293282.7164674
+  },
+  "275621524": {
+    "album_id": "275621524",
+    "album_name": "Clioneart (feat. ちょこ & z²)",
+    "date_str": "2025-06-28",
+    "publish_ts": 1751040000000,
+    "artist_ids": [
+      "60659699"
+    ],
+    "artist_names": [
+      "甘党委員会"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/6gS2pdPbbAhK4DZCyF62fg==/109951171328438621.jpg",
+    "company": "Sweet Committee",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293283.3274848
+  },
+  "278024534": {
+    "album_id": "278024534",
+    "album_name": "午前0時に待ち合わせ",
+    "date_str": "2025-07-12",
+    "publish_ts": 1752249600000,
+    "artist_ids": [
+      "31277343"
+    ],
+    "artist_names": [
+      "ちょこ"
+    ],
+    "size": 6,
+    "pic_url": "https://p3.music.126.net/FxwbWBhjTZiir15G29m6Jw==/109951171445157884.jpg",
+    "company": "chokottodake",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293283.351942
+  },
+  "270219543": {
+    "album_id": "270219543",
+    "album_name": "pray to the shards of reminiscence",
+    "date_str": "2025-05-10",
+    "publish_ts": 1746806400000,
+    "artist_ids": [
+      "30618623"
+    ],
+    "artist_names": [
+      "かゆき"
+    ],
+    "size": 7,
+    "pic_url": "https://p4.music.126.net/WU4WRBoGRYEEH26jkF_USA==/109951170898100083.jpg",
+    "company": "KAYUKI",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293283.4011872
+  },
+  "403655270": {
+    "album_id": "403655270",
+    "album_name": "CadenzaMaiden",
+    "date_str": "2025-04-27",
+    "publish_ts": 1745764041817,
+    "artist_ids": [
+      "54320457",
+      "30097928"
+    ],
+    "artist_names": [
+      "u-z",
+      "アンセム系Vtuberアンセムくん"
+    ],
+    "size": 5,
+    "pic_url": "https://p4.music.126.net/pGMRZVb_ozqcR-JRSt4t1Q==/109951174102415884.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293283.4401245
+  },
+  "286980363": {
+    "album_id": "286980363",
+    "album_name": "キャラネルポプコムマン (feat. かゆき)",
+    "date_str": "2025-04-27",
+    "publish_ts": 1745683200000,
+    "artist_ids": [
+      "31277343"
+    ],
+    "artist_names": [
+      "ちょこ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/udKUNaHJ-zuoF6o8ck5TWw==/109951172089641308.jpg",
+    "company": "Chokottodake",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293284.002534
+  },
+  "270913708": {
+    "album_id": "270913708",
+    "album_name": "おにいちゃんえっせんしゃるEX3",
+    "date_str": "2024-10-27",
+    "publish_ts": 1729958400000,
+    "artist_ids": [
+      "32822728"
+    ],
+    "artist_names": [
+      "立秋"
+    ],
+    "size": 8,
+    "pic_url": "https://p4.music.126.net/NDM__V4rDBywFzqcFuCZHw==/109951170944097371.jpg",
+    "company": "KotonoHalkana",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293284.692383
+  },
+  "263969580": {
+    "album_id": "263969580",
+    "album_name": "ラブコーション",
+    "date_str": "2024-10-27",
+    "publish_ts": 1729958400000,
+    "artist_ids": [
+      "31277343"
+    ],
+    "artist_names": [
+      "ちょこ"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/zkNN2xEzVhn0MLKF2q2sRw==/109951170516757383.jpg",
+    "company": "chokottodake",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293285.3689132
+  },
+  "361769738": {
+    "album_id": "361769738",
+    "album_name": "Melty♡Love",
+    "date_str": "2025-10-26",
+    "publish_ts": 1761457503444,
+    "artist_ids": [
+      "97320865",
+      "122884942"
+    ],
+    "artist_names": [
+      "ちえり",
+      "萌え02☆電脳LABO"
+    ],
+    "size": 6,
+    "pic_url": "https://p3.music.126.net/djkdZigid4rOkvdWsOkd5A==/109951172730609686.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293285.6378534
+  },
+  "278260073": {
+    "album_id": "278260073",
+    "album_name": "マジカルポップ☆キャラメルだお！ (〃＞ω＜〃) ノ [feat. ねむりひめP]",
+    "date_str": "2025-04-27",
+    "publish_ts": 1745683200000,
+    "artist_ids": [
+      "31277343"
+    ],
+    "artist_names": [
+      "ちょこ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/sReT_C8WV_URJBwXyL4xJg==/109951171543323978.jpg",
+    "company": "Chokottodake",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293285.6609666
+  },
+  "270869223": {
+    "album_id": "270869223",
+    "album_name": "PPPSG E.P",
+    "date_str": "2025-04-27",
+    "publish_ts": 1745683200000,
+    "artist_ids": [
+      "32822728"
+    ],
+    "artist_names": [
+      "立秋"
+    ],
+    "size": 8,
+    "pic_url": "https://p4.music.126.net/gNpWocluCSAGTqHTfIaU5w==/109951170941406931.jpg",
+    "company": "KotonoHalkana",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293285.6744127
+  },
+  "193564155": {
+    "album_id": "193564155",
+    "album_name": "てんしさまのいうとおり",
+    "date_str": "2024-05-01",
+    "publish_ts": 1714492800000,
+    "artist_ids": [
+      "56700490"
+    ],
+    "artist_names": [
+      "桃寝ちのい"
+    ],
+    "size": 6,
+    "pic_url": "https://p4.music.126.net/1yk8S70WrGcsThM2zfeZ0w==/109951169530957264.jpg",
+    "company": "chinoi momone",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293286.0394974
+  },
+  "198474516": {
+    "album_id": "198474516",
+    "album_name": "かきくけこーしょん",
+    "date_str": "2024-04-28",
+    "publish_ts": 1714233600000,
+    "artist_ids": [
+      "31277343",
+      "32822728"
+    ],
+    "artist_names": [
+      "ちょこ",
+      "立秋"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/V2-Q-6PWk49xfeT42HEJDw==/109951169657735143.jpg",
+    "company": "chokottodake",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293286.3045094
+  },
+  "270866825": {
+    "album_id": "270866825",
+    "album_name": "Candy of the Earth",
+    "date_str": "2024-04-28",
+    "publish_ts": 1714233600000,
+    "artist_ids": [
+      "32822728"
+    ],
+    "artist_names": [
+      "立秋"
+    ],
+    "size": 6,
+    "pic_url": "https://p4.music.126.net/RyZyRh_LOutC-zS3LoUbyw==/109951170941289981.jpg",
+    "company": "KotonoHalkana",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293286.3309689
+  },
+  "196749673": {
+    "album_id": "196749673",
+    "album_name": "Candy of the Garth",
+    "date_str": "2024-04-28",
+    "publish_ts": 1714233600000,
+    "artist_ids": [
+      "32822728",
+      "31277343"
+    ],
+    "artist_names": [
+      "立秋",
+      "ちょこ"
+    ],
+    "size": 11,
+    "pic_url": "https://p4.music.126.net/lYVizrAfpRXoFFakxxfwIA==/109951169611012408.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293286.3735137
+  },
+  "178626900": {
+    "album_id": "178626900",
+    "album_name": "席替えやったー！",
+    "date_str": "2023-11-09",
+    "publish_ts": 1699459200000,
+    "artist_ids": [
+      "59036807",
+      "32822728"
+    ],
+    "artist_names": [
+      "天々まる",
+      "立秋"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/UsCI2DAisQI-23r0QYgtVQ==/109951169041833552.jpg",
+    "company": "Teten Maru & Rish",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293286.6838071
+  },
+  "188497673": {
+    "album_id": "188497673",
+    "album_name": "Achroite",
+    "date_str": "2023-10-29",
+    "publish_ts": 1698508800000,
+    "artist_ids": [
+      "32822728"
+    ],
+    "artist_names": [
+      "立秋"
+    ],
+    "size": 4,
+    "pic_url": "https://p4.music.126.net/kh0mm9cet9Np-jC8o98DWw==/109951169401294256.jpg",
+    "company": "KotonoHalkana",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293286.9928374
+  },
+  "393666336": {
+    "album_id": "393666336",
+    "album_name": "ACROBATS IN THE NIGHT GARDEN",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "33880690",
+      "986220",
+      "47006471"
+    ],
+    "artist_names": [
+      "Shmu",
+      "Andy Loebs",
+      "galen tipton"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/QBBvo3NlwK9icqyej4Nyyw==/109951173787664011.jpg",
+    "company": "Orange Milk",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293289.7806752,
+    "songs": [
+      {
+        "id": "3423708893",
+        "name": "URBAN GAZE"
+      },
+      {
+        "id": "3423707878",
+        "name": "ESCAPE FROM LA"
+      },
+      {
+        "id": "3423707879",
+        "name": "(DEADLY) LOVE TRIANGLE"
+      },
+      {
+        "id": "3423707880",
+        "name": "MISSION CREEP"
+      },
+      {
+        "id": "3423708894",
+        "name": "SHUNYATA"
+      },
+      {
+        "id": "3423707881",
+        "name": "MEMORY THIEF"
+      },
+      {
+        "id": "3423707882",
+        "name": "WE FOUND THE MACHINE ELVES"
+      },
+      {
+        "id": "3423707883",
+        "name": "WHO R U NOW (PLANE 2 LA)"
+      },
+      {
+        "id": "3423707884",
+        "name": "ACROBATS IN THE NIGHT GARDEN"
+      },
+      {
+        "id": "3423708895",
+        "name": "SOFT POWER (DOMBEC)"
+      },
+      {
+        "id": "3423708896",
+        "name": "LEITMOTIF"
+      },
+      {
+        "id": "3423707885",
+        "name": "LA SUN (DIET LIES)"
+      },
+      {
+        "id": "3423707886",
+        "name": "APHASIA"
+      },
+      {
+        "id": "3423708897",
+        "name": "SKIING ON A MOSOLEUM"
+      },
+      {
+        "id": "3423707887",
+        "name": "DRAMA CASTLE: THE DEATH OF YARL"
+      },
+      {
+        "id": "3423707888",
+        "name": "FAIRY DANCE"
+      },
+      {
+        "id": "3423708898",
+        "name": "EXHUME"
+      },
+      {
+        "id": "3423708899",
+        "name": "HIGH ART BUMMER"
+      },
+      {
+        "id": "3423708900",
+        "name": "THE 13th HOUR"
+      },
+      {
+        "id": "3423708901",
+        "name": "CHASING THE STARS"
+      }
+    ]
+  },
+  "404908243": {
+    "album_id": "404908243",
+    "album_name": "Can We Call It Something Besides Brostep?",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/Ix6Guhh1RgNnl3HzpSEhrw==/109951174153984636.jpg",
+    "company": "Killed It!",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293291.1340122
+  },
+  "405202946": {
+    "album_id": "405202946",
+    "album_name": "Big Fish (Radio Edit)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "130257"
+    ],
+    "artist_names": [
+      "Muffler"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/eZOyY7v8vJgr9KAmf8Xecg==/109951174145426000.jpg",
+    "company": "Konsta Mikkonen",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293291.1771166,
+    "songs": [
+      {
+        "id": "3452021688",
+        "name": "Big Fish (Radio Edit)"
+      }
+    ]
+  },
+  "349490510": {
+    "album_id": "349490510",
+    "album_name": "New Italo Disco Top 25, Vol. 24",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 25,
+    "pic_url": "https://p4.music.126.net/SJPDCc9B4_WUAU6iLWsYMA==/109951172245015858.jpg",
+    "company": "BCR",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293291.2639225
+  },
+  "397733875": {
+    "album_id": "397733875",
+    "album_name": "Smoke",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "33258237"
+    ],
+    "artist_names": [
+      "West Collins"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/ESSd57AxLJfI3pbpK1-Ztg==/109951173918198495.jpg",
+    "company": "Glow Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293292.6392393,
+    "songs": [
+      {
+        "id": "3434593355",
+        "name": "Smoke"
+      },
+      {
+        "id": "3434594089",
+        "name": "Smoke (Extended Mix)"
+      }
+    ]
+  },
+  "397414622": {
+    "album_id": "397414622",
+    "album_name": "Voice Of The People",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "13808130",
+      "34273456",
+      "97648425"
+    ],
+    "artist_names": [
+      "Dougy",
+      "Ras Belix",
+      "Eskifaia Sound"
+    ],
+    "size": 8,
+    "pic_url": "https://p4.music.126.net/7lI79VvpNvN6T5bfmb9D5g==/109951173909930007.jpg",
+    "company": "Evidence Music",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293292.6705656,
+    "songs": [
+      {
+        "id": "3433935333",
+        "name": "Voice Of The People"
+      },
+      {
+        "id": "3433935334",
+        "name": "Worldwide Matter"
+      },
+      {
+        "id": "3433935806",
+        "name": "My Foundation"
+      },
+      {
+        "id": "3433935335",
+        "name": "In A Rush"
+      },
+      {
+        "id": "3433935807",
+        "name": "Voice Of The People Riddim"
+      },
+      {
+        "id": "3433935808",
+        "name": "World Wide Matter Riddim"
+      },
+      {
+        "id": "3433935336",
+        "name": "My Foundation Riddim"
+      },
+      {
+        "id": "3433935809",
+        "name": "In A Rush Riddim"
+      }
+    ]
+  },
+  "406799405": {
+    "album_id": "406799405",
+    "album_name": "Romantasy",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 50,
+    "pic_url": "https://p3.music.126.net/eVUzX4tcnfxC4WwI0-41AQ==/109951174191685093.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293292.7749588
+  },
+  "406801064": {
+    "album_id": "406801064",
+    "album_name": "Hits Österreich 2026",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 75,
+    "pic_url": "https://p3.music.126.net/UYjLP0qdSOP0wD9rJnyrSA==/109951174191760264.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293292.866879
+  },
+  "403237966": {
+    "album_id": "403237966",
+    "album_name": "limerence",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "121739680"
+    ],
+    "artist_names": [
+      "so1anew",
+      "sonon",
+      "somer"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/Y9vK0M16pOU4b5lew4v5hQ==/109951174089223468.jpg",
+    "company": "so1anew",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293294.2251902,
+    "songs": [
+      {
+        "id": "3446467193",
+        "name": "limerence"
+      }
+    ]
+  },
+  "406330154": {
+    "album_id": "406330154",
+    "album_name": "Full Speed Nowhere (Chamber Version)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "129682691"
+    ],
+    "artist_names": [
+      "Johan Lenox"
+    ],
+    "size": 30,
+    "pic_url": "https://p3.music.126.net/F7-RjowAduV7feAz8Pbung==/109951174180341450.jpg",
+    "company": "Johan Lenox",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293294.2887459
+  },
+  "401064936": {
+    "album_id": "401064936",
+    "album_name": "wake",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "51361861"
+    ],
+    "artist_names": [
+      "clwdy"
+    ],
+    "size": 14,
+    "pic_url": "https://p3.music.126.net/Mn736fNkRarvLFWrrw0Qrg==/109951174020969473.jpg",
+    "company": "Neoluminum",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293295.661359,
+    "songs": [
+      {
+        "id": "3442122462",
+        "name": "dreamer"
+      },
+      {
+        "id": "3442122463",
+        "name": "come back down (feat. Ranipla, Sphinxes)"
+      },
+      {
+        "id": "3442122464",
+        "name": "ode to self"
+      },
+      {
+        "id": "3442123944",
+        "name": "counting sheep"
+      },
+      {
+        "id": "3442123945",
+        "name": "solace"
+      },
+      {
+        "id": "3442123946",
+        "name": "nightbynight"
+      },
+      {
+        "id": "3442123947",
+        "name": "hold on"
+      },
+      {
+        "id": "3442123948",
+        "name": "dance with me"
+      },
+      {
+        "id": "3442123949",
+        "name": "lost; interlude"
+      },
+      {
+        "id": "3442122465",
+        "name": "twisted!"
+      },
+      {
+        "id": "3442123950",
+        "name": "hypnagogia"
+      },
+      {
+        "id": "3442122466",
+        "name": "oyasumi (feat. masonic)"
+      },
+      {
+        "id": "3442123951",
+        "name": "fragments of who i never was"
+      },
+      {
+        "id": "3442123952",
+        "name": "wake"
+      }
+    ]
+  },
+  "404907999": {
+    "album_id": "404907999",
+    "album_name": "Le Show",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49767661"
+    ],
+    "artist_names": [
+      "Guy LeFoux"
+    ],
+    "size": 5,
+    "pic_url": "https://p3.music.126.net/-IIRzCyUg4qn479et6g5HQ==/109951174138635884.jpg",
+    "company": "Space Coven",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293297.1028013
+  },
+  "402754899": {
+    "album_id": "402754899",
+    "album_name": "omo",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "56294928",
+      "125651096",
+      "33486105"
+    ],
+    "artist_names": [
+      "safehaven.",
+      "solr",
+      "Alruna"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/cJCDF51ZOV-ZhT1P0k2bNA==/109951174076077163.jpg",
+    "company": "safehavendot",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293298.4720578,
+    "songs": [
+      {
+        "id": "3445482922",
+        "name": "omo"
+      }
+    ]
+  },
+  "406624155": {
+    "album_id": "406624155",
+    "album_name": "Tritonia 545",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "36461801"
+    ],
+    "artist_names": [
+      "Tritonal Tritonia Radio"
+    ],
+    "size": 18,
+    "pic_url": "https://p4.music.126.net/I-3xk9csDibWsRPkd9-nkw==/109951174188076417.jpg",
+    "company": "Enhanced Music",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293299.8800719
+  },
+  "401469439": {
+    "album_id": "401469439",
+    "album_name": "15 Years of Colorize: Remixes",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 30,
+    "pic_url": "https://p3.music.126.net/6ZHMNpolRsh4cA7gNGETuQ==/109951174031882401.jpg",
+    "company": "Colorize (Enhanced)",
+    "sub_type": "Remix",
+    "type": "专辑",
+    "cached_at": 1793293299.9029462
+  },
+  "406315341": {
+    "album_id": "406315341",
+    "album_name": "N5ON",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [],
+    "artist_names": [
+      "BKTHERULA"
+    ],
+    "size": 14,
+    "pic_url": "https://p3.music.126.net/0FYDcHr9j2EKV_HKlxiySg==/109951174179922862.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293301.2599583
+  },
+  "405194862": {
+    "album_id": "405194862",
+    "album_name": "僕等という字 (feat. めろう)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "123326698"
+    ],
+    "artist_names": [
+      "シトドメ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/2q9Ni5I17NgNnqh4yB2ORg==/109951174145204211.jpg",
+    "company": "STODOMEH",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293302.6184094
+  },
+  "406297828": {
+    "album_id": "406297828",
+    "album_name": "rewire",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "130403773"
+    ],
+    "artist_names": [
+      "dogmilk"
+    ],
+    "size": 8,
+    "pic_url": "https://p4.music.126.net/PSQGiiX8dKP3P84Dc6gPeg==/109951174179625487.jpg",
+    "company": "dogmilk",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293305.5655956
+  },
+  "406519588": {
+    "album_id": "406519588",
+    "album_name": "the e in Lextacy",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "48254538",
+      "372622"
+    ],
+    "artist_names": [
+      "Lextacy",
+      "Barker"
+    ],
+    "size": 7,
+    "pic_url": "https://p4.music.126.net/DiaQHbQJ_slON1-spa4SAg==/109951174184972301.jpg",
+    "company": "Lexcann Records, LLC.",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293307.07804,
+    "songs": [
+      {
+        "id": "3454754351",
+        "name": "REMAIN CALM"
+      },
+      {
+        "id": "3454755137",
+        "name": "hiya"
+      },
+      {
+        "id": "3454754352",
+        "name": "chemistry & history"
+      },
+      {
+        "id": "3454755138",
+        "name": "128wu"
+      },
+      {
+        "id": "3454754354",
+        "name": "the e in Lextacy"
+      },
+      {
+        "id": "3454755139",
+        "name": "P!NK P!NK P!NK"
+      },
+      {
+        "id": "3454755140",
+        "name": "it's what if"
+      }
+    ]
+  },
+  "406810114": {
+    "album_id": "406810114",
+    "album_name": "A Classical October: Bach, Chopin & More",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "36490",
+      "33737",
+      "33646",
+      "29976",
+      "231393",
+      "804174",
+      "34225",
+      "33258",
+      "31197139"
+    ],
+    "artist_names": [
+      "Johann Sebastian Bach",
+      "Frédéric François Chopin",
+      "Franz Liszt",
+      "Claude Debussy",
+      "Pyotr Ilyich Tchaikovsky",
+      "Wolfgang Amadeus Mozart",
+      "Gabriel Fauré",
+      "Edvard Grieg",
+      "George frideric Handel"
+    ],
+    "size": 79,
+    "pic_url": "https://p3.music.126.net/c6Gjw4I_mgCzQ5ytc5zaLg==/109951174192230270.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293307.1836016
+  },
+  "402176076": {
+    "album_id": "402176076",
+    "album_name": "Don't Wake Me Up",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "58137790",
+      "13477295"
+    ],
+    "artist_names": [
+      "Ray (ID)",
+      "PRMGH"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/hlNcecEcuRAC8jawh_H-6A==/109951174059155008.jpg",
+    "company": "HQThree Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293308.5322964,
+    "songs": [
+      {
+        "id": "3444319214",
+        "name": "Don't Wake Me Up"
+      }
+    ]
+  },
+  "389484846": {
+    "album_id": "389484846",
+    "album_name": "SOMEWHERE",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "48331498",
+      "36368158"
+    ],
+    "artist_names": [
+      "Lynnic",
+      "ItsArius"
+    ],
+    "size": 12,
+    "pic_url": "https://p3.music.126.net/6mcTbSKvekSeGmKYJYcM7g==/109951173652862463.jpg",
+    "company": "THE NIGHT DRIVE",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293309.916231
+  },
+  "405060922": {
+    "album_id": "405060922",
+    "album_name": "Quartzone Presents: Lorecore Vol. 2",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 13,
+    "pic_url": "https://p4.music.126.net/-zOk9oKurohs9ZqwkcDljw==/109951174142598857.jpg",
+    "company": "Antithesys Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293309.950156
+  },
+  "402260882": {
+    "album_id": "402260882",
+    "album_name": "Nasıl Unuturum Seni",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "124976966"
+    ],
+    "artist_names": [
+      "YNO"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/7V-BOZQFkohF3UcQ40amQg==/109951174062230421.jpg",
+    "company": "YNO",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293311.3233967,
+    "songs": [
+      {
+        "id": "3444513668",
+        "name": "Nasıl Unuturum Seni"
+      }
+    ]
+  },
+  "390778566": {
+    "album_id": "390778566",
+    "album_name": "shipping times and quiet streets",
+    "date_str": "2026-06-08",
+    "publish_ts": 1780848000000,
+    "artist_ids": [
+      "54821119",
+      "53129375"
+    ],
+    "artist_names": [
+      "heavensouls",
+      "Stickerbush"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/l09mkv6Ct6Y4U44yFpn_1Q==/109951173695247667.jpg",
+    "company": "NTS Recordings Ltd",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293312.6819794
+  },
+  "405910426": {
+    "album_id": "405910426",
+    "album_name": "Forever (unspoken Remix)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "54612820"
+    ],
+    "artist_names": [
+      "unspoken"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/4CNLy7kGOTwiJGqzCuIQUQ==/109951174168648982.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293312.7256563,
+    "songs": [
+      {
+        "id": "3453555692",
+        "name": "Forever (unspoken Remix)"
+      }
+    ]
+  },
+  "406471446": {
+    "album_id": "406471446",
+    "album_name": "INDIAN SUMMER",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "1045123",
+      "63446"
+    ],
+    "artist_names": [
+      "Alan Walker",
+      "KIDDO"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/FzwlPTdeVfTo7CQOPlPEFQ==/109951174188939691.jpg",
+    "company": "World of Walker Music",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293314.0803819,
+    "songs": [
+      {
+        "id": "3454652075",
+        "name": "INDIAN SUMMER"
+      }
+    ]
+  },
+  "401170522": {
+    "album_id": "401170522",
+    "album_name": "A Blossom in Autum: A Pondsound Compilation",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 19,
+    "pic_url": "https://p4.music.126.net/6fPhDi4UgP4jOlxFVALGPA==/109951174023320175.jpg",
+    "company": "Pondsound Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293314.1421053
+  },
+  "403604531": {
+    "album_id": "403604531",
+    "album_name": "Medicine (feat. vai5000)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "129118874"
+    ],
+    "artist_names": [
+      "Asterisk4607"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/DcsH0EcOpvD9F8YCtKvecg==/109951174101331038.jpg",
+    "company": "**",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293315.5154152
+  },
+  "404405886": {
+    "album_id": "404405886",
+    "album_name": "WOLFGIRL PRINCESS ANGEL",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "98783630"
+    ],
+    "artist_names": [
+      "sixwing"
+    ],
+    "size": 11,
+    "pic_url": "https://p3.music.126.net/oJ_kTpCsIUX3B31GeKglew==/109951174121425753.jpg",
+    "company": "Ravefurrest",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293317.6115913
+  },
+  "405026104": {
+    "album_id": "405026104",
+    "album_name": "RAGAZZI Records VA Vol. 1",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 5,
+    "pic_url": "https://p3.music.126.net/0H38neQxbFeYBeK5JsDI6w==/109951174141170781.jpg",
+    "company": "RAGAZZI Records",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293318.997512
+  },
+  "400186050": {
+    "album_id": "400186050",
+    "album_name": "Begging For A Host",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "12506160"
+    ],
+    "artist_names": [
+      "We Are Fury"
+    ],
+    "size": 13,
+    "pic_url": "https://p3.music.126.net/X8j-G31vc_UyoaMWF1_gTA==/109951173989588534.jpg",
+    "company": "WE ARE FURY",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293321.8388035,
+    "songs": [
+      {
+        "id": "3440346188",
+        "name": "A Constant of The Human Experience"
+      },
+      {
+        "id": "3440346189",
+        "name": "Begging For A Host (feat. newshapes)"
+      },
+      {
+        "id": "3440348909",
+        "name": "Miracle"
+      },
+      {
+        "id": "3440348910",
+        "name": "Prisoner"
+      },
+      {
+        "id": "3440346190",
+        "name": "Monsters"
+      },
+      {
+        "id": "3440348911",
+        "name": "Wicked Ways"
+      },
+      {
+        "id": "3440348912",
+        "name": "FREAK"
+      },
+      {
+        "id": "3440348913",
+        "name": "Blurry Vision (feat. Liam Geary)"
+      },
+      {
+        "id": "3440348914",
+        "name": "Made For This"
+      },
+      {
+        "id": "3440348915",
+        "name": "Worth Believing In (feat. Travis Moseley)"
+      },
+      {
+        "id": "3440346192",
+        "name": "Friends (feat. Jordan Tariff)"
+      },
+      {
+        "id": "3440346193",
+        "name": "Paralyzed"
+      },
+      {
+        "id": "3440348916",
+        "name": "Drown"
+      }
+    ]
+  },
+  "406174287": {
+    "album_id": "406174287",
+    "album_name": "Dark Shadows Part IX - Burn The Witch",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "136753",
+      "12054367"
+    ],
+    "artist_names": [
+      "Al Storm",
+      "Dark Shadows"
+    ],
+    "size": 15,
+    "pic_url": "https://p4.music.126.net/l8EMDsIPQ-CjKGv2LG3Zpg==/109951174177320809.jpg",
+    "company": "24/7 Hardcore",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293321.8407829
+  },
+  "405202804": {
+    "album_id": "405202804",
+    "album_name": "Dark Shadows Part X - Bloodlines",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "136753",
+      "12054367"
+    ],
+    "artist_names": [
+      "Al Storm",
+      "Dark Shadows"
+    ],
+    "size": 15,
+    "pic_url": "https://p4.music.126.net/E4NdOdSzFqC_9-eDU4_NrQ==/109951174145416597.jpg",
+    "company": "24/7 Hardcore",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293321.86129
+  },
+  "406590593": {
+    "album_id": "406590593",
+    "album_name": "Hurt U",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "53485344",
+      "62130589"
+    ],
+    "artist_names": [
+      "ELcore",
+      "Nightchordz"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/5sZsPX0ovN-igu44KNQOgA==/109951174186518399.jpg",
+    "company": "Polaron Carnival极化子音乐",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293323.2268472,
+    "songs": [
+      {
+        "id": "3454906107",
+        "name": "Hurt U"
+      }
+    ]
+  },
+  "405343334": {
+    "album_id": "405343334",
+    "album_name": "Left Foot Right Foot",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "31871568",
+      "123343618"
+    ],
+    "artist_names": [
+      "CharlieWonder",
+      "Eli Enza"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/D_UA-BXwz0BPIcK8PpmEUQ==/109951174148857307.jpg",
+    "company": "CHARLIE ENZA",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293324.61041,
+    "songs": [
+      {
+        "id": "3452315800",
+        "name": "Left Foot Right Foot"
+      }
+    ]
+  },
+  "391370775": {
+    "album_id": "391370775",
+    "album_name": "Gifts From Heaven",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "32715974"
+    ],
+    "artist_names": [
+      "Metteson"
+    ],
+    "size": 11,
+    "pic_url": "https://p3.music.126.net/XxBgJtiCI_erU_QcSXxT8g==/109951173712641435.jpg",
+    "company": "LEKK",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293326.088866
+  },
+  "405454839": {
+    "album_id": "405454839",
+    "album_name": "FEEL!NGS",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "59379257",
+      "52174984"
+    ],
+    "artist_names": [
+      "timesgone",
+      "aak3"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/BxEIuhzghHfy92p1zn9i-g==/109951174151606067.jpg",
+    "company": "echo cult",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293355.239221,
+    "songs": [
+      {
+        "id": "3452569408",
+        "name": "FEEL!NGS"
+      }
+    ]
+  },
+  "405430996": {
+    "album_id": "405430996",
+    "album_name": "Hardcore Energy",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "743295",
+      "130264570"
+    ],
+    "artist_names": [
+      "G Jones",
+      "Ashelyy"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/-KySUrAi2hy8amw4-4O0wg==/109951174175805532.jpg",
+    "company": "Illusory Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293355.2555068,
+    "songs": [
+      {
+        "id": "3452521645",
+        "name": "Hardcore Energy"
+      }
+    ]
+  },
+  "406393642": {
+    "album_id": "406393642",
+    "album_name": "Blue Moon (The Remixes)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "816461"
+    ],
+    "artist_names": [
+      "Zara Larsson"
+    ],
+    "size": 4,
+    "pic_url": "https://p3.music.126.net/1sdh02Mj_1NHaYV95qOIlA==/109951174182557023.jpg",
+    "company": "索尼音乐",
+    "sub_type": "Remix",
+    "type": "EP",
+    "cached_at": 1793293355.2994323
+  },
+  "406797022": {
+    "album_id": "406797022",
+    "album_name": "KOLLEKTIV.01",
+    "date_str": "2026-10-23",
+    "publish_ts": 1792684800000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 8,
+    "pic_url": "https://p3.music.126.net/NXPZCa-Nr4bklByd0d1Lhw==/109951174191613217.jpg",
+    "company": "TIME RAGE",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293358.2444527
+  },
+  "402843518": {
+    "album_id": "402843518",
+    "album_name": "MUMBAI NIGHTS",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "47518395"
+    ],
+    "artist_names": [
+      "Tej"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/yMdTIHRe-4AMbbol8pprbQ==/109951174080074981.jpg",
+    "company": "Independent",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293359.6210556,
+    "songs": [
+      {
+        "id": "3445685399",
+        "name": "MUMBAI NIGHTS"
+      }
+    ]
+  },
+  "396016296": {
+    "album_id": "396016296",
+    "album_name": "Vigil",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "50966293"
+    ],
+    "artist_names": [
+      "jinkasei"
+    ],
+    "size": 10,
+    "pic_url": "https://p4.music.126.net/069jGkDmtX0fHiFgOgsGdQ==/109951173891123992.jpg",
+    "company": "Nu-LX",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293361.0295963,
+    "songs": [
+      {
+        "id": "3430040188",
+        "name": "Do not grieve"
+      },
+      {
+        "id": "3430040189",
+        "name": "Erasure complex"
+      },
+      {
+        "id": "3430040190",
+        "name": "Broken frame"
+      },
+      {
+        "id": "3430040191",
+        "name": "Withdrawals"
+      },
+      {
+        "id": "3430039493",
+        "name": "Neurotoxica"
+      },
+      {
+        "id": "3430040192",
+        "name": "Numb sex"
+      },
+      {
+        "id": "3430040193",
+        "name": "One more final; I need you"
+      },
+      {
+        "id": "3430039494",
+        "name": "Interlude"
+      },
+      {
+        "id": "3430040194",
+        "name": "Ange déchu"
+      },
+      {
+        "id": "3430040195",
+        "name": "Welcome home"
+      }
+    ]
+  },
+  "403132218": {
+    "album_id": "403132218",
+    "album_name": "CATHARSIS",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "33059351"
+    ],
+    "artist_names": [
+      "REAPER"
+    ],
+    "size": 8,
+    "pic_url": "https://p4.music.126.net/yqgXNrSyeJYlAUzIiGFrmw==/109951174153782008.jpg",
+    "company": "Bassrush Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293362.388248,
+    "songs": [
+      {
+        "id": "3446224802",
+        "name": "SUNLIGHT"
+      },
+      {
+        "id": "3446224803",
+        "name": "WHY CAN'T U STAY"
+      },
+      {
+        "id": "3446224804",
+        "name": "SUFFOCATING (with Adalaide Adams)"
+      },
+      {
+        "id": "3446224023",
+        "name": "BURN"
+      },
+      {
+        "id": "3446224805",
+        "name": "TAKE FLIGHT"
+      },
+      {
+        "id": "3446224806",
+        "name": "ILFTR"
+      },
+      {
+        "id": "3446224024",
+        "name": "SHOW ME WHAT YOU GOT"
+      },
+      {
+        "id": "3446224807",
+        "name": "SHATTERED"
+      }
+    ]
+  },
+  "403131304": {
+    "album_id": "403131304",
+    "album_name": "BONEYARD",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "33059351"
+    ],
+    "artist_names": [
+      "REAPER"
+    ],
+    "size": 19,
+    "pic_url": "https://p4.music.126.net/H2CVhgjzknmNmHK8VNadTg==/109951174148223206.jpg",
+    "company": "Bassrush Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293362.4279938,
+    "songs": [
+      {
+        "id": "3446224097",
+        "name": "AMBUSH"
+      },
+      {
+        "id": "3446224098",
+        "name": "ANVIL"
+      },
+      {
+        "id": "3446224878",
+        "name": "SLEDGEHAMMER"
+      },
+      {
+        "id": "3446224099",
+        "name": "TWILIGHT"
+      },
+      {
+        "id": "3446224879",
+        "name": "DUST ENGINE"
+      },
+      {
+        "id": "3446224880",
+        "name": "SHREDDER"
+      },
+      {
+        "id": "3446224881",
+        "name": "SWEET TALKER"
+      },
+      {
+        "id": "3446224100",
+        "name": "AFTERGLOW"
+      },
+      {
+        "id": "3446224882",
+        "name": "SHOCK COLLAR"
+      },
+      {
+        "id": "3446224884",
+        "name": "WHAT THE PHONK"
+      },
+      {
+        "id": "3446224101",
+        "name": "LOCKED"
+      },
+      {
+        "id": "3446224102",
+        "name": "SUNLIGHT"
+      },
+      {
+        "id": "3446224103",
+        "name": "WHY CAN'T U STAY"
+      },
+      {
+        "id": "3446224885",
+        "name": "SUFFOCATING (with Adalaide Adams)"
+      },
+      {
+        "id": "3446224886",
+        "name": "BURN"
+      },
+      {
+        "id": "3446224104",
+        "name": "TAKE FLIGHT"
+      },
+      {
+        "id": "3446224887",
+        "name": "ILFTR"
+      },
+      {
+        "id": "3446224105",
+        "name": "SHOW ME WHAT YOU GOT"
+      },
+      {
+        "id": "3446224888",
+        "name": "SHATTERED"
+      }
+    ]
+  },
+  "406052109": {
+    "album_id": "406052109",
+    "album_name": "Beachday (feat. JoishGd)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "57622804"
+    ],
+    "artist_names": [
+      "Clord"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/akUSU4m2oVOiLi4tkZUafQ==/109951174173768761.jpg",
+    "company": "7371641 Records DK2",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293364.5142534,
+    "songs": [
+      {
+        "id": "3453842411",
+        "name": "Beachday (feat. JoishGd)"
+      }
+    ]
+  },
+  "406261993": {
+    "album_id": "406261993",
+    "album_name": "JUST FOR NOW",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "95039775"
+    ],
+    "artist_names": [
+      "miocene memorial garden"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/NxvO90xIepaJpUupw-X29A==/109951174178806398.jpg",
+    "company": "cash",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293364.5289643,
+    "songs": [
+      {
+        "id": "3454245763",
+        "name": "JUST FOR NOW"
+      }
+    ]
+  },
+  "406435552": {
+    "album_id": "406435552",
+    "album_name": "Without God: Season XV",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 25,
+    "pic_url": "https://p4.music.126.net/RW0-DfKsolofC4LQD52gYQ==/109951174183293288.jpg",
+    "company": "Interval Audio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293364.531172
+  },
+  "404157994": {
+    "album_id": "404157994",
+    "album_name": "Anemoia (feat. Clord)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "61832576"
+    ],
+    "artist_names": [
+      "JoishGd"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/oWu2u-v-wxSHaBdi-4c9Sw==/109951174113790661.jpg",
+    "company": "Borealis",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293364.5463562
+  },
+  "405717184": {
+    "album_id": "405717184",
+    "album_name": "WITH ME (Crankdat Remix)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "13753262",
+      "33939623",
+      "12006283"
+    ],
+    "artist_names": [
+      "John Summit",
+      "Julia Wolf",
+      "Crankdat"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/C4Y4Ee0dA10-IQeAgIOaHQ==/109951174183149276.jpg",
+    "company": "Experts Only/Darkroom Records",
+    "sub_type": "Remix",
+    "type": "Single",
+    "cached_at": 1793293365.8925214,
+    "songs": [
+      {
+        "id": "3453098520",
+        "name": "WITH ME (Crankdat Remix)"
+      }
+    ]
+  },
+  "406769620": {
+    "album_id": "406769620",
+    "album_name": "Antigone (Original Theatrical Score)",
+    "date_str": "2026-10-25",
+    "publish_ts": 1792857600000,
+    "artist_ids": [
+      "67303"
+    ],
+    "artist_names": [
+      "Monika"
+    ],
+    "size": 11,
+    "pic_url": "https://p4.music.126.net/ZB4ZtRiyO9zuYw7h33glBA==/109951174190757483.jpg",
+    "company": "Royal Music",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293368.7619016
+  },
+  "404155091": {
+    "album_id": "404155091",
+    "album_name": "I'm the Devil",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "28721711"
+    ],
+    "artist_names": [
+      "Neon Mitsumi"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/QK6NDMbE8BoPigLMxndzxA==/109951174113714958.jpg",
+    "company": "The House of Mitsumi",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293370.1225393,
+    "songs": [
+      {
+        "id": "3448862969",
+        "name": "I'm the Devil"
+      },
+      {
+        "id": "3448862386",
+        "name": "I'm the Devil (Radio Edit)"
+      },
+      {
+        "id": "3448862387",
+        "name": "I'm the Devil (Extended Mix)"
+      }
+    ]
+  },
+  "399565856": {
+    "album_id": "399565856",
+    "album_name": "Bad Ones",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "371199"
+    ],
+    "artist_names": [
+      "Dan Guidance"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/ySDZ0Lh3HHX_aS-KIYAtpg==/109951173973383415.jpg",
+    "company": "Lizplay Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293370.1327052,
+    "songs": [
+      {
+        "id": "3439093746",
+        "name": "Bad Ones"
+      }
+    ]
+  },
+  "399187080": {
+    "album_id": "399187080",
+    "album_name": "Real Pop Music",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "142689"
+    ],
+    "artist_names": [
+      "PVC"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/xludL2qnbZQGS0YH_f6Y1Q==/109951173962463767.jpg",
+    "company": "Wild Cove Recordings Ltd",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293372.1937869,
+    "songs": [
+      {
+        "id": "3438176284",
+        "name": "Real Pop Music"
+      }
+    ]
+  },
+  "406799909": {
+    "album_id": "406799909",
+    "album_name": "Best Of 2026",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 75,
+    "pic_url": "https://p4.music.126.net/IGXwaLmDQGQ14F2Xs6kzEg==/109951174191706428.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "精选集",
+    "cached_at": 1793293373.3707683
+  },
+  "405514272": {
+    "album_id": "405514272",
+    "album_name": "Smashing Pumpkins",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "95601830",
+      "35044",
+      "12214071"
+    ],
+    "artist_names": [
+      "Psy Trance Mafia",
+      "Infected Mushroom",
+      "Blastoyz"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/ZB6YaxUHSiGUsRKe0GYufA==/109951174153929384.jpg",
+    "company": "Monstercat",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293374.7059948,
+    "songs": [
+      {
+        "id": "3452673251",
+        "name": "Smashing Pumpkins"
+      }
+    ]
+  },
+  "404223950": {
+    "album_id": "404223950",
+    "album_name": "Frozen Tears",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "15673"
+    ],
+    "artist_names": [
+      "清水達也"
+    ],
+    "size": 8,
+    "pic_url": "https://p3.music.126.net/aX66FJaiswMCSqHChmltqQ==/109951174116328260.jpg",
+    "company": "TatshMusicCircle",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293374.7343352,
+    "songs": [
+      {
+        "id": "3449035779",
+        "name": "ローゼンヴァルトの館"
+      },
+      {
+        "id": "3449035856",
+        "name": "Frozen Tears"
+      },
+      {
+        "id": "3449035854",
+        "name": "沈黙するガジェット"
+      },
+      {
+        "id": "3449035857",
+        "name": "ループする迷宮"
+      },
+      {
+        "id": "3449035780",
+        "name": "蒼月の広間"
+      },
+      {
+        "id": "3449035858",
+        "name": "記憶の棘"
+      },
+      {
+        "id": "3449035855",
+        "name": "白銀のワルツ"
+      },
+      {
+        "id": "3449035782",
+        "name": "メリーバッドエンド"
+      }
+    ]
+  },
+  "401087526": {
+    "album_id": "401087526",
+    "album_name": "I Want You To Be",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49845242"
+    ],
+    "artist_names": [
+      "Low Mileage"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/wdQl9PiNSKsxwhfFj7oFDw==/109951174150199052.jpg",
+    "company": "Dark Roast Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293374.749079,
+    "songs": [
+      {
+        "id": "3442161837",
+        "name": "I Want You To Be"
+      }
+    ]
+  },
+  "406674088": {
+    "album_id": "406674088",
+    "album_name": "names",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "34250531"
+    ],
+    "artist_names": [
+      "grape milk"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/qsxbk57F-OlaW2qPOifeZw==/109951174188750625.jpg",
+    "company": "Interval Audio",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293376.8117442,
+    "songs": [
+      {
+        "id": "3455038869",
+        "name": "names"
+      }
+    ]
+  },
+  "395964376": {
+    "album_id": "395964376",
+    "album_name": "Give Me",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "12627390",
+      "56137429"
+    ],
+    "artist_names": [
+      "Luke Bergs",
+      "Waesto"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/7_Twq8qSDHVJF6Q7Cnm-FQ==/109951173870483536.jpg",
+    "company": "Luke Bergs",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293376.8314123,
+    "songs": [
+      {
+        "id": "3429859978",
+        "name": "Give Me"
+      }
+    ]
+  },
+  "403823926": {
+    "album_id": "403823926",
+    "album_name": "home (Deluxe)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "33735200"
+    ],
+    "artist_names": [
+      "glasse"
+    ],
+    "size": 13,
+    "pic_url": "https://p4.music.126.net/EYm_XI-m9svLQNu3SiN9xQ==/109951174106184585.jpg",
+    "company": "glasse",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293378.2387125,
+    "songs": [
+      {
+        "id": "3447928148",
+        "name": "cathedral wash // home"
+      },
+      {
+        "id": "3447927295",
+        "name": "heaven will be yours // i watched you touch it"
+      },
+      {
+        "id": "3447928149",
+        "name": "i found a place where you belong // it's nowhere special, just wherever you are"
+      },
+      {
+        "id": "3447928150",
+        "name": "trying to fall forever"
+      },
+      {
+        "id": "3447928151",
+        "name": "cathedral wash // home (\"two spirits\" vocal mix)"
+      },
+      {
+        "id": "3447927296",
+        "name": "heaven will be yours (edoken & glasse Arrangement)"
+      },
+      {
+        "id": "3447927297",
+        "name": "i found a place where you belong (Hallow Remix)"
+      },
+      {
+        "id": "3447928152",
+        "name": "cathedral wash // home (Paark Remix)"
+      },
+      {
+        "id": "3447927298",
+        "name": "heaven will be yours (Blooming Disaster Remix)"
+      },
+      {
+        "id": "3447928153",
+        "name": "i found a place where you belong (Flay! Remix)"
+      },
+      {
+        "id": "3447927299",
+        "name": "heaven will be yours (AT4G Remix)"
+      },
+      {
+        "id": "3447927300",
+        "name": "i found a place where you belong (Rachika Nayar Remix)"
+      },
+      {
+        "id": "3447928154",
+        "name": "cathedral wash // home (acloudyskye & EJEAN Remix)"
+      }
+    ]
+  },
+  "406798796": {
+    "album_id": "406798796",
+    "album_name": "Glitter (Deluxe Edition)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [],
+    "artist_names": [
+      "Mariah Carey"
+    ],
+    "size": 27,
+    "pic_url": "https://p4.music.126.net/bkzmLX36nEZ9cr6Q5YXhSQ==/109951174191675453.jpg",
+    "company": "Mariah Carey - Glitter 25th Anniversary",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293380.4507914
+  },
+  "405838141": {
+    "album_id": "405838141",
+    "album_name": "MORBID DISORDER",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "121314943",
+      "48197438"
+    ],
+    "artist_names": [
+      "KIOR",
+      "Poppy"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/4y7r2tQ4ZgkUC8PLn2eVKQ==/109951174164416117.jpg",
+    "company": "10897535 Records DK2",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293382.4833932,
+    "songs": [
+      {
+        "id": "3453361005",
+        "name": "MORBID DISORDER"
+      }
+    ]
+  },
+  "403558977": {
+    "album_id": "403558977",
+    "album_name": "KROUNCY",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "139102"
+    ],
+    "artist_names": [
+      "Krause"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/j3V9o2P-AmLF_twOQjdpTA==/109951174100439587.jpg",
+    "company": "Krause",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293382.5014293,
+    "songs": [
+      {
+        "id": "3447276439",
+        "name": "KROUNCY"
+      }
+    ]
+  },
+  "403071134": {
+    "album_id": "403071134",
+    "album_name": "Gravity",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "36575447",
+      "52861002",
+      "48138068"
+    ],
+    "artist_names": [
+      "STAR SEED",
+      "VNDETTA",
+      "HYMNALS"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/nheKZX3PmSrfLQIkBGJA3g==/109951174085313543.jpg",
+    "company": "Ophelia Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293382.5020175,
+    "songs": [
+      {
+        "id": "3446128565",
+        "name": "Gravity"
+      }
+    ]
+  },
+  "402373913": {
+    "album_id": "402373913",
+    "album_name": "FADEBACK",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "12388139"
+    ],
+    "artist_names": [
+      "Bassti"
+    ],
+    "size": 6,
+    "pic_url": "https://p3.music.126.net/J-O0mhGKhnTm3yDmX881TQ==/109951174066047298.jpg",
+    "company": "blau.archive",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293382.5221589,
+    "songs": [
+      {
+        "id": "3444745238",
+        "name": "HOWMANYWAYS"
+      },
+      {
+        "id": "3444744506",
+        "name": "ROCK RIDER_TAPEDECK"
+      },
+      {
+        "id": "3444745239",
+        "name": "APPRECIATE_U"
+      },
+      {
+        "id": "3444745241",
+        "name": "ONTHEWINDOW"
+      },
+      {
+        "id": "3444745242",
+        "name": "ABSTINENT"
+      },
+      {
+        "id": "3444744507",
+        "name": "CAMILLA"
+      }
+    ]
+  },
+  "404959504": {
+    "album_id": "404959504",
+    "album_name": "Paris Funky House Hits 2026",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/s9NKqOw0_npgLatXZk5FOQ==/109951174139574359.jpg",
+    "company": "Fashion Deep",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293383.9859936
+  },
+  "405434440": {
+    "album_id": "405434440",
+    "album_name": "SIDEQUEST",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "13979983",
+      "36935859"
+    ],
+    "artist_names": [
+      "Mind Compressor",
+      "Opgekonkerd"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/ajlGwpjDJO8CTxBHMzd3Ig==/109951174150908317.jpg",
+    "company": "Opgekonkerd Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293386.768369,
+    "songs": [
+      {
+        "id": "3452526806",
+        "name": "SIDEQUEST"
+      }
+    ]
+  },
+  "405484082": {
+    "album_id": "405484082",
+    "album_name": "In The Night Again",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "858282"
+    ],
+    "artist_names": [
+      "MK"
+    ],
+    "size": 16,
+    "pic_url": "https://p4.music.126.net/aO3kiIvNgSA1KOlOjGUPlQ==/109951174153279116.jpg",
+    "company": "索尼音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293388.158417,
+    "songs": [
+      {
+        "id": "3452621475",
+        "name": "Choice"
+      },
+      {
+        "id": "3452621476",
+        "name": "Dior"
+      },
+      {
+        "id": "3452622345",
+        "name": "Leaving"
+      },
+      {
+        "id": "3452621477",
+        "name": "Zone"
+      },
+      {
+        "id": "3452622346",
+        "name": "Better"
+      },
+      {
+        "id": "3452622347",
+        "name": "On My Mind"
+      },
+      {
+        "id": "3452621478",
+        "name": "Chemical"
+      },
+      {
+        "id": "3452621479",
+        "name": "17"
+      },
+      {
+        "id": "3452621480",
+        "name": "Come Find Me"
+      },
+      {
+        "id": "3452622348",
+        "name": "Obsession (feat. Ty Dolla $ign)"
+      },
+      {
+        "id": "3452621481",
+        "name": "Piece of Me"
+      },
+      {
+        "id": "3452622349",
+        "name": "I Can Be (Stronger)"
+      },
+      {
+        "id": "3452621482",
+        "name": "Asking"
+      },
+      {
+        "id": "3452622350",
+        "name": "Rhyme Dust"
+      },
+      {
+        "id": "3452621483",
+        "name": "Back & Forth"
+      },
+      {
+        "id": "3452622351",
+        "name": "One Night"
+      }
+    ]
+  },
+  "404404219": {
+    "album_id": "404404219",
+    "album_name": "SILK SCARF (Chris Lake Remix)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "78301",
+      "56210223",
+      "30013"
+    ],
+    "artist_names": [
+      "Tiga",
+      "Fcukers",
+      "Chris Lake"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/u2tfZWvHMq569F-PjMiJoA==/109951174157064238.jpg",
+    "company": "Secret City Records",
+    "sub_type": "Remix",
+    "type": "Single",
+    "cached_at": 1793293389.4943883,
+    "songs": [
+      {
+        "id": "3449560906",
+        "name": "SILK SCARF (Chris Lake Remix)"
+      },
+      {
+        "id": "3449560481",
+        "name": "SILK SCARF"
+      }
+    ]
+  },
+  "404108001": {
+    "album_id": "404108001",
+    "album_name": "Bassface",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "787056",
+      "49625922"
+    ],
+    "artist_names": [
+      "Teddy Killerz",
+      "Rouman"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/dNzzADOONP24VGHmiJcJxQ==/109951174112396242.jpg",
+    "company": "BEASTMODE",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293389.505252,
+    "songs": [
+      {
+        "id": "3448735358",
+        "name": "Bassface"
+      }
+    ]
+  },
+  "404053867": {
+    "album_id": "404053867",
+    "album_name": "Plastic Love (Cover)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "96586021",
+      "48302737"
+    ],
+    "artist_names": [
+      "輝きノスタルジア",
+      "電音部"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/hVJTDHjOa6yUnRfC87b5Lw==/109951174111280777.jpg",
+    "company": "ILCA,Inc",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293392.2650225,
+    "songs": [
+      {
+        "id": "3448556380",
+        "name": "Plastic Love (Cover)"
+      }
+    ]
+  },
+  "405568350": {
+    "album_id": "405568350",
+    "album_name": "Lunar in Daylight ～昼のミラーボール～",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "48302737"
+    ],
+    "artist_names": [
+      "電音部"
+    ],
+    "size": 2,
+    "pic_url": "https://p3.music.126.net/sntNnwxzf5Vw6ebOLhiGMA==/109951174154898160.jpg",
+    "company": "ASOBINOTES",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293392.2677388,
+    "songs": [
+      {
+        "id": "3452771483",
+        "name": "Lunar in Daylight ～昼のミラーボール～"
+      },
+      {
+        "id": "3452773960",
+        "name": "Lunar in Daylight ～昼のミラーボール～[Instrumental]"
+      }
+    ]
+  },
+  "406331606": {
+    "album_id": "406331606",
+    "album_name": "VDVDERZ",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "12671984",
+      "29860989"
+    ],
+    "artist_names": [
+      "Invaderz",
+      "VDV"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/V1AbGmbcBSXQUR5b1rlk4A==/109951174180390716.jpg",
+    "company": "Independent",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293393.6376212,
+    "songs": [
+      {
+        "id": "3454391469",
+        "name": "VDVDERZ"
+      }
+    ]
+  },
+  "404845642": {
+    "album_id": "404845642",
+    "album_name": "Darkness",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "150701",
+      "1087681"
+    ],
+    "artist_names": [
+      "E-Force",
+      "Unresolved"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/x7EvNLSHZuwKoj-j2VpJ8Q==/109951174136977186.jpg",
+    "company": "SEVEN Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293393.64635,
+    "songs": [
+      {
+        "id": "3451169826",
+        "name": "Darkness"
+      }
+    ]
+  },
+  "406794128": {
+    "album_id": "406794128",
+    "album_name": "TECHNO TOP 100 CLASSICS - THE BIGGEST HIT COLLECTION",
+    "date_str": "2026-09-18",
+    "publish_ts": 1789660800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 61,
+    "pic_url": "https://p3.music.126.net/yQvqViwawbcmFCwJmGuV1A==/109951174191505741.jpg",
+    "company": "More Music and Media GmbH & Co KG",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293393.7864408
+  },
+  "403130905": {
+    "album_id": "403130905",
+    "album_name": "CATALYST",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "33059351"
+    ],
+    "artist_names": [
+      "REAPER"
+    ],
+    "size": 4,
+    "pic_url": "https://p4.music.126.net/IOgRIP78LkPCdbJY8SVNjw==/109951174153786828.jpg",
+    "company": "Bassrush Records",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293395.1813877,
+    "songs": [
+      {
+        "id": "3446222397",
+        "name": "AFTERGLOW"
+      },
+      {
+        "id": "3446222398",
+        "name": "SHOCK COLLAR"
+      },
+      {
+        "id": "3446221615",
+        "name": "WHAT THE PHONK"
+      },
+      {
+        "id": "3446221616",
+        "name": "LOCKED"
+      }
+    ]
+  },
+  "403129963": {
+    "album_id": "403129963",
+    "album_name": "COMMUNION",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "33059351"
+    ],
+    "artist_names": [
+      "REAPER"
+    ],
+    "size": 7,
+    "pic_url": "https://p3.music.126.net/KKyxiyhR0GdulP2qMhfNpQ==/109951174153815991.jpg",
+    "company": "Bassrush Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293395.1925867,
+    "songs": [
+      {
+        "id": "3446221649",
+        "name": "AMBUSH"
+      },
+      {
+        "id": "3446221650",
+        "name": "ANVIL"
+      },
+      {
+        "id": "3446222421",
+        "name": "SLEDGEHAMMER"
+      },
+      {
+        "id": "3446222422",
+        "name": "TWILIGHT"
+      },
+      {
+        "id": "3446222423",
+        "name": "DUST ENGINE"
+      },
+      {
+        "id": "3446222424",
+        "name": "SHREDDER"
+      },
+      {
+        "id": "3446222425",
+        "name": "SWEET TALKER"
+      }
+    ]
+  },
+  "406307401": {
+    "album_id": "406307401",
+    "album_name": "sounding周末 VOL.18@Dirty Palm",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "127612800",
+      "48436890"
+    ],
+    "artist_names": [
+      "sounding长沙",
+      "Taisheng Music"
+    ],
+    "size": 17,
+    "pic_url": "https://p4.music.126.net/A6ug73lL314LqK6ZDrDp5g==/109951174179727755.jpg",
+    "company": "sounding X Taisheng Music",
+    "sub_type": "现场版",
+    "type": "专辑",
+    "cached_at": 1793293395.2027998,
+    "songs": [
+      {
+        "id": "3454338132",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 01"
+      },
+      {
+        "id": "3454338133",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 02"
+      },
+      {
+        "id": "3454337731",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 03"
+      },
+      {
+        "id": "3454337732",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 04"
+      },
+      {
+        "id": "3454337733",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 05"
+      },
+      {
+        "id": "3454338134",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 06"
+      },
+      {
+        "id": "3454338135",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 07"
+      },
+      {
+        "id": "3454338136",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 08"
+      },
+      {
+        "id": "3454337734",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 09"
+      },
+      {
+        "id": "3454338137",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 10"
+      },
+      {
+        "id": "3454337735",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 11"
+      },
+      {
+        "id": "3454338138",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 12"
+      },
+      {
+        "id": "3454338139",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 13"
+      },
+      {
+        "id": "3454338140",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 14"
+      },
+      {
+        "id": "3454337736",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 15"
+      },
+      {
+        "id": "3454338141",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 16"
+      },
+      {
+        "id": "3454338142",
+        "name": "sounding周末 VOL.18 @ Dirty Palm SET 17"
+      }
+    ]
+  },
+  "403941335": {
+    "album_id": "403941335",
+    "album_name": "A State of Trance 25 Years - 2020 Highlights",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 39,
+    "pic_url": "https://p3.music.126.net/6R2XLxi3se2P08p4iqfZLA==/109951174108490768.jpg",
+    "company": "A State of Trance",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293395.2527122
+  },
+  "404447044": {
+    "album_id": "404447044",
+    "album_name": "LONDRA",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "34718520",
+      "14099020"
+    ],
+    "artist_names": [
+      "Kara",
+      "Darta"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/B3Ru-q69VUvxJ4AJ61UMtw==/109951174122182937.jpg",
+    "company": "Kara",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293396.6024406,
+    "songs": [
+      {
+        "id": "3449685979",
+        "name": "LONDRA"
+      }
+    ]
+  },
+  "403088173": {
+    "album_id": "403088173",
+    "album_name": "KABOOM",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "193558"
+    ],
+    "artist_names": [
+      "Space Laces"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/jACKOH0ynbBSokaqlGS8qg==/109951174085609417.jpg",
+    "company": "High Vaultage",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293397.9504526,
+    "songs": [
+      {
+        "id": "3446151038",
+        "name": "KABOOM"
+      }
+    ]
+  },
+  "405261311": {
+    "album_id": "405261311",
+    "album_name": "Throw Sum Mo' (feat. CREG, Karra)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "12279407",
+      "35921266",
+      "127739556",
+      "1081582"
+    ],
+    "artist_names": [
+      "YDG",
+      "Flozone",
+      "CREG",
+      "Karra"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/jV8WpUuOxiA4rPf01y3P_Q==/109951174147161309.jpg",
+    "company": "YDG",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293399.2948387,
+    "songs": [
+      {
+        "id": "3452156140",
+        "name": "Throw Sum Mo' (feat. CREG, Karra)"
+      }
+    ]
+  },
+  "404108044": {
+    "album_id": "404108044",
+    "album_name": "You Want Me",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "28676397"
+    ],
+    "artist_names": [
+      "MK (JPN)",
+      "Kanae Asaba"
+    ],
+    "size": 2,
+    "pic_url": "https://p3.music.126.net/m_8t2MMnpOu_s6Clbe7BhQ==/109951174112401614.jpg",
+    "company": "Fenmie Music",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293399.3140814,
+    "songs": [
+      {
+        "id": "3448735877",
+        "name": "You Want Me"
+      },
+      {
+        "id": "3448735878",
+        "name": "You Want Me (Extended Mix)"
+      }
+    ]
+  },
+  "405687811": {
+    "album_id": "405687811",
+    "album_name": "TokioGlitch",
+    "date_str": "2026-10-22",
+    "publish_ts": 1792598400000,
+    "artist_ids": [
+      "130310217"
+    ],
+    "artist_names": [
+      "NeonXtime"
+    ],
+    "size": 4,
+    "pic_url": "https://p4.music.126.net/sLSaXohMMJpYTK22UdTjtw==/109951174158460020.jpg",
+    "company": "Freddy Label",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293400.7196186
+  },
+  "403037292": {
+    "album_id": "403037292",
+    "album_name": "Dolphin",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "44234"
+    ],
+    "artist_names": [
+      "Solarstone"
+    ],
+    "size": 2,
+    "pic_url": "https://p3.music.126.net/5jnEcwTDbV7M20-h__NcpA==/109951174084109033.jpg",
+    "company": "Black Hole Recordings",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293400.7247524,
+    "songs": [
+      {
+        "id": "3446065890",
+        "name": "Dolphin"
+      },
+      {
+        "id": "3446065581",
+        "name": "Dolphin (Extended Mix)"
+      }
+    ]
+  },
+  "404800824": {
+    "album_id": "404800824",
+    "album_name": "Pure Vocal Trance Vol. 3 (Mixed by Roan Gosling)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "56593376"
+    ],
+    "artist_names": [
+      "Roan Gosling"
+    ],
+    "size": 10,
+    "pic_url": "https://p4.music.126.net/Q49TbtWgF1bnGOVPK-XOXA==/109951174135700050.jpg",
+    "company": "Magical Comps",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293400.7368941
+  },
+  "396769260": {
+    "album_id": "396769260",
+    "album_name": "Summer Of Me",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "51320834",
+      "49328553"
+    ],
+    "artist_names": [
+      "Sean Ven",
+      "learnZmore",
+      "Alita"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/eOCIEU6Hzhc52rAeTUTMfQ==/109951173890018635.jpg",
+    "company": "Stardust",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293402.2496488,
+    "songs": [
+      {
+        "id": "3431873179",
+        "name": "Summer Of Me"
+      }
+    ]
+  },
+  "404187677": {
+    "album_id": "404187677",
+    "album_name": "Trance Therapy Episode 044",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "12279233",
+      "54815335"
+    ],
+    "artist_names": [
+      "ThoBa",
+      "Suanda Music"
+    ],
+    "size": 16,
+    "pic_url": "https://p4.music.126.net/DF9ufKPdyftgkQBibhE3Cg==/109951174115619058.jpg",
+    "company": "Trance Therapy Radio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293402.3379178
+  },
+  "402270311": {
+    "album_id": "402270311",
+    "album_name": "421 (killed me yesterday)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "34318",
+      "56225401",
+      "1192108"
+    ],
+    "artist_names": [
+      "Gareth Emery",
+      "LSR/CITY",
+      "Annabel"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/eKsiAOGNhgJcBr25NDP5Ew==/109951174062888585.jpg",
+    "company": "emotional intelligence",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293403.71008,
+    "songs": [
+      {
+        "id": "3444533565",
+        "name": "421 (killed me yesterday)"
+      }
+    ]
+  },
+  "402751487": {
+    "album_id": "402751487",
+    "album_name": "ブレイザードライブ DS オリジナルサウンドトラック",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "99158074",
+      "614442"
+    ],
+    "artist_names": [
+      "SEGA GAME MUSIC",
+      "SEGA Sound Team"
+    ],
+    "size": 35,
+    "pic_url": "https://p4.music.126.net/gqNilCZCqEd9dPFpCUe6aw==/109951174075969440.jpg",
+    "company": "SEGA",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293403.7969282,
+    "songs": [
+      {
+        "id": "3445468724",
+        "name": "Blaze Out!"
+      },
+      {
+        "id": "3445469553",
+        "name": "トウキョウ２０XX"
+      },
+      {
+        "id": "3445469554",
+        "name": "シブヤ００３"
+      },
+      {
+        "id": "3445469556",
+        "name": "MYSTICKER BATTLE #1"
+      },
+      {
+        "id": "3445468725",
+        "name": "フェンリル指令室"
+      },
+      {
+        "id": "3445469557",
+        "name": "MYSTICKERストレージ"
+      },
+      {
+        "id": "3445468726",
+        "name": "ガーディアン出撃！"
+      },
+      {
+        "id": "3445468727",
+        "name": "路地裏の夕日"
+      },
+      {
+        "id": "3445469558",
+        "name": "ブレイザーの休日"
+      },
+      {
+        "id": "3445469559",
+        "name": "ナゾ生物ペッタン"
+      },
+      {
+        "id": "3445469560",
+        "name": "魂を燃やせ！"
+      },
+      {
+        "id": "3445468728",
+        "name": "MYSTICKER BATTLE #2"
+      },
+      {
+        "id": "3445468729",
+        "name": "セントラルフォール"
+      },
+      {
+        "id": "3445468730",
+        "name": "空中草原"
+      },
+      {
+        "id": "3445469561",
+        "name": "桃色楽園"
+      },
+      {
+        "id": "3445469562",
+        "name": "太陽の神殿"
+      },
+      {
+        "id": "3445469563",
+        "name": "NEXT四帝王"
+      },
+      {
+        "id": "3445469564",
+        "name": "信じあう仲間"
+      },
+      {
+        "id": "3445468731",
+        "name": "氷結公園"
+      },
+      {
+        "id": "3445469565",
+        "name": "ヴォルガニク"
+      },
+      {
+        "id": "3445469566",
+        "name": "孤独な心"
+      },
+      {
+        "id": "3445469567",
+        "name": "NEXTの野望"
+      },
+      {
+        "id": "3445468732",
+        "name": "MYSTICKER BATTLE #3"
+      },
+      {
+        "id": "3445469568",
+        "name": "ハロー！メグちゃんワールド"
+      },
+      {
+        "id": "3445468733",
+        "name": "デスクトップロード"
+      },
+      {
+        "id": "3445468734",
+        "name": "ウィングオブジアース"
+      },
+      {
+        "id": "3445469569",
+        "name": "閉鎖地域"
+      },
+      {
+        "id": "3445468735",
+        "name": "MYSTICKER BATTLE #4"
+      },
+      {
+        "id": "3445468736",
+        "name": "地下６６６階"
+      },
+      {
+        "id": "3445468737",
+        "name": "グランナーク"
+      },
+      {
+        "id": "3445469570",
+        "name": "天のMYSTICKER"
+      },
+      {
+        "id": "3445468738",
+        "name": "別離"
+      },
+      {
+        "id": "3445468739",
+        "name": "絆"
+      },
+      {
+        "id": "3445469571",
+        "name": "Blaze Out! (Opening Version)"
+      },
+      {
+        "id": "3445468740",
+        "name": "Blaze Out! (Instrumental)"
+      }
+    ]
+  },
+  "406801477": {
+    "album_id": "406801477",
+    "album_name": "Persiste",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "33395"
+    ],
+    "artist_names": [
+      "Ferry Corsten"
+    ],
+    "size": 4,
+    "pic_url": "https://p3.music.126.net/BSiZQEPVyI7m5eUyegozkg==/109951174191751205.jpg",
+    "company": "Flashover Recordings",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293405.1625717,
+    "songs": [
+      {
+        "id": "3455318498",
+        "name": "Persiste (Full Extended)"
+      },
+      {
+        "id": "3455318500",
+        "name": "Persiste (Intro Extended)"
+      },
+      {
+        "id": "3455318501",
+        "name": "Persiste (Outro Extended)"
+      },
+      {
+        "id": "3455320998",
+        "name": "Persiste (Edit)"
+      }
+    ]
+  },
+  "405793726": {
+    "album_id": "405793726",
+    "album_name": "BOOMBA",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "816176"
+    ],
+    "artist_names": [
+      "Massive New Krew"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/aF1FoRGU-elore1reUYgLQ==/109951174162123740.jpg",
+    "company": "HARDCORE TANO*C",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293405.2443502,
+    "songs": [
+      {
+        "id": "3453251450",
+        "name": "BOOMBA"
+      }
+    ]
+  },
+  "406185645": {
+    "album_id": "406185645",
+    "album_name": "教えてDOCTOR",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "96117788",
+      "1141075"
+    ],
+    "artist_names": [
+      "44e-prone",
+      "重音テト"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/L6iQ5XprO_LqW36dsCeHGQ==/109951174177626501.jpg",
+    "company": "44e-prone",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293406.6796324,
+    "songs": [
+      {
+        "id": "3454124206",
+        "name": "教えてDOCTOR"
+      }
+    ]
+  },
+  "404984231": {
+    "album_id": "404984231",
+    "album_name": "aurantium (feat. 重音テト)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "129565391"
+    ],
+    "artist_names": [
+      "(有)陽滲"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/u4_35A1C4GRlyq4OHj-ZfA==/109951174140094239.jpg",
+    "company": "Yoshin",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293406.7007878
+  },
+  "404829889": {
+    "album_id": "404829889",
+    "album_name": "poet (feat. 重音テト)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "129015088"
+    ],
+    "artist_names": [
+      "gin"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/jS5ql4VdB3XQf-qjwGtFuQ==/109951174136473426.jpg",
+    "company": "kakigorey Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293406.705899
+  },
+  "386053783": {
+    "album_id": "386053783",
+    "album_name": "LET THE LIGHT IN!",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "145038"
+    ],
+    "artist_names": [
+      "Chris James"
+    ],
+    "size": 8,
+    "pic_url": "https://p4.music.126.net/nX1L9yKWIShyVMMA3cY4jQ==/109951173529794300.jpg",
+    "company": "Chris James",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293406.936758,
+    "songs": [
+      {
+        "id": "3403921825",
+        "name": "High Hopes"
+      },
+      {
+        "id": "3403921826",
+        "name": "Leading Role"
+      },
+      {
+        "id": "3403921759",
+        "name": "June"
+      },
+      {
+        "id": "3403921827",
+        "name": "Found You!"
+      },
+      {
+        "id": "3403921760",
+        "name": "You Don't Feel The Way I Do"
+      },
+      {
+        "id": "3403921828",
+        "name": "Tomorrow Tonight"
+      },
+      {
+        "id": "3403921829",
+        "name": "Miss You Like Hell"
+      },
+      {
+        "id": "3403921761",
+        "name": "Good Enough"
+      }
+    ]
+  },
+  "404792024": {
+    "album_id": "404792024",
+    "album_name": "Ethereal Drift",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "53685124",
+      "1141075",
+      "12096079",
+      "53606342"
+    ],
+    "artist_names": [
+      "Pvera",
+      "重音テト",
+      "音街ウナ",
+      "Hilarity Leap Records"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/K1FzSjQi0qHSWi8hHjK4ew==/109951174135467610.jpg",
+    "company": "Hilarity Leap Records | 声命迹象",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293407.318272,
+    "songs": [
+      {
+        "id": "3451036096",
+        "name": "Ethereal Drift（Feat.重音テト,音街ウナ）"
+      }
+    ]
+  },
+  "404508557": {
+    "album_id": "404508557",
+    "album_name": "空虚",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "125874860"
+    ],
+    "artist_names": [
+      "yoichi eboña"
+    ],
+    "size": 10,
+    "pic_url": "https://p4.music.126.net/1vDnwyNKdDWcdmJWnMMO4w==/109951174124435578.jpg",
+    "company": "Lunatic-Side Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293407.392118
+  },
+  "404295076": {
+    "album_id": "404295076",
+    "album_name": "スパイスマージ",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "56812902",
+      "1141075"
+    ],
+    "artist_names": [
+      "はかめ",
+      "重音テト"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/J6tsiNB4xW5eAYvInnKGiA==/109951174117722930.jpg",
+    "company": "KARENT",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293407.4325228,
+    "songs": [
+      {
+        "id": "3449230002",
+        "name": "スパイスマージ (feat. 重音テト)"
+      }
+    ]
+  },
+  "404047702": {
+    "album_id": "404047702",
+    "album_name": "ゆめ",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "57014576",
+      "121886428",
+      "1141075",
+      "159692"
+    ],
+    "artist_names": [
+      "d0tc0mmie",
+      "シトロP",
+      "重音テト",
+      "初音ミク"
+    ],
+    "size": 4,
+    "pic_url": "https://p3.music.126.net/hArkUI6iAYv3YwXOEFOGsg==/109951174111173808.jpg",
+    "company": "KARENT",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293407.5906982,
+    "songs": [
+      {
+        "id": "3448544657",
+        "name": "ゆめ (feat. 重音テト)"
+      },
+      {
+        "id": "3448545180",
+        "name": "ゆめ (Instrumental)"
+      },
+      {
+        "id": "3448544658",
+        "name": "ゆめ -Alternative Version- (feat. 初音ミク&重音テト)"
+      },
+      {
+        "id": "3448545181",
+        "name": "Can You Feel It? (feat. 初音ミク&重音テト)"
+      }
+    ]
+  },
+  "402767212": {
+    "album_id": "402767212",
+    "album_name": "応答",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "122306164"
+    ],
+    "artist_names": [
+      "寒中遊泳"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/xdO7Le1wjPyoHlxaS7wEtQ==/109951174076287353.jpg",
+    "company": "Kanchu-Yuei",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293407.972616
+  },
+  "406517002": {
+    "album_id": "406517002",
+    "album_name": "プラネットナイン (feat. 初音ミク & 重音テト)",
+    "date_str": "2026-10-28",
+    "publish_ts": 1793116800000,
+    "artist_ids": [
+      "130438867"
+    ],
+    "artist_names": [
+      "きゃた２"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/wuF03708Ch-lSOe4XXcYlQ==/109951174184934209.jpg",
+    "company": "kyata-two",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293409.50541
+  },
+  "406064562": {
+    "album_id": "406064562",
+    "album_name": "Frenzy (JENOK Remix)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [],
+    "artist_names": [
+      "Lil ZiLLA"
+    ],
+    "size": 2,
+    "pic_url": "https://p3.music.126.net/DuAYou4RVjn8vBhDVNM6EA==/109951174174101143.jpg",
+    "company": "Lil ZiLLA",
+    "sub_type": "Remix",
+    "type": "Single",
+    "cached_at": 1793293410.84729
+  },
+  "405230682": {
+    "album_id": "405230682",
+    "album_name": "愛相対哀",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "56307975"
+    ],
+    "artist_names": [
+      "ミソラアイラ"
+    ],
+    "size": 4,
+    "pic_url": "https://p4.music.126.net/EcXBA3qZ9gUE17vJtsAxIQ==/109951174146156705.jpg",
+    "company": "Misora Aira",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293410.8605158
+  },
+  "405851132": {
+    "album_id": "405851132",
+    "album_name": "大好きだった人 (feat. 初音ミク)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "121742145"
+    ],
+    "artist_names": [
+      "喜八郎"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/kiac5EGRyJgRq0NlNBZ-0w==/109951174165539219.jpg",
+    "company": "kihachiro",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293410.8747396
+  },
+  "405636722": {
+    "album_id": "405636722",
+    "album_name": "光の残像",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "130301064"
+    ],
+    "artist_names": [
+      "星花_Seika"
+    ],
+    "size": 6,
+    "pic_url": "https://p4.music.126.net/zKkPMurgmcFkP9oFIJbAAA==/109951174156352320.jpg",
+    "company": "Seika",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293410.8966346
+  },
+  "405201135": {
+    "album_id": "405201135",
+    "album_name": "コミュニケーション・インフォメーション",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "54322648"
+    ],
+    "artist_names": [
+      "彩葉ププ"
+    ],
+    "size": 5,
+    "pic_url": "https://p4.music.126.net/0y9Ktp8qf5Npgb0UHi8OvA==/109951174145353301.jpg",
+    "company": "Pupu Ayaba",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293411.555124
+  },
+  "401932573": {
+    "album_id": "401932573",
+    "album_name": "IKITE!!!!",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "58260475"
+    ],
+    "artist_names": [
+      "hana20"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/v_7MiDYDvEDl5fXuGEIt3w==/109951174048640634.jpg",
+    "company": "HANABI RECORDS",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293411.5567455
+  },
+  "405225579": {
+    "album_id": "405225579",
+    "album_name": "だけの魔法 ～ADHDお片付け応援ソング～ (feat. 初音ミク)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "130231379"
+    ],
+    "artist_names": [
+      "わくう きらり"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/lBOO6fceymr00QjJ1xNYhw==/109951174146020885.jpg",
+    "company": "wakukira records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293411.572094
+  },
+  "404760305": {
+    "album_id": "404760305",
+    "album_name": "Lycoris (feat. 初音ミク)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "48949800"
+    ],
+    "artist_names": [
+      "つむぎ"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/bZ0qAZbjSCXsNYFQeh7Bbw==/109951174134740601.jpg",
+    "company": "tsumugi",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293411.5876288
+  },
+  "406498152": {
+    "album_id": "406498152",
+    "album_name": "いつまでアンダーグラウンド？ (feat. 初音ミク)",
+    "date_str": "2026-10-28",
+    "publish_ts": 1793116800000,
+    "artist_ids": [
+      "97599496"
+    ],
+    "artist_names": [
+      "「　」"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/deLm5ZzYQJYQvMaPxEHHmQ==/109951174184529086.jpg",
+    "company": "\"",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293412.2067435
+  },
+  "406320513": {
+    "album_id": "406320513",
+    "album_name": "午前三時と夜空の妖精 (feat. 初音ミク)",
+    "date_str": "2026-10-28",
+    "publish_ts": 1793116800000,
+    "artist_ids": [
+      "61580785"
+    ],
+    "artist_names": [
+      "T.M."
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/4GdiXkKwDE2lmv6su9K3qg==/109951174180045513.jpg",
+    "company": "T.M.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293412.2479646
+  },
+  "406503342": {
+    "album_id": "406503342",
+    "album_name": "光合成して見つけたんだ (feat. 初音ミク)",
+    "date_str": "2026-10-29",
+    "publish_ts": 1793203200000,
+    "artist_ids": [
+      "100649459"
+    ],
+    "artist_names": [
+      "わをるぬ"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/i6TyELJBKRubxfpK_Ag4Nw==/109951174184583420.jpg",
+    "company": "Waworunu",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293412.2701252
+  },
+  "406320621": {
+    "album_id": "406320621",
+    "album_name": "永遠ノ桜 (feat. 初音ミク)",
+    "date_str": "2026-10-28",
+    "publish_ts": 1793116800000,
+    "artist_ids": [
+      "61580785"
+    ],
+    "artist_names": [
+      "T.M."
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/4F4lEqbQh_iCujXY4oSHfQ==/109951174180038476.jpg",
+    "company": "T.M.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293412.2918355
+  },
+  "406319550": {
+    "album_id": "406319550",
+    "album_name": "眠り唄 (feat. 初音ミク)",
+    "date_str": "2026-10-28",
+    "publish_ts": 1793116800000,
+    "artist_ids": [
+      "61580785"
+    ],
+    "artist_names": [
+      "T.M."
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/VzAdMGjZ2Xi1shsKU87SSg==/109951174180029865.jpg",
+    "company": "T.M.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293412.8824952
+  },
+  "403916715": {
+    "album_id": "403916715",
+    "album_name": "I Don't Know This Tempo",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "1053213"
+    ],
+    "artist_names": [
+      "Devin Wild"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/BTUlfd4ca-9fg6KC4DNNnQ==/109951174107875913.jpg",
+    "company": "Scantraxx",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793293414.37258,
+    "songs": [
+      {
+        "id": "3448210593",
+        "name": "I Don't Know This Tempo"
+      }
+    ]
+  },
+  "403689373": {
+    "album_id": "403689373",
+    "album_name": "After Ninety-Nine",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 14,
+    "pic_url": "https://p4.music.126.net/66lVvx_Jt_Nw-CNBvUbUAQ==/109951174103144730.jpg",
+    "company": "Fleshtones",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293417.2074656,
+    "songs": [
+      {
+        "id": "3447605629",
+        "name": "Surroundings"
+      },
+      {
+        "id": "3447605630",
+        "name": "Got Da Vision"
+      },
+      {
+        "id": "3447605631",
+        "name": "Steep Bleep"
+      },
+      {
+        "id": "3447605634",
+        "name": "Creative"
+      },
+      {
+        "id": "3447606495",
+        "name": "Smooty Day"
+      },
+      {
+        "id": "3447606496",
+        "name": "My Style"
+      },
+      {
+        "id": "3447605635",
+        "name": "About to Begin"
+      },
+      {
+        "id": "3447605636",
+        "name": "Lost in the Rythm"
+      },
+      {
+        "id": "3447606497",
+        "name": "Overloaded Woman"
+      },
+      {
+        "id": "3447606498",
+        "name": "Not Around"
+      },
+      {
+        "id": "3447606499",
+        "name": "D'en Bossa"
+      },
+      {
+        "id": "3447605637",
+        "name": "Zen"
+      },
+      {
+        "id": "3447605638",
+        "name": "Hundred Fold"
+      },
+      {
+        "id": "3447606500",
+        "name": "Share a Silence"
+      }
+    ]
+  },
+  "393788835": {
+    "album_id": "393788835",
+    "album_name": "The Orient Collective: Bohemian World",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 12,
+    "pic_url": "https://p3.music.126.net/SHvkiJptDWdmbTLrsHRMfQ==/109951173792522549.jpg",
+    "company": "The Orient Collective",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293417.2220843,
+    "songs": [
+      {
+        "id": "3423961300",
+        "name": "Tentations"
+      },
+      {
+        "id": "3423961301",
+        "name": "Tuareg"
+      },
+      {
+        "id": "3423960354",
+        "name": "Unconditional Love"
+      },
+      {
+        "id": "3423961302",
+        "name": "The Wayfarer"
+      },
+      {
+        "id": "3423960356",
+        "name": "Wojira"
+      },
+      {
+        "id": "3423961303",
+        "name": "Vamonos Al Cielo"
+      },
+      {
+        "id": "3423961304",
+        "name": "Set of Rules"
+      },
+      {
+        "id": "3423961305",
+        "name": "Stranger Things"
+      },
+      {
+        "id": "3423960357",
+        "name": "Caladan"
+      },
+      {
+        "id": "3423961306",
+        "name": "Bewitched"
+      },
+      {
+        "id": "3423960358",
+        "name": "Tripoli Sun"
+      },
+      {
+        "id": "3423961307",
+        "name": "Busingye"
+      }
+    ]
+  },
+  "404128386": {
+    "album_id": "404128386",
+    "album_name": "Feel The Soul 055",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 25,
+    "pic_url": "https://p4.music.126.net/TSCZ4e-fl3QRzxdDcetosQ==/109951174112820949.jpg",
+    "company": "HOT-Q",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293417.2856042,
+    "songs": [
+      {
+        "id": "3448778661",
+        "name": "The Way Of Love"
+      },
+      {
+        "id": "3448778662",
+        "name": "Changes"
+      },
+      {
+        "id": "3448778663",
+        "name": "Bright Star"
+      },
+      {
+        "id": "3448778664",
+        "name": "Siyekhaya (Deepconsoul Edit Remix)"
+      },
+      {
+        "id": "3448779430",
+        "name": "When You Gone (Cubique DJ Remix)"
+      },
+      {
+        "id": "3448779431",
+        "name": "Confusion (Extended Mix)"
+      },
+      {
+        "id": "3448778665",
+        "name": "Hater's"
+      },
+      {
+        "id": "3448779432",
+        "name": "Soulful Nights"
+      },
+      {
+        "id": "3448778666",
+        "name": "Sunday Praise"
+      },
+      {
+        "id": "3448778667",
+        "name": "Music Is the Answer (Extended Mix)"
+      },
+      {
+        "id": "3448779433",
+        "name": "The Feeling (Lilac Jeans Remix)"
+      },
+      {
+        "id": "3448779434",
+        "name": "Higher Energy"
+      },
+      {
+        "id": "3448779435",
+        "name": "Zimbaloo (Radio Edit)"
+      },
+      {
+        "id": "3448779436",
+        "name": "Summer Love"
+      },
+      {
+        "id": "3448779438",
+        "name": "All Day, All Week (Extended Instrumental)"
+      },
+      {
+        "id": "3448779439",
+        "name": "Trust Yourself (Deep Soul Mix)"
+      },
+      {
+        "id": "3448778669",
+        "name": "Don't Change"
+      },
+      {
+        "id": "3448779440",
+        "name": "Blessed Assurance"
+      },
+      {
+        "id": "3448779441",
+        "name": "Groove To The Funk (Uk Deep Mix)"
+      },
+      {
+        "id": "3448779442",
+        "name": "I'll Be Good (ThomChris Remix)"
+      },
+      {
+        "id": "3448779443",
+        "name": "Time For A Change (Instrumental Mix)"
+      },
+      {
+        "id": "3448779444",
+        "name": "Elevator Crash (Dizzines Mix)"
+      },
+      {
+        "id": "3448778670",
+        "name": "I Jus Wanna Love (Emmaculate Radio Cut)"
+      },
+      {
+        "id": "3448778671",
+        "name": "Won't He Do It (DJB510 Mix)"
+      },
+      {
+        "id": "3448779445",
+        "name": "You Used To Hold Me (Instrumental)"
+      }
+    ]
+  },
+  "404126959": {
+    "album_id": "404126959",
+    "album_name": "Ibiza Winter 2027 (Melodic Techno Rockets from the Heart)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 30,
+    "pic_url": "https://p4.music.126.net/25fXqbZvCJPGkWTk2Wkrzw==/109951174112815314.jpg",
+    "company": "Urban GorillazX",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293417.2880294,
+    "songs": [
+      {
+        "id": "3448777729",
+        "name": "It's About Love"
+      },
+      {
+        "id": "3448777951",
+        "name": "Inner Lights (Wolfgang Filz Remix Extended)"
+      },
+      {
+        "id": "3448777954",
+        "name": "Existence"
+      },
+      {
+        "id": "3448777955",
+        "name": "Overtaking (Extended Mix)"
+      },
+      {
+        "id": "3448777956",
+        "name": "Your Soul"
+      },
+      {
+        "id": "3448777957",
+        "name": "Music in the Mirror"
+      },
+      {
+        "id": "3448777958",
+        "name": "Don't Call Me"
+      },
+      {
+        "id": "3448777960",
+        "name": "Out of Time"
+      },
+      {
+        "id": "3448777736",
+        "name": "Journey Through Clouds"
+      },
+      {
+        "id": "3448777738",
+        "name": "Contemplation (Radio Edit)"
+      },
+      {
+        "id": "3448777740",
+        "name": "Eternus"
+      },
+      {
+        "id": "3448777741",
+        "name": "Driver"
+      },
+      {
+        "id": "3448777742",
+        "name": "Waveform (Dinamica Remix)"
+      },
+      {
+        "id": "3448777962",
+        "name": "Silent Miracle (Club Mix)"
+      },
+      {
+        "id": "3448777963",
+        "name": "Once Again"
+      },
+      {
+        "id": "3448777743",
+        "name": "Circles"
+      },
+      {
+        "id": "3448777745",
+        "name": "Endless Summer (Remix Version)"
+      },
+      {
+        "id": "3448777966",
+        "name": "My World"
+      },
+      {
+        "id": "3448777967",
+        "name": "Waves of the Red Sea"
+      },
+      {
+        "id": "3448777968",
+        "name": "In The City"
+      },
+      {
+        "id": "3448777969",
+        "name": "Silent Night (Instrumental)"
+      },
+      {
+        "id": "3448777747",
+        "name": "The Eyes Of Revelation (Bes & Meret Club Remix)"
+      },
+      {
+        "id": "3448777970",
+        "name": "No One (S.A.C. Remix)"
+      },
+      {
+        "id": "3448777971",
+        "name": "Flow"
+      },
+      {
+        "id": "3448777973",
+        "name": "No Escape (Extended Mix)"
+      },
+      {
+        "id": "3448777749",
+        "name": "We All Here (Brokaijo Remix)"
+      },
+      {
+        "id": "3448777975",
+        "name": "Retrospect (Club Edit)"
+      },
+      {
+        "id": "3448777977",
+        "name": "Upside Down (Extended Mix)"
+      },
+      {
+        "id": "3448777750",
+        "name": "On Your Mind"
+      },
+      {
+        "id": "3448777982",
+        "name": "Surrenders (Humbaba Remix Edit)"
+      }
+    ]
+  },
+  "405706001": {
+    "album_id": "405706001",
+    "album_name": "Mali šlager - Vremeplov - 1982. (Remaster)",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 14,
+    "pic_url": "https://p3.music.126.net/DZ4PbgltAdBPoMa4J-d1yw==/109951174159007727.jpg",
+    "company": "Muzička produkcija BHRT",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293418.1230552,
+    "songs": [
+      {
+        "id": "3453066737",
+        "name": "Zašto volim zemlju svoju"
+      },
+      {
+        "id": "3453066738",
+        "name": "Biće meda"
+      },
+      {
+        "id": "3453066739",
+        "name": "Jahorinko"
+      },
+      {
+        "id": "3453067390",
+        "name": "Jutarnji pozdrav"
+      },
+      {
+        "id": "3453067391",
+        "name": "Mi smo đaci veseli"
+      },
+      {
+        "id": "3453066740",
+        "name": "Mamino skromno pile"
+      },
+      {
+        "id": "3453067392",
+        "name": "Pismo majci"
+      },
+      {
+        "id": "3453066741",
+        "name": "Zavičaju"
+      },
+      {
+        "id": "3453067393",
+        "name": "Opasni udvarač"
+      },
+      {
+        "id": "3453066742",
+        "name": "Šumski festival"
+      },
+      {
+        "id": "3453066743",
+        "name": "Djeci svijeta"
+      },
+      {
+        "id": "3453066744",
+        "name": "Ratnik"
+      },
+      {
+        "id": "3453066745",
+        "name": "Čačke oko tačke"
+      },
+      {
+        "id": "3453067394",
+        "name": "Olimpijada"
+      }
+    ]
+  },
+  "404188211": {
+    "album_id": "404188211",
+    "album_name": "VA Compilation, Vol. 6",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/k11l6c77EXign3oL1uh9zA==/109951174115605472.jpg",
+    "company": "Dansu Discs",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293418.2966053,
+    "songs": [
+      {
+        "id": "3448948712",
+        "name": "Wanna Be (Mixed)"
+      },
+      {
+        "id": "3448949657",
+        "name": "Suffer Man (Mixed)"
+      },
+      {
+        "id": "3448949658",
+        "name": "Walking In The Rain (Mixed)"
+      },
+      {
+        "id": "3448948720",
+        "name": "Beed Your Luv (Mixed)"
+      },
+      {
+        "id": "3448948722",
+        "name": "Mind Over Matter (Mixed)"
+      },
+      {
+        "id": "3448949663",
+        "name": "Feel That Bass (Mixed)"
+      },
+      {
+        "id": "3448948723",
+        "name": "Pressure (Mixed)"
+      },
+      {
+        "id": "3448949665",
+        "name": "Fantasy (Mixed)"
+      },
+      {
+        "id": "3448948726",
+        "name": "Everything About You (Mixed)"
+      },
+      {
+        "id": "3448949667",
+        "name": "It's Time (Mixed)"
+      },
+      {
+        "id": "3448949668",
+        "name": "Wanna Be"
+      },
+      {
+        "id": "3448949669",
+        "name": "Suffer Man"
+      },
+      {
+        "id": "3448949670",
+        "name": "Walking In The Rain"
+      },
+      {
+        "id": "3448948729",
+        "name": "Need Your Luv"
+      },
+      {
+        "id": "3448948730",
+        "name": "Mind Over Matter"
+      },
+      {
+        "id": "3448948732",
+        "name": "Feel That Bass"
+      },
+      {
+        "id": "3448949673",
+        "name": "Pressure"
+      },
+      {
+        "id": "3448949674",
+        "name": "Fantasy"
+      },
+      {
+        "id": "3448949675",
+        "name": "Everything About You"
+      },
+      {
+        "id": "3448949676",
+        "name": "It's Time"
+      }
+    ]
+  },
+  "404109099": {
+    "album_id": "404109099",
+    "album_name": "Nothing But... Dancefloor Energy, Vol. 22",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 25,
+    "pic_url": "https://p4.music.126.net/lRfw05go3yY5c7JBf5X2aw==/109951174112409190.jpg",
+    "company": "Nothing But",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293418.906914,
+    "songs": [
+      {
+        "id": "3448737056",
+        "name": "Another Day In Paradise"
+      },
+      {
+        "id": "3448737057",
+        "name": "Detonator"
+      },
+      {
+        "id": "3448736501",
+        "name": "Sway"
+      },
+      {
+        "id": "3448737059",
+        "name": "Lost In The Stars"
+      },
+      {
+        "id": "3448737060",
+        "name": "Прекрасное Далеко"
+      },
+      {
+        "id": "3448736503",
+        "name": "Fields Of Gold"
+      },
+      {
+        "id": "3448737062",
+        "name": "Sexy When You Lie"
+      },
+      {
+        "id": "3448736505",
+        "name": "Voyage Voyage"
+      },
+      {
+        "id": "3448737065",
+        "name": "Entre Los Dos"
+      },
+      {
+        "id": "3448736509",
+        "name": "Pop Star 4"
+      },
+      {
+        "id": "3448737071",
+        "name": "8bits"
+      },
+      {
+        "id": "3448737073",
+        "name": "brb"
+      },
+      {
+        "id": "3448736511",
+        "name": "Café Au Lait Dreams"
+      },
+      {
+        "id": "3448736512",
+        "name": "Mokka"
+      },
+      {
+        "id": "3448737076",
+        "name": "Pulse Control"
+      },
+      {
+        "id": "3448736515",
+        "name": "Not Enough (7th Heaven Radio Edit)"
+      },
+      {
+        "id": "3448737077",
+        "name": "Riddim De La Selva"
+      },
+      {
+        "id": "3448736516",
+        "name": "Selfish Desire"
+      },
+      {
+        "id": "3448737079",
+        "name": "Jupiter 8 To Funk"
+      },
+      {
+        "id": "3448736519",
+        "name": "Feel (TranceLine 202)"
+      },
+      {
+        "id": "3448736520",
+        "name": "The Time"
+      },
+      {
+        "id": "3448736522",
+        "name": "Hostage (Extended Mix)"
+      },
+      {
+        "id": "3448737082",
+        "name": "I Feel You (VIP Mix - Radio)"
+      },
+      {
+        "id": "3448736523",
+        "name": "The Wild Boys (Stefano Mattara Remix)"
+      },
+      {
+        "id": "3448736524",
+        "name": "Turn My Body (Extended)"
+      }
+    ]
+  },
+  "401548113": {
+    "album_id": "401548113",
+    "album_name": "Euphoric Paradise 083",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 29,
+    "pic_url": "https://p3.music.126.net/dsi244e0Wc8hu_1iuDca5Q==/109951174034580061.jpg",
+    "company": "Electric Eden Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293419.1340315,
+    "songs": [
+      {
+        "id": "3443090179",
+        "name": "Storm"
+      },
+      {
+        "id": "3443090180",
+        "name": "Lost in You"
+      },
+      {
+        "id": "3443090181",
+        "name": "Our Moment"
+      },
+      {
+        "id": "3443090182",
+        "name": "Road Through the Darknes"
+      },
+      {
+        "id": "3443089252",
+        "name": "Memories"
+      },
+      {
+        "id": "3443089253",
+        "name": "Ghost in the Groove"
+      },
+      {
+        "id": "3443090183",
+        "name": "Cosmic Drift"
+      },
+      {
+        "id": "3443089254",
+        "name": "Time Machine"
+      },
+      {
+        "id": "3443090184",
+        "name": "BiTch*S on mY zOnE"
+      },
+      {
+        "id": "3443090185",
+        "name": "Time Shifter"
+      },
+      {
+        "id": "3443090186",
+        "name": "Electric Euphoria"
+      },
+      {
+        "id": "3443090187",
+        "name": "Miss That"
+      },
+      {
+        "id": "3443090188",
+        "name": "Doctor From Hawaii"
+      },
+      {
+        "id": "3443089255",
+        "name": "Beyond Knowing"
+      },
+      {
+        "id": "3443089258",
+        "name": "Fenix"
+      },
+      {
+        "id": "3443090189",
+        "name": "Feel the Light"
+      },
+      {
+        "id": "3443089259",
+        "name": "Obsession"
+      },
+      {
+        "id": "3443090190",
+        "name": "Alright"
+      },
+      {
+        "id": "3443089260",
+        "name": "Fossil"
+      },
+      {
+        "id": "3443089261",
+        "name": "Minima"
+      },
+      {
+        "id": "3443090191",
+        "name": "Mensch Und Maschine"
+      },
+      {
+        "id": "3443089262",
+        "name": "Mirrored Autumn"
+      },
+      {
+        "id": "3443089263",
+        "name": "Cigarrette"
+      },
+      {
+        "id": "3443090192",
+        "name": "One More Light"
+      },
+      {
+        "id": "3443090193",
+        "name": "Misconception"
+      },
+      {
+        "id": "3443089264",
+        "name": "Think Again"
+      },
+      {
+        "id": "3443090195",
+        "name": "Deep Immersion"
+      },
+      {
+        "id": "3443089265",
+        "name": "Push Forwards"
+      },
+      {
+        "id": "3443090196",
+        "name": "Calla D'or"
+      }
+    ]
+  },
+  "404109100": {
+    "album_id": "404109100",
+    "album_name": "Melodic Pulse, Vol. 10",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 25,
+    "pic_url": "https://p4.music.126.net/lDS2mrN3xMH9JIuX3Bnm5g==/109951174112412620.jpg",
+    "company": "LW Recordings",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293419.5076447,
+    "songs": [
+      {
+        "id": "3448736502",
+        "name": "Runes"
+      },
+      {
+        "id": "3448736504",
+        "name": "Butterflies"
+      },
+      {
+        "id": "3448737063",
+        "name": "Too Close To You"
+      },
+      {
+        "id": "3448736506",
+        "name": "Unbothered"
+      },
+      {
+        "id": "3448737070",
+        "name": "The Only Way Is Summer (Radio Edit)"
+      },
+      {
+        "id": "3448737072",
+        "name": "Constellations (Gabriel Slick Remix)"
+      },
+      {
+        "id": "3448737074",
+        "name": "Divine Touch"
+      },
+      {
+        "id": "3448737075",
+        "name": "To You Touch (Extended Mix)"
+      },
+      {
+        "id": "3448736513",
+        "name": "Baibars (JOTOMO Remix)"
+      },
+      {
+        "id": "3448736514",
+        "name": "Get It Higher (Extended Mix)"
+      },
+      {
+        "id": "3448737078",
+        "name": "Haseen Raatein (Happy Nights) (SHNKR Remix)"
+      },
+      {
+        "id": "3448736517",
+        "name": "51%"
+      },
+      {
+        "id": "3448736518",
+        "name": "Sensation (Extended Mix)"
+      },
+      {
+        "id": "3448737080",
+        "name": "Solstice"
+      },
+      {
+        "id": "3448736521",
+        "name": "Hyena (Extended Mix)"
+      },
+      {
+        "id": "3448737081",
+        "name": "Toxic Love"
+      },
+      {
+        "id": "3448737083",
+        "name": "Dance Floor"
+      },
+      {
+        "id": "3448737084",
+        "name": "Inner-X"
+      },
+      {
+        "id": "3448736525",
+        "name": "Another State Of Consciousness"
+      },
+      {
+        "id": "3448736526",
+        "name": "Nonconformist (Extended Mix)"
+      },
+      {
+        "id": "3448737085",
+        "name": "Crimes (Sigma Pr Remix)"
+      },
+      {
+        "id": "3448736527",
+        "name": "Viaje Astral"
+      },
+      {
+        "id": "3448736528",
+        "name": "Tribal Nation (Awakening) (Radio Mix)"
+      },
+      {
+        "id": "3448737087",
+        "name": "Burn For You (Extended Mix)"
+      },
+      {
+        "id": "3448737088",
+        "name": "Desire (Radio Edit)"
+      }
+    ]
+  },
+  "406519729": {
+    "album_id": "406519729",
+    "album_name": "Tech House Culture 2026",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/mRSTXKE5seDGcWZ7_a3nkw==/109951174184986731.jpg",
+    "company": "Fashion Recovery",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293419.6525328,
+    "songs": [
+      {
+        "id": "3454755346",
+        "name": "Russian Roulette"
+      },
+      {
+        "id": "3454754592",
+        "name": "Paris"
+      },
+      {
+        "id": "3454754593",
+        "name": "Notre Dame (Dub Mix)"
+      },
+      {
+        "id": "3454755347",
+        "name": "Tekky Beats"
+      },
+      {
+        "id": "3454754594",
+        "name": "I Just Wanna Know"
+      },
+      {
+        "id": "3454755348",
+        "name": "Listen Up"
+      },
+      {
+        "id": "3454755349",
+        "name": "El Ritmo De La Noche"
+      },
+      {
+        "id": "3454755350",
+        "name": "Pump Up The Jam"
+      },
+      {
+        "id": "3454755351",
+        "name": "Spiritual Thing '20 (Dub Mix)"
+      },
+      {
+        "id": "3454754595",
+        "name": "Strong Desire"
+      },
+      {
+        "id": "3454754596",
+        "name": "Shake That"
+      },
+      {
+        "id": "3454755352",
+        "name": "Wrong"
+      },
+      {
+        "id": "3454754597",
+        "name": "Good Feeling"
+      },
+      {
+        "id": "3454755353",
+        "name": "Guatemala"
+      },
+      {
+        "id": "3454755354",
+        "name": "Who Is That Girl"
+      },
+      {
+        "id": "3454755355",
+        "name": "House Love"
+      },
+      {
+        "id": "3454755356",
+        "name": "Feel Me"
+      },
+      {
+        "id": "3454754598",
+        "name": "Development"
+      },
+      {
+        "id": "3454755357",
+        "name": "What You Need"
+      },
+      {
+        "id": "3454755358",
+        "name": "Etnic Groove"
+      }
+    ]
+  },
+  "405597606": {
+    "album_id": "405597606",
+    "album_name": "Let the Evening Settle",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 6,
+    "pic_url": "https://p4.music.126.net/wYDERQAy3LASVp_0RCh8kA==/109951174155527054.jpg",
+    "company": "BURHAN BEHEK RECORDS",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793293419.8145974,
+    "songs": [
+      {
+        "id": "3452841173",
+        "name": "Let the Evening Settle"
+      },
+      {
+        "id": "3452841175",
+        "name": "Take the Long Way Home"
+      },
+      {
+        "id": "3452842891",
+        "name": "Start with What We Have"
+      },
+      {
+        "id": "3452842892",
+        "name": "Let the Room Forget the Hour"
+      },
+      {
+        "id": "3452842893",
+        "name": "Let the Afternoon Turn Late"
+      },
+      {
+        "id": "3452842894",
+        "name": "Let It Drift"
+      }
+    ]
+  },
+  "403783771": {
+    "album_id": "403783771",
+    "album_name": "A Place Beyond Words",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 28,
+    "pic_url": "https://p4.music.126.net/KAAb2YQoRD1UogSNjRYPdQ==/109951174105639851.jpg",
+    "company": "Zoo Series Recordings",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293419.8604186,
+    "songs": [
+      {
+        "id": "3447826947",
+        "name": "Un Futuro Impertinente"
+      },
+      {
+        "id": "3447826217",
+        "name": "Geto Game"
+      },
+      {
+        "id": "3447826948",
+        "name": "Alternative Futures"
+      },
+      {
+        "id": "3447826218",
+        "name": "Note to Self"
+      },
+      {
+        "id": "3447826949",
+        "name": "Distant Land"
+      },
+      {
+        "id": "3447826219",
+        "name": "Anybody Out There"
+      },
+      {
+        "id": "3447826220",
+        "name": "Remembrance"
+      },
+      {
+        "id": "3447826221",
+        "name": "Mothership"
+      },
+      {
+        "id": "3447826222",
+        "name": "Dalaima"
+      },
+      {
+        "id": "3447826950",
+        "name": "Game Shark"
+      },
+      {
+        "id": "3447826951",
+        "name": "Molacyd"
+      },
+      {
+        "id": "3447826224",
+        "name": "Dont Accept Promiscuity"
+      },
+      {
+        "id": "3447826225",
+        "name": "Good Things Happen"
+      },
+      {
+        "id": "3447826226",
+        "name": "Moral Rectitude"
+      },
+      {
+        "id": "3447826952",
+        "name": "French Love"
+      },
+      {
+        "id": "3447826953",
+        "name": "Galactic Mantra"
+      },
+      {
+        "id": "3447826954",
+        "name": "Transformer Costume"
+      },
+      {
+        "id": "3447826955",
+        "name": "Listening & Being"
+      },
+      {
+        "id": "3447826227",
+        "name": "Similar Antonyms"
+      },
+      {
+        "id": "3447826228",
+        "name": "Whistleblower"
+      },
+      {
+        "id": "3447826230",
+        "name": "Jam Session"
+      },
+      {
+        "id": "3447826956",
+        "name": "Plank Star"
+      },
+      {
+        "id": "3447826957",
+        "name": "Concrete River"
+      },
+      {
+        "id": "3447826958",
+        "name": "End of Time"
+      },
+      {
+        "id": "3447826231",
+        "name": "Java Beat"
+      },
+      {
+        "id": "3447826232",
+        "name": "Modelo Time"
+      },
+      {
+        "id": "3447826233",
+        "name": "Spin Me"
+      },
+      {
+        "id": "3447826234",
+        "name": "Tok Tok"
+      }
+    ]
+  },
+  "405067477": {
+    "album_id": "405067477",
+    "album_name": "Sexy Circuit Club Tracks Compilation",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 12,
+    "pic_url": "https://p4.music.126.net/BLkgGJKZHBEOHIx85Ae4uA==/109951174142742986.jpg",
+    "company": "DanceClub Compilations",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293420.2650304,
+    "songs": [
+      {
+        "id": "3451735209",
+        "name": "Sex (Big Room Mix)"
+      },
+      {
+        "id": "3451734426",
+        "name": "In My Life"
+      },
+      {
+        "id": "3451734427",
+        "name": "Dark Sweet Piano (Aurel Devil & Sebastien Triumph Remix)"
+      },
+      {
+        "id": "3451734428",
+        "name": "Tribal Deep House (Original Remastered Mix)"
+      },
+      {
+        "id": "3451734429",
+        "name": "This Is The Future"
+      },
+      {
+        "id": "3451734431",
+        "name": "The Violin Track"
+      },
+      {
+        "id": "3451734432",
+        "name": "Fiesta Loca (Mainstage Tribal Mix)"
+      },
+      {
+        "id": "3451734434",
+        "name": "Sbem!"
+      },
+      {
+        "id": "3451734436",
+        "name": "Sundays At Heaven (Andrei Stan Remix)"
+      },
+      {
+        "id": "3451734437",
+        "name": "Oye Mami! (Alessander Gelassi Remix)"
+      },
+      {
+        "id": "3451734438",
+        "name": "People Talk (Instrumental Mix)"
+      },
+      {
+        "id": "3451734439",
+        "name": "Unexpected Feelings (Marcelo Almeida Remix)"
+      }
+    ]
+  },
+  "404108093": {
+    "album_id": "404108093",
+    "album_name": "Nature Resonance",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p4.music.126.net/chtDkYfsCcaesrxpt61_3Q==/109951174112399742.jpg",
+    "company": "Giverny Music",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793293420.4045246,
+    "songs": [
+      {
+        "id": "3448735913",
+        "name": "Stop Guessing"
+      },
+      {
+        "id": "3448735915",
+        "name": "Buenaventura"
+      },
+      {
+        "id": "3448735917",
+        "name": "Talking Point"
+      },
+      {
+        "id": "3448735919",
+        "name": "Ballycotton"
+      },
+      {
+        "id": "3448735448",
+        "name": "Duende"
+      },
+      {
+        "id": "3448735921",
+        "name": "Sweet Rizz"
+      },
+      {
+        "id": "3448735923",
+        "name": "Endless Holding"
+      },
+      {
+        "id": "3448735924",
+        "name": "Parabola"
+      },
+      {
+        "id": "3448735926",
+        "name": "Libres Acordes"
+      },
+      {
+        "id": "3448735927",
+        "name": "Callada Bodega"
+      },
+      {
+        "id": "3448735928",
+        "name": "Back to Now"
+      },
+      {
+        "id": "3448735449",
+        "name": "Vereda"
+      },
+      {
+        "id": "3448735929",
+        "name": "Free Afternoon"
+      },
+      {
+        "id": "3448735930",
+        "name": "Sensual Decay"
+      },
+      {
+        "id": "3448735450",
+        "name": "Allegorical Hints"
+      },
+      {
+        "id": "3448735451",
+        "name": "Rainlit"
+      },
+      {
+        "id": "3448735452",
+        "name": "Off-Beat"
+      },
+      {
+        "id": "3448735931",
+        "name": "Periphery (The Sura Quintet Remix)"
+      },
+      {
+        "id": "3448735932",
+        "name": "Morning Stillness"
+      },
+      {
+        "id": "3448735453",
+        "name": "Rondo en Passage"
       }
     ]
   }
