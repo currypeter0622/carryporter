@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
-  "generated_at": "2026-10-30T01:11:01.782960+08:00",
-  "count": 176,
+  "generated_at": "2026-10-30T05:17:19.296592+08:00",
+  "count": 179,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 44,
+        "target_count": 45,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 18,
+        "target_count": 17,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 24,
+        "target_count": 25,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 2,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793292044.9589796,
+        "saved_at": 1793306284.6591682,
         "source": "live"
       },
       "relations": 83682,
-      "new_album_candidates": 122,
-      "unique_albums": 38314,
-      "detail_success": 38313,
+      "new_album_candidates": 126,
+      "unique_albums": 38317,
+      "detail_success": 38316,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1163,
-      "verify_artists": 762,
+      "date_hit_albums": 1168,
+      "verify_artists": 761,
       "owned_failures": 0,
-      "external_hits": 357,
-      "new_release_hits": 169,
+      "external_hits": 358,
+      "new_release_hits": 175,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 176
+    "unique_album_count": 179
   },
   "albums": [
     {
@@ -234,7 +234,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p4.music.126.net/W9KCH3SVinl2VpHjnRhqXA==/109951174148957205.jpg",
+      "pic_url": "https://p3.music.126.net/W9KCH3SVinl2VpHjnRhqXA==/109951174148957205.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -349,7 +349,7 @@
       "publish_date": "2026-10-30",
       "size": 2,
       "company": "广州火乐无限文化有限公司",
-      "pic_url": "https://p3.music.126.net/BpEcDCQeph2DxujRxz1uXg==/109951174178175184.jpg",
+      "pic_url": "https://p4.music.126.net/BpEcDCQeph2DxujRxz1uXg==/109951174178175184.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -377,7 +377,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/-QTjvheTuM5crIT8dIjEVA==/109951174144774285.jpg",
+      "pic_url": "https://p3.music.126.net/-QTjvheTuM5crIT8dIjEVA==/109951174144774285.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -423,7 +423,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/jtbkVfFM-HFI9YCuxaNjMg==/109951174140299808.jpg",
+      "pic_url": "https://p4.music.126.net/jtbkVfFM-HFI9YCuxaNjMg==/109951174140299808.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -446,7 +446,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/molMK1AJGNFRPkf_VXw9vA==/109951174190417893.jpg",
+      "pic_url": "https://p3.music.126.net/molMK1AJGNFRPkf_VXw9vA==/109951174190417893.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -469,35 +469,12 @@
       "publish_date": "2026-10-30",
       "size": 2,
       "company": "天娱传媒",
-      "pic_url": "https://p4.music.126.net/i6DUKKP4wQfo7Iu63WeHiQ==/109951174184696390.jpg",
+      "pic_url": "https://p3.music.126.net/i6DUKKP4wQfo7Iu63WeHiQ==/109951174184696390.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=406511071"
-    },
-    {
-      "id": 406529241,
-      "name": "无畏",
-      "artists": [
-        {
-          "id": 50160753,
-          "name": "郑撼"
-        }
-      ],
-      "artist_names": [
-        "郑撼"
-      ],
-      "publish_time": 1793289600000,
-      "publish_date": "2026-10-30",
-      "size": 1,
-      "company": "Universal Music China",
-      "pic_url": "https://p4.music.126.net/s32iVyTDuVB4ynBlCgUSuw==/109951174185189654.jpg",
-      "sub_type": "录音室版",
-      "type": "Single",
-      "status": 1,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=406529241"
     },
     {
       "id": 406185645,
@@ -589,7 +566,7 @@
       "publish_date": "2026-10-30",
       "size": 10,
       "company": "",
-      "pic_url": "https://p3.music.126.net/CfYzW-_R5vY-XDmKU3uuFQ==/109951174155536413.jpg",
+      "pic_url": "https://p4.music.126.net/CfYzW-_R5vY-XDmKU3uuFQ==/109951174155536413.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -959,7 +936,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "blowout Music Labels",
-      "pic_url": "https://p4.music.126.net/pQsKRDa345bR28X-xb2IMA==/109951174087528977.jpg",
+      "pic_url": "https://p3.music.126.net/pQsKRDa345bR28X-xb2IMA==/109951174087528977.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1092,6 +1069,29 @@
       "url": "https://music.163.com/#/album?id=404829889"
     },
     {
+      "id": 406807761,
+      "name": "openureyes",
+      "artists": [
+        {
+          "id": "56901373",
+          "name": "Armaggethur"
+        }
+      ],
+      "artist_names": [
+        "Armaggethur"
+      ],
+      "publish_time": 1793289600000,
+      "publish_date": "2026-10-30",
+      "size": 1,
+      "company": "Interval Audio",
+      "pic_url": "https://p3.music.126.net/34WQOphqYt4-BXzISpTBig==/109951174192000178.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406807761"
+    },
+    {
       "id": 402754899,
       "name": "omo",
       "artists": [
@@ -1211,7 +1211,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "Marine Snow",
-      "pic_url": "https://p3.music.126.net/oSNhuDTMMX9j62PD3AmBEw==/109951174111309525.jpg",
+      "pic_url": "https://p4.music.126.net/oSNhuDTMMX9j62PD3AmBEw==/109951174111309525.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1266,6 +1266,34 @@
       "url": "https://music.163.com/#/album?id=404108044"
     },
     {
+      "id": 406823334,
+      "name": "You Don’t Get Me High Anymore (Aaron Hibell Remix)",
+      "artists": [
+        {
+          "id": "98556",
+          "name": "Phantogram"
+        },
+        {
+          "id": "33645123",
+          "name": "Aaron Hibell"
+        }
+      ],
+      "artist_names": [
+        "Phantogram",
+        "Aaron Hibell"
+      ],
+      "publish_time": 1793289600000,
+      "publish_date": "2026-10-30",
+      "size": 1,
+      "company": "Universal Records",
+      "pic_url": "https://p3.music.126.net/-gkmtLtIQR5xlUB9h6oTaw==/109951174193376819.jpg",
+      "sub_type": "Remix",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406823334"
+    },
+    {
       "id": 406435552,
       "name": "Without God: Season XV",
       "artists": [
@@ -1304,7 +1332,7 @@
       "publish_date": "2026-10-30",
       "size": 11,
       "company": "华纳音乐",
-      "pic_url": "https://p3.music.126.net/TuiP98mrloh_EErL_Y5MJw==/109951174178422756.jpg",
+      "pic_url": "https://p4.music.126.net/TuiP98mrloh_EErL_Y5MJw==/109951174178422756.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1327,7 +1355,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "Spinnin' Records",
-      "pic_url": "https://p4.music.126.net/q3IpFgRnHGtPb9U1VSFcGg==/109951174179783441.jpg",
+      "pic_url": "https://p3.music.126.net/q3IpFgRnHGtPb9U1VSFcGg==/109951174179783441.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1350,7 +1378,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p3.music.126.net/MePn6Tz1aGfV0vPm__anbg==/109951174179624299.jpg",
+      "pic_url": "https://p4.music.126.net/MePn6Tz1aGfV0vPm__anbg==/109951174179624299.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2223,7 +2251,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "Nettwerk Music Group",
-      "pic_url": "https://p3.music.126.net/eB6Ldx-7XW6opXslrqCP0w==/109951174121651789.jpg",
+      "pic_url": "https://p4.music.126.net/eB6Ldx-7XW6opXslrqCP0w==/109951174121651789.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2338,7 +2366,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/0p3wF-vx3sVN5yWRRrAjWA==/109951174178057994.jpg",
+      "pic_url": "https://p4.music.126.net/0p3wF-vx3sVN5yWRRrAjWA==/109951174178057994.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2568,7 +2596,7 @@
       "publish_date": "2026-10-30",
       "size": 12,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/YrpnwtzyKhpriYD1hDii2Q==/109951174097269736.jpg",
+      "pic_url": "https://p4.music.126.net/YrpnwtzyKhpriYD1hDii2Q==/109951174097269736.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -3002,7 +3030,7 @@
       "publish_date": "2026-10-30",
       "size": 20,
       "company": "Superstyle Records",
-      "pic_url": "https://p4.music.126.net/8wVcMHFf-eNCVpJopmBZtw==/109951174188728469.jpg",
+      "pic_url": "https://p3.music.126.net/8wVcMHFf-eNCVpJopmBZtw==/109951174188728469.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -3048,7 +3076,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/BDCzcnexQPbQPpipdchcSw==/109951174179976123.jpg",
+      "pic_url": "https://p4.music.126.net/BDCzcnexQPbQPpipdchcSw==/109951174179976123.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3099,7 +3127,7 @@
       "publish_date": "2026-10-30",
       "size": 15,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/VgmG2v8Kx1Nreqt_NDr3Gw==/109951174183726442.jpg",
+      "pic_url": "https://p4.music.126.net/VgmG2v8Kx1Nreqt_NDr3Gw==/109951174183726442.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -3122,7 +3150,7 @@
       "publish_date": "2026-10-30",
       "size": 5,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/a2JWcr-ojWSO0tHKPJVYsw==/109951174177340320.jpg",
+      "pic_url": "https://p3.music.126.net/a2JWcr-ojWSO0tHKPJVYsw==/109951174177340320.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -3607,12 +3635,40 @@
       "publish_date": "2026-10-30",
       "size": 13,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/wbTLE1AhkBiYOXPopIAROA==/109951174177350899.jpg",
+      "pic_url": "https://p3.music.126.net/wbTLE1AhkBiYOXPopIAROA==/109951174177350899.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=406175280"
+    },
+    {
+      "id": 403987178,
+      "name": "Enough",
+      "artists": [
+        {
+          "id": 29812121,
+          "name": "Sentury"
+        },
+        {
+          "id": 94974,
+          "name": "Jagged Edge"
+        }
+      ],
+      "artist_names": [
+        "Sentury",
+        "Jagged Edge"
+      ],
+      "publish_time": 1793289600000,
+      "publish_date": "2026-10-30",
+      "size": 1,
+      "company": "Gateway Records",
+      "pic_url": "https://p3.music.126.net/2tzv7sABtPmRqNaYzIxtrw==/109951174110097514.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403987178"
     },
     {
       "id": 406286722,
@@ -4079,7 +4135,7 @@
       "publish_date": "2026-10-30",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/myr5XZdMwlQJJpP9g5Vs2A==/109951174154837111.jpg",
+      "pic_url": "https://p3.music.126.net/myr5XZdMwlQJJpP9g5Vs2A==/109951174154837111.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -4462,6 +4518,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=401170522"
+    },
+    {
+      "id": 406808219,
+      "name": "9",
+      "artists": [
+        {
+          "id": "353551",
+          "name": "9lives"
+        }
+      ],
+      "artist_names": [
+        "9lives"
+      ],
+      "publish_time": 1793289600000,
+      "publish_date": "2026-10-30",
+      "size": 5,
+      "company": "PULSE Records",
+      "pic_url": "https://p3.music.126.net/jJ-fkiggP538yidWMy4Wtg==/109951174192003774.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406808219"
     },
     {
       "id": 402270311,
