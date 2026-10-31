@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
-  "generated_at": "2026-11-01T00:57:30.187869+08:00",
-  "count": 56,
+  "generated_at": "2026-11-01T04:56:18.638480+08:00",
+  "count": 57,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -154,40 +154,42 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 739,
+      "queries_ok": 8,
+      "search_candidates": 640,
       "verified_target_count": 11,
-      "errors": []
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
-      "artists": 2181,
+      "artists": 2182,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2181,
-        "server_count": 2181,
+        "count": 2182,
+        "server_count": 2182,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793463935.522078,
+        "saved_at": 1793478496.2294002,
         "source": "live"
       },
-      "relations": 83978,
-      "new_album_candidates": 83,
-      "unique_albums": 38433,
-      "detail_success": 38432,
+      "relations": 83983,
+      "new_album_candidates": 84,
+      "unique_albums": 38434,
+      "detail_success": 38433,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1113,
-      "verify_artists": 753,
+      "date_hit_albums": 1114,
+      "verify_artists": 754,
       "owned_failures": 0,
-      "external_hits": 338,
-      "new_release_hits": 123,
+      "external_hits": 339,
+      "new_release_hits": 124,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 56
+    "unique_album_count": 57
   },
   "albums": [
     {
@@ -206,7 +208,7 @@
       "publish_date": "2026-11-01",
       "size": 2,
       "company": "",
-      "pic_url": "https://p4.music.126.net/iGh72j4LiAAsXmUPC1xWVA==/109951173872987101.jpg",
+      "pic_url": "https://p3.music.126.net/iGh72j4LiAAsXmUPC1xWVA==/109951173872987101.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -252,7 +254,7 @@
       "publish_date": "2026-11-01",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/crVS5XG_u-UcANOTpYS2cA==/109951174139851600.jpg",
+      "pic_url": "https://p4.music.126.net/crVS5XG_u-UcANOTpYS2cA==/109951174139851600.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -298,7 +300,7 @@
       "publish_date": "2026-11-01",
       "size": 1,
       "company": "StreetVoice/Z计划",
-      "pic_url": "https://p4.music.126.net/Gkel_-iQUEKw0cxaBjgiig==/109951174179756138.jpg",
+      "pic_url": "https://p3.music.126.net/Gkel_-iQUEKw0cxaBjgiig==/109951174179756138.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -400,7 +402,7 @@
       "publish_date": "2026-11-01",
       "size": 2,
       "company": "北京时代强音文化传媒有限公司",
-      "pic_url": "https://p3.music.126.net/sIea-6lycGF0jv1kgzvaSQ==/109951174195172314.jpg",
+      "pic_url": "https://p4.music.126.net/sIea-6lycGF0jv1kgzvaSQ==/109951174195172314.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -429,6 +431,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=405480257"
+    },
+    {
+      "id": 404614325,
+      "name": "崩壊世界ノ旋律",
+      "artists": [
+        {
+          "id": 0,
+          "name": "RyuiY"
+        }
+      ],
+      "artist_names": [
+        "RyuiY"
+      ],
+      "publish_time": 1793462400000,
+      "publish_date": "2026-11-01",
+      "size": 14,
+      "company": "RyuiY",
+      "pic_url": "https://p3.music.126.net/H2_OQcBN-uavLcDRkfCnpA==/109951174129436870.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404614325"
     },
     {
       "id": 405583807,
@@ -561,7 +586,7 @@
       "publish_date": "2026-11-01",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/KNl8x6WNw7eYcgPltX9ZHA==/109951174204576767.jpg",
+      "pic_url": "https://p3.music.126.net/KNl8x6WNw7eYcgPltX9ZHA==/109951174204576767.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
