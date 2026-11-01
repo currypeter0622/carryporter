@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
-  "generated_at": "2026-11-01T13:17:56.662363+08:00",
-  "count": 63,
+  "generated_at": "2026-11-01T19:59:18.452890+08:00",
+  "count": 71,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 16,
+        "target_count": 24,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 10,
+        "target_count": 12,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 5,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 6,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 9,
+        "target_count": 11,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -123,14 +123,14 @@
         "area": "KR",
         "year": 2026,
         "month": 11,
-        "pages_scanned": 1,
+        "pages_scanned": 2,
         "page_size": 30,
         "reported_total": null,
-        "final_offset": 0,
-        "target_count": 0,
-        "repeated_pages": 0,
-        "complete_scan": true,
-        "incomplete_reason": null
+        "final_offset": 30,
+        "target_count": 4,
+        "repeated_pages": 1,
+        "complete_scan": false,
+        "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
       },
       {
         "source": "top_album",
@@ -154,42 +154,162 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 737,
+      "queries_ok": 10,
+      "search_candidates": 745,
       "verified_target_count": 11,
       "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2182,
+      "artists": 2183,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2182,
-        "server_count": 2182,
+        "count": 2183,
+        "server_count": 2183,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793508063.8826127,
+        "saved_at": 1793532474.0295506,
         "source": "live"
       },
-      "relations": 83982,
-      "new_album_candidates": 88,
-      "unique_albums": 38428,
-      "detail_success": 38427,
+      "relations": 84031,
+      "new_album_candidates": 89,
+      "unique_albums": 38456,
+      "detail_success": 38455,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1120,
-      "verify_artists": 755,
+      "date_hit_albums": 1125,
+      "verify_artists": 762,
       "owned_failures": 0,
-      "external_hits": 340,
-      "new_release_hits": 128,
+      "external_hits": 343,
+      "new_release_hits": 130,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 63
+    "unique_album_count": 71
   },
   "albums": [
+    {
+      "id": 406970839,
+      "name": "神色",
+      "artists": [
+        {
+          "id": 51212995,
+          "name": "Sev anbulous"
+        }
+      ],
+      "artist_names": [
+        "Sev anbulous"
+      ],
+      "publish_time": 1793530800000,
+      "publish_date": "2026-11-01",
+      "size": 12,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/CEZkjnZrrOGmi9mgf19dwg==/109951174198085402.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406970839"
+    },
+    {
+      "id": 406731985,
+      "name": "心湖",
+      "artists": [
+        {
+          "id": 10561,
+          "name": "张靓颖"
+        }
+      ],
+      "artist_names": [
+        "张靓颖"
+      ],
+      "publish_time": 1793530800000,
+      "publish_date": "2026-11-01",
+      "size": 1,
+      "company": "靡之音乐",
+      "pic_url": "https://p3.music.126.net/T4jEfKxzb1U_LDWVL7LBqw==/109951174197603331.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406731985"
+    },
+    {
+      "id": 406731028,
+      "name": "파이널 테이블 OST Part.1",
+      "artists": [
+        {
+          "id": 30623676,
+          "name": "NIve"
+        }
+      ],
+      "artist_names": [
+        "NIve"
+      ],
+      "publish_time": 1793462400000,
+      "publish_date": "2026-11-01",
+      "size": 2,
+      "company": "SLL",
+      "pic_url": "https://p4.music.126.net/ccmwbFy8DnBugLHWXoAtUA==/109951174189920422.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406731028"
+    },
+    {
+      "id": 406469608,
+      "name": "이별 편지",
+      "artists": [
+        {
+          "id": 56624001,
+          "name": "주호"
+        },
+        {
+          "id": 11972011,
+          "name": "Nil_O"
+        }
+      ],
+      "artist_names": [
+        "주호",
+        "Nil_O"
+      ],
+      "publish_time": 1793462400000,
+      "publish_date": "2026-11-01",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/V19zbHPFzqxrcJo5rlMe5Q==/109951174183849464.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406469608"
+    },
+    {
+      "id": 404981679,
+      "name": "너 말고 다른 연애 OST Part.7",
+      "artists": [
+        {
+          "id": 12506013,
+          "name": "김수영"
+        }
+      ],
+      "artist_names": [
+        "김수영"
+      ],
+      "publish_time": 1793462400000,
+      "publish_date": "2026-11-01",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/nQqFIhlVwl2wTJNybjinMw==/109951174140075706.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404981679"
+    },
     {
       "id": 396126289,
       "name": "高山流水 Gāo Shān Liú Shuǐ I",
@@ -206,7 +326,7 @@
       "publish_date": "2026-11-01",
       "size": 2,
       "company": "",
-      "pic_url": "https://p3.music.126.net/iGh72j4LiAAsXmUPC1xWVA==/109951173872987101.jpg",
+      "pic_url": "https://p4.music.126.net/iGh72j4LiAAsXmUPC1xWVA==/109951173872987101.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -275,7 +395,7 @@
       "publish_date": "2026-11-01",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/crVS5XG_u-UcANOTpYS2cA==/109951174139851600.jpg",
+      "pic_url": "https://p3.music.126.net/crVS5XG_u-UcANOTpYS2cA==/109951174139851600.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -321,7 +441,7 @@
       "publish_date": "2026-11-01",
       "size": 1,
       "company": "StreetVoice/Z计划",
-      "pic_url": "https://p3.music.126.net/Gkel_-iQUEKw0cxaBjgiig==/109951174179756138.jpg",
+      "pic_url": "https://p4.music.126.net/Gkel_-iQUEKw0cxaBjgiig==/109951174179756138.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -469,7 +589,7 @@
       "publish_date": "2026-11-01",
       "size": 14,
       "company": "RyuiY",
-      "pic_url": "https://p3.music.126.net/H2_OQcBN-uavLcDRkfCnpA==/109951174129436870.jpg",
+      "pic_url": "https://p4.music.126.net/H2_OQcBN-uavLcDRkfCnpA==/109951174129436870.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -653,7 +773,7 @@
       "publish_date": "2026-11-01",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/KNl8x6WNw7eYcgPltX9ZHA==/109951174204576767.jpg",
+      "pic_url": "https://p4.music.126.net/KNl8x6WNw7eYcgPltX9ZHA==/109951174204576767.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -847,6 +967,29 @@
       "url": "https://music.163.com/#/album?id=404614544"
     },
     {
+      "id": 400780407,
+      "name": "あなたと出会えて、恋をした。",
+      "artists": [
+        {
+          "id": 47033827,
+          "name": "メテオ"
+        }
+      ],
+      "artist_names": [
+        "メテオ"
+      ],
+      "publish_time": 1793462400000,
+      "publish_date": "2026-11-01",
+      "size": 12,
+      "company": "METEOR",
+      "pic_url": "https://p3.music.126.net/VAIR7lP9xn2VYRZqwUuo3A==/109951174012148244.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=400780407"
+    },
+    {
       "id": 407233690,
       "name": "У той зимы непрошенной (100 минут зимних песен)",
       "artists": [
@@ -895,7 +1038,7 @@
       "publish_date": "2026-11-01",
       "size": 1,
       "company": "塞壬唱片-MSR",
-      "pic_url": "https://p3.music.126.net/t-XL-EmIBxyeD6S-2AdgJg==/109951174196166603.jpg",
+      "pic_url": "https://p4.music.126.net/t-XL-EmIBxyeD6S-2AdgJg==/109951174196166603.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1015,7 +1158,7 @@
       "publish_date": "2026-11-01",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/gKcs6SuOymPnzUbET37ZVg==/109951174112550979.jpg",
+      "pic_url": "https://p4.music.126.net/gKcs6SuOymPnzUbET37ZVg==/109951174112550979.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1283,7 +1426,7 @@
       "publish_date": "2026-11-01",
       "size": 4,
       "company": "",
-      "pic_url": "https://p4.music.126.net/g8xwJyF0jdwB_azNcVjLxA==/109951174144675406.jpg",
+      "pic_url": "https://p3.music.126.net/g8xwJyF0jdwB_azNcVjLxA==/109951174144675406.jpg",
       "sub_type": "Remix",
       "type": "专辑",
       "status": 1,
@@ -1683,6 +1826,57 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=406526546"
+    },
+    {
+      "id": 406730520,
+      "name": "ARC4D3",
+      "artists": [
+        {
+          "id": 62199713,
+          "name": "dylitt"
+        }
+      ],
+      "artist_names": [
+        "dylitt"
+      ],
+      "publish_time": 1793462400000,
+      "publish_date": "2026-11-01",
+      "size": 16,
+      "company": "GU Music",
+      "pic_url": "https://p3.music.126.net/594lncunNTLUbdYoedcoDA==/109951174189904248.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406730520"
+    },
+    {
+      "id": 405395063,
+      "name": ":D",
+      "artists": [
+        {
+          "id": 32249074,
+          "name": "viceversa"
+        },
+        {
+          "id": 12046229,
+          "name": "P. Cassady"
+        }
+      ],
+      "artist_names": [
+        "viceversa",
+        "P. Cassady"
+      ],
+      "publish_time": 1793462400000,
+      "publish_date": "2026-11-01",
+      "size": 14,
+      "company": "3YE GLOBAL",
+      "pic_url": "https://p3.music.126.net/ciyTpHokzO9GhFv_TlXAyg==/109951174149914128.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405395063"
     },
     {
       "id": 406128501,
