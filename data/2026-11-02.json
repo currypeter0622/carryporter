@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T00:50:22.488872+08:00",
-  "count": 36,
+  "generated_at": "2026-11-02T05:00:22.891222+08:00",
+  "count": 40,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 8,
+        "target_count": 12,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 2,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 4,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 2,
+        "target_count": 3,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,10 +154,12 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 741,
+      "queries_ok": 8,
+      "search_candidates": 642,
       "verified_target_count": 2,
-      "errors": []
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
       "artists": 2184,
@@ -170,24 +172,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793550323.367476,
+        "saved_at": 1793564955.4488707,
         "source": "live"
       },
-      "relations": 84082,
-      "new_album_candidates": 49,
-      "unique_albums": 38456,
-      "detail_success": 38455,
+      "relations": 84083,
+      "new_album_candidates": 50,
+      "unique_albums": 38457,
+      "detail_success": 38456,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1126,
-      "verify_artists": 751,
+      "date_hit_albums": 1127,
+      "verify_artists": 752,
       "owned_failures": 0,
       "external_hits": 356,
-      "new_release_hits": 69,
+      "new_release_hits": 70,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 36
+    "unique_album_count": 40
   },
   "albums": [
     {
@@ -214,6 +216,34 @@
       "url": "https://music.163.com/#/album?id=404752067"
     },
     {
+      "id": 403635456,
+      "name": "祟リ神",
+      "artists": [
+        {
+          "id": 53075846,
+          "name": "IMO"
+        },
+        {
+          "id": 1120148,
+          "name": "MEIKO"
+        }
+      ],
+      "artist_names": [
+        "IMO",
+        "MEIKO"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "KARENT",
+      "pic_url": "https://p4.music.126.net/HR7dThT3Lzx03GBSSGal5g==/109951174102029173.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403635456"
+    },
+    {
       "id": 405639770,
       "name": "瑠璃色の空",
       "artists": [
@@ -237,6 +267,62 @@
       "url": "https://music.163.com/#/album?id=405639770"
     },
     {
+      "id": 406938522,
+      "name": "未知结果(氛围版)",
+      "artists": [
+        {
+          "id": 13288861,
+          "name": "马也_Crabbit"
+        }
+      ],
+      "artist_names": [
+        "马也_Crabbit"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 2,
+      "company": "独立发行",
+      "pic_url": "https://p4.music.126.net/KAJeatFZB7mOqlF28_V3kA==/109951174196163826.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406938522"
+    },
+    {
+      "id": 403634834,
+      "name": "星間急行",
+      "artists": [
+        {
+          "id": 32555970,
+          "name": "As'257G"
+        },
+        {
+          "id": 129961508,
+          "name": "楢崎このみ"
+        },
+        {
+          "id": 1120148,
+          "name": "MEIKO"
+        }
+      ],
+      "artist_names": [
+        "As'257G",
+        "楢崎このみ",
+        "MEIKO"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 5,
+      "company": "KARENT",
+      "pic_url": "https://p3.music.126.net/TtcVM3ZCc277lk060C0_qA==/109951174102036501.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403634834"
+    },
+    {
       "id": 406888443,
       "name": "恨海情天",
       "artists": [
@@ -252,7 +338,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/ncI3WXA5WVMoJsEwi9rL_w==/109951174195538281.jpg",
+      "pic_url": "https://p3.music.126.net/ncI3WXA5WVMoJsEwi9rL_w==/109951174195538281.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -344,7 +430,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p4.music.126.net/v9speb8vmFB1kfXNRkXUaQ==/109951174183853697.jpg",
+      "pic_url": "https://p3.music.126.net/v9speb8vmFB1kfXNRkXUaQ==/109951174183853697.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -464,7 +550,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "XL Recordings",
-      "pic_url": "https://p3.music.126.net/ji3QpjGdt5ll4aj3FIm6OA==/109951174169078137.jpg",
+      "pic_url": "https://p4.music.126.net/ji3QpjGdt5ll4aj3FIm6OA==/109951174169078137.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -510,7 +596,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/rhpzCuMtKqyi4JNbIRRzrg==/109951174134635528.jpg",
+      "pic_url": "https://p4.music.126.net/rhpzCuMtKqyi4JNbIRRzrg==/109951174134635528.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -562,6 +648,34 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=404624017"
+    },
+    {
+      "id": 403635458,
+      "name": "The Breath Between",
+      "artists": [
+        {
+          "id": 53567654,
+          "name": "うらみ第二形態"
+        },
+        {
+          "id": 1120148,
+          "name": "MEIKO"
+        }
+      ],
+      "artist_names": [
+        "うらみ第二形態",
+        "MEIKO"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "KARENT",
+      "pic_url": "https://p3.music.126.net/Ik6P7dm7f98eIO41jcbWPw==/109951174102027223.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403635458"
     },
     {
       "id": 404624133,
@@ -975,7 +1089,7 @@
       "publish_date": "2026-11-02",
       "size": 2,
       "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
-      "pic_url": "https://p4.music.126.net/1aAL403gD74lDUBmUmIq2A==/109951174027235906.jpg",
+      "pic_url": "https://p3.music.126.net/1aAL403gD74lDUBmUmIq2A==/109951174027235906.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
