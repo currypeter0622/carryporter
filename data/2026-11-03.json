@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T01:15:18.448563+08:00",
+  "generated_at": "2026-11-03T05:05:13.631268+08:00",
   "count": 39,
   "scan": {
     "mode": "full",
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 10,
+        "target_count": 11,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 3,
+        "target_count": 4,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -154,10 +154,12 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 745,
+      "queries_ok": 8,
+      "search_candidates": 645,
       "verified_target_count": 3,
-      "errors": []
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
       "artists": 2185,
@@ -170,16 +172,16 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793638238.3110769,
+        "saved_at": 1793652003.26116,
         "source": "live"
       },
-      "relations": 84090,
+      "relations": 84091,
       "new_album_candidates": 47,
-      "unique_albums": 38460,
-      "detail_success": 38459,
+      "unique_albums": 38458,
+      "detail_success": 38457,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1126,
+      "date_hit_albums": 1127,
       "verify_artists": 747,
       "owned_failures": 0,
       "external_hits": 361,
@@ -313,7 +315,7 @@
       "publish_date": "2026-11-03",
       "size": 2,
       "company": "百纳娱乐",
-      "pic_url": "https://p4.music.126.net/qcX8rhILXtB5oZGYy6_UIw==/109951174189868014.jpg",
+      "pic_url": "https://p3.music.126.net/qcX8rhILXtB5oZGYy6_UIw==/109951174189868014.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -497,7 +499,7 @@
       "publish_date": "2026-11-03",
       "size": 1,
       "company": "相信音乐",
-      "pic_url": "https://p3.music.126.net/WWOyY1qHq_FsCdjf27OCGA==/109951174214336671.jpg",
+      "pic_url": "https://p4.music.126.net/WWOyY1qHq_FsCdjf27OCGA==/109951174214336671.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
