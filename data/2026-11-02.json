@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T13:19:38.135944+08:00",
-  "count": 47,
+  "generated_at": "2026-11-02T20:16:21.637125+08:00",
+  "count": 60,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 19,
+        "target_count": 29,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 11,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 7,
+        "target_count": 9,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 1,
+        "target_count": 8,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 738,
+      "search_candidates": 745,
       "verified_target_count": 3,
       "errors": []
     },
@@ -170,26 +170,118 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793594927.1429636,
+        "saved_at": 1793620066.7872274,
         "source": "live"
       },
-      "relations": 84083,
-      "new_album_candidates": 51,
-      "unique_albums": 38460,
-      "detail_success": 38459,
+      "relations": 84088,
+      "new_album_candidates": 54,
+      "unique_albums": 38455,
+      "detail_success": 38454,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1130,
-      "verify_artists": 753,
+      "date_hit_albums": 1133,
+      "verify_artists": 756,
       "owned_failures": 0,
-      "external_hits": 357,
-      "new_release_hits": 71,
+      "external_hits": 355,
+      "new_release_hits": 74,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 47
+    "unique_album_count": 60
   },
   "albums": [
+    {
+      "id": 407428221,
+      "name": "BAILE FUNK MANDALA",
+      "artists": [
+        {
+          "id": 48790581,
+          "name": "圈圈菌"
+        }
+      ],
+      "artist_names": [
+        "圈圈菌"
+      ],
+      "publish_time": 1793603245000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/RGFOdE5PrgHb6OFqehkS6A==/109951174215103293.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407428221"
+    },
+    {
+      "id": 407420964,
+      "name": "与天齐 巴西Funk版",
+      "artists": [
+        {
+          "id": 48790581,
+          "name": "圈圈菌"
+        }
+      ],
+      "artist_names": [
+        "圈圈菌"
+      ],
+      "publish_time": 1793601260000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/mXGqx-WpiX8QYoy3dF7DJA==/109951174214975758.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407420964"
+    },
+    {
+      "id": 407411615,
+      "name": "Looks Can Kill (Inverness Remix Edition)",
+      "artists": [
+        {
+          "id": 50377945,
+          "name": "IVE"
+        }
+      ],
+      "artist_names": [
+        "IVE"
+      ],
+      "publish_time": 1793595600000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "STARSHIP Entertainment",
+      "pic_url": "https://p4.music.126.net/2nQJHuEuwqChdSMy0Btmeg==/109951174214715679.jpg",
+      "sub_type": "Remix",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407411615"
+    },
+    {
+      "id": 406899686,
+      "name": "진심으로 널 사랑하고 있어",
+      "artists": [
+        {
+          "id": 125881,
+          "name": "란 (RAN)"
+        }
+      ],
+      "artist_names": [
+        "란 (RAN)"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 2,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/m8oC4U8PcI3ve2SRsE3LgQ==/109951174195156254.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406899686"
+    },
     {
       "id": 406525376,
       "name": "너 말고 다른 연애 OST",
@@ -214,6 +306,52 @@
       "url": "https://music.163.com/#/album?id=406525376"
     },
     {
+      "id": 406469860,
+      "name": "내가 웃고 있어요",
+      "artists": [
+        {
+          "id": 12046706,
+          "name": "O.WHEN"
+        }
+      ],
+      "artist_names": [
+        "O.WHEN"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 2,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/sG-GDQpebzd1yStwWKEWyQ==/109951174183866621.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406469860"
+    },
+    {
+      "id": 407436627,
+      "name": "날 잊어주길 바라고 있나 봐",
+      "artists": [
+        {
+          "id": 13680346,
+          "name": "정동원"
+        }
+      ],
+      "artist_names": [
+        "정동원"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 2,
+      "company": "NHN BUGS",
+      "pic_url": "http://p4.music.126.net/bEpMzugyrcXgq3_VBeQj_A==/109951174215310490.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "-날 잊어주길 바라고 있나 봐-\n\n네가 먼저 날 놓아주면 좋겠다.\n나는 그럴 수 없으니까.\n\n[Credit]\nLyrics by 김지현\nComposed by 김지현\nArranged by 신성진\n\nVocal by 정동원\nKeyboard by 김지현\nDrum by 신성진\nBass by 신성진\nA.Guitar & E.Guitar by 김형규\nString by 신성진\nChorus by 소울맨\n\nRecorded by 김화평\nMixed by 김화평\nMastered by Adam Ayan\nArtwork by Honest Studio",
+      "url": "https://music.163.com/#/album?id=407436627"
+    },
+    {
       "id": 404752067,
       "name": "飽々",
       "artists": [
@@ -229,7 +367,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/hQGprpONBR3xT3hjWhtB9Q==/109951174134620772.jpg",
+      "pic_url": "https://p4.music.126.net/hQGprpONBR3xT3hjWhtB9Q==/109951174134620772.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -280,7 +418,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "KARENT",
-      "pic_url": "https://p4.music.126.net/HR7dThT3Lzx03GBSSGal5g==/109951174102029173.jpg",
+      "pic_url": "https://p3.music.126.net/HR7dThT3Lzx03GBSSGal5g==/109951174102029173.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -326,7 +464,7 @@
       "publish_date": "2026-11-02",
       "size": 2,
       "company": "独立发行",
-      "pic_url": "https://p3.music.126.net/KAJeatFZB7mOqlF28_V3kA==/109951174196163826.jpg",
+      "pic_url": "https://p4.music.126.net/KAJeatFZB7mOqlF28_V3kA==/109951174196163826.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -365,6 +503,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=403634834"
+    },
+    {
+      "id": 406710366,
+      "name": "星光相汇午夜派对",
+      "artists": [
+        {
+          "id": 94762772,
+          "name": "22和33"
+        }
+      ],
+      "artist_names": [
+        "22和33"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 2,
+      "company": "bilibili",
+      "pic_url": "https://p3.music.126.net/ZldTBcdAuUIflXc6WiBFTA==/109951174189566323.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406710366"
     },
     {
       "id": 406888443,
@@ -566,7 +727,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "Universal Music LLC",
-      "pic_url": "https://p3.music.126.net/4mJdYfBdwKJj4xmRjzJlog==/109951174214131824.jpg",
+      "pic_url": "https://p4.music.126.net/4mJdYfBdwKJj4xmRjzJlog==/109951174214131824.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -686,7 +847,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "XL Recordings",
-      "pic_url": "https://p3.music.126.net/ji3QpjGdt5ll4aj3FIm6OA==/109951174169078137.jpg",
+      "pic_url": "https://p4.music.126.net/ji3QpjGdt5ll4aj3FIm6OA==/109951174169078137.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -734,7 +895,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "塞壬唱片-MSR",
-      "pic_url": "https://p4.music.126.net/f9XQS4d7IS2-VMyuApzXhg==/109951174196082005.jpg",
+      "pic_url": "https://p3.music.126.net/f9XQS4d7IS2-VMyuApzXhg==/109951174196082005.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -780,7 +941,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/rhpzCuMtKqyi4JNbIRRzrg==/109951174134635528.jpg",
+      "pic_url": "https://p4.music.126.net/rhpzCuMtKqyi4JNbIRRzrg==/109951174134635528.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -931,6 +1092,29 @@
       "url": "https://music.163.com/#/album?id=404624195"
     },
     {
+      "id": 403483217,
+      "name": "ROUTE ZERO : The CALLING",
+      "artists": [
+        {
+          "id": 55978052,
+          "name": "xikers"
+        }
+      ],
+      "artist_names": [
+        "xikers"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 6,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p4.music.126.net/XVRLSSIJ9J2RsgEzJG2oAA==/109951174097797651.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403483217"
+    },
+    {
       "id": 406344854,
       "name": "Qualia Remixes",
       "artists": [
@@ -1021,6 +1205,52 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=404624193"
+    },
+    {
+      "id": 407415054,
+      "name": "Old Friends",
+      "artists": [
+        {
+          "id": "47518395",
+          "name": "Tej"
+        }
+      ],
+      "artist_names": [
+        "Tej"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "6327892 Records DK",
+      "pic_url": "https://p4.music.126.net/4vLMq2bGBb-ds5kgdzC-ow==/109951174214859520.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407415054"
+    },
+    {
+      "id": 407352489,
+      "name": "Odyssey",
+      "artists": [
+        {
+          "id": 129628448,
+          "name": "涵崽崽"
+        }
+      ],
+      "artist_names": [
+        "涵崽崽"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/ep-FP5AOwRGjb9ETEygrgA==/109951174214486381.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407352489"
     },
     {
       "id": 404624339,
@@ -1166,6 +1396,52 @@
       "url": "https://music.163.com/#/album?id=405265526"
     },
     {
+      "id": 407353115,
+      "name": "I'm here to stay",
+      "artists": [
+        {
+          "id": "127491361",
+          "name": "虹夏繁星"
+        }
+      ],
+      "artist_names": [
+        "虹夏繁星"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/oVXs0SksdFzmWo64-yk7Wg==/109951174215385443.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407353115"
+    },
+    {
+      "id": 406975802,
+      "name": "Highway (Korean Ver.)",
+      "artists": [
+        {
+          "id": 124983,
+          "name": "秀铉"
+        }
+      ],
+      "artist_names": [
+        "秀铉"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/9AHKDoIAvCj_590_pZSErw==/109951174197138688.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406975802"
+    },
+    {
       "id": 404624256,
       "name": "Deep House Chill 055",
       "artists": [
@@ -1279,6 +1555,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=401321476"
+    },
+    {
+      "id": 406097217,
+      "name": "Attitude",
+      "artists": [
+        {
+          "id": 30615683,
+          "name": "Goopy"
+        }
+      ],
+      "artist_names": [
+        "Goopy"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "Wavy International",
+      "pic_url": "https://p4.music.126.net/Rm9pUMReZa4lWzL8YtVIvw==/109951174174758267.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406097217"
     },
     {
       "id": 404858028,
