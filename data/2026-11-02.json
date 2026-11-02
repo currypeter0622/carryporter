@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T05:00:22.891222+08:00",
-  "count": 40,
+  "generated_at": "2026-11-02T13:19:38.135944+08:00",
+  "count": 47,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 12,
+        "target_count": 19,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 3,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 3,
+        "target_count": 7,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -113,7 +113,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 1,
+        "target_count": 2,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,12 +154,10 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 642,
-      "verified_target_count": 2,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "queries_ok": 9,
+      "search_candidates": 738,
+      "verified_target_count": 3,
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2184,
@@ -172,26 +170,49 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793564955.4488707,
+        "saved_at": 1793594927.1429636,
         "source": "live"
       },
       "relations": 84083,
-      "new_album_candidates": 50,
-      "unique_albums": 38457,
-      "detail_success": 38456,
+      "new_album_candidates": 51,
+      "unique_albums": 38460,
+      "detail_success": 38459,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1127,
-      "verify_artists": 752,
+      "date_hit_albums": 1130,
+      "verify_artists": 753,
       "owned_failures": 0,
-      "external_hits": 356,
-      "new_release_hits": 70,
+      "external_hits": 357,
+      "new_release_hits": 71,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 40
+    "unique_album_count": 47
   },
   "albums": [
+    {
+      "id": 406525376,
+      "name": "너 말고 다른 연애 OST",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 13,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/nVnvmlI5t0xa6mYDW0BoFA==/109951174185100560.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406525376"
+    },
     {
       "id": 404752067,
       "name": "飽々",
@@ -208,12 +229,35 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/hQGprpONBR3xT3hjWhtB9Q==/109951174134620772.jpg",
+      "pic_url": "https://p3.music.126.net/hQGprpONBR3xT3hjWhtB9Q==/109951174134620772.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=404752067"
+    },
+    {
+      "id": 406715001,
+      "name": "风吹叶落",
+      "artists": [
+        {
+          "id": 95294113,
+          "name": "田园"
+        }
+      ],
+      "artist_names": [
+        "田园"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 2,
+      "company": "百纳娱乐 / IFP ENTERTAINMENT",
+      "pic_url": "https://p3.music.126.net/zGAunexpC-K0L7kcJOYi4A==/109951174189653672.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406715001"
     },
     {
       "id": 403635456,
@@ -259,7 +303,7 @@
       "publish_date": "2026-11-02",
       "size": 5,
       "company": "EXETUNE",
-      "pic_url": "https://p3.music.126.net/2b0rxKO0uLvLMN9miSaf4Q==/109951174156452553.jpg",
+      "pic_url": "https://p4.music.126.net/2b0rxKO0uLvLMN9miSaf4Q==/109951174156452553.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
@@ -282,7 +326,7 @@
       "publish_date": "2026-11-02",
       "size": 2,
       "company": "独立发行",
-      "pic_url": "https://p4.music.126.net/KAJeatFZB7mOqlF28_V3kA==/109951174196163826.jpg",
+      "pic_url": "https://p3.music.126.net/KAJeatFZB7mOqlF28_V3kA==/109951174196163826.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -315,7 +359,7 @@
       "publish_date": "2026-11-02",
       "size": 5,
       "company": "KARENT",
-      "pic_url": "https://p3.music.126.net/TtcVM3ZCc277lk060C0_qA==/109951174102036501.jpg",
+      "pic_url": "https://p4.music.126.net/TtcVM3ZCc277lk060C0_qA==/109951174102036501.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -369,6 +413,29 @@
       "url": "https://music.163.com/#/album?id=401844026"
     },
     {
+      "id": 406733956,
+      "name": "影之刃零原声曲辑",
+      "artists": [
+        {
+          "id": 816079,
+          "name": "薄彩生"
+        }
+      ],
+      "artist_names": [
+        "薄彩生"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 81,
+      "company": "北京灵游坊网络科技有限公司",
+      "pic_url": "https://p3.music.126.net/wH9o6pX6WYGjOiNdnX3MlA==/109951174189973368.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406733956"
+    },
+    {
       "id": 407152465,
       "name": "嘘HOLIC (feat. 重音テト) [重音テトバーション]",
       "artists": [
@@ -390,6 +457,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=407152465"
+    },
+    {
+      "id": 406728211,
+      "name": "劫",
+      "artists": [
+        {
+          "id": 4942,
+          "name": "沙宝亮"
+        }
+      ],
+      "artist_names": [
+        "沙宝亮"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "北京灵游坊网络科技有限公司",
+      "pic_url": "https://p3.music.126.net/L6saFO_ikgUiqpMUquAwfA==/109951174189866521.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406728211"
     },
     {
       "id": 405854520,
@@ -415,6 +505,29 @@
       "url": "https://music.163.com/#/album?id=405854520"
     },
     {
+      "id": 404753168,
+      "name": "会いたい",
+      "artists": [
+        {
+          "id": 16695,
+          "name": "加藤ミリヤ"
+        }
+      ],
+      "artist_names": [
+        "加藤ミリヤ"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "索尼音乐",
+      "pic_url": "https://p3.music.126.net/l7Nfcx_fUBOTxMxkj1kYNQ==/109951174134624730.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404753168"
+    },
+    {
       "id": 406473734,
       "name": "也许我",
       "artists": [
@@ -430,12 +543,35 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p3.music.126.net/v9speb8vmFB1kfXNRkXUaQ==/109951174183853697.jpg",
+      "pic_url": "https://p4.music.126.net/v9speb8vmFB1kfXNRkXUaQ==/109951174183853697.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=406473734"
+    },
+    {
+      "id": 407334644,
+      "name": "キツネノボタン",
+      "artists": [
+        {
+          "id": 21308,
+          "name": "スピッツ"
+        }
+      ],
+      "artist_names": [
+        "スピッツ"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "Universal Music LLC",
+      "pic_url": "https://p3.music.126.net/4mJdYfBdwKJj4xmRjzJlog==/109951174214131824.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407334644"
     },
     {
       "id": 404816519,
@@ -453,7 +589,7 @@
       "publish_date": "2026-11-02",
       "size": 8,
       "company": "Vivid Lila",
-      "pic_url": "https://p4.music.126.net/Mr_BOzAB9HoClPhQ6fLBBQ==/109951174136102119.jpg",
+      "pic_url": "https://p3.music.126.net/Mr_BOzAB9HoClPhQ6fLBBQ==/109951174136102119.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -476,7 +612,7 @@
       "publish_date": "2026-11-02",
       "size": 30,
       "company": "Silent Harbor Studio",
-      "pic_url": "https://p4.music.126.net/_oEZzrrAFhdF1y5M6q3apQ==/109951174153256492.jpg",
+      "pic_url": "https://p3.music.126.net/_oEZzrrAFhdF1y5M6q3apQ==/109951174153256492.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -504,7 +640,7 @@
       "publish_date": "2026-11-02",
       "size": 15,
       "company": "sounding X Taisheng Music",
-      "pic_url": "https://p3.music.126.net/qKfDME72DBx8d2-kFeeuFQ==/109951174179784315.jpg",
+      "pic_url": "https://p4.music.126.net/qKfDME72DBx8d2-kFeeuFQ==/109951174179784315.jpg",
       "sub_type": "现场版",
       "type": "专辑",
       "status": null,
@@ -550,12 +686,60 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "XL Recordings",
-      "pic_url": "https://p4.music.126.net/ji3QpjGdt5ll4aj3FIm6OA==/109951174169078137.jpg",
+      "pic_url": "https://p3.music.126.net/ji3QpjGdt5ll4aj3FIm6OA==/109951174169078137.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=405931160"
+    },
+    {
+      "id": 406935605,
+      "name": "[classified]entity.dominion.turmoil",
+      "artists": [
+        {
+          "id": 32540734,
+          "name": "塞壬唱片-MSR"
+        },
+        {
+          "id": 53634926,
+          "name": "Denys Lyubimov."
+        },
+        {
+          "id": 49511618,
+          "name": "迪悗"
+        },
+        {
+          "id": 12052021,
+          "name": "z1on"
+        },
+        {
+          "id": 32252357,
+          "name": "无糖宁宁子"
+        },
+        {
+          "id": 94515850,
+          "name": "ReStudio"
+        }
+      ],
+      "artist_names": [
+        "塞壬唱片-MSR",
+        "Denys Lyubimov.",
+        "迪悗",
+        "z1on",
+        "无糖宁宁子",
+        "ReStudio"
+      ],
+      "publish_time": 1793548800000,
+      "publish_date": "2026-11-02",
+      "size": 1,
+      "company": "塞壬唱片-MSR",
+      "pic_url": "https://p4.music.126.net/f9XQS4d7IS2-VMyuApzXhg==/109951174196082005.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406935605"
     },
     {
       "id": 404624174,
@@ -573,7 +757,7 @@
       "publish_date": "2026-11-02",
       "size": 22,
       "company": "Whore House Recordings",
-      "pic_url": "https://p4.music.126.net/wA2xXuK-sVPY-T2lNfK8OA==/109951174129892303.jpg",
+      "pic_url": "https://p3.music.126.net/wA2xXuK-sVPY-T2lNfK8OA==/109951174129892303.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -596,7 +780,7 @@
       "publish_date": "2026-11-02",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/rhpzCuMtKqyi4JNbIRRzrg==/109951174134635528.jpg",
+      "pic_url": "https://p3.music.126.net/rhpzCuMtKqyi4JNbIRRzrg==/109951174134635528.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -619,7 +803,7 @@
       "publish_date": "2026-11-02",
       "size": 3,
       "company": "Touqai & Lumixia",
-      "pic_url": "https://p3.music.126.net/BcuZwOUyYhh-ddyt0dDrmA==/109951174210303266.jpg",
+      "pic_url": "https://p4.music.126.net/BcuZwOUyYhh-ddyt0dDrmA==/109951174210303266.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -642,7 +826,7 @@
       "publish_date": "2026-11-02",
       "size": 15,
       "company": "HOT-Q",
-      "pic_url": "https://p4.music.126.net/-9ngTQ75SJZNTM6dLVX_Rg==/109951174129892232.jpg",
+      "pic_url": "https://p3.music.126.net/-9ngTQ75SJZNTM6dLVX_Rg==/109951174129892232.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -716,7 +900,7 @@
       "publish_date": "2026-11-02",
       "size": 14,
       "company": "Pink Panties Records",
-      "pic_url": "https://p3.music.126.net/qBu3ytbmFvlZjeHahFvPqw==/109951173930989630.jpg",
+      "pic_url": "https://p4.music.126.net/qBu3ytbmFvlZjeHahFvPqw==/109951173930989630.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -762,7 +946,7 @@
       "publish_date": "2026-11-02",
       "size": 7,
       "company": "RCDVSM",
-      "pic_url": "https://p3.music.126.net/Kp3QcRnFQRjKJFYS6oFv0Q==/109951174180738214.jpg",
+      "pic_url": "https://p4.music.126.net/Kp3QcRnFQRjKJFYS6oFv0Q==/109951174180738214.jpg",
       "sub_type": "Remix",
       "type": "专辑",
       "status": null,
@@ -808,7 +992,7 @@
       "publish_date": "2026-11-02",
       "size": 25,
       "company": "LW Recordings",
-      "pic_url": "https://p3.music.126.net/n2TQMd4unl2WJLQx_j-lfw==/109951174129896833.jpg",
+      "pic_url": "https://p4.music.126.net/n2TQMd4unl2WJLQx_j-lfw==/109951174129896833.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -831,7 +1015,7 @@
       "publish_date": "2026-11-02",
       "size": 25,
       "company": "HOT-Q",
-      "pic_url": "https://p4.music.126.net/zT_npxe-nvx7e3VfgfkpYA==/109951174129891331.jpg",
+      "pic_url": "https://p3.music.126.net/zT_npxe-nvx7e3VfgfkpYA==/109951174129891331.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -854,7 +1038,7 @@
       "publish_date": "2026-11-02",
       "size": 25,
       "company": "Nothing But",
-      "pic_url": "https://p4.music.126.net/7tkz1vhbda5yHfrip5ao7Q==/109951174129903711.jpg",
+      "pic_url": "https://p3.music.126.net/7tkz1vhbda5yHfrip5ao7Q==/109951174129903711.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -877,7 +1061,7 @@
       "publish_date": "2026-11-02",
       "size": 24,
       "company": "Nothing But",
-      "pic_url": "https://p3.music.126.net/d-JHaS23Wc0jpXJ6-g5d9Q==/109951174129900192.jpg",
+      "pic_url": "https://p4.music.126.net/d-JHaS23Wc0jpXJ6-g5d9Q==/109951174129900192.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -900,7 +1084,7 @@
       "publish_date": "2026-11-02",
       "size": 15,
       "company": "Trap Planet",
-      "pic_url": "https://p3.music.126.net/2aybyY-dmcag4islsCeHCA==/109951174177317852.jpg",
+      "pic_url": "https://p4.music.126.net/2aybyY-dmcag4islsCeHCA==/109951174177317852.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -923,7 +1107,7 @@
       "publish_date": "2026-11-02",
       "size": 10,
       "company": "Tronik Records",
-      "pic_url": "https://p4.music.126.net/PPqhJdTVpCKQ80X03XwLdQ==/109951174129887424.jpg",
+      "pic_url": "https://p3.music.126.net/PPqhJdTVpCKQ80X03XwLdQ==/109951174129887424.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
@@ -951,7 +1135,7 @@
       "publish_date": "2026-11-02",
       "size": 2,
       "company": "KARENT",
-      "pic_url": "https://p3.music.126.net/IaxMT_a5VS_k9Tf30PSPJw==/109951174102026737.jpg",
+      "pic_url": "https://p4.music.126.net/IaxMT_a5VS_k9Tf30PSPJw==/109951174102026737.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -1020,7 +1204,7 @@
       "publish_date": "2026-11-02",
       "size": 9,
       "company": "High Hope Entertainment",
-      "pic_url": "https://p4.music.126.net/JU48ENUFM2LEqQG5WF4a-w==/109951174179639213.jpg",
+      "pic_url": "https://p3.music.126.net/JU48ENUFM2LEqQG5WF4a-w==/109951174179639213.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1112,7 +1296,7 @@
       "publish_date": "2026-11-02",
       "size": 5,
       "company": "Soundfield",
-      "pic_url": "https://p4.music.126.net/UrrltM2dRk9iiae7IU6p7g==/109951174137664366.jpg",
+      "pic_url": "https://p3.music.126.net/UrrltM2dRk9iiae7IU6p7g==/109951174137664366.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
@@ -1195,7 +1379,7 @@
       "publish_date": "2026-11-02",
       "size": 80,
       "company": "UME - Global Clearing House",
-      "pic_url": "https://p4.music.126.net/e_ScGOzdbKPYXD5UNjcaAQ==/109951174211904744.jpg",
+      "pic_url": "https://p3.music.126.net/e_ScGOzdbKPYXD5UNjcaAQ==/109951174211904744.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": null,
