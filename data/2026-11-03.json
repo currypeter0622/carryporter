@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T05:05:13.631268+08:00",
-  "count": 39,
+  "generated_at": "2026-11-03T13:08:54.705182+08:00",
+  "count": 52,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 11,
+        "target_count": 20,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 15,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -55,7 +55,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 6,
+        "target_count": 12,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -127,7 +127,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,8 +155,8 @@
         "华语群星"
       ],
       "queries_ok": 8,
-      "search_candidates": 645,
-      "verified_target_count": 3,
+      "search_candidates": 643,
+      "verified_target_count": 4,
       "errors": [
         "华语群星: /search 请求失败：/search GET/POST 405"
       ]
@@ -172,26 +172,72 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793652003.26116,
+        "saved_at": 1793680940.0395253,
         "source": "live"
       },
       "relations": 84091,
-      "new_album_candidates": 47,
-      "unique_albums": 38458,
-      "detail_success": 38457,
+      "new_album_candidates": 49,
+      "unique_albums": 38460,
+      "detail_success": 38459,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1127,
-      "verify_artists": 747,
+      "date_hit_albums": 1132,
+      "verify_artists": 749,
       "owned_failures": 0,
-      "external_hits": 361,
-      "new_release_hits": 63,
+      "external_hits": 363,
+      "new_release_hits": 66,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 39
+    "unique_album_count": 52
   },
   "albums": [
+    {
+      "id": 407598536,
+      "name": "우리들의 발라드 2 Story 5",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 5,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/Vd3otuW-GVpkpghodW-rZQ==/109951174219441680.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407598536"
+    },
+    {
+      "id": 407399839,
+      "name": "성수동 그 거리",
+      "artists": [
+        {
+          "id": 13840516,
+          "name": "千禹京"
+        }
+      ],
+      "artist_names": [
+        "千禹京"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 1,
+      "company": "Genie Music Corporation",
+      "pic_url": "https://p3.music.126.net/YhPjpYpnnPN35H8zS3r-XA==/109951174214443684.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407399839"
+    },
     {
       "id": 407436413,
       "name": "风",
@@ -208,7 +254,7 @@
       "publish_date": "2026-11-03",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/6kJTBvVOluhfj9sZTXjQEA==/109951174215305340.jpg",
+      "pic_url": "https://p4.music.126.net/6kJTBvVOluhfj9sZTXjQEA==/109951174215305340.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -300,6 +346,102 @@
       "url": "https://music.163.com/#/album?id=407419335"
     },
     {
+      "id": 406715232,
+      "name": "艳阳天",
+      "artists": [
+        {
+          "id": 34563784,
+          "name": "庄淇玟(29#)"
+        }
+      ],
+      "artist_names": [
+        "庄淇玟(29#)"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 2,
+      "company": "百纳娱乐 / IFP ENTERTAINMENT",
+      "pic_url": "https://p4.music.126.net/OzqN3c8p-I2kXzuhh6JIHA==/109951174189656170.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406715232"
+    },
+    {
+      "id": 406927385,
+      "name": "联名2",
+      "artists": [
+        {
+          "id": 5538,
+          "name": "汪苏泷"
+        },
+        {
+          "id": 8926,
+          "name": "莫文蔚"
+        },
+        {
+          "id": 7063,
+          "name": "黄丽玲"
+        },
+        {
+          "id": 12001060,
+          "name": "万妮达Vinida Weng"
+        },
+        {
+          "id": 30471229,
+          "name": "宋雨琦"
+        },
+        {
+          "id": 10199,
+          "name": "杨丞琳"
+        },
+        {
+          "id": 12276200,
+          "name": "汉堡黄"
+        },
+        {
+          "id": 9489,
+          "name": "谭维维"
+        },
+        {
+          "id": 12664439,
+          "name": "希林娜依高"
+        },
+        {
+          "id": 12676697,
+          "name": "告五人"
+        },
+        {
+          "id": 10204,
+          "name": "杨千嬅"
+        }
+      ],
+      "artist_names": [
+        "汪苏泷",
+        "莫文蔚",
+        "黄丽玲",
+        "万妮达Vinida Weng",
+        "宋雨琦",
+        "杨丞琳",
+        "汉堡黄",
+        "谭维维",
+        "希林娜依高",
+        "告五人",
+        "杨千嬅"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 10,
+      "company": "大象无形",
+      "pic_url": "https://p3.music.126.net/h3Wb9N17ibgI14Nr482r_Q==/109951174195958410.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406927385"
+    },
+    {
       "id": 406728228,
       "name": "红线儿",
       "artists": [
@@ -323,6 +465,49 @@
       "url": "https://music.163.com/#/album?id=406728228"
     },
     {
+      "id": 407439169,
+      "name": "电影《三星堆：未来往事》原声带",
+      "artists": [
+        {
+          "id": 12258582,
+          "name": "刘晔"
+        },
+        {
+          "id": 98723939,
+          "name": "咕嘟大王"
+        },
+        {
+          "id": 35787837,
+          "name": "吴鑫宇"
+        },
+        {
+          "id": 130552439,
+          "name": "黃挺恩"
+        },
+        {
+          "id": 0,
+          "name": "莫斯杰"
+        }
+      ],
+      "artist_names": [
+        "刘晔",
+        "咕嘟大王",
+        "吴鑫宇",
+        "黃挺恩",
+        "莫斯杰"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 24,
+      "company": "光羽+",
+      "pic_url": "https://p3.music.126.net/flMst3Xr0F2aCi9kfz19Aw==/109951174215235749.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407439169"
+    },
+    {
       "id": 406347178,
       "name": "爆裂愛しすぎて滅！(Crazy Mashup by TeddyLoid)",
       "artists": [
@@ -338,7 +523,7 @@
       "publish_date": "2026-11-03",
       "size": 3,
       "company": "Colourful Records",
-      "pic_url": "https://p3.music.126.net/nchXysG377mpHiHx9X--KQ==/109951174180843779.jpg",
+      "pic_url": "https://p4.music.126.net/nchXysG377mpHiHx9X--KQ==/109951174180843779.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -350,7 +535,7 @@
       "name": "烟圈",
       "artists": [
         {
-          "id": 0,
+          "id": 12281292,
           "name": "潇公子（刘潇）"
         }
       ],
@@ -361,7 +546,7 @@
       "publish_date": "2026-11-03",
       "size": 2,
       "company": "峰华音乐",
-      "pic_url": "https://p4.music.126.net/0ju8ET1ApZSXfWacc4w49w==/109951169484091680.jpg",
+      "pic_url": "https://p4.music.126.net/SYNj6UGYPRMk3cngC2x_0Q==/109951174194951825.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -384,12 +569,70 @@
       "publish_date": "2026-11-03",
       "size": 9,
       "company": "",
-      "pic_url": "https://p3.music.126.net/TbQCDSzoDx5bpfEeEJ_C_Q==/109951174215550732.jpg",
+      "pic_url": "https://p4.music.126.net/TbQCDSzoDx5bpfEeEJ_C_Q==/109951174215550732.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=407432142"
+    },
+    {
+      "id": 407449780,
+      "name": "时间啊，向前！OST",
+      "artists": [
+        {
+          "id": 32540734,
+          "name": "塞壬唱片-MSR"
+        },
+        {
+          "id": 15506,
+          "name": "椎名豪"
+        },
+        {
+          "id": 34199516,
+          "name": "BaoUner"
+        },
+        {
+          "id": 36216586,
+          "name": "Jonathan Zuniga"
+        },
+        {
+          "id": 48004121,
+          "name": "Lappy"
+        },
+        {
+          "id": 36854153,
+          "name": "Alec Justice"
+        },
+        {
+          "id": 58909565,
+          "name": "Ben Hicks"
+        },
+        {
+          "id": 54166231,
+          "name": "Chengcheng Tang"
+        }
+      ],
+      "artist_names": [
+        "塞壬唱片-MSR",
+        "椎名豪",
+        "BaoUner",
+        "Jonathan Zuniga",
+        "Lappy",
+        "Alec Justice",
+        "Ben Hicks",
+        "Chengcheng Tang"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 14,
+      "company": "塞壬唱片-MSR",
+      "pic_url": "https://p3.music.126.net/nv5x2jTOJF4Hgz1_KOHDZQ==/109951174215412939.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407449780"
     },
     {
       "id": 407279768,
@@ -484,6 +727,29 @@
       "url": "https://music.163.com/#/album?id=404525940"
     },
     {
+      "id": 407510353,
+      "name": "凡心一梦",
+      "artists": [
+        {
+          "id": 34203894,
+          "name": "鸶夏"
+        }
+      ],
+      "artist_names": [
+        "鸶夏"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/rv40xk8SrfI7oELDFWJI_A==/109951174218731305.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407510353"
+    },
+    {
       "id": 407434294,
       "name": "再一次爱你",
       "artists": [
@@ -499,12 +765,35 @@
       "publish_date": "2026-11-03",
       "size": 1,
       "company": "相信音乐",
-      "pic_url": "https://p4.music.126.net/WWOyY1qHq_FsCdjf27OCGA==/109951174214336671.jpg",
+      "pic_url": "https://p3.music.126.net/WWOyY1qHq_FsCdjf27OCGA==/109951174214336671.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=407434294"
+    },
+    {
+      "id": 406645030,
+      "name": "兄弟走起",
+      "artists": [
+        {
+          "id": 3694,
+          "name": "罗志祥"
+        }
+      ],
+      "artist_names": [
+        "罗志祥"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 2,
+      "company": "乐火音乐/班客音乐",
+      "pic_url": "https://p3.music.126.net/hKJ2lD19bOILxKNKSo8rOg==/109951174188380664.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406645030"
     },
     {
       "id": 405485471,
@@ -528,6 +817,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=405485471"
+    },
+    {
+      "id": 406510111,
+      "name": "不知晓 (DJ降调版)",
+      "artists": [
+        {
+          "id": 30433236,
+          "name": "礼越"
+        }
+      ],
+      "artist_names": [
+        "礼越"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 2,
+      "company": "传音仓音乐",
+      "pic_url": "https://p4.music.126.net/dvvEOU0OVhC8l2Py3ScfGQ==/109951174184768601.jpg",
+      "sub_type": "Remix",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406510111"
     },
     {
       "id": 405860142,
@@ -629,7 +941,7 @@
       "publish_date": "2026-11-03",
       "size": 1,
       "company": "相信音乐",
-      "pic_url": "https://p3.music.126.net/F1p1Va8t1AGaHtxtg1TwEw==/109951174214329875.jpg",
+      "pic_url": "https://p4.music.126.net/F1p1Va8t1AGaHtxtg1TwEw==/109951174214329875.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -652,7 +964,7 @@
       "publish_date": "2026-11-03",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/JOjO143supu6WCiB_YDp5Q==/109951174214506983.jpg",
+      "pic_url": "https://p3.music.126.net/JOjO143supu6WCiB_YDp5Q==/109951174214506983.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -916,6 +1228,98 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=407395078"
+    },
+    {
+      "id": 407555589,
+      "name": "House Grooves 2026",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 20,
+      "company": "Delivery House",
+      "pic_url": "https://p3.music.126.net/ILJ20IoGzsdxBPv1UQwmUA==/109951174218728531.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407555589"
+    },
+    {
+      "id": 407555757,
+      "name": "House Anthems 2026",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 20,
+      "company": "Delivery House",
+      "pic_url": "https://p3.music.126.net/RfST4fVlDEIEZ8Cgv5qiXw==/109951174218731701.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407555757"
+    },
+    {
+      "id": 407596284,
+      "name": "Farruko: La Trayectoria",
+      "artists": [
+        {
+          "id": "198862",
+          "name": "Farruko"
+        }
+      ],
+      "artist_names": [
+        "Farruko"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 20,
+      "company": "索尼音乐",
+      "pic_url": "https://p3.music.126.net/u8fGbL9UpHotWrifbl9bRw==/109951174219381151.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407596284"
+    },
+    {
+      "id": 405344510,
+      "name": "FORGOTTEN CLU3",
+      "artists": [
+        {
+          "id": 8648,
+          "name": "刘忻"
+        }
+      ],
+      "artist_names": [
+        "刘忻"
+      ],
+      "publish_time": 1793635200000,
+      "publish_date": "2026-11-03",
+      "size": 11,
+      "company": "海南百星赴海文化传媒有限公",
+      "pic_url": "https://p3.music.126.net/t8ooBZE2ZoKxgXjTVGrtVw==/109951174148995101.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405344510"
     },
     {
       "id": 403400373,
