@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T01:07:09.225430+08:00",
-  "count": 90,
+  "generated_at": "2026-11-04T05:14:43.085381+08:00",
+  "count": 92,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 27,
+        "target_count": 32,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 15,
+        "target_count": 18,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -154,12 +154,10 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 640,
+      "queries_ok": 9,
+      "search_candidates": 738,
       "verified_target_count": 10,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2186,
@@ -172,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793724131.2408626,
+        "saved_at": 1793738557.4638405,
         "source": "live"
       },
       "relations": 84149,
-      "new_album_candidates": 68,
+      "new_album_candidates": 69,
       "unique_albums": 38473,
       "detail_success": 38472,
       "detail_errors": 1,
       "detail_mismatch": 0,
       "date_hit_albums": 1150,
-      "verify_artists": 752,
+      "verify_artists": 753,
       "owned_failures": 0,
-      "external_hits": 373,
-      "new_release_hits": 98,
+      "external_hits": 372,
+      "new_release_hits": 100,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 90
+    "unique_album_count": 92
   },
   "albums": [
     {
@@ -425,7 +423,7 @@
       "publish_date": "2026-11-04",
       "size": 18,
       "company": "千亩稻田",
-      "pic_url": "https://p3.music.126.net/i5ELRWHwBfKQpY8nQXNN0Q==/109951174219395694.jpg",
+      "pic_url": "https://p4.music.126.net/i5ELRWHwBfKQpY8nQXNN0Q==/109951174219395694.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -471,7 +469,7 @@
       "publish_date": "2026-11-04",
       "size": 6,
       "company": "(P) 2026 BApal Co., Ltd. / Idol School Japan Inc.",
-      "pic_url": "https://p4.music.126.net/BeF_caRu9022_ZQ0rvFvsQ==/109951174184603479.jpg",
+      "pic_url": "https://p3.music.126.net/BeF_caRu9022_ZQ0rvFvsQ==/109951174184603479.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -665,7 +663,7 @@
       "publish_date": "2026-11-04",
       "size": 20,
       "company": "发现梦想",
-      "pic_url": "https://p3.music.126.net/poyzF69X0IO3Y1p6EDPxiw==/109951174189892616.jpg",
+      "pic_url": "https://p4.music.126.net/poyzF69X0IO3Y1p6EDPxiw==/109951174189892616.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -836,7 +834,7 @@
       "publish_date": "2026-11-04",
       "size": 1,
       "company": "干亩稻田",
-      "pic_url": "https://p3.music.126.net/gXTLduvdA4Id9cOKGDo14g==/109951174219479828.jpg",
+      "pic_url": "https://p4.music.126.net/gXTLduvdA4Id9cOKGDo14g==/109951174219479828.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -938,7 +936,7 @@
       "publish_date": "2026-11-04",
       "size": 1,
       "company": "Speedstar",
-      "pic_url": "https://p4.music.126.net/N9YtAtpddZq1-TmWZjoDwQ==/109951174153539957.jpg",
+      "pic_url": "https://p3.music.126.net/N9YtAtpddZq1-TmWZjoDwQ==/109951174153539957.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -984,7 +982,7 @@
       "publish_date": "2026-11-04",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/_Q2QoEj6MclL33Dw6D6GNQ==/109951174144495778.jpg",
+      "pic_url": "https://p4.music.126.net/_Q2QoEj6MclL33Dw6D6GNQ==/109951174144495778.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1035,7 +1033,7 @@
       "publish_date": "2026-11-04",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p4.music.126.net/8Y8epafn6NhqWSM3BBdxiw==/109951174118787072.jpg",
+      "pic_url": "https://p3.music.126.net/8Y8epafn6NhqWSM3BBdxiw==/109951174118787072.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1081,7 +1079,7 @@
       "publish_date": "2026-11-04",
       "size": 3,
       "company": "PONY CANYON INC.",
-      "pic_url": "https://p3.music.126.net/SeFsXZTmTWHnwTCltypYPA==/109951174082071525.jpg",
+      "pic_url": "https://p4.music.126.net/SeFsXZTmTWHnwTCltypYPA==/109951174082071525.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1104,7 +1102,7 @@
       "publish_date": "2026-11-04",
       "size": 5,
       "company": "LuuvLabel",
-      "pic_url": "https://p4.music.126.net/LovopLp0X5Z7wy3XJ_ebqA==/109951174111147442.jpg",
+      "pic_url": "https://p3.music.126.net/LovopLp0X5Z7wy3XJ_ebqA==/109951174111147442.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -1208,6 +1206,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=405824068"
+    },
+    {
+      "id": 406056331,
+      "name": "YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “超現実” at TOKYO DOME",
+      "artists": [
+        {
+          "id": 33927412,
+          "name": "YOASOBI"
+        }
+      ],
+      "artist_names": [
+        "YOASOBI"
+      ],
+      "publish_time": 1793721600000,
+      "publish_date": "2026-11-04",
+      "size": 27,
+      "company": "YOASOBI",
+      "pic_url": "https://p4.music.126.net/lva-MU-OmBBPlnVa93QMBg==/109951174173848021.jpg",
+      "sub_type": "现场版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406056331"
     },
     {
       "id": 407269245,
@@ -1534,7 +1555,7 @@
       "publish_date": "2026-11-04",
       "size": 9,
       "company": "Michael Kaneko",
-      "pic_url": "https://p4.music.126.net/1tK7ip_jBda9w7HrKHCsuA==/109951174149457631.jpg",
+      "pic_url": "https://p3.music.126.net/1tK7ip_jBda9w7HrKHCsuA==/109951174149457631.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1677,7 +1698,7 @@
       "publish_date": "2026-11-04",
       "size": 4,
       "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
-      "pic_url": "https://p3.music.126.net/5x-qnvHkXBi9C0P-qkQMWA==/109951174184605267.jpg",
+      "pic_url": "https://p4.music.126.net/5x-qnvHkXBi9C0P-qkQMWA==/109951174184605267.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2221,7 +2242,7 @@
       "publish_date": "2026-11-04",
       "size": 11,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/G_Y7tKCNLEvlqgJpvGjQUg==/109951174179155295.jpg",
+      "pic_url": "https://p4.music.126.net/G_Y7tKCNLEvlqgJpvGjQUg==/109951174179155295.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -2347,6 +2368,89 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=406500158"
+    },
+    {
+      "id": 407732873,
+      "name": "\"The Longest Night: Bach, Mozart & more\"",
+      "artists": [
+        {
+          "id": "36490",
+          "name": "Johann Sebastian Bach"
+        },
+        {
+          "id": "231393",
+          "name": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "id": "804174",
+          "name": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "38731",
+          "name": "Ludwig van Beethoven"
+        },
+        {
+          "id": "33737",
+          "name": "Frédéric François Chopin"
+        },
+        {
+          "id": "33363",
+          "name": "Franz Schubert"
+        },
+        {
+          "id": "60942",
+          "name": "Johannes Brahms"
+        },
+        {
+          "id": "130021",
+          "name": "Robert Schumann"
+        },
+        {
+          "id": "37069",
+          "name": "Jean-Philippe Rameau"
+        },
+        {
+          "id": "29976",
+          "name": "Claude Debussy"
+        },
+        {
+          "id": "39435",
+          "name": "Maurice Ravel"
+        },
+        {
+          "id": "28510",
+          "name": "Antonio Vivaldi"
+        },
+        {
+          "id": "31197139",
+          "name": "George frideric Handel"
+        }
+      ],
+      "artist_names": [
+        "Johann Sebastian Bach",
+        "Pyotr Ilyich Tchaikovsky",
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Frédéric François Chopin",
+        "Franz Schubert",
+        "Johannes Brahms",
+        "Robert Schumann",
+        "Jean-Philippe Rameau",
+        "Claude Debussy",
+        "Maurice Ravel",
+        "Antonio Vivaldi",
+        "George frideric Handel"
+      ],
+      "publish_time": 1793721600000,
+      "publish_date": "2026-11-04",
+      "size": 79,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/kMhn46bfwOuMEQcAy9hTxQ==/109951174223167755.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407732873"
     }
   ]
 }
