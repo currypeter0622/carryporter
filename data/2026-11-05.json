@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T01:16:37.531173+08:00",
-  "count": 43,
+  "generated_at": "2026-11-05T05:21:02.917925+08:00",
+  "count": 45,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793810621.3940432,
+        "saved_at": 1793825266.3358295,
         "source": "live"
       },
-      "relations": 84142,
-      "new_album_candidates": 68,
-      "unique_albums": 38470,
-      "detail_success": 38469,
+      "relations": 84143,
+      "new_album_candidates": 71,
+      "unique_albums": 38473,
+      "detail_success": 38472,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1140,
-      "verify_artists": 746,
+      "date_hit_albums": 1143,
+      "verify_artists": 748,
       "owned_failures": 0,
-      "external_hits": 373,
-      "new_release_hits": 100,
+      "external_hits": 375,
+      "new_release_hits": 103,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 43
+    "unique_album_count": 45
   },
   "albums": [
     {
@@ -229,7 +229,7 @@
       "publish_date": "2026-11-05",
       "size": 1,
       "company": "Simple Music by Jing Yu Xiang Hai",
-      "pic_url": "https://p3.music.126.net/m45jWYQ-kv8OafgijEMS3A==/109951174225199810.jpg",
+      "pic_url": "https://p4.music.126.net/m45jWYQ-kv8OafgijEMS3A==/109951174225199810.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -366,7 +366,7 @@
       "publish_date": "2026-11-05",
       "size": 2,
       "company": "棣华盛乐",
-      "pic_url": "https://p3.music.126.net/38z_rt4vX2ruNt5HKDkMEg==/109951174225068339.jpg",
+      "pic_url": "https://p4.music.126.net/38z_rt4vX2ruNt5HKDkMEg==/109951174225068339.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -494,6 +494,29 @@
       "url": "https://music.163.com/#/album?id=406054183"
     },
     {
+      "id": 407947409,
+      "name": "mors egoni",
+      "artists": [
+        {
+          "id": "57456775",
+          "name": "iza tkm"
+        }
+      ],
+      "artist_names": [
+        "iza tkm"
+      ],
+      "publish_time": 1793808000000,
+      "publish_date": "2026-11-05",
+      "size": 1,
+      "company": "Virgin Music/ iza tkm",
+      "pic_url": "https://p4.music.126.net/G29SsKbAdFGNkfudoXzLCA==/109951174228201092.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407947409"
+    },
+    {
       "id": 406706203,
       "name": "milet×Toru",
       "artists": [
@@ -594,7 +617,7 @@
       "publish_date": "2026-11-05",
       "size": 1,
       "company": "This Never Happened",
-      "pic_url": "https://p3.music.126.net/0iWnEvUzNJPY0XhFIsbkSQ==/109951174213948423.jpg",
+      "pic_url": "https://p4.music.126.net/0iWnEvUzNJPY0XhFIsbkSQ==/109951174213948423.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1087,6 +1110,39 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=405475235"
+    },
+    {
+      "id": 407949226,
+      "name": "FSOE 987 - Future Sound Of Egypt Episode 987",
+      "artists": [
+        {
+          "id": "86717",
+          "name": "Aly & Fila"
+        },
+        {
+          "id": "33171755",
+          "name": "Aly & Fila FSOE Radio"
+        },
+        {
+          "id": "51502096",
+          "name": "Future Sound of Egypt"
+        }
+      ],
+      "artist_names": [
+        "Aly & Fila",
+        "Aly & Fila FSOE Radio",
+        "Future Sound of Egypt"
+      ],
+      "publish_time": 1793808000000,
+      "publish_date": "2026-11-05",
+      "size": 27,
+      "company": "FSOE",
+      "pic_url": "https://p4.music.126.net/mZeUKi5vJaWCdrL8m2c7gQ==/109951174228226777.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407949226"
     },
     {
       "id": 405490641,
