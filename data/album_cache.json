@@ -393453,7 +393453,7 @@
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793881241.7387056
+    "cached_at": 1793912876.480572
   },
   "265689789": {
     "album_id": "265689789",
@@ -887939,6 +887939,507 @@
       {
         "id": "3458014929",
         "name": "Way To Go (Aaron Hibell Remix)"
+      }
+    ]
+  },
+  "401422403": {
+    "album_id": "401422403",
+    "album_name": "Flame",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "125448835",
+      "46676178"
+    ],
+    "artist_names": [
+      "Lightfighter",
+      "Cflyy",
+      "SUNHO"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/qC1VKYXvY4wStvR5A7Hwuw==/109951174030780373.jpg",
+    "company": "King Step",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793912811.9256148,
+    "songs": [
+      {
+        "id": "3442837164",
+        "name": "Flame"
+      }
+    ]
+  },
+  "287939276": {
+    "album_id": "287939276",
+    "album_name": "When You Were Mine",
+    "date_str": "2025-11-28",
+    "publish_ts": 1764259200000,
+    "artist_ids": [
+      "98017252"
+    ],
+    "artist_names": [
+      "Cflyy"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/zFRA3XIx_neFd17Z6HzWQw==/109951172131836445.jpg",
+    "company": "ARWV",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793912811.9312775
+  },
+  "78997920": {
+    "album_id": "78997920",
+    "album_name": "Deadspace",
+    "date_str": "2018-07-17",
+    "publish_ts": 1531756800000,
+    "artist_ids": [
+      "125448835"
+    ],
+    "artist_names": [
+      "Lightfighter"
+    ],
+    "size": 6,
+    "pic_url": "https://p3.music.126.net/-87iF1WtxiskGhV0ahtHZQ==/109951164059375195.jpg",
+    "company": "Lightfighter",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793912811.9512393
+  },
+  "421628": {
+    "album_id": "421628",
+    "album_name": "Lightfighter",
+    "date_str": "2011-10-05",
+    "publish_ts": 1317744000007,
+    "artist_ids": [
+      "125448835"
+    ],
+    "artist_names": [
+      "Lightfighter"
+    ],
+    "size": 5,
+    "pic_url": "https://p4.music.126.net/ac_siGisMT3qeAj4YcibpA==/1675655720740750.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793912811.9793706
+  },
+  "269827530": {
+    "album_id": "269827530",
+    "album_name": "Moment",
+    "date_str": "2025-05-09",
+    "publish_ts": 1746720000000,
+    "artist_ids": [
+      "98017252"
+    ],
+    "artist_names": [
+      "Cflyy"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/bmQbbnh6k5tCd-qnS5B3lQ==/109951170799486894.jpg",
+    "company": "King Step",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793912812.5695665
+  },
+  "276309528": {
+    "album_id": "276309528",
+    "album_name": "Left Behind",
+    "date_str": "2025-06-21",
+    "publish_ts": 1750435200000,
+    "artist_ids": [
+      "46706173",
+      "98017252"
+    ],
+    "artist_names": [
+      "Akmmer",
+      "Cflyy"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/OLqGILdFF5vIzcujyqJzlw==/109951171358055806.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793912812.5911942
+  },
+  "268956131": {
+    "album_id": "268956131",
+    "album_name": "黑历史只为过审核",
+    "date_str": "2025-04-14",
+    "publish_ts": 1744560000000,
+    "artist_ids": [
+      "98017252"
+    ],
+    "artist_names": [
+      "Cflyy"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/XCIuQ1uDI-Njt_-Ik-HM5w==/109951170722819615.jpg",
+    "company": "",
+    "sub_type": "DEMO",
+    "type": "Single",
+    "cached_at": 1793912812.6047454
+  },
+  "264131237": {
+    "album_id": "264131237",
+    "album_name": "Lost My Love",
+    "date_str": "2025-03-14",
+    "publish_ts": 1741881600000,
+    "artist_ids": [
+      "98017252"
+    ],
+    "artist_names": [
+      "Cflyy"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/wSqBCmwj4Ge8Qf1uBCX5ww==/109951170520670909.jpg",
+    "company": "King Step",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793912812.633381
+  },
+  "408157160": {
+    "album_id": "408157160",
+    "album_name": "破指南针",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "127491361"
+    ],
+    "artist_names": [
+      "虹夏繁星"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/5Ny8rmbVVuyxMULC6KYOHw==/109951174234096720.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793912818.3358617,
+    "songs": [
+      {
+        "id": "3458052417",
+        "name": "破指南针"
+      }
+    ]
+  },
+  "408169969": {
+    "album_id": "408169969",
+    "album_name": "Morning Shall Come",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "1043338",
+      "131823"
+    ],
+    "artist_names": [
+      "AURORA",
+      "Bear McCreary"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/Q-cMyBcTNnReYEJjKrV7Tg==/109951174234244522.jpg",
+    "company": "Fontana",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793912822.9583097,
+    "songs": [
+      {
+        "id": "3458056359",
+        "name": "Morning Shall Come"
+      }
+    ]
+  },
+  "38071687": {
+    "album_id": "38071687",
+    "album_name": "A State Of Trance Episode 725 (Live from A State of Trance @ Ushuaïa, Ibiza 2015)",
+    "date_str": "2015-08-06",
+    "publish_ts": 1438790400007,
+    "artist_ids": [
+      "996103"
+    ],
+    "artist_names": [
+      "Armada Music"
+    ],
+    "size": 38,
+    "pic_url": "https://p4.music.126.net/InqmI8JocUM9qI4X8V9AKA==/109951163211201737.jpg",
+    "company": "",
+    "sub_type": "现场版",
+    "type": "专辑",
+    "cached_at": 1793912873.9930987
+  },
+  "38070707": {
+    "album_id": "38070707",
+    "album_name": "A State Of Trance Episode 725 (Live from A State of Trance @ Ushuaïa, Ibiza 2015)",
+    "date_str": "2015-08-06",
+    "publish_ts": 1438790400007,
+    "artist_ids": [
+      "996103"
+    ],
+    "artist_names": [
+      "Armada Music"
+    ],
+    "size": 41,
+    "pic_url": "https://p4.music.126.net/MTQv0lE8DbraGe7tS9-YIQ==/109951163211203250.jpg",
+    "company": "A State of Trance Radio",
+    "sub_type": "现场版",
+    "type": "专辑",
+    "cached_at": 1793912874.8382778
+  },
+  "408183739": {
+    "album_id": "408183739",
+    "album_name": "Hide and Seek",
+    "date_str": "2026-11-01",
+    "publish_ts": 1793462400000,
+    "artist_ids": [
+      "401580"
+    ],
+    "artist_names": [
+      "Joni"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/JaFkMJ2nSxhTKMfTeUTimg==/109951174234596935.jpg",
+    "company": "Joni",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793912877.787889
+  },
+  "408189449": {
+    "album_id": "408189449",
+    "album_name": "Tardeo Navideño",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 60,
+    "pic_url": "https://p3.music.126.net/Z1-t9vmucX9VnzvmQxpshw==/109951174234761663.jpg",
+    "company": "索尼音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793912891.5377293
+  },
+  "408182704": {
+    "album_id": "408182704",
+    "album_name": "X Factor 2026 Live #2",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 11,
+    "pic_url": "https://p4.music.126.net/b16EjdMInYtx5ldzYhMOhg==/109951174234571209.jpg",
+    "company": "华纳音乐",
+    "sub_type": "现场版",
+    "type": "专辑",
+    "cached_at": 1793912899.863082,
+    "songs": [
+      {
+        "id": "3458076789",
+        "name": "Street Spirit (Fade Out)"
+      },
+      {
+        "id": "3458075602",
+        "name": "As The World Caves In"
+      },
+      {
+        "id": "3458075603",
+        "name": "I Wish"
+      },
+      {
+        "id": "3458076790",
+        "name": "Mrs. Robinson"
+      },
+      {
+        "id": "3458075604",
+        "name": "Hola (I Say)"
+      },
+      {
+        "id": "3458076791",
+        "name": "Charlie fa surf"
+      },
+      {
+        "id": "3458076792",
+        "name": "UNETHICAL"
+      },
+      {
+        "id": "3458075605",
+        "name": "Diavolo In Me / X Colpa Di Chi?"
+      },
+      {
+        "id": "3458076793",
+        "name": "Total Eclipse Of The Heart"
+      },
+      {
+        "id": "3458075606",
+        "name": "Theme from New York, New York"
+      },
+      {
+        "id": "3458075607",
+        "name": "I romantici"
+      }
+    ]
+  },
+  "408171474": {
+    "album_id": "408171474",
+    "album_name": "LunaEther (Compiled By Ajna Luna)",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 10,
+    "pic_url": "https://p3.music.126.net/6S2dUey4D8MwpHSxEDyAvg==/109951174234282841.jpg",
+    "company": "Labareda Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793912899.8962092,
+    "songs": [
+      {
+        "id": "3458057387",
+        "name": "Aithēr"
+      },
+      {
+        "id": "3458059131",
+        "name": "Dark Connection"
+      },
+      {
+        "id": "3458057388",
+        "name": "The Road"
+      },
+      {
+        "id": "3458059132",
+        "name": "Don't Scream Please"
+      },
+      {
+        "id": "3458057389",
+        "name": "Synthetics Inteligences"
+      },
+      {
+        "id": "3458059133",
+        "name": "Break to Rebuild Stronger"
+      },
+      {
+        "id": "3458059134",
+        "name": "Singularity"
+      },
+      {
+        "id": "3458059135",
+        "name": "Shybilets"
+      },
+      {
+        "id": "3458057390",
+        "name": "Dark Roots"
+      },
+      {
+        "id": "3458057391",
+        "name": "Mysterion"
+      }
+    ]
+  },
+  "408160499": {
+    "album_id": "408160499",
+    "album_name": "Deep House Classics 2026",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p4.music.126.net/2Sla8zbNS4p4WhGVKJEXqQ==/109951174233233774.jpg",
+    "company": "Degrees Of Sounds",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793912899.9266627,
+    "songs": [
+      {
+        "id": "3458035317",
+        "name": "Upside"
+      },
+      {
+        "id": "3458034673",
+        "name": "Nobody"
+      },
+      {
+        "id": "3458035318",
+        "name": "Sweet Tuker"
+      },
+      {
+        "id": "3458035319",
+        "name": "Here With Me"
+      },
+      {
+        "id": "3458034674",
+        "name": "Sacrify"
+      },
+      {
+        "id": "3458035320",
+        "name": "Feel You"
+      },
+      {
+        "id": "3458034675",
+        "name": "Jack The Stack"
+      },
+      {
+        "id": "3458034676",
+        "name": "Sweet Lie"
+      },
+      {
+        "id": "3458035321",
+        "name": "Brilla Contigo"
+      },
+      {
+        "id": "3458035322",
+        "name": "House Paradise"
+      },
+      {
+        "id": "3458035323",
+        "name": "When Sun Goes Down"
+      },
+      {
+        "id": "3458034677",
+        "name": "Running Free"
+      },
+      {
+        "id": "3458034678",
+        "name": "On My Mind"
+      },
+      {
+        "id": "3458035324",
+        "name": "Voices"
+      },
+      {
+        "id": "3458034679",
+        "name": "Beside You"
+      },
+      {
+        "id": "3458034680",
+        "name": "Walk Away"
+      },
+      {
+        "id": "3458035325",
+        "name": "Drift Away"
+      },
+      {
+        "id": "3458034681",
+        "name": "Gonna Make Now"
+      },
+      {
+        "id": "3458034682",
+        "name": "Come To Me"
+      },
+      {
+        "id": "3458034683",
+        "name": "Yours Tonight"
       }
     ]
   }
