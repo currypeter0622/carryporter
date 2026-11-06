@@ -1,18 +1,26 @@
 {
-  "saved_at": 1793911425.8058372,
-  "count": 2190,
+  "saved_at": 1793940472.3680816,
+  "count": 2192,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2190,
-    "server_count": 2190,
+    "count": 2192,
+    "server_count": 2192,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1793911425.8058007
+    "saved_at": 1793940472.3680406
   },
   "artists": [
+    {
+      "id": "34490444",
+      "name": "HPEIRTAZ"
+    },
+    {
+      "id": "12673281",
+      "name": "Control Freak"
+    },
     {
       "id": "98017252",
       "name": "Cflyy"
