@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T01:13:47.234036+08:00",
-  "count": 47,
+  "generated_at": "2026-11-07T05:21:40.955684+08:00",
+  "count": 50,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 16,
+        "target_count": 17,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1793983221.359189,
+        "saved_at": 1793997785.2131066,
         "source": "live"
       },
       "relations": 84468,
       "new_album_candidates": 108,
-      "unique_albums": 38568,
-      "detail_success": 38567,
+      "unique_albums": 38565,
+      "detail_success": 38564,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1120,
+      "date_hit_albums": 1122,
       "verify_artists": 751,
       "owned_failures": 0,
-      "external_hits": 373,
-      "new_release_hits": 153,
+      "external_hits": 375,
+      "new_release_hits": 156,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 47
+    "unique_album_count": 50
   },
   "albums": [
     {
@@ -229,7 +229,7 @@
       "publish_date": "2026-11-07",
       "size": 1,
       "company": "幻梦音乐",
-      "pic_url": "https://p4.music.126.net/9Qb9HPMHMoZDPLXDxFrPLA==/109951174230598796.jpg",
+      "pic_url": "https://p3.music.126.net/9Qb9HPMHMoZDPLXDxFrPLA==/109951174230598796.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -354,7 +354,7 @@
       "publish_date": "2026-11-07",
       "size": 1,
       "company": "秀动发行",
-      "pic_url": "https://p4.music.126.net/vmLqr3MloOz6_5eY0_F1aA==/109951174225574429.jpg",
+      "pic_url": "https://p3.music.126.net/vmLqr3MloOz6_5eY0_F1aA==/109951174225574429.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -377,7 +377,7 @@
       "publish_date": "2026-11-07",
       "size": 1,
       "company": "Hao Yue Wu Huang",
-      "pic_url": "https://p3.music.126.net/DxhSL5PKOHD0ezD5DhCrRg==/109951174231058122.jpg",
+      "pic_url": "https://p4.music.126.net/DxhSL5PKOHD0ezD5DhCrRg==/109951174231058122.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -469,7 +469,7 @@
       "publish_date": "2026-11-07",
       "size": 1,
       "company": "威斯贝斯",
-      "pic_url": "https://p4.music.126.net/VQA1q8KF2Z12dwd3OOoyWg==/109951174236799150.jpg",
+      "pic_url": "https://p3.music.126.net/VQA1q8KF2Z12dwd3OOoyWg==/109951174236799150.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -497,7 +497,7 @@
       "publish_date": "2026-11-07",
       "size": 7,
       "company": "",
-      "pic_url": "https://p4.music.126.net/0ydSXirOqsNkHOgM8OPLYA==/109951174224570834.jpg",
+      "pic_url": "https://p3.music.126.net/0ydSXirOqsNkHOgM8OPLYA==/109951174224570834.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -520,7 +520,7 @@
       "publish_date": "2026-11-07",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/hg7DkDjkHTHpMaQp1Phazw==/109951174220728561.jpg",
+      "pic_url": "https://p4.music.126.net/hg7DkDjkHTHpMaQp1Phazw==/109951174220728561.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -1051,6 +1051,29 @@
       "url": "https://music.163.com/#/album?id=407156347"
     },
     {
+      "id": 408377743,
+      "name": "November Rain Mood",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1793980800000,
+      "publish_date": "2026-11-07",
+      "size": 25,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/qazy1BVPz78z1hi61nFL6Q==/109951174240073443.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=408377743"
+    },
+    {
       "id": 407035695,
       "name": "New Beginnings",
       "artists": [
@@ -1273,6 +1296,29 @@
       "url": "https://music.163.com/#/album?id=407156061"
     },
     {
+      "id": 408389542,
+      "name": "Electric Momentum — Gaming & High-Energy EDM",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1793980800000,
+      "publish_date": "2026-11-07",
+      "size": 12,
+      "company": "Electric Momentum Records",
+      "pic_url": "https://p4.music.126.net/3t7hoXyUecG7m1lx46fw-g==/109951174240334014.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=408389542"
+    },
+    {
       "id": 405626600,
       "name": "Deep Loungy & Groovy",
       "artists": [
@@ -1294,6 +1340,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=405626600"
+    },
+    {
+      "id": 408376516,
+      "name": "Breakfast Vibes",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1793980800000,
+      "publish_date": "2026-11-07",
+      "size": 41,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p3.music.126.net/pu5Kqv3cukEwIfrdEZVDmA==/109951174240061636.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=408376516"
     },
     {
       "id": 403395184,
