@@ -376279,8 +376279,8 @@
   "377339195": {
     "album_id": "377339195",
     "album_name": "Damn Daniel",
-    "date_str": "2026-05-09",
-    "publish_ts": 1778313171116,
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
     "artist_ids": [
       "53357547",
       "688518",
@@ -376292,11 +376292,17 @@
       "Barely Alive"
     ],
     "size": 1,
-    "pic_url": "https://p3.music.126.net/gYYjvgOjM7gkJikFzY2rIQ==/109951173249490350.jpg",
-    "company": "",
+    "pic_url": "https://p4.music.126.net/mm9F2Kc-fx-LIwNM8lgapw==/109951174226881805.jpg",
+    "company": "Independent",
     "sub_type": "录音室版",
     "type": "Single",
-    "cached_at": 1791435444.704581
+    "cached_at": 1793984734.1548567,
+    "songs": [
+      {
+        "id": "3384049160",
+        "name": "Damn Daniel"
+      }
+    ]
   },
   "376344737": {
     "album_id": "376344737",
@@ -872973,11 +872979,11 @@
       "V.A."
     ],
     "size": 50,
-    "pic_url": "https://p4.music.126.net/yK7sPHsgP-ladN4JNRN1Kg==/109951174209435691.jpg",
+    "pic_url": "https://p3.music.126.net/yK7sPHsgP-ladN4JNRN1Kg==/109951174209435691.jpg",
     "company": "华纳音乐",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793940456.1990576,
+    "cached_at": 1793984726.5661745,
     "songs": [
       {
         "id": "3456298680",
@@ -874881,7 +874887,7 @@
     "company": "华纳音乐",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1793940444.5171356,
+    "cached_at": 1793984726.5859976,
     "songs": [
       {
         "id": "3456300102",
@@ -890390,6 +890396,1875 @@
       {
         "id": "3458013854",
         "name": "All Eyes On Me"
+      }
+    ]
+  },
+  "408088329": {
+    "album_id": "408088329",
+    "album_name": "Love is J-POP～4 everyone～",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 27,
+    "pic_url": "https://p4.music.126.net/LgGtrFqooMlsuNpc7vDKPQ==/109951174230765859.jpg",
+    "company": "Various Artists",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984768.9904418,
+    "songs": [
+      {
+        "id": "3457898947",
+        "name": "君の知らない物語 (Cover)"
+      },
+      {
+        "id": "3457897182",
+        "name": "結-ゆい- (Cover)"
+      },
+      {
+        "id": "3457898948",
+        "name": "幸せをフォーエバー (Cover)"
+      },
+      {
+        "id": "3457897183",
+        "name": "好きだから。 (Cover)"
+      },
+      {
+        "id": "3457897184",
+        "name": "好きな人がいること (Cover)"
+      },
+      {
+        "id": "3457898949",
+        "name": "散歩道 (Cover)"
+      },
+      {
+        "id": "3457898950",
+        "name": "守ってあげたい (Cover)"
+      },
+      {
+        "id": "3457898951",
+        "name": "桜 (Cover)"
+      },
+      {
+        "id": "3457897185",
+        "name": "鼓動の秘密 (Cover)"
+      },
+      {
+        "id": "3457897186",
+        "name": "近づきたくて (Cover)"
+      },
+      {
+        "id": "3457898953",
+        "name": "3月9日 (Cover)"
+      },
+      {
+        "id": "3457897187",
+        "name": "Darling (Cover)"
+      },
+      {
+        "id": "3457898956",
+        "name": "hana (Cover)"
+      },
+      {
+        "id": "3457897188",
+        "name": "I LOVE YOUが言えなくて (Cover)"
+      },
+      {
+        "id": "3457898958",
+        "name": "I need your love (Cover)"
+      },
+      {
+        "id": "3457897190",
+        "name": "Hey my friend (Cover)"
+      },
+      {
+        "id": "3457898959",
+        "name": "Last Kiss (Cover)"
+      },
+      {
+        "id": "3457897191",
+        "name": "M (Cover)"
+      },
+      {
+        "id": "3457897192",
+        "name": "More&More (Cover)"
+      },
+      {
+        "id": "3457897193",
+        "name": "secret base ～君がくれたもの～ (Cover)"
+      },
+      {
+        "id": "3457898960",
+        "name": "PRIDE (Cover)"
+      },
+      {
+        "id": "3457898961",
+        "name": "STARS (Cover)"
+      },
+      {
+        "id": "3457898962",
+        "name": "Sign (Cover)"
+      },
+      {
+        "id": "3457898963",
+        "name": "WILL (Cover)"
+      },
+      {
+        "id": "3457898964",
+        "name": "WHY (Cover)"
+      },
+      {
+        "id": "3457898965",
+        "name": "ありがとう (Cover)"
+      },
+      {
+        "id": "3457898966",
+        "name": "フユラブ (Cover)"
+      }
+    ]
+  },
+  "408088026": {
+    "album_id": "408088026",
+    "album_name": "君とJ-POPだけを見つめてる。名曲ラブソングベスト",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 30,
+    "pic_url": "https://p3.music.126.net/7qgd6CuIsBy444_6qKxCTw==/109951174230774299.jpg",
+    "company": "Various Artists",
+    "sub_type": "录音室版",
+    "type": "精选集",
+    "cached_at": 1793984768.1551917,
+    "songs": [
+      {
+        "id": "3457899076",
+        "name": "この夜を止めてよ (Cover)"
+      },
+      {
+        "id": "3457897323",
+        "name": "カタオモイ (Cover)"
+      },
+      {
+        "id": "3457897324",
+        "name": "キセキ (Cover)"
+      },
+      {
+        "id": "3457899077",
+        "name": "さよなら (Cover)"
+      },
+      {
+        "id": "3457899078",
+        "name": "さくら (Cover)"
+      },
+      {
+        "id": "3457897325",
+        "name": "ごめんね、SUMMER (Cover)"
+      },
+      {
+        "id": "3457899079",
+        "name": "ずっと、ふたりで (Cover)"
+      },
+      {
+        "id": "3457899080",
+        "name": "ただ一つの願いさえ (Cover)"
+      },
+      {
+        "id": "3457899081",
+        "name": "サンライズ (Cover)"
+      },
+      {
+        "id": "3457897326",
+        "name": "ノンフィクション (Cover)"
+      },
+      {
+        "id": "3457897327",
+        "name": "たとえどんなに... (Cover)"
+      },
+      {
+        "id": "3457899082",
+        "name": "もう二度と… (Cover)"
+      },
+      {
+        "id": "3457899083",
+        "name": "やさしい気持ち (Cover)"
+      },
+      {
+        "id": "3457899084",
+        "name": "もしも運命の人がいるのなら (Cover)"
+      },
+      {
+        "id": "3457899085",
+        "name": "愛の歌 (Cover)"
+      },
+      {
+        "id": "3457897328",
+        "name": "ワタリドリ (Cover)"
+      },
+      {
+        "id": "3457897329",
+        "name": "ロビンソン (Cover)"
+      },
+      {
+        "id": "3457899086",
+        "name": "ラブ・ストーリーは突然に (Cover)"
+      },
+      {
+        "id": "3457899087",
+        "name": "花火 (Cover)"
+      },
+      {
+        "id": "3457897330",
+        "name": "永遠 (Cover)"
+      },
+      {
+        "id": "3457899088",
+        "name": "栄光の架橋 (Cover)"
+      },
+      {
+        "id": "3457897331",
+        "name": "夏色 (Cover)"
+      },
+      {
+        "id": "3457899089",
+        "name": "歌うたいのバラッド (Cover)"
+      },
+      {
+        "id": "3457899090",
+        "name": "気づいたら片想い (Cover)"
+      },
+      {
+        "id": "3457899091",
+        "name": "奇跡を望むなら... (Cover)"
+      },
+      {
+        "id": "3457899092",
+        "name": "会いたくて会いたくて (Cover)"
+      },
+      {
+        "id": "3457897332",
+        "name": "会いたい (Cover)"
+      },
+      {
+        "id": "3457897333",
+        "name": "空も飛べるはず (Cover)"
+      },
+      {
+        "id": "3457899093",
+        "name": "近づきたくて (Cover)"
+      },
+      {
+        "id": "3457899094",
+        "name": "貴方の恋人になりたいのです (Cover)"
+      }
+    ]
+  },
+  "408344258": {
+    "album_id": "408344258",
+    "album_name": "Playing Through The Changes: Anthology 1964-2020",
+    "date_str": "2021-04-30",
+    "publish_ts": 1619712000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 44,
+    "pic_url": "https://p3.music.126.net/XAg16j7flg9IQX4f0IARLw==/109951174238531565.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793983212.436503
+  },
+  "382234791": {
+    "album_id": "382234791",
+    "album_name": "Losing You",
+    "date_str": "2026-07-03",
+    "publish_ts": 1783008000000,
+    "artist_ids": [
+      "212405"
+    ],
+    "artist_names": [
+      "Rony Seikaly"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/xOZSLmFJTk99UMj_PP5qRg==/109951173409922510.jpg",
+    "company": "Saved Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984667.2303839
+  },
+  "393114351": {
+    "album_id": "393114351",
+    "album_name": "Don't Numb the Pain",
+    "date_str": "2026-09-04",
+    "publish_ts": 1788451200000,
+    "artist_ids": [
+      "212405",
+      "99393460",
+      "36506496"
+    ],
+    "artist_names": [
+      "Rony Seikaly",
+      "LUMC (VE)",
+      "Extra Special"
+    ],
+    "size": 4,
+    "pic_url": "https://p3.music.126.net/sCDBONChcsfjC5yX--eaBg==/109951173831475260.jpg",
+    "company": "Moon Harbour",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793984667.2354858
+  },
+  "387232524": {
+    "album_id": "387232524",
+    "album_name": "Variety Music Pres. Afronism, Vol. 13",
+    "date_str": "2026-07-31",
+    "publish_ts": 1785427200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 15,
+    "pic_url": "https://p4.music.126.net/7K2vzkhZNIlIDN6LXtVEoA==/109951173565371453.jpg",
+    "company": "Variety Music",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984667.6559553
+  },
+  "382469763": {
+    "album_id": "382469763",
+    "album_name": "Chill Balcony Mix",
+    "date_str": "2026-06-19",
+    "publish_ts": 1781798400000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 52,
+    "pic_url": "https://p3.music.126.net/Nqi_sg8YaUuk3MVokwmyVA==/109951173418334874.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "Remix",
+    "type": "专辑",
+    "cached_at": 1793984667.9216123
+  },
+  "378805663": {
+    "album_id": "378805663",
+    "album_name": "Coffee Music - Cafe, Croissant & Chill!",
+    "date_str": "2026-05-29",
+    "publish_ts": 1779984000000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 15,
+    "pic_url": "https://p4.music.126.net/3ux_qfhYmyjQ6E7Jeo_m2w==/109951173293869936.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984668.3101199
+  },
+  "379451202": {
+    "album_id": "379451202",
+    "album_name": "House Music Culture Vol. 3",
+    "date_str": "2026-06-12",
+    "publish_ts": 1781193600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 15,
+    "pic_url": "https://p3.music.126.net/DH2YfTJcCk7fm1vZi4fqjQ==/109951173315528765.jpg",
+    "company": "Reflective Music",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984668.3602412
+  },
+  "377572818": {
+    "album_id": "377572818",
+    "album_name": "Mood Booster Mix",
+    "date_str": "2026-05-22",
+    "publish_ts": 1779379200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 19,
+    "pic_url": "https://p4.music.126.net/xR0SEWXQ8QvbqCcz40FuHg==/109951173256143513.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "Remix",
+    "type": "专辑",
+    "cached_at": 1793984668.7993536
+  },
+  "363322930": {
+    "album_id": "363322930",
+    "album_name": "Running Cash",
+    "date_str": "2026-03-06",
+    "publish_ts": 1772726400000,
+    "artist_ids": [
+      "212405",
+      "35365096",
+      "47119211"
+    ],
+    "artist_names": [
+      "Rony Seikaly",
+      "VITO (UK)",
+      "Miluhska"
+    ],
+    "size": 3,
+    "pic_url": "https://p4.music.126.net/-N9-y6DSOEYfXSkK9Fd9mw==/109951172789872207.jpg",
+    "company": "Moon Harbour",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984669.1960676
+  },
+  "367026568": {
+    "album_id": "367026568",
+    "album_name": "Walking Out Of The Dark (The Remixes)",
+    "date_str": "2026-03-27",
+    "publish_ts": 1774540800000,
+    "artist_ids": [
+      "212405",
+      "34138970"
+    ],
+    "artist_names": [
+      "Rony Seikaly",
+      "HIGHTS",
+      "Bautista"
+    ],
+    "size": 10,
+    "pic_url": "https://p3.music.126.net/3I62KuD-TmlI-McFWFIfnw==/109951172910438233.jpg",
+    "company": "STRIDE",
+    "sub_type": "Remix",
+    "type": "专辑",
+    "cached_at": 1793984669.2191868
+  },
+  "375082237": {
+    "album_id": "375082237",
+    "album_name": "BBQ Summer Vibes",
+    "date_str": "2026-05-08",
+    "publish_ts": 1778169600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 63,
+    "pic_url": "https://p3.music.126.net/DsJ-aEzzVJN0U28OHOsJsA==/109951173187328118.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984669.3043826
+  },
+  "359380281": {
+    "album_id": "359380281",
+    "album_name": "Musique pour l'apéro",
+    "date_str": "2026-01-23",
+    "publish_ts": 1769097600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/qsvYP5sMyAUkHyYcTdItRQ==/109951172630689457.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984669.980503
+  },
+  "287867150": {
+    "album_id": "287867150",
+    "album_name": "Text Me",
+    "date_str": "2025-10-31",
+    "publish_ts": 1761840000000,
+    "artist_ids": [
+      "13599073",
+      "212405"
+    ],
+    "artist_names": [
+      "Gorje Hewek",
+      "Rony Seikaly"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/kA_ARyOiePFZ5xLgXZnwVQ==/109951172128834701.jpg",
+    "company": "Watergate Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984670.240021
+  },
+  "352843753": {
+    "album_id": "352843753",
+    "album_name": "Nervous Rewind 2025",
+    "date_str": "2025-12-05",
+    "publish_ts": 1764864000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 50,
+    "pic_url": "https://p3.music.126.net/p5NFKCM9TjYtJHVBSC9wYg==/109951172377542715.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984670.6035419
+  },
+  "352858566": {
+    "album_id": "352858566",
+    "album_name": "DANCE POP HITS",
+    "date_str": "2025-11-28",
+    "publish_ts": 1764259200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 49,
+    "pic_url": "https://p3.music.126.net/pxmXu4AORm2sClH6Yi-DrQ==/109951172375204597.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984670.6538076
+  },
+  "284721025": {
+    "album_id": "284721025",
+    "album_name": "Lui",
+    "date_str": "2025-10-03",
+    "publish_ts": 1759420800000,
+    "artist_ids": [
+      "212405",
+      "13855929"
+    ],
+    "artist_names": [
+      "Rony Seikaly",
+      "Nico Ramírez"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/6CDepXfQY2j3YlX1plalsA==/109951172001370115.jpg",
+    "company": "STRIDE",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984670.7944617
+  },
+  "284129732": {
+    "album_id": "284129732",
+    "album_name": "Boogie Man (ItaloBros Remix)",
+    "date_str": "2025-09-12",
+    "publish_ts": 1757606400000,
+    "artist_ids": [
+      "212405",
+      "12492197"
+    ],
+    "artist_names": [
+      "Rony Seikaly",
+      "Italobros"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/LqDfM-GqA0oXgjnaVfqBsA==/109951171978268770.jpg",
+    "company": "Stride",
+    "sub_type": "Remix",
+    "type": "Single",
+    "cached_at": 1793984671.1496096
+  },
+  "279322632": {
+    "album_id": "279322632",
+    "album_name": "Seen It Coming EP",
+    "date_str": "2025-08-08",
+    "publish_ts": 1754582400000,
+    "artist_ids": [
+      "40830",
+      "212405"
+    ],
+    "artist_names": [
+      "Nick Curly",
+      "Rony Seikaly"
+    ],
+    "size": 4,
+    "pic_url": "https://p3.music.126.net/BYSpvf3ToiES97vgYj7fVw==/109951171837050769.jpg",
+    "company": "8bit Records",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793984671.7214913
+  },
+  "408259370": {
+    "album_id": "408259370",
+    "album_name": "子夜人形剧场",
+    "date_str": "2026-10-31",
+    "publish_ts": 1793376000000,
+    "artist_ids": [
+      "34369144"
+    ],
+    "artist_names": [
+      "KEYwi_P"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/twAejiORd1w7wFrkkSqPOQ==/109951174236662596.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984682.0002036
+  },
+  "408121880": {
+    "album_id": "408121880",
+    "album_name": "Group Therapy 702 (DJ Mix)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "85548",
+      "32317695",
+      "688094"
+    ],
+    "artist_names": [
+      "Above & Beyond",
+      "Above & Beyond Group Therapy",
+      "Anjunabeats"
+    ],
+    "size": 23,
+    "pic_url": "https://p4.music.126.net/84WQwqswzGMP3Fn7XE441A==/109951174231769542.jpg",
+    "company": "Group Therapy",
+    "sub_type": "Remix",
+    "type": "专辑",
+    "cached_at": 1793984729.011441,
+    "songs": [
+      {
+        "id": "3457960121",
+        "name": "Group Therapy Intro (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457957617",
+        "name": "Maelstrom (ABGT702) (Braxton Remix (Mixed))"
+      },
+      {
+        "id": "3457957618",
+        "name": "Group Therapy (Messages Pt. 1) [ABGT702] (Mixed)"
+      },
+      {
+        "id": "3457957619",
+        "name": "Luna (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457957620",
+        "name": "Feel Your Soul (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457960122",
+        "name": "The Monkey Vibe (Record Of The Week) [ABGT702] (Mixed)"
+      },
+      {
+        "id": "3457957621",
+        "name": "Group Therapy (Messages Pt. 2) [ABGT702] (Mixed)"
+      },
+      {
+        "id": "3457957622",
+        "name": "Elm (ABGT702) (Lost A Shoe in 92 Mix (Mixed))"
+      },
+      {
+        "id": "3457960123",
+        "name": "Lifegame (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457960124",
+        "name": "Group Therapy (Messages Pt. 3) [ABGT702] (Mixed)"
+      },
+      {
+        "id": "3457960125",
+        "name": "Waves (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457960126",
+        "name": "Group Therapy (Messages Pt. 4) [ABGT702] (Mixed)"
+      },
+      {
+        "id": "3457960127",
+        "name": "Silver On My Skin (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457957624",
+        "name": "Amsterdam (ABGT702) (Above & Beyond’s Downtempo Edit (Mixed))"
+      },
+      {
+        "id": "3457960128",
+        "name": "ID #1 (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457957625",
+        "name": "ID #2 (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457957626",
+        "name": "Start Again (Push The Button) [ABGT702] (Mixed)"
+      },
+      {
+        "id": "3457960129",
+        "name": "Group Therapy (Messages Pt. 5) [ABGT702] (Mixed)"
+      },
+      {
+        "id": "3457957627",
+        "name": "Kaleido (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457960130",
+        "name": "Reverie (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457960131",
+        "name": "Group Therapy (Messages Pt. 6) [ABGT702] (Mixed)"
+      },
+      {
+        "id": "3457957628",
+        "name": "Flowstate (ABGT702) (Mixed)"
+      },
+      {
+        "id": "3457957629",
+        "name": "Group Therapy (Messages Pt. 7) [ABGT702] (Mixed)"
+      }
+    ]
+  },
+  "408025746": {
+    "album_id": "408025746",
+    "album_name": "Wït it",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "130661014",
+      "122919993"
+    ],
+    "artist_names": [
+      "R3YKJ4VIK",
+      "Hiraeth"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/wqa0zSeRHpVat4HRpue1Yw==/109951174229588539.jpg",
+    "company": "R3YKJ4VIK",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984734.1327248,
+    "songs": [
+      {
+        "id": "3457784063",
+        "name": "Wït it"
+      }
+    ]
+  },
+  "408071852": {
+    "album_id": "408071852",
+    "album_name": "i'm at my best #jesusclub",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "56590764"
+    ],
+    "artist_names": [
+      "amohS"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/p59sWlIuy3ryj_h5dzXDiA==/109951174230502300.jpg",
+    "company": "amohStudio",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984742.1901937,
+    "songs": [
+      {
+        "id": "3457870164",
+        "name": "i'm at my best #jesusclub"
+      }
+    ]
+  },
+  "406509412": {
+    "album_id": "406509412",
+    "album_name": "to love is to let go",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "57905440"
+    ],
+    "artist_names": [
+      "beansclub"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/Wj0AGvsJGJ6cjUEyxddoMg==/109951174184740329.jpg",
+    "company": "under.net",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984742.2040236,
+    "songs": [
+      {
+        "id": "3454731388",
+        "name": "to love is to let go"
+      }
+    ]
+  },
+  "408226512": {
+    "album_id": "408226512",
+    "album_name": "Trick Together",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "58614505"
+    ],
+    "artist_names": [
+      "A-Saph"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/k7JRCoL44FuD-V9q35L29Q==/109951174235394841.jpg",
+    "company": "A-Saph",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984747.5175834,
+    "songs": [
+      {
+        "id": "3458146598",
+        "name": "Trick Together"
+      }
+    ]
+  },
+  "407156061": {
+    "album_id": "407156061",
+    "album_name": "EruPero√964 (feat. 重音テト)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "123103565"
+    ],
+    "artist_names": [
+      "EruPero"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/S4QAmVtI9R4KG-gGXCdXiA==/109951174203924965.jpg",
+    "company": "EruPero",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984759.9031262
+  },
+  "407156674": {
+    "album_id": "407156674",
+    "album_name": "とノそうぐう (feat. 重音テト & ナースロボ＿タイプＴ)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "123103565"
+    ],
+    "artist_names": [
+      "EruPero"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/Z3PwwaxJwIa-vxnyuW3Lpg==/109951174203953369.jpg",
+    "company": "EruPero",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984759.9351904
+  },
+  "407157325": {
+    "album_id": "407157325",
+    "album_name": "My翼 (feat. 重音テト)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "123103565"
+    ],
+    "artist_names": [
+      "EruPero"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/hpxmQrcsUMygoWXaR8k9ug==/109951174203960059.jpg",
+    "company": "EruPero",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984759.979004
+  },
+  "407388877": {
+    "album_id": "407388877",
+    "album_name": "草の唄+Organ",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "130060339",
+      "1141075"
+    ],
+    "artist_names": [
+      "gum cola",
+      "重音テト"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/8lnTeRhf4FXPXwCxaoQzLQ==/109951174214195106.jpg",
+    "company": "Gum Cola Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984759.9907126,
+    "songs": [
+      {
+        "id": "3456570034",
+        "name": "草の唄+Organ"
+      }
+    ]
+  },
+  "407156347": {
+    "album_id": "407156347",
+    "album_name": "Picasso (feat. 重音テト)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "123103565"
+    ],
+    "artist_names": [
+      "EruPero"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/sYUWz3oNZAcvtjcDxB6Vqw==/109951174203928102.jpg",
+    "company": "EruPero",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984760.753137
+  },
+  "405560034": {
+    "album_id": "405560034",
+    "album_name": "ブーズハウンド",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "47041447",
+      "1141075",
+      "128951420"
+    ],
+    "artist_names": [
+      "サツキ",
+      "重音テト",
+      "Yi Xi"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/Hi6c9LAGS5KBRlS59suMJQ==/109951174154719160.jpg",
+    "company": "KARENT",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984760.7920506,
+    "songs": [
+      {
+        "id": "3452752481",
+        "name": "ブーズハウンド (feat. 重音テト&Yi Xi)"
+      }
+    ]
+  },
+  "407389484": {
+    "album_id": "407389484",
+    "album_name": "もう待ちきれないよ feat.初音ミク",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "127393132",
+      "159692"
+    ],
+    "artist_names": [
+      "Kenji1205#",
+      "初音ミク"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/yTJK-ZFiR29aeliDnJFOUA==/109951174214183955.jpg",
+    "company": "Kenji1205",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984760.8013468,
+    "songs": [
+      {
+        "id": "3456569903",
+        "name": "もう待ちきれないよ feat.初音ミク"
+      }
+    ]
+  },
+  "407388839": {
+    "album_id": "407388839",
+    "album_name": "ヴァージンロード feat.初音ミク",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "127393132",
+      "159692"
+    ],
+    "artist_names": [
+      "Kenji1205#",
+      "初音ミク"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/__CansQeIRFfBxk2tV3_Aw==/109951174214194091.jpg",
+    "company": "Kenji1205",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984760.8086534,
+    "songs": [
+      {
+        "id": "3456569713",
+        "name": "ヴァージンロード feat.初音ミク"
+      }
+    ]
+  },
+  "407388800": {
+    "album_id": "407388800",
+    "album_name": "君がいたよ、その笑顔で feat.初音ミク",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "127393132",
+      "159692"
+    ],
+    "artist_names": [
+      "Kenji1205#",
+      "初音ミク"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/sg8dj0X3Hn0BSuCpHSJ7Xw==/109951174214190117.jpg",
+    "company": "Kenji1205",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984761.5823836,
+    "songs": [
+      {
+        "id": "3456569645",
+        "name": "君がいたよ、その笑顔で feat.初音ミク"
+      }
+    ]
+  },
+  "406708207": {
+    "album_id": "406708207",
+    "album_name": "怪文書ちゃん (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "130348264"
+    ],
+    "artist_names": [
+      "りとれ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/0estOqLGAX3nw6OpDQYMsg==/109951174189496841.jpg",
+    "company": "LitRe",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984761.601713
+  },
+  "406701782": {
+    "album_id": "406701782",
+    "album_name": "メディテート (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "130472008"
+    ],
+    "artist_names": [
+      "アラやき"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/N_LAvJw3W7wjO6v4p1e3Nw==/109951174189338107.jpg",
+    "company": "Arayaki",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984761.6313438
+  },
+  "406702366": {
+    "album_id": "406702366",
+    "album_name": "重力天使 (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "130472008"
+    ],
+    "artist_names": [
+      "アラやき"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/nbshowuToDy8AGke1UzB-A==/109951174189303426.jpg",
+    "company": "Arayaki",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984761.6535912
+  },
+  "406697600": {
+    "album_id": "406697600",
+    "album_name": "君と描く明日へ (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "47026954"
+    ],
+    "artist_names": [
+      "エグゼチューン"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/uMpRlGK0YJ0u5FrCQDbUXA==/109951174189219983.jpg",
+    "company": "EXETUNE",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984762.412248
+  },
+  "406697543": {
+    "album_id": "406697543",
+    "album_name": "よめますか？ (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "94547380"
+    ],
+    "artist_names": [
+      "pineApple.職人"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/nQTUFWlYKpcGCAxXdDp2_Q==/109951174189231039.jpg",
+    "company": "pineApple.shokunin",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984762.4369311
+  },
+  "406110289": {
+    "album_id": "406110289",
+    "album_name": "シンエンより (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "130375799"
+    ],
+    "artist_names": [
+      "エノウィ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/Me_TZwkMQbEO8mINhAIzQA==/109951174175049047.jpg",
+    "company": "Enowi",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984762.4687812
+  },
+  "406691132": {
+    "album_id": "406691132",
+    "album_name": "destroyed seishun (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "129565391"
+    ],
+    "artist_names": [
+      "(有)陽滲"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/7Ep9ETDcODOriBpgI3rzkg==/109951174189107608.jpg",
+    "company": "Yoshin",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984762.4821377
+  },
+  "405818023": {
+    "album_id": "405818023",
+    "album_name": "足りないもの (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "100628491"
+    ],
+    "artist_names": [
+      "マヌカ・ハニー"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/uXAR2-JhiJ6jLHlJ-WKwHw==/109951174163414118.jpg",
+    "company": "Manuka",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984763.2351232
+  },
+  "405934315": {
+    "album_id": "405934315",
+    "album_name": "歪んだ欠片 (feat. 初音ミク)",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "54352227"
+    ],
+    "artist_names": [
+      "蚊取旋光"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/kvMvRVzyyJ92K2RI6n24pw==/109951174169271299.jpg",
+    "company": "katorior",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984763.2425573
+  },
+  "407903536": {
+    "album_id": "407903536",
+    "album_name": "polasta (feat. 初音ミク)",
+    "date_str": "2026-11-05",
+    "publish_ts": 1793808000000,
+    "artist_ids": [
+      "130670067"
+    ],
+    "artist_names": [
+      "wajutoc"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/3h5izXkSanBH5YXiV54tUw==/109951174226376114.jpg",
+    "company": "wajutoc",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984763.2461476
+  },
+  "408284333": {
+    "album_id": "408284333",
+    "album_name": "静待枯萎",
+    "date_str": "2026-11-06",
+    "publish_ts": 1793894400000,
+    "artist_ids": [
+      "98187384"
+    ],
+    "artist_names": [
+      "木磁座"
+    ],
+    "size": 2,
+    "pic_url": "https://p4.music.126.net/UJVmmGhP8LyOlFvAm2u9TQ==/109951174237010352.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1793984763.2797956
+  },
+  "404278520": {
+    "album_id": "404278520",
+    "album_name": "Global Dub Coordinates VA: Avelatus Dub Techno Star Collection, Vol. 2",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 13,
+    "pic_url": "https://p3.music.126.net/-ZdhxJuotD1zU5cAEczB4A==/109951174117384327.jpg",
+    "company": "PIRANHA SIBERIA DUB",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984767.286131,
+    "songs": [
+      {
+        "id": "3449179765",
+        "name": "Echoes in the Static"
+      },
+      {
+        "id": "3449179766",
+        "name": "After Humanity"
+      },
+      {
+        "id": "3449180686",
+        "name": "Sudzhukskaya Kosa"
+      },
+      {
+        "id": "3449179768",
+        "name": "Textures 52.2689°N, 10.5268°E (Tape Mix)"
+      },
+      {
+        "id": "3449179769",
+        "name": "Soul Of Chamangá"
+      },
+      {
+        "id": "3449179770",
+        "name": "Plutonion"
+      },
+      {
+        "id": "3449180688",
+        "name": "The Path to the Dune"
+      },
+      {
+        "id": "3449179771",
+        "name": "Mtatsminda"
+      },
+      {
+        "id": "3449179773",
+        "name": "Divided Frequencies"
+      },
+      {
+        "id": "3449179774",
+        "name": "Am Wriezener Bahnhof"
+      },
+      {
+        "id": "3449180690",
+        "name": "Yard"
+      },
+      {
+        "id": "3449179775",
+        "name": "Three Rivers"
+      },
+      {
+        "id": "3449180691",
+        "name": "Besset"
+      }
+    ]
+  },
+  "407035695": {
+    "album_id": "407035695",
+    "album_name": "New Beginnings",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/KHrKT5yQ-4KVNttAXIA8wg==/109951174199888973.jpg",
+    "company": "Brick Frequency",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984767.2884266,
+    "songs": [
+      {
+        "id": "3455802942",
+        "name": "Infrasound"
+      },
+      {
+        "id": "3455802760",
+        "name": "Song of the Nymph"
+      },
+      {
+        "id": "3455802943",
+        "name": "First Light of Dawn"
+      },
+      {
+        "id": "3455802761",
+        "name": "Darkest Chapter"
+      },
+      {
+        "id": "3455802762",
+        "name": "Event Horizon"
+      },
+      {
+        "id": "3455802763",
+        "name": "Sulk & Dance"
+      },
+      {
+        "id": "3455802764",
+        "name": "Lost in Time"
+      },
+      {
+        "id": "3455802765",
+        "name": "Solar Vector"
+      },
+      {
+        "id": "3455802766",
+        "name": "Shadow Empire"
+      },
+      {
+        "id": "3455802946",
+        "name": "Hollow Suns"
+      },
+      {
+        "id": "3455802768",
+        "name": "Ethereal Whispered"
+      },
+      {
+        "id": "3455802948",
+        "name": "Sometimes at Night"
+      },
+      {
+        "id": "3455802769",
+        "name": "Endless Transit"
+      },
+      {
+        "id": "3455802949",
+        "name": "Palm Trees in the Snow"
+      },
+      {
+        "id": "3455802770",
+        "name": "Northern Pulse"
+      },
+      {
+        "id": "3455802771",
+        "name": "Late Night I Breathe"
+      },
+      {
+        "id": "3455802772",
+        "name": "No More Galaxian"
+      },
+      {
+        "id": "3455802773",
+        "name": "World of Changes"
+      },
+      {
+        "id": "3455802950",
+        "name": "Subterranean"
+      },
+      {
+        "id": "3455802951",
+        "name": "Silent Meridian"
+      }
+    ]
+  },
+  "403395184": {
+    "album_id": "403395184",
+    "album_name": "Afterhours Ascension",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p4.music.126.net/hmezh6_TBscs5SymM-gFzA==/109951174095884731.jpg",
+    "company": "House Groove Six",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984767.297043,
+    "songs": [
+      {
+        "id": "3446866151",
+        "name": "Ambient Swim"
+      },
+      {
+        "id": "3446866152",
+        "name": "Koo Koo"
+      },
+      {
+        "id": "3446865238",
+        "name": "Koolove"
+      },
+      {
+        "id": "3446865239",
+        "name": "Tear With Teeth"
+      },
+      {
+        "id": "3446865240",
+        "name": "Like Dolphins"
+      },
+      {
+        "id": "3446866154",
+        "name": "Ancestral Dance"
+      },
+      {
+        "id": "3446866155",
+        "name": "Cascadia"
+      },
+      {
+        "id": "3446866156",
+        "name": "Existential Drift"
+      },
+      {
+        "id": "3446866157",
+        "name": "Big Competition"
+      },
+      {
+        "id": "3446866158",
+        "name": "Gravity Inception"
+      },
+      {
+        "id": "3446866159",
+        "name": "Paranoid Delusions"
+      },
+      {
+        "id": "3446866160",
+        "name": "Right Now Baby"
+      },
+      {
+        "id": "3446866162",
+        "name": "Cosmic Desire"
+      },
+      {
+        "id": "3446865242",
+        "name": "Beyond of Tragedy"
+      },
+      {
+        "id": "3446866163",
+        "name": "Chaotic Nights"
+      },
+      {
+        "id": "3446865243",
+        "name": "Nothing to Lose"
+      },
+      {
+        "id": "3446865244",
+        "name": "Forever Weather"
+      },
+      {
+        "id": "3446866165",
+        "name": "Party on the Road"
+      },
+      {
+        "id": "3446866166",
+        "name": "Random Fly"
+      },
+      {
+        "id": "3446865245",
+        "name": "Gimme Some Time"
+      }
+    ]
+  },
+  "405626600": {
+    "album_id": "405626600",
+    "album_name": "Deep Loungy & Groovy",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 27,
+    "pic_url": "https://p4.music.126.net/kYTJ5pnzb207ceAr8WlpQw==/109951174156123731.jpg",
+    "company": "KudoZ Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984767.31625,
+    "songs": [
+      {
+        "id": "3452899471",
+        "name": "So Fonky"
+      },
+      {
+        "id": "3452899869",
+        "name": "French Touch (Deep Lo Remix)"
+      },
+      {
+        "id": "3452899472",
+        "name": "Release Yourself"
+      },
+      {
+        "id": "3452899870",
+        "name": "French Touch"
+      },
+      {
+        "id": "3452899871",
+        "name": "Cosmic Voyage"
+      },
+      {
+        "id": "3452899473",
+        "name": "Elegant Love"
+      },
+      {
+        "id": "3452899475",
+        "name": "Don't Stop Dreaming (Dub Mix)"
+      },
+      {
+        "id": "3452899476",
+        "name": "Emotion Of Deep"
+      },
+      {
+        "id": "3452899873",
+        "name": "Missing You"
+      },
+      {
+        "id": "3452899874",
+        "name": "By The Way"
+      },
+      {
+        "id": "3452899876",
+        "name": "Deep Vision"
+      },
+      {
+        "id": "3452899480",
+        "name": "Breathless"
+      },
+      {
+        "id": "3452899482",
+        "name": "Don't Stop Dreaming"
+      },
+      {
+        "id": "3452899483",
+        "name": "Deep Sensation"
+      },
+      {
+        "id": "3452899485",
+        "name": "Just For Tonight"
+      },
+      {
+        "id": "3452899486",
+        "name": "El Sol"
+      },
+      {
+        "id": "3452899487",
+        "name": "Chillwave Dreams"
+      },
+      {
+        "id": "3452899488",
+        "name": "Noche Profunda"
+      },
+      {
+        "id": "3452899882",
+        "name": "Euphoria"
+      },
+      {
+        "id": "3452899489",
+        "name": "So Into You"
+      },
+      {
+        "id": "3452899883",
+        "name": "Not Like U"
+      },
+      {
+        "id": "3452899490",
+        "name": "Ese Amor"
+      },
+      {
+        "id": "3452899491",
+        "name": "Late Nites"
+      },
+      {
+        "id": "3452899492",
+        "name": "That Thong"
+      },
+      {
+        "id": "3452899493",
+        "name": "Ya Será"
+      },
+      {
+        "id": "3452899884",
+        "name": "Lavender"
+      },
+      {
+        "id": "3452899494",
+        "name": "Sunset Salsa"
+      }
+    ]
+  },
+  "405625693": {
+    "album_id": "405625693",
+    "album_name": "Abstract Rhythm",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 4,
+    "pic_url": "https://p3.music.126.net/LnsDsUEFiVfvQoJ-iOHNdg==/109951174156113807.jpg",
+    "company": "Digital Delight",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1793984768.0754387,
+    "songs": [
+      {
+        "id": "3452898408",
+        "name": "Slouch"
+      },
+      {
+        "id": "3452898409",
+        "name": "Where You Want"
+      },
+      {
+        "id": "3452898410",
+        "name": "Predictions"
+      },
+      {
+        "id": "3452898977",
+        "name": "1985"
+      }
+    ]
+  },
+  "402849689": {
+    "album_id": "402849689",
+    "album_name": "Groove & Night, Vol. 1",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 12,
+    "pic_url": "https://p4.music.126.net/VVRMAqL3Y7PAbxgWmxMEAw==/109951174105125581.jpg",
+    "company": "Groovenight",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984768.1414778,
+    "songs": [
+      {
+        "id": "3445698953",
+        "name": "Decompression"
+      },
+      {
+        "id": "3445698954",
+        "name": "Gaspimienta"
+      },
+      {
+        "id": "3445698955",
+        "name": "Luck"
+      },
+      {
+        "id": "3445697534",
+        "name": "Hypnotic Pulse"
+      },
+      {
+        "id": "3445697535",
+        "name": "Dreamscape"
+      },
+      {
+        "id": "3445698956",
+        "name": "Lisa Junior"
+      },
+      {
+        "id": "3445698957",
+        "name": "One Elemental"
+      },
+      {
+        "id": "3445698958",
+        "name": "1990 Reload"
+      },
+      {
+        "id": "3445697536",
+        "name": "La Nave"
+      },
+      {
+        "id": "3445697537",
+        "name": "Smash"
+      },
+      {
+        "id": "3445697538",
+        "name": "Dreaming"
+      },
+      {
+        "id": "3445698959",
+        "name": "2d"
+      }
+    ]
+  },
+  "407141635": {
+    "album_id": "407141635",
+    "album_name": "Matter of Arrival",
+    "date_str": "2026-11-07",
+    "publish_ts": 1793980800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 25,
+    "pic_url": "https://p4.music.126.net/C1YGw_NB30rRcww2WpPjdg==/109951174203229863.jpg",
+    "company": "Nox Array",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1793984768.2138689,
+    "songs": [
+      {
+        "id": "3456010428",
+        "name": "Polite Distortion"
+      },
+      {
+        "id": "3456012109",
+        "name": "The Way You Say Nothing"
+      },
+      {
+        "id": "3456010429",
+        "name": "Hidden Aperture"
+      },
+      {
+        "id": "3456010431",
+        "name": "Hotel Without a Lobby"
+      },
+      {
+        "id": "3456010435",
+        "name": "Blue Linen Afternoon"
+      },
+      {
+        "id": "3456010436",
+        "name": "Rubber Constellation"
+      },
+      {
+        "id": "3456012115",
+        "name": "Narrowband Romance"
+      },
+      {
+        "id": "3456012116",
+        "name": "Letters from the Kitchen"
+      },
+      {
+        "id": "3456010437",
+        "name": "Fractional Heat"
+      },
+      {
+        "id": "3456012117",
+        "name": "Pocket Turbulence"
+      },
+      {
+        "id": "3456010438",
+        "name": "Six Stops from Home"
+      },
+      {
+        "id": "3456012118",
+        "name": "Terracotta Rush"
+      },
+      {
+        "id": "3456010439",
+        "name": "Una Stanza sul Porto"
+      },
+      {
+        "id": "3456012119",
+        "name": "Honey in the Reverb"
+      },
+      {
+        "id": "3456012120",
+        "name": "Offbeat Permission"
+      },
+      {
+        "id": "3456010440",
+        "name": "A Quarter Past Whatever"
+      },
+      {
+        "id": "3456010441",
+        "name": "Coconut Telegraphy"
+      },
+      {
+        "id": "3456010442",
+        "name": "The Spare Key"
+      },
+      {
+        "id": "3456010443",
+        "name": "Graphite Kiss"
+      },
+      {
+        "id": "3456010444",
+        "name": "Warm Rain in February"
+      },
+      {
+        "id": "3456012121",
+        "name": "Casual Gravity"
+      },
+      {
+        "id": "3456012122",
+        "name": "Tactile Error"
+      },
+      {
+        "id": "3456010445",
+        "name": "Cinema De Bolso"
+      },
+      {
+        "id": "3456012123",
+        "name": "Drowsy Promenade"
+      },
+      {
+        "id": "3456012124",
+        "name": "Leave a Light in the Hall"
       }
     ]
   }
