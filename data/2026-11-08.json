@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
-  "generated_at": "2026-11-08T01:26:18.652784+08:00",
-  "count": 35,
+  "generated_at": "2026-11-08T04:17:10.545333+08:00",
+  "count": 36,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 3,
+        "target_count": 4,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -170,13 +170,13 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794070108.5862367,
+        "saved_at": 1794080732.99702,
         "source": "live"
       },
       "relations": 84599,
       "new_album_candidates": 55,
-      "unique_albums": 38635,
-      "detail_success": 38634,
+      "unique_albums": 38637,
+      "detail_success": 38636,
       "detail_errors": 1,
       "detail_mismatch": 0,
       "date_hit_albums": 1115,
@@ -187,7 +187,7 @@
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 35
+    "unique_album_count": 36
   },
   "albums": [
     {
@@ -434,6 +434,39 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=406790818"
+    },
+    {
+      "id": 391810252,
+      "name": "伊勢の風は",
+      "artists": [
+        {
+          "id": 95488275,
+          "name": "KAPPPPA"
+        },
+        {
+          "id": 47893107,
+          "name": "可不"
+        },
+        {
+          "id": 127614092,
+          "name": "初音ミク"
+        }
+      ],
+      "artist_names": [
+        "KAPPPPA",
+        "可不",
+        "初音ミク"
+      ],
+      "publish_time": 1794067200000,
+      "publish_date": "2026-11-08",
+      "size": 1,
+      "company": "MyGirlyStormy",
+      "pic_url": "https://p3.music.126.net/LSGpNLIS8lHemqwibteyXw==/109951173728210147.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=391810252"
     },
     {
       "id": 405915211,
@@ -731,7 +764,7 @@
       "publish_date": "2026-11-08",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/1Yygw80msvfW7yB2mnCJuw==/109951174236624472.jpg",
+      "pic_url": "https://p3.music.126.net/1Yygw80msvfW7yB2mnCJuw==/109951174236624472.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
