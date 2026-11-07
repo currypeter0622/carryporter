@@ -1,18 +1,22 @@
 {
-  "saved_at": 1794048747.8142064,
-  "count": 2195,
+  "saved_at": 1794070108.586286,
+  "count": 2196,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2195,
-    "server_count": 2195,
+    "count": 2196,
+    "server_count": 2196,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1794048747.8141637
+    "saved_at": 1794070108.5862367
   },
   "artists": [
+    {
+      "id": "13518833",
+      "name": "Anemoi"
+    },
     {
       "id": "51184748",
       "name": "zeroth"
