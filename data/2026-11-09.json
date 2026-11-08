@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T01:29:47.177414+08:00",
-  "count": 51,
+  "generated_at": "2026-11-09T04:37:12.759604+08:00",
+  "count": 52,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 8,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -154,12 +154,10 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 644,
+      "queries_ok": 9,
+      "search_candidates": 743,
       "verified_target_count": 13,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2198,
@@ -172,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794157099.323345,
+        "saved_at": 1794168266.6334498,
         "source": "live"
       },
       "relations": 84661,
-      "new_album_candidates": 59,
+      "new_album_candidates": 60,
       "unique_albums": 38678,
       "detail_success": 38677,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1137,
+      "date_hit_albums": 1138,
       "verify_artists": 745,
       "owned_failures": 0,
-      "external_hits": 386,
-      "new_release_hits": 73,
+      "external_hits": 385,
+      "new_release_hits": 74,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 51
+    "unique_album_count": 52
   },
   "albums": [
     {
@@ -259,7 +257,7 @@
       "publish_date": "2026-11-09",
       "size": 1,
       "company": "独立发行",
-      "pic_url": "https://p4.music.126.net/p-PnEV9ecbQk2MY_X-XpGA==/109951174225233490.jpg",
+      "pic_url": "https://p3.music.126.net/p-PnEV9ecbQk2MY_X-XpGA==/109951174225233490.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -328,7 +326,7 @@
       "publish_date": "2026-11-09",
       "size": 2,
       "company": "武汉声声不息文化传播有限公司",
-      "pic_url": "https://p4.music.126.net/Qm6t0lBTY0pQqhnAjymYkQ==/109951174228698931.jpg",
+      "pic_url": "https://p3.music.126.net/Qm6t0lBTY0pQqhnAjymYkQ==/109951174228698931.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -719,7 +717,7 @@
       "publish_date": "2026-11-09",
       "size": 3,
       "company": "北京音尚律动文化传媒有限公司",
-      "pic_url": "https://p4.music.126.net/3C2m1xdnRUbvJH7fyLreRw==/109951174230936289.jpg",
+      "pic_url": "https://p3.music.126.net/3C2m1xdnRUbvJH7fyLreRw==/109951174230936289.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -788,7 +786,7 @@
       "publish_date": "2026-11-09",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/ThICZEZRLrqvby-1R6IBAg==/109951174225114852.jpg",
+      "pic_url": "https://p4.music.126.net/ThICZEZRLrqvby-1R6IBAg==/109951174225114852.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1363,6 +1361,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=406868347"
+    },
+    {
+      "id": 408358144,
+      "name": "Airplane Mode: The Red Eye Edition",
+      "artists": [
+        {
+          "id": 35329,
+          "name": "James Blunt"
+        }
+      ],
+      "artist_names": [
+        "James Blunt"
+      ],
+      "publish_time": 1794153600000,
+      "publish_date": "2026-11-09",
+      "size": 16,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/zXvgSrAsezyfKWTrw9x3_A==/109951174238989670.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=408358144"
     },
     {
       "id": 403395695,

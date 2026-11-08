@@ -233733,21 +233733,21 @@
   },
   "363430823": {
     "album_id": "363430823",
-    "album_name": "Messterpieces",
-    "date_str": "2026-02-24",
-    "publish_ts": 1771862400000,
+    "album_name": "Early Works Collection",
+    "date_str": "2025-01-01",
+    "publish_ts": 1735660800000,
     "artist_ids": [
       "121318338"
     ],
     "artist_names": [
       "deadoc3an"
     ],
-    "size": 5,
-    "pic_url": "https://p4.music.126.net/mNHNTfoVOMcBrwVVP9Fhjw==/109951173741869112.jpg",
+    "size": 10,
+    "pic_url": "https://p4.music.126.net/UVosGShNJUm2JDK47VU-xA==/109951174252895194.jpg",
     "company": "",
     "sub_type": "录音室版",
-    "type": "EP",
-    "cached_at": 1791433722.16748
+    "type": "专辑",
+    "cached_at": 1794169743.7049406
   },
   "362722130": {
     "album_id": "362722130",
@@ -393459,7 +393459,7 @@
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1794137111.254955
+    "cached_at": 1794169785.2123451
   },
   "265689789": {
     "album_id": "265689789",
@@ -901697,6 +901697,30 @@
       {
         "id": "3446866748",
         "name": "Easy Grasp"
+      }
+    ]
+  },
+  "408714435": {
+    "album_id": "408714435",
+    "album_name": "Cypher, Vol.1 Salta City",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "47519775"
+    ],
+    "artist_names": [
+      "Massi"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/k6cQWFd5YR26rgV63AauoA==/109951174252936548.jpg",
+    "company": "Massi",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794169730.6071858,
+    "songs": [
+      {
+        "id": "3459151138",
+        "name": "Cypher, Vol.1 Salta City"
       }
     ]
   }
