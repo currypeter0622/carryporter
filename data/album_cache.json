@@ -393459,7 +393459,7 @@
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1794228672.4273164
+    "cached_at": 1794260734.6226184
   },
   "265689789": {
     "album_id": "265689789",
@@ -840075,8 +840075,8 @@
   "406457830": {
     "album_id": "406457830",
     "album_name": "Clémence Grandval : Au cœur du romantisme français Vol. 3",
-    "date_str": "2026-10-30",
-    "publish_ts": 1793289600000,
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
     "artist_ids": [
       "49260160"
     ],
@@ -840088,7 +840088,7 @@
     "company": "La Boîte à Pépites",
     "sub_type": "录音室版",
     "type": "Single",
-    "cached_at": 1793207233.6121743,
+    "cached_at": 1794260764.3471196,
     "songs": [
       {
         "id": "3454626817",
@@ -902790,6 +902790,4023 @@
       {
         "id": "3456829706",
         "name": "Wang'tshelu Mah!!! (Chilled Version)"
+      }
+    ]
+  },
+  "408285540": {
+    "album_id": "408285540",
+    "album_name": "NIGHT &DAY LIGHT SOUL, R&B",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 24,
+    "pic_url": "https://p3.music.126.net/zRo-lPMj0rA5QOBbpHwFJA==/109951174236734978.jpg",
+    "company": "Various Artists",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260771.8838437,
+    "songs": [
+      {
+        "id": "3458256513",
+        "name": "Wait For You (Cover)"
+      },
+      {
+        "id": "3458256514",
+        "name": "You Are The Universe (Cover)"
+      },
+      {
+        "id": "3458258324",
+        "name": "We Are Never Ever Getting Back Together (Cover)"
+      },
+      {
+        "id": "3458258325",
+        "name": "Right By My Side (Cover)"
+      },
+      {
+        "id": "3458256515",
+        "name": "Stay (Cover)"
+      },
+      {
+        "id": "3458256516",
+        "name": "Something In Common (Cover)"
+      },
+      {
+        "id": "3458258326",
+        "name": "Santeria (Cover)"
+      },
+      {
+        "id": "3458256517",
+        "name": "Royals (Cover)"
+      },
+      {
+        "id": "3458258327",
+        "name": "That Girl (Cover)"
+      },
+      {
+        "id": "3458258328",
+        "name": "Step By Step (Cover)"
+      },
+      {
+        "id": "3458256518",
+        "name": "S&M (Cover)"
+      },
+      {
+        "id": "3458256519",
+        "name": "We Are Young (Cover)"
+      },
+      {
+        "id": "3458256520",
+        "name": "True Colors (Cover)"
+      },
+      {
+        "id": "3458256521",
+        "name": "When You’re Gone (Cover)"
+      },
+      {
+        "id": "3458258329",
+        "name": "Try (Cover)"
+      },
+      {
+        "id": "3458256522",
+        "name": "We Ride (Cover)"
+      },
+      {
+        "id": "3458256523",
+        "name": "Can'T Take My Eyes Off You (Cover)"
+      },
+      {
+        "id": "3458258330",
+        "name": "Yesterday Once More (Cover)"
+      },
+      {
+        "id": "3458258331",
+        "name": "Wish You Were Here (Cover)"
+      },
+      {
+        "id": "3458256524",
+        "name": "It Will Rain (Cover)"
+      },
+      {
+        "id": "3458256525",
+        "name": "Yellow (Cover)"
+      },
+      {
+        "id": "3458256526",
+        "name": "Baby I (Cover)"
+      },
+      {
+        "id": "3458258332",
+        "name": "With You (Cover)"
+      },
+      {
+        "id": "3458258333",
+        "name": "Young Girls (Cover)"
+      }
+    ]
+  },
+  "408282406": {
+    "album_id": "408282406",
+    "album_name": "BITTER&SWEETEST SIDE -Face to R&B-",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 23,
+    "pic_url": "https://p3.music.126.net/aKn7oz1deDjMTiLaSEF9Sw==/109951174236704387.jpg",
+    "company": "Various Artists",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260772.6948078,
+    "songs": [
+      {
+        "id": "3458254096",
+        "name": "Wish You Were Here (Cover)"
+      },
+      {
+        "id": "3458254947",
+        "name": "Baby I (Cover)"
+      },
+      {
+        "id": "3458254948",
+        "name": "When You’re Gone (Cover)"
+      },
+      {
+        "id": "3458254949",
+        "name": "With You (Cover)"
+      },
+      {
+        "id": "3458254097",
+        "name": "When I Was Your Man (Cover)"
+      },
+      {
+        "id": "3458254950",
+        "name": "It Will Rain (Cover)"
+      },
+      {
+        "id": "3458254098",
+        "name": "Every Little Step (Cover)"
+      },
+      {
+        "id": "3458254951",
+        "name": "Can'T Take My Eyes Off You (Cover)"
+      },
+      {
+        "id": "3458254099",
+        "name": "Shy Guy (Cover)"
+      },
+      {
+        "id": "3458254100",
+        "name": "Problem (Cover)"
+      },
+      {
+        "id": "3458254101",
+        "name": "Payphone (Cover)"
+      },
+      {
+        "id": "3458254102",
+        "name": "Honey (Cover)"
+      },
+      {
+        "id": "3458254952",
+        "name": "Locked Out Of Heaven (Cover)"
+      },
+      {
+        "id": "3458254103",
+        "name": "Firework (Cover)"
+      },
+      {
+        "id": "3458254104",
+        "name": "Sunday Morning (Cover)"
+      },
+      {
+        "id": "3458254105",
+        "name": "So Sick (Cover)"
+      },
+      {
+        "id": "3458254953",
+        "name": "Stronger (Cover)"
+      },
+      {
+        "id": "3458254954",
+        "name": "What’s My Name? (Cover)"
+      },
+      {
+        "id": "3458254108",
+        "name": "Wait For You (Cover)"
+      },
+      {
+        "id": "3458254955",
+        "name": "We Are Never Ever Getting Back Together (Cover)"
+      },
+      {
+        "id": "3458254109",
+        "name": "The Lazy Song (Cover)"
+      },
+      {
+        "id": "3458254110",
+        "name": "Summer Time (Cover)"
+      },
+      {
+        "id": "3458254956",
+        "name": "Someone Like You (Cover)"
+      }
+    ]
+  },
+  "403245733": {
+    "album_id": "403245733",
+    "album_name": "お風呂上がりのリラックスタイム ～心と身体をゆるめる夜の癒しBGM～",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 31,
+    "pic_url": "https://p3.music.126.net/QpJZECrKQwnklB0hg8MJHQ==/109951174089784283.jpg",
+    "company": "Silent Harbor Studio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260771.982376,
+    "songs": [
+      {
+        "id": "3446482575",
+        "name": "アフターバスピアノ"
+      },
+      {
+        "id": "3446482577",
+        "name": "夜のリラックスピアノ"
+      },
+      {
+        "id": "3446484568",
+        "name": "静寂な夜ピアノBGM"
+      },
+      {
+        "id": "3446484570",
+        "name": "癒される夜の安眠ピアノ"
+      },
+      {
+        "id": "3446484571",
+        "name": "睡眠の質向上BGM"
+      },
+      {
+        "id": "3446484572",
+        "name": "冬の森 心身を癒すピアノBGM"
+      },
+      {
+        "id": "3446482578",
+        "name": "綺麗な星空感じる冬の静寂"
+      },
+      {
+        "id": "3446482579",
+        "name": "おしゃれな睡眠音楽"
+      },
+      {
+        "id": "3446482580",
+        "name": "贅沢なホテル風熟睡ピアノ"
+      },
+      {
+        "id": "3446482581",
+        "name": "Healing music for quiet nights"
+      },
+      {
+        "id": "3446482582",
+        "name": "Luxurious relaxing piano music"
+      },
+      {
+        "id": "3446482583",
+        "name": "ホテルで聴くピアノの癒しBGM"
+      },
+      {
+        "id": "3446482584",
+        "name": "ぐっすり眠るためのヒーリングピアノ"
+      },
+      {
+        "id": "3446482585",
+        "name": "癒しのバスタイム"
+      },
+      {
+        "id": "3446484573",
+        "name": "美しいピアノを聴きながら至福のひととき"
+      },
+      {
+        "id": "3446482586",
+        "name": "ホテルラウンジで捗る作業タイム"
+      },
+      {
+        "id": "3446484574",
+        "name": "贅沢ピアノのラウンジBGM"
+      },
+      {
+        "id": "3446482587",
+        "name": "お風呂で聴く癒しヒーリングピアノ"
+      },
+      {
+        "id": "3446484575",
+        "name": "疲れを癒す贅沢ピアノ"
+      },
+      {
+        "id": "3446482588",
+        "name": "お風呂用癒しBGM"
+      },
+      {
+        "id": "3446482589",
+        "name": "ぐっすり眠れる睡眠BGM"
+      },
+      {
+        "id": "3446484576",
+        "name": "ベッドで聴く癒しピアノ"
+      },
+      {
+        "id": "3446482590",
+        "name": "Gentle Piano to Rest Your Brain"
+      },
+      {
+        "id": "3446484577",
+        "name": "Relaxing Piano to Listen to Night routine"
+      },
+      {
+        "id": "3446484578",
+        "name": "新週の始まり 快眠ピアノとα波の調和"
+      },
+      {
+        "id": "3446482591",
+        "name": "一日の終わりのおやすみBGM"
+      },
+      {
+        "id": "3446482592",
+        "name": "おやすみ前のやさしいピアノ"
+      },
+      {
+        "id": "3446482593",
+        "name": "Peaceful Mind Meditation"
+      },
+      {
+        "id": "3446482594",
+        "name": "Quiet Moments of Mindfulness"
+      },
+      {
+        "id": "3446482595",
+        "name": "お風呂あがりのリラックスピアノ"
+      },
+      {
+        "id": "3446482596",
+        "name": "Bath Time Serenity Soothing Piano Melodies"
+      }
+    ]
+  },
+  "405923608": {
+    "album_id": "405923608",
+    "album_name": "都会の夜に流れるジャズ",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 30,
+    "pic_url": "https://p3.music.126.net/BWf9Nl-XLWpC1gmlMRmcnQ==/109951174168713215.jpg",
+    "company": "Silent Harbor Studio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260772.6349776,
+    "songs": [
+      {
+        "id": "3453557819",
+        "name": "カクテルとチルアウトピアノ マルガリータの夜"
+      },
+      {
+        "id": "3453557820",
+        "name": "Jazzピアノを聴きながら作業集中"
+      },
+      {
+        "id": "3453557821",
+        "name": "カクテルバーの夜 ニューヨークスタイルジャズ"
+      },
+      {
+        "id": "3453556937",
+        "name": "ウィスキーソーダとジャズピアノ おしゃれな夜に"
+      },
+      {
+        "id": "3453556938",
+        "name": "バーカウンターで聴くジャズBGM"
+      },
+      {
+        "id": "3453556939",
+        "name": "ラウンジで流れていそうなジャズピアノ"
+      },
+      {
+        "id": "3453556940",
+        "name": "モヒートタイム 癒しのラウンジジャズピアノ"
+      },
+      {
+        "id": "3453556941",
+        "name": "大人のための夜ジャズBGM"
+      },
+      {
+        "id": "3453556942",
+        "name": "美しいピアノで読書タイム"
+      },
+      {
+        "id": "3453557828",
+        "name": "ラウンジジャズ モスコミュールと癒しのBGM"
+      },
+      {
+        "id": "3453556943",
+        "name": "読書中にぴったりの癒しピアノ音楽"
+      },
+      {
+        "id": "3453556946",
+        "name": "バーで流れる癒しのジャズ"
+      },
+      {
+        "id": "3453557831",
+        "name": "おうちバーで楽しむジャズ"
+      },
+      {
+        "id": "3453556948",
+        "name": "夜のご褒美ジャズBGM"
+      },
+      {
+        "id": "3453557832",
+        "name": "Barでひと息ピアノタイム"
+      },
+      {
+        "id": "3453556949",
+        "name": "バーボンとジャズ リラクゼーションピアノ"
+      },
+      {
+        "id": "3453557833",
+        "name": "月とネオンとやわらかな音"
+      },
+      {
+        "id": "3453557834",
+        "name": "集中力を高めるピアノ音楽"
+      },
+      {
+        "id": "3453556950",
+        "name": "おしゃれBarのピアノ時間"
+      },
+      {
+        "id": "3453556951",
+        "name": "心地よいジャズピアノBGM"
+      },
+      {
+        "id": "3453556952",
+        "name": "Candle Light & Jazz Flow"
+      },
+      {
+        "id": "3453557837",
+        "name": "晩酌とともに流れる音"
+      },
+      {
+        "id": "3453556953",
+        "name": "勉強と作業に効くジャズピアノ"
+      },
+      {
+        "id": "3453557838",
+        "name": "Healing Jazz at Twilight"
+      },
+      {
+        "id": "3453556954",
+        "name": "都会の夜風とジャズ"
+      },
+      {
+        "id": "3453556955",
+        "name": "静かな夜とワイングラス"
+      },
+      {
+        "id": "3453556956",
+        "name": "Relax in a Midnight Bar"
+      },
+      {
+        "id": "3453557839",
+        "name": "作業用Jazzピアノヒーリング"
+      },
+      {
+        "id": "3453557840",
+        "name": "夜のバーで聴くジャズピアノ"
+      },
+      {
+        "id": "3453557841",
+        "name": "おしゃれな夜のジャズピアノ"
+      }
+    ]
+  },
+  "405924255": {
+    "album_id": "405924255",
+    "album_name": "夜のコーヒーとジャズ",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 30,
+    "pic_url": "https://p3.music.126.net/cgUoyWc7BrFzmd71RyRNIw==/109951174168752041.jpg",
+    "company": "Silent Harbor Studio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260771.772915,
+    "songs": [
+      {
+        "id": "3453557317",
+        "name": "読書中にぴったりの癒しピアノ音楽"
+      },
+      {
+        "id": "3453557318",
+        "name": "ゆったり楽しむ大人ジャズ"
+      },
+      {
+        "id": "3453557319",
+        "name": "バーで流れる癒しのジャズ"
+      },
+      {
+        "id": "3453558177",
+        "name": "大人のくつろぎジャズタイム"
+      },
+      {
+        "id": "3453558178",
+        "name": "Jazz Lounge Time"
+      },
+      {
+        "id": "3453557320",
+        "name": "マティーニとジャズ おしゃれなリラックスタイム"
+      },
+      {
+        "id": "3453558179",
+        "name": "ブランデーとジャズピアノ リラックスバータイム"
+      },
+      {
+        "id": "3453557321",
+        "name": "おしゃれな夜のジャズピアノ"
+      },
+      {
+        "id": "3453557322",
+        "name": "モヒートタイム 癒しのラウンジジャズピアノ"
+      },
+      {
+        "id": "3453557323",
+        "name": "美しいピアノで読書タイム"
+      },
+      {
+        "id": "3453558181",
+        "name": "Jazzピアノを聴きながら作業集中"
+      },
+      {
+        "id": "3453557325",
+        "name": "ラウンジジャズ モスコミュールと癒しのBGM"
+      },
+      {
+        "id": "3453557327",
+        "name": "カクテルバーの夜 ニューヨークスタイルジャズ"
+      },
+      {
+        "id": "3453557329",
+        "name": "バーボンとジャズ リラクゼーションピアノ"
+      },
+      {
+        "id": "3453558184",
+        "name": "Midnight Groove"
+      },
+      {
+        "id": "3453558185",
+        "name": "静寂にとけるメロディ"
+      },
+      {
+        "id": "3453558186",
+        "name": "Lounge Piano for Deep Focus"
+      },
+      {
+        "id": "3453558187",
+        "name": "夜カフェのピアノ時間"
+      },
+      {
+        "id": "3453558188",
+        "name": "静寂に溶ける夜の音色"
+      },
+      {
+        "id": "3453557331",
+        "name": "眠る前の静寂ジャズ"
+      },
+      {
+        "id": "3453558190",
+        "name": "集中力を高めるピアノ音楽"
+      },
+      {
+        "id": "3453557333",
+        "name": "Candle Light & Jazz Flow"
+      },
+      {
+        "id": "3453557334",
+        "name": "深夜のラウンジで聴く癒しの音楽"
+      },
+      {
+        "id": "3453558191",
+        "name": "月とネオンとやわらかな音"
+      },
+      {
+        "id": "3453557335",
+        "name": "静かな夜とワイングラス"
+      },
+      {
+        "id": "3453558192",
+        "name": "大人のための夜ジャズBGM"
+      },
+      {
+        "id": "3453557336",
+        "name": "夜のご褒美ジャズBGM"
+      },
+      {
+        "id": "3453558193",
+        "name": "夜のJazzピアノで勉強タイム"
+      },
+      {
+        "id": "3453557338",
+        "name": "心地よいジャズピアノBGM"
+      },
+      {
+        "id": "3453557340",
+        "name": "夜のバーで聴くジャズピアノ"
+      }
+    ]
+  },
+  "405923746": {
+    "album_id": "405923746",
+    "album_name": "夜を楽しむ大人のジャズ",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 30,
+    "pic_url": "https://p3.music.126.net/zL-si_oVuYaGT68dPlXnRw==/109951174168729404.jpg",
+    "company": "Silent Harbor Studio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260772.8225484,
+    "songs": [
+      {
+        "id": "3453558059",
+        "name": "集中力を高めるピアノ音楽"
+      },
+      {
+        "id": "3453557197",
+        "name": "バーカウンターで聴くジャズBGM"
+      },
+      {
+        "id": "3453557198",
+        "name": "Relax in a Midnight Bar"
+      },
+      {
+        "id": "3453558060",
+        "name": "Jazzピアノを聴きながら作業集中"
+      },
+      {
+        "id": "3453557199",
+        "name": "バーで流れる癒しのジャズ"
+      },
+      {
+        "id": "3453558061",
+        "name": "Barでひと息ピアノタイム"
+      },
+      {
+        "id": "3453558062",
+        "name": "カクテルとチルアウトピアノ マルガリータの夜"
+      },
+      {
+        "id": "3453558063",
+        "name": "読書中にぴったりの癒しピアノ音楽"
+      },
+      {
+        "id": "3453558064",
+        "name": "夜のご褒美ジャズBGM"
+      },
+      {
+        "id": "3453557200",
+        "name": "Lounge Piano for Deep Focus"
+      },
+      {
+        "id": "3453558065",
+        "name": "大人時間のジャズピアノ"
+      },
+      {
+        "id": "3453558066",
+        "name": "美しいピアノで読書タイム"
+      },
+      {
+        "id": "3453558067",
+        "name": "静かな夜とワイングラス"
+      },
+      {
+        "id": "3453557201",
+        "name": "作業用Jazzピアノヒーリング"
+      },
+      {
+        "id": "3453557202",
+        "name": "晩酌とともに流れる音"
+      },
+      {
+        "id": "3453557203",
+        "name": "ウィスキーソーダとジャズピアノ おしゃれな夜に"
+      },
+      {
+        "id": "3453557204",
+        "name": "夜のバーで聴くジャズピアノ"
+      },
+      {
+        "id": "3453558068",
+        "name": "マンハッタンナイト ジャズピアノで過ごす夜"
+      },
+      {
+        "id": "3453557205",
+        "name": "ブランデーとジャズピアノ リラックスバータイム"
+      },
+      {
+        "id": "3453557206",
+        "name": "都会の夜風とジャズ"
+      },
+      {
+        "id": "3453558069",
+        "name": "カクテルバーの夜 ニューヨークスタイルジャズ"
+      },
+      {
+        "id": "3453558070",
+        "name": "お洒落な音楽で捗る作業"
+      },
+      {
+        "id": "3453558073",
+        "name": "おしゃれBarのピアノ時間"
+      },
+      {
+        "id": "3453557207",
+        "name": "月とネオンとやわらかな音"
+      },
+      {
+        "id": "3453558074",
+        "name": "静寂に溶ける夜の音色"
+      },
+      {
+        "id": "3453557208",
+        "name": "おやすみ前のジャズピアノ"
+      },
+      {
+        "id": "3453558075",
+        "name": "大人のための夜ジャズBGM"
+      },
+      {
+        "id": "3453557210",
+        "name": "リラックスナイト ジントニックとジャズの調べ."
+      },
+      {
+        "id": "3453557211",
+        "name": "心地よいジャズピアノBGM"
+      },
+      {
+        "id": "3453558077",
+        "name": "オールドファッションのひととき 夜の作業用ジャズ"
+      }
+    ]
+  },
+  "405923607": {
+    "album_id": "405923607",
+    "album_name": "静かなジャズバーの夜",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 30,
+    "pic_url": "https://p4.music.126.net/3T90lpM6UnZWAOCoqF0yZg==/109951174168711292.jpg",
+    "company": "Silent Harbor Studio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260771.091043,
+    "songs": [
+      {
+        "id": "3453557803",
+        "name": "眠る前の静寂ジャズ"
+      },
+      {
+        "id": "3453557804",
+        "name": "カクテルとチルアウトピアノ マルガリータの夜"
+      },
+      {
+        "id": "3453557805",
+        "name": "バーボンとジャズ リラクゼーションピアノ"
+      },
+      {
+        "id": "3453557806",
+        "name": "Relax in the Quiet Bar"
+      },
+      {
+        "id": "3453557807",
+        "name": "勉強集中にぴったりのジャズヒーリング"
+      },
+      {
+        "id": "3453556923",
+        "name": "Jazzピアノを聴きながら作業集中"
+      },
+      {
+        "id": "3453557808",
+        "name": "モヒートタイム 癒しのラウンジジャズピアノ"
+      },
+      {
+        "id": "3453557809",
+        "name": "大人のための夜ジャズBGM"
+      },
+      {
+        "id": "3453557810",
+        "name": "読書中にぴったりの癒しピアノ音楽"
+      },
+      {
+        "id": "3453556924",
+        "name": "大人のくつろぎジャズタイム"
+      },
+      {
+        "id": "3453556925",
+        "name": "マティーニとジャズ おしゃれなリラックスタイム"
+      },
+      {
+        "id": "3453556926",
+        "name": "夜のバーで聴くジャズピアノ"
+      },
+      {
+        "id": "3453557811",
+        "name": "集中力を高めるピアノ音楽"
+      },
+      {
+        "id": "3453556927",
+        "name": "Barでひと息ピアノタイム"
+      },
+      {
+        "id": "3453556928",
+        "name": "マンハッタンナイト ジャズピアノで過ごす夜"
+      },
+      {
+        "id": "3453556929",
+        "name": "お洒落な音楽で捗る作業"
+      },
+      {
+        "id": "3453557812",
+        "name": "夜のご褒美ジャズBGM"
+      },
+      {
+        "id": "3453557813",
+        "name": "夜のJazzピアノで勉強タイム"
+      },
+      {
+        "id": "3453556930",
+        "name": "バーカウンターで聴くジャズBGM"
+      },
+      {
+        "id": "3453556931",
+        "name": "心地よいジャズピアノBGM"
+      },
+      {
+        "id": "3453557814",
+        "name": "おやすみ前のジャズピアノ"
+      },
+      {
+        "id": "3453557815",
+        "name": "都会の夜風とジャズ"
+      },
+      {
+        "id": "3453556932",
+        "name": "静かな夜とワイングラス"
+      },
+      {
+        "id": "3453556933",
+        "name": "静かな夜のジャズピアノ"
+      },
+      {
+        "id": "3453557816",
+        "name": "Lounge Piano for Deep Focus"
+      },
+      {
+        "id": "3453557817",
+        "name": "静寂に溶ける夜の音色"
+      },
+      {
+        "id": "3453556934",
+        "name": "大人時間のジャズピアノ"
+      },
+      {
+        "id": "3453556935",
+        "name": "カクテルバーの夜 ニューヨークスタイルジャズ"
+      },
+      {
+        "id": "3453557818",
+        "name": "ラウンジジャズ モスコミュールと癒しのBGM"
+      },
+      {
+        "id": "3453556936",
+        "name": "晩酌とともに流れる音"
+      }
+    ]
+  },
+  "405924817": {
+    "album_id": "405924817",
+    "album_name": "帰宅後のジャズラウンジ",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 30,
+    "pic_url": "https://p3.music.126.net/xZUYDzs8hut1Se2NpfF9eA==/109951174168810964.jpg",
+    "company": "Silent Harbor Studio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260771.7780526,
+    "songs": [
+      {
+        "id": "3453562185",
+        "name": "集中力を高めるピアノ音楽"
+      },
+      {
+        "id": "3453562186",
+        "name": "おしゃれBarのピアノ時間"
+      },
+      {
+        "id": "3453562187",
+        "name": "静寂にとけるメロディ"
+      },
+      {
+        "id": "3453562188",
+        "name": "夜更けの作業とともに"
+      },
+      {
+        "id": "3453562189",
+        "name": "バーボンとジャズ リラクゼーションピアノ"
+      },
+      {
+        "id": "3453564073",
+        "name": "Healing Jazz at Twilight"
+      },
+      {
+        "id": "3453562190",
+        "name": "心地よいジャズピアノBGM"
+      },
+      {
+        "id": "3453562191",
+        "name": "Jazzピアノを聴きながら作業集中"
+      },
+      {
+        "id": "3453562192",
+        "name": "Midnight Groove"
+      },
+      {
+        "id": "3453562193",
+        "name": "夜のバーで聴くジャズピアノ"
+      },
+      {
+        "id": "3453564074",
+        "name": "大人のくつろぎジャズタイム"
+      },
+      {
+        "id": "3453562194",
+        "name": "月とネオンとやわらかな音"
+      },
+      {
+        "id": "3453562195",
+        "name": "Jazz Lounge Time"
+      },
+      {
+        "id": "3453564075",
+        "name": "バーカウンターで聴くジャズBGM"
+      },
+      {
+        "id": "3453564076",
+        "name": "大人のための夜ジャズBGM"
+      },
+      {
+        "id": "3453564077",
+        "name": "ウィスキーソーダとジャズピアノ おしゃれな夜に"
+      },
+      {
+        "id": "3453562196",
+        "name": "大人時間のジャズピアノ"
+      },
+      {
+        "id": "3453562197",
+        "name": "カクテルとチルアウトピアノ マルガリータの夜"
+      },
+      {
+        "id": "3453564078",
+        "name": "夜のJazzピアノで勉強タイム"
+      },
+      {
+        "id": "3453564079",
+        "name": "深夜のジャズラウンジ"
+      },
+      {
+        "id": "3453562198",
+        "name": "カクテルバーの夜 ニューヨークスタイルジャズ"
+      },
+      {
+        "id": "3453562199",
+        "name": "ラウンジジャズ モスコミュールと癒しのBGM"
+      },
+      {
+        "id": "3453564080",
+        "name": "勉強と作業に効くジャズピアノ"
+      },
+      {
+        "id": "3453562200",
+        "name": "Lounge Piano for Deep Focus"
+      },
+      {
+        "id": "3453564081",
+        "name": "晩酌とともに流れる音"
+      },
+      {
+        "id": "3453562201",
+        "name": "オールドファッションのひととき 夜の作業用ジャズ"
+      },
+      {
+        "id": "3453564082",
+        "name": "リラックスナイト ジントニックとジャズの調べ."
+      },
+      {
+        "id": "3453562202",
+        "name": "夜のご褒美ジャズBGM"
+      },
+      {
+        "id": "3453562203",
+        "name": "ゆったり楽しむ大人ジャズ"
+      },
+      {
+        "id": "3453564083",
+        "name": "読書中にぴったりの癒しピアノ音楽"
+      }
+    ]
+  },
+  "406424797": {
+    "album_id": "406424797",
+    "album_name": "火曜日の睡眠音楽 ～頑張りすぎた夜に寄り添う癒しのギター～",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 39,
+    "pic_url": "https://p4.music.126.net/Yll3xZAX818BzMQ4ku46vQ==/109951174183139485.jpg",
+    "company": "Silent Harbor Studio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260772.6870449,
+    "songs": [
+      {
+        "id": "3454578535",
+        "name": "睡眠導入ギターBGM"
+      },
+      {
+        "id": "3454579246",
+        "name": "優しく心を癒す睡眠BGM"
+      },
+      {
+        "id": "3454579247",
+        "name": "リラックスアロマギターBGM"
+      },
+      {
+        "id": "3454579248",
+        "name": "自律神経を整える波の音とギターの音楽"
+      },
+      {
+        "id": "3454578536",
+        "name": "ぐっすり優しく眠る睡眠BGM"
+      },
+      {
+        "id": "3454578537",
+        "name": "リラックス ギター睡眠"
+      },
+      {
+        "id": "3454579250",
+        "name": "穏やかな睡眠音楽"
+      },
+      {
+        "id": "3454579251",
+        "name": "寝つきを良くする睡眠音楽"
+      },
+      {
+        "id": "3454579252",
+        "name": "快眠のすゝめ α波のリラックスできる睡眠BGM"
+      },
+      {
+        "id": "3454579253",
+        "name": "癒しのヒーリング まったりできるギターBGM"
+      },
+      {
+        "id": "3454578541",
+        "name": "睡眠のためのリラックスギターBGM"
+      },
+      {
+        "id": "3454579254",
+        "name": "寝れない夜に聴くリラックスギター睡眠BGM"
+      },
+      {
+        "id": "3454578542",
+        "name": "リラックスできる睡眠音楽"
+      },
+      {
+        "id": "3454578543",
+        "name": "究極の睡眠音楽"
+      },
+      {
+        "id": "3454578544",
+        "name": "NightRoutine 睡眠音楽"
+      },
+      {
+        "id": "3454578545",
+        "name": "3分で眠れる睡眠音楽"
+      },
+      {
+        "id": "3454578546",
+        "name": "アロマ スパ 睡眠リラックスBGM"
+      },
+      {
+        "id": "3454579255",
+        "name": "ぐっすり眠る睡眠導入ギターBGM"
+      },
+      {
+        "id": "3454579256",
+        "name": "メンタルヘルス 睡眠導入音楽"
+      },
+      {
+        "id": "3454579257",
+        "name": "ヨガ瞑想 睡眠導入ギター音楽"
+      },
+      {
+        "id": "3454579258",
+        "name": "2分で寝れる睡眠音楽"
+      },
+      {
+        "id": "3454578547",
+        "name": "Deep Sleep Music"
+      },
+      {
+        "id": "3454578548",
+        "name": "オーガニックチルアウト 睡眠導入"
+      },
+      {
+        "id": "3454579260",
+        "name": "ぐっすり眠れるリラックスミュージック"
+      },
+      {
+        "id": "3454578549",
+        "name": "おすすめ！睡眠の質を高める音楽"
+      },
+      {
+        "id": "3454579261",
+        "name": "おすすめ！究極の睡眠"
+      },
+      {
+        "id": "3454578550",
+        "name": "アロマスパ瞑想睡眠"
+      },
+      {
+        "id": "3454579263",
+        "name": "疲労回復リラックスできるBGM"
+      },
+      {
+        "id": "3454578551",
+        "name": "おすすめ！まったりヒーリングミュージック"
+      },
+      {
+        "id": "3454578552",
+        "name": "おすすめ！リラックス睡眠BGM"
+      },
+      {
+        "id": "3454579264",
+        "name": "睡眠の質を上げる音楽"
+      },
+      {
+        "id": "3454578553",
+        "name": "疲れたら聴く睡眠音楽"
+      },
+      {
+        "id": "3454578554",
+        "name": "おすすめ！聴くとリラックスできる音楽"
+      },
+      {
+        "id": "3454578555",
+        "name": "おすすめ！ぐっすり眠るギターBGM"
+      },
+      {
+        "id": "3454579265",
+        "name": "おすすめ！聴くとまったりできるBGM"
+      },
+      {
+        "id": "3454578556",
+        "name": "癒しの睡眠音楽"
+      },
+      {
+        "id": "3454578557",
+        "name": "一日の終わりのやさしいギター"
+      },
+      {
+        "id": "3454578558",
+        "name": "秋の夜に癒されるギター時間"
+      },
+      {
+        "id": "3454579266",
+        "name": "リラックスできる癒しのギターBGM"
+      }
+    ]
+  },
+  "405923657": {
+    "album_id": "405923657",
+    "album_name": "週末のごほうびジャズピアノ",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 30,
+    "pic_url": "https://p3.music.126.net/pvIZdVJD7ajdWYyXviYZAA==/109951174168722709.jpg",
+    "company": "Silent Harbor Studio",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260771.02419,
+    "songs": [
+      {
+        "id": "3453557031",
+        "name": "リラックスナイト ジントニックとジャズの調べ."
+      },
+      {
+        "id": "3453557915",
+        "name": "カクテルとチルアウトピアノ マルガリータの夜"
+      },
+      {
+        "id": "3453557916",
+        "name": "Jazzピアノを聴きながら作業集中"
+      },
+      {
+        "id": "3453557032",
+        "name": "Jazz Lounge Time"
+      },
+      {
+        "id": "3453557033",
+        "name": "静寂にとけるメロディ"
+      },
+      {
+        "id": "3453557917",
+        "name": "静かな夜とワイングラス"
+      },
+      {
+        "id": "3453557034",
+        "name": "集中力を高めるピアノ音楽"
+      },
+      {
+        "id": "3453557035",
+        "name": "Barでひと息ピアノタイム"
+      },
+      {
+        "id": "3453557036",
+        "name": "バーカウンターで聴くジャズBGM"
+      },
+      {
+        "id": "3453557918",
+        "name": "ラウンジジャズ モスコミュールと癒しのBGM"
+      },
+      {
+        "id": "3453557919",
+        "name": "大人時間のジャズピアノ"
+      },
+      {
+        "id": "3453557037",
+        "name": "おしゃれな夜のジャズピアノ"
+      },
+      {
+        "id": "3453557920",
+        "name": "バーで流れる癒しのジャズ"
+      },
+      {
+        "id": "3453557038",
+        "name": "大人のための夜ジャズBGM"
+      },
+      {
+        "id": "3453557922",
+        "name": "読書中にぴったりの癒しピアノ音楽"
+      },
+      {
+        "id": "3453557042",
+        "name": "夜カフェのピアノ時間"
+      },
+      {
+        "id": "3453557926",
+        "name": "美しいピアノで読書タイム"
+      },
+      {
+        "id": "3453557928",
+        "name": "マティーニとジャズ おしゃれなリラックスタイム"
+      },
+      {
+        "id": "3453557044",
+        "name": "夜景と楽しむジャズピアノ"
+      },
+      {
+        "id": "3453557929",
+        "name": "モヒートタイム 癒しのラウンジジャズピアノ"
+      },
+      {
+        "id": "3453557930",
+        "name": "Lounge Piano for Deep Focus"
+      },
+      {
+        "id": "3453557932",
+        "name": "心地よいジャズピアノBGM"
+      },
+      {
+        "id": "3453557045",
+        "name": "静かな夜のジャズピアノ"
+      },
+      {
+        "id": "3453557046",
+        "name": "Midnight Groove"
+      },
+      {
+        "id": "3453557933",
+        "name": "おしゃれBarのピアノ時間"
+      },
+      {
+        "id": "3453557047",
+        "name": "眠る前の静寂ジャズ"
+      },
+      {
+        "id": "3453557048",
+        "name": "月とネオンとやわらかな音"
+      },
+      {
+        "id": "3453557049",
+        "name": "夜のJazzピアノで勉強タイム"
+      },
+      {
+        "id": "3453557934",
+        "name": "バーボンとジャズ リラクゼーションピアノ"
+      },
+      {
+        "id": "3453557935",
+        "name": "マンハッタンナイト ジャズピアノで過ごす夜"
+      }
+    ]
+  },
+  "408899197": {
+    "album_id": "408899197",
+    "album_name": "Cozy Christmas Night",
+    "date_str": "1961-12-05",
+    "publish_ts": -254822400000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 17,
+    "pic_url": "https://p3.music.126.net/r8XWw6HqFsTt8SBi_zlS8A==/109951174257942655.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794259279.9189897
+  },
+  "408905643": {
+    "album_id": "408905643",
+    "album_name": "V.A.M.P.",
+    "date_str": "2026-10-08",
+    "publish_ts": 1791388800000,
+    "artist_ids": [
+      "33319621"
+    ],
+    "artist_names": [
+      "Kyle McGee"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/uOscZ23AxBqjI8w7CT1tAA==/109951174258098085.jpg",
+    "company": "Salem Star Factory",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794259280.72454
+  },
+  "369411335": {
+    "album_id": "369411335",
+    "album_name": "Fading Glow (feat. 初音ミク) [Nightcore Mix]",
+    "date_str": "2026-04-11",
+    "publish_ts": 1775836800000,
+    "artist_ids": [
+      "99599452"
+    ],
+    "artist_names": [
+      "blue web."
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/EgJRZa3xv1x_L0HB92MRLA==/109951172997741985.jpg",
+    "company": "blue web.",
+    "sub_type": "Remix",
+    "type": "Single",
+    "cached_at": 1794260676.714935
+  },
+  "387774665": {
+    "album_id": "387774665",
+    "album_name": "Blue Reverberation (feat. 初音ミク)",
+    "date_str": "2026-07-22",
+    "publish_ts": 1784649600000,
+    "artist_ids": [
+      "99599452"
+    ],
+    "artist_names": [
+      "blue web."
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/eNMyYuM6cZ8mGpQuzGC3NQ==/109951173587927900.jpg",
+    "company": "blue web.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260676.7303228
+  },
+  "368760496": {
+    "album_id": "368760496",
+    "album_name": "Fading Glow (feat. 初音ミク)",
+    "date_str": "2026-04-04",
+    "publish_ts": 1775232000000,
+    "artist_ids": [
+      "99599452"
+    ],
+    "artist_names": [
+      "blue web."
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/Ub_0QZ98UxIYrfBlxX0Sfw==/109951172975517288.jpg",
+    "company": "blue web.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260676.7355294
+  },
+  "387851569": {
+    "album_id": "387851569",
+    "album_name": "Blue Reverberation",
+    "date_str": "2026-08-05",
+    "publish_ts": 1785859200000,
+    "artist_ids": [
+      "99599452"
+    ],
+    "artist_names": [
+      "blue web."
+    ],
+    "size": 8,
+    "pic_url": "https://p3.music.126.net/TE_NJPBDtn6H4xEDMKJj3g==/109951173591241363.jpg",
+    "company": "blue web.",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260676.7669954
+  },
+  "284507480": {
+    "album_id": "284507480",
+    "album_name": "樹海 (feat. 初音ミク)",
+    "date_str": "2025-09-10",
+    "publish_ts": 1757433600000,
+    "artist_ids": [
+      "99599452"
+    ],
+    "artist_names": [
+      "blue web."
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/j1ga1PKZJEc0fAe3sbnvHQ==/109951171994601832.jpg",
+    "company": "blue web.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260677.494588
+  },
+  "281170767": {
+    "album_id": "281170767",
+    "album_name": "やがて幽霊になる (feat. 初音ミク)",
+    "date_str": "2025-08-13",
+    "publish_ts": 1755014400000,
+    "artist_ids": [
+      "99599452"
+    ],
+    "artist_names": [
+      "blue web."
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/Tr78ivS3zHk4xPbUsrI0kw==/109951171836606120.jpg",
+    "company": "blue web.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260677.5140023
+  },
+  "408810577": {
+    "album_id": "408810577",
+    "album_name": "這個好難聼呀哎呀我不想改了哎呀我就不做了吧我直接發了啊啊啊啊啊啊啊",
+    "date_str": "2026-11-09",
+    "publish_ts": 1794153600000,
+    "artist_ids": [
+      "99652655"
+    ],
+    "artist_names": [
+      "F1牛马甲"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/gFSXtdVfZZCKXwlyQLF1YA==/109951174255989786.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260677.561199,
+    "songs": [
+      {
+        "id": "3459417844",
+        "name": "這個好難聼呀哎呀我不想改了哎呀我就不做了吧我直接發了啊啊啊啊啊啊啊"
+      }
+    ]
+  },
+  "407572296": {
+    "album_id": "407572296",
+    "album_name": "Flori presents: Ribbon Skies",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "333329"
+    ],
+    "artist_names": [
+      "Flori"
+    ],
+    "size": 26,
+    "pic_url": "https://p4.music.126.net/bIDihyYFrBiE41P3e8k5uQ==/109951174218992599.jpg",
+    "company": "Shuttle Recs.",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260677.5840526
+  },
+  "408784402": {
+    "album_id": "408784402",
+    "album_name": "ビット・モア・レンズ",
+    "date_str": "2026-11-09",
+    "publish_ts": 1794153600000,
+    "artist_ids": [
+      "99293330"
+    ],
+    "artist_names": [
+      "惑世いと"
+    ],
+    "size": 4,
+    "pic_url": "https://p4.music.126.net/pJHhzeZwHfANWj0ooAh05Q==/109951174254566884.jpg",
+    "company": "wakuse ito",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1794260678.8877094
+  },
+  "404797904": {
+    "album_id": "404797904",
+    "album_name": "GIVE ME A SIGN",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "31709761"
+    ],
+    "artist_names": [
+      "REMNANT.exe"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/K8UqBJOOit71pFLEZv0RVg==/109951174135654576.jpg",
+    "company": "Too Lost LLC",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260681.1911592,
+    "songs": [
+      {
+        "id": "3451053952",
+        "name": "GIVE ME A SIGN"
+      }
+    ]
+  },
+  "408924383": {
+    "album_id": "408924383",
+    "album_name": "Міліметр",
+    "date_str": "2026-11-09",
+    "publish_ts": 1794153600000,
+    "artist_ids": [
+      "533834"
+    ],
+    "artist_names": [
+      "LEYA"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/hN0LBffIkhC-hWncDRo2nA==/109951174258400813.jpg",
+    "company": "LEYA",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260685.3262827,
+    "songs": [
+      {
+        "id": "3459564881",
+        "name": "Міліметр"
+      }
+    ]
+  },
+  "407310791": {
+    "album_id": "407310791",
+    "album_name": "Hot Sh*t",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "14283739"
+    ],
+    "artist_names": [
+      "ASAMI"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/j61QAeI_IzLJROHpStGlog==/109951174211371345.jpg",
+    "company": "03- Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260691.1911564,
+    "songs": [
+      {
+        "id": "3456410699",
+        "name": "Hot Sh*t"
+      }
+    ]
+  },
+  "396487460": {
+    "album_id": "396487460",
+    "album_name": "I'm Sorry I Didn't Love You Harder",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "826145",
+      "14262025",
+      "94391467"
+    ],
+    "artist_names": [
+      "Boxplot",
+      "Coben",
+      "Wrex Horton"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/dGdDNnTq5Gqm6wLkuXUARQ==/109951173883926702.jpg",
+    "company": "Pilot.",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260693.864744,
+    "songs": [
+      {
+        "id": "3431385635",
+        "name": "I'm Sorry I Didn't Love You Harder"
+      }
+    ]
+  },
+  "398222516": {
+    "album_id": "398222516",
+    "album_name": "KOTA (Project Iorn)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "60851875"
+    ],
+    "artist_names": [
+      "DKmyan"
+    ],
+    "size": 14,
+    "pic_url": "https://p4.music.126.net/bCNnfE4c9mgiTSYEyfzkoQ==/109951173935336663.jpg",
+    "company": "Team Bass Trees Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260729.3397374,
+    "songs": [
+      {
+        "id": "3435922547",
+        "name": "hello, freind (INTRO)"
+      },
+      {
+        "id": "3435921603",
+        "name": "E R. eRER"
+      },
+      {
+        "id": "3435922548",
+        "name": "human"
+      },
+      {
+        "id": "3435922549",
+        "name": "shadow"
+      },
+      {
+        "id": "3435922550",
+        "name": "something along those lines"
+      },
+      {
+        "id": "3435921604",
+        "name": "CARRIT"
+      },
+      {
+        "id": "3435921606",
+        "name": "a small break (Interlude)"
+      },
+      {
+        "id": "3435922551",
+        "name": "problems"
+      },
+      {
+        "id": "3435921607",
+        "name": "E R. eRER VIP"
+      },
+      {
+        "id": "3435921608",
+        "name": "DISIPLINE"
+      },
+      {
+        "id": "3435922552",
+        "name": "BRAKES"
+      },
+      {
+        "id": "3435922553",
+        "name": "screw it"
+      },
+      {
+        "id": "3435922554",
+        "name": "host"
+      },
+      {
+        "id": "3435921609",
+        "name": "KOTA (i just wanna)"
+      }
+    ]
+  },
+  "408876030": {
+    "album_id": "408876030",
+    "album_name": "Hero of Time (Song of Storms Dubstep Remix)",
+    "date_str": "2026-11-09",
+    "publish_ts": 1794153600000,
+    "artist_ids": [
+      "55748821"
+    ],
+    "artist_names": [
+      "YA_BOI_MAX1221"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/UFe8L2ek5GQg1QV_WOH1ag==/109951174257016091.jpg",
+    "company": "Ya_boi_max1221",
+    "sub_type": "Remix",
+    "type": "Single",
+    "cached_at": 1794260735.9277527,
+    "songs": [
+      {
+        "id": "3459482998",
+        "name": "Hero of Time (Song of Storms Dubstep Remix)"
+      }
+    ]
+  },
+  "408777395": {
+    "album_id": "408777395",
+    "album_name": "即刻电音.MIX",
+    "date_str": "2026-11-09",
+    "publish_ts": 1794153600000,
+    "artist_ids": [
+      "57700505"
+    ],
+    "artist_names": [
+      "UNEXPECTED"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/sJV_57YvfaqllQg4ue0Xgw==/109951174254757615.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260739.1744492
+  },
+  "408899135": {
+    "album_id": "408899135",
+    "album_name": "8/06 EP",
+    "date_str": "2026-11-09",
+    "publish_ts": 1794153600000,
+    "artist_ids": [
+      "32820687",
+      "125812255"
+    ],
+    "artist_names": [
+      "Real Talk",
+      "Laïoung"
+    ],
+    "size": 5,
+    "pic_url": "https://p3.music.126.net/8WjJUBDu3gBcuIp8o2_Gmw==/109951174257973738.jpg",
+    "company": "索尼音乐",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1794260743.0465784
+  },
+  "405130086": {
+    "album_id": "405130086",
+    "album_name": "This Time",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "1053103",
+      "861423",
+      "31927388"
+    ],
+    "artist_names": [
+      "ATTLAS",
+      "Mango",
+      "MAYLYN"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/9-tbtasYwFsbsqvWgDHiSg==/109951174143862785.jpg",
+    "company": "Monstercat",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260746.8000038,
+    "songs": [
+      {
+        "id": "3451849618",
+        "name": "This Time"
+      }
+    ]
+  },
+  "407429210": {
+    "album_id": "407429210",
+    "album_name": "sounding周末 VOL.38 巴西新晋\"摇人\"",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "127612800",
+      "48436890"
+    ],
+    "artist_names": [
+      "sounding长沙",
+      "Taisheng Music"
+    ],
+    "size": 36,
+    "pic_url": "https://p4.music.126.net/O_EaKTFNaQqttlV0D5rKUQ==/109951174215015483.jpg",
+    "company": "sounding X Taisheng Music",
+    "sub_type": "现场版",
+    "type": "专辑",
+    "cached_at": 1794260749.6624522,
+    "songs": [
+      {
+        "id": "3456654468",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 01"
+      },
+      {
+        "id": "3456655277",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 02"
+      },
+      {
+        "id": "3456655278",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 03"
+      },
+      {
+        "id": "3456654469",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 04"
+      },
+      {
+        "id": "3456655279",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 05"
+      },
+      {
+        "id": "3456654470",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 06"
+      },
+      {
+        "id": "3456654471",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 07"
+      },
+      {
+        "id": "3456654472",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 08"
+      },
+      {
+        "id": "3456655280",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 09"
+      },
+      {
+        "id": "3456654473",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 10"
+      },
+      {
+        "id": "3456654474",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 11"
+      },
+      {
+        "id": "3456654475",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 12"
+      },
+      {
+        "id": "3456655281",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 13"
+      },
+      {
+        "id": "3456654476",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 14"
+      },
+      {
+        "id": "3456655282",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 15"
+      },
+      {
+        "id": "3456655283",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 16"
+      },
+      {
+        "id": "3456654477",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 17"
+      },
+      {
+        "id": "3456655284",
+        "name": "sounding周末 VOL.38 @ KAF3R SET 18"
+      },
+      {
+        "id": "3456655285",
+        "name": "sounding周末 VOL.38 @ GO D SET 01"
+      },
+      {
+        "id": "3456654478",
+        "name": "sounding周末 VOL.38 @ GO D SET 02"
+      },
+      {
+        "id": "3456654479",
+        "name": "sounding周末 VOL.38 @ GO D SET 03"
+      },
+      {
+        "id": "3456654480",
+        "name": "sounding周末 VOL.38 @ GO D SET 04"
+      },
+      {
+        "id": "3456655286",
+        "name": "sounding周末 VOL.38 @ GO D SET 05"
+      },
+      {
+        "id": "3456654482",
+        "name": "sounding周末 VOL.38 @ GO D SET 06"
+      },
+      {
+        "id": "3456654483",
+        "name": "sounding周末 VOL.38 @ GO D SET 07"
+      },
+      {
+        "id": "3456654484",
+        "name": "sounding周末 VOL.38 @ GO D SET 08"
+      },
+      {
+        "id": "3456655287",
+        "name": "sounding周末 VOL.38 @ GO D SET 09"
+      },
+      {
+        "id": "3456655288",
+        "name": "sounding周末 VOL.38 @ GO D SET 10"
+      },
+      {
+        "id": "3456655289",
+        "name": "sounding周末 VOL.38 @ GO D SET 11"
+      },
+      {
+        "id": "3456654485",
+        "name": "sounding周末 VOL.38 @ GO D SET 12"
+      },
+      {
+        "id": "3456655290",
+        "name": "sounding周末 VOL.38 @ HS SET 01"
+      },
+      {
+        "id": "3456654486",
+        "name": "sounding周末 VOL.38 @ HS SET 02"
+      },
+      {
+        "id": "3456654487",
+        "name": "sounding周末 VOL.38 @ HS SET 03"
+      },
+      {
+        "id": "3456654488",
+        "name": "sounding周末 VOL.38 @ HS SET 04"
+      },
+      {
+        "id": "3456655291",
+        "name": "sounding周末 VOL.38 @ HS SET 05"
+      },
+      {
+        "id": "3456654489",
+        "name": "sounding周末 VOL.38 @ HS SET 06"
+      }
+    ]
+  },
+  "408798930": {
+    "album_id": "408798930",
+    "album_name": "テトナナ (feat. 重音テト)",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "53444956"
+    ],
+    "artist_names": [
+      "カスカ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/tw7G_h1dUELcmG1gQ5sZXw==/109951174254923382.jpg",
+    "company": "Kasuka",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260754.4476619
+  },
+  "408800472": {
+    "album_id": "408800472",
+    "album_name": "生きてるふり (feat. 重音テト)",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "53444956"
+    ],
+    "artist_names": [
+      "カスカ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/rEXuEWKcmcQbRBhx0HIPRQ==/109951174254971035.jpg",
+    "company": "Kasuka",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260754.4529977
+  },
+  "408799998": {
+    "album_id": "408799998",
+    "album_name": "死んでるふり (feat. 重音テト)",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "53444956"
+    ],
+    "artist_names": [
+      "カスカ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/H5GtWKScrKuHUPeGLf237Q==/109951174254944154.jpg",
+    "company": "Kasuka",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260754.4561138
+  },
+  "407266469": {
+    "album_id": "407266469",
+    "album_name": "Superstition",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "62111420"
+    ],
+    "artist_names": [
+      "nomel"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/8a12gLFAjjV7PK1T5iDXbQ==/109951174209300008.jpg",
+    "company": "nomel",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260754.4803817
+  },
+  "408634701": {
+    "album_id": "408634701",
+    "album_name": "君だけに聞かせる歌を (feat. 重音テト)",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "94474333"
+    ],
+    "artist_names": [
+      "かまあん"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/8Xoqrq8Inp2Srl8ZQajhpQ==/109951174249259193.jpg",
+    "company": "kama-an",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260755.2358894
+  },
+  "408798472": {
+    "album_id": "408798472",
+    "album_name": "恒星になる前に (feat. 重音テト)",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "53444956"
+    ],
+    "artist_names": [
+      "カスカ"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/9fOd8qEFInowEtPoQb3oVg==/109951174254907505.jpg",
+    "company": "Kasuka",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260755.240615
+  },
+  "408799644": {
+    "album_id": "408799644",
+    "album_name": "テト爆食フランスパン (feat. 重音テト)",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "53444956"
+    ],
+    "artist_names": [
+      "カスカ"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/fuVyU1uay8McvXVR9gVnoQ==/109951174254928164.jpg",
+    "company": "Kasuka",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260755.2419567
+  },
+  "408798793": {
+    "album_id": "408798793",
+    "album_name": "星屑シグナル (feat. 重音テト)",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "53444956"
+    ],
+    "artist_names": [
+      "カスカ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/naUQz3LdBxJH0-bff8Xf_Q==/109951174254921137.jpg",
+    "company": "Kasuka",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260755.2519321
+  },
+  "407266837": {
+    "album_id": "407266837",
+    "album_name": "ポイズン・ドリップ (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "130472008"
+    ],
+    "artist_names": [
+      "アラやき"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/Y52JXleRU3sBpXVpROQXnQ==/109951174209338819.jpg",
+    "company": "Arayaki",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260756.0222113
+  },
+  "407266229": {
+    "album_id": "407266229",
+    "album_name": "フォロウ (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "130472008"
+    ],
+    "artist_names": [
+      "アラやき"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/KVVqKaKlDiTNKcPSDAn6Tw==/109951174209280008.jpg",
+    "company": "Arayaki",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260756.7694106
+  },
+  "408617959": {
+    "album_id": "408617959",
+    "album_name": "アクアリウムに溺れて (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "14844470"
+    ],
+    "artist_names": [
+      "Kanata"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/bxD9OVQZfS1pxFg-TCdCzw==/109951174248426281.jpg",
+    "company": "Kanata",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260757.504658
+  },
+  "407266534": {
+    "album_id": "407266534",
+    "album_name": "Star Melody (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "130472008"
+    ],
+    "artist_names": [
+      "アラやき"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/3ezgtjKGT8hGRBQNO60jwQ==/109951174209304782.jpg",
+    "company": "Arayaki",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260757.5121121
+  },
+  "407266443": {
+    "album_id": "407266443",
+    "album_name": "シニガミのお仕事 (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "130472008"
+    ],
+    "artist_names": [
+      "アラやき"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/cGc7XMMNbVNcgWRPCUpgkw==/109951174209284856.jpg",
+    "company": "Arayaki",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260757.7405567
+  },
+  "407266128": {
+    "album_id": "407266128",
+    "album_name": "皆々様へ (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "130472008"
+    ],
+    "artist_names": [
+      "アラやき"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/c7IGYdTurtcnddDwteNC4g==/109951174209327170.jpg",
+    "company": "Arayaki",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260757.8033557
+  },
+  "407264540": {
+    "album_id": "407264540",
+    "album_name": "レオパルト (feat. 初音ミク) [Ver.2]",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "129565391"
+    ],
+    "artist_names": [
+      "(有)陽滲"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/jbHt80tw-lQKAegX4bVg_Q==/109951174209177092.jpg",
+    "company": "Yoshin",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260758.3079185
+  },
+  "407264126": {
+    "album_id": "407264126",
+    "album_name": "no destroyed seishun (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "129565391"
+    ],
+    "artist_names": [
+      "(有)陽滲"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/eg63sOHBlIq24IWT_Ja2sw==/109951174209190317.jpg",
+    "company": "Yoshin",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260758.3294528
+  },
+  "406772846": {
+    "album_id": "406772846",
+    "album_name": "セルフタイマー (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [],
+    "artist_names": [
+      "NAORI"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/Rhwx_S4qnndPyksPFrMxCg==/109951174190813942.jpg",
+    "company": "NAORI",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260758.5399766
+  },
+  "407260955": {
+    "album_id": "407260955",
+    "album_name": "小さな勇気 (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "47026954"
+    ],
+    "artist_names": [
+      "エグゼチューン"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/uVy0-qCpfwc6jDJsSLtcKg==/109951174209036260.jpg",
+    "company": "EXETUNE",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260758.556857
+  },
+  "404795532": {
+    "album_id": "404795532",
+    "album_name": "二人の秋 (feat. 初音ミク)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "98023829"
+    ],
+    "artist_names": [
+      "kamiiwaki"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/r0SHS8_UfXbmO2a2QfM86g==/109951174135575561.jpg",
+    "company": "kamiiwaki",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260759.0999186
+  },
+  "408799314": {
+    "album_id": "408799314",
+    "album_name": "水底の駅、来ない夏 (feat. 初音ミク)",
+    "date_str": "2026-11-08",
+    "publish_ts": 1794067200000,
+    "artist_ids": [
+      "53444956"
+    ],
+    "artist_names": [
+      "カスカ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/iEmwVY9TeUYUQP6oiyfNCg==/109951174254901434.jpg",
+    "company": "Kasuka",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260760.8599973
+  },
+  "408622119": {
+    "album_id": "408622119",
+    "album_name": "!!SHOCKWAVE!!",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "14100246"
+    ],
+    "artist_names": [
+      "Laur"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/_F8n-uNoNp3okNhEu1itdQ==/109951174248598799.jpg",
+    "company": "Last Labyrinth",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260763.1034162,
+    "songs": [
+      {
+        "id": "3458923334",
+        "name": "!!SHOCKWAVE!!"
+      }
+    ]
+  },
+  "407862070": {
+    "album_id": "407862070",
+    "album_name": "Where the River Bends",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p4.music.126.net/WgKlDswQpu1G2RayX_RqUA==/109951174225549118.jpg",
+    "company": "BURHAN BEHEK RECORDS",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260764.351194,
+    "songs": [
+      {
+        "id": "3457485518",
+        "name": "Where the River Bends"
+      },
+      {
+        "id": "3457485519",
+        "name": "We'll Be All Right"
+      },
+      {
+        "id": "3457485520",
+        "name": "Used to the Quiet"
+      }
+    ]
+  },
+  "407877252": {
+    "album_id": "407877252",
+    "album_name": "Liwanag Natin Ang Isa't Isa (2026 GMA Christmas Station ID)",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "50677937",
+      "1091022",
+      "123838666"
+    ],
+    "artist_names": [
+      "Various Artists",
+      "Julie Anne San Jose",
+      "Mika Salamanca",
+      "Will Ashley",
+      "Heath Jornales",
+      "Princess Aliyah"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/bIhTPPDa8teT1IJh6y6qTg==/109951174225829282.jpg",
+    "company": "GMA Network",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260764.3525343,
+    "songs": [
+      {
+        "id": "3457519211",
+        "name": "Liwanag Natin Ang Isa't Isa (2026 GMA Christmas Station ID)"
+      }
+    ]
+  },
+  "407723744": {
+    "album_id": "407723744",
+    "album_name": "Buried Meridian",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/ixWm-vcjwvxgTtdWe0l9zg==/109951174222649759.jpg",
+    "company": "Subterra Collective",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260764.405041,
+    "songs": [
+      {
+        "id": "3457233641",
+        "name": "Glass Monolith"
+      },
+      {
+        "id": "3457233636",
+        "name": "Zero Gravity"
+      },
+      {
+        "id": "3457234322",
+        "name": "Catharsis"
+      },
+      {
+        "id": "3457234317",
+        "name": "Satellite Signal"
+      },
+      {
+        "id": "3457233642",
+        "name": "Mental Clarity"
+      },
+      {
+        "id": "3457234318",
+        "name": "Zinc Fever"
+      },
+      {
+        "id": "3457233643",
+        "name": "Ferrofluid"
+      },
+      {
+        "id": "3457233637",
+        "name": "Peripheral Motion"
+      },
+      {
+        "id": "3457234323",
+        "name": "Concrete Petal"
+      },
+      {
+        "id": "3457233638",
+        "name": "Somewhere Beneath September"
+      },
+      {
+        "id": "3457234324",
+        "name": "Modulation Theory"
+      },
+      {
+        "id": "3457233639",
+        "name": "Cybernetics"
+      },
+      {
+        "id": "3457233644",
+        "name": "Postmarked Yesterday"
+      },
+      {
+        "id": "3457234319",
+        "name": "Rust Garden"
+      },
+      {
+        "id": "3457234325",
+        "name": "Parallel Lines"
+      },
+      {
+        "id": "3457233640",
+        "name": "Velvet Transit"
+      },
+      {
+        "id": "3457233645",
+        "name": "Slowly into Focus"
+      },
+      {
+        "id": "3457234320",
+        "name": "Stellar Drift"
+      },
+      {
+        "id": "3457234326",
+        "name": "Maré De Dentro"
+      },
+      {
+        "id": "3457234321",
+        "name": "Black Sand Ceremony"
+      }
+    ]
+  },
+  "407862665": {
+    "album_id": "407862665",
+    "album_name": "Ordinary Act Strange",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/gNOYiidpmyp9PeCIZd_9Fg==/109951174225541715.jpg",
+    "company": "BURHAN BEHEK RECORDS",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260765.098445,
+    "songs": [
+      {
+        "id": "3457486186",
+        "name": "Ordinary Act Strange"
+      },
+      {
+        "id": "3457486187",
+        "name": "Paper Moon"
+      },
+      {
+        "id": "3457486188",
+        "name": "Paper Boats"
+      }
+    ]
+  },
+  "404232241": {
+    "album_id": "404232241",
+    "album_name": "Unknown Company",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p4.music.126.net/vXrNgZCpUD1Kn4FRyoR2Gw==/109951174116449514.jpg",
+    "company": "Zoo Series Recordings",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260765.973535,
+    "songs": [
+      {
+        "id": "3449057344",
+        "name": "Amster"
+      },
+      {
+        "id": "3449057345",
+        "name": "Unity Dreams"
+      },
+      {
+        "id": "3449058290",
+        "name": "Flagrant"
+      },
+      {
+        "id": "3449058291",
+        "name": "Cancelled Skies"
+      },
+      {
+        "id": "3449057346",
+        "name": "March of the Elephants"
+      },
+      {
+        "id": "3449058292",
+        "name": "Fogo"
+      },
+      {
+        "id": "3449058293",
+        "name": "Romana"
+      },
+      {
+        "id": "3449057347",
+        "name": "Freakshow"
+      },
+      {
+        "id": "3449058294",
+        "name": "Chambursa"
+      },
+      {
+        "id": "3449058295",
+        "name": "Good Area"
+      },
+      {
+        "id": "3449058296",
+        "name": "Funcion A"
+      },
+      {
+        "id": "3449057348",
+        "name": "After the Rain Comes Sunshine"
+      },
+      {
+        "id": "3449058297",
+        "name": "Dinner With Zusy"
+      },
+      {
+        "id": "3449057349",
+        "name": "Still Want Me"
+      },
+      {
+        "id": "3449057350",
+        "name": "Hyena"
+      },
+      {
+        "id": "3449058299",
+        "name": "Abduction"
+      },
+      {
+        "id": "3449058300",
+        "name": "Cut Down"
+      },
+      {
+        "id": "3449057352",
+        "name": "Golden Ratio"
+      },
+      {
+        "id": "3449058301",
+        "name": "Blue Desert"
+      },
+      {
+        "id": "3449057353",
+        "name": "Forte"
+      }
+    ]
+  },
+  "407861408": {
+    "album_id": "407861408",
+    "album_name": "Nowhere Else I'd Rather Find",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p4.music.126.net/gDg_i2lVBrR1K68su5KbSg==/109951174225512906.jpg",
+    "company": "BURHAN BEHEK RECORDS",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260766.7116826,
+    "songs": [
+      {
+        "id": "3457483448",
+        "name": "Nowhere Else I'd Rather Find"
+      },
+      {
+        "id": "3457482537",
+        "name": "Only You Know"
+      },
+      {
+        "id": "3457482538",
+        "name": "Nowhere to Be"
+      }
+    ]
+  },
+  "406061009": {
+    "album_id": "406061009",
+    "album_name": "Revolution EP",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 2,
+    "pic_url": "https://p3.music.126.net/CM7Dt2SMz0WTj6fotPN_TQ==/109951174174004914.jpg",
+    "company": "Previous Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260766.766118,
+    "songs": [
+      {
+        "id": "3453858613",
+        "name": "SILVI2"
+      },
+      {
+        "id": "3453859457",
+        "name": "Sonido Prohibido"
+      }
+    ]
+  },
+  "405491534": {
+    "album_id": "405491534",
+    "album_name": "Emerald Eclipse",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 25,
+    "pic_url": "https://p4.music.126.net/tzJfcuyetras6eBT9jgAcQ==/109951174153435842.jpg",
+    "company": "Zoo Series Recordings",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260766.8487797,
+    "songs": [
+      {
+        "id": "3452634327",
+        "name": "Concrete Echo"
+      },
+      {
+        "id": "3452634328",
+        "name": "Blind Spot"
+      },
+      {
+        "id": "3452634329",
+        "name": "Subwoofer Lullaby"
+      },
+      {
+        "id": "3452634330",
+        "name": "New Dawn"
+      },
+      {
+        "id": "3452634331",
+        "name": "Linear Drift"
+      },
+      {
+        "id": "3452633403",
+        "name": "Phantom Wave"
+      },
+      {
+        "id": "3452633404",
+        "name": "Obsidian Grid"
+      },
+      {
+        "id": "3452633405",
+        "name": "Silent Sine"
+      },
+      {
+        "id": "3452633406",
+        "name": "Deep Space"
+      },
+      {
+        "id": "3452634332",
+        "name": "Digital Mirage"
+      },
+      {
+        "id": "3452633407",
+        "name": "Float On"
+      },
+      {
+        "id": "3452634333",
+        "name": "Crystal Grid"
+      },
+      {
+        "id": "3452634334",
+        "name": "Raw Power"
+      },
+      {
+        "id": "3452634335",
+        "name": "Subtractive"
+      },
+      {
+        "id": "3452634336",
+        "name": "Hardwire Pulse"
+      },
+      {
+        "id": "3452634337",
+        "name": "Frame Rate"
+      },
+      {
+        "id": "3452634338",
+        "name": "Overdrive Protocol"
+      },
+      {
+        "id": "3452634339",
+        "name": "High Ground"
+      },
+      {
+        "id": "3452633408",
+        "name": "Chrome Illusion"
+      },
+      {
+        "id": "3452634340",
+        "name": "Thin Air"
+      },
+      {
+        "id": "3452634341",
+        "name": "Vapor Trail"
+      },
+      {
+        "id": "3452633409",
+        "name": "Deep Resonance"
+      },
+      {
+        "id": "3452634342",
+        "name": "Crisp Logic"
+      },
+      {
+        "id": "3452634343",
+        "name": "Invisible Hand"
+      },
+      {
+        "id": "3452633410",
+        "name": "System Rupture"
+      }
+    ]
+  },
+  "407886707": {
+    "album_id": "407886707",
+    "album_name": "Take the Long Way Home",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/eDsPkV0aJnI9hVIq7Dj-rQ==/109951174226037516.jpg",
+    "company": "BURHAN BEHEK RECORDS",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260766.8828137,
+    "songs": [
+      {
+        "id": "3457541081",
+        "name": "Take the Long Way Home"
+      },
+      {
+        "id": "3457540184",
+        "name": "Stay a Little"
+      },
+      {
+        "id": "3457541082",
+        "name": "Stay a Little While"
+      }
+    ]
+  },
+  "407861449": {
+    "album_id": "407861449",
+    "album_name": "Rising Like a Silver Thread",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/LfBWCqcfeXRz0fF7DCG14w==/109951174225518331.jpg",
+    "company": "BURHAN BEHEK RECORDS",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260767.5281827,
+    "songs": [
+      {
+        "id": "3457483503",
+        "name": "Rising Like a Silver Thread"
+      },
+      {
+        "id": "3457482583",
+        "name": "Pocket-Size Parade"
+      },
+      {
+        "id": "3457482584",
+        "name": "Open up My Hands"
+      }
+    ]
+  },
+  "407861407": {
+    "album_id": "407861407",
+    "album_name": "If You Miss Me",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/Fm69Y1xu7o-qr7GbWovZoQ==/109951174225523520.jpg",
+    "company": "BHKXID PRODUCTION",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260767.570679,
+    "songs": [
+      {
+        "id": "3457482534",
+        "name": "If You Miss Me"
+      },
+      {
+        "id": "3457482535",
+        "name": "I'll Leave the Porch Light On"
+      },
+      {
+        "id": "3457482536",
+        "name": "I Miss You in the Small"
+      }
+    ]
+  },
+  "406946251": {
+    "album_id": "406946251",
+    "album_name": "It Learns a Different Way",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/qege9VM3o_PN68BU0FC-jQ==/109951174196375513.jpg",
+    "company": "BHKXID PRODUCTION",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260767.6290472,
+    "songs": [
+      {
+        "id": "3455614625",
+        "name": "It Learns a Different Way"
+      },
+      {
+        "id": "3455615287",
+        "name": "Leave the Door Ajar"
+      },
+      {
+        "id": "3455615288",
+        "name": "Last Dumpling"
+      }
+    ]
+  },
+  "407737579": {
+    "album_id": "407737579",
+    "album_name": "Another Kind of Gravity",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p4.music.126.net/IKr1_BS7gfv8JRWZzGxWng==/109951174223281058.jpg",
+    "company": "Silex Unit",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260767.826665,
+    "songs": [
+      {
+        "id": "3457261987",
+        "name": "Muted Depths"
+      },
+      {
+        "id": "3457261988",
+        "name": "Fortitude Valley"
+      },
+      {
+        "id": "3457261341",
+        "name": "Lunar Phase"
+      },
+      {
+        "id": "3457261989",
+        "name": "Somewhere Past the Station"
+      },
+      {
+        "id": "3457261342",
+        "name": "Viscous Signal"
+      },
+      {
+        "id": "3457261343",
+        "name": "Machine Learning"
+      },
+      {
+        "id": "3457261990",
+        "name": "Ibiza Blue"
+      },
+      {
+        "id": "3457261991",
+        "name": "Petals on the Passenger Seat"
+      },
+      {
+        "id": "3457261344",
+        "name": "Two Cups Left Untouched"
+      },
+      {
+        "id": "3457261992",
+        "name": "Pure Essence"
+      },
+      {
+        "id": "3457261993",
+        "name": "Neural"
+      },
+      {
+        "id": "3457261345",
+        "name": "Springcoil"
+      },
+      {
+        "id": "3457261346",
+        "name": "Modular Thirst"
+      },
+      {
+        "id": "3457261994",
+        "name": "My Own Trap"
+      },
+      {
+        "id": "3457261348",
+        "name": "Still Waters"
+      },
+      {
+        "id": "3457261349",
+        "name": "Orbital"
+      },
+      {
+        "id": "3457261350",
+        "name": "People Culture"
+      },
+      {
+        "id": "3457261995",
+        "name": "Cashmere Alibi"
+      },
+      {
+        "id": "3457261351",
+        "name": "Inner Motion"
+      },
+      {
+        "id": "3457261352",
+        "name": "Where We Parked the Summer"
+      }
+    ]
+  },
+  "407875819": {
+    "album_id": "407875819",
+    "album_name": "Let the Evening Take Its Time",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p4.music.126.net/Dxh0XyEpJEoGEPFtQdbpNw==/109951174225815653.jpg",
+    "company": "BHKXID PRODUCTION",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260768.3483276,
+    "songs": [
+      {
+        "id": "3457516511",
+        "name": "Let the Evening Take Its Time"
+      },
+      {
+        "id": "3457516512",
+        "name": "Let the Evening Turn the Page"
+      },
+      {
+        "id": "3457516513",
+        "name": "Leave the Porch Light On"
+      }
+    ]
+  },
+  "407885425": {
+    "album_id": "407885425",
+    "album_name": "One Small Hour",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p4.music.126.net/AdlgezH2zEJ6HUZfAv89Sw==/109951174226000527.jpg",
+    "company": "BHKXID PRODUCTION",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260768.400459,
+    "songs": [
+      {
+        "id": "3457539321",
+        "name": "One Small Hour"
+      },
+      {
+        "id": "3457539322",
+        "name": "Paper Crown"
+      },
+      {
+        "id": "3457538496",
+        "name": "One Small Yes"
+      }
+    ]
+  },
+  "404574677": {
+    "album_id": "404574677",
+    "album_name": "Citrus Archive",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 28,
+    "pic_url": "https://p3.music.126.net/DDjyRwSIe8TyMotFCBc5TQ==/109951174127863533.jpg",
+    "company": "House Groove Six",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260768.5215929,
+    "songs": [
+      {
+        "id": "3450168089",
+        "name": "Drift Ink"
+      },
+      {
+        "id": "3450167277",
+        "name": "Ragalna"
+      },
+      {
+        "id": "3450167278",
+        "name": "Ovum"
+      },
+      {
+        "id": "3450167279",
+        "name": "Digital Paradise"
+      },
+      {
+        "id": "3450167280",
+        "name": "Teenage Girl"
+      },
+      {
+        "id": "3450168090",
+        "name": "Seam Drift"
+      },
+      {
+        "id": "3450167281",
+        "name": "Stellar Visions"
+      },
+      {
+        "id": "3450168091",
+        "name": "Tribute"
+      },
+      {
+        "id": "3450167282",
+        "name": "Sediment"
+      },
+      {
+        "id": "3450167283",
+        "name": "Temporal Dreams"
+      },
+      {
+        "id": "3450167284",
+        "name": "Taste My Love"
+      },
+      {
+        "id": "3450167285",
+        "name": "Trough"
+      },
+      {
+        "id": "3450168093",
+        "name": "Neon Sanctuary"
+      },
+      {
+        "id": "3450167286",
+        "name": "Instinct"
+      },
+      {
+        "id": "3450168094",
+        "name": "Cinder Veil"
+      },
+      {
+        "id": "3450167287",
+        "name": "Electric Gardens"
+      },
+      {
+        "id": "3450168095",
+        "name": "Follow the Way"
+      },
+      {
+        "id": "3450168096",
+        "name": "Fetch"
+      },
+      {
+        "id": "3450167288",
+        "name": "Ethereal Nights"
+      },
+      {
+        "id": "3450167289",
+        "name": "Solitude"
+      },
+      {
+        "id": "3450168097",
+        "name": "Caldera"
+      },
+      {
+        "id": "3450167290",
+        "name": "Temperance"
+      },
+      {
+        "id": "3450168098",
+        "name": "Cold Flare"
+      },
+      {
+        "id": "3450167291",
+        "name": "Sonic Dreams"
+      },
+      {
+        "id": "3450168099",
+        "name": "Echoes of the Horizon"
+      },
+      {
+        "id": "3450167293",
+        "name": "Half Life"
+      },
+      {
+        "id": "3450167294",
+        "name": "Frequency Motion"
+      },
+      {
+        "id": "3450168102",
+        "name": "Several Ways"
+      }
+    ]
+  },
+  "407886744": {
+    "album_id": "407886744",
+    "album_name": "Miss You in the Ordinary",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 3,
+    "pic_url": "https://p3.music.126.net/BmIYmuLs4C-4QbgrYZ6tHQ==/109951174226025982.jpg",
+    "company": "BURHAN BEHEK RECORDS",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794260768.5910156,
+    "songs": [
+      {
+        "id": "3457540230",
+        "name": "Miss You in the Ordinary"
+      },
+      {
+        "id": "3457541131",
+        "name": "Lost in the Glow"
+      },
+      {
+        "id": "3457540231",
+        "name": "Let the Evening Take Its Time"
+      }
+    ]
+  },
+  "407948174": {
+    "album_id": "407948174",
+    "album_name": "Nine Years Later Format V",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 25,
+    "pic_url": "https://p3.music.126.net/nFaE7jQAp767QMSPLNo50A==/109951174228223597.jpg",
+    "company": "Format V",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260769.265015,
+    "songs": [
+      {
+        "id": "3457663535",
+        "name": "Retrospective"
+      },
+      {
+        "id": "3457663869",
+        "name": "Absolutely Danceable"
+      },
+      {
+        "id": "3457663538",
+        "name": "10 To K.O."
+      },
+      {
+        "id": "3457663540",
+        "name": "Deep Inside"
+      },
+      {
+        "id": "3457663870",
+        "name": "SUFA"
+      },
+      {
+        "id": "3457663871",
+        "name": "Euphoria"
+      },
+      {
+        "id": "3457663873",
+        "name": "Businesswoman"
+      },
+      {
+        "id": "3457663543",
+        "name": "Night Baku"
+      },
+      {
+        "id": "3457663544",
+        "name": "Exhaust"
+      },
+      {
+        "id": "3457663876",
+        "name": "You Say"
+      },
+      {
+        "id": "3457663878",
+        "name": "Shaking (Funkyy Remix)"
+      },
+      {
+        "id": "3457663880",
+        "name": "Horror"
+      },
+      {
+        "id": "3457663881",
+        "name": "Desert Flute"
+      },
+      {
+        "id": "3457663547",
+        "name": "Space"
+      },
+      {
+        "id": "3457663548",
+        "name": "One Whiskey"
+      },
+      {
+        "id": "3457663549",
+        "name": "Iyo-Lele (Live Mix)"
+      },
+      {
+        "id": "3457663551",
+        "name": "Spicy Ramen"
+      },
+      {
+        "id": "3457663885",
+        "name": "Old Vinyl Record"
+      },
+      {
+        "id": "3457663553",
+        "name": "Glassdrive"
+      },
+      {
+        "id": "3457663887",
+        "name": "Lo-Fi Concentration"
+      },
+      {
+        "id": "3457663554",
+        "name": "Allin"
+      },
+      {
+        "id": "3457663890",
+        "name": "AM"
+      },
+      {
+        "id": "3457663891",
+        "name": "Night Chillout"
+      },
+      {
+        "id": "3457663892",
+        "name": "Spiritual Leader"
+      },
+      {
+        "id": "3457663893",
+        "name": "Tell Me What And Why"
+      }
+    ]
+  },
+  "404667170": {
+    "album_id": "404667170",
+    "album_name": "Pulse, Vibes & Disco Nights, Vol. 13",
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/oJNgp4gLnmYXje7QBHTeLQ==/109951174131777304.jpg",
+    "company": "Club Session",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260769.3667397,
+    "songs": [
+      {
+        "id": "3450563405",
+        "name": "Always There (Original Mix)"
+      },
+      {
+        "id": "3450561634",
+        "name": "Slip and Do It (Original Mix)"
+      },
+      {
+        "id": "3450561635",
+        "name": "Confusion (Original Mix)"
+      },
+      {
+        "id": "3450563406",
+        "name": "Can't Stop Loving You (Original Mix)"
+      },
+      {
+        "id": "3450561636",
+        "name": "Lucky Day (Original Mix)"
+      },
+      {
+        "id": "3450561637",
+        "name": "Candy Lady (Sweet Sugar Mix)"
+      },
+      {
+        "id": "3450561638",
+        "name": "What Are We Gonna Do (Original Mix)"
+      },
+      {
+        "id": "3450563407",
+        "name": "Point of Groove (Original Mix)"
+      },
+      {
+        "id": "3450563408",
+        "name": "Could Give You More (Original Mix)"
+      },
+      {
+        "id": "3450563409",
+        "name": "All That She Wants (Original Mix)"
+      },
+      {
+        "id": "3450563410",
+        "name": "Exceptional (Extended Mix)"
+      },
+      {
+        "id": "3450561639",
+        "name": "My Special Man (Original Mix)"
+      },
+      {
+        "id": "3450561640",
+        "name": "Hands of Time (Original Mix)"
+      },
+      {
+        "id": "3450563411",
+        "name": "Sexyphone (Original Mix)"
+      },
+      {
+        "id": "3450561641",
+        "name": "Hard to Find (Original Mix)"
+      },
+      {
+        "id": "3450561642",
+        "name": "On My Mind (Original Mix)"
+      },
+      {
+        "id": "3450563412",
+        "name": "Your Soul (Original Mix)"
+      },
+      {
+        "id": "3450561643",
+        "name": "Deja Vu (Original Mix)"
+      },
+      {
+        "id": "3450563413",
+        "name": "Satisfy (Original Mix)"
+      },
+      {
+        "id": "3450561644",
+        "name": "Jack Guitar (Original Mix)"
+      }
+    ]
+  },
+  "402241847": {
+    "album_id": "402241847",
+    "album_name": "Indie Circuits, Vol. 1",
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 14,
+    "pic_url": "https://p4.music.126.net/wRKwnHwwe006xypfHcN8cQ==/109951174061550274.jpg",
+    "company": "Variety Music",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260769.3997884,
+    "songs": [
+      {
+        "id": "3444474713",
+        "name": "Affection Adjustment (Original Mix)"
+      },
+      {
+        "id": "3444474714",
+        "name": "All I Wanna Do (Extended Mix)"
+      },
+      {
+        "id": "3444474715",
+        "name": "A Little Higher (Extended Mix)"
+      },
+      {
+        "id": "3444474716",
+        "name": "Trainride (Original Mix)"
+      },
+      {
+        "id": "3444474717",
+        "name": "Hc-57 (Extended Mix)"
+      },
+      {
+        "id": "3444476301",
+        "name": "Nonstop (Original Mix)"
+      },
+      {
+        "id": "3444474719",
+        "name": "Club Stuff (Snyl Remix)"
+      },
+      {
+        "id": "3444474720",
+        "name": "Come on Papi (Original Mix)"
+      },
+      {
+        "id": "3444476302",
+        "name": "Yeah Boy! (Extended Mix)"
+      },
+      {
+        "id": "3444476303",
+        "name": "London (Original Mix)"
+      },
+      {
+        "id": "3444476304",
+        "name": "That Body (Original Mix)"
+      },
+      {
+        "id": "3444474721",
+        "name": "Fly (Extended Mix)"
+      },
+      {
+        "id": "3444474722",
+        "name": "Secret (Extended Mix)"
+      },
+      {
+        "id": "3444476305",
+        "name": "Retro Futurismo (Original Mix)"
+      }
+    ]
+  },
+  "404666257": {
+    "album_id": "404666257",
+    "album_name": "Worldwide House Vibrations Vol. 12",
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 18,
+    "pic_url": "https://p3.music.126.net/mrR1m-1Tiw3Hc-wjMYkTmA==/109951174131776643.jpg",
+    "company": "RH2",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260770.094813,
+    "songs": [
+      {
+        "id": "3450561489",
+        "name": "People Wanna Talk (Extended Mix)"
+      },
+      {
+        "id": "3450563254",
+        "name": "Fire Burning (Extended Mix)"
+      },
+      {
+        "id": "3450563255",
+        "name": "Without You (Extended Mix)"
+      },
+      {
+        "id": "3450563256",
+        "name": "Do You Hear Me (Extended Mix)"
+      },
+      {
+        "id": "3450561490",
+        "name": "Loopback (Extended)"
+      },
+      {
+        "id": "3450563257",
+        "name": "Goddess of the Night (Extended Mix)"
+      },
+      {
+        "id": "3450561491",
+        "name": "Make It Smooth (Extended Mix)"
+      },
+      {
+        "id": "3450561492",
+        "name": "Fallin' into U (Extended Mix)"
+      },
+      {
+        "id": "3450563258",
+        "name": "Thinking of You (Extended)"
+      },
+      {
+        "id": "3450561493",
+        "name": "El Ritmo de la Montaña (Ricardo Criollo House Extended Remix)"
+      },
+      {
+        "id": "3450563259",
+        "name": "Time to Move On (Extended Mix)"
+      },
+      {
+        "id": "3450563261",
+        "name": "Everywhere You Go (Extended Mix)"
+      },
+      {
+        "id": "3450561494",
+        "name": "I Want Your Body (Extended Mix)"
+      },
+      {
+        "id": "3450563262",
+        "name": "Just Another Dream (Extended Mix)"
+      },
+      {
+        "id": "3450563263",
+        "name": "Don't Come Back with Me (Extended Mix)"
+      },
+      {
+        "id": "3450561495",
+        "name": "Take Me Up (Extended Mix)"
+      },
+      {
+        "id": "3450563264",
+        "name": "Lovers (Extended Mix)"
+      },
+      {
+        "id": "3450563265",
+        "name": "Open Your Heart (Extended)"
+      }
+    ]
+  },
+  "404666260": {
+    "album_id": "404666260",
+    "album_name": "Deep Down & Beyond, Vol. 11",
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 16,
+    "pic_url": "https://p3.music.126.net/IDDJPTvXBmu78oVAIEbekA==/109951174131773761.jpg",
+    "company": "RH2",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260770.1877663,
+    "songs": [
+      {
+        "id": "3450563289",
+        "name": "Stay (Throw This Love Away) [Extended Mix]"
+      },
+      {
+        "id": "3450561509",
+        "name": "Nothing Hurts (Soire Remix)"
+      },
+      {
+        "id": "3450563290",
+        "name": "Trip to Sutherland (Extended Mix)"
+      },
+      {
+        "id": "3450561511",
+        "name": "Obsession (Audiotones Dub Remix)"
+      },
+      {
+        "id": "3450561512",
+        "name": "Believe in Changes"
+      },
+      {
+        "id": "3450563291",
+        "name": "Happy Summer (Deeperteque Remix)"
+      },
+      {
+        "id": "3450563292",
+        "name": "Nu Love (Col Lawton's Epic Deep House Remix)"
+      },
+      {
+        "id": "3450561513",
+        "name": "Danger Zone (Original Mix)"
+      },
+      {
+        "id": "3450563296",
+        "name": "I Ll Wait (Original Mix)"
+      },
+      {
+        "id": "3450561517",
+        "name": "Floating (Original Mix)"
+      },
+      {
+        "id": "3450561522",
+        "name": "Dirty Love (Original Mix)"
+      },
+      {
+        "id": "3450563299",
+        "name": "Feel (Original Mix)"
+      },
+      {
+        "id": "3450563300",
+        "name": "Shady Hand (Original Mix)"
+      },
+      {
+        "id": "3450561524",
+        "name": "Thick Shake (Original Mix)"
+      },
+      {
+        "id": "3450561525",
+        "name": "Brooklyn Banger (Original Mix)"
+      },
+      {
+        "id": "3450563301",
+        "name": "Half Life (Original Mix)"
+      }
+    ]
+  },
+  "404666241": {
+    "album_id": "404666241",
+    "album_name": "In Bass We Love, Vol. 16",
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 18,
+    "pic_url": "https://p4.music.126.net/tfUDZ1-tkrn-ffmi-NpHew==/109951174131762994.jpg",
+    "company": "RH2",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260770.2502284,
+    "songs": [
+      {
+        "id": "3450563155",
+        "name": "Lose Control (Extended Mix)"
+      },
+      {
+        "id": "3450563156",
+        "name": "Pump It Up (Original Mix)"
+      },
+      {
+        "id": "3450561396",
+        "name": "Shake It (Extended Mix)"
+      },
+      {
+        "id": "3450563157",
+        "name": "Street Walker (Extended Mix)"
+      },
+      {
+        "id": "3450563158",
+        "name": "Exit (Extended Mix)"
+      },
+      {
+        "id": "3450563159",
+        "name": "Melody (Instrumental Extended Mix)"
+      },
+      {
+        "id": "3450561398",
+        "name": "Like Bacardi (Extended Mix)"
+      },
+      {
+        "id": "3450563160",
+        "name": "I Keep on Running Back (Extended Mix)"
+      },
+      {
+        "id": "3450563161",
+        "name": "Thank You (Extended Mix)"
+      },
+      {
+        "id": "3450561399",
+        "name": "Push It (Extended Mix)"
+      },
+      {
+        "id": "3450561400",
+        "name": "Boombox (Extended Mix)"
+      },
+      {
+        "id": "3450561401",
+        "name": "She's Done (Extended Mix)"
+      },
+      {
+        "id": "3450561402",
+        "name": "Party All Night (Extended Mix)"
+      },
+      {
+        "id": "3450563162",
+        "name": "Oldskool (Extended Mix)"
+      },
+      {
+        "id": "3450561403",
+        "name": "Rhyme Bout the Suckas (Extended Mix)"
+      },
+      {
+        "id": "3450561404",
+        "name": "Shined on Me (Joy Rivo & Jto Extended Remix)"
+      },
+      {
+        "id": "3450561405",
+        "name": "Take You Home (Extended Mix)"
+      },
+      {
+        "id": "3450561406",
+        "name": "Handle It (Extended Mix)"
+      }
+    ]
+  },
+  "404666193": {
+    "album_id": "404666193",
+    "album_name": "Club Session Pres. 4 for the Afro Floor, Vol. 13",
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 4,
+    "pic_url": "https://p4.music.126.net/Mc7l2UPBGxyi68rPwxlg9A==/109951174131765214.jpg",
+    "company": "Club Session",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1794260770.8517585,
+    "songs": [
+      {
+        "id": "3450562934",
+        "name": "The Forbidden Temple (7Am Rework)"
+      },
+      {
+        "id": "3450562935",
+        "name": "Siko Lele (Extended)"
+      },
+      {
+        "id": "3450562936",
+        "name": "Kuzaliwa Tena (Extended Mix)"
+      },
+      {
+        "id": "3450561201",
+        "name": "Niniya (Extended)"
+      }
+    ]
+  },
+  "404670716": {
+    "album_id": "404670716",
+    "album_name": "Deep Tech: The Ultimate House Experience, Vol. 11",
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 15,
+    "pic_url": "https://p3.music.126.net/_5AgHmqWhzpr7O8XFl-CDA==/109951174132030990.jpg",
+    "company": "Play This! Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794260770.918323,
+    "songs": [
+      {
+        "id": "3450585891",
+        "name": "Let Your Body Move (Extended Mix)"
+      },
+      {
+        "id": "3450585892",
+        "name": "It's Like a Dream (Original Mix)"
+      },
+      {
+        "id": "3450585024",
+        "name": "Take Me in the Sky (Extended Mix)"
+      },
+      {
+        "id": "3450585893",
+        "name": "I Know (Original Mix)"
+      },
+      {
+        "id": "3450585894",
+        "name": "Messed Up (Extended Mix)"
+      },
+      {
+        "id": "3450585895",
+        "name": "How Lovely (Original Mix)"
+      },
+      {
+        "id": "3450585896",
+        "name": "Climb to the Top (Original Mix)"
+      },
+      {
+        "id": "3450585027",
+        "name": "Mystical Nature (Instrumental Mix)"
+      },
+      {
+        "id": "3450585899",
+        "name": "Worlds Plan Pt. 1 (Extended Mix)"
+      },
+      {
+        "id": "3450585029",
+        "name": "I Need That (Extended Mix)"
+      },
+      {
+        "id": "3450585030",
+        "name": "Forms (Original Mix)"
+      },
+      {
+        "id": "3450585031",
+        "name": "Deeper Zazen (Original Mix)"
+      },
+      {
+        "id": "3450585032",
+        "name": "The Glass (Original Mix)"
+      },
+      {
+        "id": "3450585900",
+        "name": "Mastery (Original Mix)"
+      },
+      {
+        "id": "3450585033",
+        "name": "Give Me Ecstasy (Original Mix)"
       }
     ]
   }
