@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T03:06:54.238971+08:00",
-  "count": 100,
+  "generated_at": "2026-11-11T06:07:13.970713+08:00",
+  "count": 101,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 23,
+        "target_count": 24,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 8,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794335555.9395013,
+        "saved_at": 1794346538.3942704,
         "source": "live"
       },
       "relations": 84754,
       "new_album_candidates": 89,
-      "unique_albums": 38732,
-      "detail_success": 38731,
+      "unique_albums": 38733,
+      "detail_success": 38732,
       "detail_errors": 1,
       "detail_mismatch": 0,
       "date_hit_albums": 1199,
-      "verify_artists": 769,
+      "verify_artists": 768,
       "owned_failures": 0,
       "external_hits": 403,
       "new_release_hits": 118,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 100
+    "unique_album_count": 101
   },
   "albums": [
     {
@@ -229,7 +229,7 @@
       "publish_date": "2026-11-11",
       "size": 2,
       "company": "百纳娱乐 / IFP ENTERTAINMENT",
-      "pic_url": "https://p3.music.126.net/LT0ISjshJADZRSI6dky92Q==/109951174254748313.jpg",
+      "pic_url": "https://p4.music.126.net/LT0ISjshJADZRSI6dky92Q==/109951174254748313.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -426,6 +426,29 @@
       "url": "https://music.163.com/#/album?id=407433239"
     },
     {
+      "id": 406252932,
+      "name": "春の魔法 - Magic of Youth -",
+      "artists": [
+        {
+          "id": 12323325,
+          "name": "*Luna"
+        }
+      ],
+      "artist_names": [
+        "*Luna"
+      ],
+      "publish_time": 1794326400000,
+      "publish_date": "2026-11-11",
+      "size": 10,
+      "company": "KARENT",
+      "pic_url": "https://p3.music.126.net/z0c3fxJ1LwATfGlltf_NKg==/109951174178655268.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406252932"
+    },
+    {
       "id": 408625410,
       "name": "改・シーケンスド",
       "artists": [
@@ -579,7 +602,7 @@
       "publish_date": "2026-11-11",
       "size": 1,
       "company": "说唱家-宇歌风行",
-      "pic_url": "https://p4.music.126.net/luvwo1W0gCOIZeA8NDgZCA==/109951174184399271.jpg",
+      "pic_url": "https://p3.music.126.net/luvwo1W0gCOIZeA8NDgZCA==/109951174184399271.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1575,7 +1598,7 @@
       "publish_date": "2026-11-11",
       "size": 2,
       "company": "E.I. Productions LLC",
-      "pic_url": "https://p4.music.126.net/lnZedHCZG9Ac9MJ4Fzrjsg==/109951174239523118.jpg",
+      "pic_url": "https://p3.music.126.net/lnZedHCZG9Ac9MJ4Fzrjsg==/109951174239523118.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1774,7 +1797,7 @@
       "publish_date": "2026-11-11",
       "size": 13,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/6FmEvsjtuaE8isuXVOVwHA==/109951174180237392.jpg",
+      "pic_url": "https://p4.music.126.net/6FmEvsjtuaE8isuXVOVwHA==/109951174180237392.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1797,7 +1820,7 @@
       "publish_date": "2026-11-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/vpSshJ47monY1QujfiYshw==/109951174254330428.jpg",
+      "pic_url": "https://p4.music.126.net/vpSshJ47monY1QujfiYshw==/109951174254330428.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1986,7 +2009,7 @@
       "publish_date": "2026-11-11",
       "size": 2,
       "company": "SPACE SHOWER MUSIC",
-      "pic_url": "https://p4.music.126.net/E_9Bl__YRyrIAEPp8GXc2g==/109951174106927450.jpg",
+      "pic_url": "https://p3.music.126.net/E_9Bl__YRyrIAEPp8GXc2g==/109951174106927450.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2443,7 +2466,7 @@
       "publish_date": "2026-11-11",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/u3QN9U1kdJvATQUrD3H00w==/109951174259298119.jpg",
+      "pic_url": "https://p3.music.126.net/u3QN9U1kdJvATQUrD3H00w==/109951174259298119.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,

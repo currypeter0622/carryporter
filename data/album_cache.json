@@ -916672,5 +916672,151 @@
         "name": "THE WINNER IS ME (RADIO EDIT)"
       }
     ]
+  },
+  "512657": {
+    "album_id": "512657",
+    "album_name": "男孩女孩",
+    "date_str": "2004-12-24",
+    "publish_ts": 1103817600000,
+    "artist_ids": [
+      "122455"
+    ],
+    "artist_names": [
+      "群星"
+    ],
+    "size": 23,
+    "pic_url": "https://p4.music.126.net/03JsNsk8zr1vFwuWmxN74g==/109951164795514399.jpg",
+    "company": "太合麦田",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794346531.0746143
+  },
+  "75716452": {
+    "album_id": "75716452",
+    "album_name": "Never Change",
+    "date_str": "2019-03-22",
+    "publish_ts": 1553184000000,
+    "artist_ids": [
+      "688518",
+      "31587187"
+    ],
+    "artist_names": [
+      "Getter",
+      "Hvrdlxck"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/pAfB1JXYUktglOz4FWH__Q==/109951170929979285.jpg",
+    "company": "mau5trap",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794347976.166125
+  },
+  "407922303": {
+    "album_id": "407922303",
+    "album_name": "Mizani Riddim",
+    "date_str": "2026-11-10",
+    "publish_ts": 1794240000000,
+    "artist_ids": [
+      "50677937"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 22,
+    "pic_url": "https://p4.music.126.net/1_jhakuRdp7YO8bPGzYmOQ==/109951174227042988.jpg",
+    "company": "Hitbox Africa Entertainment",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794347999.8344028,
+    "songs": [
+      {
+        "id": "3457613840",
+        "name": "Vile Inafaa"
+      },
+      {
+        "id": "3457612974",
+        "name": "Washa"
+      },
+      {
+        "id": "3457613841",
+        "name": "Mizani"
+      },
+      {
+        "id": "3457612975",
+        "name": "Timed Out"
+      },
+      {
+        "id": "3457613842",
+        "name": "Wasted"
+      },
+      {
+        "id": "3457613843",
+        "name": "Win"
+      },
+      {
+        "id": "3457612976",
+        "name": "M.v.p"
+      },
+      {
+        "id": "3457613844",
+        "name": "Wagwan"
+      },
+      {
+        "id": "3457613845",
+        "name": "Rampage"
+      },
+      {
+        "id": "3457612978",
+        "name": "Saba Nane"
+      },
+      {
+        "id": "3457612979",
+        "name": "Case"
+      },
+      {
+        "id": "3457613846",
+        "name": "Wololo Yaye"
+      },
+      {
+        "id": "3457613847",
+        "name": "War"
+      },
+      {
+        "id": "3457612980",
+        "name": "Case Two"
+      },
+      {
+        "id": "3457612981",
+        "name": "White House"
+      },
+      {
+        "id": "3457612982",
+        "name": "Handle"
+      },
+      {
+        "id": "3457613848",
+        "name": "Onyo"
+      },
+      {
+        "id": "3457612983",
+        "name": "Zero Shapre"
+      },
+      {
+        "id": "3457612984",
+        "name": "Lazma Ishike"
+      },
+      {
+        "id": "3457612985",
+        "name": "Coolkid"
+      },
+      {
+        "id": "3457613849",
+        "name": "Ime Kubali"
+      },
+      {
+        "id": "3457613850",
+        "name": "Fake It Make It"
+      }
+    ]
   }
 }
