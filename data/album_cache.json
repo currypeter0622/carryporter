@@ -920382,5 +920382,193 @@
         "name": "Soft Collision"
       }
     ]
+  },
+  "409351494": {
+    "album_id": "409351494",
+    "album_name": "The Convergence, Vol. 1",
+    "date_str": "2026-10-30",
+    "publish_ts": 1793289600000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 19,
+    "pic_url": "https://p4.music.126.net/MyHiUDK0ozTntY-FNS0Cbg==/109951174268539928.jpg",
+    "company": "Nexus!Rift",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794437270.060614
+  },
+  "409353102": {
+    "album_id": "409353102",
+    "album_name": "\"A Quiet November: Classical Works\"",
+    "date_str": "2026-11-12",
+    "publish_ts": 1794412800000,
+    "artist_ids": [
+      "28510",
+      "804174",
+      "38731",
+      "33737",
+      "231393",
+      "33363",
+      "29976",
+      "33646",
+      "39435",
+      "34225",
+      "123521",
+      "31197139",
+      "36490"
+    ],
+    "artist_names": [
+      "Antonio Vivaldi",
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Frédéric François Chopin",
+      "Pyotr Ilyich Tchaikovsky",
+      "Franz Schubert",
+      "Claude Debussy",
+      "Franz Liszt",
+      "Maurice Ravel",
+      "Gabriel Fauré",
+      "Erik Satie",
+      "George frideric Handel",
+      "Johann Sebastian Bach"
+    ],
+    "size": 80,
+    "pic_url": "https://p3.music.126.net/S7wvaSLSE_WO8MIxdkv0SQ==/109951174268594484.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794437279.936704
+  },
+  "409333075": {
+    "album_id": "409333075",
+    "album_name": "FSOE 988 - Future Sound Of Egypt Episode 988",
+    "date_str": "2026-11-12",
+    "publish_ts": 1794412800000,
+    "artist_ids": [
+      "86717",
+      "33171755",
+      "51502096"
+    ],
+    "artist_names": [
+      "Aly & Fila",
+      "Aly & Fila FSOE Radio",
+      "Future Sound of Egypt"
+    ],
+    "size": 26,
+    "pic_url": "https://p3.music.126.net/LEm22pWrPfay6Tpw-X4R-w==/109951174268175917.jpg",
+    "company": "FSOE",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794437338.1960235,
+    "songs": [
+      {
+        "id": "3460330614",
+        "name": "FSOE988 Intro (FSOE988)"
+      },
+      {
+        "id": "3460330615",
+        "name": "Threshold (FSOE988)"
+      },
+      {
+        "id": "3460333329",
+        "name": "Tándem (FSOE988)"
+      },
+      {
+        "id": "3460330616",
+        "name": "Aguanieve (FSOE988)"
+      },
+      {
+        "id": "3460333330",
+        "name": "Living Dead (FSOE988)"
+      },
+      {
+        "id": "3460333331",
+        "name": "EON (WONDER OF THE WEEK) (FSOE988)"
+      },
+      {
+        "id": "3460330617",
+        "name": "Rise Up (FSOE988)"
+      },
+      {
+        "id": "3460333332",
+        "name": "Nightcrawler (FSOE988)"
+      },
+      {
+        "id": "3460330618",
+        "name": "Resonance (FSOE988)"
+      },
+      {
+        "id": "3460333333",
+        "name": "Camarilla Pivots (FSOE988)"
+      },
+      {
+        "id": "3460330619",
+        "name": "The Divide (FSOE988)"
+      },
+      {
+        "id": "3460333334",
+        "name": "Galo (FSOE988)"
+      },
+      {
+        "id": "3460333335",
+        "name": "Ghosts Of Us (FSOE988)"
+      },
+      {
+        "id": "3460333336",
+        "name": "Bombay (FSOE988)"
+      },
+      {
+        "id": "3460333337",
+        "name": "Loved In Silence (FSOE988)"
+      },
+      {
+        "id": "3460333338",
+        "name": "Cold (FSOE988)"
+      },
+      {
+        "id": "3460330620",
+        "name": "Marrakech (FSOE988)"
+      },
+      {
+        "id": "3460333339",
+        "name": "Magenta Cloud (FSOE988)"
+      },
+      {
+        "id": "3460333340",
+        "name": "There's This Party (FSOE988)"
+      },
+      {
+        "id": "3460333341",
+        "name": "Levante (FSOE988)"
+      },
+      {
+        "id": "3460333342",
+        "name": "Particles (FSOE988)"
+      },
+      {
+        "id": "3460333343",
+        "name": "Into The Ether (FSOE988)"
+      },
+      {
+        "id": "3460333344",
+        "name": "Chasing Shadows (FSOE988) (Madwave Remix)"
+      },
+      {
+        "id": "3460333345",
+        "name": "I See You (FSOE988)"
+      },
+      {
+        "id": "3460330621",
+        "name": "Hyperion (FSOE988)"
+      },
+      {
+        "id": "3460330622",
+        "name": "Reverie (FSOE988)"
+      }
+    ]
   }
 }

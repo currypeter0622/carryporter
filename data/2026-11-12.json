@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T03:01:07.617559+08:00",
-  "count": 49,
+  "generated_at": "2026-11-12T06:56:40.670240+08:00",
+  "count": 51,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 752,
+      "search_candidates": 750,
       "verified_target_count": 4,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794421665.058428,
+        "saved_at": 1794435867.8379862,
         "source": "live"
       },
-      "relations": 84806,
-      "new_album_candidates": 94,
-      "unique_albums": 38771,
-      "detail_success": 38770,
+      "relations": 84822,
+      "new_album_candidates": 96,
+      "unique_albums": 38777,
+      "detail_success": 38776,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1235,
-      "verify_artists": 778,
+      "date_hit_albums": 1238,
+      "verify_artists": 779,
       "owned_failures": 0,
-      "external_hits": 448,
-      "new_release_hits": 138,
+      "external_hits": 450,
+      "new_release_hits": 140,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 49
+    "unique_album_count": 51
   },
   "albums": [
     {
@@ -372,7 +372,7 @@
       "publish_date": "2026-11-12",
       "size": 2,
       "company": "天娱传媒",
-      "pic_url": "https://p3.music.126.net/mzYYEdMdi69LfxKKtDVbzQ==/109951174259076415.jpg",
+      "pic_url": "https://p4.music.126.net/mzYYEdMdi69LfxKKtDVbzQ==/109951174259076415.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -418,7 +418,7 @@
       "publish_date": "2026-11-12",
       "size": 1,
       "company": "AYO!",
-      "pic_url": "https://p3.music.126.net/-ocQ6iWiPFPoCD8RWLZXgw==/109951174254364282.jpg",
+      "pic_url": "https://p4.music.126.net/-ocQ6iWiPFPoCD8RWLZXgw==/109951174254364282.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -515,7 +515,7 @@
       "publish_date": "2026-11-12",
       "size": 2,
       "company": "",
-      "pic_url": "https://p4.music.126.net/OzNrZIWTEweMtoQgm92Gew==/109951174254653895.jpg",
+      "pic_url": "https://p3.music.126.net/OzNrZIWTEweMtoQgm92Gew==/109951174254653895.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -566,7 +566,7 @@
       "publish_date": "2026-11-12",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/MtE0zMgvSKTNv1B5TJiGSw==/109951174265920902.jpg",
+      "pic_url": "https://p4.music.126.net/MtE0zMgvSKTNv1B5TJiGSw==/109951174265920902.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -870,7 +870,7 @@
       "publish_date": "2026-11-12",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/HUyuLGNZK3RNb-PU75H5vg==/109951174264892424.jpg",
+      "pic_url": "https://p3.music.126.net/HUyuLGNZK3RNb-PU75H5vg==/109951174264892424.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1212,6 +1212,39 @@
       "url": "https://music.163.com/#/album?id=406493810"
     },
     {
+      "id": 409333075,
+      "name": "FSOE 988 - Future Sound Of Egypt Episode 988",
+      "artists": [
+        {
+          "id": "86717",
+          "name": "Aly & Fila"
+        },
+        {
+          "id": "33171755",
+          "name": "Aly & Fila FSOE Radio"
+        },
+        {
+          "id": "51502096",
+          "name": "Future Sound of Egypt"
+        }
+      ],
+      "artist_names": [
+        "Aly & Fila",
+        "Aly & Fila FSOE Radio",
+        "Future Sound of Egypt"
+      ],
+      "publish_time": 1794412800000,
+      "publish_date": "2026-11-12",
+      "size": 26,
+      "company": "FSOE",
+      "pic_url": "https://p3.music.126.net/LEm22pWrPfay6Tpw-X4R-w==/109951174268175917.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409333075"
+    },
+    {
       "id": 408381519,
       "name": "FAT BASS SEASON",
       "artists": [
@@ -1406,6 +1439,89 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=408796835"
+    },
+    {
+      "id": 409353102,
+      "name": "\"A Quiet November: Classical Works\"",
+      "artists": [
+        {
+          "id": "28510",
+          "name": "Antonio Vivaldi"
+        },
+        {
+          "id": "804174",
+          "name": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "38731",
+          "name": "Ludwig van Beethoven"
+        },
+        {
+          "id": "33737",
+          "name": "Frédéric François Chopin"
+        },
+        {
+          "id": "231393",
+          "name": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "id": "33363",
+          "name": "Franz Schubert"
+        },
+        {
+          "id": "29976",
+          "name": "Claude Debussy"
+        },
+        {
+          "id": "33646",
+          "name": "Franz Liszt"
+        },
+        {
+          "id": "39435",
+          "name": "Maurice Ravel"
+        },
+        {
+          "id": "34225",
+          "name": "Gabriel Fauré"
+        },
+        {
+          "id": "123521",
+          "name": "Erik Satie"
+        },
+        {
+          "id": "31197139",
+          "name": "George frideric Handel"
+        },
+        {
+          "id": "36490",
+          "name": "Johann Sebastian Bach"
+        }
+      ],
+      "artist_names": [
+        "Antonio Vivaldi",
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Frédéric François Chopin",
+        "Pyotr Ilyich Tchaikovsky",
+        "Franz Schubert",
+        "Claude Debussy",
+        "Franz Liszt",
+        "Maurice Ravel",
+        "Gabriel Fauré",
+        "Erik Satie",
+        "George frideric Handel",
+        "Johann Sebastian Bach"
+      ],
+      "publish_time": 1794412800000,
+      "publish_date": "2026-11-12",
+      "size": 80,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p3.music.126.net/S7wvaSLSE_WO8MIxdkv0SQ==/109951174268594484.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409353102"
     }
   ]
 }
