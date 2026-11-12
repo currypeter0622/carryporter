@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T06:56:40.670240+08:00",
-  "count": 51,
+  "generated_at": "2026-11-12T10:28:55.082940+08:00",
+  "count": 52,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 750,
+      "search_candidates": 751,
       "verified_target_count": 4,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794435867.8379862,
+        "saved_at": 1794448350.0287745,
         "source": "live"
       },
-      "relations": 84822,
-      "new_album_candidates": 96,
-      "unique_albums": 38777,
-      "detail_success": 38776,
+      "relations": 84824,
+      "new_album_candidates": 98,
+      "unique_albums": 38782,
+      "detail_success": 38781,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1238,
-      "verify_artists": 779,
+      "date_hit_albums": 1243,
+      "verify_artists": 781,
       "owned_failures": 0,
-      "external_hits": 450,
-      "new_release_hits": 140,
+      "external_hits": 452,
+      "new_release_hits": 142,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 51
+    "unique_album_count": 52
   },
   "albums": [
     {
@@ -372,7 +372,7 @@
       "publish_date": "2026-11-12",
       "size": 2,
       "company": "天娱传媒",
-      "pic_url": "https://p4.music.126.net/mzYYEdMdi69LfxKKtDVbzQ==/109951174259076415.jpg",
+      "pic_url": "https://p3.music.126.net/mzYYEdMdi69LfxKKtDVbzQ==/109951174259076415.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -870,7 +870,7 @@
       "publish_date": "2026-11-12",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/HUyuLGNZK3RNb-PU75H5vg==/109951174264892424.jpg",
+      "pic_url": "https://p4.music.126.net/HUyuLGNZK3RNb-PU75H5vg==/109951174264892424.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -927,6 +927,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=397820633"
+    },
+    {
+      "id": 406783070,
+      "name": "Kochaj mnie tak zwyczajnie",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794412800000,
+      "publish_date": "2026-11-12",
+      "size": 1,
+      "company": "Beatberry",
+      "pic_url": "https://p4.music.126.net/QU3e8NuqMO1qHl4N4PFS2A==/109951174191179667.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406783070"
     },
     {
       "id": 406195745,
