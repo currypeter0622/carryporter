@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T03:27:27.119359+08:00",
-  "count": 185,
+  "generated_at": "2026-11-13T06:31:24.900344+08:00",
+  "count": 192,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 45,
+        "target_count": 51,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 24,
+        "target_count": 29,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 748,
+      "search_candidates": 750,
       "verified_target_count": 18,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794509204.510275,
+        "saved_at": 1794520815.4154766,
         "source": "live"
       },
-      "relations": 85430,
-      "new_album_candidates": 123,
-      "unique_albums": 38980,
-      "detail_success": 38979,
+      "relations": 85431,
+      "new_album_candidates": 125,
+      "unique_albums": 38982,
+      "detail_success": 38981,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1313,
-      "verify_artists": 812,
+      "date_hit_albums": 1315,
+      "verify_artists": 814,
       "owned_failures": 0,
-      "external_hits": 478,
-      "new_release_hits": 189,
+      "external_hits": 479,
+      "new_release_hits": 191,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 185
+    "unique_album_count": 192
   },
   "albums": [
     {
@@ -206,7 +206,7 @@
       "publish_date": "2026-11-13",
       "size": 3,
       "company": "北京华森乐晟文化传播有限公司",
-      "pic_url": "https://p4.music.126.net/l2WPUvIpQ-s5ioTmhHH81A==/109951174258670050.jpg",
+      "pic_url": "https://p3.music.126.net/l2WPUvIpQ-s5ioTmhHH81A==/109951174258670050.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -430,7 +430,7 @@
       "publish_date": "2026-11-13",
       "size": 2,
       "company": "Columbia Records China X芒果TV",
-      "pic_url": "https://p4.music.126.net/JnxnZqDpDtBKASVysm1SVg==/109951174256048833.jpg",
+      "pic_url": "https://p3.music.126.net/JnxnZqDpDtBKASVysm1SVg==/109951174256048833.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -568,7 +568,7 @@
       "publish_date": "2026-11-13",
       "size": 2,
       "company": "蓝鲸Music",
-      "pic_url": "https://p4.music.126.net/gQ01qOi8oGJWhTdniROeXQ==/109951174263881626.jpg",
+      "pic_url": "https://p3.music.126.net/gQ01qOi8oGJWhTdniROeXQ==/109951174263881626.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -643,6 +643,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409394215"
+    },
+    {
+      "id": 408863942,
+      "name": "天邪鬼",
+      "artists": [
+        {
+          "id": 22367,
+          "name": "wacci"
+        }
+      ],
+      "artist_names": [
+        "wacci"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 1,
+      "company": "索尼音乐",
+      "pic_url": "https://p4.music.126.net/pJj9-i_hagVsCGkWUwCBzg==/109951174256598629.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=408863942"
     },
     {
       "id": 407143192,
@@ -729,7 +752,7 @@
       "publish_date": "2026-11-13",
       "size": 8,
       "company": "百纳娱乐",
-      "pic_url": "https://p3.music.126.net/x0z49EZgFRaibZhtw0Mf1Q==/109951174256554661.jpg",
+      "pic_url": "https://p4.music.126.net/x0z49EZgFRaibZhtw0Mf1Q==/109951174256554661.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -999,7 +1022,7 @@
       "publish_date": "2026-11-13",
       "size": 11,
       "company": "相信音乐",
-      "pic_url": "https://p4.music.126.net/873AyGh2USeQ5L1hvpy1KQ==/109951174265315249.jpg",
+      "pic_url": "https://p3.music.126.net/873AyGh2USeQ5L1hvpy1KQ==/109951174265315249.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1068,7 +1091,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "DOOGOOD",
-      "pic_url": "https://p3.music.126.net/6d_X7NQ-1VEhoAoIl-nsBg==/109951174147777876.jpg",
+      "pic_url": "https://p4.music.126.net/6d_X7NQ-1VEhoAoIl-nsBg==/109951174147777876.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1461,7 +1484,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p4.music.126.net/13m78aETLiBl9a8rDuy9nQ==/109951174260135597.jpg",
+      "pic_url": "https://p3.music.126.net/13m78aETLiBl9a8rDuy9nQ==/109951174260135597.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1636,6 +1659,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409119915"
+    },
+    {
+      "id": 409573326,
+      "name": "Void Reaver (Original Game Soundtrack)",
+      "artists": [
+        {
+          "id": "12751234",
+          "name": "Nibana"
+        }
+      ],
+      "artist_names": [
+        "Nibana"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 10,
+      "company": "Nibana",
+      "pic_url": "https://p4.music.126.net/G17eCiYFW8gBaw6XWgNfNw==/109951174274784101.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409573326"
     },
     {
       "id": 406062625,
@@ -1857,7 +1903,7 @@
       "publish_date": "2026-11-13",
       "size": 12,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/Iy5odeQEZ05tuM_3720DCQ==/109951174258750865.jpg",
+      "pic_url": "https://p3.music.126.net/Iy5odeQEZ05tuM_3720DCQ==/109951174258750865.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -2204,7 +2250,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "AESPA",
-      "pic_url": "https://p3.music.126.net/EKYl97vqOMf2OGUSiNnrmw==/109951174225123798.jpg",
+      "pic_url": "https://p4.music.126.net/EKYl97vqOMf2OGUSiNnrmw==/109951174225123798.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2273,7 +2319,7 @@
       "publish_date": "2026-11-13",
       "size": 23,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/68W2jGZvaZztAG4_uKoytw==/109951174257972354.jpg",
+      "pic_url": "https://p3.music.126.net/68W2jGZvaZztAG4_uKoytw==/109951174257972354.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -2393,7 +2439,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "Last Gang",
-      "pic_url": "https://p3.music.126.net/cCPE8FYy8emdpSF3mpBjvQ==/109951174153601038.jpg",
+      "pic_url": "https://p4.music.126.net/cCPE8FYy8emdpSF3mpBjvQ==/109951174153601038.jpg",
       "sub_type": "Remix",
       "type": "Single",
       "status": 1,
@@ -2597,7 +2643,7 @@
       "publish_date": "2026-11-13",
       "size": 3,
       "company": "",
-      "pic_url": "https://p3.music.126.net/ND08-FMUclUAhpA4aq0G3Q==/109951174265080918.jpg",
+      "pic_url": "https://p4.music.126.net/ND08-FMUclUAhpA4aq0G3Q==/109951174265080918.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -2765,7 +2811,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p3.music.126.net/YIhidf2Jmiecp87riB_-gQ==/109951174259963991.jpg",
+      "pic_url": "https://p4.music.126.net/YIhidf2Jmiecp87riB_-gQ==/109951174259963991.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2819,6 +2865,44 @@
       "url": "https://music.163.com/#/album?id=406425346"
     },
     {
+      "id": 409010148,
+      "name": "Mungojerrie and Rumpleteazer",
+      "artists": [
+        {
+          "id": 13320006,
+          "name": "Jonathan Burke"
+        },
+        {
+          "id": 130866805,
+          "name": "Dava Huesca"
+        },
+        {
+          "id": 130866804,
+          "name": "Dudney Joseph Jr."
+        },
+        {
+          "id": 27622,
+          "name": "Andrew Lloyd Webber"
+        }
+      ],
+      "artist_names": [
+        "Jonathan Burke",
+        "Dava Huesca",
+        "Dudney Joseph Jr.",
+        "Andrew Lloyd Webber"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 1,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/nnSn2_mkcUX7Lxs0lRfieg==/109951174259922737.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409010148"
+    },
+    {
       "id": 408815214,
       "name": "Moma",
       "artists": [
@@ -2840,6 +2924,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=408815214"
+    },
+    {
+      "id": 409568863,
+      "name": "Modern Piano House 2026 (Vol. 1)",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 20,
+      "company": "Master Session",
+      "pic_url": "https://p4.music.126.net/EYd68N_U_Zt9wXEq6NuuCA==/109951174274664972.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409568863"
     },
     {
       "id": 404963588,
@@ -2954,7 +3061,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/Oojv59ksSCxWquKDTfhilA==/109951174268821431.jpg",
+      "pic_url": "https://p4.music.126.net/Oojv59ksSCxWquKDTfhilA==/109951174268821431.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3299,6 +3406,29 @@
       "url": "https://music.163.com/#/album?id=403206178"
     },
     {
+      "id": 409029694,
+      "name": "Intro / Public Figure",
+      "artists": [
+        {
+          "id": 28391620,
+          "name": "Lil Tjay"
+        }
+      ],
+      "artist_names": [
+        "Lil Tjay"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 2,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/bd0BJAkWG9Vg39R72Ebt6g==/109951174268844505.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409029694"
+    },
+    {
       "id": 400367505,
       "name": "Into The Forest (Reprise)",
       "artists": [
@@ -3314,7 +3444,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "Gray Artist Services",
-      "pic_url": "https://p3.music.126.net/fFylZ9-WbjYkdi90WWXRCw==/109951173994704011.jpg",
+      "pic_url": "https://p4.music.126.net/fFylZ9-WbjYkdi90WWXRCw==/109951173994704011.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3498,6 +3628,29 @@
       "url": "https://music.163.com/#/album?id=408237814"
     },
     {
+      "id": 405393805,
+      "name": "Gospel Masterpieces: The Very Best of Gospel Including Mahalia Jackson, Sister Rosetta Tharpe, Aretha Franklin, The Staple Singers, The Blind Boys Of Alabama, Elvis Presley, ...",
+      "artists": [
+        {
+          "id": 49260160,
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 46,
+      "company": "Wagram Music",
+      "pic_url": "https://p4.music.126.net/_GmNLMHyZQxw32d9lHYz0A==/109951174149901286.jpg",
+      "sub_type": "录音室版",
+      "type": "精选集",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=405393805"
+    },
+    {
       "id": 407946876,
       "name": "Good Time",
       "artists": [
@@ -3587,7 +3740,7 @@
       "publish_date": "2026-11-13",
       "size": 7,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/Oq9FmGBNQrHD359JkfZbwQ==/109951174255555542.jpg",
+      "pic_url": "https://p4.music.126.net/Oq9FmGBNQrHD359JkfZbwQ==/109951174255555542.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -3708,6 +3861,39 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409007770"
+    },
+    {
+      "id": 407610598,
+      "name": "Feel The Vibe (Dance Remix)",
+      "artists": [
+        {
+          "id": 12935680,
+          "name": "Alonestar"
+        },
+        {
+          "id": 14629637,
+          "name": "DaBaby"
+        },
+        {
+          "id": 0,
+          "name": "Ed Sheeran"
+        }
+      ],
+      "artist_names": [
+        "Alonestar",
+        "DaBaby",
+        "Ed Sheeran"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 1,
+      "company": "Compound Interest",
+      "pic_url": "https://p3.music.126.net/Khdtnjpr5j_AHxecyCh1Eg==/109951174219732421.jpg",
+      "sub_type": "Remix",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407610598"
     },
     {
       "id": 409533624,
@@ -3939,7 +4125,7 @@
       "publish_date": "2026-11-13",
       "size": 14,
       "company": "Miserable Music Group",
-      "pic_url": "https://p3.music.126.net/DXEsSKYNe-v1fzAG6ptCJg==/109951173737861702.jpg",
+      "pic_url": "https://p4.music.126.net/DXEsSKYNe-v1fzAG6ptCJg==/109951173737861702.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -3985,7 +4171,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "纳吉音 Negia Entertainment",
-      "pic_url": "https://p4.music.126.net/ebxLPeJnjtVFqpfCYMb94g==/109951174269310838.jpg",
+      "pic_url": "https://p3.music.126.net/ebxLPeJnjtVFqpfCYMb94g==/109951174269310838.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -4110,6 +4296,34 @@
       "url": "https://music.163.com/#/album?id=406763246"
     },
     {
+      "id": 409013115,
+      "name": "Cyberphoria - Symphony Beyond Time",
+      "artists": [
+        {
+          "id": 13212164,
+          "name": "Danish National Symphony Orchestra"
+        },
+        {
+          "id": 13802614,
+          "name": "Nick Davies"
+        }
+      ],
+      "artist_names": [
+        "Danish National Symphony Orchestra",
+        "Nick Davies"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 13,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/O3xdN3eBTzXWYM8zFiB8pQ==/109951174259987001.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409013115"
+    },
+    {
       "id": 409031610,
       "name": "Cyberia reimagined",
       "artists": [
@@ -4227,7 +4441,7 @@
       "publish_date": "2026-11-13",
       "size": 59,
       "company": "Spinnin' Records",
-      "pic_url": "https://p4.music.126.net/DxUwN41VgRPyuVOaRRwUTA==/109951174260138425.jpg",
+      "pic_url": "https://p3.music.126.net/DxUwN41VgRPyuVOaRRwUTA==/109951174260138425.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -4256,29 +4470,6 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=406753601"
-    },
-    {
-      "id": 408377236,
-      "name": "Chill House Collection 2026",
-      "artists": [
-        {
-          "id": "49260160",
-          "name": "Various Artists"
-        }
-      ],
-      "artist_names": [
-        "Various Artists"
-      ],
-      "publish_time": 1794499200000,
-      "publish_date": "2026-11-13",
-      "size": 20,
-      "company": "Fashion Recovery",
-      "pic_url": "https://p3.music.126.net/cC0_mgRC8ZMuA2YpgGRiIA==/109951174240044824.jpg",
-      "sub_type": "录音室版",
-      "type": "专辑",
-      "status": null,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=408377236"
     },
     {
       "id": 407019008,
@@ -4614,7 +4805,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "StreetVoice",
-      "pic_url": "https://p3.music.126.net/5hUBeDlD1gFPIEhe4oWXOQ==/109951174196101612.jpg",
+      "pic_url": "https://p4.music.126.net/5hUBeDlD1gFPIEhe4oWXOQ==/109951174196101612.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
