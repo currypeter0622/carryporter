@@ -937810,5 +937810,99 @@
         "name": "Dopo le Tre"
       }
     ]
+  },
+  "409774822": {
+    "album_id": "409774822",
+    "album_name": "THE WORLD REVOLVING (Remix)",
+    "date_str": "2026-11-09",
+    "publish_ts": 1794153600000,
+    "artist_ids": [
+      "37646472",
+      "1193377"
+    ],
+    "artist_names": [
+      "Aquaryo",
+      "Toby Fox"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/U8ufmg7xzSWzTzpVDT8Kcw==/109951174280164101.jpg",
+    "company": "Aquaryo",
+    "sub_type": "Remix",
+    "type": "Single",
+    "cached_at": 1794607684.249203
+  },
+  "349096038": {
+    "album_id": "349096038",
+    "album_name": "NASTHOLGIA",
+    "date_str": "2025-11-07",
+    "publish_ts": 1762444800000,
+    "artist_ids": [
+      "46515042",
+      "1024205"
+    ],
+    "artist_names": [
+      "GNK",
+      "VEXX"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/hAOClPoSQ6qGhP3hP_PrxA==/109951172235402913.jpg",
+    "company": "GNK",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794607686.6482203
+  },
+  "351220779": {
+    "album_id": "351220779",
+    "album_name": "EMPODERADAS",
+    "date_str": "2025-11-20",
+    "publish_ts": 1763568000000,
+    "artist_ids": [
+      "31032421",
+      "12721430",
+      "30551209",
+      "34815912",
+      "30517514",
+      "1024205",
+      "121780230"
+    ],
+    "artist_names": [
+      "Cp",
+      "TFD",
+      "Mc Rich",
+      "OTAN",
+      "Tininho",
+      "VEXX",
+      "Angollano"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/pU21--w_u1wSRBGBvp72KA==/109951172317355183.jpg",
+    "company": "CP",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794607686.7001076
+  },
+  "409777125": {
+    "album_id": "409777125",
+    "album_name": "This is Rocket League",
+    "date_str": "2026-11-13",
+    "publish_ts": 1794499200000,
+    "artist_ids": [
+      "55748821"
+    ],
+    "artist_names": [
+      "YA_BOI_MAX1221"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/WDM1i4KYsTvDaaUhe4Xidw==/109951174280231431.jpg",
+    "company": "Ya_boi_max1221",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794607723.587686,
+    "songs": [
+      {
+        "id": "3461216603",
+        "name": "This is Rocket League"
+      }
+    ]
   }
 }

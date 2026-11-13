@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
-  "generated_at": "2026-11-14T03:00:06.414508+08:00",
-  "count": 58,
+  "generated_at": "2026-11-14T06:16:11.612100+08:00",
+  "count": 59,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 9,
+        "target_count": 12,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 5,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 740,
+      "search_candidates": 741,
       "verified_target_count": 10,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794594493.3023188,
+        "saved_at": 1794606343.9881756,
         "source": "live"
       },
       "relations": 85591,
-      "new_album_candidates": 125,
-      "unique_albums": 39040,
-      "detail_success": 39039,
+      "new_album_candidates": 126,
+      "unique_albums": 39037,
+      "detail_success": 39036,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1237,
+      "date_hit_albums": 1239,
       "verify_artists": 787,
       "owned_failures": 0,
       "external_hits": 464,
-      "new_release_hits": 205,
+      "new_release_hits": 206,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 58
+    "unique_album_count": 59
   },
   "albums": [
     {
@@ -211,7 +211,7 @@
       "publish_date": "2026-11-14",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/Z_P5pPw2cQ5L5UKzZXAepQ==/109951174279502577.jpg",
+      "pic_url": "https://p4.music.126.net/Z_P5pPw2cQ5L5UKzZXAepQ==/109951174279502577.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -263,6 +263,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409762377"
+    },
+    {
+      "id": 409274141,
+      "name": "風向きがよくない (feat. 歌愛ユキ)",
+      "artists": [
+        {
+          "id": 59357316,
+          "name": "インターネット温泉"
+        }
+      ],
+      "artist_names": [
+        "インターネット温泉"
+      ],
+      "publish_time": 1794585600000,
+      "publish_date": "2026-11-14",
+      "size": 1,
+      "company": "internetonsen",
+      "pic_url": "https://p4.music.126.net/yVDNMB5sOz4M74jqHb_RvA==/109951174266066519.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409274141"
     },
     {
       "id": 409633107,
@@ -509,7 +532,7 @@
       "publish_date": "2026-11-14",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/-bd-kUtU08wVQOUhw7Pytw==/109951174255085129.jpg",
+      "pic_url": "https://p3.music.126.net/-bd-kUtU08wVQOUhw7Pytw==/109951174255085129.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -532,7 +555,7 @@
       "publish_date": "2026-11-14",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/An0fOC-CaWQuDH3jFiZs8A==/109951174254843282.jpg",
+      "pic_url": "https://p3.music.126.net/An0fOC-CaWQuDH3jFiZs8A==/109951174254843282.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -555,7 +578,7 @@
       "publish_date": "2026-11-14",
       "size": 2,
       "company": "花漾年华",
-      "pic_url": "https://p4.music.126.net/hQNELyOMgFUV7qob5XShqA==/109951174255844558.jpg",
+      "pic_url": "https://p3.music.126.net/hQNELyOMgFUV7qob5XShqA==/109951174255844558.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
