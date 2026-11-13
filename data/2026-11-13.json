@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T06:31:24.900344+08:00",
-  "count": 192,
+  "generated_at": "2026-11-13T09:39:51.006309+08:00",
+  "count": 199,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 51,
+        "target_count": 57,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 20,
+        "target_count": 22,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 29,
+        "target_count": 33,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 16,
+        "target_count": 18,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,8 +155,8 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 750,
-      "verified_target_count": 18,
+      "search_candidates": 747,
+      "verified_target_count": 19,
       "errors": []
     },
     "reference_candidate_pool": {
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794520815.4154766,
+        "saved_at": 1794531518.9752765,
         "source": "live"
       },
       "relations": 85431,
-      "new_album_candidates": 125,
+      "new_album_candidates": 127,
       "unique_albums": 38982,
       "detail_success": 38981,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1315,
-      "verify_artists": 814,
+      "date_hit_albums": 1319,
+      "verify_artists": 815,
       "owned_failures": 0,
-      "external_hits": 479,
-      "new_release_hits": 191,
+      "external_hits": 480,
+      "new_release_hits": 193,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 192
+    "unique_album_count": 199
   },
   "albums": [
     {
@@ -252,7 +252,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/rw9WGI9EywnfrpgES85IEQ==/109951174198329287.jpg",
+      "pic_url": "https://p4.music.126.net/rw9WGI9EywnfrpgES85IEQ==/109951174198329287.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -339,7 +339,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "LDH Records",
-      "pic_url": "https://p4.music.126.net/T6wBwRoHOpFHH0xv-p_rVQ==/109951174155995421.jpg",
+      "pic_url": "https://p3.music.126.net/T6wBwRoHOpFHH0xv-p_rVQ==/109951174155995421.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -459,6 +459,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=408822910"
+    },
+    {
+      "id": 409039345,
+      "name": "爱谈不谈",
+      "artists": [
+        {
+          "id": 14077324,
+          "name": "黄霄雲"
+        }
+      ],
+      "artist_names": [
+        "黄霄雲"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 2,
+      "company": "环球音乐",
+      "pic_url": "https://p3.music.126.net/uS8ioB4VBt6PbTfIrKP52g==/109951174260401735.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409039345"
     },
     {
       "id": 403247773,
@@ -660,7 +683,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/pJj9-i_hagVsCGkWUwCBzg==/109951174256598629.jpg",
+      "pic_url": "https://p3.music.126.net/pJj9-i_hagVsCGkWUwCBzg==/109951174256598629.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -706,7 +729,7 @@
       "publish_date": "2026-11-13",
       "size": 10,
       "company": "孔 TOWN",
-      "pic_url": "https://p3.music.126.net/hzwW9PhSzW_0eeYneDncgw==/109951174215405061.jpg",
+      "pic_url": "https://p4.music.126.net/hzwW9PhSzW_0eeYneDncgw==/109951174215405061.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -729,7 +752,7 @@
       "publish_date": "2026-11-13",
       "size": 20,
       "company": "Guang Ying Sui Yue",
-      "pic_url": "https://p4.music.126.net/tKMYSAz0HTGCZLMyQ830Bw==/109951174266200092.jpg",
+      "pic_url": "https://p3.music.126.net/tKMYSAz0HTGCZLMyQ830Bw==/109951174266200092.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1022,7 +1045,7 @@
       "publish_date": "2026-11-13",
       "size": 11,
       "company": "相信音乐",
-      "pic_url": "https://p3.music.126.net/873AyGh2USeQ5L1hvpy1KQ==/109951174265315249.jpg",
+      "pic_url": "https://p4.music.126.net/873AyGh2USeQ5L1hvpy1KQ==/109951174265315249.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1257,7 +1280,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "bbno$ via Zero Day Records",
-      "pic_url": "https://p4.music.126.net/0TpQZhoYkmfvyAeVu7VqtQ==/109951174254115220.jpg",
+      "pic_url": "https://p3.music.126.net/0TpQZhoYkmfvyAeVu7VqtQ==/109951174254115220.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1469,6 +1492,29 @@
       "url": "https://music.163.com/#/album?id=402624749"
     },
     {
+      "id": 409454923,
+      "name": "X Factor 2026 Live #4",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 10,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/XKh_V4TJFkyljMoGbIx-3g==/109951174270547846.jpg",
+      "sub_type": "现场版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409454923"
+    },
+    {
       "id": 409023689,
       "name": "Without My Strings",
       "artists": [
@@ -1563,7 +1609,7 @@
       "publish_date": "2026-11-13",
       "size": 13,
       "company": "Frequency",
-      "pic_url": "https://p4.music.126.net/nQt2o-UNO-ZjwhB_K0WaMA==/109951173912784767.jpg",
+      "pic_url": "https://p3.music.126.net/nQt2o-UNO-ZjwhB_K0WaMA==/109951173912784767.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1786,6 +1832,29 @@
       "url": "https://music.163.com/#/album?id=403808739"
     },
     {
+      "id": 409021158,
+      "name": "This Time of Year",
+      "artists": [
+        {
+          "id": 36075757,
+          "name": "Jeroen Granneman"
+        }
+      ],
+      "artist_names": [
+        "Jeroen Granneman"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 4,
+      "company": "华纳音乐",
+      "pic_url": "https://p4.music.126.net/MR9wADOvqUovkLmI8866Jg==/109951174260081199.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409021158"
+    },
+    {
       "id": 404412740,
       "name": "The Becoming",
       "artists": [
@@ -1985,6 +2054,29 @@
       "url": "https://music.163.com/#/album?id=408168910"
     },
     {
+      "id": 409137751,
+      "name": "Spilt Milk",
+      "artists": [
+        {
+          "id": 35164783,
+          "name": "Seth Talley"
+        }
+      ],
+      "artist_names": [
+        "Seth Talley"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 5,
+      "company": "Framework Records",
+      "pic_url": "https://p3.music.126.net/o8VrBtqLQMeyFU9-YJqVAg==/109951174263316394.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409137751"
+    },
+    {
       "id": 406616620,
       "name": "Spell Book Two [Ten Year Anniversary]",
       "artists": [
@@ -2107,7 +2199,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "Spinnin' Records",
-      "pic_url": "https://p4.music.126.net/vnR9r6klRWz0Rk4x83_d3g==/109951174267823142.jpg",
+      "pic_url": "https://p3.music.126.net/vnR9r6klRWz0Rk4x83_d3g==/109951174267823142.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2597,7 +2689,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/CUtwqEG8iyZ22pUfgY89tQ==/109951174174027026.jpg",
+      "pic_url": "https://p4.music.126.net/CUtwqEG8iyZ22pUfgY89tQ==/109951174174027026.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2620,7 +2712,7 @@
       "publish_date": "2026-11-13",
       "size": 3,
       "company": "Oh Wonder",
-      "pic_url": "https://p3.music.126.net/5e7eK5PqErTtJ9k1pebzIA==/109951174135653870.jpg",
+      "pic_url": "https://p4.music.126.net/5e7eK5PqErTtJ9k1pebzIA==/109951174135653870.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2811,7 +2903,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p4.music.126.net/YIhidf2Jmiecp87riB_-gQ==/109951174259963991.jpg",
+      "pic_url": "https://p3.music.126.net/YIhidf2Jmiecp87riB_-gQ==/109951174259963991.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3444,7 +3536,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "Gray Artist Services",
-      "pic_url": "https://p4.music.126.net/fFylZ9-WbjYkdi90WWXRCw==/109951173994704011.jpg",
+      "pic_url": "https://p3.music.126.net/fFylZ9-WbjYkdi90WWXRCw==/109951173994704011.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3643,7 +3735,7 @@
       "publish_date": "2026-11-13",
       "size": 46,
       "company": "Wagram Music",
-      "pic_url": "https://p4.music.126.net/_GmNLMHyZQxw32d9lHYz0A==/109951174149901286.jpg",
+      "pic_url": "https://p3.music.126.net/_GmNLMHyZQxw32d9lHYz0A==/109951174149901286.jpg",
       "sub_type": "录音室版",
       "type": "精选集",
       "status": 1,
@@ -3689,7 +3781,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/CzXQxZ4AXGF-Ny8hi4Apmw==/109951174260830211.jpg",
+      "pic_url": "https://p4.music.126.net/CzXQxZ4AXGF-Ny8hi4Apmw==/109951174260830211.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -4171,7 +4263,7 @@
       "publish_date": "2026-11-13",
       "size": 1,
       "company": "纳吉音 Negia Entertainment",
-      "pic_url": "https://p3.music.126.net/ebxLPeJnjtVFqpfCYMb94g==/109951174269310838.jpg",
+      "pic_url": "https://p4.music.126.net/ebxLPeJnjtVFqpfCYMb94g==/109951174269310838.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -4344,7 +4436,7 @@
       "publish_date": "2026-11-13",
       "size": 9,
       "company": "星外星音乐",
-      "pic_url": "https://p3.music.126.net/XdMMYRhThdYJuC3CBgBnWw==/109951174260248559.jpg",
+      "pic_url": "https://p4.music.126.net/XdMMYRhThdYJuC3CBgBnWw==/109951174260248559.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -4470,6 +4562,34 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=406753601"
+    },
+    {
+      "id": 403524101,
+      "name": "Catch Feelings",
+      "artists": [
+        {
+          "id": 97569817,
+          "name": "nondasson"
+        },
+        {
+          "id": 129943406,
+          "name": "Nonda's Other Son"
+        }
+      ],
+      "artist_names": [
+        "nondasson",
+        "Nonda's Other Son"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 2,
+      "company": "Rapzilla.com",
+      "pic_url": "https://p3.music.126.net/S8aijC-3UofoUOWjmopjqw==/109951174099114379.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=403524101"
     },
     {
       "id": 407019008,
@@ -4622,7 +4742,7 @@
       "publish_date": "2026-11-13",
       "size": 46,
       "company": "Silva Screen Records",
-      "pic_url": "https://p3.music.126.net/9ZoURhrQEq6P5Di4LuxdGA==/109951174228220611.jpg",
+      "pic_url": "https://p4.music.126.net/9ZoURhrQEq6P5Di4LuxdGA==/109951174228220611.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -4887,6 +5007,29 @@
       "url": "https://music.163.com/#/album?id=406753609"
     },
     {
+      "id": 408910114,
+      "name": "Anything Could Happen",
+      "artists": [
+        {
+          "id": 69270,
+          "name": "Madilyn Bailey"
+        }
+      ],
+      "artist_names": [
+        "Madilyn Bailey"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 1,
+      "company": "Madilyn Bailey Music, inc.",
+      "pic_url": "https://p3.music.126.net/WyNafR8k3R5ojrTYy7UNJA==/109951174258105837.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=408910114"
+    },
+    {
       "id": 406415410,
       "name": "All Is Now (Iain M Remix)",
       "artists": [
@@ -4913,6 +5056,39 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=406415410"
+    },
+    {
+      "id": 406452472,
+      "name": "All I Need Is Somebody",
+      "artists": [
+        {
+          "id": 33795,
+          "name": "French Montana"
+        },
+        {
+          "id": 39448,
+          "name": "Max B"
+        },
+        {
+          "id": 35396,
+          "name": "Jamie Foxx"
+        }
+      ],
+      "artist_names": [
+        "French Montana",
+        "Max B",
+        "Jamie Foxx"
+      ],
+      "publish_time": 1794499200000,
+      "publish_date": "2026-11-13",
+      "size": 1,
+      "company": "Universal Arabic Music",
+      "pic_url": "https://p4.music.126.net/dVGlbWnwHo3p-rM0oCu-5w==/109951174183543947.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406452472"
     },
     {
       "id": 404830497,
@@ -4999,7 +5175,7 @@
       "publish_date": "2026-11-13",
       "size": 11,
       "company": "broke",
-      "pic_url": "https://p4.music.126.net/nZgJSCJchY6fNBMYZA5JrA==/109951174200410856.jpg",
+      "pic_url": "https://p3.music.126.net/nZgJSCJchY6fNBMYZA5JrA==/109951174200410856.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
