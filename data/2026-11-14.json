@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
-  "generated_at": "2026-11-14T06:16:11.612100+08:00",
-  "count": 59,
+  "generated_at": "2026-11-14T09:24:24.420112+08:00",
+  "count": 61,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 12,
+        "target_count": 16,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 5,
+        "target_count": 8,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 741,
+      "search_candidates": 740,
       "verified_target_count": 10,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794606343.9881756,
+        "saved_at": 1794617216.8183105,
         "source": "live"
       },
       "relations": 85591,
-      "new_album_candidates": 126,
+      "new_album_candidates": 128,
       "unique_albums": 39037,
       "detail_success": 39036,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1239,
+      "date_hit_albums": 1241,
       "verify_artists": 787,
       "owned_failures": 0,
       "external_hits": 464,
-      "new_release_hits": 206,
+      "new_release_hits": 208,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 59
+    "unique_album_count": 61
   },
   "albums": [
     {
@@ -280,7 +280,7 @@
       "publish_date": "2026-11-14",
       "size": 1,
       "company": "internetonsen",
-      "pic_url": "https://p4.music.126.net/yVDNMB5sOz4M74jqHb_RvA==/109951174266066519.jpg",
+      "pic_url": "https://p3.music.126.net/yVDNMB5sOz4M74jqHb_RvA==/109951174266066519.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -412,7 +412,7 @@
       "publish_date": "2026-11-14",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/Pgn9RjKc51KWiLExYaPP4A==/109951174259347197.jpg",
+      "pic_url": "https://p4.music.126.net/Pgn9RjKc51KWiLExYaPP4A==/109951174259347197.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -578,7 +578,7 @@
       "publish_date": "2026-11-14",
       "size": 2,
       "company": "花漾年华",
-      "pic_url": "https://p3.music.126.net/hQNELyOMgFUV7qob5XShqA==/109951174255844558.jpg",
+      "pic_url": "https://p4.music.126.net/hQNELyOMgFUV7qob5XShqA==/109951174255844558.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -629,7 +629,7 @@
       "publish_date": "2026-11-14",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/d4BnmaITlPT3PrJYUiF3UQ==/109951174229825494.jpg",
+      "pic_url": "https://p3.music.126.net/d4BnmaITlPT3PrJYUiF3UQ==/109951174229825494.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -904,6 +904,34 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=398816375"
+    },
+    {
+      "id": 406979250,
+      "name": "アイデア Vol.1",
+      "artists": [
+        {
+          "id": 188274,
+          "name": "GUMI"
+        },
+        {
+          "id": 124942065,
+          "name": "さいごのひと"
+        }
+      ],
+      "artist_names": [
+        "GUMI",
+        "さいごのひと"
+      ],
+      "publish_time": 1794585600000,
+      "publish_date": "2026-11-14",
+      "size": 4,
+      "company": "GUMI & Saigo no hito",
+      "pic_url": "https://p3.music.126.net/IlGo4TFenHYyheYTManG6Q==/109951174197227951.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=406979250"
     },
     {
       "id": 407826625,
@@ -1342,6 +1370,34 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=408869046"
+    },
+    {
+      "id": 409820609,
+      "name": "Hero of Time",
+      "artists": [
+        {
+          "id": "55748821",
+          "name": "YA_BOI_MAX1221"
+        },
+        {
+          "id": "14438912",
+          "name": "Koji Kondo"
+        }
+      ],
+      "artist_names": [
+        "YA_BOI_MAX1221",
+        "Koji Kondo"
+      ],
+      "publish_time": 1794585600000,
+      "publish_date": "2026-11-14",
+      "size": 1,
+      "company": "Ya_boi_max1221",
+      "pic_url": "https://p4.music.126.net/NvdoNwPOa_HL0bjfesRAew==/109951174281107064.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409820609"
     },
     {
       "id": 409551142,
