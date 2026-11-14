@@ -393455,11 +393455,11 @@
       "Various Artists"
     ],
     "size": 30,
-    "pic_url": "https://p4.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
+    "pic_url": "https://p3.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1794656189.955353
+    "cached_at": 1794689130.2266736
   },
   "265689789": {
     "album_id": "265689789",
@@ -941168,5 +941168,101 @@
         "name": "Pianofunkyssiomo"
       }
     ]
+  },
+  "409915451": {
+    "album_id": "409915451",
+    "album_name": "就此终结的夏天",
+    "date_str": "2026-11-15",
+    "publish_ts": 1794672000000,
+    "artist_ids": [
+      "124059271"
+    ],
+    "artist_names": [
+      "9w9L"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/jiR5CF-lBp5fQpAMiwQjtg==/109951174286428794.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794689069.4947474
+  },
+  "409915471": {
+    "album_id": "409915471",
+    "album_name": "定苍生",
+    "date_str": "2026-11-15",
+    "publish_ts": 1794672000000,
+    "artist_ids": [
+      "60890848"
+    ],
+    "artist_names": [
+      "曹稳健"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/q_U2QgvtnUxTT0fJFonByg==/109951174286571814.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794689069.4951627
+  },
+  "409915387": {
+    "album_id": "409915387",
+    "album_name": "心跳128",
+    "date_str": "2026-11-15",
+    "publish_ts": 1794672000000,
+    "artist_ids": [
+      "126200807"
+    ],
+    "artist_names": [
+      "Zetto_Esperanto"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/rtio1WIMpFipuphDZtSUQg==/109951174286141944.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794689069.5140178
+  },
+  "409915437": {
+    "album_id": "409915437",
+    "album_name": "Femboy",
+    "date_str": "2026-11-15",
+    "publish_ts": 1794672000000,
+    "artist_ids": [
+      "55373125"
+    ],
+    "artist_names": [
+      "Rllovx"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/09OT-hnWPXpfwquy2Lp4rA==/109951174286413725.jpg",
+    "company": "",
+    "sub_type": "DEMO",
+    "type": "Single",
+    "cached_at": 1794689136.2429123,
+    "songs": [
+      {
+        "id": "3461541697",
+        "name": "Femboy"
+      }
+    ]
+  },
+  "409935101": {
+    "album_id": "409935101",
+    "album_name": "Suits Me",
+    "date_str": "2026-10-20",
+    "publish_ts": 1792425600000,
+    "artist_ids": [
+      "858282"
+    ],
+    "artist_names": [
+      "MK"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/UIl73KVNV9x8T_GDMkT9fg==/109951174286534851.jpg",
+    "company": "MK Records",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794689141.087533
   }
 }

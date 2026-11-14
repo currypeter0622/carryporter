@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
-  "generated_at": "2026-11-15T01:30:35.725408+08:00",
-  "count": 36,
+  "generated_at": "2026-11-15T04:52:09.593094+08:00",
+  "count": 40,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794675302.5738916,
+        "saved_at": 1794687408.1308944,
         "source": "live"
       },
-      "relations": 85665,
-      "new_album_candidates": 52,
-      "unique_albums": 39042,
-      "detail_success": 39041,
+      "relations": 85680,
+      "new_album_candidates": 53,
+      "unique_albums": 39054,
+      "detail_success": 39053,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1246,
+      "date_hit_albums": 1250,
       "verify_artists": 791,
       "owned_failures": 0,
-      "external_hits": 475,
-      "new_release_hits": 91,
+      "external_hits": 477,
+      "new_release_hits": 95,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 36
+    "unique_album_count": 40
   },
   "albums": [
     {
@@ -275,7 +275,7 @@
       "publish_date": "2026-11-15",
       "size": 2,
       "company": "",
-      "pic_url": "https://p3.music.126.net/1PngkQthcPyIsDwheDFlMQ==/109951174276660617.jpg",
+      "pic_url": "https://p4.music.126.net/1PngkQthcPyIsDwheDFlMQ==/109951174276660617.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -298,7 +298,7 @@
       "publish_date": "2026-11-15",
       "size": 2,
       "company": "北京好有福气文化传媒有限公司",
-      "pic_url": "https://p4.music.126.net/1YoICU3Qj9E7_2N-_Z_oew==/109951174268687830.jpg",
+      "pic_url": "https://p3.music.126.net/1YoICU3Qj9E7_2N-_Z_oew==/109951174268687830.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -377,7 +377,7 @@
       "publish_date": "2026-11-15",
       "size": 2,
       "company": "广东锋华国际文化产业发展有限公司",
-      "pic_url": "https://p3.music.126.net/krDL5k_gu-z6uptJqdtZGQ==/109951174247174185.jpg",
+      "pic_url": "https://p4.music.126.net/krDL5k_gu-z6uptJqdtZGQ==/109951174247174185.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -482,6 +482,29 @@
       "url": "https://music.163.com/#/album?id=409286092"
     },
     {
+      "id": 409915387,
+      "name": "心跳128",
+      "artists": [
+        {
+          "id": "126200807",
+          "name": "Zetto_Esperanto"
+        }
+      ],
+      "artist_names": [
+        "Zetto_Esperanto"
+      ],
+      "publish_time": 1794672000000,
+      "publish_date": "2026-11-15",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/rtio1WIMpFipuphDZtSUQg==/109951174286141944.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409915387"
+    },
+    {
       "id": 408796417,
       "name": "废弃观星台",
       "artists": [
@@ -503,6 +526,52 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=408796417"
+    },
+    {
+      "id": 409915451,
+      "name": "就此终结的夏天",
+      "artists": [
+        {
+          "id": "124059271",
+          "name": "9w9L"
+        }
+      ],
+      "artist_names": [
+        "9w9L"
+      ],
+      "publish_time": 1794672000000,
+      "publish_date": "2026-11-15",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/jiR5CF-lBp5fQpAMiwQjtg==/109951174286428794.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409915451"
+    },
+    {
+      "id": 409915471,
+      "name": "定苍生",
+      "artists": [
+        {
+          "id": "60890848",
+          "name": "曹稳健"
+        }
+      ],
+      "artist_names": [
+        "曹稳健"
+      ],
+      "publish_time": 1794672000000,
+      "publish_date": "2026-11-15",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p4.music.126.net/q_U2QgvtnUxTT0fJFonByg==/109951174286571814.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409915471"
     },
     {
       "id": 409026722,
@@ -630,7 +699,7 @@
       "publish_date": "2026-11-15",
       "size": 1,
       "company": "杭州千音世纪文化传媒有限公司",
-      "pic_url": "https://p3.music.126.net/yaqDu7UvysfEH2qPunVFLA==/109951174276455483.jpg",
+      "pic_url": "https://p4.music.126.net/yaqDu7UvysfEH2qPunVFLA==/109951174276455483.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -786,7 +855,7 @@
       "publish_date": "2026-11-15",
       "size": 4,
       "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
-      "pic_url": "https://p3.music.126.net/xPIXW9w5437KagvrqvPPFQ==/109951174236210368.jpg",
+      "pic_url": "https://p4.music.126.net/xPIXW9w5437KagvrqvPPFQ==/109951174236210368.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -953,6 +1022,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=407109857"
+    },
+    {
+      "id": 409915437,
+      "name": "Femboy",
+      "artists": [
+        {
+          "id": "55373125",
+          "name": "Rllovx"
+        }
+      ],
+      "artist_names": [
+        "Rllovx"
+      ],
+      "publish_time": 1794672000000,
+      "publish_date": "2026-11-15",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/09OT-hnWPXpfwquy2Lp4rA==/109951174286413725.jpg",
+      "sub_type": "DEMO",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409915437"
     },
     {
       "id": 409478491,
