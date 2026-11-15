@@ -1,18 +1,22 @@
 {
-  "saved_at": 1794699844.604574,
-  "count": 2223,
+  "saved_at": 1794743023.538718,
+  "count": 2224,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2223,
-    "server_count": 2223,
+    "count": 2224,
+    "server_count": 2224,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1794699844.6045299
+    "saved_at": 1794743023.5386772
   },
   "artists": [
+    {
+      "id": "31154439",
+      "name": "Quackson"
+    },
     {
       "id": "47442540",
       "name": "T-J"
