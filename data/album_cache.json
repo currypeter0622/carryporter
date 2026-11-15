@@ -393455,11 +393455,11 @@
       "Various Artists"
     ],
     "size": 30,
-    "pic_url": "https://p3.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
+    "pic_url": "https://p4.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1794744375.7604363
+    "cached_at": 1794776588.1886036
   },
   "265689789": {
     "album_id": "265689789",
@@ -946250,6 +946250,66 @@
       {
         "id": "3456404423",
         "name": "Real G"
+      }
+    ]
+  },
+  "410046863": {
+    "album_id": "410046863",
+    "album_name": "天依贺新春",
+    "date_str": "2026-11-16",
+    "publish_ts": 1794758400000,
+    "artist_ids": [
+      "130869570"
+    ],
+    "artist_names": [
+      "DeepSky"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/uJfC_Cw4yRhs-BMyXr-E7Q==/109951172952455499.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794776533.5276744
+  },
+  "410051727": {
+    "album_id": "410051727",
+    "album_name": "我的空间",
+    "date_str": "2026-11-16",
+    "publish_ts": 1794758400000,
+    "artist_ids": [
+      "54205484"
+    ],
+    "artist_names": [
+      "KULA"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/5CtVFgfUctxdD0QZPWqK0g==/109951174292434880.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794776533.5320616
+  },
+  "410088446": {
+    "album_id": "410088446",
+    "album_name": "Навстіж",
+    "date_str": "2026-11-15",
+    "publish_ts": 1794672000000,
+    "artist_ids": [
+      "533834"
+    ],
+    "artist_names": [
+      "LEYA"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/WZVDvVGHa_Z99qK1TaA0UA==/109951174292787985.jpg",
+    "company": "LEYA",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794776540.4585915,
+    "songs": [
+      {
+        "id": "3461877496",
+        "name": "Навстіж"
       }
     ]
   }

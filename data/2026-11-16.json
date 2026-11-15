@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T02:11:29.672120+08:00",
-  "count": 48,
+  "generated_at": "2026-11-16T05:08:33.171010+08:00",
+  "count": 52,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 10,
+        "target_count": 13,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 8,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 7,
+        "target_count": 8,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794764274.359207,
+        "saved_at": 1794775283.5237763,
         "source": "live"
       },
       "relations": 85739,
-      "new_album_candidates": 49,
-      "unique_albums": 39096,
-      "detail_success": 39095,
+      "new_album_candidates": 50,
+      "unique_albums": 39097,
+      "detail_success": 39096,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1260,
+      "date_hit_albums": 1262,
       "verify_artists": 787,
       "owned_failures": 0,
-      "external_hits": 483,
-      "new_release_hits": 81,
+      "external_hits": 484,
+      "new_release_hits": 84,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 48
+    "unique_album_count": 52
   },
   "albums": [
     {
@@ -206,7 +206,7 @@
       "publish_date": "2026-11-16",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p3.music.126.net/JxqbgmKzrY_GrIvj0tnFmg==/109951174264120576.jpg",
+      "pic_url": "https://p4.music.126.net/JxqbgmKzrY_GrIvj0tnFmg==/109951174264120576.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -283,6 +283,29 @@
       "url": "https://music.163.com/#/album?id=408489646"
     },
     {
+      "id": 409520057,
+      "name": "等不到你 (live)",
+      "artists": [
+        {
+          "id": 1032298,
+          "name": "鞠婧祎"
+        }
+      ],
+      "artist_names": [
+        "鞠婧祎"
+      ],
+      "publish_time": 1794758400000,
+      "publish_date": "2026-11-16",
+      "size": 1,
+      "company": "独立发行",
+      "pic_url": "https://p4.music.126.net/96Ru-FUKjIiqWIhZTs83Lw==/109951174272622601.jpg",
+      "sub_type": "现场版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409520057"
+    },
+    {
       "id": 408486721,
       "name": "百万回目 (feat. 重音テト)",
       "artists": [
@@ -344,12 +367,35 @@
       "publish_date": "2026-11-16",
       "size": 12,
       "company": "1520Vandal Music",
-      "pic_url": "https://p4.music.126.net/ZLu11x3h5kg8_QlTLkODcg==/109951174270032918.jpg",
+      "pic_url": "https://p3.music.126.net/ZLu11x3h5kg8_QlTLkODcg==/109951174270032918.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=409425412"
+    },
+    {
+      "id": 410051727,
+      "name": "我的空间",
+      "artists": [
+        {
+          "id": "54205484",
+          "name": "KULA"
+        }
+      ],
+      "artist_names": [
+        "KULA"
+      ],
+      "publish_time": 1794758400000,
+      "publish_date": "2026-11-16",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/5CtVFgfUctxdD0QZPWqK0g==/109951174292434880.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410051727"
     },
     {
       "id": 409884347,
@@ -390,7 +436,7 @@
       "publish_date": "2026-11-16",
       "size": 1,
       "company": "紫锭星娱乐",
-      "pic_url": "https://p4.music.126.net/9HTVVtdPWWbZ72tWpRBwBw==/109951174275562228.jpg",
+      "pic_url": "https://p3.music.126.net/9HTVVtdPWWbZ72tWpRBwBw==/109951174275562228.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -413,7 +459,7 @@
       "publish_date": "2026-11-16",
       "size": 2,
       "company": "天娱传媒",
-      "pic_url": "https://p4.music.126.net/e9VN98hJALxymoL5A872Eg==/109951174276516753.jpg",
+      "pic_url": "https://p3.music.126.net/e9VN98hJALxymoL5A872Eg==/109951174276516753.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -472,6 +518,29 @@
       "url": "https://music.163.com/#/album?id=409520058"
     },
     {
+      "id": 410046863,
+      "name": "天依贺新春",
+      "artists": [
+        {
+          "id": "130869570",
+          "name": "DeepSky"
+        }
+      ],
+      "artist_names": [
+        "DeepSky"
+      ],
+      "publish_time": 1794758400000,
+      "publish_date": "2026-11-16",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/uJfC_Cw4yRhs-BMyXr-E7Q==/109951172952455499.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410046863"
+    },
+    {
       "id": 406099727,
       "name": "冷えた夜に聴く安眠ピアノ",
       "artists": [
@@ -510,7 +579,7 @@
       "publish_date": "2026-11-16",
       "size": 1,
       "company": "WhichwayMusic",
-      "pic_url": "https://p4.music.126.net/TnaPKtQVBg_kT3OOpxtH0Q==/109951174269909108.jpg",
+      "pic_url": "https://p3.music.126.net/TnaPKtQVBg_kT3OOpxtH0Q==/109951174269909108.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -580,6 +649,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=396389198"
+    },
+    {
+      "id": 398732606,
+      "name": "You're a Mean One, Mr. Grinch",
+      "artists": [
+        {
+          "id": 105493,
+          "name": "Walk off the Earth"
+        }
+      ],
+      "artist_names": [
+        "Walk off the Earth"
+      ],
+      "publish_time": 1794758400000,
+      "publish_date": "2026-11-16",
+      "size": 1,
+      "company": "DOOGOOD",
+      "pic_url": "https://p4.music.126.net/xBP5bJfPTIu4DKzwnu6WKg==/109951173949715890.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=398732606"
     },
     {
       "id": 407307688,
