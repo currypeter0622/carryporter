@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T05:08:33.171010+08:00",
-  "count": 52,
+  "generated_at": "2026-11-16T08:19:54.154276+08:00",
+  "count": 53,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 13,
+        "target_count": 14,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 3,
+        "target_count": 4,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 751,
+      "search_candidates": 755,
       "verified_target_count": 9,
       "errors": []
     },
@@ -170,7 +170,7 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794775283.5237763,
+        "saved_at": 1794786636.153554,
         "source": "live"
       },
       "relations": 85739,
@@ -187,7 +187,7 @@
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 52
+    "unique_album_count": 53
   },
   "albums": [
     {
@@ -206,7 +206,7 @@
       "publish_date": "2026-11-16",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p4.music.126.net/JxqbgmKzrY_GrIvj0tnFmg==/109951174264120576.jpg",
+      "pic_url": "https://p3.music.126.net/JxqbgmKzrY_GrIvj0tnFmg==/109951174264120576.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -367,7 +367,7 @@
       "publish_date": "2026-11-16",
       "size": 12,
       "company": "1520Vandal Music",
-      "pic_url": "https://p3.music.126.net/ZLu11x3h5kg8_QlTLkODcg==/109951174270032918.jpg",
+      "pic_url": "https://p4.music.126.net/ZLu11x3h5kg8_QlTLkODcg==/109951174270032918.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -482,7 +482,7 @@
       "publish_date": "2026-11-16",
       "size": 1,
       "company": "Simple Music by Jing Yu xiang Hai",
-      "pic_url": "https://p4.music.126.net/TQaZRXOx3fU6i1jmOlS8TQ==/109951174271517258.jpg",
+      "pic_url": "https://p3.music.126.net/TQaZRXOx3fU6i1jmOlS8TQ==/109951174271517258.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -579,7 +579,7 @@
       "publish_date": "2026-11-16",
       "size": 1,
       "company": "WhichwayMusic",
-      "pic_url": "https://p3.music.126.net/TnaPKtQVBg_kT3OOpxtH0Q==/109951174269909108.jpg",
+      "pic_url": "https://p4.music.126.net/TnaPKtQVBg_kT3OOpxtH0Q==/109951174269909108.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -666,7 +666,7 @@
       "publish_date": "2026-11-16",
       "size": 1,
       "company": "DOOGOOD",
-      "pic_url": "https://p4.music.126.net/xBP5bJfPTIu4DKzwnu6WKg==/109951173949715890.jpg",
+      "pic_url": "https://p3.music.126.net/xBP5bJfPTIu4DKzwnu6WKg==/109951173949715890.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -695,6 +695,34 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=407307688"
+    },
+    {
+      "id": 407544825,
+      "name": "Waiting For You",
+      "artists": [
+        {
+          "id": 12647577,
+          "name": "Shiloh Dynasty"
+        },
+        {
+          "id": 123636838,
+          "name": "VNI."
+        }
+      ],
+      "artist_names": [
+        "Shiloh Dynasty",
+        "VNI."
+      ],
+      "publish_time": 1794758400000,
+      "publish_date": "2026-11-16",
+      "size": 10,
+      "company": "Create Capital",
+      "pic_url": "https://p3.music.126.net/pJQR0EcT22kQOavzy2Lm6w==/109951174218557668.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=407544825"
     },
     {
       "id": 407307677,
@@ -1366,7 +1394,7 @@
       "publish_date": "2026-11-16",
       "size": 14,
       "company": "(P)2026 BMSG, Inc.",
-      "pic_url": "https://p4.music.126.net/2iEKV_fxEqB8tM1BY0TCtw==/109951174236224110.jpg",
+      "pic_url": "https://p3.music.126.net/2iEKV_fxEqB8tM1BY0TCtw==/109951174236224110.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
