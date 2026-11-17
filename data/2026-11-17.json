@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T08:30:50.123271+08:00",
-  "count": 46,
+  "generated_at": "2026-11-17T11:30:53.482636+08:00",
+  "count": 48,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 5,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 5,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 3,
+        "target_count": 5,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -160,34 +160,34 @@
       "errors": []
     },
     "reference_candidate_pool": {
-      "artists": 2227,
+      "artists": 2228,
       "artist_meta": {
         "method": "GET",
         "limit": 500,
-        "count": 2227,
-        "server_count": 2227,
+        "count": 2228,
+        "server_count": 2228,
         "end_reason": "server_count_reached",
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794873405.3226268,
+        "saved_at": 1794883907.4067996,
         "source": "live"
       },
-      "relations": 85874,
-      "new_album_candidates": 58,
-      "unique_albums": 39193,
-      "detail_success": 39192,
+      "relations": 85932,
+      "new_album_candidates": 60,
+      "unique_albums": 39226,
+      "detail_success": 39225,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1287,
+      "date_hit_albums": 1292,
       "verify_artists": 790,
       "owned_failures": 0,
       "external_hits": 495,
-      "new_release_hits": 85,
+      "new_release_hits": 88,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 46
+    "unique_album_count": 48
   },
   "albums": [
     {
@@ -283,6 +283,39 @@
       "url": "https://music.163.com/#/album?id=408783205"
     },
     {
+      "id": 409652680,
+      "name": "更好的以后",
+      "artists": [
+        {
+          "id": "3707",
+          "name": "郎朗"
+        },
+        {
+          "id": "33714452",
+          "name": "吉娜·爱丽丝"
+        },
+        {
+          "id": "12426030",
+          "name": "林亭翰"
+        }
+      ],
+      "artist_names": [
+        "郎朗",
+        "吉娜·爱丽丝",
+        "林亭翰"
+      ],
+      "publish_time": 1794844800000,
+      "publish_date": "2026-11-17",
+      "size": 3,
+      "company": "百纳娱乐",
+      "pic_url": "https://p4.music.126.net/-N_hQutA6I3E3FsiOrxEBA==/109951174276275848.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409652680"
+    },
+    {
       "id": 409628041,
       "name": "暴力美学",
       "artists": [
@@ -321,7 +354,7 @@
       "publish_date": "2026-11-17",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/1RflSh7eIWxjnGbNPKDZDQ==/109951174294692011.jpg",
+      "pic_url": "https://p4.music.126.net/1RflSh7eIWxjnGbNPKDZDQ==/109951174294692011.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -344,7 +377,7 @@
       "publish_date": "2026-11-17",
       "size": 2,
       "company": "北京造梦嘉文化传媒有限公司",
-      "pic_url": "https://p4.music.126.net/oD6uxfosQ-EAG8B7kzGgCQ==/109951174276905505.jpg",
+      "pic_url": "https://p3.music.126.net/oD6uxfosQ-EAG8B7kzGgCQ==/109951174276905505.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -516,6 +549,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409659761"
+    },
+    {
+      "id": 409443348,
+      "name": "YiNSide",
+      "artists": [
+        {
+          "id": 50145252,
+          "name": "尹立尧"
+        }
+      ],
+      "artist_names": [
+        "尹立尧"
+      ],
+      "publish_time": 1794844800000,
+      "publish_date": "2026-11-17",
+      "size": 10,
+      "company": "太合麦田",
+      "pic_url": "https://p4.music.126.net/jA_0VsxN09PlI8-i9i9a7g==/109951174270351703.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409443348"
     },
     {
       "id": 398976657,
@@ -717,8 +773,8 @@
       "url": "https://music.163.com/#/album?id=402698019"
     },
     {
-      "id": 410331097,
-      "name": "Nezaboravni hitovi 3",
+      "id": 410343258,
+      "name": "Nezaboravni hitovi 2",
       "artists": [
         {
           "id": "49260160",
@@ -732,12 +788,35 @@
       "publish_date": "2026-11-17",
       "size": 5,
       "company": "Aleksandric Masteraudio",
-      "pic_url": "https://p4.music.126.net/OopfTodXJ2sG3qaB2rP_DQ==/109951174298898953.jpg",
+      "pic_url": "https://p3.music.126.net/KfUHin71_ARcWllAfwgsxg==/109951174299087035.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": null,
       "description": "",
-      "url": "https://music.163.com/#/album?id=410331097"
+      "url": "https://music.163.com/#/album?id=410343258"
+    },
+    {
+      "id": 410342620,
+      "name": "Nezaboravni hitovi 1",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794844800000,
+      "publish_date": "2026-11-17",
+      "size": 5,
+      "company": "Aleksandric Masteraudio",
+      "pic_url": "https://p4.music.126.net/KcLClifLuIE4Xw8nuxUmjQ==/109951174299091114.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410342620"
     },
     {
       "id": 407360142,
@@ -1134,29 +1213,6 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=410050602"
-    },
-    {
-      "id": 406609220,
-      "name": "Hidden Tales, Vol. 2",
-      "artists": [
-        {
-          "id": "49260160",
-          "name": "Various Artists"
-        }
-      ],
-      "artist_names": [
-        "Various Artists"
-      ],
-      "publish_time": 1794844800000,
-      "publish_date": "2026-11-17",
-      "size": 10,
-      "company": "Katayy Records",
-      "pic_url": "https://p4.music.126.net/d0WAJ_p0z9zLZKUuy__6yA==/109951174187784589.jpg",
-      "sub_type": "录音室版",
-      "type": "专辑",
-      "status": null,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=406609220"
     },
     {
       "id": 409528176,
