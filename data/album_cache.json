@@ -958612,5 +958612,161 @@
         "name": "Voice Drama \"ILLGATER\""
       }
     ]
+  },
+  "410536276": {
+    "album_id": "410536276",
+    "album_name": "...De La Jarana Somos Señores...",
+    "date_str": "1980-01-17",
+    "publish_ts": 316886400000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 6,
+    "pic_url": "https://p3.music.126.net/W4aZdH3DDRh9Fo5a_uhu5g==/109951174304535632.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1794957378.2413585
+  },
+  "410531987": {
+    "album_id": "410531987",
+    "album_name": "A Jaranearse… Con Todo",
+    "date_str": "1982-01-01",
+    "publish_ts": 378662400000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 12,
+    "pic_url": "https://p4.music.126.net/WXWFpHamL3gmtlYY8eyTdg==/109951174304462637.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794957378.9936566
+  },
+  "410532312": {
+    "album_id": "410532312",
+    "album_name": "Bodas de Plata La Canción Peruana Vol. 02 (Disco 2)",
+    "date_str": "1975-01-01",
+    "publish_ts": 157737600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 12,
+    "pic_url": "https://p4.music.126.net/jmssAzeL-PoCKkXokOycug==/109951174304474531.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794957379.843109
+  },
+  "410529697": {
+    "album_id": "410529697",
+    "album_name": "Bodas de Plata La Canción Peruana Vol. 02 (Disco 1)",
+    "date_str": "1975-01-01",
+    "publish_ts": 157737600000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 13,
+    "pic_url": "https://p3.music.126.net/SUqVF_EJybQIiP41YquIKQ==/109951174304408917.jpg",
+    "company": "华纳音乐",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794957380.7347815
+  },
+  "410489631": {
+    "album_id": "410489631",
+    "album_name": "gloomy winter 2010s vibes",
+    "date_str": "2026-11-18",
+    "publish_ts": 1794931200000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 56,
+    "pic_url": "https://p4.music.126.net/n58XpGaxTw9w-fskTml3gw==/109951174303544900.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1794958790.4616907
+  },
+  "410533858": {
+    "album_id": "410533858",
+    "album_name": "J'ai tous laisser (feat. MKS)",
+    "date_str": "2026-11-17",
+    "publish_ts": 1794844800000,
+    "artist_ids": [
+      "12089030"
+    ],
+    "artist_names": [
+      "Nasko"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/-Yy3Wv8opJ0enASzbOMx0w==/109951174304503128.jpg",
+    "company": "14084622 Records DK",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794958801.9563196,
+    "songs": [
+      {
+        "id": "3462746174",
+        "name": "J'ai tous laisser (feat. MKS)"
+      }
+    ]
+  },
+  "410514222": {
+    "album_id": "410514222",
+    "album_name": "LAW002",
+    "date_str": "2026-11-16",
+    "publish_ts": 1794758400000,
+    "artist_ids": [
+      "697001"
+    ],
+    "artist_names": [
+      "VA"
+    ],
+    "size": 5,
+    "pic_url": "https://p3.music.126.net/yXnJgwVs0UYdawQkH_qi6A==/109951174304158100.jpg",
+    "company": "LAW",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1794958844.1224895
+  },
+  "410522762": {
+    "album_id": "410522762",
+    "album_name": "Intro to Ruin",
+    "date_str": "2026-11-18",
+    "publish_ts": 1794931200000,
+    "artist_ids": [
+      "58614505"
+    ],
+    "artist_names": [
+      "A-Saph"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/UgaMdPZKnKckixstLnsJRA==/109951174304322785.jpg",
+    "company": "Violet Geode Tones",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1794958850.3006623,
+    "songs": [
+      {
+        "id": "3462729413",
+        "name": "Intro to Ruin"
+      }
+    ]
   }
 }

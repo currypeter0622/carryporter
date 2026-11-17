@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T04:19:31.487274+08:00",
-  "count": 73,
+  "generated_at": "2026-11-18T07:49:06.090359+08:00",
+  "count": 77,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 18,
+        "target_count": 21,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -141,7 +141,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 3,
+        "target_count": 4,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 751,
+      "search_candidates": 750,
       "verified_target_count": 15,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794944512.9887033,
+        "saved_at": 1794957387.9961083,
         "source": "live"
       },
       "relations": 85943,
-      "new_album_candidates": 75,
-      "unique_albums": 39233,
-      "detail_success": 39232,
+      "new_album_candidates": 77,
+      "unique_albums": 39236,
+      "detail_success": 39235,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1307,
-      "verify_artists": 798,
+      "date_hit_albums": 1311,
+      "verify_artists": 799,
       "owned_failures": 0,
-      "external_hits": 507,
-      "new_release_hits": 101,
+      "external_hits": 509,
+      "new_release_hits": 104,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 73
+    "unique_album_count": 77
   },
   "albums": [
     {
@@ -293,7 +293,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "Speedstar",
-      "pic_url": "https://p4.music.126.net/8Htj7HJJjnmm5k6itw_zLA==/109951174234855684.jpg",
+      "pic_url": "https://p3.music.126.net/8Htj7HJJjnmm5k6itw_zLA==/109951174234855684.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -349,7 +349,7 @@
       "publish_date": "2026-11-18",
       "size": 20,
       "company": "发现梦想",
-      "pic_url": "https://p3.music.126.net/AI6kpfxoFdUdqrm2fx8GFQ==/109951174255189747.jpg",
+      "pic_url": "https://p4.music.126.net/AI6kpfxoFdUdqrm2fx8GFQ==/109951174255189747.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -456,12 +456,35 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "腾讯视频",
-      "pic_url": "https://p3.music.126.net/DakOwSmQtWqwpwSFWmoo_A==/109951174259499161.jpg",
+      "pic_url": "https://p4.music.126.net/DakOwSmQtWqwpwSFWmoo_A==/109951174259499161.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=408988401"
+    },
+    {
+      "id": 408113555,
+      "name": "悲しみさえ大人びて",
+      "artists": [
+        {
+          "id": 18480,
+          "name": "amazarashi"
+        }
+      ],
+      "artist_names": [
+        "amazarashi"
+      ],
+      "publish_time": 1794931200000,
+      "publish_date": "2026-11-18",
+      "size": 4,
+      "company": "索尼音乐",
+      "pic_url": "https://p4.music.126.net/vS5GHqd3IoBVJntnzmWPqg==/109951174231426840.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=408113555"
     },
     {
       "id": 408999148,
@@ -548,7 +571,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "Speedstar",
-      "pic_url": "https://p3.music.126.net/TtvSSZafN3J4PHAYd4hOEw==/109951174263234187.jpg",
+      "pic_url": "https://p4.music.126.net/TtvSSZafN3J4PHAYd4hOEw==/109951174263234187.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -640,7 +663,7 @@
       "publish_date": "2026-11-18",
       "size": 13,
       "company": "PONY CANYON INC.",
-      "pic_url": "https://p4.music.126.net/Qjs4-Yn4opdi5dLnqnOZ_Q==/109951174188743726.jpg",
+      "pic_url": "https://p3.music.126.net/Qjs4-Yn4opdi5dLnqnOZ_Q==/109951174188743726.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -709,7 +732,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "Liminal",
-      "pic_url": "https://p3.music.126.net/NaS3_qXe0T0OMfLTaJWwiA==/109951174300455552.jpg",
+      "pic_url": "https://p4.music.126.net/NaS3_qXe0T0OMfLTaJWwiA==/109951174300455552.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -878,6 +901,29 @@
       "url": "https://music.163.com/#/album?id=410488358"
     },
     {
+      "id": 410489631,
+      "name": "gloomy winter 2010s vibes",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794931200000,
+      "publish_date": "2026-11-18",
+      "size": 56,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/n58XpGaxTw9w-fskTml3gw==/109951174303544900.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410489631"
+    },
+    {
       "id": 408834568,
       "name": "egoist",
       "artists": [
@@ -1018,7 +1064,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "Force Music Recordings",
-      "pic_url": "https://p4.music.126.net/tYKmwKO4bNplxrPguKH0kw==/109951174229006209.jpg",
+      "pic_url": "https://p3.music.126.net/tYKmwKO4bNplxrPguKH0kw==/109951174229006209.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1070,6 +1116,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409561220"
+    },
+    {
+      "id": 409400456,
+      "name": "Soshite Ohayo, Nemuru Made feat. Hanakuma Chifuyu",
+      "artists": [
+        {
+          "id": 59923163,
+          "name": "りろけっと"
+        }
+      ],
+      "artist_names": [
+        "りろけっと"
+      ],
+      "publish_time": 1794931200000,
+      "publish_date": "2026-11-18",
+      "size": 1,
+      "company": "Netmune",
+      "pic_url": "https://p3.music.126.net/NKu8jtXVUItEaCTgoOivDg==/109951174269458817.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409400456"
     },
     {
       "id": 409457853,
@@ -1179,7 +1248,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "(P)2026 Rii.MJ",
-      "pic_url": "https://p3.music.126.net/a-UhLEo6Ew9lDi983PTkTw==/109951174254688466.jpg",
+      "pic_url": "https://p4.music.126.net/a-UhLEo6Ew9lDi983PTkTw==/109951174254688466.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1427,6 +1496,29 @@
       "url": "https://music.163.com/#/album?id=407627210"
     },
     {
+      "id": 410522762,
+      "name": "Intro to Ruin",
+      "artists": [
+        {
+          "id": "58614505",
+          "name": "A-Saph"
+        }
+      ],
+      "artist_names": [
+        "A-Saph"
+      ],
+      "publish_time": 1794931200000,
+      "publish_date": "2026-11-18",
+      "size": 1,
+      "company": "Violet Geode Tones",
+      "pic_url": "https://p3.music.126.net/UgaMdPZKnKckixstLnsJRA==/109951174304322785.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410522762"
+    },
+    {
       "id": 404463550,
       "name": "Inner Peace ～心を静かに休ませるアコースティックヒーリング～",
       "artists": [
@@ -1493,7 +1585,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/l_hqWg5oDj00WT5Kuo8-lA==/109951174300073857.jpg",
+      "pic_url": "https://p4.music.126.net/l_hqWg5oDj00WT5Kuo8-lA==/109951174300073857.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1848,7 +1940,7 @@
       "publish_date": "2026-11-18",
       "size": 4,
       "company": "LAPONE ENTERTAINMENT",
-      "pic_url": "https://p3.music.126.net/Pl4kZLMmgc94nVVjfFb-fg==/109951174076257028.jpg",
+      "pic_url": "https://p4.music.126.net/Pl4kZLMmgc94nVVjfFb-fg==/109951174076257028.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
