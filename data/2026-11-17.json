@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T05:24:49.598774+08:00",
+  "generated_at": "2026-11-17T08:30:50.123271+08:00",
   "count": 46,
   "scan": {
     "mode": "full",
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 750,
+      "search_candidates": 749,
       "verified_target_count": 2,
       "errors": []
     },
@@ -170,19 +170,19 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794862309.0636604,
+        "saved_at": 1794873405.3226268,
         "source": "live"
       },
-      "relations": 85876,
+      "relations": 85874,
       "new_album_candidates": 58,
-      "unique_albums": 39195,
-      "detail_success": 39194,
+      "unique_albums": 39193,
+      "detail_success": 39192,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1288,
+      "date_hit_albums": 1287,
       "verify_artists": 790,
       "owned_failures": 0,
-      "external_hits": 496,
+      "external_hits": 495,
       "new_release_hits": 85,
       "complete_candidate_pool": true,
       "artist_failures": 0
@@ -298,7 +298,7 @@
       "publish_date": "2026-11-17",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/GNaV7u4BAUFpgxgySf-Ojw==/109951174275536380.jpg",
+      "pic_url": "https://p4.music.126.net/GNaV7u4BAUFpgxgySf-Ojw==/109951174275536380.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -344,7 +344,7 @@
       "publish_date": "2026-11-17",
       "size": 2,
       "company": "北京造梦嘉文化传媒有限公司",
-      "pic_url": "https://p3.music.126.net/oD6uxfosQ-EAG8B7kzGgCQ==/109951174276905505.jpg",
+      "pic_url": "https://p4.music.126.net/oD6uxfosQ-EAG8B7kzGgCQ==/109951174276905505.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -717,6 +717,29 @@
       "url": "https://music.163.com/#/album?id=402698019"
     },
     {
+      "id": 410331097,
+      "name": "Nezaboravni hitovi 3",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794844800000,
+      "publish_date": "2026-11-17",
+      "size": 5,
+      "company": "Aleksandric Masteraudio",
+      "pic_url": "https://p4.music.126.net/OopfTodXJ2sG3qaB2rP_DQ==/109951174298898953.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410331097"
+    },
+    {
       "id": 407360142,
       "name": "Nebula Skin",
       "artists": [
@@ -738,6 +761,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=407360142"
+    },
+    {
+      "id": 410331416,
+      "name": "Najlepse zenske pesme 1",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794844800000,
+      "publish_date": "2026-11-17",
+      "size": 9,
+      "company": "Aleksandric Masteraudio",
+      "pic_url": "https://p4.music.126.net/L45hf_hcRDuOnvs17letcg==/109951174298893368.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410331416"
     },
     {
       "id": 410093460,
@@ -786,29 +832,6 @@
       "url": "https://music.163.com/#/album?id=410094298"
     },
     {
-      "id": 410093414,
-      "name": "Najlepse pesme Dragana Aleksandrica vol. 7",
-      "artists": [
-        {
-          "id": "49260160",
-          "name": "Various Artists"
-        }
-      ],
-      "artist_names": [
-        "Various Artists"
-      ],
-      "publish_time": 1794844800000,
-      "publish_date": "2026-11-17",
-      "size": 12,
-      "company": "Aleksandric Masteraudio",
-      "pic_url": "https://p4.music.126.net/28fghDMfhSOJHG4mbm2C4Q==/109951174292954303.jpg",
-      "sub_type": "录音室版",
-      "type": "专辑",
-      "status": null,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=410093414"
-    },
-    {
       "id": 410093426,
       "name": "Najlepse pesme Dragana Aleksandrica vol. 6",
       "artists": [
@@ -830,29 +853,6 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=410093426"
-    },
-    {
-      "id": 410093449,
-      "name": "Najlepse pesme Dragana Aleksandrica vol. 5",
-      "artists": [
-        {
-          "id": "49260160",
-          "name": "Various Artists"
-        }
-      ],
-      "artist_names": [
-        "Various Artists"
-      ],
-      "publish_time": 1794844800000,
-      "publish_date": "2026-11-17",
-      "size": 10,
-      "company": "Aleksandric Masteraudio",
-      "pic_url": "https://p4.music.126.net/ckPsyjcp_XrtxXz93y4mOg==/109951174292956243.jpg",
-      "sub_type": "录音室版",
-      "type": "专辑",
-      "status": null,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=410093449"
     },
     {
       "id": 410093458,
@@ -922,29 +922,6 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=410093428"
-    },
-    {
-      "id": 410093456,
-      "name": "Najlepse pesme Dragana Aleksandrica vol. 10",
-      "artists": [
-        {
-          "id": "49260160",
-          "name": "Various Artists"
-        }
-      ],
-      "artist_names": [
-        "Various Artists"
-      ],
-      "publish_time": 1794844800000,
-      "publish_date": "2026-11-17",
-      "size": 11,
-      "company": "Aleksandric Masteraudio",
-      "pic_url": "https://p4.music.126.net/CYG7uBic1ejA7PPOBG9gEg==/109951174292956253.jpg",
-      "sub_type": "录音室版",
-      "type": "专辑",
-      "status": null,
-      "description": "",
-      "url": "https://music.163.com/#/album?id=410093456"
     },
     {
       "id": 409121017,
@@ -1277,6 +1254,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=396035981"
+    },
+    {
+      "id": 410333823,
+      "name": "Best of muske kafanske 1",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794844800000,
+      "publish_date": "2026-11-17",
+      "size": 9,
+      "company": "Aleksandric Masteraudio",
+      "pic_url": "https://p3.music.126.net/vgqu_ZV814dKGCi4H2iMkA==/109951174298941075.jpg",
+      "sub_type": "录音室版",
+      "type": "精选集",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410333823"
     },
     {
       "id": 409519090,
