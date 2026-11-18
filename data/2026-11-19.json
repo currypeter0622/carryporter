@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T03:57:29.571412+08:00",
-  "count": 59,
+  "generated_at": "2026-11-19T07:21:19.705518+08:00",
+  "count": 61,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 17,
+        "target_count": 19,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 17,
+        "target_count": 18,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -155,9 +155,11 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 743,
+      "search_candidates": 746,
       "verified_target_count": 3,
-      "errors": []
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
       "artists": 2232,
@@ -170,24 +172,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795029518.2163124,
+        "saved_at": 1795042084.13521,
         "source": "live"
       },
       "relations": 86130,
-      "new_album_candidates": 93,
-      "unique_albums": 39298,
-      "detail_success": 39297,
+      "new_album_candidates": 94,
+      "unique_albums": 39297,
+      "detail_success": 39296,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1319,
+      "date_hit_albums": 1320,
       "verify_artists": 810,
       "owned_failures": 0,
       "external_hits": 500,
-      "new_release_hits": 113,
+      "new_release_hits": 115,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 59
+    "unique_album_count": 61
   },
   "albums": [
     {
@@ -252,7 +254,7 @@
       "publish_date": "2026-11-19",
       "size": 2,
       "company": "独立发行",
-      "pic_url": "https://p4.music.126.net/D0Buo8FPwFxiCqsSeQCr6A==/109951174294310616.jpg",
+      "pic_url": "https://p3.music.126.net/D0Buo8FPwFxiCqsSeQCr6A==/109951174294310616.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -275,7 +277,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p3.music.126.net/NunaHtZ_kSZVz1xsIBRyWA==/109951174299335723.jpg",
+      "pic_url": "https://p4.music.126.net/NunaHtZ_kSZVz1xsIBRyWA==/109951174299335723.jpg",
       "sub_type": "现场版",
       "type": "Single",
       "status": 1,
@@ -298,7 +300,7 @@
       "publish_date": "2026-11-19",
       "size": 4,
       "company": "发现梦想",
-      "pic_url": "https://p4.music.126.net/EoJm8Uw67BBRa1EaS3D0fA==/109951174276860861.jpg",
+      "pic_url": "https://p3.music.126.net/EoJm8Uw67BBRa1EaS3D0fA==/109951174276860861.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -327,6 +329,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409203842"
+    },
+    {
+      "id": 410172011,
+      "name": "渡我 (studio version)",
+      "artists": [
+        {
+          "id": 36180611,
+          "name": "moon tang"
+        }
+      ],
+      "artist_names": [
+        "moon tang"
+      ],
+      "publish_time": 1795017600000,
+      "publish_date": "2026-11-19",
+      "size": 3,
+      "company": "华纳音乐",
+      "pic_url": "https://p3.music.126.net/0HQEPqmq9yhGItH8jLa91Q==/109951174294697009.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410172011"
     },
     {
       "id": 410430677,
@@ -446,7 +471,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "独立发行",
-      "pic_url": "https://p4.music.126.net/bgjaYeRkfowRjtohix-pLw==/109951174276683855.jpg",
+      "pic_url": "https://p3.music.126.net/bgjaYeRkfowRjtohix-pLw==/109951174276683855.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -492,7 +517,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "StreetVoice/本色音樂",
-      "pic_url": "https://p4.music.126.net/JBUKYBQlCJ7Tx330PqXB1g==/109951174265281192.jpg",
+      "pic_url": "https://p3.music.126.net/JBUKYBQlCJ7Tx330PqXB1g==/109951174265281192.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -515,7 +540,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "发现梦想",
-      "pic_url": "https://p3.music.126.net/SOoApSF0V9PC6BkgDQtoFA==/109951174270428239.jpg",
+      "pic_url": "https://p4.music.126.net/SOoApSF0V9PC6BkgDQtoFA==/109951174270428239.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -584,7 +609,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "网易游戏",
-      "pic_url": "https://p3.music.126.net/2XGq12IPNc9YAd8sTshEFQ==/109951174296648146.jpg",
+      "pic_url": "https://p4.music.126.net/2XGq12IPNc9YAd8sTshEFQ==/109951174296648146.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -949,6 +974,34 @@
       "url": "https://music.163.com/#/album?id=406826850"
     },
     {
+      "id": 382055930,
+      "name": "T11-7 愛が勝つでしょ",
+      "artists": [
+        {
+          "id": 121588263,
+          "name": "KIZUKI"
+        },
+        {
+          "id": 188274,
+          "name": "GUMI"
+        }
+      ],
+      "artist_names": [
+        "KIZUKI",
+        "GUMI"
+      ],
+      "publish_time": 1795017600000,
+      "publish_date": "2026-11-19",
+      "size": 1,
+      "company": "ITECO",
+      "pic_url": "https://p4.music.126.net/Pkf2LOQW_or8YIUeUm1vHQ==/109951173400740159.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=382055930"
+    },
+    {
       "id": 407839579,
       "name": "T.E.C.H.N.O. 16",
       "artists": [
@@ -1186,7 +1239,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/dEVWGgV3Qx18heKauTZCOA==/109951174236799615.jpg",
+      "pic_url": "https://p3.music.126.net/dEVWGgV3Qx18heKauTZCOA==/109951174236799615.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1576,7 +1629,7 @@
       "publish_date": "2026-11-19",
       "size": 2,
       "company": "天娱传媒",
-      "pic_url": "https://p4.music.126.net/yynPFNGhc9KJbcTLC9yucA==/109951174305059186.jpg",
+      "pic_url": "https://p3.music.126.net/yynPFNGhc9KJbcTLC9yucA==/109951174305059186.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,

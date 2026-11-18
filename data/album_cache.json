@@ -963863,5 +963863,83 @@
         "name": "Baila Sin Frenos"
       }
     ]
+  },
+  "2463125": {
+    "album_id": "2463125",
+    "album_name": "Promo Only",
+    "date_str": "2013-01-01",
+    "publish_ts": 1356969600004,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 18,
+    "pic_url": "https://p4.music.126.net/M75Aq2UwrvIFFg60dWACJQ==/2507986023013664.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795042076.6073077
+  },
+  "410454615": {
+    "album_id": "410454615",
+    "album_name": "鼓八文化艺术",
+    "date_str": "2026-11-18",
+    "publish_ts": 1794931200000,
+    "artist_ids": [
+      "126282958"
+    ],
+    "artist_names": [
+      "阿源不玩儿"
+    ],
+    "size": 5,
+    "pic_url": "https://p3.music.126.net/GS86bGZkVvcCi5B6y8qwOQ==/109951174304713169.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "EP",
+    "cached_at": 1795043533.3011746
+  },
+  "410741351": {
+    "album_id": "410741351",
+    "album_name": "Море в кишені",
+    "date_str": "2026-11-18",
+    "publish_ts": 1794931200000,
+    "artist_ids": [
+      "533834"
+    ],
+    "artist_names": [
+      "LEYA"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/TyBFKfrWYAKiLa1oVC8f_A==/109951174309750587.jpg",
+    "company": "LEYA",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795043539.9355757,
+    "songs": [
+      {
+        "id": "3463151255",
+        "name": "Море в кишені"
+      }
+    ]
+  },
+  "410735048": {
+    "album_id": "410735048",
+    "album_name": "How we rollin (yari) (feat. Apolo)",
+    "date_str": "2026-11-17",
+    "publish_ts": 1794844800000,
+    "artist_ids": [
+      "94808242"
+    ],
+    "artist_names": [
+      "YKZA"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/fQDmh5zHgdMX3C3dz-sXuA==/109951174309664437.jpg",
+    "company": "Yakuza",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795043546.3431535
   }
 }
