@@ -1,18 +1,30 @@
 {
-  "saved_at": 1795005276.575544,
-  "count": 2229,
+  "saved_at": 1795029518.2163546,
+  "count": 2232,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2229,
-    "server_count": 2229,
+    "count": 2232,
+    "server_count": 2232,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1795005276.575501
+    "saved_at": 1795029518.2163124
   },
   "artists": [
+    {
+      "id": "123493084",
+      "name": "obscuRE TRAX"
+    },
+    {
+      "id": "29790784",
+      "name": "すてらべえ"
+    },
+    {
+      "id": "61668469",
+      "name": "纯酱油"
+    },
     {
       "id": "61044980",
       "name": "Stariah"
