@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T07:49:06.090359+08:00",
-  "count": 77,
+  "generated_at": "2026-11-18T10:54:37.468436+08:00",
+  "count": 82,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 21,
+        "target_count": 24,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 10,
+        "target_count": 12,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 9,
+        "target_count": 10,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 8,
+        "target_count": 10,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 750,
+      "search_candidates": 747,
       "verified_target_count": 15,
       "errors": []
     },
@@ -170,16 +170,16 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1794957387.9961083,
+        "saved_at": 1794968031.3246577,
         "source": "live"
       },
-      "relations": 85943,
+      "relations": 85949,
       "new_album_candidates": 77,
-      "unique_albums": 39236,
-      "detail_success": 39235,
+      "unique_albums": 39238,
+      "detail_success": 39237,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1311,
+      "date_hit_albums": 1312,
       "verify_artists": 799,
       "owned_failures": 0,
       "external_hits": 509,
@@ -187,9 +187,32 @@
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 77
+    "unique_album_count": 82
   },
   "albums": [
+    {
+      "id": 410213449,
+      "name": "不再和年龄置气",
+      "artists": [
+        {
+          "id": 10597,
+          "name": "张瑶"
+        }
+      ],
+      "artist_names": [
+        "张瑶"
+      ],
+      "publish_time": 1794967200000,
+      "publish_date": "2026-11-18",
+      "size": 1,
+      "company": "易翔禾/百沐娱乐",
+      "pic_url": "https://p4.music.126.net/80krzdzbSqDARccw7qb9bA==/109951174295507302.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410213449"
+    },
     {
       "id": 405829152,
       "name": "ＤＹ Original collect II",
@@ -229,7 +252,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/g56VSimjpkiGJDhqryjqEQ==/109951174264975050.jpg",
+      "pic_url": "https://p3.music.126.net/g56VSimjpkiGJDhqryjqEQ==/109951174264975050.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -293,7 +316,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "Speedstar",
-      "pic_url": "https://p3.music.126.net/8Htj7HJJjnmm5k6itw_zLA==/109951174234855684.jpg",
+      "pic_url": "https://p4.music.126.net/8Htj7HJJjnmm5k6itw_zLA==/109951174234855684.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -321,7 +344,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/97feD2NHgIpCeiBP2ceanA==/109951174300109679.jpg",
+      "pic_url": "https://p3.music.126.net/97feD2NHgIpCeiBP2ceanA==/109951174300109679.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -456,7 +479,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "腾讯视频",
-      "pic_url": "https://p4.music.126.net/DakOwSmQtWqwpwSFWmoo_A==/109951174259499161.jpg",
+      "pic_url": "https://p3.music.126.net/DakOwSmQtWqwpwSFWmoo_A==/109951174259499161.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -479,7 +502,7 @@
       "publish_date": "2026-11-18",
       "size": 4,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/vS5GHqd3IoBVJntnzmWPqg==/109951174231426840.jpg",
+      "pic_url": "https://p3.music.126.net/vS5GHqd3IoBVJntnzmWPqg==/109951174231426840.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -525,12 +548,70 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "腾讯视频",
-      "pic_url": "https://p3.music.126.net/CKCSe4fH8OhcmGBBeAGBoQ==/109951174259501587.jpg",
+      "pic_url": "https://p4.music.126.net/CKCSe4fH8OhcmGBBeAGBoQ==/109951174259501587.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=408988393"
+    },
+    {
+      "id": 410190452,
+      "name": "宝珠 影视剧原声带",
+      "artists": [
+        {
+          "id": 47091532,
+          "name": "王赫野"
+        },
+        {
+          "id": 275494,
+          "name": "茜拉"
+        },
+        {
+          "id": 8753,
+          "name": "李佳薇"
+        },
+        {
+          "id": 48008736,
+          "name": "代露娃"
+        },
+        {
+          "id": 131122431,
+          "name": "赖伟明"
+        },
+        {
+          "id": 14714043,
+          "name": "陈卓璇"
+        },
+        {
+          "id": 12329255,
+          "name": "黄建威"
+        },
+        {
+          "id": 123494978,
+          "name": "宋若瑄"
+        }
+      ],
+      "artist_names": [
+        "王赫野",
+        "茜拉",
+        "李佳薇",
+        "代露娃",
+        "赖伟明",
+        "陈卓璇",
+        "黄建威",
+        "宋若瑄"
+      ],
+      "publish_time": 1794931200000,
+      "publish_date": "2026-11-18",
+      "size": 5,
+      "company": "Hao Yue Wu Huang",
+      "pic_url": "https://p3.music.126.net/MphQZHRQpFvWypzw_5yuqQ==/109951174295082487.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410190452"
     },
     {
       "id": 410122525,
@@ -546,9 +627,9 @@
       ],
       "publish_time": 1794931200000,
       "publish_date": "2026-11-18",
-      "size": 8,
+      "size": 9,
       "company": "Beijing Modern Sky Culture Development Co.,Ltd.",
-      "pic_url": "https://p4.music.126.net/Ku2H9tCCggeuakLUCm6NSA==/109951174293641064.jpg",
+      "pic_url": "https://p3.music.126.net/Ku2H9tCCggeuakLUCm6NSA==/109951174293641064.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -571,7 +652,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "Speedstar",
-      "pic_url": "https://p4.music.126.net/TtvSSZafN3J4PHAYd4hOEw==/109951174263234187.jpg",
+      "pic_url": "https://p3.music.126.net/TtvSSZafN3J4PHAYd4hOEw==/109951174263234187.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -617,7 +698,7 @@
       "publish_date": "2026-11-18",
       "size": 2,
       "company": "鲸鱼向海x海南合运文化",
-      "pic_url": "https://p3.music.126.net/Te-OUV4pz7bFC0NOT55s6g==/109951174276709265.jpg",
+      "pic_url": "https://p4.music.126.net/Te-OUV4pz7bFC0NOT55s6g==/109951174276709265.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -709,7 +790,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "Columbia Records China×深声不息",
-      "pic_url": "https://p4.music.126.net/c28pDXGUGhR8eQf02wcoCQ==/109951174270075551.jpg",
+      "pic_url": "https://p3.music.126.net/c28pDXGUGhR8eQf02wcoCQ==/109951174270075551.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1064,12 +1145,58 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "Force Music Recordings",
-      "pic_url": "https://p3.music.126.net/tYKmwKO4bNplxrPguKH0kw==/109951174229006209.jpg",
+      "pic_url": "https://p4.music.126.net/tYKmwKO4bNplxrPguKH0kw==/109951174229006209.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=407990605"
+    },
+    {
+      "id": 404753458,
+      "name": "The moon is watching (Original Soundtrack)",
+      "artists": [
+        {
+          "id": 16069,
+          "name": "阿南亮子"
+        }
+      ],
+      "artist_names": [
+        "阿南亮子"
+      ],
+      "publish_time": 1794931200000,
+      "publish_date": "2026-11-18",
+      "size": 24,
+      "company": "『月がみている』製作委員会",
+      "pic_url": "https://p3.music.126.net/FgpRtcw6zZR2nZBCjADOJg==/109951174134640039.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=404753458"
+    },
+    {
+      "id": 409575929,
+      "name": "The Mystics",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794931200000,
+      "publish_date": "2026-11-18",
+      "size": 12,
+      "company": "Independent",
+      "pic_url": "https://p4.music.126.net/lKI9R-C9ywbqOcC6acqYng==/109951174274826280.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409575929"
     },
     {
       "id": 407011442,
@@ -1248,7 +1375,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "(P)2026 Rii.MJ",
-      "pic_url": "https://p4.music.126.net/a-UhLEo6Ew9lDi983PTkTw==/109951174254688466.jpg",
+      "pic_url": "https://p3.music.126.net/a-UhLEo6Ew9lDi983PTkTw==/109951174254688466.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1585,7 +1712,7 @@
       "publish_date": "2026-11-18",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/l_hqWg5oDj00WT5Kuo8-lA==/109951174300073857.jpg",
+      "pic_url": "https://p3.music.126.net/l_hqWg5oDj00WT5Kuo8-lA==/109951174300073857.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1757,6 +1884,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=408235524"
+    },
+    {
+      "id": 410544642,
+      "name": "Christos Samaras: Whisper of the Future – Chamber Music II",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1794931200000,
+      "publish_date": "2026-11-18",
+      "size": 7,
+      "company": "Phasma-Music",
+      "pic_url": "https://p4.music.126.net/bSTIl54feLqHMYsazEvb4g==/109951174304667561.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410544642"
     },
     {
       "id": 410012018,
@@ -1940,7 +2090,7 @@
       "publish_date": "2026-11-18",
       "size": 4,
       "company": "LAPONE ENTERTAINMENT",
-      "pic_url": "https://p4.music.126.net/Pl4kZLMmgc94nVVjfFb-fg==/109951174076257028.jpg",
+      "pic_url": "https://p3.music.126.net/Pl4kZLMmgc94nVVjfFb-fg==/109951174076257028.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
