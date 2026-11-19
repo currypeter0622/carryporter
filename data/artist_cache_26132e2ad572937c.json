@@ -1,18 +1,46 @@
 {
-  "saved_at": 1795091060.0949824,
-  "count": 2233,
+  "saved_at": 1795116315.5838788,
+  "count": 2240,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2233,
-    "server_count": 2233,
+    "count": 2240,
+    "server_count": 2240,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1795091060.0949397
+    "saved_at": 1795116315.5838313
   },
   "artists": [
+    {
+      "id": "14092624",
+      "name": "Nyolfen"
+    },
+    {
+      "id": "125823615",
+      "name": "作田恒星"
+    },
+    {
+      "id": "46359616",
+      "name": "Sluiver"
+    },
+    {
+      "id": "27961752",
+      "name": "Immanuel Wilkins"
+    },
+    {
+      "id": "33737",
+      "name": "Frédéric François Chopin"
+    },
+    {
+      "id": "57675518",
+      "name": "KEKiite"
+    },
+    {
+      "id": "900198",
+      "name": "BK Beats"
+    },
     {
       "id": "53678173",
       "name": "明透"
