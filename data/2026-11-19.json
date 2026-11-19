@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T07:21:19.705518+08:00",
-  "count": 61,
+  "generated_at": "2026-11-19T10:26:48.871516+08:00",
+  "count": 63,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 19,
+        "target_count": 20,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -113,7 +113,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,11 +155,9 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 746,
-      "verified_target_count": 3,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "search_candidates": 747,
+      "verified_target_count": 4,
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2232,
@@ -172,7 +170,7 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795042084.13521,
+        "saved_at": 1795052895.6664257,
         "source": "live"
       },
       "relations": 86130,
@@ -184,12 +182,12 @@
       "date_hit_albums": 1320,
       "verify_artists": 810,
       "owned_failures": 0,
-      "external_hits": 500,
+      "external_hits": 501,
       "new_release_hits": 115,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 61
+    "unique_album_count": 63
   },
   "albums": [
     {
@@ -254,7 +252,7 @@
       "publish_date": "2026-11-19",
       "size": 2,
       "company": "独立发行",
-      "pic_url": "https://p3.music.126.net/D0Buo8FPwFxiCqsSeQCr6A==/109951174294310616.jpg",
+      "pic_url": "https://p4.music.126.net/D0Buo8FPwFxiCqsSeQCr6A==/109951174294310616.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -277,7 +275,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p4.music.126.net/NunaHtZ_kSZVz1xsIBRyWA==/109951174299335723.jpg",
+      "pic_url": "https://p3.music.126.net/NunaHtZ_kSZVz1xsIBRyWA==/109951174299335723.jpg",
       "sub_type": "现场版",
       "type": "Single",
       "status": 1,
@@ -448,7 +446,7 @@
       "publish_date": "2026-11-19",
       "size": 2,
       "company": "",
-      "pic_url": "https://p3.music.126.net/t6PqjmViJUHzCdxqv_zqmw==/109951174229636981.jpg",
+      "pic_url": "https://p4.music.126.net/t6PqjmViJUHzCdxqv_zqmw==/109951174229636981.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -471,7 +469,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "独立发行",
-      "pic_url": "https://p3.music.126.net/bgjaYeRkfowRjtohix-pLw==/109951174276683855.jpg",
+      "pic_url": "https://p4.music.126.net/bgjaYeRkfowRjtohix-pLw==/109951174276683855.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -540,7 +538,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "发现梦想",
-      "pic_url": "https://p4.music.126.net/SOoApSF0V9PC6BkgDQtoFA==/109951174270428239.jpg",
+      "pic_url": "https://p3.music.126.net/SOoApSF0V9PC6BkgDQtoFA==/109951174270428239.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -586,7 +584,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "滚石唱片",
-      "pic_url": "https://p4.music.126.net/ZBRWxfO_EVUYQWolwfi40A==/109951174299334316.jpg",
+      "pic_url": "https://p3.music.126.net/ZBRWxfO_EVUYQWolwfi40A==/109951174299334316.jpg",
       "sub_type": "现场版",
       "type": "Single",
       "status": 1,
@@ -609,7 +607,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "网易游戏",
-      "pic_url": "https://p4.music.126.net/2XGq12IPNc9YAd8sTshEFQ==/109951174296648146.jpg",
+      "pic_url": "https://p3.music.126.net/2XGq12IPNc9YAd8sTshEFQ==/109951174296648146.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -920,7 +918,7 @@
       "publish_date": "2026-11-19",
       "size": 1,
       "company": "Columbia Records China",
-      "pic_url": "https://p4.music.126.net/BaK4A46Cv5gXbwsoqdfZ9g==/109951174260128579.jpg",
+      "pic_url": "https://p3.music.126.net/BaK4A46Cv5gXbwsoqdfZ9g==/109951174260128579.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1468,7 +1466,7 @@
       "publish_date": "2026-11-19",
       "size": 11,
       "company": "FEVER烧",
-      "pic_url": "https://p3.music.126.net/dMCzvA0AfoovqnYzFZcvmw==/109951174306720491.jpg",
+      "pic_url": "https://p4.music.126.net/dMCzvA0AfoovqnYzFZcvmw==/109951174306720491.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1543,6 +1541,52 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=403925241"
+    },
+    {
+      "id": 410705700,
+      "name": "Dance Away Your Problems",
+      "artists": [
+        {
+          "id": 94564470,
+          "name": "Charlie Jeer"
+        }
+      ],
+      "artist_names": [
+        "Charlie Jeer"
+      ],
+      "publish_time": 1795017600000,
+      "publish_date": "2026-11-19",
+      "size": 11,
+      "company": "PLG - Capitol",
+      "pic_url": "https://p3.music.126.net/2yHEklMzY9AQ5HF10HhyCA==/109951174310289891.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410705700"
+    },
+    {
+      "id": 410692114,
+      "name": "Classical Music: Best of 2026",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1795017600000,
+      "publish_date": "2026-11-19",
+      "size": 50,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/hD-ZCMNMyY3TxwJc66T1UQ==/109951174308404831.jpg",
+      "sub_type": "录音室版",
+      "type": "精选集",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410692114"
     },
     {
       "id": 407839556,
