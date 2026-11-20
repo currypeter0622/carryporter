@@ -1,18 +1,22 @@
 {
-  "saved_at": 1795138988.4452703,
-  "count": 2240,
+  "saved_at": 1795177547.6556199,
+  "count": 2242,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2240,
-    "server_count": 2240,
+    "count": 2242,
+    "server_count": 2242,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1795138988.4452233
+    "saved_at": 1795177547.6555755
   },
   "artists": [
+    {
+      "id": "54834315",
+      "name": "Psyuri"
+    },
     {
       "id": "14092624",
       "name": "Nyolfen"
@@ -696,6 +700,10 @@
     {
       "id": "13808130",
       "name": "Dougy"
+    },
+    {
+      "id": "131135551",
+      "name": "PvrOXysM"
     },
     {
       "id": "12457258",
