@@ -906947,11 +906947,11 @@
       "小心绪"
     ],
     "size": 1,
-    "pic_url": "https://p4.music.126.net/GHbNL205vrUgVuIsvR2mCQ==/109951174258994233.jpg",
+    "pic_url": "https://p3.music.126.net/GHbNL205vrUgVuIsvR2mCQ==/109951174258994233.jpg",
     "company": "",
     "sub_type": "录音室版",
     "type": "Single",
-    "cached_at": 1795091050.7666452
+    "cached_at": 1795213690.834717
   },
   "408609828": {
     "album_id": "408609828",
@@ -978532,5 +978532,167 @@
         "name": "The Balcony Above Everything"
       }
     ]
+  },
+  "411163532": {
+    "album_id": "411163532",
+    "album_name": "勉強・集中のためのJ-POPインスト",
+    "date_str": "2026-11-21",
+    "publish_ts": 1795190400000,
+    "artist_ids": [
+      "21138"
+    ],
+    "artist_names": [
+      "V.A."
+    ],
+    "size": 31,
+    "pic_url": "https://p4.music.126.net/NSv5VvwQy6KyFXfhfP4vSw==/109951174321633045.jpg",
+    "company": "UME - Global Clearing House",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795215044.3385475,
+    "songs": [
+      {
+        "id": "3463946126",
+        "name": "GOOD DAY (Instrumental)"
+      },
+      {
+        "id": "3463946127",
+        "name": "Bunny Girl (Instrumental)"
+      },
+      {
+        "id": "3463946128",
+        "name": "全力少年 (backing track)"
+      },
+      {
+        "id": "3463946129",
+        "name": "最高到達点 (Instrumental)"
+      },
+      {
+        "id": "3463946130",
+        "name": "NIGHT DANCER (instrumental)"
+      },
+      {
+        "id": "3463944728",
+        "name": "好きだから。 (Instrumental)"
+      },
+      {
+        "id": "3463944729",
+        "name": "Melody (Instrumental)"
+      },
+      {
+        "id": "3463944730",
+        "name": "おやすみTaxi (Instrumental)"
+      },
+      {
+        "id": "3463944731",
+        "name": "Be... (Instrumental)"
+      },
+      {
+        "id": "3463944732",
+        "name": "TOKYO GIRL (Instrumental)"
+      },
+      {
+        "id": "3463946131",
+        "name": "Love me, Love you (Instrumental)"
+      },
+      {
+        "id": "3463944733",
+        "name": "奏(かなで) (Backing Track)"
+      },
+      {
+        "id": "3463944734",
+        "name": "Story （Instrumental）"
+      },
+      {
+        "id": "3463944735",
+        "name": "四季回生 (Instrumental)"
+      },
+      {
+        "id": "3463944736",
+        "name": "Vivid (Instrumental)"
+      },
+      {
+        "id": "3463946132",
+        "name": "琥珀 (Instrumental)"
+      },
+      {
+        "id": "3463944737",
+        "name": "僕のかわい子ちゃん (Instrumental)"
+      },
+      {
+        "id": "3463946133",
+        "name": "Golden (Instrumental)"
+      },
+      {
+        "id": "3463944738",
+        "name": "かたち あるもの（Backing Track）"
+      },
+      {
+        "id": "3463946134",
+        "name": "生きてることが辛いなら (Instrumental)"
+      },
+      {
+        "id": "3463944739",
+        "name": "我逢人 (Instrumental)"
+      },
+      {
+        "id": "3463944740",
+        "name": "君に逢いたかった (Instrumental)"
+      },
+      {
+        "id": "3463944741",
+        "name": "両片想い (instrumental)"
+      },
+      {
+        "id": "3463944742",
+        "name": "サイン（Instrumental）"
+      },
+      {
+        "id": "3463944743",
+        "name": "愛とU (Instrumental)"
+      },
+      {
+        "id": "3463946135",
+        "name": "ボクノート (backing track)"
+      },
+      {
+        "id": "3463944744",
+        "name": "BAD (Instrumental)"
+      },
+      {
+        "id": "3463946136",
+        "name": "Kiss Kiss Kiss (Instrumental)"
+      },
+      {
+        "id": "3463944745",
+        "name": "ポリゴンウェイヴ (Instrumental)"
+      },
+      {
+        "id": "3463944746",
+        "name": "手紙 （Instrumental）"
+      },
+      {
+        "id": "3463944747",
+        "name": "メイラード (Instrumental)"
+      }
+    ]
+  },
+  "411060144": {
+    "album_id": "411060144",
+    "album_name": "洛天依唱的小曲",
+    "date_str": "2026-11-21",
+    "publish_ts": 1795190400000,
+    "artist_ids": [
+      "124300361"
+    ],
+    "artist_names": [
+      "EasonBread"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/JimE1eH6roPgIrfK_YkJNQ==/109951174321566734.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795214957.3246787
   }
 }
