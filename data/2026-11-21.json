@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
-  "generated_at": "2026-11-21T06:56:09.216545+08:00",
-  "count": 59,
+  "generated_at": "2026-11-21T09:43:49.951470+08:00",
+  "count": 62,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 19,
+        "target_count": 22,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 16,
+        "target_count": 18,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 2,
+        "target_count": 3,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 10,
+        "target_count": 12,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 753,
+      "search_candidates": 756,
       "verified_target_count": 3,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795213698.300855,
+        "saved_at": 1795223461.4903886,
         "source": "live"
       },
-      "relations": 86571,
-      "new_album_candidates": 138,
-      "unique_albums": 39416,
-      "detail_success": 39415,
+      "relations": 86578,
+      "new_album_candidates": 143,
+      "unique_albums": 39421,
+      "detail_success": 39420,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1348,
-      "verify_artists": 819,
+      "date_hit_albums": 1354,
+      "verify_artists": 828,
       "owned_failures": 0,
-      "external_hits": 514,
-      "new_release_hits": 195,
+      "external_hits": 515,
+      "new_release_hits": 201,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 59
+    "unique_album_count": 62
   },
   "albums": [
     {
@@ -234,7 +234,7 @@
       "publish_date": "2026-11-21",
       "size": 2,
       "company": "乐氧（上海）文化",
-      "pic_url": "https://p4.music.126.net/AKqm7xPKAMnmA5GKOIewxg==/109951174306667762.jpg",
+      "pic_url": "https://p3.music.126.net/AKqm7xPKAMnmA5GKOIewxg==/109951174306667762.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -313,7 +313,7 @@
       "publish_date": "2026-11-21",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/0_1RaKJA47lMITOmtnrW2A==/109951174317661080.jpg",
+      "pic_url": "https://p4.music.126.net/0_1RaKJA47lMITOmtnrW2A==/109951174317661080.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -336,12 +336,40 @@
       "publish_date": "2026-11-21",
       "size": 5,
       "company": "",
-      "pic_url": "https://p4.music.126.net/AUN_I3eA-7dzAv50jtwA4Q==/109951174305892878.jpg",
+      "pic_url": "https://p3.music.126.net/AUN_I3eA-7dzAv50jtwA4Q==/109951174305892878.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=410599840"
+    },
+    {
+      "id": 411049224,
+      "name": "朝享太庙赋",
+      "artists": [
+        {
+          "id": 2515,
+          "name": "窦唯"
+        },
+        {
+          "id": 33154502,
+          "name": "朝简"
+        }
+      ],
+      "artist_names": [
+        "窦唯",
+        "朝简"
+      ],
+      "publish_time": 1795190400000,
+      "publish_date": "2026-11-21",
+      "size": 1,
+      "company": "北京窦唯音乐工作室",
+      "pic_url": "https://p3.music.126.net/Riig9Oscvwar7yk71hqGDQ==/109951174317893864.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411049224"
     },
     {
       "id": 410140942,
@@ -433,7 +461,7 @@
       "publish_date": "2026-11-21",
       "size": 1,
       "company": "AYO!",
-      "pic_url": "https://p4.music.126.net/THUVQmychLO2x_VCwmCbjA==/109951174311601937.jpg",
+      "pic_url": "https://p3.music.126.net/THUVQmychLO2x_VCwmCbjA==/109951174311601937.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -456,7 +484,7 @@
       "publish_date": "2026-11-21",
       "size": 2,
       "company": "讯飞音乐液氧工作室",
-      "pic_url": "https://p3.music.126.net/D3L_UV0m9ZBIa-Dl6GWGDQ==/109951174295183415.jpg",
+      "pic_url": "https://p4.music.126.net/D3L_UV0m9ZBIa-Dl6GWGDQ==/109951174295183415.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -479,7 +507,7 @@
       "publish_date": "2026-11-21",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/2l8QBMJkv19ysipsoLPeZw==/109951174316467636.jpg",
+      "pic_url": "https://p4.music.126.net/2l8QBMJkv19ysipsoLPeZw==/109951174316467636.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": null,
@@ -525,7 +553,7 @@
       "publish_date": "2026-11-21",
       "size": 8,
       "company": "",
-      "pic_url": "https://p3.music.126.net/Z8Vj3Goc9cYFGBLJuDpBPw==/109951174318400221.jpg",
+      "pic_url": "https://p4.music.126.net/Z8Vj3Goc9cYFGBLJuDpBPw==/109951174318400221.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -594,12 +622,58 @@
       "publish_date": "2026-11-21",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/asFBenRpSm_EsAWgQmuJGg==/109951174275752025.jpg",
+      "pic_url": "https://p3.music.126.net/asFBenRpSm_EsAWgQmuJGg==/109951174275752025.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=409633376"
+    },
+    {
+      "id": 411076987,
+      "name": "不予命名的一切",
+      "artists": [
+        {
+          "id": "129069515",
+          "name": "_朝朔_"
+        }
+      ],
+      "artist_names": [
+        "_朝朔_"
+      ],
+      "publish_time": 1795190400000,
+      "publish_date": "2026-11-21",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/8JVbk4QGl-3KaHUS1z9HIQ==/109951174321864810.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411076987"
+    },
+    {
+      "id": 409407537,
+      "name": "一梦",
+      "artists": [
+        {
+          "id": 30285885,
+          "name": "邓寓君（等什么君）"
+        }
+      ],
+      "artist_names": [
+        "邓寓君（等什么君）"
+      ],
+      "publish_time": 1795190400000,
+      "publish_date": "2026-11-21",
+      "size": 2,
+      "company": "北京造梦嘉文化传媒有限公司",
+      "pic_url": "https://p3.music.126.net/SCSfj67R87dBzxFaM8SYoA==/109951174269313800.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409407537"
     },
     {
       "id": 409400664,
@@ -640,7 +714,7 @@
       "publish_date": "2026-11-21",
       "size": 5,
       "company": "HIBIWARE RECORDS",
-      "pic_url": "https://p3.music.126.net/Ie1yEN4ir53PEMXzw5_pPw==/109951174289355643.jpg",
+      "pic_url": "https://p4.music.126.net/Ie1yEN4ir53PEMXzw5_pPw==/109951174289355643.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -793,7 +867,7 @@
       "publish_date": "2026-11-21",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/teRV-CNDFjBiTmsOoQKb9A==/109951174317899738.jpg",
+      "pic_url": "https://p3.music.126.net/teRV-CNDFjBiTmsOoQKb9A==/109951174317899738.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
