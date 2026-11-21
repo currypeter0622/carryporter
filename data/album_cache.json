@@ -982538,5 +982538,47 @@
         "name": "A Little Room for You"
       }
     ]
+  },
+  "411280747": {
+    "album_id": "411280747",
+    "album_name": "Weavers(司凤版)",
+    "date_str": "2026-11-22",
+    "publish_ts": 1795276800000,
+    "artist_ids": [
+      "123264868"
+    ],
+    "artist_names": [
+      "INSNAP"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/YufrIWtlqqjhTAw8kmnhZg==/109951174327302004.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795297715.316964,
+    "songs": [
+      {
+        "id": "3464265838",
+        "name": "Weavers(司凤版)"
+      }
+    ]
+  },
+  "411280779": {
+    "album_id": "411280779",
+    "album_name": "屿奈",
+    "date_str": "2026-11-22",
+    "publish_ts": 1795276800000,
+    "artist_ids": [
+      "129473204"
+    ],
+    "artist_names": [
+      "Mews'P"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/eodCyfJYBR7CwhGcYupEMw==/109951174327448736.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795297717.025912
   }
 }
