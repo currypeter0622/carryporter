@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T02:48:26.435120+08:00",
+  "generated_at": "2026-11-23T05:57:36.522880+08:00",
   "count": 46,
   "scan": {
     "mode": "full",
@@ -154,10 +154,12 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 750,
+      "queries_ok": 8,
+      "search_candidates": 652,
       "verified_target_count": 5,
-      "errors": []
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
       "artists": 2244,
@@ -170,7 +172,7 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795371474.292716,
+        "saved_at": 1795382765.089056,
         "source": "live"
       },
       "relations": 86687,
@@ -179,10 +181,10 @@
       "detail_success": 39448,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1247,
+      "date_hit_albums": 1248,
       "verify_artists": 752,
       "owned_failures": 0,
-      "external_hits": 457,
+      "external_hits": 458,
       "new_release_hits": 73,
       "complete_candidate_pool": true,
       "artist_failures": 0
@@ -323,7 +325,7 @@
       "publish_date": "2026-11-23",
       "size": 2,
       "company": "广州音希和鸣文化有限公司",
-      "pic_url": "https://p3.music.126.net/jcPPt9nwJzpZpvn6nVvvdA==/109951174149698006.jpg",
+      "pic_url": "https://p4.music.126.net/jcPPt9nwJzpZpvn6nVvvdA==/109951174149698006.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,

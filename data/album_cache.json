@@ -393455,11 +393455,11 @@
       "Various Artists"
     ],
     "size": 30,
-    "pic_url": "https://p3.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
+    "pic_url": "https://p4.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1795351302.1953065
+    "cached_at": 1795384211.838855
   },
   "265689789": {
     "album_id": "265689789",
@@ -987141,5 +987141,23 @@
         "name": "Deepest Blue (Ballroom)"
       }
     ]
+  },
+  "411481862": {
+    "album_id": "411481862",
+    "album_name": "Rebirth",
+    "date_str": "2026-11-11",
+    "publish_ts": 1794326400000,
+    "artist_ids": [
+      "104700"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 10,
+    "pic_url": "https://p4.music.126.net/QTSDb7Vwo4qkHBwsHwfrTA==/109951174333667879.jpg",
+    "company": "grief",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795384222.3917987
   }
 }
