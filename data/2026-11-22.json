@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generated_at": "2026-11-22T05:56:35.079913+08:00",
+  "generated_at": "2026-11-22T08:45:17.363598+08:00",
   "count": 40,
   "scan": {
     "mode": "full",
@@ -155,11 +155,9 @@
         "华语群星"
       ],
       "queries_ok": 8,
-      "search_candidates": 653,
+      "search_candidates": 749,
       "verified_target_count": 3,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2243,
@@ -172,20 +170,20 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795295997.933916,
+        "saved_at": 1795306220.9609706,
         "source": "live"
       },
-      "relations": 86638,
-      "new_album_candidates": 49,
-      "unique_albums": 39431,
-      "detail_success": 39430,
+      "relations": 86623,
+      "new_album_candidates": 50,
+      "unique_albums": 39421,
+      "detail_success": 39420,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1322,
+      "date_hit_albums": 1323,
       "verify_artists": 819,
       "owned_failures": 0,
       "external_hits": 511,
-      "new_release_hits": 92,
+      "new_release_hits": 93,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
@@ -361,7 +359,7 @@
       "publish_date": "2026-11-22",
       "size": 5,
       "company": "嘻哈融合体",
-      "pic_url": "https://p3.music.126.net/vVWcIg4JFBVIJGryPAL8Dw==/109951174305024849.jpg",
+      "pic_url": "https://p4.music.126.net/vVWcIg4JFBVIJGryPAL8Dw==/109951174305024849.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -384,7 +382,7 @@
       "publish_date": "2026-11-22",
       "size": 1,
       "company": "白桜ユキ",
-      "pic_url": "https://p4.music.126.net/UN8Y4tKglgH3s337jnWL_A==/109951174298683699.jpg",
+      "pic_url": "https://p3.music.126.net/UN8Y4tKglgH3s337jnWL_A==/109951174298683699.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -621,7 +619,7 @@
       "publish_date": "2026-11-22",
       "size": 1,
       "company": "夕阳音乐产业有限公司",
-      "pic_url": "https://p4.music.126.net/1qWPUq_lxpYUHUeRmzjEhw==/109951174317495478.jpg",
+      "pic_url": "https://p3.music.126.net/1qWPUq_lxpYUHUeRmzjEhw==/109951174317495478.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1012,7 +1010,7 @@
       "publish_date": "2026-11-22",
       "size": 1,
       "company": "钟辰乐工作室",
-      "pic_url": "https://p4.music.126.net/NLD1ZEUrpPNs8Rv1ZO2Qyw==/109951174306935100.jpg",
+      "pic_url": "https://p3.music.126.net/NLD1ZEUrpPNs8Rv1ZO2Qyw==/109951174306935100.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
