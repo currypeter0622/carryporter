@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T05:57:36.522880+08:00",
-  "count": 46,
+  "generated_at": "2026-11-23T09:23:13.266818+08:00",
+  "count": 47,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 5,
+        "target_count": 7,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 5,
+        "target_count": 6,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 1,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 4,
+        "target_count": 5,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -154,8 +154,8 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 652,
+      "queries_ok": 9,
+      "search_candidates": 749,
       "verified_target_count": 5,
       "errors": [
         "华语群星: /search 请求失败：/search GET/POST 405"
@@ -172,24 +172,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795382765.089056,
+        "saved_at": 1795394441.320765,
         "source": "live"
       },
       "relations": 86687,
       "new_album_candidates": 49,
-      "unique_albums": 39449,
-      "detail_success": 39448,
+      "unique_albums": 39447,
+      "detail_success": 39446,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1248,
+      "date_hit_albums": 1246,
       "verify_artists": 752,
       "owned_failures": 0,
-      "external_hits": 458,
-      "new_release_hits": 73,
+      "external_hits": 459,
+      "new_release_hits": 74,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 46
+    "unique_album_count": 47
   },
   "albums": [
     {
@@ -325,7 +325,7 @@
       "publish_date": "2026-11-23",
       "size": 2,
       "company": "广州音希和鸣文化有限公司",
-      "pic_url": "https://p4.music.126.net/jcPPt9nwJzpZpvn6nVvvdA==/109951174149698006.jpg",
+      "pic_url": "https://p3.music.126.net/jcPPt9nwJzpZpvn6nVvvdA==/109951174149698006.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -348,7 +348,7 @@
       "publish_date": "2026-11-23",
       "size": 4,
       "company": "天娱传媒",
-      "pic_url": "https://p4.music.126.net/mr-TEseggcI-j9mGmlY3eQ==/109951174329340502.jpg",
+      "pic_url": "https://p3.music.126.net/mr-TEseggcI-j9mGmlY3eQ==/109951174329340502.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -512,6 +512,54 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=406331816"
+    },
+    {
+      "id": 409407653,
+      "name": "《十万狂花入梦来》影视原声大碟",
+      "artists": [
+        {
+          "id": 1030001,
+          "name": "周深"
+        },
+        {
+          "id": 14077324,
+          "name": "黄霄雲"
+        },
+        {
+          "id": 7534,
+          "name": "丁当"
+        },
+        {
+          "id": 10695,
+          "name": "张远"
+        },
+        {
+          "id": 30285885,
+          "name": "邓寓君（等什么君）"
+        },
+        {
+          "id": 14714043,
+          "name": "陈卓璇"
+        }
+      ],
+      "artist_names": [
+        "周深",
+        "黄霄雲",
+        "丁当",
+        "张远",
+        "邓寓君（等什么君）",
+        "陈卓璇"
+      ],
+      "publish_time": 1795363200000,
+      "publish_date": "2026-11-23",
+      "size": 12,
+      "company": "北京造梦嘉文化传媒有限公司",
+      "pic_url": "https://p4.music.126.net/SF5st0Af-3l7tHF0i6DAEQ==/109951174299576008.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409407653"
     },
     {
       "id": 396389257,
