@@ -1,18 +1,30 @@
 {
-  "saved_at": 1795495318.2892325,
-  "count": 2246,
+  "saved_at": 1795530603.7681525,
+  "count": 2249,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2246,
-    "server_count": 2246,
+    "count": 2249,
+    "server_count": 2249,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1795495318.2891922
+    "saved_at": 1795530603.7681127
   },
   "artists": [
+    {
+      "id": "123993414",
+      "name": "Rio Momose"
+    },
+    {
+      "id": "131102789",
+      "name": "Superdou"
+    },
+    {
+      "id": "59096301",
+      "name": "moyu"
+    },
     {
       "id": "37654603",
       "name": "Solomon France"
