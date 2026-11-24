@@ -1,18 +1,26 @@
 {
-  "saved_at": 1795530603.7681525,
-  "count": 2249,
+  "saved_at": 1795554179.9893036,
+  "count": 2251,
   "meta": {
     "method": "GET",
     "limit": 500,
-    "count": 2249,
-    "server_count": 2249,
+    "count": 2251,
+    "server_count": 2251,
     "end_reason": "server_count_reached",
     "complete_confirmed": true,
     "had_repeat": false,
     "error": null,
-    "saved_at": 1795530603.7681127
+    "saved_at": 1795554179.9892635
   },
   "artists": [
+    {
+      "id": "94223",
+      "name": "Hallucinator"
+    },
+    {
+      "id": "94531141",
+      "name": "Alchemical Sisters"
+    },
     {
       "id": "123993414",
       "name": "Rio Momose"
