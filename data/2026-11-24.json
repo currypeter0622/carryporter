@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T07:09:05.082593+08:00",
-  "count": 46,
+  "generated_at": "2026-11-24T11:18:52.911225+08:00",
+  "count": 50,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 13,
+        "target_count": 15,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 7,
+        "target_count": 8,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 1,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 5,
+        "target_count": 6,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -113,7 +113,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 0,
+        "target_count": 1,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 7,
-      "search_candidates": 550,
+      "search_candidates": 551,
       "verified_target_count": 4,
       "errors": []
     },
@@ -170,26 +170,49 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795473044.051166,
+        "saved_at": 1795488156.9828992,
         "source": "live"
       },
-      "relations": 86805,
-      "new_album_candidates": 61,
-      "unique_albums": 39552,
-      "detail_success": 39551,
+      "relations": 86813,
+      "new_album_candidates": 62,
+      "unique_albums": 39556,
+      "detail_success": 39555,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1264,
+      "date_hit_albums": 1266,
       "verify_artists": 745,
       "owned_failures": 0,
-      "external_hits": 461,
-      "new_release_hits": 87,
+      "external_hits": 462,
+      "new_release_hits": 88,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 46
+    "unique_album_count": 50
   },
   "albums": [
+    {
+      "id": 411723555,
+      "name": "우리들의 발라드 2 Story 8",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1795449600000,
+      "publish_date": "2026-11-24",
+      "size": 5,
+      "company": "Kakao Entertainment Corp.",
+      "pic_url": "https://p3.music.126.net/7VFUkgpzWuvs_X_4k5aTHw==/109951174339517161.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411723555"
+    },
     {
       "id": 411547973,
       "name": "黄昏长椅",
@@ -206,7 +229,7 @@
       "publish_date": "2026-11-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/yfCFf1h_dI8cA-MXZja5VQ==/109951174335248047.jpg",
+      "pic_url": "https://p3.music.126.net/yfCFf1h_dI8cA-MXZja5VQ==/109951174335248047.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -280,7 +303,7 @@
       "publish_date": "2026-11-24",
       "size": 1,
       "company": "海蝶音乐",
-      "pic_url": "https://p3.music.126.net/TXh9C4CPshWtmI5tz4LseQ==/109951174317331169.jpg",
+      "pic_url": "https://p4.music.126.net/TXh9C4CPshWtmI5tz4LseQ==/109951174317331169.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -418,7 +441,7 @@
       "publish_date": "2026-11-24",
       "size": 1,
       "company": "星空飞腾国际娱乐股份有限公司 M.Star Entertainment Ltd.",
-      "pic_url": "https://p3.music.126.net/hnoTjAKIzD4sd270NUQEbw==/109951174335071094.jpg",
+      "pic_url": "https://p3.music.126.net/8gKnFrcRpPJd08RVfd1_Ag==/109951174339429334.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -498,6 +521,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=410603254"
+    },
+    {
+      "id": 411567190,
+      "name": "仰天一笑（电影《仰天一笑》主题曲）",
+      "artists": [
+        {
+          "id": 30513701,
+          "name": "陆思恒"
+        }
+      ],
+      "artist_names": [
+        "陆思恒"
+      ],
+      "publish_time": 1795449600000,
+      "publish_date": "2026-11-24",
+      "size": 2,
+      "company": "百纳娱乐",
+      "pic_url": "https://p4.music.126.net/uPJEHttcdXCsqc5xN-qLEA==/109951174335562227.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411567190"
     },
     {
       "id": 410245387,
@@ -845,6 +891,29 @@
       "url": "https://music.163.com/#/album?id=401557162"
     },
     {
+      "id": 411044737,
+      "name": "Stop Hejt",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1795449600000,
+      "publish_date": "2026-11-24",
+      "size": 1,
+      "company": "Delousse",
+      "pic_url": "https://p3.music.126.net/ADBwrIHjDRE82Zbf3XSqVw==/109951174317793780.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411044737"
+    },
+    {
       "id": 411519563,
       "name": "Revival",
       "artists": [
@@ -860,7 +929,7 @@
       "publish_date": "2026-11-24",
       "size": 13,
       "company": "纳吉音 Negia Entertainment",
-      "pic_url": "https://p3.music.126.net/UAuO_iAt7KwiWQEqPGo9YA==/109951174318024901.jpg",
+      "pic_url": "https://p4.music.126.net/UAuO_iAt7KwiWQEqPGo9YA==/109951174318024901.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -958,6 +1027,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409776278"
+    },
+    {
+      "id": 410250423,
+      "name": "Lie To Me (Nightcore)",
+      "artists": [
+        {
+          "id": 12031048,
+          "name": "Terror Jr"
+        }
+      ],
+      "artist_names": [
+        "Terror Jr"
+      ],
+      "publish_time": 1795449600000,
+      "publish_date": "2026-11-24",
+      "size": 2,
+      "company": "Rebellion Records",
+      "pic_url": "https://p3.music.126.net/IGjwEOGcZhO5VuakJPnE_Q==/109951174296763579.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410250423"
     },
     {
       "id": 382717170,
@@ -1128,7 +1220,7 @@
       "publish_date": "2026-11-24",
       "size": 10,
       "company": "Create Capital",
-      "pic_url": "https://p3.music.126.net/Uc5DTTE8A6fIIIJMNS4F7w==/109951174274290518.jpg",
+      "pic_url": "https://p4.music.126.net/Uc5DTTE8A6fIIIJMNS4F7w==/109951174274290518.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
