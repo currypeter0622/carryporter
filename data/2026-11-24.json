@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T11:18:52.911225+08:00",
-  "count": 50,
+  "generated_at": "2026-11-24T13:21:21.265307+08:00",
+  "count": 53,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 15,
+        "target_count": 16,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 8,
+        "target_count": 9,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 6,
+        "target_count": 7,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,8 +155,8 @@
         "华语群星"
       ],
       "queries_ok": 7,
-      "search_candidates": 551,
-      "verified_target_count": 4,
+      "search_candidates": 552,
+      "verified_target_count": 5,
       "errors": []
     },
     "reference_candidate_pool": {
@@ -170,7 +170,7 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795488156.9828992,
+        "saved_at": 1795495318.2891922,
         "source": "live"
       },
       "relations": 86813,
@@ -179,15 +179,15 @@
       "detail_success": 39555,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1266,
+      "date_hit_albums": 1267,
       "verify_artists": 745,
       "owned_failures": 0,
-      "external_hits": 462,
-      "new_release_hits": 88,
+      "external_hits": 463,
+      "new_release_hits": 91,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 50
+    "unique_album_count": 53
   },
   "albums": [
     {
@@ -229,7 +229,7 @@
       "publish_date": "2026-11-24",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/yfCFf1h_dI8cA-MXZja5VQ==/109951174335248047.jpg",
+      "pic_url": "https://p4.music.126.net/yfCFf1h_dI8cA-MXZja5VQ==/109951174335248047.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -303,12 +303,35 @@
       "publish_date": "2026-11-24",
       "size": 1,
       "company": "海蝶音乐",
-      "pic_url": "https://p4.music.126.net/TXh9C4CPshWtmI5tz4LseQ==/109951174317331169.jpg",
+      "pic_url": "https://p3.music.126.net/TXh9C4CPshWtmI5tz4LseQ==/109951174317331169.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=411023813"
+    },
+    {
+      "id": 411596908,
+      "name": "罪",
+      "artists": [
+        {
+          "id": 62317955,
+          "name": "PainfulONE"
+        }
+      ],
+      "artist_names": [
+        "PainfulONE"
+      ],
+      "publish_time": 1795449600000,
+      "publish_date": "2026-11-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/dvgX5AKOqvV7WYZjpHKfTg==/109951174338320209.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411596908"
     },
     {
       "id": 409453830,
@@ -418,7 +441,7 @@
       "publish_date": "2026-11-24",
       "size": 2,
       "company": "天娱传媒",
-      "pic_url": "https://p4.music.126.net/LP2-bI3H06ZYK958VNKahw==/109951174334992059.jpg",
+      "pic_url": "https://p3.music.126.net/LP2-bI3H06ZYK958VNKahw==/109951174334992059.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -447,6 +470,52 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=411540025"
+    },
+    {
+      "id": 411615971,
+      "name": "摇滚的你",
+      "artists": [
+        {
+          "id": "97756971",
+          "name": "的确如此如确的"
+        }
+      ],
+      "artist_names": [
+        "的确如此如确的"
+      ],
+      "publish_time": 1795449600000,
+      "publish_date": "2026-11-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/yYXPtEZxbW6KJFeA-Mohxg==/109951174339547682.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411615971"
+    },
+    {
+      "id": 411622089,
+      "name": "携清风下山",
+      "artists": [
+        {
+          "id": "60890848",
+          "name": "曹稳健"
+        }
+      ],
+      "artist_names": [
+        "曹稳健"
+      ],
+      "publish_time": 1795449600000,
+      "publish_date": "2026-11-24",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/eZDgfM0IRaFoIluFUhBbaw==/109951174339854021.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411622089"
     },
     {
       "id": 411572920,
@@ -515,7 +584,7 @@
       "publish_date": "2026-11-24",
       "size": 1,
       "company": "Columbia Records China",
-      "pic_url": "https://p3.music.126.net/FvA3tb3HXkfC2e2FNWfT2Q==/109951174305944447.jpg",
+      "pic_url": "https://p4.music.126.net/FvA3tb3HXkfC2e2FNWfT2Q==/109951174305944447.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -929,7 +998,7 @@
       "publish_date": "2026-11-24",
       "size": 13,
       "company": "纳吉音 Negia Entertainment",
-      "pic_url": "https://p4.music.126.net/UAuO_iAt7KwiWQEqPGo9YA==/109951174318024901.jpg",
+      "pic_url": "https://p3.music.126.net/UAuO_iAt7KwiWQEqPGo9YA==/109951174318024901.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1044,7 +1113,7 @@
       "publish_date": "2026-11-24",
       "size": 2,
       "company": "Rebellion Records",
-      "pic_url": "https://p3.music.126.net/IGjwEOGcZhO5VuakJPnE_Q==/109951174296763579.jpg",
+      "pic_url": "https://p4.music.126.net/IGjwEOGcZhO5VuakJPnE_Q==/109951174296763579.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,

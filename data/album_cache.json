@@ -393455,11 +393455,11 @@
       "Various Artists"
     ],
     "size": 30,
-    "pic_url": "https://p4.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
+    "pic_url": "https://p3.music.126.net/eJ9z0JIrYbNoMTsNPul0hQ==/109951165275988977.jpg",
     "company": "看见网络",
     "sub_type": "录音室版",
     "type": "专辑",
-    "cached_at": 1795474801.7309663
+    "cached_at": 1795497124.6580675
   },
   "265689789": {
     "album_id": "265689789",
@@ -988226,7 +988226,7 @@
   },
   "411556776": {
     "album_id": "411556776",
-    "album_name": "江湖四海",
+    "album_name": "江湖似海",
     "date_str": "2026-11-23",
     "publish_ts": 1795363200000,
     "artist_ids": [
@@ -988236,11 +988236,11 @@
       "曹稳健"
     ],
     "size": 1,
-    "pic_url": "https://p3.music.126.net/wf-inoEFR1u3-J3BercYLw==/109951174336546005.jpg",
+    "pic_url": "https://p3.music.126.net/80vtkSGK7PzQxro9jBTOWA==/109951174339870041.jpg",
     "company": "",
     "sub_type": "录音室版",
     "type": "Single",
-    "cached_at": 1795489621.470041
+    "cached_at": 1795497053.9197462
   },
   "411534355": {
     "album_id": "411534355",
@@ -992987,5 +992987,77 @@
         "name": "사랑이라 믿었던 것들은"
       }
     ]
+  },
+  "490008": {
+    "album_id": "490008",
+    "album_name": "水晶之恋 偶像剧原声带",
+    "date_str": "2003-06-09",
+    "publish_ts": 1055088000000,
+    "artist_ids": [
+      "122455"
+    ],
+    "artist_names": [
+      "群星"
+    ],
+    "size": 13,
+    "pic_url": "https://p3.music.126.net/92KJIVDeHld0g0awGS6sCA==/109951164912207669.jpg",
+    "company": "周易影视",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795495308.571233
+  },
+  "411622089": {
+    "album_id": "411622089",
+    "album_name": "携清风下山",
+    "date_str": "2026-11-24",
+    "publish_ts": 1795449600000,
+    "artist_ids": [
+      "60890848"
+    ],
+    "artist_names": [
+      "曹稳健"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/eZDgfM0IRaFoIluFUhBbaw==/109951174339854021.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795497053.6786964
+  },
+  "411615971": {
+    "album_id": "411615971",
+    "album_name": "摇滚的你",
+    "date_str": "2026-11-24",
+    "publish_ts": 1795449600000,
+    "artist_ids": [
+      "97756971"
+    ],
+    "artist_names": [
+      "的确如此如确的"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/yYXPtEZxbW6KJFeA-Mohxg==/109951174339547682.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795497053.9067683
+  },
+  "411733922": {
+    "album_id": "411733922",
+    "album_name": "Broke (feat. Apolo)",
+    "date_str": "2026-11-23",
+    "publish_ts": 1795363200000,
+    "artist_ids": [
+      "94808242"
+    ],
+    "artist_names": [
+      "YKZA"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/dOOoMBsYTyNVKkEpolxkrg==/109951174339743638.jpg",
+    "company": "Yakuza",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795497073.441633
   }
 }
