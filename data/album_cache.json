@@ -998074,7 +998074,7 @@
   },
   "409582804": {
     "album_id": "409582804",
-    "album_name": "First Cut (Original)",
+    "album_name": "First Cut",
     "date_str": "2026-11-25",
     "publish_ts": 1795536000000,
     "artist_ids": [
@@ -998088,7 +998088,7 @@
     "company": "JPSM Records",
     "sub_type": "录音室版",
     "type": "EP",
-    "cached_at": 1795555925.3313086,
+    "cached_at": 1795567329.5765214,
     "songs": [
       {
         "id": "3460833036",
@@ -998096,11 +998096,11 @@
       },
       {
         "id": "3460833037",
-        "name": "Find A Love (Original)"
+        "name": "Find A Love"
       },
       {
         "id": "3460833038",
-        "name": "Shine (Original)"
+        "name": "Shine"
       },
       {
         "id": "3460833039",
@@ -998108,11 +998108,11 @@
       },
       {
         "id": "3460832323",
-        "name": "Sweet Girl (Original)"
+        "name": "Sweet Girl"
       },
       {
         "id": "3460832324",
-        "name": "Barefoot Walking (Original)"
+        "name": "Barefoot Walking"
       }
     ]
   },
@@ -998865,6 +998865,252 @@
       {
         "id": "3462852899",
         "name": "ネガイ・スペシャリスト inst"
+      }
+    ]
+  },
+  "411868239": {
+    "album_id": "411868239",
+    "album_name": "\"Explore\"",
+    "date_str": "2026-11-25",
+    "publish_ts": 1795536000000,
+    "artist_ids": [
+      "122519622"
+    ],
+    "artist_names": [
+      "Fisher.漁"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/y1hmd3RgIWanLCZK90taZg==/109951174344443966.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795567258.1336164
+  },
+  "409969496": {
+    "album_id": "409969496",
+    "album_name": "I Love My Computer, All My Friends Are Inside It",
+    "date_str": "2026-11-25",
+    "publish_ts": 1795536000000,
+    "artist_ids": [
+      "12279106"
+    ],
+    "artist_names": [
+      "Ninajirachi"
+    ],
+    "size": 20,
+    "pic_url": "https://p4.music.126.net/odLRde8h6x6ZrZG8ooNaAg==/109951174342585610.jpg",
+    "company": "NLV Records",
+    "sub_type": "Remix",
+    "type": "专辑",
+    "cached_at": 1795567316.3647466,
+    "songs": [
+      {
+        "id": "3461609997",
+        "name": "London Song (Genesis Owusu Remix)"
+      },
+      {
+        "id": "3461607775",
+        "name": "neva been 2 london (Wet Leg Remix)"
+      },
+      {
+        "id": "3461607776",
+        "name": "iPod Touch (Madeon Remix)"
+      },
+      {
+        "id": "3461609998",
+        "name": "iPod Touch (nate sib & kimj Remix)"
+      },
+      {
+        "id": "3461607777",
+        "name": "**** My Computer (Frost Children Remix)"
+      },
+      {
+        "id": "3461609999",
+        "name": "**** Mon Ordinateur"
+      },
+      {
+        "id": "3461610001",
+        "name": "CSIRAC - DJ_Dave Live Code Edit"
+      },
+      {
+        "id": "3461607778",
+        "name": "CSIRAC (Dylan Brady Remix)"
+      },
+      {
+        "id": "3461607779",
+        "name": "CSIRAC (Effy Remix)"
+      },
+      {
+        "id": "3461610002",
+        "name": "Delete (horsegiirL Remix)"
+      },
+      {
+        "id": "3461607780",
+        "name": "Delete (DJ Love's Budots World Remix)"
+      },
+      {
+        "id": "3461610003",
+        "name": "ฅ^•ﻌ•^ฅ (Nikki Nair's ૮˶• ﻌ •˶ა Version)"
+      },
+      {
+        "id": "3461607781",
+        "name": "All I Am (Nina Las Vegas & Swick Remix)"
+      },
+      {
+        "id": "3461610004",
+        "name": "Infohazard (Jonny Chopps Remix)"
+      },
+      {
+        "id": "3461610005",
+        "name": "Dreamhazard"
+      },
+      {
+        "id": "3461610006",
+        "name": "Battery Death / Took It Too Far"
+      },
+      {
+        "id": "3461610007",
+        "name": "Battery Death (Syzy Version)"
+      },
+      {
+        "id": "3461610008",
+        "name": "Really Sing Good"
+      },
+      {
+        "id": "3461607782",
+        "name": "It's You (underscores' \"It’s U\" Remix)"
+      },
+      {
+        "id": "3461610009",
+        "name": "All At Once (Lonelyspeck Remix)"
+      }
+    ]
+  },
+  "411904751": {
+    "album_id": "411904751",
+    "album_name": "Страдая, падая, взлетая",
+    "date_str": "2026-11-25",
+    "publish_ts": 1795536000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 27,
+    "pic_url": "https://p3.music.126.net/av6sgRWFR1bKWTG6KTf2rA==/109951174344268185.jpg",
+    "company": "United Music Group",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795567329.623568,
+    "songs": [
+      {
+        "id": "3465439263",
+        "name": "Страдая, падая, взлетая"
+      },
+      {
+        "id": "3465439275",
+        "name": "Не разлюбить тебя позволь"
+      },
+      {
+        "id": "3465439282",
+        "name": "Не надо, не плачь"
+      },
+      {
+        "id": "3465439283",
+        "name": "Не плачь"
+      },
+      {
+        "id": "3465439941",
+        "name": "Ты со мной будь"
+      },
+      {
+        "id": "3465439284",
+        "name": "Мы с тобой два берега..."
+      },
+      {
+        "id": "3465439285",
+        "name": "Незаконченный роман"
+      },
+      {
+        "id": "3465439286",
+        "name": "Случайная встреча"
+      },
+      {
+        "id": "3465439942",
+        "name": "Я не верю, что счастья нет"
+      },
+      {
+        "id": "3465439264",
+        "name": "На разных берегах"
+      },
+      {
+        "id": "3465439265",
+        "name": "Нежность"
+      },
+      {
+        "id": "3465439931",
+        "name": "Я буду скучать"
+      },
+      {
+        "id": "3465439269",
+        "name": "Белая птица"
+      },
+      {
+        "id": "3465439934",
+        "name": "Я не могу тебя терять"
+      },
+      {
+        "id": "3465439271",
+        "name": "Озеро надежды"
+      },
+      {
+        "id": "3465439272",
+        "name": "Широко закрыв глаза"
+      },
+      {
+        "id": "3465439937",
+        "name": "Я больше не хочу тебя терять"
+      },
+      {
+        "id": "3465439938",
+        "name": "Горький мёд"
+      },
+      {
+        "id": "3465439274",
+        "name": "Допью любовь до дна"
+      },
+      {
+        "id": "3465439939",
+        "name": "Что я знаю о ней"
+      },
+      {
+        "id": "3465439276",
+        "name": "Как быть"
+      },
+      {
+        "id": "3465439277",
+        "name": "Нарисую сердечко"
+      },
+      {
+        "id": "3465439278",
+        "name": "Мы друг для друга созданы"
+      },
+      {
+        "id": "3465439279",
+        "name": "Живанши"
+      },
+      {
+        "id": "3465439280",
+        "name": "Обмани"
+      },
+      {
+        "id": "3465439940",
+        "name": "Опоздавшая любовь"
+      },
+      {
+        "id": "3465439281",
+        "name": "Ты опоздала"
       }
     ]
   }

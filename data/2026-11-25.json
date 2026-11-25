@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T05:39:44.631816+08:00",
-  "count": 75,
+  "generated_at": "2026-11-25T08:50:07.839258+08:00",
+  "count": 78,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 25,
+        "target_count": 26,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795554179.9892635,
+        "saved_at": 1795565743.6060178,
         "source": "live"
       },
       "relations": 87012,
-      "new_album_candidates": 65,
-      "unique_albums": 39634,
-      "detail_success": 39633,
+      "new_album_candidates": 66,
+      "unique_albums": 39628,
+      "detail_success": 39627,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1288,
+      "date_hit_albums": 1289,
       "verify_artists": 749,
       "owned_failures": 0,
       "external_hits": 473,
-      "new_release_hits": 107,
+      "new_release_hits": 109,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 75
+    "unique_album_count": 78
   },
   "albums": [
     {
@@ -280,7 +280,7 @@
       "publish_date": "2026-11-25",
       "size": 2,
       "company": "Columbia Records China x 喜乐无限",
-      "pic_url": "https://p4.music.126.net/S3jQ4aA0ybY0AXwb9OwciQ==/109951174335902429.jpg",
+      "pic_url": "https://p3.music.126.net/S3jQ4aA0ybY0AXwb9OwciQ==/109951174335902429.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -303,7 +303,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "异地电台",
-      "pic_url": "https://p4.music.126.net/L_OCZt7lGIzHAqvDChT9cw==/109951174305546212.jpg",
+      "pic_url": "https://p3.music.126.net/L_OCZt7lGIzHAqvDChT9cw==/109951174305546212.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -423,7 +423,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/JKjEJ7YY92o_CyES8UQ3LA==/109951174340221183.jpg",
+      "pic_url": "https://p3.music.126.net/JKjEJ7YY92o_CyES8UQ3LA==/109951174340221183.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -451,7 +451,7 @@
       "publish_date": "2026-11-25",
       "size": 6,
       "company": "儿歌慧宝",
-      "pic_url": "https://p4.music.126.net/lLBGyzCQ7OsiFygj7Q4XGA==/109951174316633165.jpg",
+      "pic_url": "https://p3.music.126.net/lLBGyzCQ7OsiFygj7Q4XGA==/109951174316633165.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -520,7 +520,7 @@
       "publish_date": "2026-11-25",
       "size": 2,
       "company": "Lingua Sounda",
-      "pic_url": "https://p3.music.126.net/dh96yJZiwCvofySqgrLZFQ==/109951174295347498.jpg",
+      "pic_url": "https://p4.music.126.net/dh96yJZiwCvofySqgrLZFQ==/109951174295347498.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -673,7 +673,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/pFXQsjJkAxX0HCSeG7HgMA==/109951174339753865.jpg",
+      "pic_url": "https://p4.music.126.net/pFXQsjJkAxX0HCSeG7HgMA==/109951174339753865.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -834,7 +834,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "Rinko",
-      "pic_url": "https://p3.music.126.net/hBx7ZPWwdrRM39x2m-0BfA==/109951174268342247.jpg",
+      "pic_url": "https://p4.music.126.net/hBx7ZPWwdrRM39x2m-0BfA==/109951174268342247.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -903,7 +903,7 @@
       "publish_date": "2026-11-25",
       "size": 4,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/p7E351KThb-Wlv7Ip-gyPw==/109951174266396080.jpg",
+      "pic_url": "https://p4.music.126.net/p7E351KThb-Wlv7Ip-gyPw==/109951174266396080.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -932,6 +932,29 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=409236332"
+    },
+    {
+      "id": 411904751,
+      "name": "Страдая, падая, взлетая",
+      "artists": [
+        {
+          "id": "49260160",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1795536000000,
+      "publish_date": "2026-11-25",
+      "size": 27,
+      "company": "United Music Group",
+      "pic_url": "https://p3.music.126.net/av6sgRWFR1bKWTG6KTf2rA==/109951174344268185.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411904751"
     },
     {
       "id": 409583237,
@@ -1383,7 +1406,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "Victor",
-      "pic_url": "https://p3.music.126.net/TxsR16o2l2zt1wpQcSzz_w==/109951174295353123.jpg",
+      "pic_url": "https://p4.music.126.net/TxsR16o2l2zt1wpQcSzz_w==/109951174295353123.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1475,7 +1498,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "相信音乐",
-      "pic_url": "https://p4.music.126.net/UmEB6f7bu2MpSv5N1_zTew==/109951174335382094.jpg",
+      "pic_url": "https://p3.music.126.net/UmEB6f7bu2MpSv5N1_zTew==/109951174335382094.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1567,12 +1590,35 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p3.music.126.net/-xTxKIO97rmZQj5WZWPK9w==/109951174218577422.jpg",
+      "pic_url": "https://p4.music.126.net/-xTxKIO97rmZQj5WZWPK9w==/109951174218577422.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=407547478"
+    },
+    {
+      "id": 409969496,
+      "name": "I Love My Computer, All My Friends Are Inside It",
+      "artists": [
+        {
+          "id": "12279106",
+          "name": "Ninajirachi"
+        }
+      ],
+      "artist_names": [
+        "Ninajirachi"
+      ],
+      "publish_time": 1795536000000,
+      "publish_date": "2026-11-25",
+      "size": 20,
+      "company": "NLV Records",
+      "pic_url": "https://p4.music.126.net/odLRde8h6x6ZrZG8ooNaAg==/109951174342585610.jpg",
+      "sub_type": "Remix",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=409969496"
     },
     {
       "id": 411120180,
@@ -1683,7 +1729,7 @@
     },
     {
       "id": 409582804,
-      "name": "First Cut (Original)",
+      "name": "First Cut",
       "artists": [
         {
           "id": "49260160",
@@ -1720,7 +1766,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "纳吉音 Negia Entertainment",
-      "pic_url": "https://p3.music.126.net/FgUvL0wixOCHJIZhNpe0wQ==/109951174335512857.jpg",
+      "pic_url": "https://p4.music.126.net/FgUvL0wixOCHJIZhNpe0wQ==/109951174335512857.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1961,6 +2007,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=411889285"
+    },
+    {
+      "id": 411868239,
+      "name": "\"Explore\"",
+      "artists": [
+        {
+          "id": "122519622",
+          "name": "Fisher.漁"
+        }
+      ],
+      "artist_names": [
+        "Fisher.漁"
+      ],
+      "publish_time": 1795536000000,
+      "publish_date": "2026-11-25",
+      "size": 1,
+      "company": "",
+      "pic_url": "https://p3.music.126.net/y1hmd3RgIWanLCZK90taZg==/109951174344443966.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411868239"
     },
     {
       "id": 411866929,
