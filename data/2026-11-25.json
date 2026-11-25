@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
-  "generated_at": "2026-11-25T08:50:07.839258+08:00",
-  "count": 78,
+  "generated_at": "2026-11-25T12:00:05.945980+08:00",
+  "count": 82,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 26,
+        "target_count": 28,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 13,
+        "target_count": 15,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -141,7 +141,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 3,
+        "target_count": 4,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 756,
+      "search_candidates": 755,
       "verified_target_count": 8,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795565743.6060178,
+        "saved_at": 1795577211.3660429,
         "source": "live"
       },
       "relations": 87012,
-      "new_album_candidates": 66,
-      "unique_albums": 39628,
-      "detail_success": 39627,
+      "new_album_candidates": 67,
+      "unique_albums": 39624,
+      "detail_success": 39623,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1289,
-      "verify_artists": 749,
+      "date_hit_albums": 1293,
+      "verify_artists": 750,
       "owned_failures": 0,
-      "external_hits": 473,
-      "new_release_hits": 109,
+      "external_hits": 475,
+      "new_release_hits": 112,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 78
+    "unique_album_count": 82
   },
   "albums": [
     {
@@ -206,7 +206,7 @@
       "publish_date": "2026-11-25",
       "size": 14,
       "company": "",
-      "pic_url": "https://p4.music.126.net/HIHv0BR_ouFnQ7Wo29q0dw==/109951174277851134.jpg",
+      "pic_url": "https://p3.music.126.net/HIHv0BR_ouFnQ7Wo29q0dw==/109951174277851134.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -257,7 +257,7 @@
       "publish_date": "2026-11-25",
       "size": 2,
       "company": "陈小虎工作室",
-      "pic_url": "https://p4.music.126.net/DIA4CW4wXk6saE3x3OXrDw==/109951174335318976.jpg",
+      "pic_url": "https://p3.music.126.net/DIA4CW4wXk6saE3x3OXrDw==/109951174335318976.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -303,7 +303,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "异地电台",
-      "pic_url": "https://p3.music.126.net/L_OCZt7lGIzHAqvDChT9cw==/109951174305546212.jpg",
+      "pic_url": "https://p4.music.126.net/L_OCZt7lGIzHAqvDChT9cw==/109951174305546212.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -423,7 +423,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/JKjEJ7YY92o_CyES8UQ3LA==/109951174340221183.jpg",
+      "pic_url": "https://p4.music.126.net/JKjEJ7YY92o_CyES8UQ3LA==/109951174340221183.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -696,7 +696,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "莫奈赫淮音乐工作室",
-      "pic_url": "https://p4.music.126.net/-qk6aKVJckYcFZOBY6Unpw==/109951174339478385.jpg",
+      "pic_url": "https://p3.music.126.net/-qk6aKVJckYcFZOBY6Unpw==/109951174339478385.jpg",
       "sub_type": "DEMO",
       "type": "Single",
       "status": 1,
@@ -748,6 +748,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=410413206"
+    },
+    {
+      "id": 410811320,
+      "name": "フランジ",
+      "artists": [
+        {
+          "id": 99097796,
+          "name": "CLW"
+        }
+      ],
+      "artist_names": [
+        "CLW"
+      ],
+      "publish_time": 1795536000000,
+      "publish_date": "2026-11-25",
+      "size": 1,
+      "company": "LuuvLabel",
+      "pic_url": "https://p3.music.126.net/_ZhBoDWW7KurloVLzMQPBg==/109951174310964085.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410811320"
     },
     {
       "id": 404315207,
@@ -903,7 +926,7 @@
       "publish_date": "2026-11-25",
       "size": 4,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/p7E351KThb-Wlv7Ip-gyPw==/109951174266396080.jpg",
+      "pic_url": "https://p3.music.126.net/p7E351KThb-Wlv7Ip-gyPw==/109951174266396080.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1006,6 +1029,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=411031235"
+    },
+    {
+      "id": 411927515,
+      "name": "World Class Music Vol. lll",
+      "artists": [
+        {
+          "id": "444750",
+          "name": "DJ Rome"
+        }
+      ],
+      "artist_names": [
+        "DJ Rome"
+      ],
+      "publish_time": 1795536000000,
+      "publish_date": "2026-11-25",
+      "size": 16,
+      "company": "World Class Sound",
+      "pic_url": "https://p4.music.126.net/nNlH9_DSd-r0TzI8PpiKdA==/109951174344621991.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411927515"
     },
     {
       "id": 409000809,
@@ -1189,7 +1235,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/MX73n5iyXw5j4_le4JX8PA==/109951174311455258.jpg",
+      "pic_url": "https://p4.music.126.net/MX73n5iyXw5j4_le4JX8PA==/109951174311455258.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1552,6 +1598,57 @@
       "url": "https://music.163.com/#/album?id=408974793"
     },
     {
+      "id": 411870400,
+      "name": "Jazz au coin du feu",
+      "artists": [
+        {
+          "id": "104700",
+          "name": "Various Artists"
+        }
+      ],
+      "artist_names": [
+        "Various Artists"
+      ],
+      "publish_time": 1795536000000,
+      "publish_date": "2026-11-25",
+      "size": 30,
+      "company": "UME - Global Clearing House",
+      "pic_url": "https://p4.music.126.net/dBEnByej_4bY-rDEaWBxlQ==/109951174343585224.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411870400"
+    },
+    {
+      "id": 411728805,
+      "name": "JUST THE START",
+      "artists": [
+        {
+          "id": "122546004",
+          "name": "铁痕电台-MSR"
+        },
+        {
+          "id": "1098118",
+          "name": "Sophia Pae"
+        }
+      ],
+      "artist_names": [
+        "铁痕电台-MSR",
+        "Sophia Pae"
+      ],
+      "publish_time": 1795536000000,
+      "publish_date": "2026-11-25",
+      "size": 2,
+      "company": "铁痕电台-MSR",
+      "pic_url": "https://p4.music.126.net/GD9X_LYSs7Na8M8L6UnERg==/109951174339517628.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411728805"
+    },
+    {
       "id": 406623646,
       "name": "Iridescent Cartographer",
       "artists": [
@@ -1590,7 +1687,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/-xTxKIO97rmZQj5WZWPK9w==/109951174218577422.jpg",
+      "pic_url": "https://p3.music.126.net/-xTxKIO97rmZQj5WZWPK9w==/109951174218577422.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1766,7 +1863,7 @@
       "publish_date": "2026-11-25",
       "size": 1,
       "company": "纳吉音 Negia Entertainment",
-      "pic_url": "https://p4.music.126.net/FgUvL0wixOCHJIZhNpe0wQ==/109951174335512857.jpg",
+      "pic_url": "https://p3.music.126.net/FgUvL0wixOCHJIZhNpe0wQ==/109951174335512857.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1812,7 +1909,7 @@
       "publish_date": "2026-11-25",
       "size": 10,
       "company": "(P)2026 AVEX MUSIC CREATIVE INC.",
-      "pic_url": "https://p4.music.126.net/YJEi7bYG6nNpC80QW85T5g==/109951174305602457.jpg",
+      "pic_url": "https://p3.music.126.net/YJEi7bYG6nNpC80QW85T5g==/109951174305602457.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
