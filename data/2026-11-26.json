@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T08:29:04.797331+08:00",
-  "count": 49,
+  "generated_at": "2026-11-26T11:20:58.741435+08:00",
+  "count": 50,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -154,12 +154,10 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 8,
-      "search_candidates": 649,
+      "queries_ok": 9,
+      "search_candidates": 747,
       "verified_target_count": 4,
-      "errors": [
-        "华语群星: /search 请求失败：/search GET/POST 405"
-      ]
+      "errors": []
     },
     "reference_candidate_pool": {
       "artists": 2254,
@@ -172,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795650901.0800617,
+        "saved_at": 1795661011.079413,
         "source": "live"
       },
       "relations": 87104,
-      "new_album_candidates": 60,
-      "unique_albums": 39648,
-      "detail_success": 39647,
+      "new_album_candidates": 61,
+      "unique_albums": 39650,
+      "detail_success": 39649,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1269,
+      "date_hit_albums": 1272,
       "verify_artists": 747,
       "owned_failures": 0,
       "external_hits": 469,
-      "new_release_hits": 95,
+      "new_release_hits": 98,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 49
+    "unique_album_count": 50
   },
   "albums": [
     {
@@ -208,7 +206,7 @@
       "publish_date": "2026-11-26",
       "size": 1,
       "company": "DSP MEDIA, BEATS ENTERTAINMENT",
-      "pic_url": "https://p4.music.126.net/5lFMGPsbSjxaESDARjNwyA==/109951174347760799.jpg",
+      "pic_url": "https://p3.music.126.net/5lFMGPsbSjxaESDARjNwyA==/109951174347760799.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -282,7 +280,7 @@
       "publish_date": "2026-11-26",
       "size": 1,
       "company": "福瑞声",
-      "pic_url": "https://p3.music.126.net/nVu-nvv14H7YYJnv0Iv5wg==/109951174335460630.jpg",
+      "pic_url": "https://p4.music.126.net/nVu-nvv14H7YYJnv0Iv5wg==/109951174335460630.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -333,7 +331,7 @@
       "publish_date": "2026-11-26",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/mzaM8iZj5-84BJGpGDFo_g==/109951174346176746.jpg",
+      "pic_url": "https://p3.music.126.net/mzaM8iZj5-84BJGpGDFo_g==/109951174346176746.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -463,7 +461,7 @@
       "publish_date": "2026-11-26",
       "size": 2,
       "company": "",
-      "pic_url": "https://p4.music.126.net/HZkF5SHL0GdR_bubBGZS7g==/109951174345664450.jpg",
+      "pic_url": "https://p3.music.126.net/HZkF5SHL0GdR_bubBGZS7g==/109951174345664450.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -486,7 +484,7 @@
       "publish_date": "2026-11-26",
       "size": 2,
       "company": "猛犸文化",
-      "pic_url": "https://p3.music.126.net/xdNLtAMnUFy7fgYaDSjKvw==/109951174310486694.jpg",
+      "pic_url": "https://p4.music.126.net/xdNLtAMnUFy7fgYaDSjKvw==/109951174310486694.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -555,7 +553,7 @@
       "publish_date": "2026-11-26",
       "size": 1,
       "company": "domiSOmido",
-      "pic_url": "https://p3.music.126.net/lr7nbnmZhap2Br02YMsKaA==/109951174335976083.jpg",
+      "pic_url": "https://p4.music.126.net/lr7nbnmZhap2Br02YMsKaA==/109951174335976083.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -708,7 +706,7 @@
       "publish_date": "2026-11-26",
       "size": 1,
       "company": "Yuhko",
-      "pic_url": "https://p4.music.126.net/vEY3dTD50sYpuJQYMEh3gw==/109951174300804044.jpg",
+      "pic_url": "https://p3.music.126.net/vEY3dTD50sYpuJQYMEh3gw==/109951174300804044.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -895,6 +893,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=409221244"
+    },
+    {
+      "id": 410393440,
+      "name": "My Memory : Audible 오리지널 겨울연가",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1795622400000,
+      "publish_date": "2026-11-26",
+      "size": 16,
+      "company": "Audible, Inc.",
+      "pic_url": "https://p3.music.126.net/0mEYMmEVIGTUJhuC4P61eQ==/109951174300206477.jpg",
+      "sub_type": "录音室版",
+      "type": "专辑",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410393440"
     },
     {
       "id": 410282752,
@@ -1180,7 +1201,7 @@
       "publish_date": "2026-11-26",
       "size": 1,
       "company": "福茂唱片",
-      "pic_url": "https://p4.music.126.net/2DC4Scrkdk055lSTXSmHNQ==/109951174295033222.jpg",
+      "pic_url": "https://p3.music.126.net/2DC4Scrkdk055lSTXSmHNQ==/109951174295033222.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -1305,7 +1326,7 @@
       "publish_date": "2026-11-26",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p4.music.126.net/TtiAzWK14J6AoLiXaQh_eQ==/109951174344846934.jpg",
+      "pic_url": "https://p3.music.126.net/TtiAzWK14J6AoLiXaQh_eQ==/109951174344846934.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
