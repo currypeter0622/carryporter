@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T05:05:26.955429+08:00",
-  "count": 47,
+  "generated_at": "2026-11-26T08:29:04.797331+08:00",
+  "count": 49,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 12,
+        "target_count": 14,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -69,7 +69,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 0,
+        "target_count": 2,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -154,10 +154,12 @@
         "V.A.",
         "华语群星"
       ],
-      "queries_ok": 9,
-      "search_candidates": 749,
+      "queries_ok": 8,
+      "search_candidates": 649,
       "verified_target_count": 4,
-      "errors": []
+      "errors": [
+        "华语群星: /search 请求失败：/search GET/POST 405"
+      ]
     },
     "reference_candidate_pool": {
       "artists": 2254,
@@ -170,24 +172,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795638402.244334,
+        "saved_at": 1795650901.0800617,
         "source": "live"
       },
       "relations": 87104,
-      "new_album_candidates": 58,
+      "new_album_candidates": 60,
       "unique_albums": 39648,
       "detail_success": 39647,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1266,
-      "verify_artists": 746,
+      "date_hit_albums": 1269,
+      "verify_artists": 747,
       "owned_failures": 0,
-      "external_hits": 468,
-      "new_release_hits": 93,
+      "external_hits": 469,
+      "new_release_hits": 95,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 47
+    "unique_album_count": 49
   },
   "albums": [
     {
@@ -303,7 +305,7 @@
       "publish_date": "2026-11-26",
       "size": 3,
       "company": "芝兰玉树（北京）科技股份有限公司",
-      "pic_url": "https://p4.music.126.net/Pr1B9fgW-OG0N4nC2zAwYg==/109951174305960277.jpg",
+      "pic_url": "https://p3.music.126.net/Pr1B9fgW-OG0N4nC2zAwYg==/109951174305960277.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -354,7 +356,7 @@
       "publish_date": "2026-11-26",
       "size": 11,
       "company": "摩登天空",
-      "pic_url": "https://p3.music.126.net/g7VcDaEiloQUjvYe4s_RuA==/109951174345964198.jpg",
+      "pic_url": "https://p4.music.126.net/g7VcDaEiloQUjvYe4s_RuA==/109951174345964198.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -538,6 +540,29 @@
       "url": "https://music.163.com/#/album?id=404316332"
     },
     {
+      "id": 411584347,
+      "name": "むしょくどうめいさい☆さいよう (feat. 宮舞モカ, GUMI & 弦巻マキ)",
+      "artists": [
+        {
+          "id": 58752195,
+          "name": "domiSOmido"
+        }
+      ],
+      "artist_names": [
+        "domiSOmido"
+      ],
+      "publish_time": 1795622400000,
+      "publish_date": "2026-11-26",
+      "size": 1,
+      "company": "domiSOmido",
+      "pic_url": "https://p3.music.126.net/lr7nbnmZhap2Br02YMsKaA==/109951174335976083.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411584347"
+    },
+    {
       "id": 407873470,
       "name": "まわる、かわる、がわる （feat. パン野実々美）",
       "artists": [
@@ -666,6 +691,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=411129938"
+    },
+    {
+      "id": 410422722,
+      "name": "Twinkle Twinkle Little Star (feat. 可不)",
+      "artists": [
+        {
+          "id": 0,
+          "name": "Yuhko"
+        }
+      ],
+      "artist_names": [
+        "Yuhko"
+      ],
+      "publish_time": 1795622400000,
+      "publish_date": "2026-11-26",
+      "size": 1,
+      "company": "Yuhko",
+      "pic_url": "https://p4.music.126.net/vEY3dTD50sYpuJQYMEh3gw==/109951174300804044.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410422722"
     },
     {
       "id": 409220778,
@@ -1257,7 +1305,7 @@
       "publish_date": "2026-11-26",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p3.music.126.net/TtiAzWK14J6AoLiXaQh_eQ==/109951174344846934.jpg",
+      "pic_url": "https://p4.music.126.net/TtiAzWK14J6AoLiXaQh_eQ==/109951174344846934.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,

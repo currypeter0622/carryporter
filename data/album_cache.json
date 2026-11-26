@@ -1003954,5 +1003954,107 @@
         "name": "Sp!Cy #****ingbs"
       }
     ]
+  },
+  "288115983": {
+    "album_id": "288115983",
+    "album_name": "Hoje Tem (feat. Vexx)",
+    "date_str": "2025-10-24",
+    "publish_ts": 1761235200000,
+    "artist_ids": [
+      "52301970"
+    ],
+    "artist_names": [
+      "JAMITOBEATZ"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/BZujv-IumNZ7VcE6pC9ZIA==/109951172137220069.jpg",
+    "company": "TK ENTERTAINMENT BLACK N POWER BEATZ RECORDS",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795652398.7871163
+  },
+  "277164588": {
+    "album_id": "277164588",
+    "album_name": "Take Our Time",
+    "date_str": "2025-10-30",
+    "publish_ts": 1761753600000,
+    "artist_ids": [
+      "37440182",
+      "1024205"
+    ],
+    "artist_names": [
+      "Coldheartjack",
+      "VEXX"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/oPrYQL1VKotJCu70tq6lXA==/109951172198144191.jpg",
+    "company": "Coldheartjack",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795652399.0723963
+  },
+  "412117448": {
+    "album_id": "412117448",
+    "album_name": "Ragnarök (A God of War Dubstep Song)",
+    "date_str": "2026-11-25",
+    "publish_ts": 1795536000000,
+    "artist_ids": [
+      "55748821"
+    ],
+    "artist_names": [
+      "YA_BOI_MAX1221"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/gz25VbSvy3MxGoadpJMXpQ==/109951174349430999.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795652440.2108767,
+    "songs": [
+      {
+        "id": "3465865469",
+        "name": "Ragnarök (A God of War Dubstep Song)"
+      }
+    ]
+  },
+  "412119422": {
+    "album_id": "412119422",
+    "album_name": "Ragnarök",
+    "date_str": "2026-11-25",
+    "publish_ts": 1795536000000,
+    "artist_ids": [
+      "55748821"
+    ],
+    "artist_names": [
+      "YA_BOI_MAX1221"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/x3aCKIimafonT73sjpyVmw==/109951174349456050.jpg",
+    "company": "",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795652440.217882,
+    "songs": [
+      {
+        "id": "3465869170",
+        "name": "Ragnarök"
+      }
+    ]
+  },
+  "412119590": {
+    "album_id": "412119590",
+    "album_name": "Monkhead I - THE ARTCORE INVASION",
+    "date_str": "2026-10-31",
+    "publish_ts": 1793376000000,
+    "artist_ids": [],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 20,
+    "pic_url": "https://p3.music.126.net/aAij2XouzmEFBz0WiuIQxg==/109951174349459571.jpg",
+    "company": "Monkhead Records",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795652459.2820015
   }
 }
