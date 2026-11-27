@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T08:55:15.563876+08:00",
-  "count": 182,
+  "generated_at": "2026-11-27T11:19:20.140908+08:00",
+  "count": 188,
   "scan": {
     "mode": "full",
     "complete_scan": false,
@@ -13,7 +13,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 39,
+        "target_count": 44,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -27,7 +27,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 21,
+        "target_count": 24,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -41,7 +41,7 @@
         "page_size": 30,
         "reported_total": 500,
         "final_offset": 510,
-        "target_count": 15,
+        "target_count": 17,
         "short_pages": 0,
         "repeated_pages": 0,
         "complete_scan": true,
@@ -99,7 +99,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 17,
+        "target_count": 20,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -113,7 +113,7 @@
         "page_size": 30,
         "reported_total": null,
         "final_offset": 30,
-        "target_count": 13,
+        "target_count": 16,
         "repeated_pages": 1,
         "complete_scan": false,
         "incomplete_reason": "offset=30 返回重复页，分页可能未生效"
@@ -155,7 +155,7 @@
         "华语群星"
       ],
       "queries_ok": 9,
-      "search_candidates": 751,
+      "search_candidates": 747,
       "verified_target_count": 13,
       "errors": []
     },
@@ -170,24 +170,24 @@
         "complete_confirmed": true,
         "had_repeat": false,
         "error": null,
-        "saved_at": 1795738370.9565556,
+        "saved_at": 1795747419.7682204,
         "source": "live"
       },
       "relations": 87164,
-      "new_album_candidates": 131,
-      "unique_albums": 39697,
-      "detail_success": 39696,
+      "new_album_candidates": 134,
+      "unique_albums": 39700,
+      "detail_success": 39699,
       "detail_errors": 1,
       "detail_mismatch": 0,
-      "date_hit_albums": 1344,
+      "date_hit_albums": 1345,
       "verify_artists": 761,
       "owned_failures": 0,
       "external_hits": 474,
-      "new_release_hits": 184,
+      "new_release_hits": 185,
       "complete_candidate_pool": true,
       "artist_failures": 0
     },
-    "unique_album_count": 182
+    "unique_album_count": 188
   },
   "albums": [
     {
@@ -326,12 +326,35 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/3ne-YjU7Hb1cE-Pb95NL5g==/109951174339664870.jpg",
+      "pic_url": "https://p4.music.126.net/3ne-YjU7Hb1cE-Pb95NL5g==/109951174339664870.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=411729973"
+    },
+    {
+      "id": 412042988,
+      "name": "痴缠",
+      "artists": [
+        {
+          "id": 12419710,
+          "name": "曲肖冰"
+        }
+      ],
+      "artist_names": [
+        "曲肖冰"
+      ],
+      "publish_time": 1795708800000,
+      "publish_date": "2026-11-27",
+      "size": 3,
+      "company": "森林之音",
+      "pic_url": "https://p3.music.126.net/QeXw0xBMFRWZHgfkgIvUyw==/109951174347284834.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=412042988"
     },
     {
       "id": 411931678,
@@ -441,7 +464,7 @@
       "publish_date": "2026-11-27",
       "size": 4,
       "company": "发现梦想",
-      "pic_url": "https://p4.music.126.net/tJ772o9S548BBHhDdKSGDg==/109951174311573023.jpg",
+      "pic_url": "https://p3.music.126.net/tJ772o9S548BBHhDdKSGDg==/109951174311573023.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -510,7 +533,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "福茂唱片",
-      "pic_url": "https://p3.music.126.net/6WDB7goB71AI6CKtzCbzWg==/109951174351365614.jpg",
+      "pic_url": "https://p4.music.126.net/6WDB7goB71AI6CKtzCbzWg==/109951174351365614.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -625,7 +648,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "",
-      "pic_url": "https://p4.music.126.net/SbZm-lJhoogkfng8M5ZZ5w==/109951174351020811.jpg",
+      "pic_url": "https://p3.music.126.net/SbZm-lJhoogkfng8M5ZZ5w==/109951174351020811.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -648,7 +671,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "Lunar Entertainment Limited",
-      "pic_url": "https://p4.music.126.net/yYL_h4E8sRFfPJgLtpou1g==/109951174345691594.jpg",
+      "pic_url": "https://p3.music.126.net/yYL_h4E8sRFfPJgLtpou1g==/109951174345691594.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -722,7 +745,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "",
-      "pic_url": "https://p3.music.126.net/Nv-_38XU9AQsZFY_x1X9CQ==/109951174341587792.jpg",
+      "pic_url": "https://p4.music.126.net/Nv-_38XU9AQsZFY_x1X9CQ==/109951174341587792.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -959,7 +982,7 @@
       "publish_date": "2026-11-27",
       "size": 12,
       "company": "智慧大狗",
-      "pic_url": "https://p3.music.126.net/y99V2r6xtUsyG2T49SMARw==/109951174340571189.jpg",
+      "pic_url": "https://p4.music.126.net/y99V2r6xtUsyG2T49SMARw==/109951174340571189.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1246,6 +1269,29 @@
       "url": "https://music.163.com/#/album?id=409030939"
     },
     {
+      "id": 412273225,
+      "name": "babe",
+      "artists": [
+        {
+          "id": 963083,
+          "name": "Felix Jaehn"
+        }
+      ],
+      "artist_names": [
+        "Felix Jaehn"
+      ],
+      "publish_time": 1795708800000,
+      "publish_date": "2026-11-27",
+      "size": 1,
+      "company": "Intercord",
+      "pic_url": "https://p4.music.126.net/FuVb3T79Tqo6bWFZpZJdGQ==/109951174353086133.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=412273225"
+    },
+    {
       "id": 412295376,
       "name": "anya and elise coded",
       "artists": [
@@ -1467,7 +1513,7 @@
       "publish_date": "2026-11-27",
       "size": 16,
       "company": "FAMM",
-      "pic_url": "https://p3.music.126.net/hFP2ilL8A8atlTuSJnMfRw==/109951174347693896.jpg",
+      "pic_url": "https://p4.music.126.net/hFP2ilL8A8atlTuSJnMfRw==/109951174347693896.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -1519,6 +1565,29 @@
       "status": null,
       "description": "",
       "url": "https://music.163.com/#/album?id=411232909"
+    },
+    {
+      "id": 412296395,
+      "name": "Vault 6",
+      "artists": [
+        {
+          "id": 12122239,
+          "name": "6LACK"
+        }
+      ],
+      "artist_names": [
+        "6LACK"
+      ],
+      "publish_time": 1795708800000,
+      "publish_date": "2026-11-27",
+      "size": 5,
+      "company": "LVRN/Interscope Records",
+      "pic_url": "https://p4.music.126.net/rjO1UHfkIUTD2zFNtaqb3g==/109951174355995472.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=412296395"
     },
     {
       "id": 403037789,
@@ -2525,7 +2594,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "YZY/gamma.",
-      "pic_url": "https://p4.music.126.net/jtLZN6OgFlO9-Xa_xlkUxQ==/109951174349496108.jpg",
+      "pic_url": "https://p4.music.126.net/gASitlaXGVIup-AcKaSlmg==/109951174355989679.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2553,7 +2622,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "索尼音乐",
-      "pic_url": "https://p4.music.126.net/MVh_Mf4dgzCmzo0o-H4d0A==/109951174300701345.jpg",
+      "pic_url": "https://p3.music.126.net/MVh_Mf4dgzCmzo0o-H4d0A==/109951174300701345.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2930,6 +2999,29 @@
       "url": "https://music.163.com/#/album?id=409610580"
     },
     {
+      "id": 412204621,
+      "name": "Lonely",
+      "artists": [
+        {
+          "id": 721016,
+          "name": "A2A组合"
+        }
+      ],
+      "artist_names": [
+        "A2A组合"
+      ],
+      "publish_time": 1795708800000,
+      "publish_date": "2026-11-27",
+      "size": 1,
+      "company": "索尼音乐版权代理（北京）有限公司",
+      "pic_url": "https://p3.music.126.net/jgCipW4El1uH3ywuY1Cx4A==/109951174350859648.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=412204621"
+    },
+    {
       "id": 411777327,
       "name": "London (feat. Tinie Tempah)",
       "artists": [
@@ -2955,7 +3047,7 @@
       "publish_date": "2026-11-27",
       "size": 2,
       "company": "华纳音乐",
-      "pic_url": "https://p3.music.126.net/PT_234Z2Df4ngr0ckjGuxA==/109951174340756352.jpg",
+      "pic_url": "https://p4.music.126.net/PT_234Z2Df4ngr0ckjGuxA==/109951174340756352.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -2984,6 +3076,59 @@
       "status": 1,
       "description": "",
       "url": "https://music.163.com/#/album?id=407955463"
+    },
+    {
+      "id": 411957099,
+      "name": "Lights of Africa",
+      "artists": [
+        {
+          "id": 48633916,
+          "name": "魏尧"
+        },
+        {
+          "id": 131381903,
+          "name": "张尧 ZHANG YAO"
+        },
+        {
+          "id": 131381901,
+          "name": "蒋昕彤 JIANG XINTONG"
+        },
+        {
+          "id": 131381902,
+          "name": "田园 TIAN YUAN"
+        },
+        {
+          "id": 30483044,
+          "name": "丁祾"
+        },
+        {
+          "id": 131381900,
+          "name": "郑乐昭 CHENG LE ZHAO QUEENIE"
+        },
+        {
+          "id": 131381550,
+          "name": "偶尔乐队 SOMETIMES BAND"
+        }
+      ],
+      "artist_names": [
+        "魏尧",
+        "张尧 ZHANG YAO",
+        "蒋昕彤 JIANG XINTONG",
+        "田园 TIAN YUAN",
+        "丁祾",
+        "郑乐昭 CHENG LE ZHAO QUEENIE",
+        "偶尔乐队 SOMETIMES BAND"
+      ],
+      "publish_time": 1795708800000,
+      "publish_date": "2026-11-27",
+      "size": 1,
+      "company": "秦淮区尧威尔文化传媒工作室",
+      "pic_url": "https://p3.music.126.net/y6FH5eeBBLivC7nE7-tBmg==/109951174345215617.jpg",
+      "sub_type": "录音室版",
+      "type": "Single",
+      "status": 1,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=411957099"
     },
     {
       "id": 409471143,
@@ -3315,6 +3460,29 @@
       "url": "https://music.163.com/#/album?id=412295658"
     },
     {
+      "id": 410816035,
+      "name": "HERE, HEART Part.2",
+      "artists": [
+        {
+          "id": "21138",
+          "name": "V.A."
+        }
+      ],
+      "artist_names": [
+        "V.A."
+      ],
+      "publish_time": 1795708800000,
+      "publish_date": "2026-11-27",
+      "size": 4,
+      "company": "(주)씨엠지미디어",
+      "pic_url": "https://p3.music.126.net/Z9BWYO6h60W-d6kSHV1JpQ==/109951174311270237.jpg",
+      "sub_type": "录音室版",
+      "type": "EP",
+      "status": null,
+      "description": "",
+      "url": "https://music.163.com/#/album?id=410816035"
+    },
+    {
       "id": 409471568,
       "name": "HEART TWICE RECORDS - Year Five",
       "artists": [
@@ -3405,7 +3573,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "Spinnin' Records",
-      "pic_url": "https://p4.music.126.net/71kkmtQbTdGAL_drrEi7Lw==/109951174340879923.jpg",
+      "pic_url": "https://p3.music.126.net/71kkmtQbTdGAL_drrEi7Lw==/109951174340879923.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -3428,7 +3596,7 @@
       "publish_date": "2026-11-27",
       "size": 2,
       "company": "",
-      "pic_url": "https://p4.music.126.net/pgjhj_TwuCaiCNN5ZZmcXA==/109951174350115739.jpg",
+      "pic_url": "https://p3.music.126.net/pgjhj_TwuCaiCNN5ZZmcXA==/109951174350115739.jpg",
       "sub_type": "录音室版",
       "type": "EP",
       "status": 1,
@@ -3577,7 +3745,7 @@
       "publish_date": "2026-11-27",
       "size": 19,
       "company": "Polydor Records",
-      "pic_url": "https://p3.music.126.net/DTPeb-rHKHj67sHAJQixxg==/109951174353076602.jpg",
+      "pic_url": "https://p3.music.126.net/JWBAVUP0xOnN-HjK0xIlfA==/109951174355982343.jpg",
       "sub_type": "录音室版",
       "type": "专辑",
       "status": 1,
@@ -3800,7 +3968,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "华纳音乐",
-      "pic_url": "https://p4.music.126.net/wPI4grN51jXmcEbl_wy3ag==/109951174340659213.jpg",
+      "pic_url": "https://p3.music.126.net/wPI4grN51jXmcEbl_wy3ag==/109951174340659213.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
@@ -4032,7 +4200,7 @@
       "publish_date": "2026-11-27",
       "size": 1,
       "company": "FNC ENTERTAINMENT JAPAN",
-      "pic_url": "https://p3.music.126.net/bcjhyHZP1eUNf7KeQyxQPg==/109951174312024627.jpg",
+      "pic_url": "https://p4.music.126.net/bcjhyHZP1eUNf7KeQyxQPg==/109951174312024627.jpg",
       "sub_type": "录音室版",
       "type": "Single",
       "status": 1,
