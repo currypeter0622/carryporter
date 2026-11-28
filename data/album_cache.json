@@ -1015393,5 +1015393,125 @@
         "name": "アンバランス [Instrumental]"
       }
     ]
+  },
+  "412500794": {
+    "album_id": "412500794",
+    "album_name": "Fitness Beats 024",
+    "date_str": "2025-11-17",
+    "publish_ts": 1763308800000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 13,
+    "pic_url": "https://p3.music.126.net/TevlAwSAcP1kPY9ljueM1w==/109951174361270018.jpg",
+    "company": "HOT-Q",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795825320.4431064
+  },
+  "412512408": {
+    "album_id": "412512408",
+    "album_name": "Jacky",
+    "date_str": "2026-11-28",
+    "publish_ts": 1795795200000,
+    "artist_ids": [
+      "12089030"
+    ],
+    "artist_names": [
+      "Nasko"
+    ],
+    "size": 1,
+    "pic_url": "https://p3.music.126.net/eNoDuBv7smIsdbYHOxWNOQ==/109951174361494681.jpg",
+    "company": "TNB",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795825323.750973,
+    "songs": [
+      {
+        "id": "3466630115",
+        "name": "Jacky"
+      }
+    ]
+  },
+  "412500124": {
+    "album_id": "412500124",
+    "album_name": "Peaceful Morning 051",
+    "date_str": "2026-07-27",
+    "publish_ts": 1785081600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 24,
+    "pic_url": "https://p3.music.126.net/3tkE1eJ6mVCxNobgE4cgUg==/109951174361261919.jpg",
+    "company": "HOT-Q",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795825329.2500792
+  },
+  "412500936": {
+    "album_id": "412500936",
+    "album_name": "Nothing But... Drum & Bass Revolution, Vol. 01",
+    "date_str": "2025-01-13",
+    "publish_ts": 1736697600000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 22,
+    "pic_url": "https://p3.music.126.net/QhTI8D3zP5Dph5N99Rsi4w==/109951174361266836.jpg",
+    "company": "Nothing But",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795825365.4617372
+  },
+  "412108640": {
+    "album_id": "412108640",
+    "album_name": "Sawdust",
+    "date_str": "2026-11-27",
+    "publish_ts": 1795708800000,
+    "artist_ids": [
+      "78629"
+    ],
+    "artist_names": [
+      "Tanger"
+    ],
+    "size": 1,
+    "pic_url": "https://p4.music.126.net/EBVftkZvSn8bZ_3fcvDw0g==/109951174349305936.jpg",
+    "company": "Tanger",
+    "sub_type": "录音室版",
+    "type": "Single",
+    "cached_at": 1795825367.0466278,
+    "songs": [
+      {
+        "id": "3465855004",
+        "name": "Sawdust"
+      }
+    ]
+  },
+  "412500930": {
+    "album_id": "412500930",
+    "album_name": "Hard Dance Overload, Vol. 10",
+    "date_str": "2026-01-19",
+    "publish_ts": 1768752000000,
+    "artist_ids": [
+      "49260160"
+    ],
+    "artist_names": [
+      "Various Artists"
+    ],
+    "size": 24,
+    "pic_url": "https://p3.music.126.net/9qdCXH0yOWUNk10IqUjgew==/109951174361276023.jpg",
+    "company": "LW Recordings",
+    "sub_type": "录音室版",
+    "type": "专辑",
+    "cached_at": 1795825391.606639
   }
 }
